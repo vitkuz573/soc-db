@@ -13,13 +13,15 @@
     "aliases": [
       "Exynos 2100 (S5E9840) (EXYNOS 2100)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.91 GHz Cortex-X1 + 2.81 GHz Cortex-A78 + 2.2 GHz Cortex-A55 )",
     "modem": "Mali -G78 MP14",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_2200_s5e9925_exynos2200",
@@ -35,13 +37,15 @@
     "aliases": [
       "Exynos 2200 (S5E9925) (EXYNOS 2200)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.95 GHz Cortex-X2 + 2.70 GHz Cortex-A710 + 2.10 GHz Cortex-A51",
     "modem": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP )",
     "process_nm": 4,
-    "process_name": "4nm"
+    "process_name": "4nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_24002400e_s5e9945_exynos2400",
@@ -57,11 +61,15 @@
     "aliases": [
       "Exynos 2400/2400e (S5E9945) (EXYNOS 2400)"
     ],
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 2 + 3 + 4 cores (3.1/3.2 GHz Cortex-X4 + 2.9 GHz Cortex-A720 + 2.6 GHz Corte",
-    "modem": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP)"
+    "modem": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP)",
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_2500_s5e9955_exynos2500",
@@ -77,11 +85,15 @@
     "aliases": [
       "Exynos 2500 (S5E9955) (EXYNOS 2500)"
     ],
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP)",
-    "modem": "999"
+    "modem": "999",
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_2600_s5e9965_exynos2600",
@@ -97,11 +109,15 @@
     "aliases": [
       "Exynos 2600 (S5E9965) (EXYNOS 2600)"
     ],
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 6 cores (3.8 GHz C1-Ultra + 3.25 GHz C1-Pro + 2.75 GHz C1-Pro)",
-    "modem": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP)"
+    "modem": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP)",
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_3_quad_3470_exynos3quad3470",
@@ -113,7 +129,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3470",
@@ -121,7 +137,11 @@
     "modem": "450",
     "aliases": [
       "Exynos 3 Quad 3470 (Exynos 3 Quad 3470 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_3_quad_3475_exynos3quad3475",
@@ -132,12 +152,16 @@
     "max_freq": "1.3 GHz",
     "gpu": "4 cores 1.3 GHz Cortex-A7",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4369,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3475",
     "npu": "600",
-    "modem": "12"
+    "modem": "12",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_3_single_3110_exynos3single3110",
@@ -148,10 +172,14 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3107,
+    "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 3 Single 3110"
+    "model": "Exynos 3 Single 3110",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_3_single_3110_previously_hummingbird_exynos3single3110previouslyhummingbirds5pc110",
@@ -163,7 +191,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "PowerVR SGX540",
     "year": 2010,
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
@@ -171,7 +199,11 @@
     "modem": "PowerVR SGX540",
     "aliases": [
       "Exynos 3 Single 3110 (previously Hummingbird S5PC110) (Exynos 3 Single 3110 (previously Hummingbird S5PC110))"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_4_dual_4210_exynos4dual4210",
@@ -183,7 +215,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4210",
@@ -191,7 +223,11 @@
     "modem": "266",
     "aliases": [
       "Exynos 4 Dual 4210 (Exynos 4 Dual 4210 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_4_dual_4212_exynos4dual4212",
@@ -202,7 +238,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4212",
@@ -210,7 +246,11 @@
     "modem": "14.4",
     "aliases": [
       "Exynos 4 Dual 4212 (Exynos 4 Dual 4212 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_4_quad_4412_exynos4quad4412",
@@ -220,7 +260,7 @@
     "cores": 8,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4412",
@@ -228,7 +268,11 @@
     "npu": "14.4–19.2",
     "aliases": [
       "Exynos 4 Quad 4412 (Exynos 4 Quad 4412 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_4_quad_4415_exynos4quad4415",
@@ -239,7 +283,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4415",
@@ -247,7 +291,11 @@
     "modem": "19.2",
     "aliases": [
       "Exynos 4 Quad 4415 (Exynos 4 Quad 4415 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_dual_5250_exynos5dual5250",
@@ -259,7 +307,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T604 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Dual 5250",
@@ -267,7 +315,11 @@
     "modem": "533",
     "aliases": [
       "Exynos 5 Dual 5250 (Exynos 5 Dual 5250 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_hexa_5260_exynos5hexa5260",
@@ -279,7 +331,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T624 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Hexa 5260",
@@ -287,7 +339,11 @@
     "modem": "600",
     "aliases": [
       "Exynos 5 Hexa 5260 (Exynos 5 Hexa 5260 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_octa_5410_exynos5octa5410",
@@ -298,7 +354,7 @@
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
     "gpu": "4+4 cores (1.6 GHz Cortex-A15 + 1.2 GHz Cortex-A7 )",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5410",
@@ -306,7 +362,11 @@
     "modem": "49",
     "aliases": [
       "Exynos 5 Octa 5410 (Exynos 5 Octa 5410 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_octa_5420_exynos5octa5420",
@@ -317,7 +377,7 @@
     "max_freq": "1.9 GHz",
     "gpu": "4+4 cores (1.9 GHz Cortex-A15 + 1.3 GHz Cortex-A7 )",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5420",
@@ -325,7 +385,11 @@
     "modem": "108.7",
     "aliases": [
       "Exynos 5 Octa 5420 (Exynos 5 Octa 5420 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_octa_5422_exynos5octa5422",
@@ -335,7 +399,7 @@
     "cores": 8,
     "max_freq": "2.1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5422",
@@ -343,7 +407,11 @@
     "modem": "Q2 2014",
     "aliases": [
       "Exynos 5 Octa 5422 (Exynos 5 Octa 5422 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_octa_5430_exynos5octa5430",
@@ -354,7 +422,7 @@
     "cores": 8,
     "max_freq": "1.8 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5430",
@@ -363,7 +431,11 @@
     "modem": "122.4",
     "aliases": [
       "Exynos 5 Octa 5430 (Exynos 5 Octa 5430 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_5_octa_5800_exynos5octa5800",
@@ -374,13 +446,17 @@
     "cores": 8,
     "max_freq": "2.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5800",
     "aliases": [
       "Exynos 5 Octa 5800 (Exynos 5 Octa 5800 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_octa_5433_exynos7octa5433",
@@ -392,7 +468,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
     "gpu": "113.42",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 5433",
@@ -400,7 +476,11 @@
     "modem": "Mali-T760 MP6",
     "aliases": [
       "Exynos 7 Octa 5433 (Exynos 7 Octa 5433 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_octa_7420_exynos7octa7420",
@@ -412,7 +492,7 @@
     "max_freq": "2.1 GHz",
     "gpu": "78.23",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7420",
@@ -420,7 +500,11 @@
     "modem": "772",
     "aliases": [
       "Exynos 7 Octa 7420 (Exynos 7 Octa 7420 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_octa_7580_exynos7octa7580",
@@ -430,7 +514,7 @@
     "max_freq": "1.60 GHz",
     "year": 2010,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7580",
@@ -439,7 +523,11 @@
     "gpu": "LTE Cat.6 2CA 300 Mbit/s (DL) / 50 Mbit/s (UL)",
     "aliases": [
       "Exynos 7 Octa 7580 (Exynos 7 Octa 7580 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_octa_7870_exynos7octa7870",
@@ -450,7 +538,7 @@
     "year": 2010,
     "gpu": "Mali-T830 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7870",
@@ -459,7 +547,11 @@
     "wifi": "Wi-Fi",
     "aliases": [
       "Exynos 7 Octa 7870 (Exynos 7 Octa 7870 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_quad_7570_exynos7quad7570",
@@ -471,7 +563,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7570",
@@ -479,7 +571,11 @@
     "modem": "830",
     "aliases": [
       "Exynos 7 Quad 7570 (Exynos 7 Quad 7570 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7_quad_7578_exynos7quad7578",
@@ -491,12 +587,16 @@
     "max_freq": "1.5 GHz",
     "gpu": "Mali-T720 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7578",
     "npu": "Mali-T720 MP2",
-    "modem": "668"
+    "modem": "668",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7872_exynos7872",
@@ -511,13 +611,15 @@
     "aliases": [
       "Exynos 7872 (EXYNOS 7872)"
     ],
-    "completeness": 0.4175,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1200",
     "modem": "28.8",
     "process_nm": 14,
-    "process_name": "14nm"
+    "process_name": "14nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7880_exynos7880",
@@ -532,11 +634,15 @@
     "aliases": [
       "Exynos 7880 (EXYNOS 7880)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "950",
-    "modem": "91.2"
+    "modem": "91.2",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7884_exynos7884",
@@ -550,14 +656,18 @@
     "aliases": [
       "Exynos 7884 (EXYNOS 7884)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1350,
     "clock_max": 1600,
     "gpu": "676 845",
     "npu": "Shannon 327 LTE Cat.12 3CA 600 Mbit/s (DL) / Cat.13 2CA 150 Mbit/s (UL)",
-    "modem": "Bluetooth 5.0 , Wi-Fi 802.11a/b/g/n/ac"
+    "modem": "Bluetooth 5.0 , Wi-Fi 802.11a/b/g/n/ac",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7884a_exynos7884a",
@@ -568,7 +678,7 @@
     "max_freq": "1.35 GHz",
     "gpu": "2 + 6 cores (1.35 GHz Cortex-A73 + 1.35 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7884A",
@@ -576,7 +686,11 @@
     "modem": "21.6",
     "aliases": [
       "Exynos 7884A (Exynos 7884A )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7885_exynos7885",
@@ -590,7 +704,7 @@
     "aliases": [
       "Exynos 7885 (EXYNOS 7885)"
     ],
-    "completeness": 0.466,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -599,7 +713,9 @@
     "npu": "Q1 2018",
     "modem": "List Samsung Galaxy A7 (2018) Samsung Galaxy A8 (2018) Samsung Galaxy A8+ (2018)",
     "process_nm": 14,
-    "process_name": "14nm"
+    "process_name": "14nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_7904_exynos7904",
@@ -613,14 +729,18 @@
     "aliases": [
       "Exynos 7904 (EXYNOS 7904)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
     "clock_max": 1800,
     "gpu": "770",
     "npu": "Q1 2019",
-    "modem": "List Samsung Galaxy A30 Samsung Galaxy A30s Samsung Galaxy A40 Samsung Galaxy M2"
+    "modem": "List Samsung Galaxy A30 Samsung Galaxy A30s Samsung Galaxy A40 Samsung Galaxy M2",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_8_octa_8890_exynos8octa8890",
@@ -631,7 +751,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "4 + 4 cores (2.3 GHz, up to 2.6 GHz in dual-core load, Exynos M1 \"Mongoose\" + 1.6 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 8 Octa 8890",
@@ -639,7 +759,11 @@
     "modem": "327.6",
     "aliases": [
       "Exynos 8 Octa 8890 (Exynos 8 Octa 8890 )"
-    ]
+    ],
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_8895_exynos8895",
@@ -655,13 +779,15 @@
     "aliases": [
       "Exynos 8895 (EXYNOS 8895)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G71 MP20",
     "modem": "546",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9609_exynos9609",
@@ -676,11 +802,13 @@
     "aliases": [
       "Exynos 9609 (EXYNOS 9609)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9610_exynos9610",
@@ -694,7 +822,7 @@
     "aliases": [
       "Exynos 9610 (EXYNOS 9610)"
     ],
-    "completeness": 0.466,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -703,7 +831,9 @@
     "npu": "Q4 2018",
     "modem": "Samsung Galaxy A50",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9611_exynos9611",
@@ -716,13 +846,15 @@
     "aliases": [
       "Exynos 9611 (EXYNOS 9611)"
     ],
-    "completeness": 0.3883,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "91.8",
     "npu": "List Samsung Galaxy A50s Samsung Galaxy A51 Samsung Galaxy F41 Samsung Galaxy M2",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9810_s5e9810_exynos9810",
@@ -738,13 +870,15 @@
     "aliases": [
       "Exynos 9810 (S5E9810) (EXYNOS 9810)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "4 + 4 cores (2.9 GHz Exynos M3 \"Meerkat\" + 1.9 GHz Cortex-A55 )",
     "modem": "Mali-G72 MP18",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9820_s5e9820_exynos9820",
@@ -760,13 +894,15 @@
     "aliases": [
       "Exynos 9820 (S5E9820) (EXYNOS 9820)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G76 MP12",
     "modem": "702",
     "process_nm": 8,
-    "process_name": "8nm"
+    "process_name": "8nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9825_s5e9825_exynos9825",
@@ -781,14 +917,16 @@
     "aliases": [
       "Exynos 9825 (S5E9825) (EXYNOS 9825)"
     ],
-    "completeness": 0.4272,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "754",
     "modem": "434.3",
     "process_nm": 7,
     "process_name": "7nm",
-    "gpu": "Mali-G76"
+    "gpu": "Mali-G76",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "exynos_9110_sc59110xsc_exynos9110",
@@ -802,12 +940,18 @@
     "aliases": [
       "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "LPDDR4 LPDDR4X",
     "modem": "Unknown",
-    "year": 2018
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "exynos_990_exynos990",
@@ -822,11 +966,15 @@
     "process": "7nm",
     "year": 2019,
     "max_freq": "2.73 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "exynos_1080_s5e9815_exynos1080",

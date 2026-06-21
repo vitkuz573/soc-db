@@ -172,7 +172,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tegra_2_cortexa9",
+    "id": "tegra_3_cortexa9",
     "name": "Tegra 3",
     "vendor": "Nvidia",
     "cores": 8,

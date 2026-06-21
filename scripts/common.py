@@ -461,6 +461,40 @@ def enrich_one(chip: dict) -> dict:
             if key.upper() in model_upper:
                 chip["gpu"] = gpu_name
                 break
+    # Infer process_nm from year if not set via knowledge map
+    year = chip.get("year")
+    if not chip.get("process_nm") and year:
+        proc_by_year = [
+            (2024, 3), (2023, 4), (2021, 5), (2019, 7),
+            (2017, 10), (2015, 14), (2013, 20), (2011, 28),
+            (2009, 40), (0, 65),
+        ]
+        for y, nm in proc_by_year:
+            if year >= y:
+                chip["process_nm"] = nm
+                chip["process_name"] = f"{nm}nm"
+                break
+    # Infer memory_type from year if missing
+    if not chip.get("memory_type") and year:
+        mem_by_year = [
+            (2023, "LPDDR5X"), (2021, "LPDDR5"), (2019, "LPDDR4X"),
+            (2016, "LPDDR4"), (2014, "LPDDR3"), (2012, "LPDDR2"),
+            (0, "LPDDR"),
+        ]
+        for y, mt in mem_by_year:
+            if year >= y:
+                chip["memory_type"] = mt
+                break
+    # Infer storage_type from year if missing
+    if not chip.get("storage_type") and year:
+        st_by_year = [
+            (2021, "UFS 3.1"), (2019, "UFS 3.0"), (2017, "UFS 2.1"),
+            (2015, "UFS 2.0"), (0, "eMMC 5.0"),
+        ]
+        for y, st in st_by_year:
+            if year >= y:
+                chip["storage_type"] = st
+                break
     if not chip.get("aliases"):
         aliases = set()
         name = chip.get("name", "")

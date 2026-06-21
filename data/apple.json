@@ -11,13 +11,17 @@
     "aliases": [
       "Apple A13 Bionic (T8301)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
     "process_name": "7nm",
     "cluster_config": "2+4",
-    "gpu": "Apple A13 GPU"
+    "gpu": "Apple A13 GPU",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "apple_a12z_bionic_t8006",
@@ -31,12 +35,16 @@
     "aliases": [
       "Apple A12Z Bionic (T8006)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
     "process_name": "7nm",
-    "gpu": "Apple A12Z GPU"
+    "gpu": "Apple A12Z GPU",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "apple_a14_bionic_t8103",
@@ -55,9 +63,15 @@
     "aliases": [
       "Apple A14 Bionic (T8103)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "apple_m1_t8110",
@@ -76,9 +90,15 @@
     "aliases": [
       "Apple M1 (T8110)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "apple_a15_bionic_t8110",
@@ -97,9 +117,15 @@
     "aliases": [
       "Apple A15 Bionic (T8110)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_a15_bionic_t8310",
@@ -113,13 +139,17 @@
     "aliases": [
       "Apple A15 Bionic (T8310)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
     "process_name": "5nm",
     "cluster_config": "2+4",
-    "gpu": "Apple A15 GPU"
+    "gpu": "Apple A15 GPU",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_m1_max_t8116",
@@ -138,9 +168,15 @@
     "aliases": [
       "Apple M1 Max (T8116)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_m1_pro_t8112",
@@ -159,9 +195,15 @@
     "aliases": [
       "Apple M1 Pro (T8112)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_a16_bionic_t8120",
@@ -180,9 +222,15 @@
     "aliases": [
       "Apple A16 Bionic (T8120)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_a16_bionic_apl1110",
@@ -196,13 +244,17 @@
     "aliases": [
       "Apple A16 Bionic (APL1110)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 4,
     "process_name": "4nm",
     "cluster_config": "2+4",
-    "gpu": "Apple A16 GPU"
+    "gpu": "Apple A16 GPU",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_m2_t6000",
@@ -221,9 +273,15 @@
     "aliases": [
       "Apple M2 (T6000)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "apple_a17_pro_t8130",
@@ -242,9 +300,15 @@
     "aliases": [
       "Apple A17 Pro (T8130)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "apple_a17_pro_apl1201",
@@ -258,13 +322,17 @@
     "aliases": [
       "Apple A17 Pro (APL1201)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 3,
     "process_name": "3nm",
     "cluster_config": "2+4",
-    "gpu": "Apple A17 Pro GPU"
+    "gpu": "Apple A17 Pro GPU",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "apple_m2_max_t6021",
@@ -283,9 +351,15 @@
     "aliases": [
       "Apple M2 Max (T6021)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "apple_m2_pro_t6020",
@@ -304,9 +378,15 @@
     "aliases": [
       "Apple M2 Pro (T6020)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "apple_a18_pro_t9500",
@@ -325,9 +405,15 @@
     "aliases": [
       "Apple A18 Pro (T9500)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "apple_m4_t9515",
@@ -346,8 +432,14 @@
     "aliases": [
       "Apple M4 (T9515)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   }
 ]

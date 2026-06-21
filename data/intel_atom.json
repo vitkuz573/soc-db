@@ -6,11 +6,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom 230",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_330_atom330",
@@ -19,11 +23,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom 330",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n270_atomn270",
@@ -32,11 +40,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N270",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z500_atomz500",
@@ -45,11 +57,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z500",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z510_atomz510",
@@ -58,11 +74,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z520_atomz520",
@@ -71,11 +91,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z520",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z530_atomz530",
@@ -84,11 +108,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z530",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z540_atomz540",
@@ -97,11 +125,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z540",
-    "year": 2008
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_ce4110_atomce4110",
@@ -110,13 +142,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4110",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d510_atomd510",
@@ -125,13 +161,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D510",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n280_atomn280",
@@ -140,11 +180,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N280",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n450_atomn450",
@@ -153,13 +197,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N450",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z510p_atomz510p",
@@ -168,11 +216,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510P",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z510pt_atomz510pt",
@@ -181,11 +233,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510PT",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z515_atomz515",
@@ -194,11 +250,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z515",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z520pt_atomz520pt",
@@ -207,11 +267,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z520PT",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z530p_atomz530p",
@@ -220,11 +284,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z530P",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z550_atomz550",
@@ -233,11 +301,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z550",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d410_atomd410",
@@ -246,13 +318,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D410",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d425_atomd425",
@@ -261,7 +337,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D425",
@@ -269,7 +345,10 @@
     "gpu_clock": 400,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d525_atomd525",
@@ -278,7 +357,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D525",
@@ -286,7 +365,10 @@
     "gpu_clock": 400,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e620_atome620",
@@ -295,13 +377,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E620",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e620t_atome620t",
@@ -310,13 +396,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E620T",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e625c_atome625c",
@@ -325,13 +415,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E625C",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e625ct_atome625ct",
@@ -340,13 +434,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E625CT",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e640_atome640",
@@ -355,13 +453,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E640",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e640t_atome640t",
@@ -370,13 +472,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E640T",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e645c_atome645c",
@@ -385,13 +491,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E645C",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e645ct_atome645ct",
@@ -400,13 +510,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E645CT",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e660_atome660",
@@ -415,13 +529,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E660",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e660t_atome660t",
@@ -430,13 +548,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E660T",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e665c_atome665c",
@@ -445,13 +567,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E665C",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e665ct_atome665ct",
@@ -460,13 +586,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E665CT",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e680_atome680",
@@ -475,13 +605,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E680",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e680t_atome680t",
@@ -490,13 +624,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E680T",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n455_atomn455",
@@ -505,7 +643,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N455",
@@ -513,7 +651,10 @@
     "gpu_clock": 200,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n470_atomn470",
@@ -522,13 +663,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N470",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n475_atomn475",
@@ -537,7 +682,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N475",
@@ -545,7 +690,10 @@
     "gpu_clock": 200,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n550_atomn550",
@@ -554,7 +702,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N550",
@@ -562,7 +710,10 @@
     "gpu_clock": 200,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z560_atomz560",
@@ -571,11 +722,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.301,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z560",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z600_atomz600",
@@ -584,13 +739,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z600",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z605_atomz605",
@@ -599,12 +758,16 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z605",
     "gpu": "— N/a",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z610_atomz610",
@@ -613,12 +776,16 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z610",
     "gpu": "— N/a",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z612_atomz612",
@@ -627,12 +794,16 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "900 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z612",
     "gpu": "— N/a",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z615_atomz615",
@@ -641,13 +812,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z615",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z620_atomz620",
@@ -656,12 +831,16 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "900 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z620",
     "gpu": "— N/a",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z625_atomz625",
@@ -670,13 +849,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z625",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d2500_atomd2500",
@@ -685,7 +868,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2500",
@@ -693,7 +876,10 @@
     "gpu_clock": 400,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d2700_atomd2700",
@@ -702,7 +888,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2700",
@@ -710,7 +896,10 @@
     "gpu_clock": 640,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n2600_atomn2600",
@@ -719,7 +908,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N2600",
@@ -727,7 +916,10 @@
     "gpu_clock": 400,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n2800_atomn2800",
@@ -736,7 +928,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N2800",
@@ -744,7 +936,10 @@
     "gpu_clock": 640,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n435_atomn435",
@@ -753,7 +948,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N435",
@@ -761,7 +956,10 @@
     "gpu_clock": 200,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_n570_atomn570",
@@ -770,7 +968,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N570",
@@ -778,7 +976,10 @@
     "gpu_clock": 200,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z650_atomz650",
@@ -787,13 +988,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z650",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z670_atomz670",
@@ -802,13 +1007,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z670",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d2550_atomd2550",
@@ -817,7 +1026,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2550",
@@ -825,7 +1034,10 @@
     "gpu_clock": 640,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_d2560_atomd2560",
@@ -834,7 +1046,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2560",
@@ -842,7 +1054,10 @@
     "gpu_clock": 640,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1220_atoms1220",
@@ -851,14 +1066,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1220",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1240_atoms1240",
@@ -867,14 +1085,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1240",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1260_atoms1260",
@@ -883,14 +1104,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1260",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2460_atomz2460",
@@ -899,13 +1123,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2460",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2480_atomz2480",
@@ -914,13 +1142,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2480",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2610_atomz2610",
@@ -929,13 +1161,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2610",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2760_atomz2760",
@@ -944,13 +1180,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.8 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2760",
     "gpu": "533 MHz",
     "gpu_clock": 533,
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2338_atomc2338",
@@ -959,14 +1199,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2338",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2350_atomc2350",
@@ -975,14 +1218,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2350",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2358_atomc2358",
@@ -991,14 +1237,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2358",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2518_atomc2518",
@@ -1007,14 +1256,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.70 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2518",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2530_atomc2530",
@@ -1023,14 +1275,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2530",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2538_atomc2538",
@@ -1039,14 +1294,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.40 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2538",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2550_atomc2550",
@@ -1055,14 +1313,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2550",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2558_atomc2558",
@@ -1071,14 +1332,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2558",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2718_atomc2718",
@@ -1087,14 +1351,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2718",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2730_atomc2730",
@@ -1103,14 +1370,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2730",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2738_atomc2738",
@@ -1119,14 +1389,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2738",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2750_atomc2750",
@@ -1135,14 +1408,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2750",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2758_atomc2758",
@@ -1151,14 +1427,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2758",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3815_atome3815",
@@ -1167,7 +1446,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3815",
@@ -1175,7 +1454,10 @@
     "gpu_clock": 400,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3825_atome3825",
@@ -1184,7 +1466,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3825",
@@ -1192,7 +1474,10 @@
     "gpu_clock": 533,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3826_atome3826",
@@ -1201,7 +1486,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3826",
@@ -1209,7 +1494,10 @@
     "gpu_clock": 667,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3827_atome3827",
@@ -1218,7 +1506,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.75 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3827",
@@ -1226,7 +1514,10 @@
     "gpu_clock": 792,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3845_atome3845",
@@ -1235,7 +1526,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.91 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3845",
@@ -1243,7 +1534,10 @@
     "gpu_clock": 792,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1269_atoms1269",
@@ -1252,14 +1546,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1269",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1279_atoms1279",
@@ -1268,14 +1565,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1279",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_s1289_atoms1289",
@@ -1284,14 +1584,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1289",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2420_atomz2420",
@@ -1300,13 +1603,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2420",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2520_atomz2520",
@@ -1315,13 +1622,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2520",
     "gpu": "300 MHz",
     "gpu_clock": 300,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2560_atomz2560",
@@ -1330,13 +1641,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2560",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z2580_atomz2580",
@@ -1345,13 +1660,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2580",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3680_atomz3680",
@@ -1360,7 +1679,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3680",
@@ -1368,7 +1687,10 @@
     "gpu_clock": 667,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3680d_atomz3680d",
@@ -1377,7 +1699,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3680D",
@@ -1385,7 +1707,10 @@
     "gpu_clock": 688,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3740_atomz3740",
@@ -1394,7 +1719,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3740",
@@ -1402,7 +1727,10 @@
     "gpu_clock": 667,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3740d_atomz3740d",
@@ -1411,7 +1739,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3740D",
@@ -1419,7 +1747,10 @@
     "gpu_clock": 688,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3770_atomz3770",
@@ -1428,7 +1759,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3770",
@@ -1436,7 +1767,10 @@
     "gpu_clock": 667,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3770d_atomz3770d",
@@ -1445,7 +1779,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.50 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3770D",
@@ -1453,7 +1787,10 @@
     "gpu_clock": 688,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2308_atomc2308",
@@ -1462,14 +1799,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.25 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2308",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_c2508_atomc2508",
@@ -1478,14 +1818,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.25 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2508",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_e3805_atome3805",
@@ -1494,14 +1837,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3805",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3460_atomz3460",
@@ -1510,7 +1856,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3460",
@@ -1518,7 +1864,10 @@
     "gpu_clock": 457,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3480_atomz3480",
@@ -1527,7 +1876,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3480",
@@ -1535,7 +1884,10 @@
     "gpu_clock": 533,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3530_atomz3530",
@@ -1544,7 +1896,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3530",
@@ -1552,7 +1904,10 @@
     "gpu_clock": 457,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3560_atomz3560",
@@ -1561,7 +1916,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3560",
@@ -1569,7 +1924,10 @@
     "gpu_clock": 533,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3570_atomz3570",
@@ -1578,7 +1936,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3570",
@@ -1586,7 +1944,10 @@
     "gpu_clock": 640,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3580_atomz3580",
@@ -1595,7 +1956,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3580",
@@ -1603,7 +1964,10 @@
     "gpu_clock": 533,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3735d_atomz3735d",
@@ -1612,7 +1976,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735D",
@@ -1621,7 +1985,10 @@
     "memory_type": "DDR3",
     "memory_bus": 64,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3735e_atomz3735e",
@@ -1630,7 +1997,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735E",
@@ -1639,7 +2006,10 @@
     "memory_type": "DDR3",
     "memory_bus": 32,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3735f_atomz3735f",
@@ -1648,7 +2018,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735F",
@@ -1657,7 +2027,10 @@
     "memory_type": "DDR3",
     "memory_bus": 64,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3735g_atomz3735g",
@@ -1666,7 +2039,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735G",
@@ -1675,7 +2048,10 @@
     "memory_type": "DDR3",
     "memory_bus": 32,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3736f_atomz3736f",
@@ -1684,7 +2060,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3736F",
@@ -1693,7 +2069,10 @@
     "memory_type": "DDR3",
     "memory_bus": 64,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3736g_atomz3736g",
@@ -1702,7 +2081,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3736G",
@@ -1711,7 +2090,10 @@
     "memory_type": "DDR3",
     "memory_bus": 32,
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3745_atomz3745",
@@ -1720,7 +2102,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3745",
@@ -1728,7 +2110,10 @@
     "gpu_clock": 778,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3745d_atomz3745d",
@@ -1737,7 +2122,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3745D",
@@ -1745,7 +2130,10 @@
     "gpu_clock": 792,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3775_atomz3775",
@@ -1754,7 +2142,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3775",
@@ -1762,7 +2150,10 @@
     "gpu_clock": 778,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3775d_atomz3775d",
@@ -1771,7 +2162,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.49 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3775D",
@@ -1779,7 +2170,10 @@
     "gpu_clock": 792,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3785_atomz3785",
@@ -1788,7 +2182,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.49 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3785",
@@ -1796,7 +2190,10 @@
     "gpu_clock": 833,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3795_atomz3795",
@@ -1805,7 +2202,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.59 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3795",
@@ -1813,7 +2210,10 @@
     "gpu_clock": 778,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "atom_z3590_atomz3590",
@@ -1822,7 +2222,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.50 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3590",
@@ -1830,7 +2230,10 @@
     "gpu_clock": 640,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3130_atomx3c3130",
@@ -1840,13 +2243,18 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
     "gpu": "480 MHz",
-    "completeness": 0.3592,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3130",
     "gpu_clock": 480,
     "wifi": "Wi-Fi",
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "atom_x3_c3200rk_atomx3c3200rk",
@@ -1856,7 +2264,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3200RK",
@@ -1864,7 +2272,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3230rk_atomx3c3230rk",
@@ -1874,7 +2285,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3230RK",
@@ -1882,7 +2293,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3405_atomx3c3405",
@@ -1892,13 +2306,18 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "456 MHz",
-    "completeness": 0.3592,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3405",
     "gpu_clock": 456,
     "wifi": "Wi-Fi",
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "atom_x3_c3445_atomx3c3445",
@@ -1908,13 +2327,18 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "456 MHz",
-    "completeness": 0.3592,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3445",
     "gpu_clock": 456,
     "wifi": "Wi-Fi",
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "atom_x5_z8300_atomx5z8300",
@@ -1923,7 +2347,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8300",
@@ -1931,7 +2355,10 @@
     "gpu_clock": 500,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_z8500_atomx5z8500",
@@ -1940,7 +2367,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8500",
@@ -1948,7 +2375,10 @@
     "gpu_clock": 600,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x7_z8700_atomx7z8700",
@@ -1957,7 +2387,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.60 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-Z8700",
@@ -1965,7 +2395,10 @@
     "gpu_clock": 600,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3205rk_atomx3c3205rk",
@@ -1975,7 +2408,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3205RK",
@@ -1983,7 +2416,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3235rk_atomx3c3235rk",
@@ -1993,7 +2429,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3235RK",
@@ -2001,7 +2437,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3265rk_atomx3c3265rk",
@@ -2011,7 +2450,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3265RK",
@@ -2019,7 +2458,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x3_c3295rk_atomx3c3295rk",
@@ -2029,7 +2471,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3295RK",
@@ -2037,7 +2479,10 @@
     "memory_type": "DDR3",
     "wifi": "Wi-Fi",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_e3930_atomx5e3930",
@@ -2046,7 +2491,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E3930",
@@ -2055,7 +2500,10 @@
     "memory_type": "LPDDR4",
     "memory_clock": 1600,
     "memory_bus": 64,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_e3940_atomx5e3940",
@@ -2064,7 +2512,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E3940",
@@ -2073,7 +2521,10 @@
     "memory_type": "LPDDR4",
     "memory_clock": 1600,
     "memory_bus": 64,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_e8000_atomx5e8000",
@@ -2082,7 +2533,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.04 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E8000",
@@ -2090,7 +2541,10 @@
     "gpu_clock": 320,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_z8330_atomx5z8330",
@@ -2099,7 +2553,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8330",
@@ -2107,7 +2561,10 @@
     "gpu_clock": 500,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_z8350_atomx5z8350",
@@ -2116,7 +2573,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8350",
@@ -2124,7 +2581,10 @@
     "gpu_clock": 500,
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x5_z8550_atomx5z8550",
@@ -2133,7 +2593,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8550",
@@ -2141,7 +2601,10 @@
     "gpu_clock": 600,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x7_e3950_atomx7e3950",
@@ -2150,7 +2613,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-E3950",
@@ -2159,7 +2622,10 @@
     "memory_type": "LPDDR4",
     "memory_clock": 1600,
     "memory_bus": 64,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_x7_z8750_atomx7z8750",
@@ -2168,7 +2634,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.60 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-Z8750",
@@ -2176,7 +2642,10 @@
     "gpu_clock": 600,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
-    "year": 2016
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "atom_c2316_atomc2316",
@@ -2185,14 +2654,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2316",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c2516_atomc2516",
@@ -2201,14 +2673,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2516",
     "gpu": "— N/a",
     "memory_type": "DDR3",
     "memory_clock": 1333,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3308_atomc3308",
@@ -2217,14 +2692,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3308",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3338_atomc3338",
@@ -2233,14 +2711,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3338",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3508_atomc3508",
@@ -2249,14 +2730,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3508",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3538_atomc3538",
@@ -2265,14 +2749,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3538",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3558_atomc3558",
@@ -2281,14 +2768,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3558",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3708_atomc3708",
@@ -2297,14 +2787,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.7 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3708",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3750_atomc3750",
@@ -2313,14 +2806,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3750",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3758_atomc3758",
@@ -2329,14 +2825,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3758",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3808_atomc3808",
@@ -2345,14 +2844,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3808",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3830_atomc3830",
@@ -2361,14 +2863,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.3 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3830",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3850_atomc3850",
@@ -2377,14 +2882,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3850",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3858_atomc3858",
@@ -2393,14 +2901,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3858",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3950_atomc3950",
@@ -2409,14 +2920,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3950",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3955_atomc3955",
@@ -2425,14 +2939,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3955",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3958_atomc3958",
@@ -2441,14 +2958,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3958",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3336_atomc3336",
@@ -2457,14 +2977,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3336",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2018
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "atom_c3338r_atomc3338r",
@@ -2473,14 +2996,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3338R",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_c3436l_atomc3436l",
@@ -2489,14 +3015,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3436L",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_c3558r_atomc3558r",
@@ -2505,14 +3034,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3558R",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_c3758r_atomc3758r",
@@ -2521,14 +3053,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3758R",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_p5921b_atomp5921b",
@@ -2537,14 +3072,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5921B",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_p5931b_atomp5931b",
@@ -2553,14 +3091,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5931B",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_p5942b_atomp5942b",
@@ -2569,14 +3110,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5942B",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_p5962b_atomp5962b",
@@ -2585,14 +3129,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5962B",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2020
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "atom_x6200fe_atomx6200fe",
@@ -2601,7 +3148,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
-    "completeness": 0.3883,
+    "completeness": 0.4369,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6200FE",
@@ -2609,7 +3156,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6211e_atomx6211e",
@@ -2618,7 +3168,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6211E",
@@ -2627,7 +3177,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6212re_atomx6212re",
@@ -2636,7 +3189,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6212RE",
@@ -2645,7 +3198,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6413e_atomx6413e",
@@ -2654,7 +3210,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6413E",
@@ -2663,7 +3219,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6414re_atomx6414re",
@@ -2672,7 +3231,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6414RE",
@@ -2681,7 +3240,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6425e_atomx6425e",
@@ -2690,7 +3252,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.8 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6425E",
@@ -2699,7 +3261,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6425re_atomx6425re",
@@ -2708,7 +3273,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6425RE",
@@ -2717,7 +3282,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_x6427fe_atomx6427fe",
@@ -2726,7 +3294,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.3981,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6427FE",
@@ -2735,7 +3303,10 @@
     "memory_type": "LPDDR4X",
     "memory_clock": 2133,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5115_atomc5115",
@@ -2744,14 +3315,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.8 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5115",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5125_atomc5125",
@@ -2760,14 +3334,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.8 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5125",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5310_atomc5310",
@@ -2776,14 +3353,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5310",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5315_atomc5315",
@@ -2792,14 +3372,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5315",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5320_atomc5320",
@@ -2808,14 +3391,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5320",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_c5325_atomc5325",
@@ -2824,14 +3410,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5325",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5322_atomp5322",
@@ -2840,14 +3429,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5322",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5332_atomp5332",
@@ -2856,14 +3448,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5332",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5342_atomp5342",
@@ -2872,14 +3467,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5342",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5352_atomp5352",
@@ -2888,14 +3486,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5352",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5362_atomp5362",
@@ -2904,14 +3505,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5362",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5721_atomp5721",
@@ -2920,14 +3524,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5721",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5731_atomp5731",
@@ -2936,14 +3543,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5731",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5742_atomp5742",
@@ -2952,14 +3562,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5742",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_p5752_atomp5752",
@@ -2968,14 +3581,17 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5752",
     "gpu": "— N/a",
     "memory_type": "DDR4",
     "memory_clock": 2400,
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "atom_ce4105_atomce4105",

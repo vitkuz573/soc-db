@@ -12,11 +12,15 @@
     "process": "7nm+",
     "year": 2019,
     "max_freq": "2.86 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "k3v2",
@@ -595,7 +599,7 @@
     "npu": "1720"
   },
   {
-    "id": "kirin_9030_kirin9030",
+    "id": "kirin_9030_pro_kirin9030",
     "name": "Kirin 9030 Pro",
     "vendor": "HiSilicon",
     "model": "KIRIN 9030",
@@ -867,7 +871,7 @@
     "process_name": "7nm"
   },
   {
-    "id": "kirin_990_4g_kirin990",
+    "id": "kirin_990_5g_kirin990",
     "name": "Kirin 990 5G",
     "vendor": "HiSilicon",
     "model": "KIRIN 990",

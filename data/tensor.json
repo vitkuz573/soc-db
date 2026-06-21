@@ -85,14 +85,18 @@
     "process": "3 nm",
     "gpu": "Mali-G715 MP7",
     "model": "GS401",
-    "completeness": 0.3883,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2024,
     "codename": "Zuma Pro",
     "aliases": [
       "Google G4 (GS401)"
-    ]
+    ],
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "google_g5_googleg5",
@@ -102,10 +106,16 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR DXT-48-1536",
     "model": "Google G5",
-    "completeness": 0.3301,
+    "completeness": 0.4369,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
-    "codename": "Laguna"
+    "codename": "Laguna",
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   }
 ]

@@ -7,12 +7,16 @@
     "architecture": "ARMv8.2-A",
     "model": "MT3339",
     "max_freq": "98 MHz",
-    "completeness": 0.3495,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 98,
     "clock_max": 98,
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "mt6515",
@@ -24,7 +28,7 @@
     "process": "40 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32)",
-    "completeness": 0.4854,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -35,7 +39,9 @@
     "memory_bus": 32,
     "process_nm": 40,
     "process_name": "40nm",
-    "year": 2012
+    "year": 2012,
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "mt6517",
@@ -47,7 +53,7 @@
     "process": "40 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32)",
-    "completeness": 0.4854,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -58,7 +64,9 @@
     "memory_bus": 32,
     "process_nm": 40,
     "process_name": "40nm",
-    "year": 2012
+    "year": 2012,
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "mt3332_mt3333",
@@ -68,12 +76,16 @@
     "architecture": "ARMv8.2-A",
     "model": "MT3332",
     "max_freq": "158 MHz",
-    "completeness": 0.3495,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 158,
     "clock_max": 158,
-    "year": 2013
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "helio_x10_mt6795m_67956795t_heliox10mt6795m67956795t",
@@ -85,7 +97,7 @@
     "process": "28 nm",
     "max_freq": "2.20 GHz",
     "gpu": "PowerVR G6200 @ 550/700 MHz (70.4/89.6 GFLOPS in FP32)",
-    "completeness": 0.5437,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X10 MT6795M/ 6795/6795T",
@@ -99,7 +111,8 @@
     "memory_bus": 32,
     "npu": "— N/a",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "helio_x20_mt6797",
@@ -112,7 +125,7 @@
     "max_freq": "780 MHz",
     "gpu": "LPDDR3 dual-channel 32-bit (64-bit) 800 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 780,
@@ -120,7 +133,10 @@
     "gpu_clock": 800,
     "npu": "Q4 2015",
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_x23_mt6797d_heliox23mt6797d",
@@ -131,7 +147,7 @@
     "year": 2014,
     "gpu": "Mali-T880 MP4 @ 800 MHz (134.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X23 MT6797D",
@@ -140,7 +156,10 @@
     "clock_max": 2300,
     "clock_mid": 1850,
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_x25_mt6797t_heliox25mt6797t",
@@ -150,7 +169,7 @@
     "max_freq": "2.50 GHz",
     "year": 2014,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X25 MT6797T",
@@ -162,7 +181,10 @@
       "Helio X25 MT6797T (Helio X25 MT6797T )"
     ],
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_x27_mt6797x_heliox27mt6797x",
@@ -173,7 +195,7 @@
     "year": 2014,
     "gpu": "Mali-T880 MP4 @ 875 MHz (147.0 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X27 MT6797X",
@@ -185,7 +207,10 @@
       "Helio X27 MT6797X (Helio X27 MT6797X )"
     ],
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_x30_mt6799",
@@ -198,13 +223,18 @@
     "max_freq": "850 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "LPDDR4X quad-channel 16-bit (64-bit) 1866 MHz (29.9 GB/s)",
-    "completeness": 0.4175,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 850,
     "clock_max": 850,
     "gpu_clock": 1866,
-    "npu": "FDD-LTE, TD-LTE, WCDMA, TD-SCDMA, CDMA, GSM Cat 10 (DL = 450 Mbit/s, 3× 20 MHz C"
+    "npu": "FDD-LTE, TD-LTE, WCDMA, TD-SCDMA, CDMA, GSM Cat 10 (DL = 450 Mbit/s, 3× 20 MHz C",
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "mt2502_mt2503",
@@ -214,13 +244,18 @@
     "architecture": "ARMv8.2-A",
     "model": "MT2502",
     "max_freq": "260 MHz",
-    "completeness": 0.3689,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 260,
     "clock_max": 260,
     "bluetooth": "2.1",
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "mt5327",
@@ -230,7 +265,7 @@
     "cores": 8,
     "max_freq": "1.20 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -239,7 +274,12 @@
     "gpu_clock": 400,
     "video_decode": "1080p@60 fps MPEG1/2/4, H.264, VC-1, 4K/2K@30 fps H.264",
     "wifi": "Wi-Fi",
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "mt5329",
@@ -250,13 +290,18 @@
     "gpu": "Mali-T624 MP4",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 700,
     "clock_max": 1000,
     "video_decode": "4K HEVC/VP9 @60 fps",
-    "year": 2014
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800
   },
   {
     "id": "mt6591",
@@ -268,7 +313,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32)",
-    "completeness": 0.4951,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -279,7 +324,8 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_clock": 800,
-    "year": 2014
+    "year": 2014,
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "helio_p10_mt6755_mt6755m",
@@ -292,7 +338,7 @@
     "process": "28 nm",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-T860 MP2 @ 700 MHz (39.2 GFLOPS in FP32)",
-    "completeness": 0.5437,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -305,7 +351,8 @@
     "memory_bus": 32,
     "npu": "— N/a",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "helio_p15_mt6755t_heliop15mt6755t",
@@ -315,7 +362,7 @@
     "max_freq": "2.20 GHz",
     "year": 2015,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P15 MT6755T",
@@ -326,7 +373,10 @@
       "Helio P15 MT6755T (Helio P15 MT6755T )"
     ],
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p18_mt6755s_heliop18mt6755s",
@@ -337,7 +387,7 @@
     "year": 2015,
     "gpu": "Mali-T860 MP2 @ 800 MHz (44.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P18 MT6755S",
@@ -348,7 +398,10 @@
       "Helio P18 MT6755S (Helio P18 MT6755S )"
     ],
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p20_mt6757",
@@ -361,14 +414,17 @@
     "max_freq": "900 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4369,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
     "clock_max": 900,
     "gpu_clock": 1600,
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p22_mt6762",
@@ -381,13 +437,18 @@
     "max_freq": "650 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "LPDDR3 single-channel 32-bit 933 MHz (7.4 GB/s) LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
-    "completeness": 0.4175,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
     "clock_max": 650,
     "gpu_clock": 933,
-    "npu": "Q2 2018"
+    "npu": "Q2 2018",
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p23_p23t_mt6763_mt6763t",
@@ -400,12 +461,17 @@
     "max_freq": "770 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 770,
     "clock_max": 770,
-    "gpu_clock": 1600
+    "gpu_clock": 1600,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p25_p25t_mt6757cd_mt6757t_heliop25p25tmt6757cdmt6757t",
@@ -416,7 +482,7 @@
     "year": 2015,
     "gpu": "Mali-T880 MP2 @ 1.0 GHz (56.0 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4369,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P25 / P25T MT6757CD MT6757T",
@@ -424,7 +490,10 @@
     "clock_min": 1700,
     "clock_max": 2600,
     "process_nm": 20,
-    "process_name": "20nm"
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p30_mt6758",
@@ -436,12 +505,17 @@
     "year": 2015,
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat 6 FDD and TD-LTE w/ 20+20 CA",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
     "clock_min": 1650,
-    "clock_max": 2300
+    "clock_max": 2300,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p35_mt6765",
@@ -454,13 +528,16 @@
     "max_freq": "680 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR GE8320 @ 680 MHz (43.5 GFLOPS in FP32)",
-    "completeness": 0.4272,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 680,
     "clock_max": 680,
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p60_mt6771",
@@ -472,7 +549,7 @@
     "year": 2015,
     "gpu": "2× Cadence Tensilica Vision P6 DSP @ 525 MHz (2x 140 GMACs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -481,7 +558,10 @@
     "gpu_clock": 525,
     "npu": "Q1 2018",
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p65_mt6768",
@@ -493,14 +573,17 @@
     "year": 2015,
     "gpu": "Mali-G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4369,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
     "clock_min": 1700,
     "clock_max": 2000,
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p70_mt6771vct_mt6771vwt_heliop70mt6771vctmt6771vwt",
@@ -511,7 +594,7 @@
     "year": 2015,
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat-7 (DL)/Cat-13 (UL); Dual 4G VoLTE; TAS 2.0; Global",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P70 MT6771V/CT MT6771V/WT",
@@ -522,7 +605,10 @@
       "Helio P70 MT6771V/CT MT6771V/WT (Helio P70 MT6771V/CT MT6771V/WT)"
     ],
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "helio_p90_mt6779vcu_heliop90mt6779vcu",
@@ -533,7 +619,7 @@
     "year": 2015,
     "max_freq": "970 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1866 MHz (14.9 GB/s)",
-    "completeness": 0.4757,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P90 MT6779V/CU",
@@ -546,7 +632,9 @@
     "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat-12 (DL) /",
     "aliases": [
       "Helio P90 MT6779V/CU (Helio P90 MT6779V/CU)"
-    ]
+    ],
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "helio_p95_mt6779vcv_heliop95mt6779vcv",
@@ -558,10 +646,13 @@
     "year": 2015,
     "process_nm": 12,
     "process_name": "12nm",
-    "completeness": 0.3592,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "Mali-G76"
+    "gpu": "Mali-G76",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "mt2601",
@@ -572,7 +663,7 @@
     "model": "MT2601",
     "process": "28 nm",
     "max_freq": "1.20 GHz",
-    "completeness": 0.4369,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -581,7 +672,10 @@
     "process_name": "28nm",
     "wifi": "Wi-Fi",
     "bluetooth": "2.1",
-    "year": 2015
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "mt5595",
@@ -591,11 +685,16 @@
     "cores": 8,
     "gpu": "Mali-T6xx",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "4K HEVC/VP9 @ 60 fps",
-    "year": 2015
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800
   },
   {
     "id": "mt6580",
@@ -607,7 +706,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32)",
-    "completeness": 0.5243,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -620,7 +719,8 @@
     "process_nm": 28,
     "process_name": "28nm",
     "wifi": "Wi-Fi",
-    "year": 2015
+    "year": 2015,
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "mt6750",
@@ -632,7 +732,7 @@
     "process": "28 nm",
     "max_freq": "1.00 GHz",
     "gpu": "Mali-T860 MP2 @ 520 MHz (29.1 GFLOPS in FP32)",
-    "completeness": 0.5049,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -644,7 +744,8 @@
     "memory_bus": 32,
     "process_nm": 28,
     "process_name": "28nm",
-    "year": 2016
+    "year": 2016,
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "mt2621",
@@ -654,13 +755,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "260 MHz",
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 260,
     "clock_max": 260,
     "modem": "NB-IoT R14, GSM/GPRS",
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "mt2625",
@@ -670,13 +777,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "104 MHz",
-    "completeness": 0.3689,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 104,
     "clock_max": 104,
     "modem": "NB-IoT R14",
-    "year": 2017
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "helio_a20_mt6761vwe_helioa20mt6761vwe",
@@ -688,7 +801,7 @@
     "process": "12 nm",
     "max_freq": "1.80 GHz",
     "gpu": "PowerVR GE8300 @ 550 MHz (17.6 GFLOPS in FP32)",
-    "completeness": 0.5049,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A20 MT6761V/WE",
@@ -700,7 +813,8 @@
     "memory_max": 8,
     "memory_bus": 32,
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "helio_a22_mt6761vwab_mt6761vwbb_helioa22mt6761vwabmt6761vwbb",
@@ -711,12 +825,18 @@
     "year": 2018,
     "architecture": "ARMv8.2-A",
     "gpu": "UMTS, HSPA+, HSUPA, GSM, GPRS, TD-SCDMA, LTE Cat 7 (DL) & Cat 13 (UL), CDMA2000 1x/ EVDO Rev. A (SRLTE)",
-    "completeness": 0.3786,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A22 MT6761V/WAB MT6761V/WBB",
     "clock_min": 2000,
-    "clock_max": 2000
+    "clock_max": 2000,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "helio_a25_mt6762vwb_mt6762vwd_helioa25mt6762vwbmt6762vwd",
@@ -727,14 +847,20 @@
     "year": 2018,
     "architecture": "ARMv8.2-A",
     "gpu": "UMTS, HSPA+, HSUPA, GSM, GPRS, TD-SCDMA, LTE Cat 4, CDMA2000 1x/EVDO Rev. A (SRLTE)",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A25 MT6762V/WB MT6762V/WD",
     "cluster_config": "4+4",
     "clock_min": 1500,
     "clock_max": 1800,
-    "clock_mid": 1200
+    "clock_mid": 1200,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "helio_g100_mt6789h_mt6789i_mt6789j_heliog100mt6789hmt6789imt6789j",
@@ -743,7 +869,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4369,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G100 MT6789H MT6789I MT6789J",
@@ -752,7 +878,11 @@
     ],
     "process_nm": 6,
     "process_name": "6nm",
-    "gpu": "Mali-G68"
+    "gpu": "Mali-G68",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g200_mt6789t_heliog200mt6789t",
@@ -763,7 +893,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G200 MT6789T",
@@ -773,7 +903,11 @@
       "Helio G200 MT6789T (Helio G200 MT6789T)"
     ],
     "process_nm": 6,
-    "process_name": "6nm"
+    "process_name": "6nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g25_mt6762g_heliog25mt6762g",
@@ -785,7 +919,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "PowerVR GE8320 @ 650 MHz (41.6 GFLOPS in FP32)",
-    "completeness": 0.5922,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G25 MT6762G",
@@ -804,7 +938,8 @@
     "process_nm": 12,
     "process_name": "12nm",
     "camera_max": "21 MP Single Camera at 30 fps 13 MP+8 MP Dual Camera at 30 fps",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "helio_g35_mt6765g_mt6765vcb_heliog35mt6765gmt6765vcb",
@@ -815,7 +950,7 @@
     "year": 2019,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR GE8320 @ 680 MHz (43.5 GFLOPS in FP32)",
-    "completeness": 0.4466,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G35 MT6765G MT6765V/CB",
@@ -826,7 +961,11 @@
       "Helio G35 MT6765G MT6765V/CB (Helio G35 MT6765G MT6765V/CB )"
     ],
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g36_mt6765vxaa_mt6765vxba_heliog36mt6765vxaamt6765vxba",
@@ -836,7 +975,7 @@
     "max_freq": "2.20 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G36 MT6765V/XAA MT6765V/XBA",
@@ -847,7 +986,11 @@
       "Helio G36 MT6765V/XAA MT6765V/XBA (Helio G36 MT6765V/XAA MT6765V/XBA)"
     ],
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g37_mt6765h_heliog37mt6765h",
@@ -857,7 +1000,7 @@
     "max_freq": "2.30 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G37 MT6765H",
@@ -868,7 +1011,11 @@
       "Helio G37 MT6765H (Helio G37 MT6765H)"
     ],
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g50_mt6765v_heliog50mt6765v",
@@ -878,7 +1025,7 @@
     "max_freq": "2.20 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G50 MT6765V",
@@ -889,7 +1036,11 @@
       "Helio G50 MT6765V (Helio G50 MT6765V)"
     ],
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g70_mt6769vcb_heliog70mt6769vcb",
@@ -900,7 +1051,7 @@
     "year": 2019,
     "max_freq": "820 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1800 MHz (14.4 GB/s)",
-    "completeness": 0.4175,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G70 MT6769V/CB",
@@ -910,7 +1061,13 @@
     "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A LTE Cat-7 (DL)",
     "aliases": [
       "Helio G70 MT6769V/CB (Helio G70 MT6769V/CB)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g80_mt6769t_mt6769vct_mt6769vcu_heliog80mt6769tmt6769vctmt6769vcu",
@@ -921,7 +1078,7 @@
     "year": 2019,
     "gpu": "Mali-G52 MC2 @ 950 MHz (91.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G80 MT6769T MT6769V/CT MT6769V/CU",
@@ -930,7 +1087,13 @@
     "clock_max": 2000,
     "aliases": [
       "Helio G80 MT6769T MT6769V/CT MT6769V/CU (Helio G80 MT6769T MT6769V/CT MT6769V/CU)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g81_mt6769j_mt6769l_mt6769s_heliog81mt6769jmt6769lmt6769s",
@@ -941,7 +1104,7 @@
     "year": 2019,
     "gpu": "Mali G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G81 MT6769J MT6769L MT6769S",
@@ -950,7 +1113,13 @@
     "clock_max": 2000,
     "aliases": [
       "Helio G81 MT6769J MT6769L MT6769S (Helio G81 MT6769J MT6769L MT6769S)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g85_mt6769z_mt6769vcz_heliog85mt6769zmt6769vcz",
@@ -961,7 +1130,7 @@
     "year": 2019,
     "gpu": "Mali-G52 MC2 @ 1.0 GHz (96 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G85 MT6769Z MT6769V/CZ",
@@ -970,7 +1139,13 @@
     "clock_max": 2000,
     "aliases": [
       "Helio G85 MT6769Z MT6769V/CZ (Helio G85 MT6769Z MT6769V/CZ)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g88_mt6769h_heliog88mt6769h",
@@ -979,13 +1154,19 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G88 MT6769H",
     "aliases": [
       "Helio G88 MT6769H (Helio G88 MT6769H)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g90_mt6785_mt6785v",
@@ -999,13 +1180,17 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 12,
     "process_name": "12nm",
-    "completeness": 0.4563,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
     "clock_min": 2,
     "clock_max": 2050,
-    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A LTE Cat-12 (DL)"
+    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A LTE Cat-12 (DL)",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g90t_mt6785vcc_heliog90tmt6785vcc",
@@ -1016,14 +1201,18 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G90T MT6785V/CC",
     "process_nm": 12,
     "process_name": "12nm",
     "clock_min": 800,
-    "clock_max": 800
+    "clock_max": 800,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g91_mt6769g_mt6769k_heliog91mt6769gmt6769k",
@@ -1032,13 +1221,19 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G91 MT6769G MT6769K",
     "aliases": [
       "Helio G91 MT6769G MT6769K (Helio G91 MT6769G MT6769K)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g92_mt6769i_heliog92mt6769i",
@@ -1047,13 +1242,19 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G92 MT6769I",
     "aliases": [
       "Helio G92 MT6769I (Helio G92 MT6769I)"
-    ]
+    ],
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g95_mt6785vcd_heliog95mt6785vcd",
@@ -1064,7 +1265,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G95 MT6785V/CD",
@@ -1074,7 +1275,11 @@
     "clock_max": 900,
     "aliases": [
       "Helio G95 MT6785V/CD (Helio G95 MT6785V/CD)"
-    ]
+    ],
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g96_mt6781_mt6781vcd",
@@ -1086,13 +1291,17 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 950,
     "clock_max": 950,
     "process_nm": 6,
-    "process_name": "6nm"
+    "process_name": "6nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "helio_g99_mt6789_mt6789g_mt6789u_mt6789vcd",
@@ -1105,13 +1314,17 @@
     "max_freq": "1.00 GHz",
     "gpu": "Q2 2022",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
     "clock_max": 1000,
     "process_nm": 6,
-    "process_name": "6nm"
+    "process_name": "6nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "kompanio_500_mt8183v_prev_helio_p60t_kompanio500mt8183vprevheliop60t",
@@ -1122,7 +1335,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G72 MP3 @ 800 MHz",
-    "completeness": 0.5437,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 500 (MT8183V) (prev. Helio P60T )",
@@ -1139,7 +1352,8 @@
     "memory_clock": 1600,
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
-    "year": 2019
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "mt6731",
@@ -1151,7 +1365,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR GE8100 @ 350 MHz (5.6 GFLOPS in FP32)",
-    "completeness": 0.4854,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -1162,7 +1376,9 @@
     "memory_bus": 32,
     "process_nm": 28,
     "process_name": "28nm",
-    "year": 2019
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "dimensity_1000c_mt6883zcza_dimensity1000cmt6883zcza",
@@ -1173,7 +1389,7 @@
     "process": "7 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G57 MC5 @ 654 MHz (209.3 GFLOPS in FP32)",
-    "completeness": 0.6117,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 1000C (MT6883Z/CZA)",
@@ -1194,7 +1410,8 @@
     "camera_max": "Photo: 64 MP, 32 MP + 16 MP Video: 4K HDR",
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.1",
-    "year": 2020
+    "year": 2020,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "dimensity_720_mt6853",
@@ -1214,9 +1431,13 @@
     "aliases": [
       "Dimensity 720 (MT6853)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "dimensity_800u_mt6853t_mt6853vtnza_dimensity800umt6853tmt6853vtnza",
@@ -1227,7 +1448,7 @@
     "process": "7 nm",
     "max_freq": "2.40 GHz",
     "gpu": "Mali-G57 MC3 @ 950 MHz (182.4 GFLOPS in FP32)",
-    "completeness": 0.5631,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 800U (MT6853T MT6853V/TNZA)",
@@ -1246,7 +1467,8 @@
       "Dimensity 800U (MT6853T MT6853V/TNZA) (Dimensity 800U (MT6853T MT6853V/TNZA))"
     ],
     "camera_max": "64 MP Single Camera 20 MP + 16 MP Dual Camera at 30 fps",
-    "year": 2020
+    "year": 2020,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "dimensity_700_mt6833_mt6833g_mt6833vza_mt6833vnza",
@@ -1260,7 +1482,7 @@
     "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.534,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1272,7 +1494,8 @@
     "memory_max": 0,
     "memory_bus": 16,
     "camera_max": "64 MP Single Camera 16 MP + 16 MP Dual Camera at 30 fps",
-    "year": 2021
+    "year": 2021,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_900_mt6877_mt6877vza",
@@ -1286,7 +1509,7 @@
     "gpu": "Mali-G68 MC4 @ 900 MHz (230.4 GFLOPS in FP32)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.5534,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1298,7 +1521,8 @@
     "camera_max": "108 MP Single Camera, 20 MP + 20 MP Dual Camera at 30 fps",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "year": 2021
+    "year": 2021,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_9000_mt6983_mt6983zcza_mt8798_mt8798zcnza",
@@ -1312,7 +1536,7 @@
     "gpu": "Mali-G710 MC10 @ 848 MHz (1085.4 GFLOPS in FP32)",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.6117,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -1328,7 +1552,8 @@
     "camera_max": "MediaTek Imagiq 790 Photo: 320 MP Video: 4K HDR",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.3",
-    "year": 2021
+    "year": 2021,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "pentonic_2000_mt9902_mt9982",
@@ -1339,7 +1564,7 @@
     "model": "MT9902",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-G57 MC3 @ 1.0 GHz",
-    "completeness": 0.4951,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1351,7 +1576,10 @@
     "video_decode": "HEVC (H.265) , VVC (H.266) , VP9 , AV1 , AVS3",
     "npu": "AI-Voice AI- SR 2.0+ with detail creation AI- PQ Scene Recognition 2.0 AI- PQ Ob",
     "wifi": "Wi-Fi 6",
-    "year": 2021
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_8000_mt6895_mt6895zcza",
@@ -1365,7 +1593,7 @@
     "gpu": "Mali-G610 MC6 @ 700 MHz (537.6 GFLOPS in FP32)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.6019,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -1380,7 +1608,8 @@
     "camera_max": "MediaTek Imagiq 780 Photo: 200 MP, 32 MP + 32 MP + 16 MP Video: 4K HDR",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.3",
-    "year": 2022
+    "year": 2022,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "kompanio_520_mt8186gv_kompanio520mt8186gv",
@@ -1391,7 +1620,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G52 MC2 @ ? MHz",
-    "completeness": 0.534,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 520 (MT8186GV)",
@@ -1407,7 +1636,8 @@
     "memory_clock": 2133,
     "memory_bus": 64,
     "wifi": "Wi-Fi 6",
-    "year": 2022
+    "year": 2022,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "mt7927_filogic_380",
@@ -1417,11 +1647,17 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "mt7988a_filogic_880_mt7988afilogic880",
@@ -1430,7 +1666,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT7988A Filogic 880",
@@ -1440,7 +1676,13 @@
     "aliases": [
       "MT7988A Filogic 880 (MT7988A Filogic 880 )"
     ],
-    "year": 2022
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64
   },
   {
     "id": "dimensity_6020_dimensity_700_renamed_dimensity6020dimensity700renamed",
@@ -1451,7 +1693,7 @@
     "process": "7 nm",
     "max_freq": "2.20 GHz",
     "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
-    "completeness": 0.5825,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6020 (Dimensity 700 renamed)",
@@ -1471,7 +1713,8 @@
     "camera_max": "Photo: 64 MP, 16 + 16 MP Video: 2K30",
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.1",
-    "year": 2023
+    "year": 2023,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_7020_dimensity_930_renamed_dimensity7020dimensity930renamed",
@@ -1481,7 +1724,7 @@
     "architecture": "ARMv8.2-A",
     "process": "6 nm",
     "max_freq": "2.20 GHz",
-    "completeness": 0.5825,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7020 (Dimensity 930 renamed)",
@@ -1502,7 +1745,8 @@
     "camera_max": "Photo: 108 MP Video: 2K30",
     "wifi": "Wi-Fi 5",
     "bluetooth": "5.2",
-    "year": 2023
+    "year": 2023,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_7200_mt6886_mt6886v_acza_mt6886v_bcza",
@@ -1514,7 +1758,7 @@
     "process": "4 nm",
     "max_freq": "2.80 GHz",
     "gpu": "Mali-G610 MC4 @ 1.13 GHz (578.6 GFLOPS in FP32)",
-    "completeness": 0.5825,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1530,7 +1774,8 @@
     "camera_max": "MediaTek Imagiq 765 Photo: 200 MP Video: 4K30 HDR",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.3",
-    "year": 2023
+    "year": 2023,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_8300_mt6897_mt6897z_aza_mt8792znb",
@@ -1542,7 +1787,7 @@
     "process": "4 nm",
     "max_freq": "3.35 GHz",
     "gpu": "Mali-G615 MC6 @ 1400 MHz (2150.4 GFLOPS in FP32)",
-    "completeness": 0.6117,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -1560,7 +1805,8 @@
     "camera_max": "MediaTek Imagiq 980 Photo: 320 MP, 32 MP + 32 MP + 32 MP Video: 4K60 HDR",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
-    "year": 2023
+    "year": 2023,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "dimensity_9300_mt6989_mt6989wcza_mt8796_mt8796wcnza",
@@ -1571,7 +1817,7 @@
     "model": "MT6989",
     "process": "4 nm",
     "max_freq": "3.25 GHz",
-    "completeness": 0.6117,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -1590,7 +1836,8 @@
     "camera_max": "MediaTek Imagiq 990 Photo: 320 MP Video: 8K30 HDR, 4K60 HDR",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "year": 2023
+    "year": 2023,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "mt7925_filogic_360",
@@ -1600,11 +1847,17 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "mt7988d_filogic_860_mt7988dfilogic860",
@@ -1613,7 +1866,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT7988D Filogic 860",
@@ -1623,7 +1876,13 @@
     "aliases": [
       "MT7988D Filogic 860 (MT7988D Filogic 860 )"
     ],
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "mt7991_filogic_660",
@@ -1633,11 +1892,17 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "mt7992_filogic_660",
@@ -1647,11 +1912,17 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "mt7995_filogic_680",
@@ -1661,11 +1932,17 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "mt7996_filogic_680",
@@ -1675,11 +1952,17 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No",
-    "year": 2023
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64
   },
   {
     "id": "kompanio_ultra_910_kompanioultra910",
@@ -1722,7 +2005,7 @@
     "process": "6 nm",
     "max_freq": "2.50 GHz",
     "gpu": "Mali-G610 MC2 @ 1.0 GHz (256 GFLOPS in FP32)",
-    "completeness": 0.5728,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7300e (MT6858T)",
@@ -1741,7 +2024,8 @@
     "camera_max": "Photo: 200 MP Video: 2K30",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
-    "year": 2026
+    "year": 2026,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "aiot_i300a_aioti300a",

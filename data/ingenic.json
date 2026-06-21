@@ -5,11 +5,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4730",
-    "year": 2006
+    "year": 2006,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4720",
@@ -17,11 +21,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4720",
-    "year": 2007
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4740",
@@ -29,11 +37,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4740",
-    "year": 2007
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4725b",
@@ -41,11 +53,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4725B",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4750",
@@ -53,11 +69,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4750",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4755",
@@ -65,11 +85,15 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4755",
-    "year": 2009
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4760",
@@ -78,11 +102,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "second core is for video processing only, IEEE754-complient FPU",
-    "completeness": 0.3204,
+    "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4760",
-    "year": 2010
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4770",
@@ -92,11 +120,15 @@
     "architecture": "ARMv8.2-A",
     "gpu": "JZ4770",
     "max_freq": "500 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4770",
-    "year": 2011
+    "year": 2011,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4780",
@@ -106,11 +138,15 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX 540",
     "max_freq": "500 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4780",
-    "year": 2012
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "jz4775",

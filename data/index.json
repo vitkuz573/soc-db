@@ -24,7 +24,7 @@
       "name": "Apple",
       "file": "apple.json",
       "count": 17,
-      "completeness": 0.376
+      "completeness": 0.472
     },
     "broadcom": {
       "name": "Broadcom",
@@ -36,25 +36,25 @@
       "name": "Google",
       "file": "tensor.json",
       "count": 5,
-      "completeness": 0.429
+      "completeness": 0.464
     },
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
       "count": 61,
-      "completeness": 0.336
+      "completeness": 0.337
     },
     "ingenic": {
       "name": "Ingenic",
       "file": "ingenic.json",
       "count": 10,
-      "completeness": 0.304
+      "completeness": 0.365
     },
     "intel_atom": {
       "name": "Intel Atom",
       "file": "intel_atom.json",
       "count": 212,
-      "completeness": 0.358
+      "completeness": 0.406
     },
     "marvell": {
       "name": "Marvell",
@@ -66,7 +66,7 @@
       "name": "MediaTek",
       "file": "mediatek.json",
       "count": 264,
-      "completeness": 0.378
+      "completeness": 0.395
     },
     "microchip": {
       "name": "Microchip",
@@ -90,7 +90,7 @@
       "name": "Qualcomm",
       "file": "qualcomm.json",
       "count": 262,
-      "completeness": 0.407
+      "completeness": 0.44
     },
     "realtek": {
       "name": "Realtek",
@@ -114,7 +114,7 @@
       "name": "Samsung",
       "file": "exynos.json",
       "count": 74,
-      "completeness": 0.369
+      "completeness": 0.402
     },
     "stmicroelectronics": {
       "name": "STMicroelectronics",
