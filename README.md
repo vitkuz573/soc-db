@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/soc-db/"><img src="https://img.shields.io/pypi/v/soc-db?label=version&logo=python" alt="PyPI"></a>
-  <a href="https://pypi.org/project/soc-db/"><img src="https://img.shields.io/pypi/pyversions/soc-db?logo=python" alt="Python"></a>
+  <a href="https://github.com/vitkuz573/soc-db"><img src="https://img.shields.io/badge/version-2.1.0--dev-blue?logo=github" alt="Version"></a>
+  <a href="pyproject.toml"><img src="https://img.shields.io/badge/python-3.12_|_3.13_|_3.14-blue?logo=python" alt="Python"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/code%20style-ruff-000000" alt="Ruff"></a>
   <a href="https://vitkuz573.github.io/soc-db/"><img src="https://img.shields.io/badge/web%20ui-github%20pages-2ea44f" alt="Web UI"></a>
