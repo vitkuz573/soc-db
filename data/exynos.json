@@ -12,6 +12,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_2100_s5e9840",
+    "name": "Exynos 2100 (S5E9840)",
+    "vendor": "Samsung",
+    "cores": 5,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 2100",
+    "process": "5 nm",
+    "max_freq": "2.91 GHz",
+    "gpu": "Mali -G78 MP14",
+    "year": 2000
+  },
+  {
     "id": "exynos_2200",
     "name": "Exynos 2200",
     "vendor": "Samsung",
@@ -22,6 +34,18 @@
     "max_freq": "2.95 GHz",
     "gpu": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP [ 60 ",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_2200_s5e9925",
+    "name": "Exynos 2200 (S5E9925)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 2200",
+    "process": "4 nm",
+    "max_freq": "2.95 GHz",
+    "gpu": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP [ 60 ] ) [ a ]",
+    "year": 2000
   },
   {
     "id": "exynos_24002400e",
@@ -36,6 +60,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_24002400e_s5e9945",
+    "name": "Exynos 2400/2400e (S5E9945)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 2400",
+    "process": "4 nm",
+    "max_freq": "3.2 GHz",
+    "gpu": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP) [ a ]",
+    "year": 2000
+  },
+  {
     "id": "exynos_2500",
     "name": "Exynos 2500",
     "vendor": "Samsung",
@@ -48,6 +84,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_2500_s5e9955",
+    "name": "Exynos 2500 (S5E9955)",
+    "vendor": "Samsung",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 2500",
+    "process": "3 nm",
+    "max_freq": "3.3 GHz",
+    "gpu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP) [ a ]",
+    "year": 2000
+  },
+  {
     "id": "exynos_2600",
     "name": "Exynos 2600",
     "vendor": "Samsung",
@@ -58,6 +106,18 @@
     "max_freq": "3.8 GHz",
     "gpu": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP) [ a ]",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_2600_s5e9965",
+    "name": "Exynos 2600 (S5E9965)",
+    "vendor": "Samsung",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 2600",
+    "process": "2 nm",
+    "max_freq": "3.8 GHz",
+    "gpu": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP) [ a ]",
+    "year": 2000
   },
   {
     "id": "exynos_3_quad_3470",
@@ -89,6 +149,17 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "1.2 GHz"
+  },
+  {
+    "id": "exynos_3_single_3110_previously_hummingbird",
+    "name": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
+    "vendor": "Samsung",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "45 nm",
+    "max_freq": "1.2 GHz",
+    "gpu": "PowerVR SGX540",
+    "year": 2010
   },
   {
     "id": "exynos_4_dual_4210",
@@ -159,7 +230,8 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "1.6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX544 MP3"
   },
   {
     "id": "exynos_5_octa_5420",
@@ -206,7 +278,7 @@
     "vendor": "Samsung",
     "process": "20 nm",
     "year": 2010,
-    "cores": 8,
+    "cores": 4,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
     "gpu": "Mali-T760 MP6"
@@ -226,7 +298,7 @@
     "id": "exynos_7_octa_7580",
     "name": "Exynos 7 Octa 7580",
     "vendor": "Samsung",
-    "cores": 8,
+    "cores": 6,
     "max_freq": "1.6 GHz",
     "year": 2010,
     "architecture": "ARMv8.2-A"
@@ -280,7 +352,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS 7880",
     "year": 2010,
-    "cores": 8,
+    "cores": 4,
     "max_freq": "1.9 GHz",
     "gpu": "Mali-T830 MP3",
     "architecture": "ARMv8.2-A"
@@ -390,6 +462,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_9810_s5e9810",
+    "name": "Exynos 9810 (S5E9810)",
+    "vendor": "Samsung",
+    "cores": 10,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 9810",
+    "process": "10 nm",
+    "max_freq": "2.9 GHz",
+    "gpu": "Mali-G72 MP18",
+    "year": 2010
+  },
+  {
     "id": "exynos_9820",
     "name": "Exynos 9820",
     "vendor": "Samsung",
@@ -402,6 +486,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_9820_s5e9820",
+    "name": "Exynos 9820 (S5E9820)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 9820",
+    "process": "8 nm",
+    "max_freq": "2.73 GHz",
+    "gpu": "Mali-G76 MP12",
+    "year": 2010
+  },
+  {
     "id": "exynos_9825",
     "name": "Exynos 9825",
     "vendor": "Samsung",
@@ -411,6 +507,17 @@
     "year": 2010,
     "max_freq": "2.73 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_9825_s5e9825",
+    "name": "Exynos 9825 (S5E9825)",
+    "vendor": "Samsung",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 9825",
+    "process": "7 nm",
+    "max_freq": "2.73 GHz",
+    "year": 2010
   },
   {
     "id": "exynos9810",
@@ -536,6 +643,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_1080_s5e9815",
+    "name": "Exynos 1080 (S5E9815)",
+    "vendor": "Samsung",
+    "cores": 5,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1080",
+    "process": "5 nm",
+    "max_freq": "2.8 GHz",
+    "gpu": "Mali -G78 MP10"
+  },
+  {
     "id": "exynos_1280",
     "name": "Exynos 1280",
     "vendor": "Samsung",
@@ -544,6 +662,16 @@
     "max_freq": "2.4 GHz",
     "gpu": "Mali-G68 MP4",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_1280_s5e8825",
+    "name": "Exynos 1280 (S5E8825)",
+    "vendor": "Samsung",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1280",
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G68 MP4"
   },
   {
     "id": "exynos_1330",
@@ -556,6 +684,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_1330_s5e8535",
+    "name": "Exynos 1330 (S5E8535)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1330",
+    "gpu": "Mali -G68 MP2",
+    "max_freq": "2133 MHz"
+  },
+  {
     "id": "exynos_1380",
     "name": "Exynos 1380",
     "vendor": "Samsung",
@@ -564,6 +702,16 @@
     "max_freq": "2.4 GHz",
     "gpu": "Mali -G68 MP5",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_1380_s5e8835",
+    "name": "Exynos 1380 (S5E8835)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1380",
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali -G68 MP5"
   },
   {
     "id": "exynos_1480",
@@ -577,6 +725,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_1480_s5e8845",
+    "name": "Exynos 1480 (S5E8845)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1480",
+    "process": "4 nm",
+    "max_freq": "2.75 GHz",
+    "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]"
+  },
+  {
     "id": "exynos_1580",
     "name": "Exynos 1580",
     "vendor": "Samsung",
@@ -586,6 +745,17 @@
     "max_freq": "2.9 GHz",
     "gpu": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_1580_s5e8855",
+    "name": "Exynos 1580 (S5E8855)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1580",
+    "process": "4 nm",
+    "max_freq": "2.9 GHz",
+    "gpu": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]"
   },
   {
     "id": "exynos_1680",
@@ -598,6 +768,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_1680_s5e8865",
+    "name": "Exynos 1680 (S5E8865)",
+    "vendor": "Samsung",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 1680",
+    "max_freq": "2.9 GHz",
+    "gpu": "Xclipse 550 \"Triton\" ( RDNA 3 based 256:16:16:4 2 WGP) [ a ]"
+  },
+  {
     "id": "exynos_3_dual_3250",
     "name": "Exynos 3 Dual 3250",
     "vendor": "Samsung",
@@ -606,6 +786,16 @@
     "max_freq": "1.0 GHz",
     "gpu": "Mali -400 MP2",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_4_dual_4212_single_core",
+    "name": "Exynos 4 Dual 4212 (Single core)",
+    "vendor": "Samsung",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "32 nm",
+    "max_freq": "0.8 GHz",
+    "gpu": "Mali-400 MP4"
   },
   {
     "id": "exynos_7_dual_7270",
@@ -618,6 +808,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_7_dual_7270_sc57270",
+    "name": "Exynos 7 Dual 7270 (SC57270)",
+    "vendor": "Samsung",
+    "cores": 14,
+    "architecture": "ARMv8.2-A",
+    "process": "14 nm",
+    "max_freq": "1.0 GHz",
+    "gpu": "Mali-T720 MP1"
+  },
+  {
     "id": "exynos_850",
     "name": "Exynos 850",
     "vendor": "Samsung",
@@ -628,6 +828,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_850_s5e3830",
+    "name": "Exynos 850 (S5E3830)",
+    "vendor": "Samsung",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "8 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G52 MP1"
+  },
+  {
     "id": "exynos_880",
     "name": "Exynos 880",
     "vendor": "Samsung",
@@ -635,6 +845,15 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_880_s5e8805",
+    "name": "Exynos 880 (S5E8805)",
+    "vendor": "Samsung",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G76 MP5"
   },
   {
     "id": "exynos_9110",
@@ -647,6 +866,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_9110_sc59110xsc",
+    "name": "Exynos 9110 (SC59110XSC)",
+    "vendor": "Samsung",
+    "cores": 10,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 9110",
+    "process": "10 nm",
+    "max_freq": "1.15 GHz"
+  },
+  {
     "id": "exynos_980",
     "name": "Exynos 980",
     "vendor": "Samsung",
@@ -655,6 +884,16 @@
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_980_s5e9630",
+    "name": "Exynos 980 (S5E9630)",
+    "vendor": "Samsung",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "process": "8 nm",
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G76 MP5"
   },
   {
     "id": "exynos_990",
@@ -667,6 +906,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_990_s5e9830",
+    "name": "Exynos 990 (S5E9830)",
+    "vendor": "Samsung",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "process": "7 nm",
+    "max_freq": "3.02 GHz",
+    "gpu": "Mali-G77 MP11"
+  },
+  {
     "id": "exynos_auto_8890",
     "name": "Exynos Auto 8890",
     "vendor": "Samsung",
@@ -677,20 +926,31 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_auto_8890_sga8890a",
+    "name": "Exynos Auto 8890 (SGA8890A)",
+    "vendor": "Samsung",
+    "cores": 14,
+    "architecture": "ARMv8.2-A",
+    "process": "14 nm",
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-T880 MP12"
+  },
+  {
     "id": "exynos_auto_t5123",
     "name": "Exynos Auto T5123",
     "vendor": "Samsung",
     "process": "7 nm",
     "cores": 7,
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "model": "T5123"
   },
   {
     "id": "exynos_auto_v7",
     "name": "Exynos Auto V7",
     "vendor": "Samsung",
     "process": "8 nm",
-    "cores": 8,
+    "cores": 2,
     "max_freq": "1.5 GHz",
     "gpu": "2× Mali-G76 (MP8 + MP3)",
     "architecture": "ARMv8.2-A"
@@ -700,6 +960,15 @@
     "name": "Exynos Auto V9",
     "vendor": "Samsung",
     "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.1 GHz",
+    "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)"
+  },
+  {
+    "id": "exynos_auto_v9_s5ahr80a",
+    "name": "Exynos Auto V9 (S5AHR80A)",
+    "vendor": "Samsung",
+    "cores": 3,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
     "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)"
@@ -715,6 +984,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_auto_v920_s5av920",
+    "name": "Exynos Auto V920 (S5AV920)",
+    "vendor": "Samsung",
+    "cores": 5,
+    "architecture": "ARMv8.2-A",
+    "process": "5 nm",
+    "gpu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
+    "max_freq": "3200 MHz"
+  },
+  {
     "id": "exynos_w1000",
     "name": "Exynos W1000",
     "vendor": "Samsung",
@@ -722,6 +1001,15 @@
     "cores": 3,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_w1000_sc55535aha",
+    "name": "Exynos W1000 (SC55535AHA)",
+    "vendor": "Samsung",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "process": "3 nm",
+    "max_freq": "1.6 GHz"
   },
   {
     "id": "exynos_w920",
@@ -734,11 +1022,29 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "exynos_w920_sc55515xbd",
+    "name": "Exynos W920 (SC55515XBD)",
+    "vendor": "Samsung",
+    "cores": 5,
+    "architecture": "ARMv8.2-A",
+    "process": "5 nm",
+    "max_freq": "1.18 GHz",
+    "gpu": "Mali-G68 MP2"
+  },
+  {
     "id": "exynos_w930",
     "name": "Exynos W930",
     "vendor": "Samsung",
     "cores": 2,
     "max_freq": "1.4 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_w930_sc55515xbe",
+    "name": "Exynos W930 (SC55515XBE)",
+    "vendor": "Samsung",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.4 GHz"
   }
 ]

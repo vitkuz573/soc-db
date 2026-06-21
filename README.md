@@ -2,7 +2,7 @@
 
 Enterprise-grade SoC / CPU identifier database.
 
-- **636+ chips** across 6 vendors (Qualcomm, MediaTek, Samsung, HiSilicon, Google, Apple)
+- **1171+ chips** across 14 vendors
 - JSON Schema validated
 - GitHub Pages frontend with search, filter, sort, and detailed chip view
 - Automated Wikipedia scraper pipeline (`make scrape`)
@@ -19,14 +19,22 @@ make server     # start local web UI at http://localhost:8080/
 
 Automatic extraction from Wikipedia tables:
 
-| Vendor | Data file | Source |
-|--------|-----------|--------|
-| Qualcomm | `data/qualcomm.json` | List of Snapdragon processors |
-| MediaTek | `data/mediatek.json` | List of MediaTek processors |
-| Samsung | `data/exynos.json` | Exynos page |
-| HiSilicon | `data/kirin.json` | HiSilicon page |
-| Google | `data/tensor.json` | Google Tensor page |
-| Apple | `data/apple.json` | Apple A-series + M-series (name mapping) |
+| Vendor | File | Chips | Source |
+|--------|------|-------|--------|
+| Qualcomm | `data/qualcomm.json` | 299 | List of Snapdragon processors |
+| MediaTek | `data/mediatek.json` | 315 | List of MediaTek processors |
+| Samsung | `data/exynos.json` | 98 | Exynos page |
+| HiSilicon | `data/kirin.json` | 95 | HiSilicon page |
+| Google | `data/tensor.json` | 12 | Google Tensor page |
+| Apple | `data/apple.json` | 17 | Apple A-series + M-series |
+| Rockchip | `data/rockchip.json` | 29 | Rockchip page |
+| Allwinner | `data/allwinner.json` | 29 | Allwinner Technology page |
+| Amlogic | `data/amlogic.json` | 16 | Amlogic page (transposed tables) |
+| Nvidia | `data/nvidia.json` | 14 | Tegra page |
+| TI OMAP | `data/ti_omap.json` | 16 | OMAP page |
+| Intel Atom | `data/intel_atom.json` | 212 | List of Intel Atom processors |
+| Ingenic | `data/ingenic.json` | 13 | Ingenic page |
+| NXP i.MX | `data/nxp_imx.json` | 6 | NXP i.MX page |
 
 Run `bash scripts/run_all.sh` to refresh all data from Wikipedia.
 

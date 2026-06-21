@@ -5,27 +5,27 @@
     "qualcomm": {
       "name": "Qualcomm",
       "file": "qualcomm.json",
-      "count": 242
+      "count": 299
     },
     "mediatek": {
       "name": "MediaTek",
       "file": "mediatek.json",
-      "count": 234
+      "count": 315
     },
     "samsung": {
       "name": "Samsung Exynos",
       "file": "exynos.json",
-      "count": 69
+      "count": 98
     },
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
-      "count": 63
+      "count": 95
     },
     "google": {
       "name": "Google",
       "file": "tensor.json",
-      "count": 11
+      "count": 12
     },
     "apple": {
       "name": "Apple",
@@ -33,6 +33,6 @@
       "count": 17
     }
   },
-  "total": 636,
+  "total": 1171,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

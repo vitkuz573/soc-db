@@ -1,0 +1,48 @@
+[
+  {
+    "id": "imx_6",
+    "name": "i.MX 6",
+    "vendor": "NXP i.MX",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "imx_7",
+    "name": "i.MX 7",
+    "vendor": "NXP i.MX",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "imx_8",
+    "name": "i.MX 8",
+    "vendor": "NXP i.MX",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "gpu": "2× Vivante GC7000/XSVX",
+    "max_freq": "266 MHz"
+  },
+  {
+    "id": "imx_8m",
+    "name": "i.MX 8M",
+    "vendor": "NXP i.MX",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.5 GHz"
+  },
+  {
+    "id": "imx_8x",
+    "name": "i.MX 8X",
+    "vendor": "NXP i.MX",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.2 GHz"
+  },
+  {
+    "id": "imx_9",
+    "name": "i.MX 9",
+    "vendor": "NXP i.MX",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  }
+]

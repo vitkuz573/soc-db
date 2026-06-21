@@ -96,6 +96,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "apq8064_1aa_debflo",
+    "name": "APQ8064-1AA (DEB/FLO)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "APQ8064",
+    "process": "28 nm",
+    "max_freq": "1.5 GHz",
+    "gpu": "Adreno 320 400 MHz (76.8 GFLOPS in FP32)",
+    "year": 2013
+  },
+  {
     "id": "apq8064ab",
     "name": "APQ8064AB",
     "vendor": "Qualcomm",
@@ -395,7 +407,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8953",
     "year": 2013,
-    "cores": 8,
+    "cores": 4,
     "max_freq": "2.2 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -532,6 +544,15 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "msm8996_pro_ab",
+    "name": "MSM8996 Pro-AB",
+    "vendor": "Qualcomm",
+    "cores": 11,
+    "architecture": "ARMv8.2-A",
+    "model": "MSM8996",
+    "year": 2013
+  },
+  {
     "id": "msm8996_proac",
     "name": "MSM8996 Pro-AC",
     "vendor": "Qualcomm",
@@ -541,6 +562,17 @@
     "year": 2013,
     "gpu": "Adreno 530 653 MHz (334.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "msm8996_pro_ac",
+    "name": "MSM8996 Pro-AC",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "MSM8996",
+    "max_freq": "2.342 GHz",
+    "gpu": "Adreno 530 653 MHz (334.3 GFLOPS in FP32)",
+    "year": 2013
   },
   {
     "id": "msm8998",
@@ -689,13 +721,25 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm4250_aa",
+    "name": "SM4250-AA",
+    "vendor": "Qualcomm",
+    "cores": 11,
+    "architecture": "ARMv8.2-A",
+    "model": "SM4250",
+    "process": "11 nm",
+    "max_freq": "1.8 GHz",
+    "gpu": "Adreno 610 600 MHz (153.6 GFLOPS in FP32)",
+    "year": 2013
+  },
+  {
     "id": "sm4350",
     "name": "SM4350",
     "vendor": "Qualcomm",
     "model": "SM4350",
     "year": 2013,
     "process": "8 nm",
-    "cores": 8,
+    "cores": 6,
     "max_freq": "2.0 GHz",
     "gpu": "Adreno 619 650 MHz (332.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
@@ -709,6 +753,16 @@
     "year": 2013,
     "max_freq": "2.2 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm4350_ac",
+    "name": "SM4350-AC",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM4350",
+    "max_freq": "2.2 GHz",
+    "year": 2013
   },
   {
     "id": "sm6115",
@@ -784,7 +838,7 @@
     "model": "SM6350",
     "year": 2013,
     "process": "8 nm",
-    "cores": 8,
+    "cores": 6,
     "max_freq": "2.0 GHz",
     "gpu": "Adreno 619L 565 MHz (289.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
@@ -825,10 +879,21 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8150_ac",
+    "name": "SM8150-AC",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8150",
+    "max_freq": "2.96 GHz",
+    "gpu": "Adreno 640 675 MHz (1036.8 GFLOPS in FP32)",
+    "year": 2013
+  },
+  {
     "id": "sm8150p",
     "name": "SM8150P",
     "vendor": "Qualcomm",
-    "cores": 1710,
+    "cores": 15,
     "year": 2013,
     "architecture": "ARMv8.2-A"
   },
@@ -856,6 +921,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8250_ab",
+    "name": "SM8250-AB",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8250",
+    "max_freq": "3.1 GHz",
+    "gpu": "Adreno 650 670 MHz (1029.1 GFLOPS in FP32)",
+    "year": 2013
+  },
+  {
     "id": "sm8250ac",
     "name": "SM8250-AC",
     "vendor": "Qualcomm",
@@ -864,6 +940,16 @@
     "cores": 4,
     "max_freq": "3.2 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm8250_ac",
+    "name": "SM8250-AC",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8250",
+    "max_freq": "3.2 GHz",
+    "year": 2013
   },
   {
     "id": "sm8350",
@@ -888,11 +974,21 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8350_ac",
+    "name": "SM8350-AC",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8350",
+    "max_freq": "3.0 GHz",
+    "year": 2013
+  },
+  {
     "id": "snapdragon_860",
     "name": "Snapdragon 860",
     "vendor": "Qualcomm",
     "year": 2013,
-    "cores": 1,
+    "cores": 8,
     "architecture": "ARMv8.2-A"
   },
   {
@@ -953,7 +1049,7 @@
     "model": "SM7125",
     "year": 2018,
     "process": "8 nm",
-    "cores": 8,
+    "cores": 6,
     "max_freq": "2.3 GHz",
     "gpu": "Adreno 618 750 MHz (384 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
@@ -970,6 +1066,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7150_aa",
+    "name": "SM7150-AA",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7150",
+    "max_freq": "2.2 GHz",
+    "gpu": "Adreno 618 610 MHz (312.3 GFLOPS in FP32)",
+    "year": 2018
+  },
+  {
     "id": "sm7150ab",
     "name": "SM7150-AB",
     "vendor": "Qualcomm",
@@ -981,6 +1088,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7150_ab",
+    "name": "SM7150-AB",
+    "vendor": "Qualcomm",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7150",
+    "gpu": "Adreno 618 700 MHz (358.4 GFLOPS in FP32)",
+    "max_freq": "700 MHz",
+    "year": 2018
+  },
+  {
     "id": "sm7150ac",
     "name": "SM7150-AC",
     "vendor": "Qualcomm",
@@ -990,6 +1108,17 @@
     "max_freq": "2.3 GHz",
     "gpu": "Adreno 618 800 MHz (409.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7150_ac",
+    "name": "SM7150-AC",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7150",
+    "max_freq": "2.3 GHz",
+    "gpu": "Adreno 618 800 MHz (409.6 GFLOPS in FP32)",
+    "year": 2018
   },
   {
     "id": "sm7225",
@@ -1015,6 +1144,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7250_aa",
+    "name": "SM7250-AA",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7250",
+    "process": "7 nm",
+    "max_freq": "2.3 GHz",
+    "gpu": "Adreno 620 540 MHz (414.7 GFLOPS in FP32)",
+    "year": 2018
+  },
+  {
     "id": "sm7250ab",
     "name": "SM7250-AB",
     "vendor": "Qualcomm",
@@ -1026,6 +1167,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7250_ab",
+    "name": "SM7250-AB",
+    "vendor": "Qualcomm",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7250",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 620 625 MHz (480 GFLOPS in FP32)",
+    "year": 2018
+  },
+  {
     "id": "sm7250ac",
     "name": "SM7250-AC",
     "vendor": "Qualcomm",
@@ -1035,6 +1187,17 @@
     "max_freq": "2.8 GHz",
     "gpu": "Adreno 620 750 MHz (576 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7250_ac",
+    "name": "SM7250-AC",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7250",
+    "max_freq": "2.8 GHz",
+    "gpu": "Adreno 620 750 MHz (576 GFLOPS in FP32)",
+    "year": 2018
   },
   {
     "id": "sm7325",
@@ -1060,6 +1223,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7325_ae",
+    "name": "SM7325-AE",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7325",
+    "max_freq": "2.5 GHz",
+    "gpu": "Adreno 642L 608 MHz (622.6 GFLOPS in FP32)",
+    "year": 2018
+  },
+  {
     "id": "sm7325af",
     "name": "SM7325-AF",
     "vendor": "Qualcomm",
@@ -1072,6 +1246,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7325_af",
+    "name": "SM7325-AF",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7325",
+    "process": "6 nm",
+    "max_freq": "2.7 GHz",
+    "gpu": "Adreno 642L 719 MHz (736.3 GFLOPS in FP32)",
+    "year": 2018
+  },
+  {
     "id": "sm7350ab",
     "name": "SM7350-AB",
     "vendor": "Qualcomm",
@@ -1082,6 +1268,18 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7350_ab",
+    "name": "SM7350-AB",
+    "vendor": "Qualcomm",
+    "cores": 5,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7350",
+    "process": "5 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
+    "year": 2018
   },
   {
     "id": "sm7150_sm7150",
@@ -1172,7 +1370,7 @@
     "name": "SM8425",
     "vendor": "Qualcomm",
     "model": "SM8425",
-    "cores": 16,
+    "cores": 3,
     "year": 2021,
     "architecture": "ARMv8.2-A"
   },
@@ -1181,7 +1379,7 @@
     "name": "SM8450",
     "vendor": "Qualcomm",
     "model": "SM8450",
-    "cores": 8,
+    "cores": 4,
     "year": 2021,
     "process": "4 nm",
     "max_freq": "3.0 GHz",
@@ -1193,7 +1391,7 @@
     "name": "SM8475",
     "vendor": "Qualcomm",
     "model": "SM8475",
-    "cores": 16,
+    "cores": 4,
     "year": 2021,
     "process": "4 nm",
     "gpu": "Adreno 730 900 MHz (1843.2 GFLOPS in FP32)",
@@ -1213,6 +1411,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8550_ab",
+    "name": "SM8550-AB",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8550",
+    "process": "4 nm",
+    "max_freq": "3.19 GHz",
+    "gpu": "Adreno 740 680 MHz (2089 GFLOPS in FP32)",
+    "year": 2021
+  },
+  {
     "id": "sm8550ac",
     "name": "SM8550-AC",
     "vendor": "Qualcomm",
@@ -1224,11 +1434,22 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8550_ac",
+    "name": "SM8550-AC",
+    "vendor": "Qualcomm",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8550",
+    "max_freq": "3.36 GHz",
+    "gpu": "Adreno 740 719 MHz (2208.8 GFLOPS in FP32)",
+    "year": 2021
+  },
+  {
     "id": "sm8635",
     "name": "SM8635",
     "vendor": "Qualcomm",
     "model": "SM8635",
-    "cores": 8,
+    "cores": 5,
     "year": 2021,
     "max_freq": "3.0 GHz",
     "gpu": "Adreno 735 1100 MHz (1689.6 GFLOPS in FP32)",
@@ -1245,6 +1466,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8650_aa",
+    "name": "SM8650-AA",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8650",
+    "max_freq": "3.05 GHz",
+    "year": 2021
+  },
+  {
     "id": "sm8650ab",
     "name": "SM8650-AB",
     "vendor": "Qualcomm",
@@ -1255,6 +1486,18 @@
     "max_freq": "3.3 GHz",
     "gpu": "Adreno 750 903 MHz (2774 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm8650_ab",
+    "name": "SM8650-AB",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8650",
+    "process": "4 nm",
+    "max_freq": "3.3 GHz",
+    "gpu": "Adreno 750 903 MHz (2774 GFLOPS in FP32)",
+    "year": 2021
   },
   {
     "id": "sm8650ac",
@@ -1268,6 +1511,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8650_ac",
+    "name": "SM8650-AC",
+    "vendor": "Qualcomm",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8650",
+    "max_freq": "3.4 GHz",
+    "gpu": "Adreno 750 1000 MHz (3072 GFLOPS in FP32)",
+    "year": 2021
+  },
+  {
     "id": "sm8650qab",
     "name": "SM8650-Q-AB",
     "vendor": "Qualcomm",
@@ -1278,11 +1532,21 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8650_q_ab",
+    "name": "SM8650-Q-AB",
+    "vendor": "Qualcomm",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8650",
+    "max_freq": "3.30 GHz",
+    "year": 2021
+  },
+  {
     "id": "sm8735",
     "name": "SM8735",
     "vendor": "Qualcomm",
     "model": "SM8735",
-    "cores": 8,
+    "cores": 4,
     "year": 2021,
     "process": "4 nm",
     "max_freq": "3.21 GHz",
@@ -1300,6 +1564,16 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8750_3_ab",
+    "name": "SM8750-3-AB",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8750",
+    "max_freq": "4.32 GHz",
+    "year": 2021
+  },
+  {
     "id": "sm8750ab",
     "name": "SM8750-AB",
     "vendor": "Qualcomm",
@@ -1310,6 +1584,18 @@
     "max_freq": "4.32 GHz",
     "gpu": "Adreno 830 1100 MHz (3379.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm8750_ab",
+    "name": "SM8750-AB",
+    "vendor": "Qualcomm",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8750",
+    "process": "3 nm",
+    "max_freq": "4.32 GHz",
+    "gpu": "Adreno 830 1100 MHz (3379.2 GFLOPS in FP32)",
+    "year": 2021
   },
   {
     "id": "sm8750ac",
@@ -1323,11 +1609,22 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8750_ac",
+    "name": "SM8750-AC",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8750",
+    "max_freq": "4.47 GHz",
+    "gpu": "Adreno 830 1200 MHz (3686.4 GFLOPS in FP32)",
+    "year": 2021
+  },
+  {
     "id": "sm8845",
     "name": "SM8845",
     "vendor": "Qualcomm",
     "model": "SM8845",
-    "cores": 8,
+    "cores": 2,
     "year": 2021,
     "max_freq": "3.8 GHz",
     "gpu": "Adreno 829 1225 MHz (2508.8 GFLOPS in FP32)",
@@ -1345,6 +1642,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm8850_1_ad",
+    "name": "SM8850-1-AD",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8850",
+    "max_freq": "4.74 GHz",
+    "gpu": "Adreno 840 1300 MHz (3993.6 GFLOPS in FP32)",
+    "year": 2021
+  },
+  {
     "id": "sm88505ac",
     "name": "SM8850-5-AC",
     "vendor": "Qualcomm",
@@ -1353,6 +1661,16 @@
     "max_freq": "4.61 GHz",
     "year": 2021,
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm8850_5_ac",
+    "name": "SM8850-5-AC",
+    "vendor": "Qualcomm",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8850",
+    "max_freq": "4.61 GHz",
+    "year": 2021
   },
   {
     "id": "sm8850ac",
@@ -1365,6 +1683,18 @@
     "max_freq": "4.61 GHz",
     "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm8850_ac",
+    "name": "SM8850-AC",
+    "vendor": "Qualcomm",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "model": "SM8850",
+    "process": "3 nm",
+    "max_freq": "4.61 GHz",
+    "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
+    "year": 2021
   },
   {
     "id": "sm6375_sm6375",
@@ -1479,6 +1809,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm4450_af",
+    "name": "SM4450-AF",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "SM4450",
+    "max_freq": "2.3 GHz",
+    "gpu": "Adreno 613",
+    "year": 2022
+  },
+  {
     "id": "sm4635",
     "name": "SM4635",
     "vendor": "Qualcomm",
@@ -1513,6 +1854,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm6375_ac",
+    "name": "SM6375-AC",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM6375",
+    "process": "6 nm",
+    "max_freq": "2.3 GHz",
+    "gpu": "Adreno 619 900 MHz (460.8 GFLOPS in FP32)",
+    "year": 2022
+  },
+  {
     "id": "sm6435aa",
     "name": "SM6435-AA",
     "vendor": "Qualcomm",
@@ -1523,6 +1876,18 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 710",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm6435_aa",
+    "name": "SM6435-AA",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM6435",
+    "process": "4 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 710",
+    "year": 2022
   },
   {
     "id": "sm6450",
@@ -1546,6 +1911,17 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32) or 1010 MHz (517.1",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm6475_ab",
+    "name": "SM6475-AB",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM6475",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32) or 1010 MHz (517.1 GFLOPS in FP32)",
+    "year": 2022
   },
   {
     "id": "sm6650",
@@ -1584,6 +1960,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7435_ab",
+    "name": "SM7435-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7435",
+    "process": "4 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32)",
+    "year": 2022
+  },
+  {
     "id": "sm7450ab",
     "name": "SM7450-AB",
     "vendor": "Qualcomm",
@@ -1594,6 +1982,18 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 644 443 MHz (680.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7450_ab",
+    "name": "SM7450-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7450",
+    "process": "4 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Adreno 644 443 MHz (680.4 GFLOPS in FP32)",
+    "year": 2022
   },
   {
     "id": "sm7475ab",
@@ -1608,6 +2008,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7475_ab",
+    "name": "SM7475-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7475",
+    "process": "4 nm",
+    "max_freq": "2.91 GHz",
+    "gpu": "Adreno 725 580 MHz (1187.8 GFLOPS in FP32)",
+    "year": 2022
+  },
+  {
     "id": "sm7550ab",
     "name": "SM7550-AB",
     "vendor": "Qualcomm",
@@ -1618,6 +2030,18 @@
     "max_freq": "2.63 GHz",
     "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7550_ab",
+    "name": "SM7550-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7550",
+    "process": "4 nm",
+    "max_freq": "2.63 GHz",
+    "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
+    "year": 2022
   },
   {
     "id": "sm7635",
@@ -1642,6 +2066,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7635_ac",
+    "name": "SM7635-AC",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7635",
+    "max_freq": "2.7 GHz",
+    "gpu": "Adreno 810 1150 MHz (588.8 GFLOPS in FP32)",
+    "year": 2022
+  },
+  {
     "id": "sm7675ab",
     "name": "SM7675-AB",
     "vendor": "Qualcomm",
@@ -1653,6 +2088,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm7675_ab",
+    "name": "SM7675-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7675",
+    "max_freq": "2.8 GHz",
+    "gpu": "Adreno 732 950 MHz (1459.2 GFLOPS in FP32)",
+    "year": 2022
+  },
+  {
     "id": "sm7750ab",
     "name": "SM7750-AB",
     "vendor": "Qualcomm",
@@ -1662,6 +2108,17 @@
     "max_freq": "2.8 GHz",
     "gpu": "Adreno 722 1150 MHz (1177.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm7750_ab",
+    "name": "SM7750-AB",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "model": "SM7750",
+    "max_freq": "2.8 GHz",
+    "gpu": "Adreno 722 1150 MHz (1177.6 GFLOPS in FP32)",
+    "year": 2022
   },
   {
     "id": "snapdragon_4_gen_2_accelerated_edition",
@@ -1728,6 +2185,18 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "sm6115_ac",
+    "name": "SM6115-AC",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM6115",
+    "process": "11 nm",
+    "max_freq": "2.1 GHz",
+    "gpu": "Adreno 610 1050 MHz (268.8 GFLOPS in FP32)",
+    "year": 2024
+  },
+  {
     "id": "sm6225af",
     "name": "SM6225-AF",
     "vendor": "Qualcomm",
@@ -1738,6 +2207,18 @@
     "max_freq": "2.9 GHz",
     "gpu": "Adreno 610",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "sm6225_af",
+    "name": "SM6225-AF",
+    "vendor": "Qualcomm",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
+    "model": "SM6225",
+    "process": "6 nm",
+    "max_freq": "2.9 GHz",
+    "gpu": "Adreno 610",
+    "year": 2024
   },
   {
     "id": "sm8750_peach",
@@ -1761,6 +2242,17 @@
     "process": "28 nm",
     "cores": 4,
     "architecture": "ARMv7-A",
+    "max_freq": "1.3 GHz",
+    "gpu": "Adreno 304 (HD)"
+  },
+  {
+    "id": "apq8009_sda212",
+    "name": "APQ8009  (SDA212)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv7-A",
+    "model": "APQ8009",
+    "process": "28 nm",
     "max_freq": "1.3 GHz",
     "gpu": "Adreno 304 (HD)"
   },
@@ -1796,11 +2288,22 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "apq8053_sda624",
+    "name": "APQ8053 (SDA624)",
+    "vendor": "Qualcomm",
+    "cores": 14,
+    "architecture": "ARMv8.2-A",
+    "model": "APQ8053",
+    "process": "14 nm",
+    "max_freq": "1.8 GHz",
+    "gpu": "Adreno 506 (Full HD+)"
+  },
+  {
     "id": "apq8055",
     "name": "APQ8055",
     "vendor": "Qualcomm",
     "model": "APQ8055",
-    "cores": 1,
+    "cores": 8,
     "max_freq": "1.4 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -1895,7 +2398,7 @@
     "vendor": "Qualcomm",
     "model": "MSM7225",
     "process": "65 nm",
-    "cores": 1,
+    "cores": 2,
     "max_freq": "528 MHz",
     "architecture": "ARMv8.2-A"
   },
@@ -1904,7 +2407,7 @@
     "name": "MSM7225A",
     "vendor": "Qualcomm",
     "process": "45 nm",
-    "cores": 1,
+    "cores": 5,
     "architecture": "ARMv7-A",
     "max_freq": "800 MHz",
     "gpu": "Adreno 200 245 MHz (HVGA)"
@@ -1921,7 +2424,7 @@
     "name": "MSM7227",
     "vendor": "Qualcomm",
     "model": "MSM7227",
-    "cores": 1,
+    "cores": 2,
     "max_freq": "800 MHz",
     "gpu": "Adreno 200 226 MHz (FWVGA)",
     "architecture": "ARMv8.2-A"
@@ -1930,7 +2433,7 @@
     "id": "msm7227a",
     "name": "MSM7227A",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 8,
     "architecture": "ARMv7-A",
     "max_freq": "1.0 GHz",
     "gpu": "Adreno 200 245 MHz (FWVGA)"
@@ -1941,7 +2444,7 @@
     "vendor": "Qualcomm",
     "model": "MSM7230",
     "process": "45 nm",
-    "cores": 1,
+    "cores": 5,
     "max_freq": "800 MHz",
     "gpu": "Adreno 205 266 MHz ( XGA )",
     "architecture": "ARMv8.2-A"
@@ -1973,7 +2476,7 @@
     "name": "MSM8255",
     "vendor": "Qualcomm",
     "model": "MSM8255",
-    "cores": 1,
+    "cores": 8,
     "max_freq": "1.0 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -1981,7 +2484,7 @@
     "id": "msm8255t",
     "name": "MSM8255T",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -1997,7 +2500,7 @@
     "id": "msm8260a",
     "name": "MSM8260A",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 8,
     "architecture": "ARMv8.2-A"
   },
   {
@@ -2087,7 +2590,7 @@
     "name": "QCS605",
     "vendor": "Qualcomm",
     "model": "QCS605",
-    "cores": 8,
+    "cores": 2,
     "max_freq": "2.5 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -2096,7 +2599,7 @@
     "name": "QSD8250",
     "vendor": "Qualcomm",
     "process": "65 nm",
-    "cores": 1,
+    "cores": 6,
     "architecture": "ARMv7-A",
     "max_freq": "1.0 GHz",
     "gpu": "Adreno 200 226 MHz (WXGA)"
@@ -2174,7 +2677,7 @@
     "name": "SC8180",
     "vendor": "Qualcomm",
     "model": "SC8180",
-    "cores": 8,
+    "cores": 7,
     "process": "7 nm",
     "max_freq": "2.45 GHz",
     "gpu": "Adreno 675 590 MHz",
@@ -2184,7 +2687,7 @@
     "id": "sc8180x",
     "name": "SC8180X",
     "vendor": "Qualcomm",
-    "cores": 8,
+    "cores": 7,
     "process": "7 nm",
     "max_freq": "2.84 GHz",
     "gpu": "Adreno 680 585 MHz (1797.1 GFLOPS in FP32)",
@@ -2194,7 +2697,7 @@
     "id": "sc8180xp",
     "name": "SC8180XP",
     "vendor": "Qualcomm",
-    "cores": 8,
+    "cores": 4,
     "max_freq": "3.15 GHz",
     "gpu": "Adreno 690 660 MHz (2027.5 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A"
@@ -2204,7 +2707,7 @@
     "name": "SC8280",
     "vendor": "Qualcomm",
     "model": "SC8280",
-    "cores": 8,
+    "cores": 5,
     "process": "5 nm",
     "max_freq": "3.0 GHz",
     "gpu": "Adreno 695 900 MHz (3686.4 GFLOPS in FP32)",
@@ -2252,8 +2755,27 @@
     "gpu": "Adreno 306"
   },
   {
+    "id": "snapdragon_410e_apq8016e",
+    "name": "Snapdragon 410E (APQ8016E)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "max_freq": "1.2 GHz",
+    "gpu": "Adreno 306"
+  },
+  {
     "id": "snapdragon_600e",
     "name": "Snapdragon 600E",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv7-A",
+    "max_freq": "1.5 GHz",
+    "gpu": "Adreno 320 400 MHz"
+  },
+  {
+    "id": "snapdragon_600e_apq8064e",
+    "name": "Snapdragon 600E (APQ8064E)",
     "vendor": "Qualcomm",
     "cores": 4,
     "architecture": "ARMv7-A",
@@ -2272,6 +2794,17 @@
     "gpu": "Adreno 320 400 MHz (76.8 GFLOPs) (2048x1536 + 1080p external"
   },
   {
+    "id": "snapdragon_602a_apq8064_au",
+    "name": "Snapdragon 602A (APQ8064-AU)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv7-A",
+    "model": "APQ8064",
+    "process": "28 nm",
+    "max_freq": "1.51 GHz",
+    "gpu": "Adreno 320 400 MHz (76.8 GFLOPs) (2048x1536 + 1080p external display)"
+  },
+  {
     "id": "snapdragon_800e",
     "name": "Snapdragon 800E",
     "vendor": "Qualcomm",
@@ -2279,6 +2812,17 @@
     "process": "28 nm",
     "cores": 4,
     "architecture": "ARMv7-A",
+    "max_freq": "2.3 GHz",
+    "gpu": "Adreno 330"
+  },
+  {
+    "id": "snapdragon_800e_apq8074",
+    "name": "Snapdragon 800E (APQ8074)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv7-A",
+    "model": "APQ8074",
+    "process": "28 nm",
     "max_freq": "2.3 GHz",
     "gpu": "Adreno 330"
   },
@@ -2294,6 +2838,17 @@
     "gpu": "Adreno 430 650 MHz"
   },
   {
+    "id": "snapdragon_810e_apq8094",
+    "name": "Snapdragon 810E (APQ8094)",
+    "vendor": "Qualcomm",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "model": "APQ8094",
+    "process": "20 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Adreno 430 650 MHz"
+  },
+  {
     "id": "snapdragon_820am",
     "name": "Snapdragon 820AM",
     "vendor": "Qualcomm",
@@ -2302,6 +2857,16 @@
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "snapdragon_820am_apq8096au_msm8996au",
+    "name": "Snapdragon 820AM (APQ8096AU/ MSM8996AU)",
+    "vendor": "Qualcomm",
+    "cores": 14,
+    "architecture": "ARMv8.2-A",
+    "process": "14 nm",
+    "max_freq": "2.15 GHz",
+    "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)"
   },
   {
     "id": "snapdragon_820e",
@@ -2315,6 +2880,17 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "snapdragon_820e_apq8096",
+    "name": "Snapdragon 820E (APQ8096)",
+    "vendor": "Qualcomm",
+    "cores": 14,
+    "architecture": "ARMv8.2-A",
+    "model": "APQ8096",
+    "process": "14 nm",
+    "max_freq": "2.15 GHz",
+    "gpu": "Adreno 530"
+  },
+  {
     "id": "snapdragon_855a",
     "name": "Snapdragon 855A",
     "vendor": "Qualcomm",
@@ -2325,10 +2901,28 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "snapdragon_855a_sa8155p",
+    "name": "Snapdragon 855A  (SA8155P)",
+    "vendor": "Qualcomm",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "process": "7 nm",
+    "max_freq": "2.96 GHz",
+    "gpu": "Adreno 640 675 MHz (1036.8 GFLOPs)"
+  },
+  {
+    "id": "snapdragon_g_series",
+    "name": "Snapdragon G series",
+    "vendor": "Qualcomm",
+    "cores": 11,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Adreno A11"
+  },
+  {
     "id": "snapdragon_x",
     "name": "Snapdragon X",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 4,
     "process": "4 nm",
     "max_freq": "3.0 GHz",
     "gpu": "Adreno X1-45 1107 MHz (1.7 TFLOPS)",
@@ -2338,7 +2932,7 @@
     "id": "snapdragon_x_elite",
     "name": "Snapdragon X Elite",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 12,
     "max_freq": "3.4 GHz",
     "architecture": "ARMv8.2-A"
   },
@@ -2346,9 +2940,18 @@
     "id": "snapdragon_x_plus",
     "name": "Snapdragon X Plus",
     "vendor": "Qualcomm",
-    "cores": 1,
+    "cores": 2,
     "max_freq": "3.2 GHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "snapdragon_x1_series",
+    "name": "Snapdragon X1 series",
+    "vendor": "Qualcomm",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "3.4 GHz",
+    "gpu": "Adreno X1-45 1367 MHz (2.1 TFLOPS)"
   },
   {
     "id": "snapdragon_x2_elite",
@@ -2377,6 +2980,24 @@
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 910 MHz",
     "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "snapdragon_x2_series",
+    "name": "Snapdragon X2 series",
+    "vendor": "Qualcomm",
+    "cores": 10,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "4.04 GHz",
+    "gpu": "Adreno X2-45 1700 MHz"
+  },
+  {
+    "id": "snapdragon_xr_series",
+    "name": "Snapdragon XR series",
+    "vendor": "Qualcomm",
+    "cores": 10,
+    "architecture": "ARMv8.2-A",
+    "process": "10 nm",
+    "gpu": "Adreno 615"
   },
   {
     "id": "w5p_gen_1",

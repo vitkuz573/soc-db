@@ -1,0 +1,141 @@
+[
+  {
+    "id": "a111",
+    "name": "A111",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm"
+  },
+  {
+    "id": "a112",
+    "name": "A112",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm"
+  },
+  {
+    "id": "a113",
+    "name": "A113",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm"
+  },
+  {
+    "id": "s905d",
+    "name": "S905D",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-450 OpenGL ES 2.0"
+  },
+  {
+    "id": "s905l",
+    "name": "S905L",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-450 OpenGL ES 2.0"
+  },
+  {
+    "id": "s905x",
+    "name": "S905X",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-450 OpenGL ES 2.0"
+  },
+  {
+    "id": "s905x2",
+    "name": "S905X2",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+  },
+  {
+    "id": "s905y2",
+    "name": "S905Y2",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+  },
+  {
+    "id": "s905y4",
+    "name": "S905Y4",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+  },
+  {
+    "id": "s912",
+    "name": "S912",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-T820 MP3 OpenGL ES 3.1"
+  },
+  {
+    "id": "s922x",
+    "name": "S922X",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2"
+  },
+  {
+    "id": "t920l",
+    "name": "T920L",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1"
+  },
+  {
+    "id": "t950",
+    "name": "T950",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1"
+  },
+  {
+    "id": "t962",
+    "name": "T962",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-450 MP5 OpenGL ES 2.0"
+  },
+  {
+    "id": "t966",
+    "name": "T966",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1"
+  },
+  {
+    "id": "t968",
+    "name": "T968",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1"
+  }
+]

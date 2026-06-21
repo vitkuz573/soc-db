@@ -1,0 +1,99 @@
+[
+  {
+    "id": "adoption",
+    "name": "Adoption",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4720",
+    "name": "Jz4720",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4725b",
+    "name": "Jz4725B",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4730",
+    "name": "Jz4730",
+    "vendor": "Ingenic",
+    "cores": 16,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4740",
+    "name": "Jz4740",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4750",
+    "name": "Jz4750",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4755",
+    "name": "Jz4755",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "jz4760",
+    "name": "Jz4760",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Vivante GC200"
+  },
+  {
+    "id": "jz4770",
+    "name": "Jz4770",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Vivante GC860 [ 13 ]",
+    "max_freq": "500 MHz"
+  },
+  {
+    "id": "jz4775",
+    "name": "Jz4775",
+    "vendor": "Ingenic",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "500 MHz"
+  },
+  {
+    "id": "jz4780",
+    "name": "Jz4780",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX 540",
+    "max_freq": "500 MHz"
+  },
+  {
+    "id": "skytone",
+    "name": "Skytone",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "velocity_micro",
+    "name": "Velocity Micro",
+    "vendor": "Ingenic",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  }
+]

@@ -102,6 +102,14 @@
     "architecture": "ARMv8.2-A"
   },
   {
+    "id": "gs101_s5p9845",
+    "name": "GS101 (S5P9845)",
+    "vendor": "Google",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "GS101"
+  },
+  {
     "id": "mali_g78_mp20",
     "name": "Mali -G78 MP20",
     "vendor": "Google",

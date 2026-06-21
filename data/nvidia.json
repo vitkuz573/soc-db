@@ -1,0 +1,113 @@
+[
+  {
+    "id": "odnx02_a2_tm670d_a1_tm670m_a2_tm671d_a2",
+    "name": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2",
+    "vendor": "Nvidia",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "20 nm",
+    "max_freq": "2.2 GHz"
+  },
+  {
+    "id": "odnx10_a1_tm675m_a1",
+    "name": "ODNX10-A1 TM675M-A1",
+    "vendor": "Nvidia",
+    "cores": 16,
+    "architecture": "ARMv8.2-A",
+    "process": "16 nm",
+    "max_freq": "2.1 GHz"
+  },
+  {
+    "id": "t241",
+    "name": "T241",
+    "vendor": "Nvidia",
+    "cores": 72,
+    "architecture": "ARMv9-A"
+  },
+  {
+    "id": "t254",
+    "name": "T254 ?",
+    "vendor": "Nvidia",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "t264",
+    "name": "T264",
+    "vendor": "Nvidia",
+    "cores": 12,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.6 GHz"
+  },
+  {
+    "id": "te980_m",
+    "name": "TE980-M",
+    "vendor": "Nvidia",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "tm660m_a2",
+    "name": "TM660M-A2",
+    "vendor": "Nvidia",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.4 GHz"
+  },
+  {
+    "id": "tegra_2",
+    "name": "Tegra 2",
+    "vendor": "Nvidia",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.0 GHz"
+  },
+  {
+    "id": "tegra_3",
+    "name": "Tegra 3",
+    "vendor": "Nvidia",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.2 GHz"
+  },
+  {
+    "id": "tegra_4",
+    "name": "Tegra 4",
+    "vendor": "Nvidia",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "672 MHz"
+  },
+  {
+    "id": "tegra_4i",
+    "name": "Tegra 4i",
+    "vendor": "Nvidia",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "660 MHz"
+  },
+  {
+    "id": "tegra_k1",
+    "name": "Tegra K1",
+    "vendor": "Nvidia",
+    "cores": 3,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "951 MHz"
+  },
+  {
+    "id": "tegra_x2_parker",
+    "name": "Tegra X2 (Parker)",
+    "vendor": "Nvidia",
+    "cores": 2,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "thor",
+    "name": "Thor",
+    "vendor": "Nvidia",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  }
+]

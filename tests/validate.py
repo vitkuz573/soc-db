@@ -32,7 +32,9 @@ def validate_schema():
 def validate_data_files():
     """Validate each data file is valid JSON and has required fields."""
     required = ["id", "name", "vendor", "cores", "architecture"]
-    valid_vendors = {"Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple", "Intel", "AMD"}
+    valid_vendors = {"Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple",
+                     "Intel", "AMD", "Rockchip", "Allwinner", "Amlogic", "Nvidia",
+                     "TI OMAP", "Intel Atom", "Ingenic", "NXP i.MX"}
     all_ok = True
     ids_seen = set()
     total = 0

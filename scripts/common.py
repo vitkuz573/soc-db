@@ -43,7 +43,6 @@ def extract_freq(text: str) -> str | None:
     m = re.search(r"[\d.]+[\s]*(?:MHz|GHz)", text, re.IGNORECASE)
     if m:
         return m.group().strip()
-    # Also match 'up to X GHz'
     m2 = re.search(r"(?:up to\s*)?([\d.]+)\s*(?:GHz|MHz)", text, re.IGNORECASE)
     return f"{m2.group(1)} {m2.group(2)}" if m2 else None
 
@@ -65,8 +64,8 @@ def clean(text: str | None) -> str | None:
 
 
 def slug(name: str, model: str = "") -> str:
-    s = name.lower().replace("+", "p").replace("®", "")
-    s = re.sub(r"[^a-z0-9 ]", "", s)
+    s = name.lower().replace("+", "p").replace("®", "").replace("-", "_")
+    s = re.sub(r"[^a-z0-9_ ]", "", s)
     parts = [p for p in s.split() if p]
     skip = {"with", "and", "the", "for", "integrated", "support",
             "using", "based", "cores", "ghz", "mhz", "kryo", "cortex"}
@@ -114,11 +113,18 @@ VENDOR_FILES = {
     "HiSilicon": "kirin.json",
     "Google": "tensor.json",
     "Apple": "apple.json",
+    "Rockchip": "rockchip.json",
+    "Allwinner": "allwinner.json",
+    "Amlogic": "amlogic.json",
+    "Nvidia": "nvidia.json",
+    "TI OMAP": "ti_omap.json",
+    "Intel Atom": "intel_atom.json",
+    "Ingenic": "ingenic.json",
+    "NXP i.MX": "nxp_imx.json",
 }
 
 
 def merge_chips(a: dict, b: dict) -> dict:
-    """Merge two chip entries, a is base, b overrides."""
     merged = dict(a)
     for k, v in b.items():
         if v not in (None, "", 0, []):

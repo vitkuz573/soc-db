@@ -1,0 +1,233 @@
+[
+  {
+    "id": "a10",
+    "name": "A10",
+    "vendor": "Allwinner",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "55 nm",
+    "gpu": "Mali-400 (300 MHz) [ 30 ]",
+    "max_freq": "300 MHz"
+  },
+  {
+    "id": "a10s",
+    "name": "A10s",
+    "vendor": "Allwinner",
+    "cores": 10,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "a13",
+    "name": "A13",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "a133",
+    "name": "A133",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "PowerVR GE8300"
+  },
+  {
+    "id": "a20",
+    "name": "A20",
+    "vendor": "Allwinner",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "max_freq": "350 MHz"
+  },
+  {
+    "id": "a23",
+    "name": "A23",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "40 nm"
+  },
+  {
+    "id": "a31",
+    "name": "A31",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX544 MP2 (350 MHz) [ 30 ]",
+    "max_freq": "350 MHz"
+  },
+  {
+    "id": "a31s",
+    "name": "A31s",
+    "vendor": "Allwinner",
+    "cores": 5,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "a33",
+    "name": "A33",
+    "vendor": "Allwinner",
+    "cores": 97,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "max_freq": "350 MHz"
+  },
+  {
+    "id": "a40i",
+    "name": "A40i",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "a50",
+    "name": "A50",
+    "vendor": "Allwinner",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali-400 MP2"
+  },
+  {
+    "id": "a63",
+    "name": "A63",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "Mali T760"
+  },
+  {
+    "id": "a64",
+    "name": "A64",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "40 nm",
+    "gpu": "Mali-400 MP2"
+  },
+  {
+    "id": "a80_octa",
+    "name": "A80 Octa",
+    "vendor": "Allwinner",
+    "cores": 15,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "gpu": "PowerVR G6230 (Rogue) (533 MHz) [ 30 ]",
+    "max_freq": "533 MHz"
+  },
+  {
+    "id": "a83t",
+    "name": "A83T",
+    "vendor": "Allwinner",
+    "cores": 7,
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX544 (700 MHz) [ 30 ]",
+    "max_freq": "700 MHz"
+  },
+  {
+    "id": "f10",
+    "name": "F10",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f13",
+    "name": "F13",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f18",
+    "name": "F18",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f1c100",
+    "name": "F1C100",
+    "vendor": "Allwinner",
+    "cores": 9,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f1c200s",
+    "name": "F1C200s",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f1e200",
+    "name": "F1E200",
+    "vendor": "Allwinner",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "f20",
+    "name": "F20",
+    "vendor": "Allwinner",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "h616",
+    "name": "H616",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G31 MP2"
+  },
+  {
+    "id": "h618",
+    "name": "H618",
+    "vendor": "Allwinner",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "h64",
+    "name": "H64",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "process": "40 nm",
+    "gpu": "Mali-400 MP2"
+  },
+  {
+    "id": "r16",
+    "name": "R16",
+    "vendor": "Allwinner",
+    "cores": 7,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "r18",
+    "name": "R18",
+    "vendor": "Allwinner",
+    "cores": 4,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-400 MP2"
+  },
+  {
+    "id": "r40",
+    "name": "R40",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "r58",
+    "name": "R58",
+    "vendor": "Allwinner",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX544 MP1"
+  }
+]
