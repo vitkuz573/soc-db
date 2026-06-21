@@ -13,3 +13,5 @@ build/
 .ruff_cache/
 *.log
 /tmp/soc-db-cache/
+.coverage
+htmlcov/

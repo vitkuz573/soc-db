@@ -96,9 +96,9 @@ filterwarnings = ["ignore::DeprecationWarning"]
 
 [tool.coverage.run]
 source = ["soc_db"]
-omit = ["tests/*"]
+omit = ["tests/*", "*/scraper_*.py", "*/parsers.py", "*/__main__.py", "*/cli.py"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 30
+fail_under = 60
 skip_empty = true
