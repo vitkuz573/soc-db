@@ -89,33 +89,40 @@ def validate_data_files():
 
 
 def validate_index(total):
-    """Validate and update index.json counts."""
-    try:
-        idx = load_json(INDEX_FILE)
-    except json.JSONDecodeError as e:
-        print(f"  FAIL index.json: {e}")
-        return False
+    """Build index dynamically from data directory."""
+    # Discover all vendor files and map to vendor names
+    vendor_files = {}
+    for fpath in sorted(DATA_DIR.glob("*.json")):
+        if fpath.name == "index.json":
+            continue
+        try:
+            entries = load_json(fpath)
+        except json.JSONDecodeError:
+            continue
+        if not entries:
+            continue
+        # Get vendor name from first entry
+        vendor_name = entries[0].get("vendor", fpath.stem.title())
+        key = vendor_name.lower().replace(" ", "_")
+        vendor_files[key] = {
+            "name": vendor_name,
+            "file": fpath.name,
+            "count": len(entries),
+        }
 
-    old_total = idx.get("total", 0)
-    idx["total"] = total
-    idx["updated"] = "2026-06-21T09:00:00Z"
-
-    # Count per vendor file
-    for vendor_key, vendor_info in idx["vendors"].items():
-        vfile = vendor_info["file"]
-        fpath = DATA_DIR / vfile
-        if fpath.exists():
-            try:
-                entries = load_json(fpath)
-                vendor_info["count"] = len(entries)
-            except json.JSONDecodeError:
-                pass
+    idx = {
+        "version": "1.0.0",
+        "updated": "2026-06-21T09:00:00Z",
+        "vendors": dict(sorted(vendor_files.items())),
+        "total": total,
+        "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json",
+    }
 
     with open(INDEX_FILE, "w") as f:
         json.dump(idx, f, indent=2)
         f.write("\n")
 
-    print(f"  OK index.json updated: {total} entries (was {old_total})")
+    print(f"  OK index.json updated: {total} entries, {len(vendor_files)} vendors")
     return True
 
 
