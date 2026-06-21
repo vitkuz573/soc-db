@@ -46,8 +46,7 @@ def extract_freq(text: str) -> str | None:
     m = re.search(r"[\d.]+[\s]*(?:MHz|GHz)", text, re.IGNORECASE)
     if m:
         return m.group().strip()
-    m2 = re.search(r"(?:up to\s*)?([\d.]+)\s*(?:GHz|MHz)", text, re.IGNORECASE)
-    return f"{m2.group(1)} {m2.group(2)}" if m2 else None
+    return None
 
 
 def extract_process(text: str) -> str | None:
@@ -820,30 +819,6 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
                         year = 2022
                     elif ex >= 1080:
                         year = 2020
-                    elif ex >= 9900:
-                        year = 2024
-                    elif ex >= 9800:
-                        year = 2023
-                    elif ex >= 9700:
-                        year = 2022
-                    elif ex >= 9600:
-                        year = 2021
-                    elif ex >= 9500:
-                        year = 2020
-                    elif ex >= 9000:
-                        year = 2016
-                    elif ex >= 8000:
-                        year = 2015
-                    elif ex >= 7000:
-                        year = 2014
-                    elif ex >= 5000:
-                        year = 2012
-                    elif ex >= 4000:
-                        year = 2011
-                    elif ex >= 3000:
-                        year = 2010
-                    elif ex >= 2000:
-                        year = 2007
                     else:
                         year = 2005
                     break
@@ -855,26 +830,12 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
                 m_w = re.search(r"EXYNOS\s+W(\d+)", f_text)
                 if m_w:
                     w = int(m_w.group(1))
-                    if w >= 1000 or w >= 930:
-                        year = 2023
-                    elif w >= 920:
-                        year = 2021
-                    else:
-                        year = 2020
+                    year = 2023 if w >= 930 else 2020
                     break
                 m_a = re.search(r"EXYNOS\s+AUTO\s*V(\d+)", f_text)
                 if m_a:
                     av = int(m_a.group(1))
-                    if av >= 920:
-                        year = 2023
-                    elif av >= 90:
-                        year = 2020
-                    elif av >= 70:
-                        year = 2019
-                    elif av >= 9:
-                        year = 2020
-                    else:
-                        year = 2018
+                    year = 2023 if av >= 920 else 2020
                     break
             m = re.search(r"SNAPDRAGON\s*X\s*(?:ELITE|PLUS)", f_text)
             if m and not re.search(r"X\s*2", f_text):
@@ -941,7 +902,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
                 t = int(m.group(1))
                 year = 2008 + t
                 break
-            m = re.search(r"\b(T[01]\d{2}|T20[0-9])\b", f_text)
+            m = re.search(r"\bT([01]\d{2}|20[0-9])\b", f_text)
             if m:
                 year = 2008 + int(m.group(1)[:2])
                 break
@@ -1005,10 +966,10 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             m = re.search(r"\bSA(\d{4})P?\b", f_text)
             if m:
                 sa = int(m.group(1))
-                if sa >= 8255:
-                    year = 2024
-                elif sa >= 8295:
+                if sa >= 8295:
                     year = 2021
+                elif sa >= 8255:
+                    year = 2024
                 elif sa >= 8195 or sa >= 8155 or sa >= 6155:
                     year = 2019
                 else:
@@ -1038,9 +999,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
                 break
             m = re.search(r"SNAPDRAGON\s+(\d{3})(\d?)", f_text)
             if m:
-                sd_prefix = int(m.group(1))
-                sd_suffix = m.group(2)
-                sd_full = int(f"{sd_prefix}{sd_suffix or '0'}")
+                sd_full = int(m.group(1))
                 if sd_full >= 855:
                     year = 2019
                 elif sd_full >= 845:
@@ -1134,12 +1093,12 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
                 m = re.search(r"\bT(\d{3})", f_text)
                 if m:
                     aml_t = int(m.group(1))
-                    if aml_t >= 920:
-                        year = 2018
-                    elif aml_t >= 960:
+                    if aml_t >= 960:
                         year = 2016
                     elif aml_t >= 950:
                         year = 2015
+                    elif aml_t >= 920:
+                        year = 2018
                     else:
                         year = 2014
                     break
@@ -1307,11 +1266,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
         model_u = chip.get("model", "").upper()
         name_u = chip.get("name", "").upper()
         vk_npu = vk.get("npu_map", {})
-        for key, npu_name in vk_npu.items():
-            if key.upper() in model_u or key.upper() in name_u:
-                chip["npu"] = npu_name
-                break
-        else:
+        if not vk_npu:
             if vendor == "Apple" and chip["year"] >= 2017:
                 chip["npu"] = "Neural Engine"
             elif vendor == "Qualcomm":
