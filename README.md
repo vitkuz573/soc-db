@@ -3,9 +3,13 @@
 [![GitHub Pages](https://img.shields.io/badge/Web%20UI-vitkuz573.github.io/soc--db-2ea44f)](https://vitkuz573.github.io/soc-db/)
 [![Swagger](https://img.shields.io/badge/Swagger-API%20Docs-85EA2D)](https://vitkuz573.github.io/soc-db/docs/swagger.html)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12_|_3.13_|_3.14-blue?logo=python)](https://www.python.org/)
+[![Ruff](https://img.shields.io/badge/code%20style-ruff-000000)](https://github.com/astral-sh/ruff)
 [![Changelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog-E05735)](CHANGELOG.md)
 [![Contributing](https://img.shields.io/badge/contributing-guide-2ea44f)](CONTRIBUTING.md)
 [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-Contributor%20Covenant-ff69b4)](CODE_OF_CONDUCT.md)
+[![Repo](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fvitkuz573.github.io%2Fsoc-db%2Fdata%2Findex.json&query=%24.total&label=chips&color=success)](https://github.com/vitkuz573/soc-db)
+[![Roadmap](https://img.shields.io/badge/roadmap-view-ff69b4)](ROADMAP.md)
 
 Enterprise-grade SoC / CPU identifier database.
 

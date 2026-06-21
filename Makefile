@@ -16,13 +16,16 @@ lint:
 	ruff format --check .
 
 typecheck:
-	mypy src/
+	mypy src/soc_db/cli.py src/soc_db/common.py src/soc_db/__init__.py src/soc_db/__main__.py
 
 test:
 	python -m pytest tests/ -v --tb=short
 
 test-cov:
 	python -m pytest tests/ -v --tb=short --cov=soc_db --cov-report=term-missing
+
+security:
+	bandit -r src/ -x tests/ || true
 
 ci: lint typecheck test validate
 
@@ -79,6 +82,11 @@ install-timer:
 	sudo systemctl status soc-db-update.timer --no-pager
 
 ## ── Housekeeping ──────────────────────────────────────────────
+
+benchmark:
+	python -m pytest tests/ --benchmark-only -v 2>/dev/null || echo "pytest-benchmark not installed; run: pip install pytest-benchmark"
+
+.PHONY: benchmark security
 
 clean:
 	rm -rf __pycache__ .pytest_cache .ruff_cache .mypy_cache

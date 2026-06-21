@@ -42,16 +42,48 @@ WIKI_PAGES = {
 }
 
 KNOWN_PREFIXES = [
-    "Snapdragon", "Qualcomm", "Microsoft", "Dimensity", "Helio", "Kompanio",
-    "Pentonic", "Exynos", "Kirin", "Tensor", "Apple",
-    "RK", "RV", "MR", "Allwinner",
-    "OMAP", "AM", "DM", "Atom", "Celeron", "Pentium", "Xeon",
-    "Jz", "JZ", "i.MX", "IMX", "MCIMX", "SC", "SL", "SP",
+    "Snapdragon",
+    "Qualcomm",
+    "Microsoft",
+    "Dimensity",
+    "Helio",
+    "Kompanio",
+    "Pentonic",
+    "Exynos",
+    "Kirin",
+    "Tensor",
+    "Apple",
+    "RK",
+    "RV",
+    "MR",
+    "Allwinner",
+    "OMAP",
+    "AM",
+    "DM",
+    "Atom",
+    "Celeron",
+    "Pentium",
+    "Xeon",
+    "Jz",
+    "JZ",
+    "i.MX",
+    "IMX",
+    "MCIMX",
+    "SC",
+    "SL",
+    "SP",
 ]
 
 SKIP_SECTIONS = [
-    "features of", "comparison", "acronym", "bluetooth", "qcc",
-    "finances", "acquisitions", "products", "history",
+    "features of",
+    "comparison",
+    "acronym",
+    "bluetooth",
+    "qcc",
+    "finances",
+    "acquisitions",
+    "products",
+    "history",
 ]
 
 
@@ -62,29 +94,78 @@ def extract_chip_name(first_cell_text: str, section_heading: str = "") -> str | 
     for prefix in KNOWN_PREFIXES:
         if text and text.startswith(prefix):
             return text.split("[")[0].strip()
-    if text and re.match(r'^[A-Z][A-Za-z0-9]{2,}\d{2,}', text):
+    if text and re.match(r"^[A-Z][A-Za-z0-9]{2,}\d{2,}", text):
         return text.split("[")[0].strip()[:60]
     if section_heading:
         for prefix in KNOWN_PREFIXES:
             if section_heading.startswith(prefix):
                 return section_heading.split("[")[0].strip()
-        m = re.search(r'(Tegra\s+\d\w*|i\.MX\s+[\d\w]+|Atom\s+\w+)', section_heading, re.IGNORECASE)
+        m = re.search(r"(Tegra\s+\d\w*|i\.MX\s+[\d\w]+|Atom\s+\w+)", section_heading, re.IGNORECASE)
         if m:
             return m.group(1)
     return None
 
 
 NON_CHIP_NAMES = {
-    "armv7", "armv8", "armv9", "android", "linux", "windows",
-    "unknown", "n/a", "samsung", "intel", "nvidia", "apple",
-    "bluetooth", "wifi", "wi-fi", "ethernet", "usb", "pcie",
-    "lpddr3", "lpddr4", "lpddr4x", "lpddr5", "lpddr5x",
-    "ddr3", "ddr4", "ddr5", "ufs", "nvme", "emmc",
-    "gps", "gnss", "nfc", "isp", "dsp", "npu", "gpu", "cpu",
-    "tbd", "tbc", "announced", "released", "launch",
-    "october", "november", "december", "january", "february",
-    "march", "april", "may", "june", "july", "august", "september",
-    "pixel", "device", "devices", "feature", "features",
+    "armv7",
+    "armv8",
+    "armv9",
+    "android",
+    "linux",
+    "windows",
+    "unknown",
+    "n/a",
+    "samsung",
+    "intel",
+    "nvidia",
+    "apple",
+    "bluetooth",
+    "wifi",
+    "wi-fi",
+    "ethernet",
+    "usb",
+    "pcie",
+    "lpddr3",
+    "lpddr4",
+    "lpddr4x",
+    "lpddr5",
+    "lpddr5x",
+    "ddr3",
+    "ddr4",
+    "ddr5",
+    "ufs",
+    "nvme",
+    "emmc",
+    "gps",
+    "gnss",
+    "nfc",
+    "isp",
+    "dsp",
+    "npu",
+    "gpu",
+    "cpu",
+    "tbd",
+    "tbc",
+    "announced",
+    "released",
+    "launch",
+    "october",
+    "november",
+    "december",
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "pixel",
+    "device",
+    "devices",
+    "feature",
+    "features",
 }
 
 
@@ -92,21 +173,21 @@ def is_valid_chip_name(name):
     if not name or name in ("?", "", "-", "—", "TBC", "TBD"):
         return False
     low = name.lower()
-    if len(name) < 2 or re.match(r'^\d+[\s.]', name) or not re.search(r'[a-zA-Z]', name):
+    if len(name) < 2 or re.match(r"^\d+[\s.]", name) or not re.search(r"[a-zA-Z]", name):
         return False
     if low in NON_CHIP_NAMES:
         return False
-    if re.match(r'armv\d', low):
+    if re.match(r"armv\d", low):
         return False
-    if re.match(r'^\d+\s*nm', low):
+    if re.match(r"^\d+\s*nm", low):
         return False
-    if re.match(r'^\d+x\d+', low):
+    if re.match(r"^\d+x\d+", low):
         return False
-    if re.match(r'^[\d.]+[\s]*(mhz|ghz|mb/s|gb/s|gflops|tops)', low):
+    if re.match(r"^[\d.]+[\s]*(mhz|ghz|mb/s|gb/s|gflops|tops)", low):
         return False
-    if len(name) >= 5 and re.match(r'^[A-Z][a-z]+$', name) and not re.search(r'\d', name):
+    if len(name) >= 5 and re.match(r"^[A-Z][a-z]+$", name) and not re.search(r"\d", name):
         return False
-    if not re.search(r'\d', name):
+    if not re.search(r"\d", name):
         for prefix in KNOWN_PREFIXES:
             if name.startswith(prefix):
                 return True
@@ -154,7 +235,7 @@ def parse_standard_table(tbl, section_heading="", chip_name_override=""):
         chip["vendor"] = "?"
         if "year" not in chip:
             for src in [chip_name, chip.get("model", ""), section_heading]:
-                ym = re.search(r'(20[0-2]\d)', src)
+                ym = re.search(r"(20[0-2]\d)", src)
                 if ym:
                     y = int(ym.group(1))
                     if 2007 <= y <= 2030:
@@ -171,9 +252,22 @@ def parse_standard_table(tbl, section_heading="", chip_name_override=""):
 
 def _sub_label(text: str) -> bool:
     t = text.strip().lower()
-    labels = {"launch date", "type", "frequency", "speed", "bandwidth", "bit width",
-              "bus width", "model number", "part number", "codename", "μarch",
-              "isa", "fabrication", "manufacturer"}
+    labels = {
+        "launch date",
+        "type",
+        "frequency",
+        "speed",
+        "bandwidth",
+        "bit width",
+        "bus width",
+        "model number",
+        "part number",
+        "codename",
+        "μarch",
+        "isa",
+        "fabrication",
+        "manufacturer",
+    }
     return t in labels
 
 
@@ -205,7 +299,7 @@ def parse_transposed_table(tbl, section_heading="", vendor=""):
             continue
         if not is_valid_chip_name(orig):
             display = f"{vendor} {orig}".strip()
-        elif len(orig) <= 4 or re.match(r'^G\d', orig) or re.match(r'^[A-Z]\d\s*\(', orig):
+        elif len(orig) <= 4 or re.match(r"^G\d", orig) or re.match(r"^[A-Z]\d\s*\(", orig):
             prefix = vendor or section_heading.replace("series", "").strip()
             display = f"{prefix} {orig}".strip()
         else:
@@ -251,13 +345,13 @@ def parse_transposed_table(tbl, section_heading="", vendor=""):
                     elif "camera" in rl or "isp" in rl:
                         chip.update(parse_camera(cell_text))
                     elif "year" not in chip and ("launch" in rl or "released" in rl or "announced" in rl or "date" in rl or "soc" in rl):
-                        ym = re.search(r'(20\d{2})', cell_text)
+                        ym = re.search(r"(20\d{2})", cell_text)
                         if ym:
                             y = int(ym.group(1))
                             if 2007 <= y <= 2030:
                                 chip["year"] = y
                     elif "model" in rl and "number" in rl:
-                        m = re.search(r'([A-Z0-9]{3,}(?:\([A-Z0-9]+\))?)', cell_text)
+                        m = re.search(r"([A-Z0-9]{3,}(?:\([A-Z0-9]+\))?)", cell_text)
                         if m:
                             chip["model"] = m.group(1)
                     elif "codename" in rl:
@@ -272,7 +366,7 @@ def parse_transposed_table(tbl, section_heading="", vendor=""):
 
         if "year" not in chip:
             for src in [display_name, section_heading]:
-                ym = re.search(r'(20[0-2]\d)', src)
+                ym = re.search(r"(20[0-2]\d)", src)
                 if ym:
                     y = int(ym.group(1))
                     if 2007 <= y <= 2030:
@@ -284,26 +378,34 @@ def parse_transposed_table(tbl, section_heading="", vendor=""):
 
 
 SPEC_LABEL_PATTERNS = [
-    r'armv\d', r'^\d+\s*(nm|bit|gb|mb|ghz|mhz|gflops|tops|core)',
-    r'(mhz|ghz|gb/s|mb/s|gflops|tops|nm)$',
-    r'^(october|november|december|january|february|march|april|may|june|july|august|september)\b',
-    r'^\d{4}-\d{2}-\d{2}', r'octa.nucleo|nona.core|hexa.core|quad.core|dual.core',
-    r'^64.bits?|^32.bits?', r'\d×\d+\s*bit',
-    r'lpddr|ddr\d', r'ufs\s*\d\.', r'wifi|bluetooth|gnss|nfc',
-    r'^(feature|device|model number|part number|codename|fabrication|manufacturer|memory|storage|connectivity|charging|video|camera|display)',
-    r'^trustzone|^trusty\s+os',
-    r'^edge\s+tpu', r'^gen\s+\d+\s+edge\s+tpu',
-    r'exynos\s+\d+\w?\b', r'^mali\b',
-    r'^\d+x\s+\d+-bit', r'^quad-channel',
-    r'^1st\s+gen|^2nd\s+gen|^3rd\s+gen|^\d+th\s+gen',
+    r"armv\d",
+    r"^\d+\s*(nm|bit|gb|mb|ghz|mhz|gflops|tops|core)",
+    r"(mhz|ghz|gb/s|mb/s|gflops|tops|nm)$",
+    r"^(october|november|december|january|february|march|april|may|june|july|august|september)\b",
+    r"^\d{4}-\d{2}-\d{2}",
+    r"octa.nucleo|nona.core|hexa.core|quad.core|dual.core",
+    r"^64.bits?|^32.bits?",
+    r"\d×\d+\s*bit",
+    r"lpddr|ddr\d",
+    r"ufs\s*\d\.",
+    r"wifi|bluetooth|gnss|nfc",
+    r"^(feature|device|model number|part number|codename|fabrication|manufacturer|memory|storage|connectivity|charging|video|camera|display)",
+    r"^trustzone|^trusty\s+os",
+    r"^edge\s+tpu",
+    r"^gen\s+\d+\s+edge\s+tpu",
+    r"exynos\s+\d+\w?\b",
+    r"^mali\b",
+    r"^\d+x\s+\d+-bit",
+    r"^quad-channel",
+    r"^1st\s+gen|^2nd\s+gen|^3rd\s+gen|^\d+th\s+gen",
 ]
 
 
 def _is_spec_label(text: str) -> bool:
     low = text.lower().strip()
-    if not low or not re.search(r'[a-zA-Z]', low):
+    if not low or not re.search(r"[a-zA-Z]", low):
         return True
-    if re.search(r'(mhz|ghz|tops|gflops|fps|gbps|mbps)\b', low):
+    if re.search(r"(mhz|ghz|tops|gflops|fps|gbps|mbps)\b", low):
         return True
     for pat in SPEC_LABEL_PATTERNS:
         if re.search(pat, low):
@@ -362,15 +464,15 @@ def scrape_vendor(vendor):
 
         chip_override = None
         if vendor == "Nvidia":
-            m = re.search(r'(Tegra\s+\d+\w*)', heading, re.IGNORECASE)
+            m = re.search(r"(Tegra\s+\d+\w*)", heading, re.IGNORECASE)
             if m:
                 chip_override = m.group(1)
         elif vendor == "NXP i.MX":
-            m = re.search(r'(i\.MX[\s-]*\d[\w]*)', heading, re.IGNORECASE)
+            m = re.search(r"(i\.MX[\s-]*\d[\w]*)", heading, re.IGNORECASE)
             if m:
                 chip_override = m.group(1).replace("-", " ")
         elif vendor == "Intel Atom":
-            m = re.search(r'Atom\s+\w+', heading)
+            m = re.search(r"Atom\s+\w+", heading)
             if m:
                 chip_override = f"Atom {m.group(0)}"
 

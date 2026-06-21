@@ -7,6 +7,7 @@ import re
 import time
 from collections import defaultdict
 from pathlib import Path
+from typing import Any
 from urllib.request import Request, urlopen
 
 logger = logging.getLogger(__name__)
@@ -26,7 +27,7 @@ def fetch(url: str, ttl: int = 86400) -> str:
             return cache_file.read_text("utf-8")
     req = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(req, timeout=30) as resp:
-        data = resp.read().decode("utf-8")
+        data: str = resp.read().decode("utf-8")
     cache_file.write_text(data, "utf-8")
     time.sleep(1)
     return data
@@ -62,7 +63,7 @@ def clean(text: str | None) -> str | None:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\[\s*\w+\s*\]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    text = re.sub(r'\s*\(now\s+[^)]*?\)', '', text)
+    text = re.sub(r"\s*\(now\s+[^)]*?\)", "", text)
     return text or None
 
 
@@ -70,8 +71,7 @@ def slug(name: str, model: str = "") -> str:
     s = name.lower().replace("+", "p").replace("®", "").replace("-", "_")
     s = re.sub(r"[^a-z0-9_ ]", "", s)
     parts = [p for p in s.split() if p]
-    skip = {"with", "and", "the", "for", "integrated", "support",
-            "using", "based", "cores", "ghz", "mhz", "kryo", "cortex"}
+    skip = {"with", "and", "the", "for", "integrated", "support", "using", "based", "cores", "ghz", "mhz", "kryo", "cortex"}
     parts = [p for p in parts if p not in skip]
     base = "_".join(parts[:6]) if parts else "chip"
     if model:
@@ -82,24 +82,26 @@ def slug(name: str, model: str = "") -> str:
     return base or "unknown"
 
 
-def _match_existing(chip: dict, existing: dict) -> str | None:
-    cid = chip.get("id", "")
+def _match_existing(chip: dict[str, Any], existing: dict[str, Any]) -> str | None:
+    cid: str = chip.get("id", "")
     if cid in existing:
         return cid
-    model = chip.get("model", "").strip().upper()
+    model: str = chip.get("model", "").strip().upper()
     if model:
         for eid, ec in existing.items():
-            if ec.get("model", "").strip().upper() == model:
+            ec_model: str = ec.get("model", "").strip().upper()
+            if ec_model == model:
                 return eid
-    name = chip.get("name", "").lower().strip()
+    name: str = chip.get("name", "").lower().strip()
     if name:
         for eid, ec in existing.items():
-            if ec.get("name", "").lower().strip() == name:
+            ec_name: str = ec.get("name", "").lower().strip()
+            if ec_name == name:
                 return eid
     return None
 
 
-def write_vendor_file(vendor: str, chips: list[dict]) -> None:
+def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
     vfile = VENDOR_FILES.get(vendor)
     if not vfile:
         logger.warning("Unknown vendor: %s", vendor)
@@ -133,9 +135,8 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             for k, v in chip.items():
                 if k in ("name", "model"):
                     continue
-                if k not in old or old[k] in (None, "", [], 0, 0.0):
-                    if v not in (None, "", [], 0, 0.0):
-                        old[k] = v
+                if (k not in old or old[k] in (None, "", [], 0, 0.0)) and v not in (None, "", [], 0, 0.0):
+                    old[k] = v
             updated += 1
         else:
             cid = chip["id"]
@@ -144,10 +145,7 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             added += 1
     stale = set()
     for eid, ec in existing.items():
-        if eid not in matched_ids and (
-            ec.get("completeness", 1) < 0.28 or
-            ec.get("name", "").lower().startswith(("mali ", "adreno ", "powervr "))
-        ):
+        if eid not in matched_ids and (ec.get("completeness", 1) < 0.28 or ec.get("name", "").lower().startswith(("mali ", "adreno ", "powervr "))):
             stale.add(eid)
     matched_models: dict[str, list[str]] = defaultdict(list)
     for eid in matched_ids:
@@ -162,8 +160,7 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             if m and m in matched_models:
                 ename = ec.get("name", "").lower()
                 for mname in matched_models[m]:
-                    if ename and (ename in mname or mname in ename or
-                                  any(w in ename and w in mname for w in ename.split() if len(w) > 2)):
+                    if ename and (ename in mname or mname in ename or any(w in ename and w in mname for w in ename.split() if len(w) > 2)):
                         stale.add(eid)
                         break
     for eid in stale:
@@ -204,15 +201,15 @@ VENDOR_FILES = {
 
 def extract_model(text: str) -> str | None:
     patterns = [
-        r'\b(SM\d{3,}|SDM\d{3,}|MSM\d{3,}|APQ\d{3,}|SC\d{4}|QCS\d{3})\b',
-        r'\b(MT\d{4,})\b',
-        r'\b(Exynos\s*\d{4,})\b',
-        r'\b(Kirin\s*\d{3,})\b',
-        r'\b(GS\d{3})\b',
-        r'\b(RK\d{3,})\b',
-        r'\b(OMAP\d{4,})\b',
-        r'\b(AM\d{3,}|DM\d{3,})\b',
-        r'\b(APL\w+|T\d{4})\b',
+        r"\b(SM\d{3,}|SDM\d{3,}|MSM\d{3,}|APQ\d{3,}|SC\d{4}|QCS\d{3})\b",
+        r"\b(MT\d{4,})\b",
+        r"\b(Exynos\s*\d{4,})\b",
+        r"\b(Kirin\s*\d{3,})\b",
+        r"\b(GS\d{3})\b",
+        r"\b(RK\d{3,})\b",
+        r"\b(OMAP\d{4,})\b",
+        r"\b(AM\d{3,}|DM\d{3,})\b",
+        r"\b(APL\w+|T\d{4})\b",
     ]
     for pat in patterns:
         m = re.search(pat, text, re.IGNORECASE)
@@ -221,7 +218,7 @@ def extract_model(text: str) -> str | None:
     return None
 
 
-def merge_chips(a: dict, b: dict) -> dict:
+def merge_chips(a: dict[str, Any], b: dict[str, Any]) -> dict[str, Any]:
     merged = dict(a)
     for k, v in b.items():
         if v not in (None, "", 0, []):
@@ -245,103 +242,260 @@ FIELD_GROUPS = {
 }
 
 FIELD_WEIGHTS = {
-    "name": 5, "vendor": 5, "model": 5, "architecture": 4, "cores": 4,
-    "process_nm": 3, "gpu": 3, "memory_type": 2, "year": 3,
-    "clock_max": 3, "clock_min": 2, "modem": 2, "npu": 2,
-    "wifi": 2, "bluetooth": 2, "memory_clock": 2, "memory_bus": 2,
-    "display_max": 2, "camera_max": 2, "charging": 2,
-    "cluster_config": 2, "video_decode": 1, "storage_type": 1,
+    "name": 5,
+    "vendor": 5,
+    "model": 5,
+    "architecture": 4,
+    "cores": 4,
+    "process_nm": 3,
+    "gpu": 3,
+    "memory_type": 2,
+    "year": 3,
+    "clock_max": 3,
+    "clock_min": 2,
+    "modem": 2,
+    "npu": 2,
+    "wifi": 2,
+    "bluetooth": 2,
+    "memory_clock": 2,
+    "memory_bus": 2,
+    "display_max": 2,
+    "camera_max": 2,
+    "charging": 2,
+    "cluster_config": 2,
+    "video_decode": 1,
+    "storage_type": 1,
 }
 
-VENDOR_KNOWLEDGE = {
+VENDOR_KNOWLEDGE: dict[str, dict[str, Any]] = {
     "Qualcomm": {
         "architecture": "ARMv8",
         "process_map": {
-            "sm8750": 3, "sm8735": 3, "sm8675": 3, "sm8650": 4, "sm8635": 4,
-            "sm8550": 4, "sm8475": 4, "sm8450": 4, "sm8350": 5, "sm8325": 5,
-            "sm8250": 7, "sm8150": 7, "sm7450": 8, "sm7350": 8, "sm7325": 8,
-            "sm7315": 8, "sm7275": 8, "sm7250": 8, "sm7225": 8, "sm7150": 8,
-            "sm7125": 8, "sm7115": 8, "sm6450": 4, "sm6375": 6, "sm6365": 8,
-            "sm6350": 8, "sm6250": 8, "sm6235": 8, "sm6225": 6, "sm6115": 11,
-            "sm4350": 8, "sm4325": 8, "sm4250": 11, "sm4125": 11,
-            "sdm9860": 7, "sdm985": 7, "sdm980": 7, "sdm875": 7,
-            "sdm865": 7, "sdm860": 7, "sdm855": 7, "sdm850": 10,
-            "sdm845": 10, "sdm840": 10, "sdm835": 10, "sdm830": 10,
-            "sdm820": 14, "sdm821": 14,
-            "sdm670": 10, "sdm665": 11, "sdm660": 14, "sdm650": 14,
-            "sdm636": 14, "sdm632": 14, "sdm630": 14, "sdm625": 14,
-            "sdm615": 28, "sdm610": 28, "sdm608": 28, "sdm600": 28,
-            "sdm450": 28, "sdm439": 28, "sdm435": 28, "sdm430": 28,
-            "sdm429": 28, "sdm425": 28, "sdm412": 28, "sdm410": 28,
-            "msm8998": 10, "msm8996": 14, "msm8994": 20, "msm8992": 20,
-            "msm8953": 14, "msm8952": 28, "msm8940": 28, "msm8937": 28,
-            "msm8917": 28, "msm8909": 28,
-            "qcm6490": 6, "qcm5430": 6, "qcm4290": 8, "qcm2290": 11,
-            "qcs6490": 6, "qcs5430": 6, "qcs4290": 8, "qcs2290": 11,
-            "qcs410": 10, "qcs404": 28, "qcs603": 28, "qcs605": 14,
+            "sm8750": 3,
+            "sm8735": 3,
+            "sm8675": 3,
+            "sm8650": 4,
+            "sm8635": 4,
+            "sm8550": 4,
+            "sm8475": 4,
+            "sm8450": 4,
+            "sm8350": 5,
+            "sm8325": 5,
+            "sm8250": 7,
+            "sm8150": 7,
+            "sm7450": 8,
+            "sm7350": 8,
+            "sm7325": 8,
+            "sm7315": 8,
+            "sm7275": 8,
+            "sm7250": 8,
+            "sm7225": 8,
+            "sm7150": 8,
+            "sm7125": 8,
+            "sm7115": 8,
+            "sm6450": 4,
+            "sm6375": 6,
+            "sm6365": 8,
+            "sm6350": 8,
+            "sm6250": 8,
+            "sm6235": 8,
+            "sm6225": 6,
+            "sm6115": 11,
+            "sm4350": 8,
+            "sm4325": 8,
+            "sm4250": 11,
+            "sm4125": 11,
+            "sdm9860": 7,
+            "sdm985": 7,
+            "sdm980": 7,
+            "sdm875": 7,
+            "sdm865": 7,
+            "sdm860": 7,
+            "sdm855": 7,
+            "sdm850": 10,
+            "sdm845": 10,
+            "sdm840": 10,
+            "sdm835": 10,
+            "sdm830": 10,
+            "sdm820": 14,
+            "sdm821": 14,
+            "sdm670": 10,
+            "sdm665": 11,
+            "sdm660": 14,
+            "sdm650": 14,
+            "sdm636": 14,
+            "sdm632": 14,
+            "sdm630": 14,
+            "sdm625": 14,
+            "sdm615": 28,
+            "sdm610": 28,
+            "sdm608": 28,
+            "sdm600": 28,
+            "sdm450": 28,
+            "sdm439": 28,
+            "sdm435": 28,
+            "sdm430": 28,
+            "sdm429": 28,
+            "sdm425": 28,
+            "sdm412": 28,
+            "sdm410": 28,
+            "msm8998": 10,
+            "msm8996": 14,
+            "msm8994": 20,
+            "msm8992": 20,
+            "msm8953": 14,
+            "msm8952": 28,
+            "msm8940": 28,
+            "msm8937": 28,
+            "msm8917": 28,
+            "msm8909": 28,
+            "qcm6490": 6,
+            "qcm5430": 6,
+            "qcm4290": 8,
+            "qcm2290": 11,
+            "qcs6490": 6,
+            "qcs5430": 6,
+            "qcs4290": 8,
+            "qcs2290": 11,
+            "qcs410": 10,
+            "qcs404": 28,
+            "qcs603": 28,
+            "qcs605": 14,
         },
         "gpu_map": {
-            "sm8750": "Adreno 830", "sm8735": "Adreno 830",
-            "sm8675": "Adreno 830", "sm8650": "Adreno 750",
-            "sm8635": "Adreno 750", "sm8550": "Adreno 740",
-            "sm8475": "Adreno 730", "sm8450": "Adreno 730",
-            "sm8350": "Adreno 660", "sm8325": "Adreno 660",
-            "sm8250": "Adreno 650", "sm8150": "Adreno 640",
-            "sm7250": "Adreno 620", "sm7225": "Adreno 619",
-            "sm7150": "Adreno 618", "sm7125": "Adreno 618",
-            "sm7115": "Adreno 618", "sm7350": "Adreno 619",
-            "sm7325": "Adreno 619", "sm7315": "Adreno 619",
-            "sm7275": "Adreno 619", "sm7450": "Adreno 620",
-            "sm6350": "Adreno 619", "sm6250": "Adreno 619",
-            "sm6225": "Adreno 619",             "sm6235": "Adreno 619",
-            "sm6450": "Adreno 643", "sm6375": "Adreno 643",
-            "sm6365": "Adreno 613", "sm6115": "Adreno 610",
-            "sm4350": "Adreno 619", "sm4325": "Adreno 619",
-            "sm4250": "Adreno 610", "sm4125": "Adreno 610",
-            "sdm865": "Adreno 650", "sdm860": "Adreno 650",
-            "sdm855": "Adreno 640", "sdm850": "Adreno 630",
-            "sdm845": "Adreno 630", "sdm840": "Adreno 630",
-            "sdm835": "Adreno 540", "sdm830": "Adreno 540",
-            "sdm820": "Adreno 530", "sdm821": "Adreno 530",
-            "sdm670": "Adreno 615", "sdm665": "Adreno 610",
-            "sdm660": "Adreno 512", "sdm650": "Adreno 510",
-            "sdm636": "Adreno 509", "sdm632": "Adreno 506",
-            "sdm630": "Adreno 508", "sdm625": "Adreno 506",
-            "sdm450": "Adreno 506", "sdm439": "Adreno 505",
-            "sdm435": "Adreno 505", "sdm430": "Adreno 505",
-            "sdm429": "Adreno 504", "sdm425": "Adreno 308",
-            "sdm412": "Adreno 306", "sdm410": "Adreno 306",
-            "msm8998": "Adreno 540", "msm8996": "Adreno 530",
-            "msm8994": "Adreno 430", "msm8992": "Adreno 418",
-            "msm8953": "Adreno 506", "qcm6490": "Adreno 643",
+            "sm8750": "Adreno 830",
+            "sm8735": "Adreno 830",
+            "sm8675": "Adreno 830",
+            "sm8650": "Adreno 750",
+            "sm8635": "Adreno 750",
+            "sm8550": "Adreno 740",
+            "sm8475": "Adreno 730",
+            "sm8450": "Adreno 730",
+            "sm8350": "Adreno 660",
+            "sm8325": "Adreno 660",
+            "sm8250": "Adreno 650",
+            "sm8150": "Adreno 640",
+            "sm7250": "Adreno 620",
+            "sm7225": "Adreno 619",
+            "sm7150": "Adreno 618",
+            "sm7125": "Adreno 618",
+            "sm7115": "Adreno 618",
+            "sm7350": "Adreno 619",
+            "sm7325": "Adreno 619",
+            "sm7315": "Adreno 619",
+            "sm7275": "Adreno 619",
+            "sm7450": "Adreno 620",
+            "sm6350": "Adreno 619",
+            "sm6250": "Adreno 619",
+            "sm6225": "Adreno 619",
+            "sm6235": "Adreno 619",
+            "sm6450": "Adreno 643",
+            "sm6375": "Adreno 643",
+            "sm6365": "Adreno 613",
+            "sm6115": "Adreno 610",
+            "sm4350": "Adreno 619",
+            "sm4325": "Adreno 619",
+            "sm4250": "Adreno 610",
+            "sm4125": "Adreno 610",
+            "sdm865": "Adreno 650",
+            "sdm860": "Adreno 650",
+            "sdm855": "Adreno 640",
+            "sdm850": "Adreno 630",
+            "sdm845": "Adreno 630",
+            "sdm840": "Adreno 630",
+            "sdm835": "Adreno 540",
+            "sdm830": "Adreno 540",
+            "sdm820": "Adreno 530",
+            "sdm821": "Adreno 530",
+            "sdm670": "Adreno 615",
+            "sdm665": "Adreno 610",
+            "sdm660": "Adreno 512",
+            "sdm650": "Adreno 510",
+            "sdm636": "Adreno 509",
+            "sdm632": "Adreno 506",
+            "sdm630": "Adreno 508",
+            "sdm625": "Adreno 506",
+            "sdm450": "Adreno 506",
+            "sdm439": "Adreno 505",
+            "sdm435": "Adreno 505",
+            "sdm430": "Adreno 505",
+            "sdm429": "Adreno 504",
+            "sdm425": "Adreno 308",
+            "sdm412": "Adreno 306",
+            "sdm410": "Adreno 306",
+            "msm8998": "Adreno 540",
+            "msm8996": "Adreno 530",
+            "msm8994": "Adreno 430",
+            "msm8992": "Adreno 418",
+            "msm8953": "Adreno 506",
+            "qcm6490": "Adreno 643",
         },
     },
     "MediaTek": {
         "architecture": "ARMv8",
         "process_map": {
-            "mt6991": 3, "mt6989": 3, "mt6985": 4, "mt6983": 4,
-            "mt6899": 3, "mt6897": 4, "mt6895": 6, "mt6893": 6, "mt6891": 6,
-            "mt6889": 7, "mt6885": 7, "mt6883": 7, "mt6881": 7,
-            "mt6879": 6, "mt6877": 6, "mt6875": 6, "mt6873": 6,
-            "mt6855": 6, "mt6853": 7, "mt6835": 6, "mt6833": 7,
-            "mt6797": 20, "mt6795": 20,
-            "mt6789": 6, "mt6785": 12, "mt6781": 6,
-            "mt6779": 12, "mt6771": 12, "mt6768": 12, "mt6765": 12,
-            "mt6757": 20, "mt6755": 28, "mt6753": 28, "mt6752": 28, "mt6750": 28,
-            "mt6739": 28, "mt6737": 28, "mt6735": 28,
+            "mt6991": 3,
+            "mt6989": 3,
+            "mt6985": 4,
+            "mt6983": 4,
+            "mt6899": 3,
+            "mt6897": 4,
+            "mt6895": 6,
+            "mt6893": 6,
+            "mt6891": 6,
+            "mt6889": 7,
+            "mt6885": 7,
+            "mt6883": 7,
+            "mt6881": 7,
+            "mt6879": 6,
+            "mt6877": 6,
+            "mt6875": 6,
+            "mt6873": 6,
+            "mt6855": 6,
+            "mt6853": 7,
+            "mt6835": 6,
+            "mt6833": 7,
+            "mt6797": 20,
+            "mt6795": 20,
+            "mt6789": 6,
+            "mt6785": 12,
+            "mt6781": 6,
+            "mt6779": 12,
+            "mt6771": 12,
+            "mt6768": 12,
+            "mt6765": 12,
+            "mt6757": 20,
+            "mt6755": 28,
+            "mt6753": 28,
+            "mt6752": 28,
+            "mt6750": 28,
+            "mt6739": 28,
+            "mt6737": 28,
+            "mt6735": 28,
         },
         "gpu_map": {
-            "mt6991": "Immortalis-G925", "mt6989": "Immortalis-G720",
-            "mt6985": "Immortalis-G715", "mt6983": "Mali-G710",
-            "mt6899": "Immortalis-G925", "mt6897": "Mali-G720",
-            "mt6895": "Mali-G710", "mt6893": "Mali-G77",
-            "mt6889": "Mali-G77", "mt6885": "Mali-G77",
-            "mt6883": "Mali-G57", "mt6879": "Mali-G68",
-            "mt6877": "Mali-G68", "mt6875": "Mali-G57",
-            "mt6855": "Mali-G57", "mt6853": "Mali-G57",
-            "mt6835": "Mali-G57", "mt6833": "Mali-G57",
-            "mt6789": "Mali-G68", "mt6785": "Mali-G76",
-            "mt6781": "Mali-G68", "mt6779": "Mali-G76",
+            "mt6991": "Immortalis-G925",
+            "mt6989": "Immortalis-G720",
+            "mt6985": "Immortalis-G715",
+            "mt6983": "Mali-G710",
+            "mt6899": "Immortalis-G925",
+            "mt6897": "Mali-G720",
+            "mt6895": "Mali-G710",
+            "mt6893": "Mali-G77",
+            "mt6889": "Mali-G77",
+            "mt6885": "Mali-G77",
+            "mt6883": "Mali-G57",
+            "mt6879": "Mali-G68",
+            "mt6877": "Mali-G68",
+            "mt6875": "Mali-G57",
+            "mt6855": "Mali-G57",
+            "mt6853": "Mali-G57",
+            "mt6835": "Mali-G57",
+            "mt6833": "Mali-G57",
+            "mt6789": "Mali-G68",
+            "mt6785": "Mali-G76",
+            "mt6781": "Mali-G68",
+            "mt6779": "Mali-G76",
             "mt6771": "Mali-G72",
         },
     },
@@ -349,39 +503,73 @@ VENDOR_KNOWLEDGE = {
     "Samsung": {
         "architecture": "ARMv8",
         "process_map": {
-            "exynos 2200": 4, "exynos 2100": 5, "exynos 990": 7,
-            "exynos 9825": 7, "exynos 9820": 8, "exynos 9810": 10,
-            "exynos 8895": 10, "exynos 8890": 14, "exynos 7420": 14,
-            "exynos 5433": 20, "exynos 5422": 28, "exynos 5410": 28,
-            "exynos 9611": 10, "exynos 9610": 10, "exynos 9609": 10,
-            "exynos 7885": 14, "exynos 7872": 14,
+            "exynos 2200": 4,
+            "exynos 2100": 5,
+            "exynos 990": 7,
+            "exynos 9825": 7,
+            "exynos 9820": 8,
+            "exynos 9810": 10,
+            "exynos 8895": 10,
+            "exynos 8890": 14,
+            "exynos 7420": 14,
+            "exynos 5433": 20,
+            "exynos 5422": 28,
+            "exynos 5410": 28,
+            "exynos 9611": 10,
+            "exynos 9610": 10,
+            "exynos 9609": 10,
+            "exynos 7885": 14,
+            "exynos 7872": 14,
         },
         "gpu_map": {
-            "exynos 2200": "Xclipse 920", "exynos 2100": "Mali-G78",
-            "exynos 990": "Mali-G77", "exynos 9825": "Mali-G76",
-            "exynos 9820": "Mali-G76", "exynos 9810": "Mali-G72",
-            "exynos 8895": "Mali-G71", "exynos 8890": "Mali-T880",
-            "exynos 7420": "Mali-T760", "exynos 9611": "Mali-G72",
-            "exynos 9610": "Mali-G72", "exynos 7885": "Mali-G71",
+            "exynos 2200": "Xclipse 920",
+            "exynos 2100": "Mali-G78",
+            "exynos 990": "Mali-G77",
+            "exynos 9825": "Mali-G76",
+            "exynos 9820": "Mali-G76",
+            "exynos 9810": "Mali-G72",
+            "exynos 8895": "Mali-G71",
+            "exynos 8890": "Mali-T880",
+            "exynos 7420": "Mali-T760",
+            "exynos 9611": "Mali-G72",
+            "exynos 9610": "Mali-G72",
+            "exynos 7885": "Mali-G71",
         },
     },
     "HiSilicon": {
         "architecture": "ARMv8",
         "process_map": {
-            "kirin 9000": 5, "kirin 9000e": 5, "kirin 990": 7,
-            "kirin 990 5g": 7, "kirin 980": 7, "kirin 970": 10,
-            "kirin 960": 16, "kirin 955": 16, "kirin 950": 16,
-            "kirin 935": 28, "kirin 930": 28, "kirin 920": 28,
-            "kirin 710": 12, "kirin 810": 7, "kirin 820": 7,
-            "kirin 985": 7, "kirin 990e": 7,
+            "kirin 9000": 5,
+            "kirin 9000e": 5,
+            "kirin 990": 7,
+            "kirin 990 5g": 7,
+            "kirin 980": 7,
+            "kirin 970": 10,
+            "kirin 960": 16,
+            "kirin 955": 16,
+            "kirin 950": 16,
+            "kirin 935": 28,
+            "kirin 930": 28,
+            "kirin 920": 28,
+            "kirin 710": 12,
+            "kirin 810": 7,
+            "kirin 820": 7,
+            "kirin 985": 7,
+            "kirin 990e": 7,
         },
         "gpu_map": {
-            "kirin 9000": "Mali-G78", "kirin 9000e": "Mali-G78",
-            "kirin 990": "Mali-G76", "kirin 990 5g": "Mali-G76",
-            "kirin 980": "Mali-G76", "kirin 970": "Mali-G72",
-            "kirin 960": "Mali-G71", "kirin 955": "Mali-T880",
-            "kirin 950": "Mali-T880", "kirin 710": "Mali-G51",
-            "kirin 810": "Mali-G52", "kirin 820": "Mali-G57",
+            "kirin 9000": "Mali-G78",
+            "kirin 9000e": "Mali-G78",
+            "kirin 990": "Mali-G76",
+            "kirin 990 5g": "Mali-G76",
+            "kirin 980": "Mali-G76",
+            "kirin 970": "Mali-G72",
+            "kirin 960": "Mali-G71",
+            "kirin 955": "Mali-T880",
+            "kirin 950": "Mali-T880",
+            "kirin 710": "Mali-G51",
+            "kirin 810": "Mali-G52",
+            "kirin 820": "Mali-G57",
             "kirin 985": "Mali-G77",
         },
     },
@@ -392,7 +580,7 @@ VENDOR_KNOWLEDGE = {
 }
 
 
-def _has(chip: dict, field: str) -> bool:
+def _has(chip: dict[str, Any], field: str) -> bool:
     v = chip.get(field)
     return v is not None and v != "" and v != [] and v != 0 and v != 0.0
 
@@ -410,16 +598,16 @@ MEMORY_CLOCK_FROM_TYPE = {
 }
 
 
-def enrich_one(chip: dict) -> dict:
-    ann = re.compile(r'\s*\(now\s+[^)]*?\)')
+def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
+    ann = re.compile(r"\s*\(now\s+[^)]*?\)")
     for k in ("name", "model"):
         if chip.get(k):
-            cleaned = ann.sub('', chip[k]).strip()
+            cleaned = ann.sub("", chip[k]).strip()
             if cleaned != chip[k]:
                 chip[k] = cleaned
     if not chip.get("model"):
         name = chip.get("name", "")
-        if re.match(r'^[A-Za-z0-9][A-Za-z0-9/\-.\s]{1,30}$', name) and re.search(r'\d', name):
+        if re.match(r"^[A-Za-z0-9][A-Za-z0-9/\-.\s]{1,30}$", name) and re.search(r"\d", name):
             chip["model"] = name
         else:
             chip["model"] = chip.get("id", "unknown")
@@ -430,9 +618,8 @@ def enrich_one(chip: dict) -> dict:
             if mtype in chip["memory_type"].upper():
                 chip["memory_clock"] = clock
                 break
-    if not chip.get("memory_bus"):
-        if chip.get("memory_type") in ("LPDDR5X", "LPDDR5") or chip.get("memory_type") in ("LPDDR4X", "LPDDR4"):
-            chip["memory_bus"] = 64
+    if not chip.get("memory_bus") and chip.get("memory_type") in ("LPDDR5X", "LPDDR5", "LPDDR4X", "LPDDR4"):
+        chip["memory_bus"] = 64
     if not chip.get("architecture") and vk.get("architecture"):
         chip["architecture"] = vk["architecture"]
     if not chip.get("process_nm") and vk.get("process_map"):
@@ -454,37 +641,37 @@ def enrich_one(chip: dict) -> dict:
         for f_text in (chip.get("model", "").upper(), chip.get("name", "").upper()):
             if not f_text:
                 continue
-            m = re.search(r'MT(\d{4})', f_text)
+            m = re.search(r"MT(\d{4})", f_text)
             if m:
-                mt = int(m.group(1))
-                if mt >= 9900:
+                mt_val = int(m.group(1))
+                if mt_val >= 9900:
                     year = 2025
-                elif mt >= 9800:
+                elif mt_val >= 9800:
                     year = 2024
-                elif mt >= 9200:
+                elif mt_val >= 9200:
                     year = 2023
-                elif mt >= 8700:
+                elif mt_val >= 8700:
                     year = 2022
-                elif mt >= 8300:
+                elif mt_val >= 8300:
                     year = 2021
-                elif mt >= 8000:
+                elif mt_val >= 8000:
                     year = 2020
-                elif mt >= 7900:
+                elif mt_val >= 7900:
                     year = 2019
-                elif mt >= 7500:
+                elif mt_val >= 7500:
                     year = 2018
-                elif mt >= 7000:
+                elif mt_val >= 7000:
                     year = 2017
-                elif mt >= 6500:
+                elif mt_val >= 6500:
                     year = 2016
-                elif mt >= 6000:
+                elif mt_val >= 6000:
                     year = 2015
-                elif mt >= 5000:
+                elif mt_val >= 5000:
                     year = 2014
                 else:
                     year = 2013
                 break
-            m = re.search(r'(?:DIMENSITY|HELIO)\s*(\d{3,4})', f_text)
+            m = re.search(r"(?:DIMENSITY|HELIO)\s*(\d{3,4})", f_text)
             if m:
                 d = int(m.group(1))
                 if d >= 9400:
@@ -520,35 +707,35 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2014
                 break
-            m = re.search(r'KIRIN\s*(\d{3,4})', f_text)
+            m = re.search(r"KIRIN\s*(\d{3,4})", f_text)
             if m:
-                k = int(m.group(1))
-                if k >= 9010:
+                kirin = int(m.group(1))
+                if kirin >= 9010:
                     year = 2024
-                elif k >= 9000:
+                elif kirin >= 9000:
                     year = 2020
-                elif k >= 8000:
+                elif kirin >= 8000:
                     year = 2024
-                elif k >= 990:
+                elif kirin >= 990:
                     year = 2019
-                elif k >= 980:
+                elif kirin >= 980:
                     year = 2018
-                elif k >= 970:
+                elif kirin >= 970:
                     year = 2017
-                elif k >= 960:
+                elif kirin >= 960:
                     year = 2016
-                elif k >= 950 or k >= 930:
+                elif kirin >= 950 or kirin >= 930:
                     year = 2015
-                elif k >= 920 or k >= 900:
+                elif kirin >= 920 or kirin >= 900:
                     year = 2014
-                elif k >= 800 or k >= 700:
+                elif kirin >= 800 or kirin >= 700:
                     year = 2018
-                elif k >= 600:
+                elif kirin >= 600:
                     year = 2015
                 else:
                     year = 2013
                 break
-            m = re.search(r'(?:SM|SDM)(\d{3,4})', f_text)
+            m = re.search(r"(?:SM|SDM)(\d{3,4})", f_text)
             if m:
                 sm = int(m.group(1))
                 if sm >= 8750:
@@ -582,7 +769,7 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2011
                 break
-            m = re.search(r'(?:MSM|APQ)(\d{4})', f_text)
+            m = re.search(r"(?:MSM|APQ)(\d{4})", f_text)
             if m:
                 msm = int(m.group(1))
                 if msm >= 9000:
@@ -608,9 +795,9 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2007
                 break
-            m = re.search(r'EXYNOS', f_text)
+            m = re.search(r"EXYNOS", f_text)
             if m:
-                all_nums = re.findall(r'(\d{4})', f_text[m.end():])
+                all_nums = re.findall(r"(\d{4})", f_text[m.end() :])
                 if all_nums:
                     ex = int(all_nums[0])
                     if ex >= 2500:
@@ -660,15 +847,12 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2005
                     break
-                all_3 = re.findall(r'(\d{3})', f_text[m.end():])
+                all_3 = re.findall(r"(\d{3})", f_text[m.end() :])
                 if all_3:
                     ex3 = int(all_3[0])
-                    if ex3 >= 990 or ex3 >= 980 or ex3 >= 880 or ex3 >= 850:
-                        year = 2020
-                    else:
-                        year = 2015
+                    year = 2020 if ex3 >= 990 or ex3 >= 980 or ex3 >= 880 or ex3 >= 850 else 2015
                     break
-                m_w = re.search(r'EXYNOS\s+W(\d+)', f_text)
+                m_w = re.search(r"EXYNOS\s+W(\d+)", f_text)
                 if m_w:
                     w = int(m_w.group(1))
                     if w >= 1000 or w >= 930:
@@ -678,7 +862,7 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2020
                     break
-                m_a = re.search(r'EXYNOS\s+AUTO\s*V(\d+)', f_text)
+                m_a = re.search(r"EXYNOS\s+AUTO\s*V(\d+)", f_text)
                 if m_a:
                     av = int(m_a.group(1))
                     if av >= 920:
@@ -692,30 +876,30 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2018
                     break
-            m = re.search(r'SNAPDRAGON\s*X\s*(?:ELITE|PLUS)', f_text)
-            if m and not re.search(r'X\s*2', f_text):
+            m = re.search(r"SNAPDRAGON\s*X\s*(?:ELITE|PLUS)", f_text)
+            if m and not re.search(r"X\s*2", f_text):
                 year = 2024
                 break
-            m = re.search(r'SNAPDRAGON\s*X\s*2', f_text)
+            m = re.search(r"SNAPDRAGON\s*X\s*2", f_text)
             if m:
                 year = 2025
                 break
-            m = re.search(r'SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)', f_text)
+            m = re.search(r"SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)", f_text)
             if m:
                 series = int(m.group(1))
                 gen = int(m.group(2))
                 year = 2021 + gen if series >= 8 else 2020 + gen
                 break
-            m = re.search(r'RK(\d{4})', f_text)
+            m = re.search(r"RK(\d{4})", f_text)
             if m:
                 rk = int(m.group(1))
                 year = 2008 + (rk - 2000) // 200
                 break
-            m = re.search(r'\b([AM])(\d+)\b', f_text)
+            m = re.search(r"\b([AM])(\d+)\b", f_text)
             if m:
                 prefix = m.group(1)
                 num = int(m.group(2))
-                if prefix == 'A':
+                if prefix == "A":
                     if num >= 18:
                         year = 2025
                     elif num == 17:
@@ -742,7 +926,7 @@ def enrich_one(chip: dict) -> dict:
                         year = 2013
                     else:
                         year = 2011 + num - 5
-                elif prefix == 'M':
+                elif prefix == "M":
                     if num >= 4:
                         year = 2025
                     elif num == 3:
@@ -752,31 +936,31 @@ def enrich_one(chip: dict) -> dict:
                     elif num == 1:
                         year = 2020
                 break
-            m = re.search(r'TEGRA\s*(\d+)', f_text)
+            m = re.search(r"TEGRA\s*(\d+)", f_text)
             if m:
                 t = int(m.group(1))
                 year = 2008 + t
                 break
-            m = re.search(r'\b(T[01]\d{2}|T20[0-9])\b', f_text)
+            m = re.search(r"\b(T[01]\d{2}|T20[0-9])\b", f_text)
             if m:
                 year = 2008 + int(m.group(1)[:2])
                 break
-            x1_match = re.search(r'(?:TE|T)\d{3}X1', f_text)
+            x1_match = re.search(r"(?:TE|T)\d{3}X1", f_text)
             if x1_match:
                 year = 2015
                 break
-            m = re.search(r'ATOM\s*(\w+)', f_text)
+            m = re.search(r"ATOM\s*(\w+)", f_text)
             if m:
                 atom_name = m.group(1).upper()
-                if re.search(r'Z\d{3,}', atom_name) or re.search(r'N\d{3,}', atom_name) or re.search(r'x\d{2,}', atom_name):
+                if re.search(r"Z\d{3,}", atom_name) or re.search(r"N\d{3,}", atom_name) or re.search(r"x\d{2,}", atom_name):
                     pass
-            m = re.search(r'\b[xzzn]\d+', f_text, re.IGNORECASE)
+            m = re.search(r"\b[xzzn]\d+", f_text, re.IGNORECASE)
             if m:
-                if re.search(r'[xX]\d', f_text):
+                if re.search(r"[xX]\d", f_text):
                     year = 2015
-                elif re.search(r'[Zz]\d{4}', f_text):
+                elif re.search(r"[Zz]\d{4}", f_text):
                     year = 2014
-            m = re.search(r'\bG(\d+)\s*GEN\s*(\d+)', f_text)
+            m = re.search(r"\bG(\d+)\s*GEN\s*(\d+)", f_text)
             if m:
                 g_series = int(m.group(1))
                 g_gen = int(m.group(2))
@@ -787,22 +971,22 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2020 + g_gen + (g_series > 1)
                 break
-            m = re.search(r'\bG(\d+)X\s*GEN\s*(\d+)', f_text)
+            m = re.search(r"\bG(\d+)X\s*GEN\s*(\d+)", f_text)
             if m:
                 g_gen = int(m.group(2))
                 year = 2020 + g_gen if g_gen == 1 else 2021 + g_gen
                 break
-            m = re.search(r'MICROSOFT\s+SQ(\d+)', f_text)
+            m = re.search(r"MICROSOFT\s+SQ(\d+)", f_text)
             if m:
                 sq = int(m.group(1))
                 year = 2018 + sq
                 break
-            m = re.search(r'\bQCS(\d{3})\b', f_text)
+            m = re.search(r"\bQCS(\d{3})\b", f_text)
             if m:
                 qcs = int(m.group(1))
                 year = 2015 + (qcs // 100)
                 break
-            m = re.search(r'\bSC(\d{4})', f_text)
+            m = re.search(r"\bSC(\d{4})", f_text)
             if m:
                 sc = int(m.group(1))
                 if sc >= 8380:
@@ -818,7 +1002,7 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2018
                 break
-            m = re.search(r'\bSA(\d{4})P?\b', f_text)
+            m = re.search(r"\bSA(\d{4})P?\b", f_text)
             if m:
                 sa = int(m.group(1))
                 if sa >= 8255:
@@ -830,18 +1014,18 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2018
                 break
-            m = re.search(r'WEAR\s*(\d+)', f_text)
+            m = re.search(r"WEAR\s*(\d+)", f_text)
             if m:
                 wear = int(m.group(1))
                 year = 2016 + (wear - 2100) // 500 if wear >= 2100 else 2018 + (wear - 2500) // 500
                 year = 2020
                 break
-            m = re.search(r'W\d+\+?\s*GEN\s*(\d+)', f_text)
+            m = re.search(r"W\d+\+?\s*GEN\s*(\d+)", f_text)
             if m:
                 w_gen = int(m.group(1))
                 year = 2021 + w_gen
                 break
-            m = re.search(r'XR(\d+)\s*(?:GEN\s*(\d+))?', f_text)
+            m = re.search(r"XR(\d+)\s*(?:GEN\s*(\d+))?", f_text)
             if m:
                 xr = int(m.group(1))
                 xr_gen = m.group(2)
@@ -852,7 +1036,7 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2018
                 break
-            m = re.search(r'SNAPDRAGON\s+(\d{3})(\d?)', f_text)
+            m = re.search(r"SNAPDRAGON\s+(\d{3})(\d?)", f_text)
             if m:
                 sd_prefix = int(m.group(1))
                 sd_suffix = m.group(2)
@@ -874,34 +1058,34 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2012
                 break
-            m = re.search(r'\bQSD(\d{4})\b', f_text)
+            m = re.search(r"\bQSD(\d{4})\b", f_text)
             if m:
                 year = 2009
                 break
-            m = re.search(r'\bSW(\d{4})\b', f_text)
+            m = re.search(r"\bSW(\d{4})\b", f_text)
             if m:
                 sw = int(m.group(1))
                 year = 2015 + (sw // 1000)
                 break
-            m = re.search(r'\bCE(\d{4})\b', f_text)
+            m = re.search(r"\bCE(\d{4})\b", f_text)
             if m:
                 ce = int(m.group(1))
                 year = 2008 + (ce // 1000)
                 break
-            m = re.search(r'\bOMAP(\d)\d{3}\b', f_text)
+            m = re.search(r"\bOMAP(\d)\d{3}\b", f_text)
             if m:
                 omap_gen = int(m.group(1))
                 year = 2004 + omap_gen * 2
                 break
-            m = re.search(r'\b([AHFR])(\d{2,3})', f_text)
+            m = re.search(r"\b([AHFR])(\d{2,3})", f_text)
             if m:
                 aw_prefix = m.group(1)
                 aw_num = int(m.group(2))
-                if aw_prefix == 'F':
+                if aw_prefix == "F":
                     year = 2015 if aw_num >= 100 else 2013
-                elif aw_prefix == 'R':
+                elif aw_prefix == "R":
                     year = 2012 + (aw_num // 10) if aw_num >= 40 else 2014
-                elif aw_prefix == 'H':
+                elif aw_prefix == "H":
                     if aw_num >= 700:
                         year = 2018 + (aw_num - 700) // 2
                     elif aw_num >= 600:
@@ -912,7 +1096,7 @@ def enrich_one(chip: dict) -> dict:
                         year = 2014 + (aw_num - 300) // 2
                     else:
                         year = 2013
-                elif aw_prefix == 'A':
+                elif aw_prefix == "A":
                     if aw_num >= 100:
                         year = 2014 + (aw_num - 100) // 10
                     elif aw_num >= 80:
@@ -928,7 +1112,7 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2011 + aw_num // 5
                 break
-            m = re.search(r'\bS(\d{3})', f_text)
+            m = re.search(r"\bS(\d{3})", f_text)
             if m:
                 aml = int(m.group(1))
                 if aml >= 928:
@@ -947,7 +1131,7 @@ def enrich_one(chip: dict) -> dict:
                     year = 2012
                 break
             if chip.get("vendor") == "Amlogic":
-                m = re.search(r'\bT(\d{3})', f_text)
+                m = re.search(r"\bT(\d{3})", f_text)
                 if m:
                     aml_t = int(m.group(1))
                     if aml_t >= 920:
@@ -959,7 +1143,7 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2014
                     break
-            m = re.search(r'KOMPANIO\s*(\d+)', f_text)
+            m = re.search(r"KOMPANIO\s*(\d+)", f_text)
             if m:
                 komp = int(m.group(1))
                 if komp >= 1300 or komp >= 1200 or komp >= 800:
@@ -969,51 +1153,48 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2020
                 break
-            m = re.search(r'ATOM\s+([DN])(\d{4})', f_text)
+            m = re.search(r"ATOM\s+([DN])(\d{4})", f_text)
             if m:
                 atom_letter = m.group(1)
                 atom_digits = int(m.group(2))
-                if atom_letter == 'D':
-                    year = 2010 + (atom_digits // 1000)
-                else:
-                    year = 2009 + (atom_digits // 500)
+                year = 2010 + (atom_digits // 1000) if atom_letter == "D" else 2009 + (atom_digits // 500)
                 break
-            m = re.search(r'\bJZ(\d{4})\b', f_text, re.IGNORECASE)
+            m = re.search(r"\bJZ(\d{4})\b", f_text, re.IGNORECASE)
             if m:
                 jz = int(m.group(1))
                 year = 2005 + (jz // 1000)
                 break
-            m = re.search(r'\bTHOR\b', f_text)
+            m = re.search(r"\bTHOR\b", f_text)
             if m:
                 year = 2025
                 break
-            m = re.search(r'F1[CE](\d{3})', f_text)
+            m = re.search(r"F1[CE](\d{3})", f_text)
             if m:
                 f1 = int(m.group(1))
                 year = 2014 + (f1 // 100)
                 break
-            m = re.search(r'AIOT\s*[Ii](\d{3})', f_text)
+            m = re.search(r"AIOT\s*[Ii](\d{3})", f_text)
             if m:
                 year = 2020 + (int(m.group(1)) // 100)
                 break
-            m = re.search(r'\bSP(\d{4})\b', f_text)
+            m = re.search(r"\bSP(\d{4})\b", f_text)
             if m:
                 sp = int(m.group(1))
                 year = 2010 + (sp - 9000) // 100
                 break
-            m = re.search(r'\bUMS(\d{4})\b', f_text)
+            m = re.search(r"\bUMS(\d{4})\b", f_text)
             if m:
                 ums = int(m.group(1))
                 year = 2018 + ((ums - 9000) // 200)
                 break
-            m = re.search(r'\bK3V2', f_text)
+            m = re.search(r"\bK3V2", f_text)
             if m:
                 year = 2012
-                if 'K3V2E' in f_text:
+                if "K3V2E" in f_text:
                     year = 2013
                 break
-            m = re.search(r'\bT(\d{2,3})', f_text)
-            if m and 'KIRIN' in f_text:
+            m = re.search(r"\bT(\d{2,3})", f_text)
+            if m and "KIRIN" in f_text:
                 kt = int(m.group(1))
                 if kt >= 92:
                     year = 2025
@@ -1031,35 +1212,49 @@ def enrich_one(chip: dict) -> dict:
     yr = chip.get("year")
     if not chip.get("process_nm") and yr:
         proc_by_year = [
-            (2024, 3), (2023, 4), (2021, 5), (2019, 7),
-            (2017, 10), (2015, 14), (2013, 20), (2011, 28),
-            (2009, 40), (0, 65),
+            (2024, 3),
+            (2023, 4),
+            (2021, 5),
+            (2019, 7),
+            (2017, 10),
+            (2015, 14),
+            (2013, 20),
+            (2011, 28),
+            (2009, 40),
+            (0, 65),
         ]
-        for y, nm in proc_by_year:
-            if yr >= y:
+        for yr_proc, nm in proc_by_year:
+            if yr >= yr_proc:
                 chip["process_nm"] = nm
                 chip["process_name"] = f"{nm}nm"
                 break
     yr = chip.get("year")
     if not chip.get("memory_type") and yr:
         mem_by_year = [
-            (2023, "LPDDR5X"), (2021, "LPDDR5"), (2019, "LPDDR4X"),
-            (2016, "LPDDR4"), (2014, "LPDDR3"), (2012, "LPDDR2"),
+            (2023, "LPDDR5X"),
+            (2021, "LPDDR5"),
+            (2019, "LPDDR4X"),
+            (2016, "LPDDR4"),
+            (2014, "LPDDR3"),
+            (2012, "LPDDR2"),
             (0, "LPDDR"),
         ]
-        for y, mt in mem_by_year:
-            if yr >= y:
-                chip["memory_type"] = mt
+        for yr_mem, mt_name in mem_by_year:
+            if yr >= yr_mem:
+                chip["memory_type"] = mt_name
                 break
     yr = chip.get("year")
     if not chip.get("storage_type") and yr:
         st_by_year = [
-            (2021, "UFS 3.1"), (2019, "UFS 3.0"), (2017, "UFS 2.1"),
-            (2015, "UFS 2.0"), (0, "eMMC 5.0"),
+            (2021, "UFS 3.1"),
+            (2019, "UFS 3.0"),
+            (2017, "UFS 2.1"),
+            (2015, "UFS 2.0"),
+            (0, "eMMC 5.0"),
         ]
-        for y, st in st_by_year:
-            if yr >= y:
-                chip["storage_type"] = st
+        for yr_st, st_name in st_by_year:
+            if yr >= yr_st:
+                chip["storage_type"] = st_name
                 break
     mt = chip.get("memory_type", "")
     if not chip.get("memory_clock") and mt:
@@ -1078,9 +1273,9 @@ def enrich_one(chip: dict) -> dict:
                 chip["memory_clock"] = v
                 break
     if not chip.get("memory_bus") and mt:
-        if mt.startswith("LPDDR4") or mt.startswith("LPDDR5") or mt.startswith("LPDDR6"):
+        if mt.startswith(("LPDDR4", "LPDDR5", "LPDDR6")):
             chip["memory_bus"] = 64
-        elif mt.startswith("LPDDR3") or mt.startswith("LPDDR2") or mt.startswith("LPDDR"):
+        elif mt.startswith(("LPDDR3", "LPDDR2", "LPDDR")):
             chip["memory_bus"] = 32
     if not chip.get("gpu") and chip.get("year"):
         vendor = chip.get("vendor", "")
@@ -1107,7 +1302,7 @@ def enrich_one(chip: dict) -> dict:
             chip["gpu"] = "Vivante GC"
         elif vendor == "Xilinx":
             chip["gpu"] = "Mali GPU"
-    if not chip.get("npu") and chip.get("year") and chip.get("year") >= 2017:
+    if not chip.get("npu") and yr and yr >= 2017:
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
         name_u = chip.get("name", "").upper()
@@ -1125,22 +1320,21 @@ def enrich_one(chip: dict) -> dict:
             elif vendor == "MediaTek":
                 if "DIMENSITY" in model_u or "DIMENSITY" in name_u:
                     chip["npu"] = "MediaTek APU"
-                elif re.search(r'MT\d{4}', model_u):
-                    mt_num = int(re.search(r'MT(\d{4})', model_u).group(1))
-                    if mt_num >= 8000:
+                elif re.search(r"MT\d{4}", model_u):
+                    mt_m = re.search(r"MT(\d{4})", model_u)
+                    if mt_m and int(mt_m.group(1)) >= 8000:
                         chip["npu"] = "MediaTek APU"
-            elif vendor == "Samsung" and re.search(r'EXYNOS\s*(21|22|24|25)', model_u):
+            elif vendor == "Samsung" and re.search(r"EXYNOS\s*(21|22|24|25)", model_u):
                 chip["npu"] = "Samsung NPU"
-            elif vendor == "HiSilicon":
-                if re.search(r'KIRIN\s*(9|8|7)', model_u):
-                    chip["npu"] = "HiSilicon NPU"
+            elif vendor == "HiSilicon" and re.search(r"KIRIN\s*(9|8|7)", model_u):
+                chip["npu"] = "HiSilicon NPU"
     if not chip.get("modem") and chip.get("year"):
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
         name_u = chip.get("name", "").upper()
         yr = chip["year"]
         if vendor == "Qualcomm":
-            sm_match = re.search(r'(SM|SDM)(\d{4})', model_u)
+            sm_match = re.search(r"(SM|SDM)(\d{4})", model_u)
             if sm_match:
                 sm_num = int(sm_match.group(2))
                 modem_map = {8750: "X80", 8650: "X75", 8550: "X70", 8450: "X65", 8350: "X60", 8250: "X55", 8150: "X50", 8000: "X24"}
@@ -1148,7 +1342,7 @@ def enrich_one(chip: dict) -> dict:
                     if sm_num >= num:
                         chip["modem"] = f"Snapdragon {modem_name} 5G"
                         break
-            gen_match = re.search(r'SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)', model_u)
+            gen_match = re.search(r"SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)", model_u)
             if gen_match and not chip.get("modem"):
                 gen_num = int(gen_match.group(2))
                 if int(gen_match.group(1)) >= 8:
@@ -1160,19 +1354,19 @@ def enrich_one(chip: dict) -> dict:
             elif not chip.get("modem") and chip["year"] >= 2013:
                 chip["modem"] = "Snapdragon 4G LTE"
         elif vendor == "MediaTek":
-            if re.search(r'DIMENSITY', model_u) or re.search(r'MT\d{4}', model_u):
+            if re.search(r"DIMENSITY", model_u) or re.search(r"MT\d{4}", model_u):
                 if chip["year"] >= 2020:
                     chip["modem"] = "MediaTek 5G"
                 elif chip["year"] >= 2015:
                     chip["modem"] = "MediaTek 4G LTE"
-        elif vendor == "Samsung" and re.search(r'EXYNOS', model_u):
+        elif vendor == "Samsung" and re.search(r"EXYNOS", model_u):
             if chip["year"] >= 2020:
                 chip["modem"] = "Exynos 5G"
             elif chip["year"] >= 2014:
                 chip["modem"] = "Exynos 4G LTE"
         elif vendor == "Apple" and chip["year"] >= 2019:
             chip["modem"] = "Apple 5G"
-        elif vendor == "HiSilicon" and re.search(r'KIRIN', model_u):
+        elif vendor == "HiSilicon" and re.search(r"KIRIN", model_u):
             if chip["year"] >= 2019:
                 chip["modem"] = "Balong 5G"
             elif chip["year"] >= 2014:
@@ -1180,24 +1374,35 @@ def enrich_one(chip: dict) -> dict:
     yr = chip.get("year")
     if not chip.get("wifi") and yr:
         wifi_by_year = [
-            (2025, "Wi-Fi 7"), (2023, "Wi-Fi 7"), (2021, "Wi-Fi 6E"),
-            (2019, "Wi-Fi 6"), (2015, "Wi-Fi 5"), (2010, "Wi-Fi 4"),
-            (2005, "Wi-Fi 3"), (0, "Wi-Fi 2"),
+            (2025, "Wi-Fi 7"),
+            (2023, "Wi-Fi 7"),
+            (2021, "Wi-Fi 6E"),
+            (2019, "Wi-Fi 6"),
+            (2015, "Wi-Fi 5"),
+            (2010, "Wi-Fi 4"),
+            (2005, "Wi-Fi 3"),
+            (0, "Wi-Fi 2"),
         ]
-        for y, w in wifi_by_year:
-            if yr >= y:
-                chip["wifi"] = w
+        for yr_wifi, w_name in wifi_by_year:
+            if yr >= yr_wifi:
+                chip["wifi"] = w_name
                 break
     if not chip.get("bluetooth") and yr:
         bt_by_year = [
-            (2025, "5.4"), (2023, "5.3"), (2021, "5.2"),
-            (2019, "5.0"), (2017, "4.2"), (2015, "4.1"),
-            (2012, "4.0"), (2010, "3.0"), (2007, "2.1"),
+            (2025, "5.4"),
+            (2023, "5.3"),
+            (2021, "5.2"),
+            (2019, "5.0"),
+            (2017, "4.2"),
+            (2015, "4.1"),
+            (2012, "4.0"),
+            (2010, "3.0"),
+            (2007, "2.1"),
             (0, "2.0"),
         ]
-        for y, b in bt_by_year:
-            if yr >= y:
-                chip["bluetooth"] = b
+        for yr_bt, b_name in bt_by_year:
+            if yr >= yr_bt:
+                chip["bluetooth"] = b_name
                 break
     if not chip.get("aliases"):
         aliases = set()
@@ -1205,7 +1410,16 @@ def enrich_one(chip: dict) -> dict:
         model = chip.get("model", "")
         if name and model and model not in name:
             aliases.add(f"{name} ({model})")
-        for key, alist in {"SM8250": ["Kona"], "SM8350": ["Lahaina"], "SM8450": ["Waipio"], "SM8475": ["Waipio"], "SM8550": ["Kalama"], "SM8650": ["Pineapple"], "SM8750": ["Pineapple"]}.items():
+        codenames = {
+            "SM8250": ["Kona"],
+            "SM8350": ["Lahaina"],
+            "SM8450": ["Waipio"],
+            "SM8475": ["Waipio"],
+            "SM8550": ["Kalama"],
+            "SM8650": ["Pineapple"],
+            "SM8750": ["Pineapple"],
+        }
+        for key, alist in codenames.items():
             if key.upper() in model_upper:
                 for a in alist:
                     aliases.add(a)
@@ -1220,5 +1434,5 @@ def enrich_one(chip: dict) -> dict:
     return chip
 
 
-def enrich_all(chips: list[dict]) -> list[dict]:
+def enrich_all(chips: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [enrich_one(c) for c in chips]

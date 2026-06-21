@@ -1,13 +1,12 @@
 """soc-db REST API — FastAPI server."""
 
-import json
 import gzip
+import json
 from pathlib import Path
-from typing import Optional
 
-from fastapi import FastAPI, Query, HTTPException
-from fastapi.responses import JSONResponse, Response
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse, Response
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -38,6 +37,7 @@ def load_all():
 def make_cache_buster():
     from hashlib import md5
     from os import urandom
+
     return md5(urandom(16)).hexdigest()[:8]
 
 
@@ -88,17 +88,17 @@ def list_vendors():
 
 @app.get("/chips")
 def list_chips(
-    q: Optional[str] = Query(None, description="Full-text search"),
-    vendor: Optional[str] = Query(None, description="Vendor name (exact)"),
-    arch: Optional[str] = Query(None, description="Architecture (substring)"),
-    gpu: Optional[str] = Query(None, description="GPU (substring)"),
-    year: Optional[int] = Query(None, description="Release year"),
-    min_cores: Optional[int] = Query(None, alias="min-cores"),
-    min_completeness: Optional[float] = Query(None, alias="min-completeness", ge=0, le=1),
+    q: str | None = Query(None, description="Full-text search"),
+    vendor: str | None = Query(None, description="Vendor name (exact)"),
+    arch: str | None = Query(None, description="Architecture (substring)"),
+    gpu: str | None = Query(None, description="GPU (substring)"),
+    year: int | None = Query(None, description="Release year"),
+    min_cores: int | None = Query(None, alias="min-cores"),
+    min_completeness: float | None = Query(None, alias="min-completeness", ge=0, le=1),
     limit: int = Query(100, ge=1, le=10000),
     offset: int = Query(0, ge=0),
-    fields: Optional[str] = Query(None, description="Comma-separated field whitelist"),
-    sort: Optional[str] = Query(None, description="Sort field"),
+    fields: str | None = Query(None, description="Comma-separated field whitelist"),
+    sort: str | None = Query(None, description="Sort field"),
     order: str = Query("asc", pattern="^(asc|desc)$"),
 ):
     chips = get_chips()
@@ -169,11 +169,13 @@ def export(fmt: str):
     chips = get_chips()
     if fmt == "json":
         return JSONResponse(chips)
-    elif fmt == "json.gz":
+    if fmt == "json.gz":
         data = json.dumps(chips, ensure_ascii=False).encode()
         return Response(gzip.compress(data), media_type="application/gzip", headers={"Content-Encoding": "gzip"})
-    elif fmt == "csv":
-        import csv, io
+    if fmt == "csv":
+        import csv
+        import io
+
         out = io.StringIO()
         w = csv.writer(out)
         fields = ["id", "name", "vendor", "model", "architecture", "cores", "process_nm", "gpu", "year", "completeness"]

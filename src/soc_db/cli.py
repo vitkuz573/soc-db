@@ -16,6 +16,7 @@ Usage:
 import json
 import logging
 import sys
+from typing import Any
 
 from soc_db.common import DATA_DIR, enrich_all
 
@@ -53,14 +54,16 @@ def cmd_list(args):
     chips = load_all()
     if args.vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == args.vendor.lower()]
-    vendors = {}
+    vendors: dict[str, dict[str, Any]] = {}
     for c in chips:
         v = c.get("vendor", "Unknown")
         vendors.setdefault(v, {"count": 0, "completeness": []})
         vendors[v]["count"] += 1
         vendors[v]["completeness"].append(c.get("completeness", 0))
     if args.json:
-        out = {k: {"count": v["count"], "avg_completeness": round(sum(v["completeness"]) / max(len(v["completeness"]), 1), 3)} for k, v in sorted(vendors.items())}
+        out = {
+            k: {"count": v["count"], "avg_completeness": round(sum(v["completeness"]) / max(len(v["completeness"]), 1), 3)} for k, v in sorted(vendors.items())
+        }
         print(json.dumps(out, indent=2))
     else:
         rows = []
@@ -91,10 +94,11 @@ def cmd_query(args):
         term = args.search.lower()
         chips = [c for c in chips if term in json.dumps(c).lower()]
     if args.limit:
-        chips = chips[:args.limit]
+        chips = chips[: args.limit]
     if args.csv:
         import csv
         import io
+
         out = io.StringIO()
         w = csv.writer(out)
         fields = ["id", "name", "vendor", "model", "architecture", "cores", "process_nm", "gpu", "year", "completeness"]
@@ -170,6 +174,7 @@ def cmd_enrich(args):
 
 def main():
     import argparse
+
     p = argparse.ArgumentParser(description="soc-db CLI")
     sp = p.add_subparsers(dest="cmd")
 

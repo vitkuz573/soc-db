@@ -37,8 +37,8 @@ All data must validate against `schema/chip-schema.json` — run `make validate`
 1. Create a feature branch from `main`
 2. Make your changes
 3. Run `make ci` — all checks must pass
-4. Open a PR using the [PR template](https://github.com/vitkuz573/soc-db/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
-5. A maintainer will review
+4. Run `make security` — no critical vulnerabilities
+5. A maintainer will review your PR
 
 ## Code Standards
 
