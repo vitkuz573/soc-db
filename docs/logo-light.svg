@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" fill="none">
+  <defs>
+    <linearGradient id="chip-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chip icon -->
+  <rect x="20" y="40" width="100" height="100" rx="16" fill="url(#chip-grad)" stroke="#1e3a8a" stroke-width="3"/>
+  <rect x="35" y="55" width="70" height="70" rx="8" fill="#1e3a8a"/>
+  <rect x="42" y="62" width="56" height="56" rx="4" fill="#2563eb"/>
+
+  <!-- Inner pattern -->
+  <rect x="52" y="72" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="62" y="72" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="72" y="72" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="82" y="72" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="52" y="82" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="62" y="82" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="72" y="82" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="82" y="82" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="52" y="92" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="62" y="92" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="72" y="92" width="8" height="8" rx="1" fill="#60a5fa"/>
+  <rect x="82" y="92" width="8" height="8" rx="1" fill="#60a5fa"/>
+
+  <!-- Wireframe lines on chip edges -->
+  <line x1="10" y1="60" x2="20" y2="60" stroke="#2563eb" stroke-width="2"/>
+  <line x1="10" y1="80" x2="20" y2="80" stroke="#2563eb" stroke-width="2"/>
+  <line x1="10" y1="100" x2="20" y2="100" stroke="#2563eb" stroke-width="2"/>
+  <line x1="120" y1="60" x2="130" y2="60" stroke="#2563eb" stroke-width="2"/>
+  <line x1="120" y1="80" x2="130" y2="80" stroke="#2563eb" stroke-width="2"/>
+  <line x1="120" y1="100" x2="130" y2="100" stroke="#2563eb" stroke-width="2"/>
+  <line x1="40" y1="30" x2="40" y2="40" stroke="#2563eb" stroke-width="2"/>
+  <line x1="60" y1="30" x2="60" y2="40" stroke="#2563eb" stroke-width="2"/>
+  <line x1="80" y1="30" x2="80" y2="40" stroke="#2563eb" stroke-width="2"/>
+  <line x1="40" y1="140" x2="40" y2="150" stroke="#2563eb" stroke-width="2"/>
+  <line x1="60" y1="140" x2="60" y2="150" stroke="#2563eb" stroke-width="2"/>
+  <line x1="80" y1="140" x2="80" y2="150" stroke="#2563eb" stroke-width="2"/>
+
+  <!-- DB cylinder under chip -->
+  <ellipse cx="70" cy="155" rx="35" ry="6" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <line x1="35" y1="145" x2="35" y2="155" stroke="#2563eb" stroke-width="2"/>
+  <line x1="105" y1="145" x2="105" y2="155" stroke="#2563eb" stroke-width="2"/>
+  <path d="M 35 145 Q 70 138 105 145" fill="none" stroke="#2563eb" stroke-width="2"/>
+
+  <!-- Text SOC DB -->
+  <text x="155" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="700" fill="#1e293b" letter-spacing="2">SOC</text>
+  <text x="155" y="135" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600" fill="#64748b" letter-spacing="3">DATABASE</text>
+
+  <!-- Subtle separator line -->
+  <line x1="150" y1="53" x2="150" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+</svg>
