@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-21T09:00:00Z",
+  "vendors": {
+    "qualcomm": {
+      "name": "Qualcomm",
+      "file": "qualcomm.json",
+      "count": 17
+    },
+    "mediatek": {
+      "name": "MediaTek",
+      "file": "mediatek.json",
+      "count": 12
+    },
+    "samsung": {
+      "name": "Samsung Exynos",
+      "file": "exynos.json",
+      "count": 8
+    },
+    "hisilicon": {
+      "name": "HiSilicon",
+      "file": "kirin.json",
+      "count": 8
+    },
+    "google": {
+      "name": "Google",
+      "file": "tensor.json",
+      "count": 4
+    },
+    "apple": {
+      "name": "Apple",
+      "file": "apple.json",
+      "count": 12
+    }
+  },
+  "total": 61,
+  "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
+}

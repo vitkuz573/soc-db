@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json",
+  "title": "SoC/CPU Database Entry",
+  "description": "Schema for a single SoC or CPU entry in the SOC-DB",
+  "type": "object",
+  "required": ["id", "name", "vendor", "cores", "architecture", "year"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (lowercase, underscore-separated)",
+      "pattern": "^[a-z0-9_]+$",
+      "examples": ["sm8250_kona", "mt6893"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Marketing name",
+      "examples": ["Snapdragon 870", "Dimensity 1200"]
+    },
+    "vendor": {
+      "type": "string",
+      "description": "Manufacturer",
+      "enum": ["Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple", "Intel", "AMD"]
+    },
+    "codename": {
+      "type": "string",
+      "description": "Internal platform codename",
+      "examples": ["kona", "lahaina", "mt6893"]
+    },
+    "model": {
+      "type": "string",
+      "description": "Exact model number",
+      "examples": ["SM8250-AC", "MT6893"]
+    },
+    "revision": {
+      "type": "string",
+      "description": "Revision or stepping (optional)",
+      "examples": ["2.1", "1.0"]
+    },
+    "cores": {
+      "type": "integer",
+      "description": "Number of CPU cores",
+      "minimum": 1,
+      "maximum": 256
+    },
+    "architecture": {
+      "type": "string",
+      "description": "ISA architecture",
+      "examples": ["ARMv8.2-A", "ARMv9-A", "x86_64"]
+    },
+    "gpu": {
+      "type": "string",
+      "description": "Integrated GPU (optional)",
+      "examples": ["Adreno 650", "Mali-G78 MC14"]
+    },
+    "process": {
+      "type": "string",
+      "description": "Fabrication process node (optional)",
+      "examples": ["7nm", "5nm", "4nm"]
+    },
+    "year": {
+      "type": "integer",
+      "description": "Release year",
+      "minimum": 2007,
+      "maximum": 2030
+    },
+    "devices": {
+      "type": "array",
+      "description": "Known devices using this SoC (optional)",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "alternative_names": {
+      "type": "array",
+      "description": "Alternative names or aliases (optional)",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "threads": {
+      "type": "integer",
+      "description": "Number of threads (if different from cores)",
+      "minimum": 1
+    },
+    "max_freq": {
+      "type": "string",
+      "description": "Maximum clock frequency (optional)",
+      "examples": ["3.2 GHz", "2.85 GHz"]
+    },
+    "cache": {
+      "type": "object",
+      "description": "Cache hierarchy (optional)",
+      "properties": {
+        "l1": { "type": "string" },
+        "l2": { "type": "string" },
+        "l3": { "type": "string" }
+      }
+    }
+  }
+}

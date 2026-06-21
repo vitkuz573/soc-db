@@ -1,0 +1,10 @@
+{
+  "name": "soc-db",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise-grade SoC / CPU identifier database",
+  "scripts": {
+    "validate": "python3 tests/validate.py",
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0"
+  }
+}

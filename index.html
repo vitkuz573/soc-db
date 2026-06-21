@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOC-DB · SoC Identifier Database</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #151b23;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent2: #3fb950;
+    --accent3: #d29922;
+    --radius: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px; line-height: 1.6;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 32px; }
+  h1 { font-size: 2rem; font-weight: 700; }
+  h1 span { color: var(--accent); }
+  .subtitle { color: var(--muted); margin-top: 4px; font-size: 0.9rem; }
+  .stats { display: flex; gap: 16px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
+  .stat-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 12px 24px; text-align: center; min-width: 100px;
+  }
+  .stat-card .num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+  .stat-card .label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; }
+  .search-box {
+    width: 100%; padding: 12px 16px; font-size: 1rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); color: var(--text); outline: none;
+  }
+  .search-box:focus { border-color: var(--accent); }
+  .vendor-nav { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 16px 0 24px; }
+  .vendor-btn {
+    padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
+    background: var(--surface); color: var(--text); cursor: pointer; font-size: 0.85rem;
+    transition: all 0.15s;
+  }
+  .vendor-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .vendor-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th {
+    text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border);
+    color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  th:hover { color: var(--text); }
+  th::after { content: ' ↕'; opacity: 0.3; }
+  th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--accent); }
+  th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--accent); }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  tr:hover td { background: var(--surface); }
+  .vendor-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .vendor-Qualcomm { background: #1a3a1a; color: #3fb950; }
+  .vendor-MediaTek { background: #1a2a3a; color: #58a6ff; }
+  .vendor-Samsung { background: #2a1a2a; color: #bc8cff; }
+  .vendor-HiSilicon { background: #2a2a1a; color: #d29922; }
+  .vendor-Google { background: #1a2a2a; color: #3fb950; }
+  .vendor-Apple { background: #2a1a1a; color: #f78166; }
+  .chip-name { font-weight: 600; color: var(--accent); cursor: pointer; }
+  .chip-name:hover { text-decoration: underline; }
+  .empty { text-align: center; padding: 48px; color: var(--muted); }
+  .chip-detail {
+    display: none; background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 24px; margin-top: 16px;
+  }
+  .chip-detail.open { display: block; }
+  .chip-detail h2 { margin-bottom: 16px; }
+  .detail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+  .detail-item dt { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
+  .detail-item dd { font-size: 1rem; }
+  .close-btn {
+    float: right; background: none; border: none; color: var(--muted); font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .close-btn:hover { color: var(--text); }
+  .footer { text-align: center; margin-top: 48px; color: var(--muted); font-size: 0.8rem; }
+  .footer a { color: var(--accent); }
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    th, td { padding: 8px; }
+    .stat-card { min-width: 80px; padding: 8px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><span>SOC</span>-DB</h1>
+    <div class="subtitle">Enterprise SoC / CPU Identifier Database</div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <input type="text" class="search-box" id="search" placeholder="Search by name, model, codename, device..." autofocus>
+
+  <div class="vendor-nav" id="vendorNav"></div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="name">Name</th>
+          <th data-sort="vendor">Vendor</th>
+          <th data-sort="model">Model</th>
+          <th data-sort="cores">Cores</th>
+          <th data-sort="year">Year</th>
+          <th data-sort="process">Process</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <div class="empty" id="empty">No chips found</div>
+
+  <div class="chip-detail" id="chipDetail">
+    <button class="close-btn" onclick="closeDetail()">✕</button>
+    <h2 id="detailName"></h2>
+    <div class="detail-grid" id="detailGrid"></div>
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/vitkuz573/soc-db">GitHub</a> ·
+    <a href="https://vitkuz573.github.io/soc-db/schema/chip-schema.json">Schema</a> ·
+    <a href="docs/api.md">API</a> ·
+    <a href="docs/contributing.md">Contributing</a> ·
+    <span id="footerInfo"></span>
+  </div>
+</div>
+
+<script>
+let allChips = [];
+let currentVendor = 'all';
+
+async function loadData() {
+  try {
+    const idx = await fetch('data/index.json').then(r => r.json());
+    const files = Object.values(idx.vendors).map(v => v.file);
+    const results = await Promise.all(files.map(f => fetch(`data/${f}`).then(r => r.json())));
+    allChips = results.flat();
+    renderStats(idx);
+    renderVendors(idx);
+    renderTable(allChips);
+  } catch (e) {
+    document.getElementById('stats').innerHTML = `<div style="color:#f85149">Failed to load: ${e.message}</div>`;
+  }
+}
+
+function renderStats(idx) {
+  const el = document.getElementById('stats');
+  let html = `<div class="stat-card"><div class="num">${idx.total}</div><div class="label">Chips</div></div>`;
+  html += `<div class="stat-card"><div class="num">${Object.keys(idx.vendors).length}</div><div class="label">Vendors</div></div>`;
+  html += `<div class="stat-card"><div class="num">${new Date(idx.updated).toLocaleDateString()}</div><div class="label">Updated</div></div>`;
+  el.innerHTML = html;
+  document.getElementById('footerInfo').textContent = `v${idx.version} · ${idx.total} chips`;
+}
+
+function renderVendors(idx) {
+  const nav = document.getElementById('vendorNav');
+  let html = `<button class="vendor-btn active" data-vendor="all">All</button>`;
+  for (const [key, v] of Object.entries(idx.vendors)) {
+    html += ` <button class="vendor-btn" data-vendor="${key}">${v.name} (${v.count})</button>`;
+  }
+  nav.innerHTML = html;
+  nav.querySelectorAll('.vendor-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      nav.querySelectorAll('.vendor-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentVendor = btn.dataset.vendor;
+      filterTable();
+    });
+  });
+}
+
+function renderTable(chips) {
+  const tbody = document.getElementById('tableBody');
+  const empty = document.getElementById('empty');
+  if (!chips.length) {
+    tbody.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  tbody.innerHTML = chips.map(c => {
+    const vclass = `vendor-${c.vendor.replace(/\s+/g, '')}`;
+    return `<tr>
+      <td><span class="chip-name" onclick="showDetail('${c.id}')">${c.name}</span></td>
+      <td><span class="vendor-badge ${vclass}">${c.vendor}</span></td>
+      <td>${c.model || '—'}</td>
+      <td>${c.cores}</td>
+      <td>${c.year}</td>
+      <td>${c.process || '—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+function filterTable() {
+  const q = document.getElementById('search').value.toLowerCase();
+  let filtered = allChips;
+  if (currentVendor !== 'all') {
+    const idx = window.__index;
+    const vname = idx.vendors[currentVendor]?.name || '';
+    filtered = filtered.filter(c => c.vendor === vname);
+  }
+  if (q) {
+    filtered = filtered.filter(c => {
+      const s = JSON.stringify(c).toLowerCase();
+      return s.includes(q);
+    });
+  }
+  renderTable(filtered);
+}
+
+function showDetail(id) {
+  const chip = allChips.find(c => c.id === id);
+  if (!chip) return;
+  const detail = document.getElementById('chipDetail');
+  document.getElementById('detailName').textContent = chip.name;
+  const grid = document.getElementById('detailGrid');
+  const fields = [
+    ['Vendor', chip.vendor],
+    ['Model', chip.model],
+    ['Codename', chip.codename],
+    ['Revision', chip.revision],
+    ['Architecture', chip.architecture],
+    ['Cores', chip.cores],
+    ['Threads', chip.threads],
+    ['GPU', chip.gpu],
+    ['Process', chip.process],
+    ['Year', chip.year],
+    ['Max Freq', chip.max_freq],
+    ['Cache L1', chip.cache?.l1],
+    ['Cache L2', chip.cache?.l2],
+    ['Cache L3', chip.cache?.l3],
+    ['Devices', chip.devices?.join(', ')],
+    ['Aliases', chip.alternative_names?.join(', ')],
+  ];
+  grid.innerHTML = fields.filter(([_, v]) => v != null).map(([k, v]) =>
+    `<div class="detail-item"><dt>${k}</dt><dd>${v}</dd></div>`
+  ).join('');
+  detail.classList.add('open');
+  detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function closeDetail() {
+  document.getElementById('chipDetail').classList.remove('open');
+}
+
+let sortDir = {};
+function setupSort() {
+  document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.sort;
+      const dir = sortDir[key] === 'asc' ? 'desc' : 'asc';
+      sortDir = { [key]: dir };
+      document.querySelectorAll('th[data-sort]').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(dir === 'asc' ? 'sort-asc' : 'sort-desc');
+      allChips.sort((a, b) => {
+        const va = a[key] ?? '', vb = b[key] ?? '';
+        if (typeof va === 'number') return dir === 'asc' ? va - vb : vb - va;
+        return dir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+      });
+      filterTable();
+    });
+  });
+}
+
+document.getElementById('search').addEventListener('input', filterTable);
+
+// Store index globally for vendor filter
+fetch('data/index.json').then(r => r.json()).then(idx => window.__index = idx);
+
+loadData();
+setupSort();
+</script>
+</body>
+</html>
