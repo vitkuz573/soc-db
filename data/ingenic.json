@@ -1,5 +1,118 @@
 [
   {
+    "id": "jz4730",
+    "name": "Jz4730",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4730",
+    "year": 2006
+  },
+  {
+    "id": "jz4720",
+    "name": "Jz4720",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4720",
+    "year": 2007
+  },
+  {
+    "id": "jz4740",
+    "name": "Jz4740",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4740",
+    "year": 2007
+  },
+  {
+    "id": "jz4725b",
+    "name": "Jz4725B",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4725B",
+    "year": 2009
+  },
+  {
+    "id": "jz4750",
+    "name": "Jz4750",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4750",
+    "year": 2009
+  },
+  {
+    "id": "jz4755",
+    "name": "Jz4755",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.2913,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4755",
+    "year": 2009
+  },
+  {
+    "id": "jz4760",
+    "name": "Jz4760",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "second core is for video processing only, IEEE754-complient FPU",
+    "completeness": 0.3204,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4760",
+    "year": 2010
+  },
+  {
+    "id": "jz4770",
+    "name": "Jz4770",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "JZ4770",
+    "max_freq": "500 MHz",
+    "completeness": 0.3301,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4770",
+    "year": 2011
+  },
+  {
+    "id": "jz4780",
+    "name": "Jz4780",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "PowerVR SGX 540",
+    "max_freq": "500 MHz",
+    "completeness": 0.3301,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4780",
+    "year": 2012
+  },
+  {
     "id": "adoption",
     "name": "Adoption",
     "vendor": "Ingenic",
@@ -12,97 +125,6 @@
     "aliases": [
       "Adoption (Ben NanoNote)"
     ]
-  },
-  {
-    "id": "jz4720",
-    "name": "Jz4720",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4720"
-  },
-  {
-    "id": "jz4725b",
-    "name": "Jz4725B",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4725B"
-  },
-  {
-    "id": "jz4730",
-    "name": "Jz4730",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4730"
-  },
-  {
-    "id": "jz4740",
-    "name": "Jz4740",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4740"
-  },
-  {
-    "id": "jz4750",
-    "name": "Jz4750",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4750"
-  },
-  {
-    "id": "jz4755",
-    "name": "Jz4755",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4755"
-  },
-  {
-    "id": "jz4760",
-    "name": "Jz4760",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "second core is for video processing only, IEEE754-complient FPU",
-    "completeness": 0.2913,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4760"
-  },
-  {
-    "id": "jz4770",
-    "name": "Jz4770",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "JZ4770",
-    "max_freq": "500 MHz",
-    "completeness": 0.301,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4770"
   },
   {
     "id": "jz4775",
@@ -119,19 +141,6 @@
     "aliases": [
       "Jz4775 (Jz4775 [ 14 ])"
     ]
-  },
-  {
-    "id": "jz4780",
-    "name": "Jz4780",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX 540",
-    "max_freq": "500 MHz",
-    "completeness": 0.301,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4780"
   },
   {
     "id": "skytone",

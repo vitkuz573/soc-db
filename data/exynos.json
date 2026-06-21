@@ -964,6 +964,25 @@
     "process_name": "10nm"
   },
   {
+    "id": "exynos_9110_sc59110xsc",
+    "name": "Exynos 9110 (SC59110XSC)",
+    "vendor": "Samsung",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "EXYNOS 9110",
+    "process": "10 nm",
+    "max_freq": "1.15 GHz",
+    "aliases": [
+      "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
+    ],
+    "completeness": 0.3592,
+    "sources": {},
+    "updated": "2026-06-21",
+    "npu": "LPDDR4 LPDDR4X",
+    "modem": "Unknown",
+    "year": 2018
+  },
+  {
     "id": "exynos9820",
     "name": "Exynos 9820",
     "vendor": "Samsung",
@@ -1483,24 +1502,6 @@
     "completeness": 0.2913,
     "sources": {},
     "updated": "2026-06-21"
-  },
-  {
-    "id": "exynos_9110_sc59110xsc",
-    "name": "Exynos 9110 (SC59110XSC)",
-    "vendor": "Samsung",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "EXYNOS 9110",
-    "process": "10 nm",
-    "max_freq": "1.15 GHz",
-    "aliases": [
-      "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
-    ],
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21",
-    "npu": "LPDDR4 LPDDR4X",
-    "modem": "Unknown"
   },
   {
     "id": "exynos_980",

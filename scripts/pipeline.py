@@ -42,7 +42,7 @@ def step(name: str, fn, *args, **kwargs):
         return None
 
 
-def run_scraper(module_path: str, label: str, all_vendors: bool, vendor: str | None = None):
+def run_scraper(module_path: str, label: str, all_vendors: bool, vendor: str | None = None) -> bool:
     import subprocess
     script = str(ROOT / module_path.replace(".", "/")) + ".py"
     cmd = [sys.executable, script]
@@ -53,6 +53,7 @@ def run_scraper(module_path: str, label: str, all_vendors: bool, vendor: str | N
     if result.returncode != 0:
         print(result.stderr, file=sys.stderr)
         raise RuntimeError(f"{label} exited with code {result.returncode}")
+    return True
 
 
 def run_enrich():
@@ -75,7 +76,7 @@ def run_enrich():
     avg_comp = sum(c["completeness"] * c["count"] for c in counts.values()) / max(total, 1)
     print(f"  Enriched {total} entries across {len(counts)} vendors")
     print(f"  Average completeness: {avg_comp:.3f}")
-    return counts
+    return len(counts) > 0
 
 
 def run_validate():
