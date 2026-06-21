@@ -1,6 +1,6 @@
 [
   {
-    "id": "bcm2711",
+    "id": "broadcom_bcm2711",
     "name": "Broadcom BCM2711",
     "vendor": "Broadcom",
     "model": "BCM2711",
@@ -12,7 +12,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm2712",
+    "id": "broadcom_bcm2712",
     "name": "Broadcom BCM2712",
     "vendor": "Broadcom",
     "model": "BCM2712",
@@ -24,7 +24,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm2837",
+    "id": "broadcom_bcm2837",
     "name": "Broadcom BCM2837",
     "vendor": "Broadcom",
     "model": "BCM2837",
@@ -36,7 +36,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm4906",
+    "id": "broadcom_bcm4906",
     "name": "Broadcom BCM4906",
     "vendor": "Broadcom",
     "model": "BCM4906",
@@ -48,7 +48,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm4908",
+    "id": "broadcom_bcm4908",
     "name": "Broadcom BCM4908",
     "vendor": "Broadcom",
     "model": "BCM4908",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm4912",
+    "id": "broadcom_bcm4912",
     "name": "Broadcom BCM4912",
     "vendor": "Broadcom",
     "model": "BCM4912",
@@ -72,7 +72,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm63146",
+    "id": "broadcom_bcm63146",
     "name": "Broadcom BCM63146",
     "vendor": "Broadcom",
     "model": "BCM63146",
@@ -84,7 +84,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm63158",
+    "id": "broadcom_bcm63158",
     "name": "Broadcom BCM63158",
     "vendor": "Broadcom",
     "model": "BCM63158",
@@ -96,7 +96,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm6813",
+    "id": "broadcom_bcm6813",
     "name": "Broadcom BCM6813",
     "vendor": "Broadcom",
     "model": "BCM6813",
@@ -108,7 +108,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm6856",
+    "id": "broadcom_bcm6856",
     "name": "Broadcom BCM6856",
     "vendor": "Broadcom",
     "model": "BCM6856",
@@ -120,7 +120,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm6858",
+    "id": "broadcom_bcm6858",
     "name": "Broadcom BCM6858",
     "vendor": "Broadcom",
     "model": "BCM6858",
@@ -132,7 +132,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm94908",
+    "id": "broadcom_bcm94908",
     "name": "Broadcom BCM94908",
     "vendor": "Broadcom",
     "model": "BCM94908",
@@ -144,7 +144,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm94912",
+    "id": "broadcom_bcm94912",
     "name": "Broadcom BCM94912",
     "vendor": "Broadcom",
     "model": "BCM94912",
@@ -156,7 +156,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm958742",
+    "id": "broadcom_bcm958742",
     "name": "Broadcom BCM958742",
     "vendor": "Broadcom",
     "model": "BCM958742",
@@ -168,7 +168,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm958802",
+    "id": "broadcom_bcm958802",
     "name": "Broadcom BCM958802",
     "vendor": "Broadcom",
     "model": "BCM958802",
@@ -180,7 +180,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm963146",
+    "id": "broadcom_bcm963146",
     "name": "Broadcom BCM963146",
     "vendor": "Broadcom",
     "model": "BCM963146",
@@ -192,7 +192,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm963158",
+    "id": "broadcom_bcm963158",
     "name": "Broadcom BCM963158",
     "vendor": "Broadcom",
     "model": "BCM963158",
@@ -204,7 +204,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm96813",
+    "id": "broadcom_bcm96813",
     "name": "Broadcom BCM96813",
     "vendor": "Broadcom",
     "model": "BCM96813",
@@ -216,7 +216,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm96856",
+    "id": "broadcom_bcm96856",
     "name": "Broadcom BCM96856",
     "vendor": "Broadcom",
     "model": "BCM96856",
@@ -228,7 +228,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "bcm96858",
+    "id": "broadcom_bcm96858",
     "name": "Broadcom BCM96858",
     "vendor": "Broadcom",
     "model": "BCM96858",
@@ -240,7 +240,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "ns2",
+    "id": "broadcom_ns2",
     "name": "Broadcom NS2",
     "vendor": "Broadcom",
     "model": "NS2",

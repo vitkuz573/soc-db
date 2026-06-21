@@ -39,7 +39,7 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "400 [ 43 ]"
+    "npu": "400"
   },
   {
     "id": "rk2928",
@@ -64,7 +64,7 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "9.0 [ 43 ]"
+    "npu": "9.0"
   },
   {
     "id": "rk3036",
@@ -77,7 +77,7 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "500 [ 43 ]"
+    "npu": "500"
   },
   {
     "id": "rk3066",
@@ -106,7 +106,7 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "600 [ 43 ]"
+    "npu": "600"
   },
   {
     "id": "rk3128",
@@ -118,7 +118,7 @@
     "completeness": 0.2816,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "List Boardcon Compact3128 [ 92 ]"
+    "npu": "List Boardcon Compact3128"
   },
   {
     "id": "rk3168",
@@ -148,7 +148,7 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "533 [ 43 ]"
+    "npu": "533"
   },
   {
     "id": "rk3188t",
@@ -183,11 +183,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "RK3288",
-    "gpu": "1024 [ 109 ]",
+    "gpu": "1024",
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "600 [ 43 ]"
+    "npu": "600"
   },
   {
     "id": "rk3308",
@@ -213,7 +213,7 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "520 (RK3326) [ 123 ] 480 (PX30) [ 124 ]",
+    "npu": "520 (RK3326) 480 (PX30)",
     "process_nm": 40,
     "process_name": "40nm"
   },
@@ -234,16 +234,16 @@
   },
   {
     "id": "rk3368_px5",
-    "name": "RK3368  PX5",
+    "name": "RK3368 PX5",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "RK3368",
-    "gpu": "512 (Big cluster) 256 (Little cluster) [ 131 ]",
+    "gpu": "512 (Big cluster) 256 (Little cluster)",
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "600 [ 43 ]"
+    "npu": "600"
   },
   {
     "id": "rk3399_rk3399pro_px6",
@@ -260,7 +260,7 @@
   },
   {
     "id": "rk3506_rk3506b_rk3506g2_rk3506j",
-    "name": "RK3506 RK3506B RK3506G2  RK3506J",
+    "name": "RK3506 RK3506B RK3506G2 RK3506J",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -321,7 +321,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "ARM Cortex-A55",
-    "npu": "800 [ 68 ]",
+    "npu": "800",
     "process_nm": 22,
     "process_name": "22nm"
   },
@@ -338,7 +338,7 @@
   },
   {
     "id": "rk3576_rk3576j",
-    "name": "RK3576  RK3576J",
+    "name": "RK3576 RK3576J",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -362,8 +362,8 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "2+4 [ 147 ]",
-    "npu": "512 x2 (A76) [ 147 ] 128 x4 (A55)"
+    "gpu": "2+4",
+    "npu": "512 x2 (A76) 128 x4 (A55)"
   },
   {
     "id": "rk3588_rk3588s_rk3588s2_rk3588c",
@@ -376,23 +376,23 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "1000 [ 149 ]"
+    "npu": "1000"
   },
   {
-    "id": "tablet_processors_modem",
+    "id": "tablet_processors_modem_x3c3130",
     "name": "Tablet processors with integrated modem",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Intel Atom SoFIA 3G [ 3 ]",
+    "gpu": "Intel Atom SoFIA 3G",
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "x3-C3130 [ 151 ] [ 152 ]",
+    "model": "x3-C3130",
     "npu": "512",
     "aliases": [
-      "Tablet processors with integrated modem (x3-C3130 [ 151 ] [ 152 ])"
+      "Tablet processors with integrated modem (x3-C3130 )"
     ],
     "process_nm": 28,
     "process_name": "28nm"

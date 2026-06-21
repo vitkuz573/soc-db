@@ -16,7 +16,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "year": 2021,
-    "codename": "Whitechapel [ 8 ]",
+    "codename": "Whitechapel",
     "memory_type": "LPDDR5",
     "memory_clock": 3200,
     "memory_bus": 64,
@@ -33,9 +33,9 @@
     "process_nm": 4,
     "process_name": "4nm",
     "process": "4 nm",
-    "gpu": "Mali -G78 MP20 [ 2 ] [ 15 ]",
+    "gpu": "Mali -G78 MP20",
     "memory_type": "LPDDR5",
-    "storage_type": "UFS 3.1 [ 52 ] [ 53 ] [ 54 ] [ 55 ] [ 41 ] [ 56 ]",
+    "storage_type": "UFS 3.1",
     "bluetooth": "6.0",
     "model": "GS201",
     "memory_clock": 3200,
@@ -44,7 +44,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "year": 2022,
-    "codename": "Cloudripper [ 22 ]",
+    "codename": "Cloudripper",
     "aliases": [
       "Google G2 (GS201)"
     ]
@@ -58,9 +58,9 @@
     "process_nm": 4,
     "process_name": "4nm",
     "process": "4 nm",
-    "gpu": "Mali-G710 MP7 [ 40 ]",
+    "gpu": "Mali-G710 MP7",
     "memory_type": "LPDDR5",
-    "storage_type": "UFS 4.0 [ 57 ]",
+    "storage_type": "UFS 4.0",
     "model": "GS301",
     "memory_clock": 3200,
     "memory_bus": 64,
@@ -68,7 +68,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "year": 2023,
-    "codename": "Zuma [ 25 ]",
+    "codename": "Zuma",
     "bluetooth": "6.0",
     "aliases": [
       "Google G3 (GS301)"
@@ -83,13 +83,13 @@
     "process_nm": 3,
     "process_name": "3nm",
     "process": "3 nm",
-    "gpu": "Mali-G715 MP7 [ 41 ] [ 47 ] [ 31 ] [ 24 ]",
+    "gpu": "Mali-G715 MP7",
     "model": "GS401",
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2024,
-    "codename": "Zuma Pro [ 26 ]",
+    "codename": "Zuma Pro",
     "aliases": [
       "Google G4 (GS401)"
     ]
@@ -100,12 +100,12 @@
     "vendor": "Google",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR DXT-48-1536 [ 31 ]",
+    "gpu": "PowerVR DXT-48-1536",
     "model": "Google G5",
     "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
-    "codename": "Laguna [ 27 ]"
+    "codename": "Laguna"
   }
 ]

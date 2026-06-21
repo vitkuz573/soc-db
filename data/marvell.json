@@ -1,6 +1,6 @@
 [
   {
-    "id": "ac5",
+    "id": "marvell_ac5",
     "name": "Marvell Ac5",
     "vendor": "Marvell",
     "model": "AC5",
@@ -15,7 +15,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "ac5x",
+    "id": "marvell_ac5x",
     "name": "Marvell Ac5X",
     "vendor": "Marvell",
     "model": "AC5X",
@@ -30,7 +30,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armada_3720",
+    "id": "marvell_armada_3720_armada3720",
     "name": "Marvell Armada 3720",
     "vendor": "Marvell",
     "model": "ARMADA-3720",
@@ -45,7 +45,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armada_7020",
+    "id": "marvell_armada_7020_armada7020",
     "name": "Marvell Armada 7020",
     "vendor": "Marvell",
     "model": "ARMADA-7020",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armada_7040",
+    "id": "marvell_armada_7040_armada7040",
     "name": "Marvell Armada 7040",
     "vendor": "Marvell",
     "model": "ARMADA-7040",
@@ -75,7 +75,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armada_8040",
+    "id": "marvell_armada_8040_armada8040",
     "name": "Marvell Armada 8040",
     "vendor": "Marvell",
     "model": "ARMADA-8040",
@@ -90,7 +90,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armada_8080",
+    "id": "marvell_armada_8080_armada8080",
     "name": "Marvell Armada 8080",
     "vendor": "Marvell",
     "model": "ARMADA-8080",
@@ -105,7 +105,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "cn9130",
+    "id": "marvell_cn9130",
     "name": "Marvell Cn9130",
     "vendor": "Marvell",
     "model": "CN9130",
@@ -120,7 +120,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "cn9131",
+    "id": "marvell_cn9131",
     "name": "Marvell Cn9131",
     "vendor": "Marvell",
     "model": "CN9131",
@@ -135,7 +135,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "cn9132",
+    "id": "marvell_cn9132",
     "name": "Marvell Cn9132",
     "vendor": "Marvell",
     "model": "CN9132",
@@ -150,7 +150,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "pxa1908",
+    "id": "marvell_pxa1908",
     "name": "Marvell Pxa1908",
     "vendor": "Marvell",
     "model": "PXA1908",

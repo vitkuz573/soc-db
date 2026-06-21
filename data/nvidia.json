@@ -22,7 +22,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2",
-    "gpu": "1000 MHz (256:16:16) [ 110 ] : 753",
+    "gpu": "1000 MHz (256:16:16) : 753",
     "gpu_clock": 1000
   },
   {
@@ -48,7 +48,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX10-A1 TM675M-A1",
-    "gpu": "1267 MHz (256:16:16) [ 113 ]",
+    "gpu": "1267 MHz (256:16:16)",
     "gpu_clock": 1267
   },
   {
@@ -61,7 +61,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "T254 ?",
-    "gpu": "Ada Lovelace [ 190 ]"
+    "gpu": "Ada Lovelace"
   },
   {
     "id": "t264",
@@ -73,17 +73,17 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T264 [ 193 ]",
+    "model": "T264",
     "clock_min": 2600,
     "clock_max": 2600,
     "gpu": "Blackwell",
     "memory_clock": 1575,
     "aliases": [
-      "T264 (T264 [ 193 ])"
+      "T264 (T264 )"
     ]
   },
   {
-    "id": "te980_m_te980m171",
+    "id": "te980_m_te980m",
     "name": "TE980-M",
     "vendor": "Nvidia",
     "cores": 8,
@@ -92,12 +92,12 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "TE980-M [ 171 ]",
+    "model": "TE980-M",
     "clock_min": 918,
     "clock_max": 918,
     "gpu": "1.88",
     "aliases": [
-      "TE980-M (TE980-M [ 171 ])"
+      "TE980-M (TE980-M )"
     ]
   },
   {
@@ -173,7 +173,7 @@
   },
   {
     "id": "tegra_2_cortexa9",
-    "name": "Tegra 2",
+    "name": "Tegra 3",
     "vendor": "Nvidia",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -188,22 +188,6 @@
     ]
   },
   {
-    "id": "tegra_3_cortexa9",
-    "name": "Tegra 3",
-    "vendor": "Nvidia",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "max_freq": "1.2 GHz",
-    "completeness": 0.3107,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Cortex-A9",
-    "gpu": "1.2 GHz / up to 1.3 GHz",
-    "aliases": [
-      "Tegra 3 (Cortex-A9)"
-    ]
-  },
-  {
     "id": "tegra_4_4119ghzcortexa15",
     "name": "Tegra 4",
     "vendor": "Nvidia",
@@ -214,7 +198,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 1.9 GHz Cortex-A15",
-    "gpu": "72 [ 20 ] [ 50 ] (48:24:4)",
+    "gpu": "72 (48:24:4)",
     "memory_clock": 672,
     "aliases": [
       "Tegra 4 (4+1 × 1.9 GHz Cortex-A15)"
@@ -231,14 +215,14 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 2.0 GHz Cortex-A9 \"R4\"",
-    "gpu": "60 [ 50 ] (48:12:2)",
+    "gpu": "60 (48:12:2)",
     "memory_clock": 660,
     "aliases": [
       "Tegra 4i (4+1 × 2.0 GHz Cortex-A9 \"R4\")"
     ]
   },
   {
-    "id": "tegra_k1",
+    "id": "tegra_k1_4123ghzcortexa15r332bit",
     "name": "Tegra K1",
     "vendor": "Nvidia",
     "cores": 8,
@@ -255,7 +239,7 @@
     ]
   },
   {
-    "id": "tegra_x2_parker",
+    "id": "tegra_x2_parker_tegrax2parker",
     "name": "Tegra X2 (Parker)",
     "vendor": "Nvidia",
     "cores": 8,
@@ -265,11 +249,11 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "Tegra X2 (Parker)",
-    "gpu": "854–1465 MHz 256:16:16 (2) [ 126 ]",
+    "gpu": "854–1465 MHz 256:16:16 (2)",
     "gpu_clock": 1465
   },
   {
-    "id": "thor",
+    "id": "thor_14neoversev3ae26ghz",
     "name": "Thor",
     "vendor": "Nvidia",
     "cores": 8,
@@ -277,10 +261,10 @@
     "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "14 × Neoverse V3AE [ 194 ] (2.6 GHz)",
+    "model": "14 × Neoverse V3AE (2.6 GHz)",
     "gpu": "8.064",
     "aliases": [
-      "Thor (14 × Neoverse V3AE [ 194 ] (2.6 GHz))"
+      "Thor (14 × Neoverse V3AE (2.6 GHz))"
     ]
   }
 ]

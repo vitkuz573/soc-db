@@ -1,6 +1,6 @@
 [
   {
-    "id": "zynqmp",
+    "id": "xilinx_zynqmp",
     "name": "Xilinx ZYNQMP",
     "vendor": "Xilinx",
     "model": "ZYNQMP",

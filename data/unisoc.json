@@ -1,6 +1,6 @@
 [
   {
-    "id": "sc2731",
+    "id": "unisoc_sc2731",
     "name": "Unisoc SC2731",
     "vendor": "Unisoc",
     "model": "SC2731",
@@ -12,7 +12,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sc9836",
+    "id": "unisoc_sc9836",
     "name": "Unisoc SC9836",
     "vendor": "Unisoc",
     "model": "SC9836",
@@ -24,7 +24,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sc9860",
+    "id": "unisoc_sc9860",
     "name": "Unisoc SC9860",
     "vendor": "Unisoc",
     "model": "SC9860",
@@ -36,7 +36,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sp9860",
+    "id": "unisoc_sp9860",
     "name": "Unisoc SP9860",
     "vendor": "Unisoc",
     "model": "SP9860",
@@ -48,7 +48,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sp9863",
+    "id": "unisoc_sp9863",
     "name": "Unisoc SP9863",
     "vendor": "Unisoc",
     "model": "SP9863",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "ums9620",
+    "id": "unisoc_ums9620",
     "name": "Unisoc UMS9620",
     "vendor": "Unisoc",
     "model": "UMS9620",

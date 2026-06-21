@@ -1,6 +1,6 @@
 [
   {
-    "id": "kirin990_5g",
+    "id": "kirin_990_5g_kirin9905g",
     "name": "Kirin 990 5G",
     "vendor": "HiSilicon",
     "codename": "",
@@ -149,7 +149,7 @@
     "process_name": "14nm"
   },
   {
-    "id": "kirin_710f_kirin710f20",
+    "id": "kirin_710f_kirin710f",
     "name": "Kirin 710F",
     "vendor": "HiSilicon",
     "cores": 8,
@@ -157,9 +157,9 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kirin 710F [ 20 ]",
+    "model": "Kirin 710F",
     "aliases": [
-      "Kirin 710F (Kirin 710F [ 20 ])"
+      "Kirin 710F (Kirin 710F )"
     ],
     "process_nm": 12,
     "process_name": "12nm",
@@ -307,7 +307,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000s",
+    "id": "kirin_9000s_kirin9000s",
     "name": "Kirin 9000S",
     "vendor": "HiSilicon",
     "process": "7 nm",
@@ -340,7 +340,7 @@
     "process_name": "7nm"
   },
   {
-    "id": "kirin_9000s1",
+    "id": "kirin_9000s1_kirin9000s1",
     "name": "Kirin 9000S1",
     "vendor": "HiSilicon",
     "cores": 2,
@@ -370,7 +370,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000sl",
+    "id": "kirin_9000sl_kirin9000sl",
     "name": "Kirin 9000SL",
     "vendor": "HiSilicon",
     "cores": 4,
@@ -400,7 +400,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000w",
+    "id": "kirin_9000w_kirin9000w",
     "name": "Kirin 9000W",
     "vendor": "HiSilicon",
     "cores": 4,
@@ -428,7 +428,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000we",
+    "id": "kirin_9000we_kirin9000we",
     "name": "Kirin 9000WE",
     "vendor": "HiSilicon",
     "cores": 2,
@@ -456,7 +456,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000wl",
+    "id": "kirin_9000wl_kirin9000wl",
     "name": "Kirin 9000WL",
     "vendor": "HiSilicon",
     "cores": 2,
@@ -484,7 +484,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "kirin_9000wm",
+    "id": "kirin_9000wm_kirin9000wm",
     "name": "Kirin 9000WM",
     "vendor": "HiSilicon",
     "cores": 2,
@@ -527,7 +527,7 @@
     "updated": "2026-06-21",
     "gpu": "2.30 GHz (TaishanV121) 2.18 GHz (TaishanV120) 1.55 GHz (Cortex-A510)",
     "memory_clock": 3200,
-    "npu": "List Huawei Pura 70 Pro Huawei Pura 70 Pro+ Huawei Pura 70 Ultra Huawei Mate XT "
+    "npu": "List Huawei Pura 70 Pro Huawei Pura 70 Pro+ Huawei Pura 70 Ultra Huawei Mate XT"
   },
   {
     "id": "kirin_9010a_hi36a0v121_kirin9010ahi36a0v121",
@@ -596,7 +596,7 @@
   },
   {
     "id": "kirin_9030_kirin9030",
-    "name": "Kirin 9030",
+    "name": "Kirin 9030 Pro",
     "vendor": "HiSilicon",
     "model": "KIRIN 9030",
     "process": "5 nm",
@@ -613,22 +613,6 @@
     "npu": "2388",
     "process_nm": 5,
     "process_name": "5nm"
-  },
-  {
-    "id": "kirin_9030_pro_kirin9030",
-    "name": "Kirin 9030 Pro",
-    "vendor": "HiSilicon",
-    "model": "KIRIN 9030",
-    "cores": 8,
-    "max_freq": "2.75 GHz",
-    "architecture": "ARMv8.2-A",
-    "aliases": [
-      "Kirin 9030 Pro (KIRIN 9030)"
-    ],
-    "completeness": 0.3107,
-    "sources": {},
-    "updated": "2026-06-21",
-    "gpu": "2.75 GHz (Taishan V124 Big) 2.27 GHz (Taishan V124 Mid) 1.72 GHz (Taishan V124 Little)"
   },
   {
     "id": "kirin_9030s_kirin9030s",
@@ -884,7 +868,7 @@
   },
   {
     "id": "kirin_990_4g_kirin990",
-    "name": "Kirin 990 4G",
+    "name": "Kirin 990 5G",
     "vendor": "HiSilicon",
     "model": "KIRIN 990",
     "process": "7 nm",
@@ -899,24 +883,6 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "600",
-    "process_nm": 7,
-    "process_name": "7nm"
-  },
-  {
-    "id": "kirin_990_5g_kirin990",
-    "name": "Kirin 990 5G",
-    "vendor": "HiSilicon",
-    "model": "KIRIN 990",
-    "process": "7 nm",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "aliases": [
-      "Kirin 990 5G (KIRIN 990)"
-    ],
-    "completeness": 0.3495,
-    "sources": {},
-    "updated": "2026-06-21",
-    "gpu": "Balong 5000 (Sub-6-GHz only; NSA & SA)",
     "process_nm": 7,
     "process_name": "7nm"
   },

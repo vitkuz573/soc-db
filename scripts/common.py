@@ -58,7 +58,7 @@ def clean(text: str | None) -> str | None:
     if not text:
         return None
     text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\[\w+\]", "", text)
+    text = re.sub(r"\[\s*\w+\s*\]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     # Strip editorial annotations like "(now managed and sold to X)"
     text = re.sub(r'\s*\(now\s+[^)]*?\)', '', text)

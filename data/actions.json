@@ -1,6 +1,6 @@
 [
   {
-    "id": "s700",
+    "id": "actions_s700",
     "name": "Actions S700",
     "vendor": "Actions",
     "model": "S700",
@@ -12,7 +12,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "s900",
+    "id": "actions_s900",
     "name": "Actions S900",
     "vendor": "Actions",
     "model": "S900",

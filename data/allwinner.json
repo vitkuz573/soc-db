@@ -62,15 +62,15 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "256 KB [ 32 ] [ 33 ]",
+    "gpu": "256 KB",
     "max_freq": "350 MHz",
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A20 [ 31 ]",
-    "video_decode": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "model": "A20",
+    "video_decode": "Mali-400 MP2 (350 MHz)",
     "aliases": [
-      "A20 (A20 [ 31 ])"
+      "A20 (A20 )"
     ]
   },
   {
@@ -95,7 +95,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544 MP2 (350 MHz) [ 30 ]",
+    "gpu": "PowerVR SGX544 MP2 (350 MHz)",
     "max_freq": "350 MHz",
     "completeness": 0.3204,
     "sources": {},
@@ -115,7 +115,7 @@
     "updated": "2026-06-21",
     "model": "A31s",
     "gpu": "Phablet, Tablet, smartphone, smart TV",
-    "video_decode": "List Boardcon Compact31S, [ 34 ] iView CyberPad iView-788TPC, MSI Primo81, Teclast P88s mini, Ainol "
+    "video_decode": "List Boardcon Compact31S, iView CyberPad iView-788TPC, MSI Primo81, Teclast P88s mini, Ainol"
   },
   {
     "id": "a33",
@@ -128,12 +128,12 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A33 [ 36 ] [ 37 ]",
+    "model": "A33",
     "clock_min": 350,
     "clock_max": 350,
     "video_decode": "H.264 1080p @ 60 fps",
     "aliases": [
-      "A33 (A33 [ 36 ] [ 37 ])"
+      "A33 (A33 )"
     ]
   },
   {
@@ -147,7 +147,7 @@
     "updated": "2026-06-21",
     "model": "A40i",
     "gpu": "Industrial control, Self-service terminal",
-    "video_decode": "Boardcon EMA40i [ 39 ]"
+    "video_decode": "Boardcon EMA40i"
   },
   {
     "id": "a50",
@@ -192,16 +192,16 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A64 [ 46 ]",
+    "model": "A64",
     "video_decode": "4",
     "aliases": [
-      "A64 (A64 [ 46 ])"
+      "A64 (A64 )"
     ],
     "process_nm": 40,
     "process_name": "40nm"
   },
   {
-    "id": "a80_octa",
+    "id": "a80_octa_a80octa",
     "name": "A80 Octa",
     "vendor": "Allwinner",
     "cores": 8,
@@ -212,10 +212,10 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A80 Octa [ 40 ]",
+    "model": "A80 Octa",
     "video_decode": "2 MB + 512 KB",
     "aliases": [
-      "A80 Octa (A80 Octa [ 40 ])"
+      "A80 Octa (A80 Octa )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -226,16 +226,16 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544 (700 MHz) [ 30 ]",
+    "gpu": "PowerVR SGX544 (700 MHz)",
     "max_freq": "700 MHz",
     "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A83T [ 19 ] [ 43 ]",
+    "model": "A83T",
     "gpu_clock": 700,
     "video_decode": "1080p @ 60 fps, H.264, HVEC MP/L5.2",
     "aliases": [
-      "A83T (A83T [ 19 ] [ 43 ])"
+      "A83T (A83T )"
     ]
   },
   {
@@ -284,10 +284,10 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "H616 [ 58 ]",
+    "model": "H616",
     "video_decode": "H.265 4K@60 fps or 6K@30 fps VP9, 4K@60 fps VP8, 1080p@60 fps",
     "aliases": [
-      "H616 (H616 [ 58 ])"
+      "H616 (H616 )"
     ]
   },
   {
@@ -301,10 +301,10 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "H64 [ 56 ]",
+    "model": "H64",
     "video_decode": "4",
     "aliases": [
-      "H64 (H64 [ 56 ])"
+      "H64 (H64 )"
     ],
     "process_nm": 40,
     "process_name": "40nm"
@@ -318,11 +318,11 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R16 [ 63 ]",
+    "model": "R16",
     "gpu": "4",
     "video_decode": "512 KB",
     "aliases": [
-      "R16 (R16 [ 63 ])"
+      "R16 (R16 )"
     ]
   },
   {
@@ -347,11 +347,11 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R40 [ 65 ]",
+    "model": "R40",
     "gpu": "FBGA468",
     "video_decode": "IoT , Security Systems",
     "aliases": [
-      "R40 (R40 [ 65 ])"
+      "R40 (R40 )"
     ]
   },
   {
@@ -364,10 +364,10 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R58 [ 66 ]",
+    "model": "R58",
     "video_decode": "PowerVR SGX544 MP1",
     "aliases": [
-      "R58 (R58 [ 66 ])"
+      "R58 (R58 )"
     ]
   }
 ]

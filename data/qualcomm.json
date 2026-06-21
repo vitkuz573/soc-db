@@ -18,7 +18,7 @@
     "dsp": "External"
   },
   {
-    "id": "msm8260a_pro_msm8260apro32",
+    "id": "msm8260a_pro_msm8260apro",
     "name": "MSM8260A Pro",
     "vendor": "Qualcomm",
     "process": "28 nm",
@@ -30,7 +30,7 @@
     "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8260A Pro [ 32 ]",
+    "model": "MSM8260A Pro",
     "clock_min": 1700,
     "clock_max": 1700,
     "gpu_clock": 400,
@@ -40,14 +40,14 @@
     "wifi": "802.11b",
     "bluetooth": "4.0",
     "aliases": [
-      "MSM8260A Pro (MSM8260A Pro [ 32 ])"
+      "MSM8260A Pro (MSM8260A Pro )"
     ],
     "process_nm": 28,
     "process_name": "28nm",
     "camera_max": "Up to 20 MP camera"
   },
   {
-    "id": "msm8960dt_msm8960dt36",
+    "id": "msm8960dt",
     "name": "MSM8960DT",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -57,13 +57,13 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8960DT [ 36 ]",
+    "model": "MSM8960DT",
     "aliases": [
-      "MSM8960DT (MSM8960DT [ 36 ])"
+      "MSM8960DT (MSM8960DT )"
     ]
   },
   {
-    "id": "msm8960t_msm8960t32",
+    "id": "msm8960t",
     "name": "MSM8960T",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -72,21 +72,21 @@
     "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8960T [ 32 ]",
+    "model": "MSM8960T",
     "aliases": [
-      "MSM8960T (MSM8960T [ 32 ])"
+      "MSM8960T (MSM8960T )"
     ]
   },
   {
-    "id": "msm8960t_pro_msm8960ab_msm8960tpro3235msm8960ab",
-    "name": "MSM8960T Pro  (MSM8960AB)",
+    "id": "msm8960t_pro_msm8960ab_msm8960tpromsm8960ab",
+    "name": "MSM8960T Pro (MSM8960AB)",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8960T Pro [ 32 ] [ 35 ] (MSM8960AB)",
+    "model": "MSM8960T Pro (MSM8960AB)",
     "year": 2012,
     "aliases": [
-      "MSM8960T Pro  (MSM8960AB) (MSM8960T Pro [ 32 ] [ 35 ] (MSM8960AB))"
+      "MSM8960T Pro (MSM8960AB) (MSM8960T Pro (MSM8960AB))"
     ],
     "completeness": 0.301,
     "sources": {},
@@ -111,7 +111,7 @@
     "gpu_clock": 450,
     "dsp": "Hexagon QDSP6 V5",
     "modem": "Bluetooth 4.0, 802.11n, NFC, GPS, GLONASS, BeiDou",
-    "charging": "December 9, 2013 [ 50 ] [ 51 ]",
+    "charging": "December 9, 2013",
     "process_nm": 28,
     "process_name": "28nm"
   },
@@ -158,7 +158,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "apq8030ab_apq8030ab49",
+    "id": "apq8030ab",
     "name": "APQ8030AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -169,9 +169,9 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "APQ8030AB [ 49 ]",
+    "model": "APQ8030AB",
     "aliases": [
-      "APQ8030AB (APQ8030AB [ 49 ])"
+      "APQ8030AB (APQ8030AB )"
     ]
   },
   {
@@ -365,7 +365,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8225q_msm8225q38",
+    "id": "msm8225q",
     "name": "MSM8225Q",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -377,7 +377,7 @@
     "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8225Q [ 38 ]",
+    "model": "MSM8225Q",
     "clock_min": 1400,
     "clock_max": 1400,
     "gpu_clock": 400,
@@ -389,7 +389,7 @@
     "charging": "— N/a",
     "npu": "2013",
     "aliases": [
-      "MSM8225Q (MSM8225Q [ 38 ])"
+      "MSM8225Q (MSM8225Q )"
     ],
     "process_nm": 45,
     "process_name": "45nm",
@@ -434,15 +434,15 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8230ab_msm8230ab49",
+    "id": "msm8230ab",
     "name": "MSM8230AB",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8230AB [ 49 ]",
+    "model": "MSM8230AB",
     "year": 2013,
     "aliases": [
-      "MSM8230AB (MSM8230AB [ 49 ])"
+      "MSM8230AB (MSM8230AB )"
     ],
     "completeness": 0.301,
     "sources": {},
@@ -511,15 +511,15 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8625q_msm8625q38",
+    "id": "msm8625q",
     "name": "MSM8625Q",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8625Q [ 38 ]",
+    "model": "MSM8625Q",
     "year": 2013,
     "aliases": [
-      "MSM8625Q (MSM8625Q [ 38 ])"
+      "MSM8625Q (MSM8625Q )"
     ],
     "completeness": 0.301,
     "sources": {},
@@ -550,15 +550,15 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8630ab_msm8630ab49",
+    "id": "msm8630ab",
     "name": "MSM8630AB",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8630AB [ 49 ]",
+    "model": "MSM8630AB",
     "year": 2013,
     "aliases": [
-      "MSM8630AB (MSM8630AB [ 49 ])"
+      "MSM8630AB (MSM8630AB )"
     ],
     "completeness": 0.301,
     "sources": {},
@@ -606,7 +606,7 @@
     "clock_max": 400,
     "dsp": "Up to 3 MP single camera",
     "modem": "Bluetooth 4.1 + BLE, 802.11n (2.4 GHz)",
-    "charging": "March 20, 2017 [ 41 ]"
+    "charging": "March 20, 2017"
   },
   {
     "id": "msm8909",
@@ -627,7 +627,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "msm8909aa_msm8909aa45",
+    "id": "msm8909aa",
     "name": "MSM8909AA",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -637,10 +637,10 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8909AA [ 45 ]",
+    "model": "MSM8909AA",
     "gpu": "2015",
     "aliases": [
-      "MSM8909AA (MSM8909AA [ 45 ])"
+      "MSM8909AA (MSM8909AA )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -696,7 +696,7 @@
     "clock_min": 598,
     "clock_max": 598,
     "dsp": "Up to 16 MP single camera",
-    "modem": "February 11, 2016 [ 57 ]"
+    "modem": "February 11, 2016"
   },
   {
     "id": "msm8920",
@@ -709,7 +709,7 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "October 18, 2016 [ 59 ] [ 60 ]",
+    "gpu": "October 18, 2016",
     "dsp": "Q1 2017"
   },
   {
@@ -752,10 +752,10 @@
     "clock_min": 465,
     "clock_max": 465,
     "dsp": "Up to 13 MP single camera",
-    "modem": "February 18, 2015 [ 55 ]"
+    "modem": "February 18, 2015"
   },
   {
-    "id": "msm8930aa_msm8930aa49",
+    "id": "msm8930aa",
     "name": "MSM8930AA",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -765,21 +765,21 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8930AA [ 49 ]",
+    "model": "MSM8930AA",
     "aliases": [
-      "MSM8930AA (MSM8930AA [ 49 ])"
+      "MSM8930AA (MSM8930AA )"
     ]
   },
   {
-    "id": "msm8930ab_msm8930ab49",
+    "id": "msm8930ab",
     "name": "MSM8930AB",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8930AB [ 49 ]",
+    "model": "MSM8930AB",
     "year": 2013,
     "aliases": [
-      "MSM8930AB (MSM8930AB [ 49 ])"
+      "MSM8930AB (MSM8930AB )"
     ],
     "completeness": 0.301,
     "sources": {},
@@ -882,7 +882,7 @@
     "gpu": "LPDDR3 Single-channel 32-bit 933 MHz (7.5 GB/s)",
     "gpu_clock": 933,
     "dsp": "X8 LTE (Cat 7: download up to 300 Mbit/s, upload up to 100 Mbit/s)",
-    "modem": "September 15, 2015 [ 62 ]",
+    "modem": "September 15, 2015",
     "process_nm": 28,
     "process_name": "28nm"
   },
@@ -904,7 +904,7 @@
     "clock_max": 2000,
     "gpu_clock": 650,
     "dsp": "Up to 24 MP single camera; Video Capture: 4K@30fps",
-    "modem": "February 11, 2016 [ 95 ]",
+    "modem": "February 11, 2016",
     "process_nm": 14,
     "process_name": "14nm"
   },
@@ -1031,7 +1031,7 @@
     "updated": "2026-06-21",
     "clock_min": 621,
     "clock_max": 621,
-    "dsp": "October 18, 2016 [ 59 ] [ 60 ]"
+    "dsp": "October 18, 2016"
   },
   {
     "id": "msm8992",
@@ -1042,7 +1042,7 @@
     "process": "20 nm",
     "cores": 8,
     "max_freq": "1.82 GHz",
-    "gpu": "Adreno 418 600 MHz [ 197 ] (153.6 GFLOPS in FP32)",
+    "gpu": "Adreno 418 600 MHz (153.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
@@ -1057,10 +1057,10 @@
     "memory_clock": 933,
     "memory_max": 9,
     "memory_bus": 32,
-    "modem": "X10 LTE ( Cat 9 : download 450 Mbit/s, upload 50 Mbit/s) [ 198 ]",
+    "modem": "X10 LTE ( Cat 9 : download 450 Mbit/s, upload 50 Mbit/s)",
     "wifi": "802.11ac",
     "bluetooth": "4.1",
-    "charging": "April 7, 2014 [ 200 ]",
+    "charging": "April 7, 2014",
     "camera_max": "Up to 21 MP single camera (Video capture: 4K@30fps)"
   },
   {
@@ -1219,11 +1219,11 @@
     "wifi": "802.11ac",
     "bluetooth": "5.0",
     "charging": "4.0",
-    "npu": "Q2 2017 [ 215 ]",
+    "npu": "Q2 2017",
     "camera_max": "Spectra 180 (32 MP Photo capture / 25 MP at 30fps single camera with ZSL / 16 MP"
   },
   {
-    "id": "qm215_qm21547",
+    "id": "qm215",
     "name": "QM215",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -1234,14 +1234,14 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "QM215 [ 47 ]",
+    "model": "QM215",
     "clock_min": 485,
     "clock_max": 485,
     "dsp": "Up to 13 MP single camera / 8 MP dual camera",
     "modem": "Bluetooth 4.2, NFC, 802.11ac Wi-Fi, Beidou, GPS, GLONASS, USB 2.0",
-    "charging": "July 9, 2019 [ 48 ]",
+    "charging": "July 9, 2019",
     "aliases": [
-      "QM215 (QM215 [ 47 ])"
+      "QM215 (QM215 )"
     ]
   },
   {
@@ -1323,7 +1323,7 @@
     "modem": "X9 LTE (download: Cat 7, up to 300 Mbit/s; upload: Cat 13, up to 150 Mbit/s)",
     "wifi": "802.11ac",
     "bluetooth": "4.1",
-    "charging": "June 28, 2017 [ 68 ]",
+    "charging": "June 28, 2017",
     "process_nm": 14,
     "process_name": "14nm",
     "camera_max": "Up to 24 MP single camera / 13 MP dual camera"
@@ -1347,7 +1347,7 @@
     "clock_max": 650,
     "dsp": "Spectra 160 (24 MP single camera / 13 MP dual camera; Video Capture: 4K@30fps)",
     "modem": "Bluetooth 5, 802.11ac Wi-Fi 1x1, NFC , USB 3.1",
-    "charging": "May 8, 2017 [ 101 ]"
+    "charging": "May 8, 2017"
   },
   {
     "id": "sdm632",
@@ -1446,7 +1446,7 @@
     "memory_max": 9,
     "memory_bus": 16,
     "modem": "Bluetooth 5, 802.11ac Wi-Fi, NFC , USB 3.1",
-    "charging": "August 8, 2018 [ 116 ]",
+    "charging": "August 8, 2018",
     "process_nm": 10,
     "process_name": "10nm",
     "camera_max": "Spectra 250 (192 MP single camera / 16 MP dual camera with ZSL; Video Capture: 4"
@@ -1502,7 +1502,7 @@
     "wifi": "Wi-Fi 802",
     "bluetooth": "5.1",
     "connectivity": "NFC",
-    "charging": "January 20, 2020 [ 70 ]",
+    "charging": "January 20, 2020",
     "process_nm": 11,
     "process_name": "11nm",
     "camera_max": "Spectra 340 (48 MP single camera / 16 MP dual camera)"
@@ -1551,7 +1551,7 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "October 26, 2021 [ 74 ]",
+    "gpu": "October 26, 2021",
     "dsp": "Q4 2021",
     "process_nm": 8,
     "process_name": "8nm"
@@ -1631,7 +1631,7 @@
     "year": 2013,
     "cores": 8,
     "max_freq": "895 MHz",
-    "gpu": "December 15, 2020 [ 120 ]",
+    "gpu": "December 15, 2020",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3786,
     "sources": {},
@@ -1749,7 +1749,7 @@
     "wifi": "802.11ac",
     "bluetooth": "5.2",
     "connectivity": "NFC",
-    "charging": "October 26, 2021 [ 74 ]",
+    "charging": "October 26, 2021",
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra 346T (108 MP single camera / 25+13 MP dual camera with ZSL / 13 MP tripl"
@@ -1782,7 +1782,7 @@
     "modem": "Internal: X24 LTE (Cat 20: download up to 2 Gbit/s, 7x20 MHz CA, 256-QAM, 4x4 MI",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.0",
-    "charging": "December 5, 2018 [ 221 ] [ 222 ]",
+    "charging": "December 5, 2018",
     "camera_max": "Spectra 380 (192 MP single camera / 48 MP at 30 fps single camera with MFNR/ZSL "
   },
   {
@@ -1844,10 +1844,10 @@
     "memory_clock": 2750,
     "memory_max": 44,
     "memory_bus": 16,
-    "modem": "Internal: none + External: X55 5G [ 227 ] (5G NR Sub-6 & mmWave: download @ 7.5 ",
+    "modem": "Internal: none + External: X55 5G (5G NR Sub-6 & mmWave: download @ 7.5",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.1",
-    "charging": "December 4, 2019 [ 228 ]",
+    "charging": "December 4, 2019",
     "camera_max": "Spectra 480 (200 MP Photo Capture / 64 MP at 30 fps single camera with MFNR/ZSL "
   },
   {
@@ -1858,7 +1858,7 @@
     "architecture": "ARMv8.2-A",
     "model": "SM8250",
     "max_freq": "60.00 GHz",
-    "gpu": "July 8, 2020 [ 230 ]",
+    "gpu": "July 8, 2020",
     "year": 2013,
     "process_nm": 7,
     "process_name": "7nm",
@@ -2003,7 +2003,7 @@
     "updated": "2026-06-21",
     "clock_min": 610,
     "clock_max": 610,
-    "dsp": "February 6, 2019 [ 142 ]"
+    "dsp": "February 6, 2019"
   },
   {
     "id": "sm7125",
@@ -2023,7 +2023,7 @@
     "clock_max": 2300,
     "gpu_clock": 750,
     "dsp": "Hexagon 692 (5 TOPS)",
-    "modem": "January 20, 2020 [ 70 ]",
+    "modem": "January 20, 2020",
     "process_nm": 8,
     "process_name": "8nm",
     "camera_max": "Spectra 350L (192 MP single camera / 16 MP dual camera with ZSL; Video Capture: "
@@ -2072,7 +2072,7 @@
     "architecture": "ARMv8.2-A",
     "model": "SM7150",
     "max_freq": "800 MHz",
-    "gpu": "FastConnect 6200; Bluetooth 5.1; NFC ; 802.11ac/ax 2x2 (MU-MIMO) Wi-Fi up to 867 Mbit/s; GPS, GLONASS, Beidou, Galileo, ",
+    "gpu": "FastConnect 6200; Bluetooth 5.1; NFC ; 802.11ac/ax 2x2 (MU-MIMO) Wi-Fi up to 867 Mbit/s; GPS, GLONASS, Beidou, Galileo,",
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
@@ -2081,7 +2081,7 @@
     "updated": "2026-06-21",
     "clock_min": 800,
     "clock_max": 800,
-    "dsp": "August 31, 2020 [ 148 ]"
+    "dsp": "August 31, 2020"
   },
   {
     "id": "sm7225",
@@ -2127,7 +2127,7 @@
     "clock_mid": 2200,
     "gpu_clock": 540,
     "dsp": "Hexagon 696 (5.4 TOPs)",
-    "modem": "December 4, 2019 [ 152 ] [ 153 ]",
+    "modem": "December 4, 2019",
     "camera_max": "Spectra 355 (192 MP Photo Capture / 36 MP single camera with ZSL / 22 MP dual ca"
   },
   {
@@ -2165,7 +2165,7 @@
     "updated": "2026-06-21",
     "clock_min": 750,
     "clock_max": 750,
-    "dsp": "May 10, 2020 [ 156 ]"
+    "dsp": "May 10, 2020"
   },
   {
     "id": "sm7325",
@@ -2194,7 +2194,7 @@
     "modem": "Internal: X53 5G (5G NR Sub-6 & mmWave: download up to 3.7 Gbit/s, upload up to ",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.2",
-    "charging": "May 19, 2021 [ 158 ]",
+    "charging": "May 19, 2021",
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra 570L (200 MP Photo Capture / 64 MP single camera with ZSL / 36+22 MP dua"
@@ -2207,7 +2207,7 @@
     "architecture": "ARMv8.2-A",
     "model": "SM7325",
     "max_freq": "608 MHz",
-    "gpu": "October 26, 2021 [ 74 ]",
+    "gpu": "October 26, 2021",
     "year": 2018,
     "completeness": 0.4175,
     "sources": {},
@@ -2271,7 +2271,7 @@
     "process_name": "5nm"
   },
   {
-    "id": "sm8250_kona_865p",
+    "id": "snapdragon_865p_sm8250ab",
     "name": "Snapdragon 865+",
     "vendor": "Qualcomm",
     "codename": "kona",
@@ -2347,7 +2347,7 @@
     "cores": 8,
     "year": 2021,
     "process": "4 nm",
-    "gpu": "May 20, 2022 [ 166 ]",
+    "gpu": "May 20, 2022",
     "max_freq": "900 MHz",
     "architecture": "ARMv8.2-A",
     "process_nm": 4,
@@ -2388,7 +2388,7 @@
     "gpu_clock": 680,
     "dsp": "LPDDR5X Quad-channel 16-bit (64-bit) 4200 MHz (67.2 GB/s)",
     "memory_max": 8,
-    "modem": "November 15, 2022 [ 248 ]"
+    "modem": "November 15, 2022"
   },
   {
     "id": "sm8550_ac",
@@ -2474,7 +2474,7 @@
     "gpu_clock": 903,
     "dsp": "LPDDR5X quad-channel 16-bit (64-bit) 4800 MHz (76.8 GB/s)",
     "memory_max": 8,
-    "modem": "October 24, 2023 [ 253 ]"
+    "modem": "October 24, 2023"
   },
   {
     "id": "sm8650_ac",
@@ -2688,7 +2688,7 @@
     "gpu_clock": 1200,
     "dsp": "Spectra (320 MP Photo Capture, 108 MP single camera @30fps ZSL, 48 MP triple cam",
     "memory_max": 5,
-    "modem": "September 24, 2025 [ 263 ]",
+    "modem": "September 24, 2025",
     "process_nm": 3,
     "process_name": "3nm"
   },
@@ -2708,7 +2708,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sm8250_kona",
+    "id": "snapdragon_870_sm8250ac",
     "name": "Snapdragon 870",
     "vendor": "Qualcomm",
     "codename": "kona",
@@ -2738,7 +2738,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sm8350_lahaina_888p",
+    "id": "snapdragon_888p_sm8350ab",
     "name": "Snapdragon 888+",
     "vendor": "Qualcomm",
     "codename": "lahaina",
@@ -2816,7 +2816,7 @@
     "modem": "Internal X61 5G (5G NR Sub-6: download up to 2.5 Gbit/s, upload up to 900 Mbit/s",
     "wifi": "802.11a",
     "bluetooth": "5.1",
-    "charging": "June 26, 2023 [ 78 ]",
+    "charging": "June 26, 2023",
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (108 MP single camera / 16 MP dual camera with ZSL)"
@@ -2868,7 +2868,7 @@
     "updated": "2026-06-21",
     "gpu_clock": 2133,
     "dsp": "Internal (5G NR Sub-6: download up to 2.8 Gbit/s, upload up to 900 Mbit/s)",
-    "modem": "May 7, 2026 [ 84 ]"
+    "modem": "May 7, 2026"
   },
   {
     "id": "sm6375_ac",
@@ -2895,7 +2895,7 @@
     "modem": "Internal X51 5G (5G NR Sub-6 & mmWave: download up to 2.5 Gbit/s, upload up to 1",
     "wifi": "802.11a",
     "bluetooth": "5.2",
-    "charging": "June 6, 2024 [ 133 ]",
+    "charging": "June 6, 2024",
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra (108 MP single camera / 25+13 MP dual camera with ZSL / 13 MP triple cam"
@@ -2970,7 +2970,7 @@
     "clock_max": 1010,
     "dsp": "Spectra (200 MP Photo Capture / 48 MP single camera with ZSL / 32+16 MP dual cam",
     "memory_max": 9,
-    "modem": "August 31, 2024 [ 131 ]"
+    "modem": "August 31, 2024"
   },
   {
     "id": "sm6650",
@@ -2999,7 +2999,7 @@
     "modem": "Internal: X62 5G (5G NR Sub-6 & mmWave: download up to 2.9 Gbit/s, upload up to ",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.4",
-    "charging": "February 12, 2025 [ 135 ]",
+    "charging": "February 12, 2025",
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 32+16 MP dual cam"
@@ -3023,7 +3023,7 @@
     "dsp": "Hexagon",
     "memory_max": 8,
     "modem": "FastConnect 7700; Bluetooth 6.0; 802.11a/b/g/n/ac/ax/be (Wi-Fi 7) 2x2 (MU-MIMO) ",
-    "charging": "May 7, 2026 [ 84 ]",
+    "charging": "May 7, 2026",
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 16+16 MP dual cam"
@@ -3117,7 +3117,7 @@
     "memory_max": 2,
     "memory_bus": 16,
     "modem": "FastConnect 6900; Bluetooth 5.3; 802.11a/b/g/n/ac/ax (Wi-Fi 6E) 2x2 (MU-MIMO) up",
-    "charging": "March 17, 2023 [ 170 ]",
+    "charging": "March 17, 2023",
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 108 MP single camera with ZSL / 64+36 MP dual ca"
@@ -3144,7 +3144,7 @@
     "dsp": "Hexagon",
     "memory_max": 5,
     "modem": "FastConnect 6700; Bluetooth 5.4; 802.11a/b/g/n/ac/ax (Wi-Fi 6E) 2x2 (MU-MIMO) up",
-    "charging": "November 17, 2023 [ 175 ]",
+    "charging": "November 17, 2023",
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 32+21 MP dual cam"
@@ -3167,7 +3167,7 @@
     "dsp": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 32+21 MP dual cam",
     "memory_max": 9,
     "modem": "FastConnect 6700; Bluetooth 5.4; 802.11a/b/g/n/ac/ax (Wi-Fi 6E) 2x2 (MU-MIMO) up",
-    "charging": "August 20, 2024 [ 180 ]"
+    "charging": "August 20, 2024"
   },
   {
     "id": "sm7635_ac",
@@ -3206,7 +3206,7 @@
     "clock_max": 950,
     "dsp": "Spectra (200 MP Photo Capture / 108 MP single camera with ZSL / 64+36 MP dual ca",
     "memory_max": 8,
-    "modem": "March 21, 2024 [ 178 ]"
+    "modem": "March 21, 2024"
   },
   {
     "id": "sm7750_ab",
@@ -3226,10 +3226,10 @@
     "dsp": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 32+21 MP dual cam",
     "memory_max": 2,
     "modem": "FastConnect 7700; Bluetooth 6.0; 802.11a/b/g/n/ac/ax/be (Wi-Fi 7) 2x2 (MU-MIMO) ",
-    "charging": "May 15, 2025 [ 183 ]"
+    "charging": "May 15, 2025"
   },
   {
-    "id": "snapdragon_4_gen_2_accelerated_edition_snapdragon4gen2acceleratededitiona",
+    "id": "snapdragon_4_gen_2_accelerated_edition_snapdragon4gen2acceleratededition",
     "name": "Snapdragon 4 Gen 2 Accelerated Edition",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3240,9 +3240,9 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 4 Gen 2 Accelerated Edition [ a ]",
+    "model": "Snapdragon 4 Gen 2 Accelerated Edition",
     "aliases": [
-      "Snapdragon 4 Gen 2 Accelerated Edition (Snapdragon 4 Gen 2 Accelerated Edition [ a ])"
+      "Snapdragon 4 Gen 2 Accelerated Edition (Snapdragon 4 Gen 2 Accelerated Edition )"
     ]
   },
   {
@@ -3305,7 +3305,7 @@
   },
   {
     "id": "apq8009_sda212",
-    "name": "APQ8009  (SDA212)",
+    "name": "APQ8009 (SDA212)",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -3418,7 +3418,7 @@
     "camera_max": "Up to 16 MP camera"
   },
   {
-    "id": "apq8060a_apq8060a32",
+    "id": "apq8060a",
     "name": "APQ8060A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3428,16 +3428,16 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "APQ8060A [ 32 ]",
+    "model": "APQ8060A",
     "clock_min": 400,
     "clock_max": 400,
     "dsp": "LPDDR2 Dual-channel 500 MHz",
     "aliases": [
-      "APQ8060A (APQ8060A [ 32 ])"
+      "APQ8060A (APQ8060A )"
     ]
   },
   {
-    "id": "g1_gen_1",
+    "id": "g1_gen_1_g1gen1",
     "name": "G1 Gen 1",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3449,7 +3449,7 @@
     "model": "G1 Gen 1"
   },
   {
-    "id": "g1_gen_2",
+    "id": "g1_gen_2_g1gen2",
     "name": "G1 Gen 2",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -3463,7 +3463,7 @@
     "model": "G1 Gen 2"
   },
   {
-    "id": "g2_gen_1",
+    "id": "g2_gen_1_g2gen1",
     "name": "G2 Gen 1",
     "vendor": "Qualcomm",
     "cores": 4,
@@ -3475,7 +3475,7 @@
     "model": "G2 Gen 1"
   },
   {
-    "id": "g2_gen_2",
+    "id": "g2_gen_2_g2gen2",
     "name": "G2 Gen 2",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -3488,7 +3488,7 @@
     "model": "G2 Gen 2"
   },
   {
-    "id": "g3_gen_3",
+    "id": "g3_gen_3_g3gen3",
     "name": "G3 Gen 3",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -3502,7 +3502,7 @@
     "model": "G3 Gen 3"
   },
   {
-    "id": "g3x_gen_1",
+    "id": "g3x_gen_1_g3xgen1",
     "name": "G3x Gen 1",
     "vendor": "Qualcomm",
     "process": "5 nm",
@@ -3516,7 +3516,7 @@
     "model": "G3x Gen 1"
   },
   {
-    "id": "g3x_gen_2",
+    "id": "g3x_gen_2_g3xgen2",
     "name": "G3x Gen 2",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -3556,7 +3556,7 @@
     "camera_max": "Up to 5 MP camera"
   },
   {
-    "id": "msm7225a_msm7225a22",
+    "id": "msm7225a",
     "name": "MSM7225A",
     "vendor": "Qualcomm",
     "process": "45 nm",
@@ -3567,7 +3567,7 @@
     "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM7225A [ 22 ]",
+    "model": "MSM7225A",
     "clock_min": 800,
     "clock_max": 800,
     "gpu_clock": 245,
@@ -3579,14 +3579,14 @@
     "bluetooth": "4.0",
     "npu": "Q4 2011",
     "aliases": [
-      "MSM7225A (MSM7225A [ 22 ])"
+      "MSM7225A (MSM7225A )"
     ],
     "process_nm": 45,
     "process_name": "45nm",
     "camera_max": "Up to 5 MP camera"
   },
   {
-    "id": "msm7225ab_msm7225ab22",
+    "id": "msm7225ab",
     "name": "MSM7225AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3594,9 +3594,9 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM7225AB [ 22 ]",
+    "model": "MSM7225AB",
     "aliases": [
-      "MSM7225AB (MSM7225AB [ 22 ])"
+      "MSM7225AB (MSM7225AB )"
     ],
     "process_nm": 8,
     "process_name": "8nm",
@@ -3620,7 +3620,7 @@
     "modem": "2008"
   },
   {
-    "id": "msm7227a_msm7227a22",
+    "id": "msm7227a",
     "name": "MSM7227A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3630,12 +3630,12 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM7227A [ 22 ]",
+    "model": "MSM7227A",
     "clock_min": 245,
     "clock_max": 245,
     "dsp": "UMTS , MBMS ; GSM",
     "aliases": [
-      "MSM7227A (MSM7227A [ 22 ])"
+      "MSM7227A (MSM7227A )"
     ]
   },
   {
@@ -3678,14 +3678,14 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm7625a_msm7625a22",
+    "id": "msm7625a",
     "name": "MSM7625A",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM7625A [ 22 ]",
+    "model": "MSM7625A",
     "aliases": [
-      "MSM7625A (MSM7625A [ 22 ])"
+      "MSM7625A (MSM7625A )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -3703,14 +3703,14 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm7627a_msm7627a22",
+    "id": "msm7627a",
     "name": "MSM7627A",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM7627A [ 22 ]",
+    "model": "MSM7627A",
     "aliases": [
-      "MSM7627A (MSM7627A [ 22 ])"
+      "MSM7627A (MSM7627A )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -3791,7 +3791,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8255t_msm8255t22",
+    "id": "msm8255t",
     "name": "MSM8255T",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3800,9 +3800,9 @@
     "completeness": 0.2816,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8255T [ 22 ]",
+    "model": "MSM8255T",
     "aliases": [
-      "MSM8255T (MSM8255T [ 22 ])"
+      "MSM8255T (MSM8255T )"
     ]
   },
   {
@@ -3817,7 +3817,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8260a_msm8260a32",
+    "id": "msm8260a",
     "name": "MSM8260A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3825,9 +3825,9 @@
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8260A [ 32 ]",
+    "model": "MSM8260A",
     "aliases": [
-      "MSM8260A (MSM8260A [ 32 ])"
+      "MSM8260A (MSM8260A )"
     ]
   },
   {
@@ -3875,14 +3875,14 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8655t_msm8655t22",
+    "id": "msm8655t",
     "name": "MSM8655T",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8655T [ 22 ]",
+    "model": "MSM8655T",
     "aliases": [
-      "MSM8655T (MSM8655T [ 22 ])"
+      "MSM8655T (MSM8655T )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -3900,21 +3900,21 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8660a_msm8660a32",
+    "id": "msm8660a",
     "name": "MSM8660A",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MSM8660A [ 32 ]",
+    "model": "MSM8660A",
     "aliases": [
-      "MSM8660A (MSM8660A [ 32 ])"
+      "MSM8660A (MSM8660A )"
     ],
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8909w_msm8909w314",
+    "id": "msm8909w",
     "name": "MSM8909w",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3924,12 +3924,12 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MSM8909w [ 314 ]",
+    "model": "MSM8909w",
     "gpu_clock": 400,
     "dsp": "X5 2G/3G/LTE (Cat 4, up to 150/50 Mbit/s)",
-    "modem": "February 10, 2016 [ 316 ]",
+    "modem": "February 10, 2016",
     "aliases": [
-      "MSM8909w (MSM8909w [ 314 ])"
+      "MSM8909w (MSM8909w )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -3992,7 +3992,7 @@
     "vendor": "Qualcomm",
     "cores": 8,
     "max_freq": "680 MHz",
-    "gpu": "October 1, 2020 [ 290 ]",
+    "gpu": "October 1, 2020",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3495,
     "sources": {},
@@ -4018,7 +4018,7 @@
     "clock_min": 2400,
     "clock_max": 3000,
     "gpu_clock": 900,
-    "dsp": "Hexagon (15 TOPS) [ 286 ]",
+    "dsp": "Hexagon (15 TOPS)",
     "memory_max": 10,
     "modem": "FastConnect 6900, Bluetooth 5.1; 802.11ac/ax (Wi-Fi 6E) 2x2 (MU-MIMO) @ 3.6 Gbit",
     "process_nm": 5,
@@ -4120,7 +4120,7 @@
     "process_name": "14nm"
   },
   {
-    "id": "qsd8250_qsd825022",
+    "id": "qsd8250",
     "name": "QSD8250",
     "vendor": "Qualcomm",
     "process": "65 nm",
@@ -4131,7 +4131,7 @@
     "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "QSD8250 [ 22 ]",
+    "model": "QSD8250",
     "clock_min": 1000,
     "clock_max": 1000,
     "gpu_clock": 226,
@@ -4142,28 +4142,28 @@
     "bluetooth": "2.1",
     "npu": "Q4 2008",
     "aliases": [
-      "QSD8250 (QSD8250 [ 22 ])"
+      "QSD8250 (QSD8250 )"
     ],
     "process_nm": 65,
     "process_name": "65nm",
     "camera_max": "Up to 12 MP camera"
   },
   {
-    "id": "qsd8650_qsd865022",
+    "id": "qsd8650",
     "name": "QSD8650",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "QSD8650 [ 22 ]",
+    "model": "QSD8650",
     "aliases": [
-      "QSD8650 (QSD8650 [ 22 ])"
+      "QSD8650 (QSD8650 )"
     ],
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "sa6155p_sa6155p339340",
+    "id": "sa6155p",
     "name": "SA6155P",
     "vendor": "Qualcomm",
     "process": "11 nm",
@@ -4174,7 +4174,7 @@
     "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "SA6155P [ 339 ] [ 340 ]",
+    "model": "SA6155P",
     "clock_min": 1600,
     "clock_max": 2000,
     "gpu_clock": 430,
@@ -4188,13 +4188,13 @@
     "bluetooth": "5.0",
     "npu": "Q1 2019",
     "aliases": [
-      "SA6155P (SA6155P [ 339 ] [ 340 ])"
+      "SA6155P (SA6155P )"
     ],
     "process_nm": 11,
     "process_name": "11nm"
   },
   {
-    "id": "sa8195p_sa8195p341342",
+    "id": "sa8195p",
     "name": "SA8195P",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4204,12 +4204,12 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "SA8195P [ 341 ] [ 342 ]",
+    "model": "SA8195P",
     "clock_min": 600,
     "clock_max": 600,
     "dsp": "Internal: no",
     "aliases": [
-      "SA8195P (SA8195P [ 341 ] [ 342 ])"
+      "SA8195P (SA8195P )"
     ]
   },
   {
@@ -4416,10 +4416,10 @@
     "clock_min": 2400,
     "clock_max": 3000,
     "gpu_clock": 900,
-    "dsp": "Hexagon [ 286 ] (15 TOPS)",
+    "dsp": "Hexagon (15 TOPS)",
     "memory_max": 10,
     "modem": "FastConnect 6900, Bluetooth 5.1; 802.11ax (Wi-Fi 6E) 2x2 (MU-MIMO) @ 3.6 Gbit/s;",
-    "charging": "December 1, 2021 [ 275 ] [ 285 ] [ 287 ]",
+    "charging": "December 1, 2021",
     "process_nm": 5,
     "process_name": "5nm",
     "camera_max": "Spectra (24 MP at 30fps single camera with MFNR/ZSL)"
@@ -4471,7 +4471,7 @@
     "memory_max": 9,
     "memory_bus": 16,
     "modem": "X20 LTE (download: Cat 18, up to 1200 Mbit/s; 5x20 MHz CA; 256-QAM; 4x4 MIMO on ",
-    "charging": "June 4, 2018 [ 269 ]",
+    "charging": "June 4, 2018",
     "process_nm": 10,
     "process_name": "10nm",
     "camera_max": "Spectra 280 (192 MP single camera / 16 MP at 30fps Dual Camera with MFNR/ZSL)"
@@ -4499,12 +4499,12 @@
     "wifi": "802.11a",
     "bluetooth": "5.3",
     "connectivity": "NFC",
-    "npu": "Q3 2022 [ 327 ]",
+    "npu": "Q3 2022",
     "process_nm": 4,
     "process_name": "4nm"
   },
   {
-    "id": "snapdragon_410e",
+    "id": "snapdragon_410e_snapdragon410e",
     "name": "Snapdragon 410E",
     "vendor": "Qualcomm",
     "process": "28 nm",
@@ -4518,7 +4518,7 @@
     "model": "Snapdragon 410E"
   },
   {
-    "id": "snapdragon_410e_apq8016e_snapdragon410e347apq8016e",
+    "id": "snapdragon_410e_apq8016e_snapdragon410eapq8016e",
     "name": "Snapdragon 410E (APQ8016E)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4529,7 +4529,7 @@
     "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 410E [ 347 ] (APQ8016E)",
+    "model": "Snapdragon 410E (APQ8016E)",
     "clock_min": 1200,
     "clock_max": 1200,
     "dsp": "Hexagon QDSP6 V5 691 MHz",
@@ -4540,14 +4540,14 @@
     "wifi": "802.11n",
     "bluetooth": "4.0",
     "aliases": [
-      "Snapdragon 410E (APQ8016E) (Snapdragon 410E [ 347 ] (APQ8016E))"
+      "Snapdragon 410E (APQ8016E) (Snapdragon 410E (APQ8016E))"
     ],
     "process_nm": 28,
     "process_name": "28nm",
     "camera_max": "Up to 13 MP camera"
   },
   {
-    "id": "snapdragon_600e",
+    "id": "snapdragon_600e_snapdragon600e",
     "name": "Snapdragon 600E",
     "vendor": "Qualcomm",
     "cores": 4,
@@ -4560,7 +4560,7 @@
     "model": "Snapdragon 600E"
   },
   {
-    "id": "snapdragon_600e_apq8064e_snapdragon600e348apq8064e",
+    "id": "snapdragon_600e_apq8064e_snapdragon600eapq8064e",
     "name": "Snapdragon 600E (APQ8064E)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4570,13 +4570,13 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 600E [ 348 ] (APQ8064E)",
+    "model": "Snapdragon 600E (APQ8064E)",
     "clock_min": 400,
     "clock_max": 400,
     "gpu_clock": 500,
     "dsp": "Up to 21 MP camera",
     "aliases": [
-      "Snapdragon 600E (APQ8064E) (Snapdragon 600E [ 348 ] (APQ8064E))"
+      "Snapdragon 600E (APQ8064E) (Snapdragon 600E (APQ8064E))"
     ]
   },
   {
@@ -4659,7 +4659,7 @@
     "camera_max": "Up to 55 MP camera"
   },
   {
-    "id": "snapdragon_820am",
+    "id": "snapdragon_820am_snapdragon820am",
     "name": "Snapdragon 820AM",
     "vendor": "Qualcomm",
     "process": "14 nm",
@@ -4673,7 +4673,7 @@
     "model": "Snapdragon 820AM"
   },
   {
-    "id": "snapdragon_820am_apq8096au_msm8996au_snapdragon820am338apq8096aumsm8996au",
+    "id": "snapdragon_820am_apq8096au_msm8996au_snapdragon820amapq8096aumsm8996au",
     "name": "Snapdragon 820AM (APQ8096AU/ MSM8996AU)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4684,7 +4684,7 @@
     "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 820AM [ 338 ] (APQ8096AU/ MSM8996AU)",
+    "model": "Snapdragon 820AM (APQ8096AU/ MSM8996AU)",
     "process_nm": 14,
     "process_name": "14nm",
     "clock_min": 1590,
@@ -4700,7 +4700,7 @@
     "bluetooth": "4.1",
     "npu": "Q1 2016",
     "aliases": [
-      "Snapdragon 820AM (APQ8096AU/ MSM8996AU) (Snapdragon 820AM [ 338 ] (APQ8096AU/ MSM8996AU))"
+      "Snapdragon 820AM (APQ8096AU/ MSM8996AU) (Snapdragon 820AM (APQ8096AU/ MSM8996AU))"
     ]
   },
   {
@@ -4729,7 +4729,7 @@
     "camera_max": "Up to 28 MP camera"
   },
   {
-    "id": "snapdragon_855a",
+    "id": "snapdragon_855a_snapdragon855a",
     "name": "Snapdragon 855A",
     "vendor": "Qualcomm",
     "process": "7 nm",
@@ -4743,8 +4743,8 @@
     "model": "Snapdragon 855A"
   },
   {
-    "id": "snapdragon_855a_sa8155p_snapdragon855a341342sa8155p",
-    "name": "Snapdragon 855A  (SA8155P)",
+    "id": "snapdragon_855a_sa8155p_snapdragon855asa8155p",
+    "name": "Snapdragon 855A (SA8155P)",
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -4754,7 +4754,7 @@
     "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 855A [ 341 ] [ 342 ] (SA8155P)",
+    "model": "Snapdragon 855A (SA8155P)",
     "clock_min": 1790,
     "clock_max": 2960,
     "clock_mid": 2420,
@@ -4770,7 +4770,7 @@
     "bluetooth": "5.0",
     "npu": "Q1 2021",
     "aliases": [
-      "Snapdragon 855A  (SA8155P) (Snapdragon 855A [ 341 ] [ 342 ] (SA8155P))"
+      "Snapdragon 855A (SA8155P) (Snapdragon 855A (SA8155P))"
     ],
     "process_nm": 7,
     "process_name": "7nm"
@@ -4976,7 +4976,7 @@
     "memory_clock": 2133
   },
   {
-    "id": "w5p_gen_1",
+    "id": "w5p_gen_1_w5gen1",
     "name": "W5+ Gen 1",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -4989,7 +4989,7 @@
     "model": "W5+ Gen 1"
   },
   {
-    "id": "w5p_gen_2",
+    "id": "w5p_gen_2_w5gen2",
     "name": "W5+ Gen 2",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -5002,7 +5002,7 @@
     "model": "W5+ Gen 2"
   },
   {
-    "id": "wear_4100p",
+    "id": "wear_4100p_wear4100",
     "name": "Wear 4100+",
     "vendor": "Qualcomm",
     "process": "12 nm",
@@ -5015,7 +5015,7 @@
     "model": "Wear 4100+"
   },
   {
-    "id": "x1e84100",
+    "id": "x1e_84_100_x1e84100",
     "name": "X1E-84-100",
     "vendor": "Qualcomm",
     "cores": 12,
@@ -5028,7 +5028,7 @@
     "model": "X1E-84-100"
   },
   {
-    "id": "x1p46100",
+    "id": "x1p_46_100_x1p46100",
     "name": "X1P-46-100",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -5041,7 +5041,7 @@
     "model": "X1P-46-100"
   },
   {
-    "id": "x1p64100",
+    "id": "x1p_64_100_x1p64100",
     "name": "X1P-64-100",
     "vendor": "Qualcomm",
     "cores": 10,
@@ -5054,7 +5054,7 @@
     "model": "X1P-64-100"
   },
   {
-    "id": "x2e80100",
+    "id": "x2e_80_100_x2e80100",
     "name": "X2E-80-100",
     "vendor": "Qualcomm",
     "cores": 12,
@@ -5067,7 +5067,7 @@
     "model": "X2E-80-100"
   },
   {
-    "id": "x2e88100",
+    "id": "x2e_88_100_x2e88100",
     "name": "X2E-88-100",
     "vendor": "Qualcomm",
     "cores": 18,
@@ -5080,7 +5080,7 @@
     "model": "X2E-88-100"
   },
   {
-    "id": "x2p64100",
+    "id": "x2p_64_100_x2p64100",
     "name": "X2P-64-100",
     "vendor": "Qualcomm",
     "cores": 10,
@@ -5120,7 +5120,7 @@
     "model": "XR2"
   },
   {
-    "id": "xr2_gen_2",
+    "id": "xr2_gen_2_xr2gen2",
     "name": "XR2 Gen 2",
     "vendor": "Qualcomm",
     "process": "4 nm",
@@ -5134,7 +5134,7 @@
     "model": "XR2 Gen 2"
   },
   {
-    "id": "xr2p_gen_2",
+    "id": "xr2p_gen_2_xr2gen2",
     "name": "XR2+ Gen 2",
     "vendor": "Qualcomm",
     "cores": 4,

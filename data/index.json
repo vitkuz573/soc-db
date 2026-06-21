@@ -41,7 +41,7 @@
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
-      "count": 63,
+      "count": 61,
       "completeness": 0.336
     },
     "ingenic": {
@@ -77,7 +77,7 @@
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 20,
+      "count": 19,
       "completeness": 0.304
     },
     "nxp_i.mx": {
@@ -141,6 +141,6 @@
       "completeness": 0.262
     }
   },
-  "total": 1099,
+  "total": 1096,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

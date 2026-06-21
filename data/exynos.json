@@ -8,7 +8,7 @@
     "model": "EXYNOS 2100",
     "process": "5 nm",
     "max_freq": "2.91 GHz",
-    "gpu": "128.1 [ 56 ]",
+    "gpu": "128.1",
     "year": 2000,
     "aliases": [
       "Exynos 2100 (S5E9840) (EXYNOS 2100)"
@@ -30,7 +30,7 @@
     "model": "EXYNOS 2200",
     "process": "4 nm",
     "max_freq": "2.95 GHz",
-    "gpu": "104.7 [ 56 ]",
+    "gpu": "104.7",
     "year": 2000,
     "aliases": [
       "Exynos 2200 (S5E9925) (EXYNOS 2200)"
@@ -39,7 +39,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.95 GHz Cortex-X2 + 2.70 GHz Cortex-A710 + 2.10 GHz Cortex-A51",
-    "modem": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP [ 60 ] ) [ a ]",
+    "modem": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP )",
     "process_nm": 4,
     "process_name": "4nm"
   },
@@ -52,7 +52,7 @@
     "model": "EXYNOS 2400",
     "process": "4 nm",
     "max_freq": "3.2 GHz",
-    "gpu": "137.4 [ 56 ]",
+    "gpu": "137.4",
     "year": 2000,
     "aliases": [
       "Exynos 2400/2400e (S5E9945) (EXYNOS 2400)"
@@ -61,7 +61,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 2 + 3 + 4 cores (3.1/3.2 GHz Cortex-X4 + 2.9 GHz Cortex-A720 + 2.6 GHz Corte",
-    "modem": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP) [ a ]"
+    "modem": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP)"
   },
   {
     "id": "exynos_2500_s5e9955_exynos2500",
@@ -72,7 +72,7 @@
     "model": "EXYNOS 2500",
     "process": "3 nm",
     "max_freq": "3.3 GHz",
-    "gpu": "141.6 [ 65 ]",
+    "gpu": "141.6",
     "year": 2000,
     "aliases": [
       "Exynos 2500 (S5E9955) (EXYNOS 2500)"
@@ -80,7 +80,7 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP) [ a ]",
+    "npu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP)",
     "modem": "999"
   },
   {
@@ -92,7 +92,7 @@
     "model": "EXYNOS 2600",
     "process": "2 nm",
     "max_freq": "3.8 GHz",
-    "gpu": "141.5 [ 67 ]",
+    "gpu": "141.5",
     "year": 2000,
     "aliases": [
       "Exynos 2600 (S5E9965) (EXYNOS 2600)"
@@ -101,10 +101,10 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 6 cores (3.8 GHz C1-Ultra + 3.25 GHz C1-Pro + 2.75 GHz C1-Pro)",
-    "modem": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP) [ a ]"
+    "modem": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP)"
   },
   {
-    "id": "exynos_3_quad_3470_exynos3quad347070",
+    "id": "exynos_3_quad_3470_exynos3quad3470",
     "name": "Exynos 3 Quad 3470",
     "vendor": "Samsung",
     "process": "28 nm",
@@ -116,11 +116,11 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 3 Quad 3470 [ 70 ]",
+    "model": "Exynos 3 Quad 3470",
     "npu": "Mali-400 MP4",
     "modem": "450",
     "aliases": [
-      "Exynos 3 Quad 3470 (Exynos 3 Quad 3470 [ 70 ])"
+      "Exynos 3 Quad 3470 (Exynos 3 Quad 3470 )"
     ]
   },
   {
@@ -140,7 +140,7 @@
     "modem": "12"
   },
   {
-    "id": "exynos_3_single_3110",
+    "id": "exynos_3_single_3110_exynos3single3110",
     "name": "Exynos 3 Single 3110",
     "vendor": "Samsung",
     "process": "45 nm",
@@ -154,7 +154,7 @@
     "model": "Exynos 3 Single 3110"
   },
   {
-    "id": "exynos_3_single_3110_previously_hummingbird_exynos3single311068previouslyhummingbirds5pc110",
+    "id": "exynos_3_single_3110_previously_hummingbird_exynos3single3110previouslyhummingbirds5pc110",
     "name": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
     "vendor": "Samsung",
     "cores": 8,
@@ -166,15 +166,15 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 3 Single 3110 [ 68 ] (previously Hummingbird S5PC110)",
+    "model": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
     "npu": "1 core 1.2 GHz Cortex-A8",
     "modem": "PowerVR SGX540",
     "aliases": [
-      "Exynos 3 Single 3110 (previously Hummingbird S5PC110) (Exynos 3 Single 3110 [ 68 ] (previously Hummingbird S5PC110))"
+      "Exynos 3 Single 3110 (previously Hummingbird S5PC110) (Exynos 3 Single 3110 (previously Hummingbird S5PC110))"
     ]
   },
   {
-    "id": "exynos_4_dual_4210_exynos4dual42107113",
+    "id": "exynos_4_dual_4210_exynos4dual4210",
     "name": "Exynos 4 Dual 4210",
     "vendor": "Samsung",
     "process": "45 nm",
@@ -186,15 +186,15 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 4 Dual 4210 [ 71 ] [ 13 ]",
+    "model": "Exynos 4 Dual 4210",
     "npu": "Mali-400 MP4",
     "modem": "266",
     "aliases": [
-      "Exynos 4 Dual 4210 (Exynos 4 Dual 4210 [ 71 ] [ 13 ])"
+      "Exynos 4 Dual 4210 (Exynos 4 Dual 4210 )"
     ]
   },
   {
-    "id": "exynos_4_dual_4212_exynos4dual42127114",
+    "id": "exynos_4_dual_4212_exynos4dual4212",
     "name": "Exynos 4 Dual 4212",
     "vendor": "Samsung",
     "process": "32 nm",
@@ -205,15 +205,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 4 Dual 4212 [ 71 ] [ 14 ]",
-    "npu": "400 [ 77 ]",
+    "model": "Exynos 4 Dual 4212",
+    "npu": "400",
     "modem": "14.4",
     "aliases": [
-      "Exynos 4 Dual 4212 (Exynos 4 Dual 4212 [ 71 ] [ 14 ])"
+      "Exynos 4 Dual 4212 (Exynos 4 Dual 4212 )"
     ]
   },
   {
-    "id": "exynos_4_quad_4412_exynos4quad44127974",
+    "id": "exynos_4_quad_4412_exynos4quad4412",
     "name": "Exynos 4 Quad 4412",
     "vendor": "Samsung",
     "year": 2010,
@@ -223,15 +223,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 4 Quad 4412 [ 79 ] [ 74 ]",
+    "model": "Exynos 4 Quad 4412",
     "gpu": "4 cores 1.6 GHz Cortex-A9",
     "npu": "14.4–19.2",
     "aliases": [
-      "Exynos 4 Quad 4412 (Exynos 4 Quad 4412 [ 79 ] [ 74 ])"
+      "Exynos 4 Quad 4412 (Exynos 4 Quad 4412 )"
     ]
   },
   {
-    "id": "exynos_4_quad_4415_exynos4quad44157974",
+    "id": "exynos_4_quad_4415_exynos4quad4415",
     "name": "Exynos 4 Quad 4415",
     "vendor": "Samsung",
     "process": "28 nm",
@@ -242,35 +242,35 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 4 Quad 4415 [ 79 ] [ 74 ]",
-    "npu": "533 [ 93 ]",
+    "model": "Exynos 4 Quad 4415",
+    "npu": "533",
     "modem": "19.2",
     "aliases": [
-      "Exynos 4 Quad 4415 (Exynos 4 Quad 4415 [ 79 ] [ 74 ])"
+      "Exynos 4 Quad 4415 (Exynos 4 Quad 4415 )"
     ]
   },
   {
-    "id": "exynos_5_dual_5250_exynos5dual52509495",
+    "id": "exynos_5_dual_5250_exynos5dual5250",
     "name": "Exynos 5 Dual 5250",
     "vendor": "Samsung",
     "process": "32 nm",
     "year": 2010,
     "cores": 8,
     "max_freq": "1.7 GHz",
-    "gpu": "Mali-T604 MP4 [ 96 ]",
+    "gpu": "Mali-T604 MP4",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Dual 5250 [ 94 ] [ 95 ]",
-    "npu": "Mali-T604 MP4 [ 96 ]",
+    "model": "Exynos 5 Dual 5250",
+    "npu": "Mali-T604 MP4",
     "modem": "533",
     "aliases": [
-      "Exynos 5 Dual 5250 (Exynos 5 Dual 5250 [ 94 ] [ 95 ])"
+      "Exynos 5 Dual 5250 (Exynos 5 Dual 5250 )"
     ]
   },
   {
-    "id": "exynos_5_hexa_5260_exynos5hexa5260101102",
+    "id": "exynos_5_hexa_5260_exynos5hexa5260",
     "name": "Exynos 5 Hexa 5260",
     "vendor": "Samsung",
     "process": "28 nm",
@@ -282,15 +282,15 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Hexa 5260 [ 101 ] [ 102 ]",
+    "model": "Exynos 5 Hexa 5260",
     "npu": "Mali-T624 MP4",
     "modem": "600",
     "aliases": [
-      "Exynos 5 Hexa 5260 (Exynos 5 Hexa 5260 [ 101 ] [ 102 ])"
+      "Exynos 5 Hexa 5260 (Exynos 5 Hexa 5260 )"
     ]
   },
   {
-    "id": "exynos_5_octa_5410_exynos5octa5410103104105106",
+    "id": "exynos_5_octa_5410_exynos5octa5410",
     "name": "Exynos 5 Octa 5410",
     "vendor": "Samsung",
     "year": 2010,
@@ -301,15 +301,15 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Octa 5410 [ 103 ] [ 104 ] [ 105 ] [ 106 ]",
-    "npu": "480–532 [ 107 ]",
+    "model": "Exynos 5 Octa 5410",
+    "npu": "480–532",
     "modem": "49",
     "aliases": [
-      "Exynos 5 Octa 5410 (Exynos 5 Octa 5410 [ 103 ] [ 104 ] [ 105 ] [ 106 ])"
+      "Exynos 5 Octa 5410 (Exynos 5 Octa 5410 )"
     ]
   },
   {
-    "id": "exynos_5_octa_5420_exynos5octa5420111",
+    "id": "exynos_5_octa_5420_exynos5octa5420",
     "name": "Exynos 5 Octa 5420",
     "vendor": "Samsung",
     "year": 2010,
@@ -320,15 +320,15 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Octa 5420 [ 111 ]",
+    "model": "Exynos 5 Octa 5420",
     "npu": "533",
     "modem": "108.7",
     "aliases": [
-      "Exynos 5 Octa 5420 (Exynos 5 Octa 5420 [ 111 ])"
+      "Exynos 5 Octa 5420 (Exynos 5 Octa 5420 )"
     ]
   },
   {
-    "id": "exynos_5_octa_5422_exynos5octa5422101114",
+    "id": "exynos_5_octa_5422_exynos5octa5422",
     "name": "Exynos 5 Octa 5422",
     "vendor": "Samsung",
     "year": 2010,
@@ -338,15 +338,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Octa 5422 [ 101 ] [ 114 ]",
+    "model": "Exynos 5 Octa 5422",
     "gpu": "4+4 cores (2.1 GHz Cortex-A15 + 1.5 GHz Cortex-A7 )",
     "modem": "Q2 2014",
     "aliases": [
-      "Exynos 5 Octa 5422 (Exynos 5 Octa 5422 [ 101 ] [ 114 ])"
+      "Exynos 5 Octa 5422 (Exynos 5 Octa 5422 )"
     ]
   },
   {
-    "id": "exynos_5_octa_5430_exynos5octa5430116117",
+    "id": "exynos_5_octa_5430_exynos5octa5430",
     "name": "Exynos 5 Octa 5430",
     "vendor": "Samsung",
     "process": "20 nm",
@@ -357,16 +357,16 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Octa 5430 [ 116 ] [ 117 ]",
+    "model": "Exynos 5 Octa 5430",
     "gpu": "110.18",
     "npu": "600",
     "modem": "122.4",
     "aliases": [
-      "Exynos 5 Octa 5430 (Exynos 5 Octa 5430 [ 116 ] [ 117 ])"
+      "Exynos 5 Octa 5430 (Exynos 5 Octa 5430 )"
     ]
   },
   {
-    "id": "exynos_5_octa_5800_exynos5octa5800119",
+    "id": "exynos_5_octa_5800_exynos5octa5800",
     "name": "Exynos 5 Octa 5800",
     "vendor": "Samsung",
     "process": "28 nm",
@@ -377,13 +377,13 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 5 Octa 5800 [ 119 ]",
+    "model": "Exynos 5 Octa 5800",
     "aliases": [
-      "Exynos 5 Octa 5800 (Exynos 5 Octa 5800 [ 119 ])"
+      "Exynos 5 Octa 5800 (Exynos 5 Octa 5800 )"
     ]
   },
   {
-    "id": "exynos_7_octa_5433_exynos7octa5433121122123",
+    "id": "exynos_7_octa_5433_exynos7octa5433",
     "name": "Exynos 7 Octa 5433",
     "vendor": "Samsung",
     "process": "20 nm",
@@ -391,39 +391,39 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "gpu": "113.42 [ 124 ]",
+    "gpu": "113.42",
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Octa 5433 [ 121 ] [ 122 ] [ 123 ]",
+    "model": "Exynos 7 Octa 5433",
     "npu": "4 + 4 cores (1.9 GHz Cortex-A57 + 1.3 GHz Cortex-A53 ) GTS",
     "modem": "Mali-T760 MP6",
     "aliases": [
-      "Exynos 7 Octa 5433 (Exynos 7 Octa 5433 [ 121 ] [ 122 ] [ 123 ])"
+      "Exynos 7 Octa 5433 (Exynos 7 Octa 5433 )"
     ]
   },
   {
-    "id": "exynos_7_octa_7420_exynos7octa7420126127128",
+    "id": "exynos_7_octa_7420_exynos7octa7420",
     "name": "Exynos 7 Octa 7420",
     "vendor": "Samsung",
     "process": "14 nm",
     "cores": 8,
     "year": 2010,
     "max_freq": "2.1 GHz",
-    "gpu": "78.23 [ 124 ]",
+    "gpu": "78.23",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Octa 7420 [ 126 ] [ 127 ] [ 128 ]",
+    "model": "Exynos 7 Octa 7420",
     "npu": "Mali-T760 MP8",
     "modem": "772",
     "aliases": [
-      "Exynos 7 Octa 7420 (Exynos 7 Octa 7420 [ 126 ] [ 127 ] [ 128 ])"
+      "Exynos 7 Octa 7420 (Exynos 7 Octa 7420 )"
     ]
   },
   {
-    "id": "exynos_7_octa_7580_exynos7octa7580137138",
+    "id": "exynos_7_octa_7580_exynos7octa7580",
     "name": "Exynos 7 Octa 7580",
     "vendor": "Samsung",
     "cores": 8,
@@ -433,52 +433,52 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Octa 7580 [ 137 ] [ 138 ]",
+    "model": "Exynos 7 Octa 7580",
     "clock_min": 1600,
     "clock_max": 1600,
     "gpu": "LTE Cat.6 2CA 300 Mbit/s (DL) / 50 Mbit/s (UL)",
     "aliases": [
-      "Exynos 7 Octa 7580 (Exynos 7 Octa 7580 [ 137 ] [ 138 ])"
+      "Exynos 7 Octa 7580 (Exynos 7 Octa 7580 )"
     ]
   },
   {
-    "id": "exynos_7_octa_7870_exynos7octa7870140141",
+    "id": "exynos_7_octa_7870_exynos7octa7870",
     "name": "Exynos 7 Octa 7870",
     "vendor": "Samsung",
     "process": "14 nm",
     "cores": 8,
     "year": 2010,
-    "gpu": "Mali-T830 MP1 [ 142 ]",
+    "gpu": "Mali-T830 MP1",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Octa 7870 [ 140 ] [ 141 ]",
+    "model": "Exynos 7 Octa 7870",
     "npu": "700",
     "modem": "22.4",
     "wifi": "Wi-Fi",
     "aliases": [
-      "Exynos 7 Octa 7870 (Exynos 7 Octa 7870 [ 140 ] [ 141 ])"
+      "Exynos 7 Octa 7870 (Exynos 7 Octa 7870 )"
     ]
   },
   {
-    "id": "exynos_7_quad_7570_exynos7quad7570132133134",
+    "id": "exynos_7_quad_7570_exynos7quad7570",
     "name": "Exynos 7 Quad 7570",
     "vendor": "Samsung",
     "process": "14 nm",
     "cores": 8,
     "year": 2010,
     "max_freq": "1.4 GHz",
-    "gpu": "Mali-T720 MP1 [ 135 ]",
+    "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Quad 7570 [ 132 ] [ 133 ] [ 134 ]",
-    "npu": "Mali-T720 MP1 [ 135 ]",
+    "model": "Exynos 7 Quad 7570",
+    "npu": "Mali-T720 MP1",
     "modem": "830",
     "aliases": [
-      "Exynos 7 Quad 7570 (Exynos 7 Quad 7570 [ 132 ] [ 133 ] [ 134 ])"
+      "Exynos 7 Quad 7570 (Exynos 7 Quad 7570 )"
     ]
   },
   {
@@ -560,7 +560,7 @@
     "modem": "Bluetooth 5.0 , Wi-Fi 802.11a/b/g/n/ac"
   },
   {
-    "id": "exynos_7884a_exynos7884a151",
+    "id": "exynos_7884a_exynos7884a",
     "name": "Exynos 7884A",
     "vendor": "Samsung",
     "year": 2010,
@@ -571,11 +571,11 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7884A [ 151 ]",
+    "model": "Exynos 7884A",
     "npu": "450",
     "modem": "21.6",
     "aliases": [
-      "Exynos 7884A (Exynos 7884A [ 151 ])"
+      "Exynos 7884A (Exynos 7884A )"
     ]
   },
   {
@@ -623,7 +623,7 @@
     "modem": "List Samsung Galaxy A30 Samsung Galaxy A30s Samsung Galaxy A40 Samsung Galaxy M2"
   },
   {
-    "id": "exynos_8_octa_8890_exynos8octa8890156",
+    "id": "exynos_8_octa_8890_exynos8octa8890",
     "name": "Exynos 8 Octa 8890",
     "vendor": "Samsung",
     "year": 2010,
@@ -634,11 +634,11 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 8 Octa 8890 [ 156 ]",
+    "model": "Exynos 8 Octa 8890",
     "npu": "650",
     "modem": "327.6",
     "aliases": [
-      "Exynos 8 Octa 8890 (Exynos 8 Octa 8890 [ 156 ])"
+      "Exynos 8 Octa 8890 (Exynos 8 Octa 8890 )"
     ]
   },
   {
@@ -650,7 +650,7 @@
     "cores": 8,
     "year": 2010,
     "max_freq": "2.314 GHz",
-    "gpu": "103.64 [ 163 ]",
+    "gpu": "103.64",
     "architecture": "ARMv8.2-A",
     "aliases": [
       "Exynos 8895 (EXYNOS 8895)"
@@ -659,7 +659,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G71 MP20",
-    "modem": "546 [ 164 ]",
+    "modem": "546",
     "process_nm": 10,
     "process_name": "10nm"
   },
@@ -733,7 +733,7 @@
     "model": "EXYNOS 9810",
     "process": "10 nm",
     "max_freq": "2.9 GHz",
-    "gpu": "118.94 [ 170 ]",
+    "gpu": "118.94",
     "year": 2010,
     "aliases": [
       "Exynos 9810 (S5E9810) (EXYNOS 9810)"
@@ -741,7 +741,7 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "4 + 4 cores (2.9 GHz Exynos M3 \"Meerkat\" [ 163 ] + 1.9 GHz Cortex-A55 )",
+    "npu": "4 + 4 cores (2.9 GHz Exynos M3 \"Meerkat\" + 1.9 GHz Cortex-A55 )",
     "modem": "Mali-G72 MP18",
     "process_nm": 10,
     "process_name": "10nm"
@@ -755,7 +755,7 @@
     "model": "EXYNOS 9820",
     "process": "8 nm",
     "max_freq": "2.73 GHz",
-    "gpu": "127 [ 173 ]",
+    "gpu": "127",
     "year": 2010,
     "aliases": [
       "Exynos 9820 (S5E9820) (EXYNOS 9820)"
@@ -810,7 +810,7 @@
     "year": 2018
   },
   {
-    "id": "exynos990",
+    "id": "exynos_990_exynos990",
     "name": "Exynos 990",
     "vendor": "Samsung",
     "codename": "",
@@ -837,7 +837,7 @@
     "model": "EXYNOS 1080",
     "process": "5 nm",
     "max_freq": "2.8 GHz",
-    "gpu": "95.5 [ 46 ]",
+    "gpu": "95.5",
     "aliases": [
       "Exynos 1080 (S5E9815) (EXYNOS 1080)"
     ],
@@ -910,14 +910,14 @@
     "model": "EXYNOS 1480",
     "process": "4 nm",
     "max_freq": "2.75 GHz",
-    "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]",
+    "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP)",
     "aliases": [
       "Exynos 1480 (S5E8845) (EXYNOS 1480)"
     ],
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "npu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]",
+    "npu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP)",
     "modem": "1300"
   },
   {
@@ -929,7 +929,7 @@
     "model": "EXYNOS 1580",
     "process": "4 nm",
     "max_freq": "2.9 GHz",
-    "gpu": "56 [ 53 ]",
+    "gpu": "56",
     "aliases": [
       "Exynos 1580 (S5E8855) (EXYNOS 1580)"
     ],
@@ -937,7 +937,7 @@
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.9 GHz Cortex-A720 + 2.6 GHz Cortex-A720 + 1.95 GHz Cortex-A52",
-    "modem": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]"
+    "modem": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP)"
   },
   {
     "id": "exynos_1680_s5e8865_exynos1680",
@@ -974,7 +974,7 @@
     "modem": "400"
   },
   {
-    "id": "exynos_4_dual_4212_single_core_exynos4dual4212singlecore7114",
+    "id": "exynos_4_dual_4212_single_core_exynos4dual4212singlecore",
     "name": "Exynos 4 Dual 4212 (Single core)",
     "vendor": "Samsung",
     "cores": 8,
@@ -985,15 +985,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 4 Dual 4212 (Single core) [ 71 ] [ 14 ]",
+    "model": "Exynos 4 Dual 4212 (Single core)",
     "npu": "1 core 0.8 GHz Cortex-A9",
     "modem": "Mali-400 MP4",
     "aliases": [
-      "Exynos 4 Dual 4212 (Single core) (Exynos 4 Dual 4212 (Single core) [ 71 ] [ 14 ])"
+      "Exynos 4 Dual 4212 (Single core) (Exynos 4 Dual 4212 (Single core) )"
     ]
   },
   {
-    "id": "exynos_7_dual_7270",
+    "id": "exynos_7_dual_7270_exynos7dual7270",
     "name": "Exynos 7 Dual 7270",
     "vendor": "Samsung",
     "process": "14 nm",
@@ -1007,7 +1007,7 @@
     "model": "Exynos 7 Dual 7270"
   },
   {
-    "id": "exynos_7_dual_7270_sc57270_exynos7dual7270sc57270176",
+    "id": "exynos_7_dual_7270_sc57270_exynos7dual7270sc57270",
     "name": "Exynos 7 Dual 7270 (SC57270)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1018,15 +1018,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Dual 7270 (SC57270) [ 176 ]",
+    "model": "Exynos 7 Dual 7270 (SC57270)",
     "npu": "2 cores 1.0 GHz Cortex-A53",
     "modem": "Mali-T720 MP1",
     "aliases": [
-      "Exynos 7 Dual 7270 (SC57270) (Exynos 7 Dual 7270 (SC57270) [ 176 ])"
+      "Exynos 7 Dual 7270 (SC57270) (Exynos 7 Dual 7270 (SC57270) )"
     ]
   },
   {
-    "id": "exynos_850",
+    "id": "exynos_850_exynos850",
     "name": "Exynos 850",
     "vendor": "Samsung",
     "process": "8 nm",
@@ -1040,7 +1040,7 @@
     "model": "Exynos 850"
   },
   {
-    "id": "exynos_850_s5e3830_exynos850s5e383039",
+    "id": "exynos_850_s5e3830_exynos850s5e3830",
     "name": "Exynos 850 (S5E3830)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1051,15 +1051,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 850 (S5E3830) [ 39 ]",
+    "model": "Exynos 850 (S5E3830)",
     "npu": "8 cores 2.0 GHz Cortex-A55",
     "modem": "Mali-G52 MP1",
     "aliases": [
-      "Exynos 850 (S5E3830) (Exynos 850 (S5E3830) [ 39 ])"
+      "Exynos 850 (S5E3830) (Exynos 850 (S5E3830) )"
     ]
   },
   {
-    "id": "exynos_880",
+    "id": "exynos_880_exynos880",
     "name": "Exynos 880",
     "vendor": "Samsung",
     "cores": 6,
@@ -1072,7 +1072,7 @@
     "model": "Exynos 880"
   },
   {
-    "id": "exynos_880_s5e8805_exynos880s5e880540",
+    "id": "exynos_880_s5e8805_exynos880s5e8805",
     "name": "Exynos 880 (S5E8805)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1082,15 +1082,15 @@
     "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 880 (S5E8805) [ 40 ]",
+    "model": "Exynos 880 (S5E8805)",
     "npu": "546",
     "modem": "131",
     "aliases": [
-      "Exynos 880 (S5E8805) (Exynos 880 (S5E8805) [ 40 ])"
+      "Exynos 880 (S5E8805) (Exynos 880 (S5E8805) )"
     ]
   },
   {
-    "id": "exynos_980",
+    "id": "exynos_980_exynos980",
     "name": "Exynos 980",
     "vendor": "Samsung",
     "process": "8 nm",
@@ -1104,7 +1104,7 @@
     "model": "Exynos 980"
   },
   {
-    "id": "exynos_980_s5e9630_exynos980s5e963041",
+    "id": "exynos_980_s5e9630_exynos980s5e9630",
     "name": "Exynos 980 (S5E9630)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1115,11 +1115,11 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 980 (S5E9630) [ 41 ]",
+    "model": "Exynos 980 (S5E9630)",
     "npu": "2 + 6 cores (2.2 GHz Cortex-A77 + 1.8 GHz Cortex-A55 )",
     "modem": "Mali-G76 MP5",
     "aliases": [
-      "Exynos 980 (S5E9630) (Exynos 980 (S5E9630) [ 41 ])"
+      "Exynos 980 (S5E9630) (Exynos 980 (S5E9630) )"
     ]
   },
   {
@@ -1139,28 +1139,28 @@
     "process_name": "7nm"
   },
   {
-    "id": "exynos_990_s5e9830_exynos990s5e983042",
+    "id": "exynos_990_s5e9830_exynos990s5e9830",
     "name": "Exynos 990 (S5E9830)",
     "vendor": "Samsung",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "7 nm",
     "max_freq": "3.02 GHz",
-    "gpu": "91.83 [ 43 ]",
+    "gpu": "91.83",
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 990 (S5E9830) [ 42 ]",
+    "model": "Exynos 990 (S5E9830)",
     "npu": "Mali-G77 MP11",
     "modem": "832",
     "aliases": [
-      "Exynos 990 (S5E9830) (Exynos 990 (S5E9830) [ 42 ])"
+      "Exynos 990 (S5E9830) (Exynos 990 (S5E9830) )"
     ],
     "process_nm": 7,
     "process_name": "7nm"
   },
   {
-    "id": "exynos_auto_8890",
+    "id": "exynos_auto_8890_exynosauto8890",
     "name": "Exynos Auto 8890",
     "vendor": "Samsung",
     "process": "14 nm",
@@ -1174,7 +1174,7 @@
     "model": "Exynos Auto 8890"
   },
   {
-    "id": "exynos_auto_8890_sga8890a_exynosauto8890sga8890a191",
+    "id": "exynos_auto_8890_sga8890a_exynosauto8890sga8890a",
     "name": "Exynos Auto 8890 (SGA8890A)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1185,11 +1185,11 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto 8890 (SGA8890A) [ 191 ]",
+    "model": "Exynos Auto 8890 (SGA8890A)",
     "npu": "Mali-T880 MP12",
     "modem": "650",
     "aliases": [
-      "Exynos Auto 8890 (SGA8890A) (Exynos Auto 8890 (SGA8890A) [ 191 ])"
+      "Exynos Auto 8890 (SGA8890A) (Exynos Auto 8890 (SGA8890A) )"
     ]
   },
   {
@@ -1206,7 +1206,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "exynos_auto_v7_exynosautov7194",
+    "id": "exynos_auto_v7_exynosautov7",
     "name": "Exynos Auto V7",
     "vendor": "Samsung",
     "process": "8 nm",
@@ -1217,14 +1217,14 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto V7 [ 194 ]",
+    "model": "Exynos Auto V7",
     "npu": "2× Mali-G76 (MP8 + MP3)",
     "aliases": [
-      "Exynos Auto V7 (Exynos Auto V7 [ 194 ])"
+      "Exynos Auto V7 (Exynos Auto V7 )"
     ]
   },
   {
-    "id": "exynos_auto_v9",
+    "id": "exynos_auto_v9_exynosautov9",
     "name": "Exynos Auto V9",
     "vendor": "Samsung",
     "cores": 8,
@@ -1237,7 +1237,7 @@
     "model": "Exynos Auto V9"
   },
   {
-    "id": "exynos_auto_v9_s5ahr80a_exynosautov9s5ahr80a195",
+    "id": "exynos_auto_v9_s5ahr80a_exynosautov9s5ahr80a",
     "name": "Exynos Auto V9 (S5AHR80A)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1247,15 +1247,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto V9 (S5AHR80A) [ 195 ]",
+    "model": "Exynos Auto V9 (S5AHR80A)",
     "clock_min": 2100,
     "clock_max": 2100,
     "aliases": [
-      "Exynos Auto V9 (S5AHR80A) (Exynos Auto V9 (S5AHR80A) [ 195 ])"
+      "Exynos Auto V9 (S5AHR80A) (Exynos Auto V9 (S5AHR80A) )"
     ]
   },
   {
-    "id": "exynos_auto_v920",
+    "id": "exynos_auto_v920_exynosautov920",
     "name": "Exynos Auto V920",
     "vendor": "Samsung",
     "process": "5 nm",
@@ -1269,25 +1269,25 @@
     "model": "Exynos Auto V920"
   },
   {
-    "id": "exynos_auto_v920_s5av920_exynosautov920s5av920196",
+    "id": "exynos_auto_v920_s5av920_exynosautov920s5av920",
     "name": "Exynos Auto V920 (S5AV920)",
     "vendor": "Samsung",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "5 nm",
-    "gpu": "148.72 [ 197 ]",
+    "gpu": "148.72",
     "max_freq": "3200 MHz",
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto V920 (S5AV920) [ 196 ]",
+    "model": "Exynos Auto V920 (S5AV920)",
     "npu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
     "aliases": [
-      "Exynos Auto V920 (S5AV920) (Exynos Auto V920 (S5AV920) [ 196 ])"
+      "Exynos Auto V920 (S5AV920) (Exynos Auto V920 (S5AV920) )"
     ]
   },
   {
-    "id": "exynos_w1000",
+    "id": "exynos_w1000_exynosw1000",
     "name": "Exynos W1000",
     "vendor": "Samsung",
     "process": "3 nm",
@@ -1300,7 +1300,7 @@
     "model": "Exynos W1000"
   },
   {
-    "id": "exynos_w1000_sc55535aha_exynosw1000sc55535aha180",
+    "id": "exynos_w1000_sc55535aha_exynosw1000sc55535aha",
     "name": "Exynos W1000 (SC55535AHA)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1310,16 +1310,16 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos W1000 (SC55535AHA) [ 180 ]",
+    "model": "Exynos W1000 (SC55535AHA)",
     "gpu": "17.67",
     "npu": "702",
     "modem": "89.9",
     "aliases": [
-      "Exynos W1000 (SC55535AHA) (Exynos W1000 (SC55535AHA) [ 180 ])"
+      "Exynos W1000 (SC55535AHA) (Exynos W1000 (SC55535AHA) )"
     ]
   },
   {
-    "id": "exynos_w920",
+    "id": "exynos_w920_exynosw920",
     "name": "Exynos W920",
     "vendor": "Samsung",
     "process": "5 nm",
@@ -1333,7 +1333,7 @@
     "model": "Exynos W920"
   },
   {
-    "id": "exynos_w920_sc55515xbd_exynosw920sc55515xbd178",
+    "id": "exynos_w920_sc55515xbd_exynosw920sc55515xbd",
     "name": "Exynos W920 (SC55515XBD)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1344,15 +1344,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos W920 (SC55515XBD) [ 178 ]",
+    "model": "Exynos W920 (SC55515XBD)",
     "npu": "2 cores 1.18 GHz Cortex-A55",
     "modem": "Mali-G68 MP2",
     "aliases": [
-      "Exynos W920 (SC55515XBD) (Exynos W920 (SC55515XBD) [ 178 ])"
+      "Exynos W920 (SC55515XBD) (Exynos W920 (SC55515XBD) )"
     ]
   },
   {
-    "id": "exynos_w930_sc55515xbe_exynosw930sc55515xbe179",
+    "id": "exynos_w930_sc55515xbe_exynosw930sc55515xbe",
     "name": "Exynos W930 (SC55515XBE)",
     "vendor": "Samsung",
     "cores": 8,
@@ -1361,12 +1361,12 @@
     "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos W930 (SC55515XBE) [ 179 ]",
+    "model": "Exynos W930 (SC55515XBE)",
     "gpu": "2 cores 1.4 GHz Cortex-A55",
     "npu": "Bluetooth 5.2 , Wi-Fi 4 , GPS , GLONASS , BeiDou , Galileo , eMMC 5.1",
     "modem": "Q3 2023",
     "aliases": [
-      "Exynos W930 (SC55515XBE) (Exynos W930 (SC55515XBE) [ 179 ])"
+      "Exynos W930 (SC55515XBE) (Exynos W930 (SC55515XBE) )"
     ]
   }
 ]

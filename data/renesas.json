@@ -1,6 +1,6 @@
 [
   {
-    "id": "r8a77951",
+    "id": "renesas_r8a77951",
     "name": "Renesas R8A77951",
     "vendor": "Renesas",
     "model": "R8A77951",
@@ -12,7 +12,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77960",
+    "id": "renesas_r8a77960",
     "name": "Renesas R8A77960",
     "vendor": "Renesas",
     "model": "R8A77960",
@@ -24,7 +24,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77961",
+    "id": "renesas_r8a77961",
     "name": "Renesas R8A77961",
     "vendor": "Renesas",
     "model": "R8A77961",
@@ -36,7 +36,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77965",
+    "id": "renesas_r8a77965",
     "name": "Renesas R8A77965",
     "vendor": "Renesas",
     "model": "R8A77965",
@@ -48,7 +48,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77970",
+    "id": "renesas_r8a77970",
     "name": "Renesas R8A77970",
     "vendor": "Renesas",
     "model": "R8A77970",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77980",
+    "id": "renesas_r8a77980",
     "name": "Renesas R8A77980",
     "vendor": "Renesas",
     "model": "R8A77980",
@@ -72,7 +72,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77990",
+    "id": "renesas_r8a77990",
     "name": "Renesas R8A77990",
     "vendor": "Renesas",
     "model": "R8A77990",
@@ -84,7 +84,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a77995",
+    "id": "renesas_r8a77995",
     "name": "Renesas R8A77995",
     "vendor": "Renesas",
     "model": "R8A77995",
@@ -96,7 +96,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "r8a78000",
+    "id": "renesas_r8a78000",
     "name": "Renesas R8A78000",
     "vendor": "Renesas",
     "model": "R8A78000",

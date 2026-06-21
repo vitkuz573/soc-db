@@ -1,6 +1,6 @@
 [
   {
-    "id": "stm32mp211",
+    "id": "stm32_mp211_stm32mp211",
     "name": "STM32 MP211",
     "vendor": "STMicroelectronics",
     "model": "STM32MP211",
@@ -15,7 +15,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp213",
+    "id": "stm32_mp213_stm32mp213",
     "name": "STM32 MP213",
     "vendor": "STMicroelectronics",
     "model": "STM32MP213",
@@ -30,7 +30,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp215",
+    "id": "stm32_mp215_stm32mp215",
     "name": "STM32 MP215",
     "vendor": "STMicroelectronics",
     "model": "STM32MP215",
@@ -45,7 +45,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp231",
+    "id": "stm32_mp231_stm32mp231",
     "name": "STM32 MP231",
     "vendor": "STMicroelectronics",
     "model": "STM32MP231",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp233",
+    "id": "stm32_mp233_stm32mp233",
     "name": "STM32 MP233",
     "vendor": "STMicroelectronics",
     "model": "STM32MP233",
@@ -75,7 +75,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp235",
+    "id": "stm32_mp235_stm32mp235",
     "name": "STM32 MP235",
     "vendor": "STMicroelectronics",
     "model": "STM32MP235",
@@ -90,7 +90,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp251",
+    "id": "stm32_mp251_stm32mp251",
     "name": "STM32 MP251",
     "vendor": "STMicroelectronics",
     "model": "STM32MP251",
@@ -105,7 +105,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp253",
+    "id": "stm32_mp253_stm32mp253",
     "name": "STM32 MP253",
     "vendor": "STMicroelectronics",
     "model": "STM32MP253",
@@ -120,7 +120,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp255",
+    "id": "stm32_mp255_stm32mp255",
     "name": "STM32 MP255",
     "vendor": "STMicroelectronics",
     "model": "STM32MP255",
@@ -135,7 +135,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32mp257",
+    "id": "stm32_mp257_stm32mp257",
     "name": "STM32 MP257",
     "vendor": "STMicroelectronics",
     "model": "STM32MP257",

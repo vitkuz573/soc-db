@@ -23,7 +23,7 @@
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
     "max_freq": "1 MHz",
-    "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32) [ 2 ]",
+    "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32)",
     "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
@@ -46,7 +46,7 @@
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
     "max_freq": "1 MHz",
-    "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32) [ 2 ]",
+    "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32)",
     "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
@@ -143,7 +143,7 @@
     "process_name": "20nm"
   },
   {
-    "id": "helio_x25_mt6797t_heliox25mt6797t40",
+    "id": "helio_x25_mt6797t_heliox25mt6797t",
     "name": "Helio X25 MT6797T",
     "vendor": "MediaTek",
     "cores": 8,
@@ -153,19 +153,19 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio X25 MT6797T [ 40 ]",
+    "model": "Helio X25 MT6797T",
     "cluster_config": "2+4",
     "clock_min": 2,
     "clock_max": 2500,
     "clock_mid": 1550,
     "aliases": [
-      "Helio X25 MT6797T (Helio X25 MT6797T [ 40 ])"
+      "Helio X25 MT6797T (Helio X25 MT6797T )"
     ],
     "process_nm": 20,
     "process_name": "20nm"
   },
   {
-    "id": "helio_x27_mt6797x_heliox27mt6797x40",
+    "id": "helio_x27_mt6797x_heliox27mt6797x",
     "name": "Helio X27 MT6797X",
     "vendor": "MediaTek",
     "cores": 8,
@@ -176,13 +176,13 @@
     "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio X27 MT6797X [ 40 ]",
+    "model": "Helio X27 MT6797X",
     "cluster_config": "2+4+4",
     "clock_min": 2,
     "clock_max": 2600,
     "clock_mid": 1600,
     "aliases": [
-      "Helio X27 MT6797X (Helio X27 MT6797X [ 40 ])"
+      "Helio X27 MT6797X (Helio X27 MT6797X )"
     ],
     "process_nm": 20,
     "process_name": "20nm"
@@ -267,7 +267,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "max_freq": "1 MHz",
-    "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32)",
     "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
@@ -308,7 +308,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "helio_p15_mt6755t_heliop15mt6755t34",
+    "id": "helio_p15_mt6755t_heliop15mt6755t",
     "name": "Helio P15 MT6755T",
     "vendor": "MediaTek",
     "cores": 8,
@@ -318,18 +318,18 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio P15 MT6755T [ 34 ]",
+    "model": "Helio P15 MT6755T",
     "cluster_config": "4+4",
     "clock_min": 1200,
     "clock_max": 2200,
     "aliases": [
-      "Helio P15 MT6755T (Helio P15 MT6755T [ 34 ])"
+      "Helio P15 MT6755T (Helio P15 MT6755T )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
   },
   {
-    "id": "helio_p18_mt6755s_heliop18mt6755s34",
+    "id": "helio_p18_mt6755s_heliop18mt6755s",
     "name": "Helio P18 MT6755S",
     "vendor": "MediaTek",
     "cores": 8,
@@ -340,12 +340,12 @@
     "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio P18 MT6755S [ 34 ]",
+    "model": "Helio P18 MT6755S",
     "cluster_config": "4+4",
     "clock_min": 1400,
     "clock_max": 2000,
     "aliases": [
-      "Helio P18 MT6755S (Helio P18 MT6755S [ 34 ])"
+      "Helio P18 MT6755S (Helio P18 MT6755S )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -503,7 +503,7 @@
     "process_name": "12nm"
   },
   {
-    "id": "helio_p70_mt6771vct_mt6771vwt_heliop7040mt6771vctmt6771vwt",
+    "id": "helio_p70_mt6771vct_mt6771vwt_heliop70mt6771vctmt6771vwt",
     "name": "Helio P70 MT6771V/CT MT6771V/WT",
     "vendor": "MediaTek",
     "cores": 8,
@@ -514,18 +514,18 @@
     "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio P70 [ 40 ] MT6771V/CT MT6771V/WT",
+    "model": "Helio P70 MT6771V/CT MT6771V/WT",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2100,
     "aliases": [
-      "Helio P70 MT6771V/CT MT6771V/WT (Helio P70 [ 40 ] MT6771V/CT MT6771V/WT)"
+      "Helio P70 MT6771V/CT MT6771V/WT (Helio P70 MT6771V/CT MT6771V/WT)"
     ],
     "process_nm": 12,
     "process_name": "12nm"
   },
   {
-    "id": "helio_p90_mt6779vcu_heliop9046mt6779vcu",
+    "id": "helio_p90_mt6779vcu_heliop90mt6779vcu",
     "name": "Helio P90 MT6779V/CU",
     "vendor": "MediaTek",
     "cores": 8,
@@ -536,16 +536,16 @@
     "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio P90 [ 46 ] MT6779V/CU",
+    "model": "Helio P90 MT6779V/CU",
     "process_nm": 12,
     "process_name": "12nm",
     "clock_min": 970,
     "clock_max": 970,
     "gpu_clock": 1866,
     "memory_clock": 624,
-    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat-12 (DL) / ",
+    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat-12 (DL) /",
     "aliases": [
-      "Helio P90 MT6779V/CU (Helio P90 [ 46 ] MT6779V/CU)"
+      "Helio P90 MT6779V/CU (Helio P90 MT6779V/CU)"
     ]
   },
   {
@@ -589,7 +589,7 @@
     "vendor": "MediaTek",
     "model": "MT5595",
     "cores": 8,
-    "gpu": "Mali-T6xx [ 224 ]",
+    "gpu": "Mali-T6xx",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3301,
     "sources": {},
@@ -606,7 +606,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "max_freq": "1 MHz",
-    "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32)",
     "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
@@ -631,7 +631,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "max_freq": "1.00 GHz",
-    "gpu": "Mali-T860 MP2 @ 520 MHz [ 34 ] [ 35 ] (29.1 GFLOPS in FP32)",
+    "gpu": "Mali-T860 MP2 @ 520 MHz (29.1 GFLOPS in FP32)",
     "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
@@ -737,7 +737,7 @@
     "clock_mid": 1200
   },
   {
-    "id": "helio_g100_mt6789h_mt6789i_mt6789j_heliog10064mt6789hmt6789imt6789j",
+    "id": "helio_g100_mt6789h_mt6789i_mt6789j_heliog100mt6789hmt6789imt6789j",
     "name": "Helio G100 MT6789H MT6789I MT6789J",
     "vendor": "MediaTek",
     "year": 2019,
@@ -746,16 +746,16 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G100 [ 64 ] MT6789H MT6789I MT6789J",
+    "model": "Helio G100 MT6789H MT6789I MT6789J",
     "aliases": [
-      "Helio G100 MT6789H MT6789I MT6789J (Helio G100 [ 64 ] MT6789H MT6789I MT6789J)"
+      "Helio G100 MT6789H MT6789I MT6789J (Helio G100 MT6789H MT6789I MT6789J)"
     ],
     "process_nm": 6,
     "process_name": "6nm",
     "gpu": "Mali-G68"
   },
   {
-    "id": "helio_g200_mt6789t_heliog20065mt6789t",
+    "id": "helio_g200_mt6789t_heliog200mt6789t",
     "name": "Helio G200 MT6789T",
     "vendor": "MediaTek",
     "gpu": "Mali-G57 MC2 @ 1.1 GHz (140.8 GFLOPS in FP32)",
@@ -766,17 +766,17 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G200 [ 65 ] MT6789T",
+    "model": "Helio G200 MT6789T",
     "clock_min": 1100,
     "clock_max": 1100,
     "aliases": [
-      "Helio G200 MT6789T (Helio G200 [ 65 ] MT6789T)"
+      "Helio G200 MT6789T (Helio G200 MT6789T)"
     ],
     "process_nm": 6,
     "process_name": "6nm"
   },
   {
-    "id": "helio_g25_mt6762g_heliog2547mt6762g",
+    "id": "helio_g25_mt6762g_heliog25mt6762g",
     "name": "Helio G25 MT6762G",
     "vendor": "MediaTek",
     "cores": 8,
@@ -788,7 +788,7 @@
     "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G25 [ 47 ] MT6762G",
+    "model": "Helio G25 MT6762G",
     "cluster_config": "4+4",
     "clock_min": 1500,
     "clock_max": 2000,
@@ -799,7 +799,7 @@
     "memory_bus": 32,
     "npu": "Unknown",
     "aliases": [
-      "Helio G25 MT6762G (Helio G25 [ 47 ] MT6762G)"
+      "Helio G25 MT6762G (Helio G25 MT6762G)"
     ],
     "process_nm": 12,
     "process_name": "12nm",
@@ -807,7 +807,7 @@
     "bluetooth": "5.0"
   },
   {
-    "id": "helio_g35_mt6765g_mt6765vcb_heliog3548mt6765gmt6765vcb49",
+    "id": "helio_g35_mt6765g_mt6765vcb_heliog35mt6765gmt6765vcb",
     "name": "Helio G35 MT6765G MT6765V/CB",
     "vendor": "MediaTek",
     "cores": 8,
@@ -818,18 +818,18 @@
     "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G35 [ 48 ] MT6765G MT6765V/CB [ 49 ]",
+    "model": "Helio G35 MT6765G MT6765V/CB",
     "cluster_config": "4+4",
     "clock_min": 1800,
     "clock_max": 2300,
     "aliases": [
-      "Helio G35 MT6765G MT6765V/CB (Helio G35 [ 48 ] MT6765G MT6765V/CB [ 49 ])"
+      "Helio G35 MT6765G MT6765V/CB (Helio G35 MT6765G MT6765V/CB )"
     ],
     "process_nm": 12,
     "process_name": "12nm"
   },
   {
-    "id": "helio_g36_mt6765vxaa_mt6765vxba_heliog3650mt6765vxaamt6765vxba",
+    "id": "helio_g36_mt6765vxaa_mt6765vxba_heliog36mt6765vxaamt6765vxba",
     "name": "Helio G36 MT6765V/XAA MT6765V/XBA",
     "vendor": "MediaTek",
     "cores": 8,
@@ -839,18 +839,18 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G36 [ 50 ] MT6765V/XAA MT6765V/XBA",
+    "model": "Helio G36 MT6765V/XAA MT6765V/XBA",
     "cluster_config": "4+4",
     "clock_min": 1600,
     "clock_max": 2200,
     "aliases": [
-      "Helio G36 MT6765V/XAA MT6765V/XBA (Helio G36 [ 50 ] MT6765V/XAA MT6765V/XBA)"
+      "Helio G36 MT6765V/XAA MT6765V/XBA (Helio G36 MT6765V/XAA MT6765V/XBA)"
     ],
     "process_nm": 12,
     "process_name": "12nm"
   },
   {
-    "id": "helio_g37_mt6765h_heliog3751mt6765h",
+    "id": "helio_g37_mt6765h_heliog37mt6765h",
     "name": "Helio G37 MT6765H",
     "vendor": "MediaTek",
     "cores": 8,
@@ -860,18 +860,18 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G37 [ 51 ] MT6765H",
+    "model": "Helio G37 MT6765H",
     "cluster_config": "4+4",
     "clock_min": 1800,
     "clock_max": 2300,
     "aliases": [
-      "Helio G37 MT6765H (Helio G37 [ 51 ] MT6765H)"
+      "Helio G37 MT6765H (Helio G37 MT6765H)"
     ],
     "process_nm": 12,
     "process_name": "12nm"
   },
   {
-    "id": "helio_g50_mt6765v_heliog5052mt6765v",
+    "id": "helio_g50_mt6765v_heliog50mt6765v",
     "name": "Helio G50 MT6765V",
     "vendor": "MediaTek",
     "cores": 8,
@@ -881,18 +881,18 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G50 [ 52 ] MT6765V",
+    "model": "Helio G50 MT6765V",
     "cluster_config": "4+4",
     "clock_min": 1700,
     "clock_max": 2200,
     "aliases": [
-      "Helio G50 MT6765V (Helio G50 [ 52 ] MT6765V)"
+      "Helio G50 MT6765V (Helio G50 MT6765V)"
     ],
     "process_nm": 12,
     "process_name": "12nm"
   },
   {
-    "id": "helio_g70_mt6769vcb_heliog7053mt6769vcb",
+    "id": "helio_g70_mt6769vcb_heliog70mt6769vcb",
     "name": "Helio G70 MT6769V/CB",
     "vendor": "MediaTek",
     "cores": 8,
@@ -903,17 +903,17 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G70 [ 53 ] MT6769V/CB",
+    "model": "Helio G70 MT6769V/CB",
     "clock_min": 820,
     "clock_max": 820,
     "gpu_clock": 1800,
-    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A LTE Cat-7 (DL) ",
+    "npu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A LTE Cat-7 (DL)",
     "aliases": [
-      "Helio G70 MT6769V/CB (Helio G70 [ 53 ] MT6769V/CB)"
+      "Helio G70 MT6769V/CB (Helio G70 MT6769V/CB)"
     ]
   },
   {
-    "id": "helio_g80_mt6769t_mt6769vct_mt6769vcu_heliog8054mt6769tmt6769vctmt6769vcu",
+    "id": "helio_g80_mt6769t_mt6769vct_mt6769vcu_heliog80mt6769tmt6769vctmt6769vcu",
     "name": "Helio G80 MT6769T MT6769V/CT MT6769V/CU",
     "vendor": "MediaTek",
     "cores": 8,
@@ -924,16 +924,16 @@
     "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G80 [ 54 ] MT6769T MT6769V/CT MT6769V/CU",
+    "model": "Helio G80 MT6769T MT6769V/CT MT6769V/CU",
     "cluster_config": "2+6",
     "clock_min": 1800,
     "clock_max": 2000,
     "aliases": [
-      "Helio G80 MT6769T MT6769V/CT MT6769V/CU (Helio G80 [ 54 ] MT6769T MT6769V/CT MT6769V/CU)"
+      "Helio G80 MT6769T MT6769V/CT MT6769V/CU (Helio G80 MT6769T MT6769V/CT MT6769V/CU)"
     ]
   },
   {
-    "id": "helio_g81_mt6769j_mt6769l_mt6769s_heliog8155mt6769jmt6769lmt6769s",
+    "id": "helio_g81_mt6769j_mt6769l_mt6769s_heliog81mt6769jmt6769lmt6769s",
     "name": "Helio G81 MT6769J MT6769L MT6769S",
     "vendor": "MediaTek",
     "cores": 8,
@@ -944,16 +944,16 @@
     "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G81 [ 55 ] MT6769J MT6769L MT6769S",
+    "model": "Helio G81 MT6769J MT6769L MT6769S",
     "cluster_config": "2+6",
     "clock_min": 1700,
     "clock_max": 2000,
     "aliases": [
-      "Helio G81 MT6769J MT6769L MT6769S (Helio G81 [ 55 ] MT6769J MT6769L MT6769S)"
+      "Helio G81 MT6769J MT6769L MT6769S (Helio G81 MT6769J MT6769L MT6769S)"
     ]
   },
   {
-    "id": "helio_g85_mt6769z_mt6769vcz_heliog8556mt6769zmt6769vcz",
+    "id": "helio_g85_mt6769z_mt6769vcz_heliog85mt6769zmt6769vcz",
     "name": "Helio G85 MT6769Z MT6769V/CZ",
     "vendor": "MediaTek",
     "cores": 8,
@@ -964,16 +964,16 @@
     "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G85 [ 56 ] MT6769Z MT6769V/CZ",
+    "model": "Helio G85 MT6769Z MT6769V/CZ",
     "cluster_config": "2+6",
     "clock_min": 1800,
     "clock_max": 2000,
     "aliases": [
-      "Helio G85 MT6769Z MT6769V/CZ (Helio G85 [ 56 ] MT6769Z MT6769V/CZ)"
+      "Helio G85 MT6769Z MT6769V/CZ (Helio G85 MT6769Z MT6769V/CZ)"
     ]
   },
   {
-    "id": "helio_g88_mt6769h_heliog8857mt6769h",
+    "id": "helio_g88_mt6769h_heliog88mt6769h",
     "name": "Helio G88 MT6769H",
     "vendor": "MediaTek",
     "year": 2019,
@@ -982,9 +982,9 @@
     "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G88 [ 57 ] MT6769H",
+    "model": "Helio G88 MT6769H",
     "aliases": [
-      "Helio G88 MT6769H (Helio G88 [ 57 ] MT6769H)"
+      "Helio G88 MT6769H (Helio G88 MT6769H)"
     ]
   },
   {
@@ -1026,7 +1026,7 @@
     "clock_max": 800
   },
   {
-    "id": "helio_g91_mt6769g_mt6769k_heliog9158mt6769gmt6769k",
+    "id": "helio_g91_mt6769g_mt6769k_heliog91mt6769gmt6769k",
     "name": "Helio G91 MT6769G MT6769K",
     "vendor": "MediaTek",
     "year": 2019,
@@ -1035,13 +1035,13 @@
     "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G91 [ 58 ] MT6769G MT6769K",
+    "model": "Helio G91 MT6769G MT6769K",
     "aliases": [
-      "Helio G91 MT6769G MT6769K (Helio G91 [ 58 ] MT6769G MT6769K)"
+      "Helio G91 MT6769G MT6769K (Helio G91 MT6769G MT6769K)"
     ]
   },
   {
-    "id": "helio_g92_mt6769i_heliog9259mt6769i",
+    "id": "helio_g92_mt6769i_heliog92mt6769i",
     "name": "Helio G92 MT6769I",
     "vendor": "MediaTek",
     "year": 2019,
@@ -1050,13 +1050,13 @@
     "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G92 [ 59 ] MT6769I",
+    "model": "Helio G92 MT6769I",
     "aliases": [
-      "Helio G92 MT6769I (Helio G92 [ 59 ] MT6769I)"
+      "Helio G92 MT6769I (Helio G92 MT6769I)"
     ]
   },
   {
-    "id": "helio_g95_mt6785vcd_heliog9561mt6785vcd",
+    "id": "helio_g95_mt6785vcd_heliog95mt6785vcd",
     "name": "Helio G95 MT6785V/CD",
     "vendor": "MediaTek",
     "gpu": "Mali-G76 MC4 @ 900 MHz (172.8 GFLOPS in FP32)",
@@ -1067,13 +1067,13 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Helio G95 [ 61 ] MT6785V/CD",
+    "model": "Helio G95 MT6785V/CD",
     "process_nm": 12,
     "process_name": "12nm",
     "clock_min": 900,
     "clock_max": 900,
     "aliases": [
-      "Helio G95 MT6785V/CD (Helio G95 [ 61 ] MT6785V/CD)"
+      "Helio G95 MT6785V/CD (Helio G95 MT6785V/CD)"
     ]
   },
   {
@@ -1114,7 +1114,7 @@
     "process_name": "6nm"
   },
   {
-    "id": "kompanio_500_mt8183v_prev_helio_p60t_kompanio500174mt8183v175prevheliop60t176",
+    "id": "kompanio_500_mt8183v_prev_helio_p60t_kompanio500mt8183vprevheliop60t",
     "name": "Kompanio 500 (MT8183V) (prev. Helio P60T )",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1125,14 +1125,14 @@
     "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 500 [ 174 ] (MT8183V) [ 175 ] (prev. Helio P60T ) [ 176 ]",
+    "model": "Kompanio 500 (MT8183V) (prev. Helio P60T )",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2000,
     "gpu_clock": 800,
     "memory_type": "LPDDR4",
     "aliases": [
-      "Kompanio 500 (MT8183V) (prev. Helio P60T ) (Kompanio 500 [ 174 ] (MT8183V) [ 175 ] (prev. Helio P60T ) [ 176 ])"
+      "Kompanio 500 (MT8183V) (prev. Helio P60T ) (Kompanio 500 (MT8183V) (prev. Helio P60T ) )"
     ],
     "process_nm": 12,
     "process_name": "12nm",
@@ -1165,7 +1165,7 @@
     "year": 2019
   },
   {
-    "id": "dimensity_1000c_mt6883zcza_dimensity1000c75mt6883zcza",
+    "id": "dimensity_1000c_mt6883zcza_dimensity1000cmt6883zcza",
     "name": "Dimensity 1000C (MT6883Z/CZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1176,7 +1176,7 @@
     "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 1000C [ 75 ] (MT6883Z/CZA)",
+    "model": "Dimensity 1000C (MT6883Z/CZA)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2000,
@@ -1187,7 +1187,7 @@
     "memory_bus": 16,
     "npu": "Mediatek APU 3.0 (4 cores) (2.4 TOPS)",
     "aliases": [
-      "Dimensity 1000C (MT6883Z/CZA) (Dimensity 1000C [ 75 ] (MT6883Z/CZA))"
+      "Dimensity 1000C (MT6883Z/CZA) (Dimensity 1000C (MT6883Z/CZA))"
     ],
     "process_nm": 7,
     "process_name": "7nm",
@@ -1197,7 +1197,7 @@
     "year": 2020
   },
   {
-    "id": "mt6853",
+    "id": "dimensity_720_mt6853",
     "name": "Dimensity 720",
     "vendor": "MediaTek",
     "codename": "mt6853",
@@ -1219,7 +1219,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "dimensity_800u_mt6853t_mt6853vtnza_dimensity800u68mt6853tmt6853vtnza",
+    "id": "dimensity_800u_mt6853t_mt6853vtnza_dimensity800umt6853tmt6853vtnza",
     "name": "Dimensity 800U (MT6853T MT6853V/TNZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1230,7 +1230,7 @@
     "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 800U [ 68 ] (MT6853T MT6853V/TNZA)",
+    "model": "Dimensity 800U (MT6853T MT6853V/TNZA)",
     "process_nm": 7,
     "process_name": "7nm",
     "cluster_config": "2+6",
@@ -1243,7 +1243,7 @@
     "memory_bus": 16,
     "npu": "Mediatek APU",
     "aliases": [
-      "Dimensity 800U (MT6853T MT6853V/TNZA) (Dimensity 800U [ 68 ] (MT6853T MT6853V/TNZA))"
+      "Dimensity 800U (MT6853T MT6853V/TNZA) (Dimensity 800U (MT6853T MT6853V/TNZA))"
     ],
     "camera_max": "64 MP Single Camera 20 MP + 16 MP Dual Camera at 30 fps",
     "year": 2020
@@ -1383,7 +1383,7 @@
     "year": 2022
   },
   {
-    "id": "kompanio_520_mt8186gv_kompanio520177mt8186gv",
+    "id": "kompanio_520_mt8186gv_kompanio520mt8186gv",
     "name": "Kompanio 520 (MT8186GV)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1394,13 +1394,13 @@
     "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 520 [ 177 ] (MT8186GV)",
+    "model": "Kompanio 520 (MT8186GV)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2000,
     "memory_type": "LPDDR4X",
     "aliases": [
-      "Kompanio 520 (MT8186GV) (Kompanio 520 [ 177 ] (MT8186GV))"
+      "Kompanio 520 (MT8186GV) (Kompanio 520 (MT8186GV))"
     ],
     "process_nm": 12,
     "process_name": "12nm",
@@ -1424,7 +1424,7 @@
     "year": 2022
   },
   {
-    "id": "mt7988a_filogic_880_mt7988afilogic880242243",
+    "id": "mt7988a_filogic_880_mt7988afilogic880",
     "name": "MT7988A Filogic 880",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1433,17 +1433,17 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT7988A Filogic 880 [ 242 ] [ 243 ]",
+    "model": "MT7988A Filogic 880",
     "clock_min": 1800,
     "clock_max": 1800,
     "npu": "Yes",
     "aliases": [
-      "MT7988A Filogic 880 (MT7988A Filogic 880 [ 242 ] [ 243 ])"
+      "MT7988A Filogic 880 (MT7988A Filogic 880 )"
     ],
     "year": 2022
   },
   {
-    "id": "dimensity_6020_dimensity_700_renamed_dimensity602083dimensity700renamed",
+    "id": "dimensity_6020_dimensity_700_renamed_dimensity6020dimensity700renamed",
     "name": "Dimensity 6020 (Dimensity 700 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1454,7 +1454,7 @@
     "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 6020 [ 83 ] (Dimensity 700 renamed)",
+    "model": "Dimensity 6020 (Dimensity 700 renamed)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2200,
@@ -1464,7 +1464,7 @@
     "memory_max": 0,
     "memory_bus": 16,
     "aliases": [
-      "Dimensity 6020 (Dimensity 700 renamed) (Dimensity 6020 [ 83 ] (Dimensity 700 renamed))"
+      "Dimensity 6020 (Dimensity 700 renamed) (Dimensity 6020 (Dimensity 700 renamed))"
     ],
     "process_nm": 7,
     "process_name": "7nm",
@@ -1474,7 +1474,7 @@
     "year": 2023
   },
   {
-    "id": "dimensity_7020_dimensity_930_renamed_dimensity702090dimensity930renamed",
+    "id": "dimensity_7020_dimensity_930_renamed_dimensity7020dimensity930renamed",
     "name": "Dimensity 7020 (Dimensity 930 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1484,7 +1484,7 @@
     "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7020 [ 90 ] (Dimensity 930 renamed)",
+    "model": "Dimensity 7020 (Dimensity 930 renamed)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2200,
@@ -1495,7 +1495,7 @@
     "memory_max": 0,
     "memory_bus": 16,
     "aliases": [
-      "Dimensity 7020 (Dimensity 930 renamed) (Dimensity 7020 [ 90 ] (Dimensity 930 renamed))"
+      "Dimensity 7020 (Dimensity 930 renamed) (Dimensity 7020 (Dimensity 930 renamed))"
     ],
     "process_nm": 6,
     "process_name": "6nm",
@@ -1607,7 +1607,7 @@
     "year": 2023
   },
   {
-    "id": "mt7988d_filogic_860_mt7988dfilogic860240241",
+    "id": "mt7988d_filogic_860_mt7988dfilogic860",
     "name": "MT7988D Filogic 860",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1616,12 +1616,12 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT7988D Filogic 860 [ 240 ] [ 241 ]",
+    "model": "MT7988D Filogic 860",
     "clock_min": 1800,
     "clock_max": 1800,
     "npu": "Yes",
     "aliases": [
-      "MT7988D Filogic 860 (MT7988D Filogic 860 [ 240 ] [ 241 ])"
+      "MT7988D Filogic 860 (MT7988D Filogic 860 )"
     ],
     "year": 2023
   },
@@ -1682,7 +1682,7 @@
     "year": 2023
   },
   {
-    "id": "kompanio_ultra_910_kompanioultra910188",
+    "id": "kompanio_ultra_910_kompanioultra910",
     "name": "Kompanio Ultra 910",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1692,7 +1692,7 @@
     "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio Ultra 910 [ 188 ]",
+    "model": "Kompanio Ultra 910",
     "cluster_config": "1+3+4",
     "clock_min": 3620,
     "clock_max": 3620,
@@ -1703,7 +1703,7 @@
     "display_max": "Internal: up to 4K60 External: up to 2× 4K (DP MST)",
     "video_decode": "Decode: 4K60 10-bit (HEVC/AVC/VP9/AV1) Encode: 4K60 10-bit (HEVC/AVC); 4K60 8-bit (HEVC)",
     "aliases": [
-      "Kompanio Ultra 910 (Kompanio Ultra 910 [ 188 ])"
+      "Kompanio Ultra 910 (Kompanio Ultra 910 )"
     ],
     "process_nm": 3,
     "process_name": "3nm",
@@ -1714,7 +1714,7 @@
     "year": 2025
   },
   {
-    "id": "dimensity_7300e_mt6858t_dimensity7300e98mt6858t",
+    "id": "dimensity_7300e_mt6858t_dimensity7300emt6858t",
     "name": "Dimensity 7300e (MT6858T)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1725,7 +1725,7 @@
     "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7300e [ 98 ] (MT6858T)",
+    "model": "Dimensity 7300e (MT6858T)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2500,
@@ -1734,7 +1734,7 @@
     "memory_max": 0,
     "memory_bus": 16,
     "aliases": [
-      "Dimensity 7300e (MT6858T) (Dimensity 7300e [ 98 ] (MT6858T))"
+      "Dimensity 7300e (MT6858T) (Dimensity 7300e (MT6858T))"
     ],
     "process_nm": 6,
     "process_name": "6nm",
@@ -1744,7 +1744,7 @@
     "year": 2026
   },
   {
-    "id": "aiot_i300a",
+    "id": "aiot_i300a_aioti300a",
     "name": "AIoT i300A",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1757,7 +1757,7 @@
     "model": "AIoT i300A"
   },
   {
-    "id": "aiot_i300a_mt8362a",
+    "id": "aiot_i300a_mt8362a_aioti300amt8362a",
     "name": "AIoT i300A (MT8362A)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1768,14 +1768,14 @@
     "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "AIoT i300A [ 155 ] (MT8362A) [ 156 ]",
+    "model": "AIoT i300A (MT8362A)",
     "clock_min": 1500,
     "clock_max": 1500,
     "memory_type": "LPDDR3",
     "memory_clock": 800,
     "memory_bus": 32,
     "aliases": [
-      "AIoT i300A (MT8362A) (AIoT i300A [ 155 ] (MT8362A) [ 156 ])"
+      "AIoT i300A (MT8362A) (AIoT i300A (MT8362A) )"
     ],
     "process_nm": 14,
     "process_name": "14nm",
@@ -1783,7 +1783,7 @@
     "bluetooth": "5.0"
   },
   {
-    "id": "aiot_i300b_mt8362b",
+    "id": "aiot_i300b_mt8362b_aioti300bmt8362b",
     "name": "AIoT i300B (MT8362B)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1792,15 +1792,15 @@
     "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "AIoT i300B [ 157 ] (MT8362B) [ 158 ]",
+    "model": "AIoT i300B (MT8362B)",
     "clock_min": 1300,
     "clock_max": 1300,
     "aliases": [
-      "AIoT i300B (MT8362B) (AIoT i300B [ 157 ] (MT8362B) [ 158 ])"
+      "AIoT i300B (MT8362B) (AIoT i300B (MT8362B) )"
     ]
   },
   {
-    "id": "aiot_i300pa",
+    "id": "aiot_i300pa_aioti300pa",
     "name": "AIoT i300PA",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1813,7 +1813,7 @@
     "model": "AIoT i300PA"
   },
   {
-    "id": "aiot_i300pa_mt8768vwa",
+    "id": "aiot_i300pa_mt8768vwa_aioti300pamt8768vwa",
     "name": "AIoT i300PA (MT8768V/WA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1824,7 +1824,7 @@
     "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "AIoT i300PA [ 159 ] (MT8768V/WA)",
+    "model": "AIoT i300PA (MT8768V/WA)",
     "clock_min": 2000,
     "clock_max": 2000,
     "gpu_clock": 650,
@@ -1832,7 +1832,7 @@
     "memory_clock": 800,
     "memory_bus": 32,
     "aliases": [
-      "AIoT i300PA (MT8768V/WA) (AIoT i300PA [ 159 ] (MT8768V/WA))"
+      "AIoT i300PA (MT8768V/WA) (AIoT i300PA (MT8768V/WA))"
     ],
     "process_nm": 12,
     "process_name": "12nm",
@@ -1840,7 +1840,7 @@
     "bluetooth": "5.0"
   },
   {
-    "id": "aiot_i300pb_mt8768vwb",
+    "id": "aiot_i300pb_mt8768vwb_aioti300pbmt8768vwb",
     "name": "AIoT i300PB (MT8768V/WB)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1849,15 +1849,15 @@
     "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "AIoT i300PB [ 160 ] (MT8768V/WB)",
+    "model": "AIoT i300PB (MT8768V/WB)",
     "clock_min": 2000,
     "clock_max": 2000,
     "aliases": [
-      "AIoT i300PB (MT8768V/WB) (AIoT i300PB [ 160 ] (MT8768V/WB))"
+      "AIoT i300PB (MT8768V/WB) (AIoT i300PB (MT8768V/WB))"
     ]
   },
   {
-    "id": "aiot_i500p",
+    "id": "aiot_i500p_aioti500p",
     "name": "AIoT i500P",
     "vendor": "MediaTek",
     "cores": 4,
@@ -1870,7 +1870,7 @@
     "model": "AIoT i500P"
   },
   {
-    "id": "aiot_i500p_mt8788a",
+    "id": "aiot_i500p_mt8788a_aioti500pmt8788a",
     "name": "AIoT i500P (MT8788A)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1880,16 +1880,16 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "AIoT i500P [ 165 ] (MT8788A) [ 166 ]",
+    "model": "AIoT i500P (MT8788A)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2000,
     "aliases": [
-      "AIoT i500P (MT8788A) (AIoT i500P [ 165 ] (MT8788A) [ 166 ])"
+      "AIoT i500P (MT8788A) (AIoT i500P (MT8788A) )"
     ]
   },
   {
-    "id": "armv7_32_bit",
+    "id": "armv7_32_bit_armv732bit",
     "name": "ARMv7 (32- bit)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1903,7 +1903,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "armv8_64_bit",
+    "id": "armv8_64_bit_armv864bit",
     "name": "ARMv8 (64- bit)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1936,14 +1936,14 @@
     "process_name": "7nm"
   },
   {
-    "id": "dimensity_1000p_mt6889zcza_dimensity100077mt6889zcza",
+    "id": "dimensity_1000p_mt6889zcza_dimensity1000mt6889zcza",
     "name": "Dimensity 1000+ (MT6889Z/CZA)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 1000+ [ 77 ] (MT6889Z/CZA)",
+    "model": "Dimensity 1000+ (MT6889Z/CZA)",
     "aliases": [
-      "Dimensity 1000+ (MT6889Z/CZA) (Dimensity 1000+ [ 77 ] (MT6889Z/CZA))"
+      "Dimensity 1000+ (MT6889Z/CZA) (Dimensity 1000+ (MT6889Z/CZA))"
     ],
     "completeness": 0.3398,
     "sources": {},
@@ -1953,7 +1953,7 @@
     "gpu": "Mali-G77"
   },
   {
-    "id": "dimensity_1000c",
+    "id": "dimensity_1000c_dimensity1000c",
     "name": "Dimensity 1000C",
     "vendor": "MediaTek",
     "cores": 8,
@@ -1967,7 +1967,7 @@
     "model": "Dimensity 1000C"
   },
   {
-    "id": "dimensity_1000l",
+    "id": "dimensity_1000l_dimensity1000l",
     "name": "Dimensity 1000L",
     "vendor": "MediaTek",
     "cores": 4,
@@ -2075,16 +2075,16 @@
     "clock_mid": 2600
   },
   {
-    "id": "dimensity_1300_mt6893z_zcza_mt6893z_tcza_dimensity130082mt6893zzczamt6893ztcza",
+    "id": "dimensity_1300_mt6893z_zcza_mt6893z_tcza_dimensity1300mt6893zzczamt6893ztcza",
     "name": "Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 1300 [ 82 ] (MT6893Z_Z/CZA MT6893Z_T/CZA)",
+    "model": "Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA)",
     "process_nm": 6,
     "process_name": "6nm",
     "aliases": [
-      "Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA) (Dimensity 1300 [ 82 ] (MT6893Z_Z/CZA MT6893Z_T/CZA))"
+      "Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA) (Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA))"
     ],
     "completeness": 0.3398,
     "sources": {},
@@ -2092,7 +2092,7 @@
     "gpu": "Mali-G77"
   },
   {
-    "id": "dimensity_6020",
+    "id": "dimensity_6020_dimensity6020",
     "name": "Dimensity 6020",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2106,7 +2106,7 @@
     "model": "Dimensity 6020"
   },
   {
-    "id": "dimensity_6080",
+    "id": "dimensity_6080_dimensity6080",
     "name": "Dimensity 6080",
     "vendor": "MediaTek",
     "process": "6 nm",
@@ -2120,7 +2120,7 @@
     "model": "Dimensity 6080"
   },
   {
-    "id": "dimensity_6080_dimensity_810_renamed_dimensity608084dimensity810renamed",
+    "id": "dimensity_6080_dimensity_810_renamed_dimensity6080dimensity810renamed",
     "name": "Dimensity 6080 (Dimensity 810 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2131,11 +2131,11 @@
     "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 6080 [ 84 ] (Dimensity 810 renamed)",
+    "model": "Dimensity 6080 (Dimensity 810 renamed)",
     "clock_min": 1068,
     "clock_max": 1068,
     "aliases": [
-      "Dimensity 6080 (Dimensity 810 renamed) (Dimensity 6080 [ 84 ] (Dimensity 810 renamed))"
+      "Dimensity 6080 (Dimensity 810 renamed) (Dimensity 6080 (Dimensity 810 renamed))"
     ]
   },
   {
@@ -2175,14 +2175,14 @@
     "process_name": "6nm"
   },
   {
-    "id": "dimensity_6360_dimensity636087",
+    "id": "dimensity_6360_dimensity6360",
     "name": "Dimensity 6360",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 6360 [ 87 ]",
+    "model": "Dimensity 6360",
     "aliases": [
-      "Dimensity 6360 (Dimensity 6360 [ 87 ])"
+      "Dimensity 6360 (Dimensity 6360 )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -2207,7 +2207,7 @@
     "gpu": "Mali-G57"
   },
   {
-    "id": "dimensity_6500_dimensity650089",
+    "id": "dimensity_6500_dimensity6500",
     "name": "Dimensity 6500",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2217,16 +2217,16 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 6500 [ 89 ]",
+    "model": "Dimensity 6500",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2600,
     "aliases": [
-      "Dimensity 6500 (Dimensity 6500 [ 89 ])"
+      "Dimensity 6500 (Dimensity 6500 )"
     ]
   },
   {
-    "id": "dimensity_7020",
+    "id": "dimensity_7020_dimensity7020",
     "name": "Dimensity 7020",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2239,7 +2239,7 @@
     "model": "Dimensity 7020"
   },
   {
-    "id": "dimensity_7025_mt6855vatza_mt6855v_aatza_dimensity702591mt6855vatzamt6855vaatza",
+    "id": "dimensity_7025_mt6855vatza_mt6855v_aatza_dimensity7025mt6855vatzamt6855vaatza",
     "name": "Dimensity 7025 (MT6855V/ATZA MT6855V_A/ATZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2248,19 +2248,19 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7025 [ 91 ] (MT6855V/ATZA MT6855V_A/ATZA)",
+    "model": "Dimensity 7025 (MT6855V/ATZA MT6855V_A/ATZA)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2500,
     "aliases": [
-      "Dimensity 7025 (MT6855V/ATZA MT6855V_A/ATZA) (Dimensity 7025 [ 91 ] (MT6855V/ATZA MT6855V_A/ATZA))"
+      "Dimensity 7025 (MT6855V/ATZA MT6855V_A/ATZA) (Dimensity 7025 (MT6855V/ATZA MT6855V_A/ATZA))"
     ],
     "process_nm": 6,
     "process_name": "6nm",
     "gpu": "Mali-G57"
   },
   {
-    "id": "dimensity_7030",
+    "id": "dimensity_7030_dimensity7030",
     "name": "Dimensity 7030",
     "vendor": "MediaTek",
     "gpu": "Mali-G610 MC3 @ 1.0 GHz (384 GFLOPS in FP32)",
@@ -2273,7 +2273,7 @@
     "model": "Dimensity 7030"
   },
   {
-    "id": "dimensity_7030_dimensity_1050_renamed_dimensity703092dimensity1050renamed",
+    "id": "dimensity_7030_dimensity_1050_renamed_dimensity7030dimensity1050renamed",
     "name": "Dimensity 7030 (Dimensity 1050 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2283,15 +2283,15 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7030 [ 92 ] (Dimensity 1050 renamed)",
+    "model": "Dimensity 7030 (Dimensity 1050 renamed)",
     "clock_min": 1000,
     "clock_max": 1000,
     "aliases": [
-      "Dimensity 7030 (Dimensity 1050 renamed) (Dimensity 7030 [ 92 ] (Dimensity 1050 renamed))"
+      "Dimensity 7030 (Dimensity 1050 renamed) (Dimensity 7030 (Dimensity 1050 renamed))"
     ]
   },
   {
-    "id": "dimensity_7050",
+    "id": "dimensity_7050_dimensity7050",
     "name": "Dimensity 7050",
     "vendor": "MediaTek",
     "cores": 2,
@@ -2304,7 +2304,7 @@
     "model": "Dimensity 7050"
   },
   {
-    "id": "dimensity_7050_dimensity_1080_renamed_dimensity705093dimensity1080renamed",
+    "id": "dimensity_7050_dimensity_1080_renamed_dimensity7050dimensity1080renamed",
     "name": "Dimensity 7050 (Dimensity 1080 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2314,16 +2314,16 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7050 [ 93 ] (Dimensity 1080 renamed)",
+    "model": "Dimensity 7050 (Dimensity 1080 renamed)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2600,
     "aliases": [
-      "Dimensity 7050 (Dimensity 1080 renamed) (Dimensity 7050 [ 93 ] (Dimensity 1080 renamed))"
+      "Dimensity 7050 (Dimensity 1080 renamed) (Dimensity 7050 (Dimensity 1080 renamed))"
     ]
   },
   {
-    "id": "dimensity_7060_mt6855vttza_dimensity706094mt6855vttza",
+    "id": "dimensity_7060_mt6855vttza_dimensity7060mt6855vttza",
     "name": "Dimensity 7060 (MT6855V/TTZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2332,12 +2332,12 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7060 [ 94 ] (MT6855V/TTZA)",
+    "model": "Dimensity 7060 (MT6855V/TTZA)",
     "clock_min": 950,
     "clock_max": 950,
     "gpu": "5G NR Sub-6 GHz, 4G LTE, dual-band GNSS (GPS, QZSS, BeiDou, Glonass, Galileo, NavIC), Wi-Fi 5 (1x1), Bluetooth 5.2",
     "aliases": [
-      "Dimensity 7060 (MT6855V/TTZA) (Dimensity 7060 [ 94 ] (MT6855V/TTZA))"
+      "Dimensity 7060 (MT6855V/TTZA) (Dimensity 7060 (MT6855V/TTZA))"
     ],
     "process_nm": 6,
     "process_name": "6nm"
@@ -2359,7 +2359,7 @@
     "clock_max": 2400
   },
   {
-    "id": "dimensity_720",
+    "id": "dimensity_720_dimensity720",
     "name": "Dimensity 720",
     "vendor": "MediaTek",
     "cores": 2,
@@ -2372,7 +2372,7 @@
     "model": "Dimensity 720"
   },
   {
-    "id": "dimensity_720_mt6853vza_mt6853vnza_dimensity72067mt6853vzamt6853vnza",
+    "id": "dimensity_720_mt6853vza_mt6853vnza_dimensity720mt6853vzamt6853vnza",
     "name": "Dimensity 720 (MT6853V/ZA MT6853V/NZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2382,14 +2382,14 @@
     "completeness": 0.4175,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 720 [ 67 ] (MT6853V/ZA MT6853V/NZA)",
+    "model": "Dimensity 720 (MT6853V/ZA MT6853V/NZA)",
     "process_nm": 7,
     "process_name": "7nm",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2000,
     "aliases": [
-      "Dimensity 720 (MT6853V/ZA MT6853V/NZA) (Dimensity 720 [ 67 ] (MT6853V/ZA MT6853V/NZA))"
+      "Dimensity 720 (MT6853V/ZA MT6853V/NZA) (Dimensity 720 (MT6853V/ZA MT6853V/NZA))"
     ]
   },
   {
@@ -2410,7 +2410,7 @@
     "npu": "5G NR Sub-6 GHz, 4G LTE, GNSS (GPS, QZSS, BeiDou, Glonass, Galileo, NavIC), Wi-F"
   },
   {
-    "id": "dimensity_7300e",
+    "id": "dimensity_7300e_dimensity7300e",
     "name": "Dimensity 7300e",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2424,7 +2424,7 @@
     "model": "Dimensity 7300e"
   },
   {
-    "id": "dimensity_7350",
+    "id": "dimensity_7350_dimensity7350",
     "name": "Dimensity 7350",
     "vendor": "MediaTek",
     "cores": 9,
@@ -2438,7 +2438,7 @@
     "model": "Dimensity 7350"
   },
   {
-    "id": "dimensity_7350_mt6886vtcza_dimensity7350103mt6886vtcza",
+    "id": "dimensity_7350_mt6886vtcza_dimensity7350mt6886vtcza",
     "name": "Dimensity 7350 (MT6886V/TCZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2449,33 +2449,33 @@
     "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7350 [ 103 ] (MT6886V/TCZA)",
+    "model": "Dimensity 7350 (MT6886V/TCZA)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 3000,
     "npu": "MediaTek Imagiq 765 Photo: 200 MP Video: 4K30 HDR",
     "aliases": [
-      "Dimensity 7350 (MT6886V/TCZA) (Dimensity 7350 [ 103 ] (MT6886V/TCZA))"
+      "Dimensity 7350 (MT6886V/TCZA) (Dimensity 7350 (MT6886V/TCZA))"
     ],
     "process_nm": 4,
     "process_name": "4nm"
   },
   {
-    "id": "dimensity_7360_mt6878v_gza_dimensity7360102mt6878vgza",
+    "id": "dimensity_7360_mt6878v_gza_dimensity7360mt6878vgza",
     "name": "Dimensity 7360 (MT6878V_G/ZA)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 7360 [ 102 ] (MT6878V_G/ZA)",
+    "model": "Dimensity 7360 (MT6878V_G/ZA)",
     "aliases": [
-      "Dimensity 7360 (MT6878V_G/ZA) (Dimensity 7360 [ 102 ] (MT6878V_G/ZA))"
+      "Dimensity 7360 (MT6878V_G/ZA) (Dimensity 7360 (MT6878V_G/ZA))"
     ],
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "dimensity_7400",
+    "id": "dimensity_7400_dimensity7400",
     "name": "Dimensity 7400",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2489,7 +2489,7 @@
     "model": "Dimensity 7400"
   },
   {
-    "id": "dimensity_7400_mt6878vtza_mt6878v_btza_dimensity7400104mt6878vtzamt6878vbtza",
+    "id": "dimensity_7400_mt6878vtza_mt6878v_btza_dimensity7400mt6878vtzamt6878vbtza",
     "name": "Dimensity 7400 (MT6878V/TZA MT6878V_B/TZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2500,26 +2500,26 @@
     "completeness": 0.4466,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 7400 [ 104 ] (MT6878V/TZA MT6878V_B/TZA)",
+    "model": "Dimensity 7400 (MT6878V/TZA MT6878V_B/TZA)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2600,
     "npu": "MediaTek Imagiq 950 Photo: 200 MP Video: 4K30 HDR",
     "aliases": [
-      "Dimensity 7400 (MT6878V/TZA MT6878V_B/TZA) (Dimensity 7400 [ 104 ] (MT6878V/TZA MT6878V_B/TZA))"
+      "Dimensity 7400 (MT6878V/TZA MT6878V_B/TZA) (Dimensity 7400 (MT6878V/TZA MT6878V_B/TZA))"
     ],
     "process_nm": 4,
     "process_name": "4nm"
   },
   {
-    "id": "dimensity_7450_dimensity7450107",
+    "id": "dimensity_7450_dimensity7450",
     "name": "Dimensity 7450",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 7450 [ 107 ]",
+    "model": "Dimensity 7450",
     "aliases": [
-      "Dimensity 7450 (Dimensity 7450 [ 107 ])"
+      "Dimensity 7450 (Dimensity 7450 )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -2569,7 +2569,7 @@
     "process_name": "6nm"
   },
   {
-    "id": "dimensity_800u",
+    "id": "dimensity_800u_dimensity800u",
     "name": "Dimensity 800U",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2583,7 +2583,7 @@
     "model": "Dimensity 800U"
   },
   {
-    "id": "dimensity_8020",
+    "id": "dimensity_8020_dimensity8020",
     "name": "Dimensity 8020",
     "vendor": "MediaTek",
     "process": "6 nm",
@@ -2597,7 +2597,7 @@
     "model": "Dimensity 8020"
   },
   {
-    "id": "dimensity_8020_dimensity_1100_renamed_dimensity8020112dimensity1100renamed",
+    "id": "dimensity_8020_dimensity_1100_renamed_dimensity8020dimensity1100renamed",
     "name": "Dimensity 8020 (Dimensity 1100 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2608,17 +2608,17 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 8020 [ 112 ] (Dimensity 1100 renamed)",
+    "model": "Dimensity 8020 (Dimensity 1100 renamed)",
     "clock_min": 836,
     "clock_max": 836,
     "gpu_clock": 2133,
     "npu": "Photo: 108 MP, 32 MP + 16 MP Video: 4K HDR",
     "aliases": [
-      "Dimensity 8020 (Dimensity 1100 renamed) (Dimensity 8020 [ 112 ] (Dimensity 1100 renamed))"
+      "Dimensity 8020 (Dimensity 1100 renamed) (Dimensity 8020 (Dimensity 1100 renamed))"
     ]
   },
   {
-    "id": "dimensity_8050",
+    "id": "dimensity_8050_dimensity8050",
     "name": "Dimensity 8050",
     "vendor": "MediaTek",
     "cores": 1,
@@ -2631,7 +2631,7 @@
     "model": "Dimensity 8050"
   },
   {
-    "id": "dimensity_8050_dimensity_1300_renamed_dimensity8050113dimensity1300renamed",
+    "id": "dimensity_8050_dimensity_1300_renamed_dimensity8050dimensity1300renamed",
     "name": "Dimensity 8050 (Dimensity 1300 renamed)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2641,17 +2641,17 @@
     "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 8050 [ 113 ] (Dimensity 1300 renamed)",
+    "model": "Dimensity 8050 (Dimensity 1300 renamed)",
     "cluster_config": "1+3+4",
     "clock_min": 2000,
     "clock_max": 3000,
     "clock_mid": 2600,
     "aliases": [
-      "Dimensity 8050 (Dimensity 1300 renamed) (Dimensity 8050 [ 113 ] (Dimensity 1300 renamed))"
+      "Dimensity 8050 (Dimensity 1300 renamed) (Dimensity 8050 (Dimensity 1300 renamed))"
     ]
   },
   {
-    "id": "dimensity_810",
+    "id": "dimensity_810_dimensity810",
     "name": "Dimensity 810",
     "vendor": "MediaTek",
     "process": "6 nm",
@@ -2665,7 +2665,7 @@
     "model": "Dimensity 810"
   },
   {
-    "id": "dimensity_810_mt6833p_mt6833gp_mt6833vpnza_dimensity81070mt6833pmt6833gpmt6833vpnza",
+    "id": "dimensity_810_mt6833p_mt6833gp_mt6833vpnza_dimensity810mt6833pmt6833gpmt6833vpnza",
     "name": "Dimensity 810 (MT6833P MT6833GP MT6833V/PNZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2676,14 +2676,14 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 810 [ 70 ] (MT6833P MT6833GP MT6833V/PNZA)",
+    "model": "Dimensity 810 (MT6833P MT6833GP MT6833V/PNZA)",
     "process_nm": 7,
     "process_name": "7nm",
     "clock_min": 1068,
     "clock_max": 1068,
     "npu": "Q3 2021",
     "aliases": [
-      "Dimensity 810 (MT6833P MT6833GP MT6833V/PNZA) (Dimensity 810 [ 70 ] (MT6833P MT6833GP MT6833V/PNZA))"
+      "Dimensity 810 (MT6833P MT6833GP MT6833V/PNZA) (Dimensity 810 (MT6833P MT6833GP MT6833V/PNZA))"
     ]
   },
   {
@@ -2780,19 +2780,19 @@
     "updated": "2026-06-21",
     "clock_min": 1300,
     "clock_max": 1300,
-    "npu": "Q4 2024 [ 123 ]",
+    "npu": "Q4 2024",
     "process_nm": 3,
     "process_name": "3nm"
   },
   {
-    "id": "dimensity_8450_mt6899z_dza_dimensity8450124mt6899zdza",
+    "id": "dimensity_8450_mt6899z_dza_dimensity8450mt6899zdza",
     "name": "Dimensity 8450 (MT6899Z_D/ZA)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 8450 [ 124 ] (MT6899Z_D/ZA)",
+    "model": "Dimensity 8450 (MT6899Z_D/ZA)",
     "aliases": [
-      "Dimensity 8450 (MT6899Z_D/ZA) (Dimensity 8450 [ 124 ] (MT6899Z_D/ZA))"
+      "Dimensity 8450 (MT6899Z_D/ZA) (Dimensity 8450 (MT6899Z_D/ZA))"
     ],
     "completeness": 0.3398,
     "sources": {},
@@ -2802,7 +2802,7 @@
     "gpu": "Immortalis-G925"
   },
   {
-    "id": "dimensity_8500",
+    "id": "dimensity_8500_dimensity8500",
     "name": "Dimensity 8500",
     "vendor": "MediaTek",
     "cores": 1,
@@ -2815,7 +2815,7 @@
     "model": "Dimensity 8500"
   },
   {
-    "id": "dimensity_8500_mt6899z_atza_dimensity8500125mt6899zatza",
+    "id": "dimensity_8500_mt6899z_atza_dimensity8500mt6899zatza",
     "name": "Dimensity 8500 (MT6899Z_A/TZA)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -2825,26 +2825,26 @@
     "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 8500 [ 125 ] (MT6899Z_A/TZA)",
+    "model": "Dimensity 8500 (MT6899Z_A/TZA)",
     "cluster_config": "1+3+4",
     "clock_min": 2200,
     "clock_max": 3400,
     "clock_mid": 3200,
     "aliases": [
-      "Dimensity 8500 (MT6899Z_A/TZA) (Dimensity 8500 [ 125 ] (MT6899Z_A/TZA))"
+      "Dimensity 8500 (MT6899Z_A/TZA) (Dimensity 8500 (MT6899Z_A/TZA))"
     ],
     "process_nm": 3,
     "process_name": "3nm"
   },
   {
-    "id": "dimensity_8550_dimensity8550127",
+    "id": "dimensity_8550_dimensity8550",
     "name": "Dimensity 8550",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Dimensity 8550 [ 127 ]",
+    "model": "Dimensity 8550",
     "aliases": [
-      "Dimensity 8550 (Dimensity 8550 [ 127 ])"
+      "Dimensity 8550 (Dimensity 8550 )"
     ],
     "completeness": 0.2718,
     "sources": {},
@@ -3003,7 +3003,7 @@
     "gpu": "Immortalis-G925"
   },
   {
-    "id": "dimensity_9400e_mt6989t_e_dimensity9400e141mt6989te",
+    "id": "dimensity_9400e_mt6989t_e_dimensity9400emt6989te",
     "name": "Dimensity 9400e (MT6989T_e)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3012,11 +3012,11 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 9400e [ 141 ] (MT6989T_e)",
+    "model": "Dimensity 9400e (MT6989T_e)",
     "clock_min": 6000,
     "clock_max": 6000,
     "aliases": [
-      "Dimensity 9400e (MT6989T_e) (Dimensity 9400e [ 141 ] (MT6989T_e))"
+      "Dimensity 9400e (MT6989T_e) (Dimensity 9400e (MT6989T_e))"
     ],
     "process_nm": 3,
     "process_name": "3nm",
@@ -3045,7 +3045,7 @@
     "process_name": "3nm"
   },
   {
-    "id": "dimensity_9500s_mt6991zsczb_mt6991zeczb_dimensity9500s148mt6991zsczbmt6991zeczb",
+    "id": "dimensity_9500s_mt6991zsczb_mt6991zeczb_dimensity9500smt6991zsczbmt6991zeczb",
     "name": "Dimensity 9500s (MT6991Z/SCZB MT6991Z/ECZB)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3054,24 +3054,24 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Dimensity 9500s [ 148 ] (MT6991Z/SCZB MT6991Z/ECZB)",
+    "model": "Dimensity 9500s (MT6991Z/SCZB MT6991Z/ECZB)",
     "process_nm": 4,
     "process_name": "4nm",
     "clock_min": 1612,
     "clock_max": 1612,
     "aliases": [
-      "Dimensity 9500s (MT6991Z/SCZB MT6991Z/ECZB) (Dimensity 9500s [ 148 ] (MT6991Z/SCZB MT6991Z/ECZB))"
+      "Dimensity 9500s (MT6991Z/SCZB MT6991Z/ECZB) (Dimensity 9500s (MT6991Z/SCZB MT6991Z/ECZB))"
     ],
     "gpu": "Immortalis-G925"
   },
   {
-    "id": "genio_1200",
+    "id": "genio_1200_mt8395",
     "name": "Genio 1200",
     "vendor": "MediaTek",
     "model": "MT8395",
     "cores": 4,
     "max_freq": "2.2 GHz",
-    "gpu": "Mali-G57 MC5 @ 880 MHz [ 173 ]",
+    "gpu": "Mali-G57 MC5 @ 880 MHz",
     "architecture": "ARMv8.2-A",
     "aliases": [
       "Genio 1200 (MT8395)"
@@ -3081,7 +3081,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "genio_350",
+    "id": "genio_350_mt8365",
     "name": "Genio 350",
     "vendor": "MediaTek",
     "model": "MT8365",
@@ -3098,7 +3098,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "genio_510",
+    "id": "genio_510_mt8370",
     "name": "Genio 510",
     "vendor": "MediaTek",
     "model": "MT8370",
@@ -3115,7 +3115,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "genio_700",
+    "id": "genio_700_mt8390",
     "name": "Genio 700",
     "vendor": "MediaTek",
     "model": "MT8390",
@@ -3131,7 +3131,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "kompanio_1200",
+    "id": "kompanio_1200_kompanio1200",
     "name": "Kompanio 1200",
     "vendor": "MediaTek",
     "cores": 4,
@@ -3144,7 +3144,7 @@
     "model": "Kompanio 1200"
   },
   {
-    "id": "kompanio_1200_mt8195gv_kompanio1200185mt8195gv",
+    "id": "kompanio_1200_mt8195gv_kompanio1200mt8195gv",
     "name": "Kompanio 1200 (MT8195GV)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3154,12 +3154,12 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 1200 [ 185 ] (MT8195GV)",
+    "model": "Kompanio 1200 (MT8195GV)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2600,
     "aliases": [
-      "Kompanio 1200 (MT8195GV) (Kompanio 1200 [ 185 ] (MT8195GV))"
+      "Kompanio 1200 (MT8195GV) (Kompanio 1200 (MT8195GV))"
     ]
   },
   {
@@ -3179,7 +3179,7 @@
     "clock_max": 2600
   },
   {
-    "id": "kompanio_1380",
+    "id": "kompanio_1380_kompanio1380",
     "name": "Kompanio 1380",
     "vendor": "MediaTek",
     "cores": 4,
@@ -3192,7 +3192,7 @@
     "model": "Kompanio 1380"
   },
   {
-    "id": "kompanio_1380_mt8195tv_kompanio1380187mt8195tv",
+    "id": "kompanio_1380_mt8195tv_kompanio1380mt8195tv",
     "name": "Kompanio 1380 (MT8195TV)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3202,16 +3202,16 @@
     "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 1380 [ 187 ] (MT8195TV)",
+    "model": "Kompanio 1380 (MT8195TV)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 3000,
     "aliases": [
-      "Kompanio 1380 (MT8195TV) (Kompanio 1380 [ 187 ] (MT8195TV))"
+      "Kompanio 1380 (MT8195TV) (Kompanio 1380 (MT8195TV))"
     ]
   },
   {
-    "id": "kompanio_500",
+    "id": "kompanio_500_kompanio500",
     "name": "Kompanio 500",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3225,7 +3225,7 @@
     "model": "Kompanio 500"
   },
   {
-    "id": "kompanio_520",
+    "id": "kompanio_520_kompanio520",
     "name": "Kompanio 520",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3239,25 +3239,25 @@
     "model": "Kompanio 520"
   },
   {
-    "id": "kompanio_528_mt8186tv_kompanio528178mt8186tv",
+    "id": "kompanio_528_mt8186tv_kompanio528mt8186tv",
     "name": "Kompanio 528 (MT8186TV)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Kompanio 528 [ 178 ] (MT8186TV)",
+    "model": "Kompanio 528 (MT8186TV)",
     "cluster_config": "2+6",
     "clock_min": 2000,
     "clock_max": 2200,
     "max_freq": "2.20 GHz",
     "aliases": [
-      "Kompanio 528 (MT8186TV) (Kompanio 528 [ 178 ] (MT8186TV))"
+      "Kompanio 528 (MT8186TV) (Kompanio 528 (MT8186TV))"
     ],
     "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "kompanio_540_kompanio540179",
+    "id": "kompanio_540_kompanio540",
     "name": "Kompanio 540",
     "vendor": "MediaTek",
     "process": "6 nm",
@@ -3268,9 +3268,9 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 540 [ 179 ]",
+    "model": "Kompanio 540",
     "aliases": [
-      "Kompanio 540 (Kompanio 540 [ 179 ])"
+      "Kompanio 540 (Kompanio 540 )"
     ]
   },
   {
@@ -3288,7 +3288,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "kompanio_820",
+    "id": "kompanio_820_kompanio820",
     "name": "Kompanio 820",
     "vendor": "MediaTek",
     "process": "7 nm",
@@ -3302,7 +3302,7 @@
     "model": "Kompanio 820"
   },
   {
-    "id": "kompanio_820_mt8192v_kompanio820181mt8192v",
+    "id": "kompanio_820_mt8192v_kompanio820mt8192v",
     "name": "Kompanio 820 (MT8192V)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3313,31 +3313,31 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 820 [ 181 ] (MT8192V)",
+    "model": "Kompanio 820 (MT8192V)",
     "aliases": [
-      "Kompanio 820 (MT8192V) (Kompanio 820 [ 181 ] (MT8192V))"
+      "Kompanio 820 (MT8192V) (Kompanio 820 (MT8192V))"
     ]
   },
   {
-    "id": "kompanio_828_mt8192t_kompanio828182mt8192t",
+    "id": "kompanio_828_mt8192t_kompanio828mt8192t",
     "name": "Kompanio 828 (MT8192T)",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Kompanio 828 [ 182 ] (MT8192T)",
+    "model": "Kompanio 828 (MT8192T)",
     "cluster_config": "4+4",
     "clock_min": 2000,
     "clock_max": 2600,
     "max_freq": "2.60 GHz",
     "aliases": [
-      "Kompanio 828 (MT8192T) (Kompanio 828 [ 182 ] (MT8192T))"
+      "Kompanio 828 (MT8192T) (Kompanio 828 (MT8192T))"
     ],
     "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "kompanio_838",
+    "id": "kompanio_838_kompanio838",
     "name": "Kompanio 838",
     "vendor": "MediaTek",
     "process": "6 nm",
@@ -3351,7 +3351,7 @@
     "model": "Kompanio 838"
   },
   {
-    "id": "kompanio_838_mt8188gv_kompanio838183mt8188gv",
+    "id": "kompanio_838_mt8188gv_kompanio838mt8188gv",
     "name": "Kompanio 838 (MT8188GV)",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3362,9 +3362,9 @@
     "completeness": 0.3204,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kompanio 838 [ 183 ] (MT8188GV)",
+    "model": "Kompanio 838 (MT8188GV)",
     "aliases": [
-      "Kompanio 838 (MT8188GV) (Kompanio 838 [ 183 ] (MT8188GV))"
+      "Kompanio 838 (MT8188GV) (Kompanio 838 (MT8188GV))"
     ]
   },
   {
@@ -3844,7 +3844,7 @@
     "max_freq": "281 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX531 @ 281 MHz (2.2 GFLOPS in FP32) [ 2 ]",
+    "gpu": "PowerVR SGX531 @ 281 MHz (2.2 GFLOPS in FP32)",
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
@@ -3924,21 +3924,21 @@
     "clock_max": 1
   },
   {
-    "id": "mt6572m_mt6572m13",
+    "id": "mt6572m",
     "name": "MT6572M",
     "vendor": "MediaTek",
     "cores": 8,
     "max_freq": "1 MHz",
-    "gpu": "Mali-400 MP1 @ 400 MHz (3.6 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-400 MP1 @ 400 MHz (3.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6572M [ 13 ]",
+    "model": "MT6572M",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6572M (MT6572M [ 13 ])"
+      "MT6572M (MT6572M )"
     ]
   },
   {
@@ -3967,7 +3967,7 @@
     "clock_max": 1
   },
   {
-    "id": "mt6575m_mt6575m6",
+    "id": "mt6575m",
     "name": "MT6575M",
     "vendor": "MediaTek",
     "cores": 8,
@@ -3977,11 +3977,11 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6575M [ 6 ]",
+    "model": "MT6575M",
     "clock_min": 281,
     "clock_max": 281,
     "aliases": [
-      "MT6575M (MT6575M [ 6 ])"
+      "MT6575M (MT6575M )"
     ]
   },
   {
@@ -4017,7 +4017,7 @@
     "name": "MT6582",
     "vendor": "MediaTek",
     "model": "MT6582",
-    "gpu": "Mali-400 MP2 @ 500 MHz (9 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-400 MP2 @ 500 MHz (9 GFLOPS in FP32)",
     "max_freq": "500 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -4031,7 +4031,7 @@
     "id": "mt6582m",
     "name": "MT6582M",
     "vendor": "MediaTek",
-    "gpu": "Mali-400 MP2 @ 400 MHz (7.2 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-400 MP2 @ 400 MHz (7.2 GFLOPS in FP32)",
     "max_freq": "400 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -4066,7 +4066,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544MP @ 266 MHz (8.5 GFLOPS in FP32) [ 17 ]",
+    "gpu": "PowerVR SGX544MP @ 266 MHz (8.5 GFLOPS in FP32)",
     "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
@@ -4074,7 +4074,7 @@
     "clock_max": 1
   },
   {
-    "id": "mt6589m_mt6589m16",
+    "id": "mt6589m",
     "name": "MT6589M",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4084,29 +4084,29 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6589M [ 16 ]",
+    "model": "MT6589M",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6589M (MT6589M [ 16 ])"
+      "MT6589M (MT6589M )"
     ]
   },
   {
-    "id": "mt6589t_mt6589t19",
+    "id": "mt6589t",
     "name": "MT6589T",
     "vendor": "MediaTek",
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544MP @ 357 MHz (11.4 GFLOPS in FP32) [ 17 ]",
+    "gpu": "PowerVR SGX544MP @ 357 MHz (11.4 GFLOPS in FP32)",
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6589T [ 19 ]",
+    "model": "MT6589T",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6589T (MT6589T [ 19 ])"
+      "MT6589T (MT6589T )"
     ]
   },
   {
@@ -4116,7 +4116,7 @@
     "model": "MT6592",
     "cores": 8,
     "max_freq": "2.00 GHz",
-    "gpu": "Mali-450 MP4 @ 700 MHz (42 GFLOPS in FP32) [ 2 ]",
+    "gpu": "Mali-450 MP4 @ 700 MHz (42 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3495,
     "sources": {},
@@ -4125,7 +4125,7 @@
     "clock_max": 2000
   },
   {
-    "id": "mt6592m_mt6592m21",
+    "id": "mt6592m",
     "name": "MT6592M",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4134,12 +4134,12 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6592M [ 21 ]",
+    "model": "MT6592M",
     "clock_min": 1,
     "clock_max": 1,
     "gpu": "2014",
     "aliases": [
-      "MT6592M (MT6592M [ 21 ])"
+      "MT6592M (MT6592M )"
     ]
   },
   {
@@ -4158,7 +4158,7 @@
     "clock_max": 1700
   },
   {
-    "id": "mt6595m_mt6595m24",
+    "id": "mt6595m",
     "name": "MT6595M",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4168,11 +4168,11 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6595M [ 24 ]",
+    "model": "MT6595M",
     "clock_min": 2,
     "clock_max": 1500,
     "aliases": [
-      "MT6595M (MT6595M [ 24 ])"
+      "MT6595M (MT6595M )"
     ]
   },
   {
@@ -4190,7 +4190,7 @@
     "clock_max": 1
   },
   {
-    "id": "mt6732m_mt6732m31",
+    "id": "mt6732m",
     "name": "MT6732M",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4200,11 +4200,11 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6732M [ 31 ]",
+    "model": "MT6732M",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6732M (MT6732M [ 31 ])"
+      "MT6732M (MT6732M )"
     ]
   },
   {
@@ -4214,7 +4214,7 @@
     "model": "MT6735",
     "cores": 8,
     "max_freq": "1 MHz",
-    "gpu": "Mali-T720 MP2 @ 600 MHz [ 30 ] (24 GFLOPS in FP32)",
+    "gpu": "Mali-T720 MP2 @ 600 MHz (24 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
     "completeness": 0.3883,
     "sources": {},
@@ -4225,17 +4225,17 @@
     "process_name": "28nm"
   },
   {
-    "id": "mt6735m_mt6735m2829",
+    "id": "mt6735m",
     "name": "MT6735M",
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "MT6735M [ 28 ] [ 29 ]",
+    "model": "MT6735M",
     "clock_min": 500,
     "clock_max": 500,
     "max_freq": "500 MHz",
     "aliases": [
-      "MT6735M (MT6735M [ 28 ] [ 29 ])"
+      "MT6735M (MT6735M )"
     ],
     "completeness": 0.3689,
     "sources": {},
@@ -4244,7 +4244,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "mt6735p_mt6735p2829",
+    "id": "mt6735p",
     "name": "MT6735P",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4254,11 +4254,11 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6735P [ 28 ] [ 29 ]",
+    "model": "MT6735P",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6735P (MT6735P [ 28 ] [ 29 ])"
+      "MT6735P (MT6735P )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -4281,7 +4281,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "mt6737t_mt6737t2829",
+    "id": "mt6737t",
     "name": "MT6737T",
     "vendor": "MediaTek",
     "cores": 8,
@@ -4291,11 +4291,11 @@
     "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6737T [ 28 ] [ 29 ]",
+    "model": "MT6737T",
     "clock_min": 1,
     "clock_max": 1,
     "aliases": [
-      "MT6737T (MT6737T [ 28 ] [ 29 ])"
+      "MT6737T (MT6737T )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -4316,21 +4316,21 @@
     "clock_max": 350
   },
   {
-    "id": "mt6738t_mt6738t2829",
+    "id": "mt6738t",
     "name": "MT6738T",
     "vendor": "MediaTek",
-    "gpu": "Mali-T860 MP2 @ 520 MHz [ 30 ] (29.1 GFLOPS in FP32)",
+    "gpu": "Mali-T860 MP2 @ 520 MHz (29.1 GFLOPS in FP32)",
     "max_freq": "520 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6738T [ 28 ] [ 29 ]",
+    "model": "MT6738T",
     "clock_min": 520,
     "clock_max": 520,
     "aliases": [
-      "MT6738T (MT6738T [ 28 ] [ 29 ])"
+      "MT6738T (MT6738T )"
     ]
   },
   {
@@ -4364,7 +4364,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "mt6750s_mt6750s37",
+    "id": "mt6750s",
     "name": "MT6750S",
     "vendor": "MediaTek",
     "gpu": "Mali-T860 MP2",
@@ -4373,9 +4373,9 @@
     "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "MT6750S [ 37 ]",
+    "model": "MT6750S",
     "aliases": [
-      "MT6750S (MT6750S [ 37 ])"
+      "MT6750S (MT6750S )"
     ],
     "process_nm": 28,
     "process_name": "28nm"
@@ -4587,7 +4587,7 @@
     "memory_max": 1,
     "memory_bus": 64,
     "video_decode": "AI- SR 2.0 with detail reconstruction AI- PQ Scene Recognition 2.0 AI- PQ Object Recognition 3.0 wit",
-    "npu": "Flagship UltraHD (4K) [ 228 ] Smart TV"
+    "npu": "Flagship UltraHD (4K) Smart TV"
   },
   {
     "id": "pentonic_700_mt9618_mt9653_mt9689",
@@ -4624,7 +4624,7 @@
     "memory_max": 6,
     "memory_bus": 64,
     "video_decode": "AI-Voice AI- SR 3.0 AI-Contrast 2.0 AI- PQ Scene Recognition 2.0+ AI- PQ Object Recognition 2.5",
-    "npu": "Premium UltraHD (4K) [ 230 ] Smart TV"
+    "npu": "Premium UltraHD (4K) Smart TV"
   },
   {
     "id": "pentonic_900_mt9950",
@@ -4646,7 +4646,7 @@
     "memory_bus": 96
   },
   {
-    "id": "standalone_application_tablet_processors",
+    "id": "standalone_application_tablet_processors_12ghzdualcorearmcortexa9",
     "name": "Standalone application and tablet processors",
     "vendor": "MediaTek",
     "cores": 8,

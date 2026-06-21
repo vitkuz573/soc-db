@@ -3316,7 +3316,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_d2701_atomd27013",
+    "id": "atom_d2701_atomd2701",
     "name": "Atom D2701",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3325,12 +3325,12 @@
     "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Atom D2701 [ 3 ]",
+    "model": "Atom D2701",
     "gpu": "640 MHz",
     "gpu_clock": 640,
     "memory_type": "DDR3",
     "aliases": [
-      "Atom D2701 (Atom D2701 [ 3 ])"
+      "Atom D2701 (Atom D2701 )"
     ],
     "memory_clock": 1333
   },

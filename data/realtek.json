@@ -1,6 +1,6 @@
 [
   {
-    "id": "rtd1293",
+    "id": "realtek_rtd1293",
     "name": "Realtek RTD1293",
     "vendor": "Realtek",
     "model": "RTD1293",
@@ -12,7 +12,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1295",
+    "id": "realtek_rtd1295",
     "name": "Realtek RTD1295",
     "vendor": "Realtek",
     "model": "RTD1295",
@@ -24,7 +24,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1296",
+    "id": "realtek_rtd1296",
     "name": "Realtek RTD1296",
     "vendor": "Realtek",
     "model": "RTD1296",
@@ -36,7 +36,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1395",
+    "id": "realtek_rtd1395",
     "name": "Realtek RTD1395",
     "vendor": "Realtek",
     "model": "RTD1395",
@@ -48,7 +48,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1501",
+    "id": "realtek_rtd1501",
     "name": "Realtek RTD1501",
     "vendor": "Realtek",
     "model": "RTD1501",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1619",
+    "id": "realtek_rtd1619",
     "name": "Realtek RTD1619",
     "vendor": "Realtek",
     "model": "RTD1619",
@@ -72,7 +72,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1861",
+    "id": "realtek_rtd1861",
     "name": "Realtek RTD1861",
     "vendor": "Realtek",
     "model": "RTD1861",
@@ -84,7 +84,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rtd1920",
+    "id": "realtek_rtd1920",
     "name": "Realtek RTD1920",
     "vendor": "Realtek",
     "model": "RTD1920",

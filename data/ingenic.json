@@ -113,7 +113,7 @@
     "year": 2012
   },
   {
-    "id": "jz4775_jz477514",
+    "id": "jz4775",
     "name": "Jz4775",
     "vendor": "Ingenic",
     "cores": 8,
@@ -122,10 +122,10 @@
     "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Jz4775 [ 14 ]",
+    "model": "Jz4775",
     "gpu": "X2D Core",
     "aliases": [
-      "Jz4775 (Jz4775 [ 14 ])"
+      "Jz4775 (Jz4775 )"
     ]
   }
 ]

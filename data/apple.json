@@ -39,7 +39,7 @@
     "gpu": "Apple A12Z GPU"
   },
   {
-    "id": "t8103_h13g",
+    "id": "apple_a14_bionic_t8103",
     "name": "Apple A14 Bionic",
     "vendor": "Apple",
     "codename": "h13g",
@@ -60,7 +60,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t8110_h14g",
+    "id": "apple_m1_t8110",
     "name": "Apple M1",
     "vendor": "Apple",
     "codename": "h14g",
@@ -81,7 +81,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t8110_h14p_a15",
+    "id": "apple_a15_bionic_t8110",
     "name": "Apple A15 Bionic",
     "vendor": "Apple",
     "codename": "h14p",
@@ -122,7 +122,7 @@
     "gpu": "Apple A15 GPU"
   },
   {
-    "id": "t8116_h14m",
+    "id": "apple_m1_max_t8116",
     "name": "Apple M1 Max",
     "vendor": "Apple",
     "codename": "h14m",
@@ -143,7 +143,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t8112_h14p",
+    "id": "apple_m1_pro_t8112",
     "name": "Apple M1 Pro",
     "vendor": "Apple",
     "codename": "h14p",
@@ -164,7 +164,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t8112_h14p_a16",
+    "id": "apple_a16_bionic_t8120",
     "name": "Apple A16 Bionic",
     "vendor": "Apple",
     "codename": "h14p",
@@ -205,7 +205,7 @@
     "gpu": "Apple A16 GPU"
   },
   {
-    "id": "t6000_h15g",
+    "id": "apple_m2_t6000",
     "name": "Apple M2",
     "vendor": "Apple",
     "codename": "h15g",
@@ -226,7 +226,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t8130_h15g_a17",
+    "id": "apple_a17_pro_t8130",
     "name": "Apple A17 Pro",
     "vendor": "Apple",
     "codename": "h15g",
@@ -267,7 +267,7 @@
     "gpu": "Apple A17 Pro GPU"
   },
   {
-    "id": "t6021_h15m",
+    "id": "apple_m2_max_t6021",
     "name": "Apple M2 Max",
     "vendor": "Apple",
     "codename": "h15m",
@@ -288,7 +288,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t6020_h15p",
+    "id": "apple_m2_pro_t6020",
     "name": "Apple M2 Pro",
     "vendor": "Apple",
     "codename": "h15p",
@@ -309,7 +309,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t9500_h18g",
+    "id": "apple_a18_pro_t9500",
     "name": "Apple A18 Pro",
     "vendor": "Apple",
     "codename": "h18g",
@@ -330,7 +330,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "t9515_h18p",
+    "id": "apple_m4_t9515",
     "name": "Apple M4",
     "vendor": "Apple",
     "codename": "h18p",
