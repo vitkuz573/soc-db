@@ -48,6 +48,165 @@
     "memory_clock": 1333
   },
   {
+    "id": "amlogic_a111",
+    "name": "Amlogic A111",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "memory_type": "DDR3",
+    "model": "Amlogic A111",
+    "memory_clock": 1333,
+    "completeness": 0.3495,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_a112",
+    "name": "Amlogic A112",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "memory_type": "DDR3",
+    "model": "Amlogic A112",
+    "memory_clock": 1333,
+    "completeness": 0.3495,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_a113",
+    "name": "Amlogic A113",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "memory_type": "DDR3",
+    "model": "Amlogic A113",
+    "memory_clock": 1333,
+    "completeness": 0.3495,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_s912",
+    "name": "Amlogic S912",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "gpu": "Mali-T820 MP3 OpenGL ES 3.1",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "storage_type": "NAND Flash eMMC 5.0, SD, NOR Flash",
+    "video_decode": "TS in, DVP",
+    "npu": "Stereo DACs I2S, SPDIF, DMIC",
+    "model": "Amlogic S912",
+    "memory_clock": 1333,
+    "completeness": 0.4272,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_t950",
+    "name": "Amlogic T950",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "storage_type": "eMMC 5.0, SD",
+    "video_decode": "HDMI 2.0b, CVBS",
+    "model": "Amlogic T950",
+    "memory_clock": 1333,
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm"
+  },
+  {
+    "id": "amlogic_t962",
+    "name": "Amlogic T962",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "gpu": "Mali-450 MP5 OpenGL ES 2.0",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "storage_type": "eMMC 5.0, SD",
+    "video_decode": "HDMI 2.0b, CVBS",
+    "model": "Amlogic T962",
+    "memory_clock": 1333,
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_t966",
+    "name": "Amlogic T966",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "storage_type": "eMMC 5.0, SD",
+    "video_decode": "HDMI 2.0b, CVBS",
+    "model": "Amlogic T966",
+    "memory_clock": 1333,
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "amlogic_t968",
+    "name": "Amlogic T968",
+    "vendor": "Amlogic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "process": "28 nm",
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "storage_type": "eMMC 5.0, SD",
+    "video_decode": "HDMI 2.0b, CVBS",
+    "model": "Amlogic T968",
+    "memory_clock": 1333,
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "s905d",
     "name": "S905D",
     "vendor": "Amlogic",
@@ -55,7 +214,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.3981,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905D",
@@ -66,7 +225,9 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "TS in, DVP",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "storage_type": "NAND Flash eMMC 5.0, SD, NOR Flash",
+    "npu": "Stereo DACs I2S, SPDIF, DMIC"
   },
   {
     "id": "s905l",
@@ -76,7 +237,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.3981,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905L",
@@ -87,7 +248,9 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "/",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "storage_type": "NAND flash eMMC 5.0 , SD , NOR flash",
+    "npu": "Stereo DACs I2S, SPDIF, DMIC"
   },
   {
     "id": "s905x",
@@ -97,7 +260,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.3981,
+    "completeness": 0.4272,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X",
@@ -108,7 +271,9 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "/",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "storage_type": "NAND Flash eMMC 5.0, SD, NOR Flash",
+    "npu": "Stereo DACs I2S, SPDIF, DMIC"
   },
   {
     "id": "s905x2",
@@ -118,7 +283,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.3786,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X2",
@@ -129,7 +294,9 @@
     "memory_type": "LPDDR3",
     "video_decode": "TS in, DVP",
     "wifi": "Wi-Fi",
-    "memory_clock": 800
+    "memory_clock": 800,
+    "storage_type": "SLC NAND Flash, eMMC 5.0, SD, SPI NOR/NAND",
+    "npu": "?"
   },
   {
     "id": "s905y2",
@@ -139,7 +306,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.3786,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y2",
@@ -150,7 +317,9 @@
     "memory_type": "LPDDR3",
     "video_decode": "TS in",
     "wifi": "Wi-Fi",
-    "memory_clock": 800
+    "memory_clock": 800,
+    "storage_type": "SLC NAND Flash, eMMC 5.0, SD, SPI NOR/NAND",
+    "npu": "?"
   },
   {
     "id": "s905y4",
@@ -160,7 +329,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.3786,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y4",
@@ -171,7 +340,9 @@
     "memory_type": "LPDDR3",
     "video_decode": "TS in",
     "wifi": "Wi-Fi",
-    "memory_clock": 800
+    "memory_clock": 800,
+    "storage_type": "SLC NAND Flash, eMMC 5.0, SDSC/SDXC/SDHC/SDIO",
+    "npu": "Stereo DAC SPDIF, TDM/PCM/I2s interface"
   },
   {
     "id": "s912",
@@ -202,7 +373,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.3786,
+    "completeness": 0.4078,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S922X",
@@ -213,7 +384,9 @@
     "memory_type": "LPDDR3",
     "video_decode": "TS in, DVP, MIPI",
     "wifi": "Wi-Fi",
-    "memory_clock": 800
+    "memory_clock": 800,
+    "storage_type": "SLC/MLC/TLC NAND Flash, eMMC 5.0, SDSC/SDXC/SDHC/SDIO, SPI NOR/NAND",
+    "npu": "Stereo DAC I2S, SPDIF, DMIC"
   },
   {
     "id": "t920l",
@@ -222,7 +395,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.3495,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T920L",
@@ -231,7 +404,8 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "HDMI 1.4b , CVBS",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "storage_type": "eMMC 5.0, SD"
   },
   {
     "id": "t950",

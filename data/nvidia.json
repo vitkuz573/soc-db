@@ -52,20 +52,6 @@
     "gpu_clock": 1267
   },
   {
-    "id": "t241",
-    "name": "T241",
-    "vendor": "Nvidia",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "T241 [ 184 ]",
-    "aliases": [
-      "T241 (T241 [ 184 ])"
-    ]
-  },
-  {
     "id": "t254",
     "name": "T254 ?",
     "vendor": "Nvidia",

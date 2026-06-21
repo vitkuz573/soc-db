@@ -113,20 +113,6 @@
     "year": 2012
   },
   {
-    "id": "adoption",
-    "name": "Adoption",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Ben NanoNote",
-    "aliases": [
-      "Adoption (Ben NanoNote)"
-    ]
-  },
-  {
     "id": "jz4775",
     "name": "Jz4775",
     "vendor": "Ingenic",
@@ -140,34 +126,6 @@
     "gpu": "X2D Core",
     "aliases": [
       "Jz4775 (Jz4775 [ 14 ])"
-    ]
-  },
-  {
-    "id": "skytone",
-    "name": "Skytone",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Skytone Alpha-400",
-    "aliases": [
-      "Skytone (Skytone Alpha-400)"
-    ]
-  },
-  {
-    "id": "velocity_micro",
-    "name": "Velocity Micro",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Cruz T103, T301",
-    "aliases": [
-      "Velocity Micro (Cruz T103, T301)"
     ]
   }
 ]

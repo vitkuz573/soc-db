@@ -11,14 +11,14 @@
     "allwinner": {
       "name": "Allwinner",
       "file": "allwinner.json",
-      "count": 29,
-      "completeness": 0.313
+      "count": 24,
+      "completeness": 0.322
     },
     "amlogic": {
       "name": "Amlogic",
       "file": "amlogic.json",
-      "count": 16,
-      "completeness": 0.378
+      "count": 24,
+      "completeness": 0.39
     },
     "apple": {
       "name": "Apple",
@@ -35,20 +35,20 @@
     "google": {
       "name": "Google",
       "file": "tensor.json",
-      "count": 14,
-      "completeness": 0.296
+      "count": 5,
+      "completeness": 0.429
     },
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
-      "count": 95,
-      "completeness": 0.332
+      "count": 63,
+      "completeness": 0.336
     },
     "ingenic": {
       "name": "Ingenic",
       "file": "ingenic.json",
-      "count": 13,
-      "completeness": 0.296
+      "count": 10,
+      "completeness": 0.304
     },
     "intel_atom": {
       "name": "Intel Atom",
@@ -65,8 +65,8 @@
     "mediatek": {
       "name": "MediaTek",
       "file": "mediatek.json",
-      "count": 331,
-      "completeness": 0.369
+      "count": 264,
+      "completeness": 0.378
     },
     "microchip": {
       "name": "Microchip",
@@ -77,8 +77,8 @@
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 21,
-      "completeness": 0.303
+      "count": 20,
+      "completeness": 0.304
     },
     "nxp_i.mx": {
       "name": "NXP i.MX",
@@ -89,8 +89,8 @@
     "qualcomm": {
       "name": "Qualcomm",
       "file": "qualcomm.json",
-      "count": 333,
-      "completeness": 0.396
+      "count": 262,
+      "completeness": 0.407
     },
     "realtek": {
       "name": "Realtek",
@@ -113,8 +113,8 @@
     "samsung": {
       "name": "Samsung",
       "file": "exynos.json",
-      "count": 98,
-      "completeness": 0.363
+      "count": 74,
+      "completeness": 0.369
     },
     "stmicroelectronics": {
       "name": "STMicroelectronics",
@@ -141,6 +141,6 @@
       "completeness": 0.262
     }
   },
-  "total": 1303,
+  "total": 1099,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

@@ -239,40 +239,6 @@
     ]
   },
   {
-    "id": "f10",
-    "name": "F10",
-    "vendor": "Allwinner",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "F10",
-    "video_decode": "Multimedia Box, HD Player"
-  },
-  {
-    "id": "f13",
-    "name": "F13",
-    "vendor": "Allwinner",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "F13"
-  },
-  {
-    "id": "f18",
-    "name": "F18",
-    "vendor": "Allwinner",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "F18"
-  },
-  {
     "id": "f1c100",
     "name": "F1C100",
     "vendor": "Allwinner",
@@ -309,18 +275,6 @@
     "video_decode": "eLQFP128"
   },
   {
-    "id": "f20",
-    "name": "F20",
-    "vendor": "Allwinner",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "F20",
-    "video_decode": "BGA400"
-  },
-  {
     "id": "h616",
     "name": "H616",
     "vendor": "Allwinner",
@@ -334,20 +288,6 @@
     "video_decode": "H.265 4K@60 fps or 6K@30 fps VP9, 4K@60 fps VP8, 1080p@60 fps",
     "aliases": [
       "H616 (H616 [ 58 ])"
-    ]
-  },
-  {
-    "id": "h618",
-    "name": "H618",
-    "vendor": "Allwinner",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "H618 [ 59 ]",
-    "aliases": [
-      "H618 (H618 [ 59 ])"
     ]
   },
   {

@@ -27,8 +27,8 @@ WIKI_PAGES = {
 KNOWN_PREFIXES = [
     "Snapdragon", "Qualcomm", "Microsoft", "Dimensity", "Helio", "Kompanio",
     "Pentonic", "Exynos", "Kirin", "Tensor", "Apple",
-    "RK", "RV", "R", "A", "H", "F", "V", "T", "MR", "Allwinner",
-    "S", "OMAP", "AM", "DM", "Atom", "Celeron", "Pentium", "Xeon",
+    "RK", "RV", "MR", "Allwinner",
+    "OMAP", "AM", "DM", "Atom", "Celeron", "Pentium", "Xeon",
     "Jz", "JZ", "i.MX", "IMX", "MCIMX", "SC", "SL", "SP",
 ]
 
@@ -57,12 +57,37 @@ def extract_chip_name(first_cell_text: str, section_heading: str = "") -> str | 
     return None
 
 
+NON_CHIP_NAMES = {
+    "armv7", "armv8", "armv9", "android", "linux", "windows",
+    "unknown", "n/a", "samsung", "intel", "nvidia", "apple",
+    "bluetooth", "wifi", "wi-fi", "ethernet", "usb", "pcie",
+    "lpddr3", "lpddr4", "lpddr4x", "lpddr5", "lpddr5x",
+    "ddr3", "ddr4", "ddr5", "ufs", "nvme", "emmc",
+    "gps", "gnss", "nfc", "isp", "dsp", "npu", "gpu", "cpu",
+    "tbd", "tbc", "announced", "released", "launch",
+    "october", "november", "december", "january", "february",
+    "march", "april", "may", "june", "july", "august", "september",
+    "pixel", "device", "devices", "feature", "features",
+}
+
+
 def is_valid_chip_name(name):
     if not name or name in ("?", "", "-", "—", "TBC", "TBD"):
         return False
-    if len(name) < 3 or re.match(r'^\d+[\s.]', name) or not re.search(r'[a-zA-Z]', name):
+    low = name.lower()
+    if len(name) < 2 or re.match(r'^\d+[\s.]', name) or not re.search(r'[a-zA-Z]', name):
         return False
-    if name.lower() in ("armv7", "armv8", "armv9", "android", "linux", "windows", "unknown", "n/a"):
+    if low in NON_CHIP_NAMES:
+        return False
+    if re.match(r'armv\d', low):
+        return False
+    if re.match(r'^\d+\s*nm', low):
+        return False
+    if re.match(r'^\d+x\d+', low):
+        return False
+    if re.match(r'^[\d.]+[\s]*(mhz|ghz|mb/s|gb/s|gflops|tops)', low):
+        return False
+    if len(name) >= 5 and re.match(r'^[A-Z][a-z]+$', name) and not re.search(r'\d', name):
         return False
     if not re.search(r'\d', name):
         for prefix in KNOWN_PREFIXES:
@@ -144,56 +169,117 @@ def parse_standard_table(tbl, section_heading="", chip_name_override=""):
     return chips
 
 
-def parse_transposed_table(tbl, section_heading=""):
-    """Amlogic-style: chips are column headers, specs are rows."""
+def _sub_label(text: str) -> bool:
+    """Check if a cell text looks like a sub-label rather than data."""
+    t = text.strip().lower()
+    labels = {"launch date", "type", "frequency", "speed", "bandwidth", "bit width",
+              "bus width", "model number", "part number", "codename", "μarch",
+              "isa", "fabrication", "manufacturer"}
+    return t in labels
+
+
+def _align_cell(row_cells, chip_col, num_chips):
+    """Find the data cell (td) for chip_col, skipping sub-label cells."""
+    # Collect td cells, filtering out sub-labels
+    tds = [c for c in row_cells if c.name == "td"]
+    data_cells = [c for c in tds if not _sub_label(c.get_text(" ", strip=True))]
+    if len(data_cells) == num_chips:
+        return data_cells[chip_col]
+    # Fallback: skip th label at position 0, then sub-labels, then data
+    start = 0
+    for c in row_cells:
+        if c.name == "th":
+            start += 1
+        elif _sub_label(c.get_text(" ", strip=True)):
+            start += 1
+        else:
+            break
+    idx = start + chip_col
+    return row_cells[idx] if idx < len(row_cells) else None
+
+
+def parse_transposed_table(tbl, section_heading="", vendor=""):
+    """Chips are column headers, specs are rows. Handles colspan/extra cells."""
     chips = []
     rows = tbl.find_all("tr")
     if not rows:
         return chips
 
     header_cells = rows[0].find_all(["th", "td"])
-    chip_names = []
+    chip_specs = []
     for cell in header_cells[1:]:
-        name = clean(cell.get_text(" ", strip=True))
-        if name and is_valid_chip_name(name):
-            chip_names.append(name)
+        orig = clean(cell.get_text(" ", strip=True))
+        if not orig:
+            continue
+        if not is_valid_chip_name(orig):
+            display = f"{vendor} {orig}".strip()
+        elif len(orig) <= 4 or re.match(r'^G\d', orig) or re.match(r'^[A-Z]\d\s*\(', orig):
+            prefix = vendor or section_heading.replace("series", "").strip()
+            display = f"{prefix} {orig}".strip()
+        else:
+            display = orig
+        if is_valid_chip_name(display):
+            chip_specs.append((display, orig))
 
-    for name in chip_names:
-        chip_id = slug(name)
-        chip = {"id": chip_id, "name": name, "vendor": "?", "cores": 8, "architecture": "ARMv8.2-A"}
+    num_chips = len(chip_specs)
+
+    for display_name, orig_name in chip_specs:
+        chip_id = slug(display_name)
+        chip = {"id": chip_id, "name": display_name, "vendor": "?", "cores": 8, "architecture": "ARMv8.2-A"}
 
         for ci, cell in enumerate(header_cells[1:], 1):
             cn = clean(cell.get_text(" ", strip=True))
-            if cn == name:
+            if cn == orig_name:
+                chip_col = ci - 1  # 0-based chip column
                 for row in rows[1:]:
-                    cells = row.find_all(["th", "td"])
-                    if ci < len(cells):
-                        cell_text = clean(cells[ci].get_text(" ", strip=True)) or ""
-                        row_label = clean(cells[0].get_text(" ", strip=True)) or ""
-                        rl = row_label.lower()
+                    row_cells = row.find_all(["th", "td"])
+                    dc = _align_cell(row_cells, chip_col, num_chips)
+                    if dc is None:
+                        continue
+                    cell_text = clean(dc.get_text(" ", strip=True)) or ""
+                    row_label = clean(row_cells[0].get_text(" ", strip=True)) or ""
+                    rl = row_label.lower()
 
-                        if "cpu" in rl:
-                            chip.update(parse_cpu(cell_text))
-                        elif "gpu" in rl:
-                            chip.update(parse_gpu(cell_text))
-                        elif "process" in rl or "fab" in rl:
-                            chip.update(parse_process(cell_text))
-                        elif "memory" in rl or "ram" in rl:
-                            chip.update(parse_memory(cell_text))
-                        elif "modem" in rl:
-                            chip.update(parse_modem(cell_text))
-                        elif "connect" in rl or "wifi" in rl or "bluetooth" in rl:
-                            chip.update(parse_connectivity(cell_text))
-                        elif "video" in rl:
-                            chip.update(parse_video(cell_text))
-                        elif "display" in rl:
-                            chip.update(parse_display(cell_text))
-                        elif "camera" in rl:
-                            chip.update(parse_camera(cell_text))
+                    if "cpu" in rl or "core" in rl:
+                        chip.update(parse_cpu(cell_text))
+                    elif "gpu" in rl or "graphic" in rl:
+                        chip.update(parse_gpu(cell_text))
+                    elif "process" in rl or "fab" in rl or "node" in rl:
+                        chip.update(parse_process(cell_text))
+                    elif "memory" in rl or "ram" in rl:
+                        chip.update(parse_memory(cell_text))
+                    elif "modem" in rl:
+                        chip.update(parse_modem(cell_text))
+                    elif "connect" in rl or "wifi" in rl or "bluetooth" in rl or "wireless" in rl:
+                        chip.update(parse_connectivity(cell_text))
+                    elif "video" in rl:
+                        chip.update(parse_video(cell_text))
+                    elif "display" in rl or "screen" in rl:
+                        chip.update(parse_display(cell_text))
+                    elif "camera" in rl or "isp" in rl:
+                        chip.update(parse_camera(cell_text))
+                    elif "year" not in chip and ("launch" in rl or "released" in rl or "announced" in rl or "date" in rl or "soc" in rl):
+                        ym = re.search(r'(20\d{2})', cell_text)
+                        if ym:
+                            y = int(ym.group(1))
+                            if 2007 <= y <= 2030:
+                                chip["year"] = y
+                    elif "model" in rl and "number" in rl:
+                        m = re.search(r'([A-Z0-9]{3,}(?:\([A-Z0-9]+\))?)', cell_text)
+                        if m:
+                            chip["model"] = m.group(1)
+                    elif "codename" in rl:
+                        chip["codename"] = cell_text
+                    elif "npu" in rl or "ai" in rl or "tpu" in rl:
+                        chip["npu"] = cell_text[:80]
+                    elif "charge" in rl or "battery" in rl:
+                        chip["charging"] = cell_text[:80]
+                    elif "storage" in rl or "ufs" in rl:
+                        chip["storage_type"] = cell_text[:80]
                 break
 
         if "year" not in chip:
-            for src in [name, section_heading]:
+            for src in [display_name, section_heading]:
                 ym = re.search(r'(20[0-2]\d)', src)
                 if ym:
                     y = int(ym.group(1))
@@ -203,6 +289,67 @@ def parse_transposed_table(tbl, section_heading=""):
         chips.append(chip)
 
     return chips
+
+
+SPEC_LABEL_PATTERNS = [
+    r'armv\d', r'^\d+\s*(nm|bit|gb|mb|ghz|mhz|gflops|tops|core)',
+    r'(mhz|ghz|gb/s|mb/s|gflops|tops|nm)$',
+    r'^(october|november|december|january|february|march|april|may|june|july|august|september)\b',
+    r'^\d{4}-\d{2}-\d{2}', r'octa.nucleo|nona.core|hexa.core|quad.core|dual.core',
+    r'^64.bits?|^32.bits?', r'\d×\d+\s*bit',
+    r'lpddr|ddr\d', r'ufs\s*\d\.', r'wifi|bluetooth|gnss|nfc',
+    r'^(feature|device|model number|part number|codename|fabrication|manufacturer|memory|storage|connectivity|charging|video|camera|display)',
+    r'^trustzone|^trusty\s+os',
+    r'^edge\s+tpu', r'^gen\s+\d+\s+edge\s+tpu',
+    r'exynos\s+\d+\w?\b', r'^mali\b',
+    r'^\d+x\s+\d+-bit', r'^quad-channel',
+    r'^1st\s+gen|^2nd\s+gen|^3rd\s+gen|^\d+th\s+gen',
+]
+
+
+def _is_spec_label(text: str) -> bool:
+    """Check if text looks like a spec label rather than a chip name."""
+    low = text.lower().strip()
+    if not low or not re.search(r'[a-zA-Z]', low):
+        return True
+    if re.search(r'(mhz|ghz|tops|gflops|fps|gbps|mbps)\b', low):
+        return True
+    for pat in SPEC_LABEL_PATTERNS:
+        if re.search(pat, low):
+            return True
+    return False
+
+
+def _is_transposed_table(tbl) -> bool:
+    """Detect if a wikitable is transposed (chips as columns, specs as rows).
+
+    Heuristics:
+    - First header cell is empty
+    - More data rows than header columns (specs > chips), OR
+    - First column cells are mostly spec labels
+    """
+    rows = tbl.find_all("tr")
+    if len(rows) < 3:
+        return False
+    header_cells = rows[0].find_all(["th", "td"])
+    first_header = header_cells[0].get_text(" ", strip=True) if header_cells else ""
+    if first_header:
+        return False
+    data_rows = [r for r in rows[1:] if r.find_all("td")]
+    if len(data_rows) < 2:
+        return False
+    n_cols = len(header_cells)
+    if len(data_rows) > n_cols * 2:
+        return True
+    first_col_values = []
+    for r in data_rows[:5]:
+        tds = r.find_all("td")
+        if tds:
+            first_col_values.append(tds[0].get_text(" ", strip=True))
+    if not first_col_values:
+        return False
+    non_chip = sum(1 for v in first_col_values if _is_spec_label(v))
+    return non_chip >= len(first_col_values) * 0.5
 
 
 def scrape_vendor(vendor):
@@ -244,8 +391,8 @@ def scrape_vendor(vendor):
             if m:
                 chip_override = f"Atom {m.group(0)}"
 
-        if is_amlogic:
-            chips = parse_transposed_table(tbl, heading)
+        if is_amlogic or _is_transposed_table(tbl):
+            chips = parse_transposed_table(tbl, heading, vendor)
         else:
             chips = parse_standard_table(tbl, heading, chip_name_override=chip_override or "")
 

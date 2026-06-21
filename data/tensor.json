@@ -1,211 +1,111 @@
 [
   {
-    "id": "gs101_whitechapel",
-    "name": "Tensor",
+    "id": "google_g1_original",
+    "name": "Google G1 (Original)",
     "vendor": "Google",
-    "codename": "whitechapel",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "process": "5 nm",
+    "gpu": "μarch",
+    "storage_type": "Type",
+    "bluetooth": "5.3",
     "model": "GS101",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G78 MP20",
-    "process": "5nm",
+    "completeness": 0.4757,
+    "sources": {},
+    "updated": "2026-06-21",
     "year": 2021,
-    "max_freq": "2.8 GHz",
-    "devices": [
-      "Google Pixel 6",
-      "Google Pixel 6 Pro"
-    ],
+    "codename": "Whitechapel [ 8 ]",
+    "memory_type": "LPDDR5",
+    "memory_clock": 3200,
+    "memory_bus": 64,
     "aliases": [
-      "Tensor (GS101)"
-    ],
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
+      "Google G1 (Original) (GS101)"
+    ]
   },
   {
-    "id": "gs201_cloudripper",
-    "name": "Tensor G2",
-    "vendor": "Google",
-    "codename": "cloudripper",
-    "model": "GS201",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G710 MP7",
-    "process": "5nm",
-    "year": 2022,
-    "max_freq": "2.85 GHz",
-    "devices": [
-      "Google Pixel 7",
-      "Google Pixel 7 Pro"
-    ],
-    "aliases": [
-      "Tensor G2 (GS201)"
-    ],
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "gs301_zuma",
-    "name": "Tensor G3",
-    "vendor": "Google",
-    "codename": "zuma",
-    "model": "GS301",
-    "revision": "",
-    "cores": 9,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G715 MP7",
-    "process": "4nm",
-    "year": 2023,
-    "max_freq": "3.0 GHz",
-    "devices": [
-      "Google Pixel 8",
-      "Google Pixel 8 Pro"
-    ],
-    "aliases": [
-      "Tensor G3 (GS301)"
-    ],
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "gs401_zumapro",
-    "name": "Tensor G4",
-    "vendor": "Google",
-    "codename": "zumapro",
-    "model": "GS401",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G715 MP7",
-    "process": "4nm",
-    "year": 2024,
-    "max_freq": "3.1 GHz",
-    "devices": [
-      "Google Pixel 9",
-      "Google Pixel 9 Pro"
-    ],
-    "aliases": [
-      "Tensor G4 (GS401)"
-    ],
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "1st_gen_edge_tpu_abrolhos_1066",
-    "name": "1st Gen Edge TPU  (Abrolhos) @ 1066 MHz",
+    "id": "google_g2",
+    "name": "Google G2",
     "vendor": "Google",
     "cores": 2,
-    "max_freq": "1066 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "process": "4 nm",
+    "gpu": "Mali -G78 MP20 [ 2 ] [ 15 ]",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1 [ 52 ] [ 53 ] [ 54 ] [ 55 ] [ 41 ] [ 56 ]",
+    "bluetooth": "6.0",
+    "model": "GS201",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "1st Gen Edge TPU  (Abrolhos) @ 1066 MHz"
+    "year": 2022,
+    "codename": "Cloudripper [ 22 ]",
+    "aliases": [
+      "Google G2 (GS201)"
+    ]
   },
   {
-    "id": "armv82_a",
-    "name": "ARMv8.2-A",
+    "id": "google_g3",
+    "name": "Google G3",
     "vendor": "Google",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "bluetooth_52",
-    "name": "Bluetooth 5.2",
-    "vendor": "Google",
-    "cores": 5,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Bluetooth 5.2"
-  },
-  {
-    "id": "exynos_5123b",
-    "name": "Exynos 5123b",
-    "vendor": "Google",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Exynos 5123b"
-  },
-  {
-    "id": "gs101",
-    "name": "GS101",
-    "vendor": "Google",
-    "model": "GS101",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "gs101_s5p9845",
-    "name": "GS101 (S5P9845)",
-    "vendor": "Google",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "GS101",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "mali_g78_mp20",
-    "name": "Mali -G78 MP20",
-    "vendor": "Google",
+    "architecture": "ARMv9-A",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "process": "4 nm",
     "gpu": "Mali-G710 MP7 [ 40 ]",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 4.0 [ 57 ]",
+    "model": "GS301",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Mali -G78 MP20"
+    "year": 2023,
+    "codename": "Zuma [ 25 ]",
+    "bluetooth": "6.0",
+    "aliases": [
+      "Google G3 (GS301)"
+    ]
   },
   {
-    "id": "octacore_2_28_cortexx1_2_225",
-    "name": "Octa-core :  2× 2.8 GHz Cortex-X1 2× 2.25 GHz Cortex-A76 4× ",
+    "id": "google_g4",
+    "name": "Google G4",
     "vendor": "Google",
-    "max_freq": "2.85 GHz",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
+    "cores": 2,
+    "architecture": "ARMv9-A",
+    "process_nm": 3,
+    "process_name": "3nm",
+    "process": "3 nm",
+    "gpu": "Mali-G715 MP7 [ 41 ] [ 47 ] [ 31 ] [ 24 ]",
+    "model": "GS401",
+    "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Octa-core :  2× 2.8 GHz Cortex-X1 2× 2.25 GHz Cortex-A76 4× "
+    "year": 2024,
+    "codename": "Zuma Pro [ 26 ]",
+    "aliases": [
+      "Google G4 (GS401)"
+    ]
   },
   {
-    "id": "october_19_2021",
-    "name": "October 19, 2021",
-    "vendor": "Google",
-    "cores": 6,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "October 19, 2021"
-  },
-  {
-    "id": "samsung",
-    "name": "Samsung",
+    "id": "google_g5",
+    "name": "Google G5",
     "vendor": "Google",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "Samsung",
-    "completeness": 0.2621,
+    "gpu": "PowerVR DXT-48-1536 [ 31 ]",
+    "model": "Google G5",
+    "completeness": 0.3301,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "codename": "Laguna [ 27 ]"
   }
 ]

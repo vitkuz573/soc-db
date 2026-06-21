@@ -175,21 +175,6 @@
     ]
   },
   {
-    "id": "apq80641aa",
-    "name": "APQ8064-1AA",
-    "vendor": "Qualcomm",
-    "model": "APQ8064",
-    "year": 2013,
-    "process": "28 nm",
-    "cores": 4,
-    "max_freq": "1.5 GHz",
-    "gpu": "Adreno 320 400 MHz (76.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "apq8064_1aa_debflo",
     "name": "APQ8064-1AA (DEB/FLO)",
     "vendor": "Qualcomm",
@@ -1176,21 +1161,6 @@
     "camera_max": "Spectra (28 MP Photo Capture / 25 MP at 30fps single camera with ZSL / 13 MP Dua"
   },
   {
-    "id": "msm8996_proab",
-    "name": "MSM8996 Pro-AB",
-    "vendor": "Qualcomm",
-    "model": "MSM8996",
-    "year": 2013,
-    "cores": 11,
-    "architecture": "ARMv8.2-A",
-    "process_nm": 14,
-    "process_name": "14nm",
-    "completeness": 0.3592,
-    "sources": {},
-    "updated": "2026-06-21",
-    "gpu": "Adreno 530"
-  },
-  {
     "id": "msm8996_pro_ab",
     "name": "MSM8996 Pro-AB",
     "vendor": "Qualcomm",
@@ -1204,22 +1174,6 @@
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Adreno 530"
-  },
-  {
-    "id": "msm8996_proac",
-    "name": "MSM8996 Pro-AC",
-    "vendor": "Qualcomm",
-    "model": "MSM8996",
-    "cores": 2,
-    "max_freq": "2.342 GHz",
-    "year": 2013,
-    "gpu": "Adreno 530 653 MHz (334.3 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 14,
-    "process_name": "14nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "msm8996_pro_ac",
@@ -1523,23 +1477,6 @@
     "camera_max": "Spectra 280 (192 MP Photo capture / 48 MP single camera with MFNR / 32 MP at 30f"
   },
   {
-    "id": "sm4250aa",
-    "name": "SM4250-AA",
-    "vendor": "Qualcomm",
-    "model": "SM4250",
-    "year": 2013,
-    "process": "11 nm",
-    "cores": 11,
-    "max_freq": "1.8 GHz",
-    "gpu": "Adreno 610 600 MHz (153.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 11,
-    "process_name": "11nm"
-  },
-  {
     "id": "sm4250_aa",
     "name": "SM4250-AA",
     "vendor": "Qualcomm",
@@ -1601,22 +1538,6 @@
     "process_nm": 8,
     "process_name": "8nm",
     "camera_max": "Spectra 345 (64 MP single camera / 25+13 MP dual camera with ZSL / 13 MP triple "
-  },
-  {
-    "id": "sm4350ac",
-    "name": "SM4350-AC",
-    "vendor": "Qualcomm",
-    "model": "SM4350",
-    "cores": 960,
-    "year": 2013,
-    "max_freq": "2.2 GHz",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "gpu": "Adreno 619"
   },
   {
     "id": "sm4350_ac",
@@ -1865,22 +1786,6 @@
     "camera_max": "Spectra 380 (192 MP single camera / 48 MP at 30 fps single camera with MFNR/ZSL "
   },
   {
-    "id": "sm8150ac",
-    "name": "SM8150-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8150",
-    "cores": 1710,
-    "year": 2013,
-    "max_freq": "2.96 GHz",
-    "gpu": "Adreno 640 675 MHz (1036.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 7,
-    "process_name": "7nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8150_ac",
     "name": "SM8150-AC",
     "vendor": "Qualcomm",
@@ -1946,25 +1851,6 @@
     "camera_max": "Spectra 480 (200 MP Photo Capture / 64 MP at 30 fps single camera with MFNR/ZSL "
   },
   {
-    "id": "sm8250ab",
-    "name": "SM8250-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8250",
-    "cores": 1730,
-    "year": 2013,
-    "max_freq": "3.1 GHz",
-    "gpu": "Adreno 650 670 MHz (1029.1 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 7,
-    "process_name": "7nm",
-    "aliases": [
-      "Kona"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8250_ab",
     "name": "SM8250-AB",
     "vendor": "Qualcomm",
@@ -1985,25 +1871,6 @@
     "clock_min": 60000,
     "clock_max": 60000,
     "dsp": "Q3 2020"
-  },
-  {
-    "id": "sm8250ac",
-    "name": "SM8250-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8250",
-    "year": 2013,
-    "cores": 4,
-    "max_freq": "3.2 GHz",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 7,
-    "process_name": "7nm",
-    "gpu": "Adreno 650",
-    "aliases": [
-      "Kona"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm8250_ac",
@@ -2059,25 +1926,6 @@
     "camera_max": "Spectra 580 (200 MP Photo Capture; 84 MP single camera @ 30 fps MFNR/ZSL, 64 MP "
   },
   {
-    "id": "sm8350ac",
-    "name": "SM8350-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8350",
-    "cores": 1776,
-    "year": 2013,
-    "max_freq": "3.0 GHz",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 5,
-    "process_name": "5nm",
-    "gpu": "Adreno 660",
-    "aliases": [
-      "Lahaina"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8350_ac",
     "name": "SM8350-AC",
     "vendor": "Qualcomm",
@@ -2107,50 +1955,6 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 860"
-  },
-  {
-    "id": "sdm660_sdm660",
-    "name": "Snapdragon 660",
-    "vendor": "Qualcomm",
-    "codename": "sdm660",
-    "model": "SDM660",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 512",
-    "process": "14nm",
-    "year": 2017,
-    "max_freq": "2.2 GHz",
-    "process_nm": 14,
-    "process_name": "14nm",
-    "aliases": [
-      "Snapdragon 660 (SDM660)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sdm845_sdm845",
-    "name": "Snapdragon 845",
-    "vendor": "Qualcomm",
-    "codename": "sdm845",
-    "model": "SDM845",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 630",
-    "process": "10nm",
-    "year": 2017,
-    "max_freq": "2.8 GHz",
-    "process_nm": 10,
-    "process_name": "10nm",
-    "aliases": [
-      "Snapdragon 845 (SDM845)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sdm710",
@@ -2225,22 +2029,6 @@
     "camera_max": "Spectra 350L (192 MP single camera / 16 MP dual camera with ZSL; Video Capture: "
   },
   {
-    "id": "sm7150aa",
-    "name": "SM7150-AA",
-    "vendor": "Qualcomm",
-    "model": "SM7150",
-    "year": 2018,
-    "cores": 6,
-    "max_freq": "2.2 GHz",
-    "gpu": "Adreno 618 610 MHz (312.3 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7150_aa",
     "name": "SM7150-AA",
     "vendor": "Qualcomm",
@@ -2261,22 +2049,6 @@
     "modem": "Q2 2019"
   },
   {
-    "id": "sm7150ab",
-    "name": "SM7150-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7150",
-    "year": 2018,
-    "gpu": "Adreno 618 700 MHz (358.4 GFLOPS in FP32)",
-    "max_freq": "700 MHz",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7150_ab",
     "name": "SM7150-AB",
     "vendor": "Qualcomm",
@@ -2286,22 +2058,6 @@
     "gpu": "Adreno 618 700 MHz (358.4 GFLOPS in FP32)",
     "max_freq": "700 MHz",
     "year": 2018,
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm7150ac",
-    "name": "SM7150-AC",
-    "vendor": "Qualcomm",
-    "model": "SM7150",
-    "year": 2018,
-    "cores": 6,
-    "max_freq": "2.3 GHz",
-    "gpu": "Adreno 618 800 MHz (409.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
     "completeness": 0.3689,
@@ -2350,23 +2106,6 @@
     "process_name": "8nm"
   },
   {
-    "id": "sm7250aa",
-    "name": "SM7250-AA",
-    "vendor": "Qualcomm",
-    "model": "SM7250",
-    "year": 2018,
-    "process": "7 nm",
-    "cores": 7,
-    "max_freq": "2.3 GHz",
-    "gpu": "Adreno 620 540 MHz (414.7 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7250_aa",
     "name": "SM7250-AA",
     "vendor": "Qualcomm",
@@ -2392,22 +2131,6 @@
     "camera_max": "Spectra 355 (192 MP Photo Capture / 36 MP single camera with ZSL / 22 MP dual ca"
   },
   {
-    "id": "sm7250ab",
-    "name": "SM7250-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7250",
-    "year": 2018,
-    "cores": 1,
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 620 625 MHz (480 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7250_ab",
     "name": "SM7250-AB",
     "vendor": "Qualcomm",
@@ -2424,22 +2147,6 @@
     "updated": "2026-06-21",
     "clock_min": 625,
     "clock_max": 625
-  },
-  {
-    "id": "sm7250ac",
-    "name": "SM7250-AC",
-    "vendor": "Qualcomm",
-    "model": "SM7250",
-    "year": 2018,
-    "cores": 1,
-    "max_freq": "2.8 GHz",
-    "gpu": "Adreno 620 750 MHz (576 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm7250_ac",
@@ -2493,22 +2200,6 @@
     "camera_max": "Spectra 570L (200 MP Photo Capture / 64 MP single camera with ZSL / 36+22 MP dua"
   },
   {
-    "id": "sm7325ae",
-    "name": "SM7325-AE",
-    "vendor": "Qualcomm",
-    "model": "SM7325",
-    "year": 2018,
-    "cores": 1,
-    "max_freq": "2.5 GHz",
-    "gpu": "Adreno 642L 608 MHz (622.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 8,
-    "process_name": "8nm"
-  },
-  {
     "id": "sm7325_ae",
     "name": "SM7325-AE",
     "vendor": "Qualcomm",
@@ -2524,23 +2215,6 @@
     "clock_min": 608,
     "clock_max": 608,
     "dsp": "Q4 2021",
-    "process_nm": 8,
-    "process_name": "8nm"
-  },
-  {
-    "id": "sm7325af",
-    "name": "SM7325-AF",
-    "vendor": "Qualcomm",
-    "model": "SM7325",
-    "year": 2018,
-    "process": "6 nm",
-    "cores": 6,
-    "max_freq": "2.7 GHz",
-    "gpu": "Adreno 642L 719 MHz (736.3 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
     "process_nm": 8,
     "process_name": "8nm"
   },
@@ -2571,23 +2245,6 @@
     "process_name": "6nm"
   },
   {
-    "id": "sm7350ab",
-    "name": "SM7350-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7350",
-    "year": 2018,
-    "process": "5 nm",
-    "cores": 5,
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 8,
-    "process_name": "8nm"
-  },
-  {
     "id": "sm7350_ab",
     "name": "SM7350-AB",
     "vendor": "Qualcomm",
@@ -2614,95 +2271,6 @@
     "process_name": "5nm"
   },
   {
-    "id": "sm7150_sm7150",
-    "name": "Snapdragon 730G",
-    "vendor": "Qualcomm",
-    "codename": "sm7150",
-    "model": "SM7150",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 618",
-    "process": "8nm",
-    "year": 2019,
-    "max_freq": "2.2 GHz",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "aliases": [
-      "Snapdragon 730G (SM7150)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm7250_lito",
-    "name": "Snapdragon 765G",
-    "vendor": "Qualcomm",
-    "codename": "lito",
-    "model": "SM7250",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 620",
-    "process": "7nm",
-    "year": 2019,
-    "max_freq": "2.4 GHz",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "aliases": [
-      "Snapdragon 765G (SM7250)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8250_kona_865",
-    "name": "Snapdragon 865",
-    "vendor": "Qualcomm",
-    "codename": "kona",
-    "model": "SM8250",
-    "revision": "1.x",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 650",
-    "process": "7nm",
-    "year": 2019,
-    "max_freq": "2.84 GHz",
-    "process_nm": 7,
-    "process_name": "7nm",
-    "aliases": [
-      "Kona",
-      "Snapdragon 865 (SM8250)"
-    ],
-    "completeness": 0.4078,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm6350_lito",
-    "name": "Snapdragon 690",
-    "vendor": "Qualcomm",
-    "codename": "lito",
-    "model": "SM6350",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 619L",
-    "process": "8nm",
-    "year": 2020,
-    "max_freq": "2.0 GHz",
-    "process_nm": 8,
-    "process_name": "8nm",
-    "aliases": [
-      "Snapdragon 690 (SM6350)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8250_kona_865p",
     "name": "Snapdragon 865+",
     "vendor": "Qualcomm",
@@ -2722,29 +2290,6 @@
       "Snapdragon 865+ (SM8250-AB)"
     ],
     "completeness": 0.4078,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8350_lahaina",
-    "name": "Snapdragon 888",
-    "vendor": "Qualcomm",
-    "codename": "lahaina",
-    "model": "SM8350",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 660",
-    "process": "5nm",
-    "year": 2020,
-    "max_freq": "2.84 GHz",
-    "process_nm": 5,
-    "process_name": "5nm",
-    "aliases": [
-      "Lahaina",
-      "Snapdragon 888 (SM8350)"
-    ],
-    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2818,26 +2363,6 @@
     "dsp": "Q4 2022"
   },
   {
-    "id": "sm8550ab",
-    "name": "SM8550-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8550",
-    "cores": 8,
-    "year": 2021,
-    "process": "4 nm",
-    "max_freq": "3.19 GHz",
-    "gpu": "Adreno 740 680 MHz (2089 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Kalama"
-    ],
-    "completeness": 0.3883,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8550_ab",
     "name": "SM8550-AB",
     "vendor": "Qualcomm",
@@ -2864,25 +2389,6 @@
     "dsp": "LPDDR5X Quad-channel 16-bit (64-bit) 4200 MHz (67.2 GB/s)",
     "memory_max": 8,
     "modem": "November 15, 2022 [ 248 ]"
-  },
-  {
-    "id": "sm8550ac",
-    "name": "SM8550-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8550",
-    "cores": 8,
-    "year": 2021,
-    "max_freq": "3.36 GHz",
-    "gpu": "Adreno 740 719 MHz (2208.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Kalama"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm8550_ac",
@@ -2924,25 +2430,6 @@
     "process_name": "4nm"
   },
   {
-    "id": "sm8650aa",
-    "name": "SM8650-AA",
-    "vendor": "Qualcomm",
-    "model": "SM8650",
-    "cores": 728,
-    "max_freq": "3.05 GHz",
-    "year": 2021,
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "gpu": "Adreno 750",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8650_aa",
     "name": "SM8650-AA",
     "vendor": "Qualcomm",
@@ -2958,26 +2445,6 @@
       "Pineapple"
     ],
     "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8650ab",
-    "name": "SM8650-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8650",
-    "cores": 8,
-    "year": 2021,
-    "process": "4 nm",
-    "max_freq": "3.3 GHz",
-    "gpu": "Adreno 750 903 MHz (2774 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3008,25 +2475,6 @@
     "dsp": "LPDDR5X quad-channel 16-bit (64-bit) 4800 MHz (76.8 GB/s)",
     "memory_max": 8,
     "modem": "October 24, 2023 [ 253 ]"
-  },
-  {
-    "id": "sm8650ac",
-    "name": "SM8650-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8650",
-    "cores": 8,
-    "year": 2021,
-    "max_freq": "3.4 GHz",
-    "gpu": "Adreno 750 1000 MHz (3072 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm8650_ac",
@@ -3062,25 +2510,6 @@
       "Pineapple"
     ],
     "completeness": 0.3689,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8650qab",
-    "name": "SM8650-Q-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8650",
-    "cores": 728,
-    "max_freq": "3.30 GHz",
-    "year": 2021,
-    "architecture": "ARMv8.2-A",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "gpu": "Adreno 750",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3786,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3129,25 +2558,6 @@
     "process_name": "4nm"
   },
   {
-    "id": "sm87503ab",
-    "name": "SM8750-3-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8750",
-    "cores": 2,
-    "max_freq": "4.32 GHz",
-    "year": 2021,
-    "architecture": "ARMv8.2-A",
-    "process_nm": 3,
-    "process_name": "3nm",
-    "gpu": "Adreno 830",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8750_3_ab",
     "name": "SM8750-3-AB",
     "vendor": "Qualcomm",
@@ -3163,26 +2573,6 @@
       "Pineapple"
     ],
     "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8750ab",
-    "name": "SM8750-AB",
-    "vendor": "Qualcomm",
-    "model": "SM8750",
-    "cores": 8,
-    "year": 2021,
-    "process": "3 nm",
-    "max_freq": "4.32 GHz",
-    "gpu": "Adreno 830 1100 MHz (3379.2 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 3,
-    "process_name": "3nm",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3883,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3213,25 +2603,6 @@
     "memory_max": 10,
     "modem": "FastConnect 7900 : Bluetooth 6.0, 802.11ax/be (Wi-Fi 7) @ 5.8 Gbit/s, GPS , QZSS",
     "charging": "Q4 2024"
-  },
-  {
-    "id": "sm8750ac",
-    "name": "SM8750-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8750",
-    "cores": 8,
-    "year": 2021,
-    "max_freq": "4.47 GHz",
-    "gpu": "Adreno 830 1200 MHz (3686.4 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "process_nm": 3,
-    "process_name": "3nm",
-    "aliases": [
-      "Pineapple"
-    ],
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm8750_ac",
@@ -3271,20 +2642,6 @@
     "dsp": "Internal: X80 5G (5G NR Sub-6 & mmWave: download 10 Gbit/s, upload 3.5 Gbit/s)"
   },
   {
-    "id": "sm88501ad",
-    "name": "SM8850-1-AD",
-    "vendor": "Qualcomm",
-    "model": "SM8850",
-    "cores": 8,
-    "year": 2021,
-    "max_freq": "4.74 GHz",
-    "gpu": "Adreno 840 1300 MHz (3993.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8850_1_ad",
     "name": "SM8850-1-AD",
     "vendor": "Qualcomm",
@@ -3299,19 +2656,6 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sm88505ac",
-    "name": "SM8850-5-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8850",
-    "cores": 2,
-    "max_freq": "4.61 GHz",
-    "year": 2021,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm8850_5_ac",
     "name": "SM8850-5-AC",
     "vendor": "Qualcomm",
@@ -3321,21 +2665,6 @@
     "max_freq": "4.61 GHz",
     "year": 2021,
     "completeness": 0.301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8850ac",
-    "name": "SM8850-AC",
-    "vendor": "Qualcomm",
-    "model": "SM8850",
-    "cores": 8,
-    "year": 2021,
-    "process": "3 nm",
-    "max_freq": "4.61 GHz",
-    "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3364,50 +2693,6 @@
     "process_name": "3nm"
   },
   {
-    "id": "sm6375_sm6375",
-    "name": "Snapdragon 695",
-    "vendor": "Qualcomm",
-    "codename": "sm6375",
-    "model": "SM6375",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 619",
-    "process": "6nm",
-    "year": 2021,
-    "max_freq": "2.2 GHz",
-    "aliases": [
-      "Snapdragon 695 (SM6375)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 6,
-    "process_name": "6nm"
-  },
-  {
-    "id": "sm7325_yupik",
-    "name": "Snapdragon 778G",
-    "vendor": "Qualcomm",
-    "codename": "yupik",
-    "model": "SM7325",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Adreno 642L",
-    "process": "6nm",
-    "year": 2021,
-    "max_freq": "2.4 GHz",
-    "aliases": [
-      "Snapdragon 778G (SM7325)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 8,
-    "process_name": "8nm"
-  },
-  {
     "id": "snapdragon_8_since_2021",
     "name": "Snapdragon 8 (since 2021)",
     "vendor": "Qualcomm",
@@ -3419,29 +2704,6 @@
       "Snapdragon 8 (since 2021) (Kryo (1× 3.2 GHz Cortex-X2 + 3× 2.75 GHz Cortex-A710 + 4× 2.0 GHz Cortex-A510 ))"
     ],
     "completeness": 0.301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8450_waipio",
-    "name": "Snapdragon 8 Gen 1",
-    "vendor": "Qualcomm",
-    "codename": "waipio",
-    "model": "SM8450",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv9-A",
-    "gpu": "Adreno 730",
-    "process": "4nm",
-    "year": 2021,
-    "max_freq": "3.0 GHz",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Snapdragon 8 Gen 1 (SM8450)",
-      "Waipio"
-    ],
-    "completeness": 0.3981,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3560,20 +2822,6 @@
     "camera_max": "Spectra (108 MP single camera / 16 MP dual camera with ZSL)"
   },
   {
-    "id": "sm4450af",
-    "name": "SM4450-AF",
-    "vendor": "Qualcomm",
-    "model": "SM4450",
-    "cores": 4,
-    "year": 2022,
-    "max_freq": "2.3 GHz",
-    "gpu": "Adreno 613",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm4450_af",
     "name": "SM4450-AF",
     "vendor": "Qualcomm",
@@ -3623,23 +2871,6 @@
     "modem": "May 7, 2026 [ 84 ]"
   },
   {
-    "id": "sm6375ac",
-    "name": "SM6375-AC",
-    "vendor": "Qualcomm",
-    "model": "SM6375",
-    "cores": 6,
-    "year": 2022,
-    "process": "6 nm",
-    "max_freq": "2.3 GHz",
-    "gpu": "Adreno 619 900 MHz (460.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 6,
-    "process_name": "6nm"
-  },
-  {
     "id": "sm6375_ac",
     "name": "SM6375-AC",
     "vendor": "Qualcomm",
@@ -3668,21 +2899,6 @@
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra (108 MP single camera / 25+13 MP dual camera with ZSL / 13 MP triple cam"
-  },
-  {
-    "id": "sm6435aa",
-    "name": "SM6435-AA",
-    "vendor": "Qualcomm",
-    "model": "SM6435",
-    "cores": 6,
-    "year": 2022,
-    "process": "4 nm",
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 710",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm6435_aa",
@@ -3736,20 +2952,6 @@
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 48 MP single camera with ZSL / 25+16 MP dual cam"
-  },
-  {
-    "id": "sm6475ab",
-    "name": "SM6475-AB",
-    "vendor": "Qualcomm",
-    "model": "SM6475",
-    "cores": 6,
-    "year": 2022,
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32) or 1010 MHz (517.1",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm6475_ab",
@@ -3827,21 +3029,6 @@
     "camera_max": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 16+16 MP dual cam"
   },
   {
-    "id": "sm7435ab",
-    "name": "SM7435-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7435",
-    "cores": 7,
-    "year": 2022,
-    "process": "4 nm",
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7435_ab",
     "name": "SM7435-AB",
     "vendor": "Qualcomm",
@@ -3871,23 +3058,6 @@
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 48 MP single camera with ZSL / 32+16 MP dual cam"
-  },
-  {
-    "id": "sm7450ab",
-    "name": "SM7450-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7450",
-    "cores": 7,
-    "year": 2022,
-    "process": "4 nm",
-    "max_freq": "2.4 GHz",
-    "gpu": "Adreno 644 443 MHz (680.4 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 8,
-    "process_name": "8nm"
   },
   {
     "id": "sm7450_ab",
@@ -3923,21 +3093,6 @@
     "camera_max": "Spectra (200 MP Photo Capture / 84 MP single camera with ZSL / 64+20 MP dual cam"
   },
   {
-    "id": "sm7475ab",
-    "name": "SM7475-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7475",
-    "cores": 14,
-    "year": 2022,
-    "process": "4 nm",
-    "max_freq": "2.91 GHz",
-    "gpu": "Adreno 725 580 MHz (1187.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7475_ab",
     "name": "SM7475-AB",
     "vendor": "Qualcomm",
@@ -3966,21 +3121,6 @@
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 108 MP single camera with ZSL / 64+36 MP dual ca"
-  },
-  {
-    "id": "sm7550ab",
-    "name": "SM7550-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7550",
-    "cores": 7,
-    "year": 2022,
-    "process": "4 nm",
-    "max_freq": "2.63 GHz",
-    "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm7550_ab",
@@ -4030,20 +3170,6 @@
     "charging": "August 20, 2024 [ 180 ]"
   },
   {
-    "id": "sm7635ac",
-    "name": "SM7635-AC",
-    "vendor": "Qualcomm",
-    "model": "SM7635",
-    "cores": 7,
-    "year": 2022,
-    "max_freq": "2.7 GHz",
-    "gpu": "Adreno 810 1150 MHz (588.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7635_ac",
     "name": "SM7635-AC",
     "vendor": "Qualcomm",
@@ -4064,20 +3190,6 @@
     "charging": "August 19, 2025"
   },
   {
-    "id": "sm7675ab",
-    "name": "SM7675-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7675",
-    "cores": 14,
-    "year": 2022,
-    "max_freq": "2.8 GHz",
-    "gpu": "Adreno 732 950 MHz (1459.2 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "sm7675_ab",
     "name": "SM7675-AB",
     "vendor": "Qualcomm",
@@ -4095,20 +3207,6 @@
     "dsp": "Spectra (200 MP Photo Capture / 108 MP single camera with ZSL / 64+36 MP dual ca",
     "memory_max": 8,
     "modem": "March 21, 2024 [ 178 ]"
-  },
-  {
-    "id": "sm7750ab",
-    "name": "SM7750-AB",
-    "vendor": "Qualcomm",
-    "model": "SM7750",
-    "cores": 7,
-    "year": 2022,
-    "max_freq": "2.8 GHz",
-    "gpu": "Adreno 722 1150 MHz (1177.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "sm7750_ab",
@@ -4148,92 +3246,6 @@
     ]
   },
   {
-    "id": "sm8550_kalama",
-    "name": "Snapdragon 8 Gen 2",
-    "vendor": "Qualcomm",
-    "codename": "kalama",
-    "model": "SM8550",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv9-A",
-    "gpu": "Adreno 740",
-    "process": "4nm",
-    "year": 2022,
-    "max_freq": "3.36 GHz",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Kalama",
-      "Snapdragon 8 Gen 2 (SM8550)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8475_waipio",
-    "name": "Snapdragon 8+ Gen 1",
-    "vendor": "Qualcomm",
-    "codename": "waipio",
-    "model": "SM8475",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv9-A",
-    "gpu": "Adreno 730",
-    "process": "4nm",
-    "year": 2022,
-    "max_freq": "3.2 GHz",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Snapdragon 8+ Gen 1 (SM8475)",
-      "Waipio"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm8650_pineapple",
-    "name": "Snapdragon 8 Gen 3",
-    "vendor": "Qualcomm",
-    "codename": "pineapple",
-    "model": "SM8650",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv9-A",
-    "gpu": "Adreno 750",
-    "process": "4nm",
-    "year": 2023,
-    "max_freq": "3.3 GHz",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "aliases": [
-      "Pineapple",
-      "Snapdragon 8 Gen 3 (SM8650)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sm6115ac",
-    "name": "SM6115-AC",
-    "vendor": "Qualcomm",
-    "model": "SM6115",
-    "cores": 6,
-    "year": 2024,
-    "process": "11 nm",
-    "max_freq": "2.1 GHz",
-    "gpu": "Adreno 610 1050 MHz (268.8 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 11,
-    "process_name": "11nm"
-  },
-  {
     "id": "sm6115_ac",
     "name": "SM6115-AC",
     "vendor": "Qualcomm",
@@ -4265,23 +3277,6 @@
     "camera_max": "Spectra (48 MP single camera / 13 MP dual camera with ZSL; Video Capture: 1080p@"
   },
   {
-    "id": "sm6225af",
-    "name": "SM6225-AF",
-    "vendor": "Qualcomm",
-    "model": "SM6225",
-    "cores": 6,
-    "year": 2024,
-    "process": "6 nm",
-    "max_freq": "2.9 GHz",
-    "gpu": "Adreno 610",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 6,
-    "process_name": "6nm"
-  },
-  {
     "id": "sm6225_af",
     "name": "SM6225-AF",
     "vendor": "Qualcomm",
@@ -4307,43 +3302,6 @@
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra (108 MP single camera / 16 MP dual camera with ZSL / 13+13+5 MP triple c"
-  },
-  {
-    "id": "sm8750_peach",
-    "name": "Snapdragon 8 Elite",
-    "vendor": "Qualcomm",
-    "codename": "peach",
-    "model": "SM8750",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv9-A",
-    "gpu": "Adreno 830",
-    "process": "3nm",
-    "year": 2024,
-    "max_freq": "4.32 GHz",
-    "process_nm": 3,
-    "process_name": "3nm",
-    "aliases": [
-      "Pineapple",
-      "Snapdragon 8 Elite (SM8750)"
-    ],
-    "completeness": 0.3981,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "apq8009",
-    "name": "APQ8009",
-    "vendor": "Qualcomm",
-    "model": "APQ8009",
-    "process": "28 nm",
-    "cores": 4,
-    "architecture": "ARMv7-A",
-    "max_freq": "1.3 GHz",
-    "gpu": "Adreno 304 (HD)",
-    "completeness": 0.3107,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "apq8009_sda212",
@@ -4397,20 +3355,6 @@
     "clock_min": 400,
     "clock_max": 400,
     "dsp": "LPDDR2 Single-channel 533 MHz"
-  },
-  {
-    "id": "apq8053",
-    "name": "APQ8053",
-    "vendor": "Qualcomm",
-    "model": "APQ8053",
-    "process": "14 nm",
-    "cores": 14,
-    "max_freq": "1.8 GHz",
-    "gpu": "Adreno 506 (Full HD+)",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "apq8053_sda624",
@@ -5636,23 +4580,6 @@
     ]
   },
   {
-    "id": "snapdragon_602a",
-    "name": "Snapdragon 602A",
-    "vendor": "Qualcomm",
-    "model": "APQ8064",
-    "process": "28 nm",
-    "cores": 4,
-    "architecture": "ARMv7-A",
-    "max_freq": "1.51 GHz",
-    "gpu": "Adreno 320 400 MHz (76.8 GFLOPs) (2048x1536 + 1080p external",
-    "aliases": [
-      "Snapdragon 602A (APQ8064)"
-    ],
-    "completeness": 0.3204,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "snapdragon_602a_apq8064_au",
     "name": "Snapdragon 602A (APQ8064-AU)",
     "vendor": "Qualcomm",
@@ -5681,23 +4608,6 @@
     "process_name": "28nm"
   },
   {
-    "id": "snapdragon_800e",
-    "name": "Snapdragon 800E",
-    "vendor": "Qualcomm",
-    "model": "APQ8074",
-    "process": "28 nm",
-    "cores": 4,
-    "architecture": "ARMv7-A",
-    "max_freq": "2.3 GHz",
-    "gpu": "Adreno 330",
-    "aliases": [
-      "Snapdragon 800E (APQ8074)"
-    ],
-    "completeness": 0.3204,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
     "id": "snapdragon_800e_apq8074",
     "name": "Snapdragon 800E (APQ8074)",
     "vendor": "Qualcomm",
@@ -5721,23 +4631,6 @@
     "process_nm": 28,
     "process_name": "28nm",
     "camera_max": "Up to 55 MP camera"
-  },
-  {
-    "id": "snapdragon_810e",
-    "name": "Snapdragon 810E",
-    "vendor": "Qualcomm",
-    "model": "APQ8094",
-    "process": "20 nm",
-    "cores": 4,
-    "architecture": "ARMv8.2-A",
-    "max_freq": "2.0 GHz",
-    "gpu": "Adreno 430 650 MHz",
-    "aliases": [
-      "Snapdragon 810E (APQ8094)"
-    ],
-    "completeness": 0.3204,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "snapdragon_810e_apq8094",
@@ -5809,23 +4702,6 @@
     "aliases": [
       "Snapdragon 820AM (APQ8096AU/ MSM8996AU) (Snapdragon 820AM [ 338 ] (APQ8096AU/ MSM8996AU))"
     ]
-  },
-  {
-    "id": "snapdragon_820e",
-    "name": "Snapdragon 820E",
-    "vendor": "Qualcomm",
-    "model": "APQ8096",
-    "process": "14 nm",
-    "cores": 14,
-    "max_freq": "2.15 GHz",
-    "gpu": "Adreno 530",
-    "architecture": "ARMv8.2-A",
-    "aliases": [
-      "Snapdragon 820E (APQ8096)"
-    ],
-    "completeness": 0.3204,
-    "sources": {},
-    "updated": "2026-06-21"
   },
   {
     "id": "snapdragon_820e_apq8096",
@@ -6126,53 +5002,6 @@
     "model": "W5+ Gen 2"
   },
   {
-    "id": "w5w5p_gen_2",
-    "name": "W5/W5+ Gen 2",
-    "vendor": "Qualcomm",
-    "cores": 5,
-    "process": "4 nm",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "W5/W5+ Gen 2"
-  },
-  {
-    "id": "wear_1200",
-    "name": "Wear 1200",
-    "vendor": "Qualcomm",
-    "cores": 1,
-    "architecture": "ARMv7-A",
-    "max_freq": "1.3 GHz",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Wear 1200"
-  },
-  {
-    "id": "wear_2500",
-    "name": "Wear 2500",
-    "vendor": "Qualcomm",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Wear 2500"
-  },
-  {
-    "id": "wear_3100",
-    "name": "Wear 3100",
-    "vendor": "Qualcomm",
-    "cores": 1,
-    "max_freq": "50 MHz",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Wear 3100"
-  },
-  {
     "id": "wear_4100p",
     "name": "Wear 4100+",
     "vendor": "Qualcomm",
@@ -6238,18 +5067,6 @@
     "model": "X2E-80-100"
   },
   {
-    "id": "x2e84100",
-    "name": "X2E-84-100",
-    "vendor": "Qualcomm",
-    "cores": 12,
-    "max_freq": "4.0 GHz",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "X2E-84-100"
-  },
-  {
     "id": "x2e88100",
     "name": "X2E-88-100",
     "vendor": "Qualcomm",
@@ -6261,30 +5078,6 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-88-100"
-  },
-  {
-    "id": "x2e90100",
-    "name": "X2E-90-100",
-    "vendor": "Qualcomm",
-    "cores": 18,
-    "max_freq": "4.0 GHz",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "X2E-90-100"
-  },
-  {
-    "id": "x2e96100",
-    "name": "X2E-96-100",
-    "vendor": "Qualcomm",
-    "cores": 18,
-    "max_freq": "4.4 GHz",
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "X2E-96-100"
   },
   {
     "id": "x2p64100",
@@ -6339,17 +5132,6 @@
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR2 Gen 2"
-  },
-  {
-    "id": "xr2p_gen_1",
-    "name": "XR2+ Gen 1",
-    "vendor": "Qualcomm",
-    "cores": 5,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "XR2+ Gen 1"
   },
   {
     "id": "xr2p_gen_2",

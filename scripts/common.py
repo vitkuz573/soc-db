@@ -110,24 +110,62 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
                 existing[c["id"]] = c
         except json.JSONDecodeError:
             pass
-    added = updated = merged = 0
+    matched_ids = set()
+    added = updated = removed = 0
     for chip in chips:
         match_id = _match_existing(chip, existing)
         if match_id:
+            matched_ids.add(match_id)
             old = existing[match_id]
             # Only copy fields that old is missing (prefer existing data)
             for k, v in chip.items():
                 if k not in old or old[k] in (None, "", [], 0, 0.0):
                     if v not in (None, "", [], 0, 0.0):
                         old[k] = v
+                elif k == "model" and old[k] == old.get("name", "") and v != old[k]:
+                    # Prefer scraper's model (e.g., "GS101") over enrich's copy of name
+                    old[k] = v
             updated += 1
         else:
-            existing[chip["id"]] = dict(chip)
+            cid = chip["id"]
+            existing[cid] = dict(chip)
+            matched_ids.add(cid)
             added += 1
+    # Prune: remove unmatched entries that are likely garbage
+    stale = set()
+    for eid, ec in existing.items():
+        if eid not in matched_ids and (
+            ec.get("completeness", 1) < 0.28 or
+            ec.get("name", "").lower().startswith(("mali ", "adreno ", "powervr "))
+        ):
+            stale.add(eid)
+    # Also remove duplicates: same model AND overlapping name with a matched entry
+    from collections import defaultdict
+    matched_models: dict[str, list[str]] = defaultdict(list)
+    for eid in matched_ids:
+        ec = existing.get(eid, {})
+        m = ec.get("model", "").strip().upper()
+        if m:
+            matched_models[m].append(ec.get("name", "").lower())
+    for eid in list(existing.keys()):
+        if eid not in matched_ids:
+            ec = existing[eid]
+            m = ec.get("model", "").strip().upper()
+            if m and m in matched_models:
+                ename = ec.get("name", "").lower()
+                for mname in matched_models[m]:
+                    # Names share significant overlap (one contains the other, or both contain a key word)
+                    if ename and (ename in mname or mname in ename or
+                                  any(w in ename and w in mname for w in ename.split() if len(w) > 2)):
+                        stale.add(eid)
+                        break
+    for eid in stale:
+        del existing[eid]
+        removed += 1
     output = sorted(existing.values(), key=lambda x: (x.get("year", 9999), x["name"]))
     output = enrich_all(output)
     fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
-    print(f"  {vfile}: {len(output)} entries ({added} new, {updated} updated)")
+    print(f"  {vfile}: {len(output)} entries ({added} new, {updated} updated, {removed} pruned)")
 
 
 VENDOR_FILES = {
@@ -369,7 +407,12 @@ MEMORY_CLOCK_FROM_TYPE = {
 
 def enrich_one(chip: dict) -> dict:
     if not chip.get("model"):
-        chip["model"] = chip.get("name", chip.get("id", "unknown"))
+        name = chip.get("name", "")
+        # Only copy name to model when name looks like a model number
+        if re.match(r'^[A-Za-z0-9][A-Za-z0-9/\-.\s]{1,30}$', name) and re.search(r'\d', name):
+            chip["model"] = name
+        else:
+            chip["model"] = chip.get("id", "unknown")
     vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
     model_upper = chip.get("model", "").upper()
     # Infer memory_clock from memory_type
