@@ -1,0 +1,11 @@
+[
+  {
+    "id": "zynqmp",
+    "name": "Xilinx ZYNQMP",
+    "vendor": "Xilinx",
+    "model": "ZYNQMP",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A53"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "stm32mp211",
+    "name": "STM32 MP211",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP211",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp213",
+    "name": "STM32 MP213",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP213",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp215",
+    "name": "STM32 MP215",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP215",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp231",
+    "name": "STM32 MP231",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP231",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp233",
+    "name": "STM32 MP233",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP233",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp235",
+    "name": "STM32 MP235",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP235",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp251",
+    "name": "STM32 MP251",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP251",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp253",
+    "name": "STM32 MP253",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP253",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp255",
+    "name": "STM32 MP255",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP255",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  },
+  {
+    "id": "stm32mp257",
+    "name": "STM32 MP257",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP257",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7"
+  }
+]

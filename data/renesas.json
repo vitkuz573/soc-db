@@ -1,0 +1,83 @@
+[
+  {
+    "id": "r8a77951",
+    "name": "Renesas R8A77951",
+    "vendor": "Renesas",
+    "model": "R8A77951",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77960",
+    "name": "Renesas R8A77960",
+    "vendor": "Renesas",
+    "model": "R8A77960",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77961",
+    "name": "Renesas R8A77961",
+    "vendor": "Renesas",
+    "model": "R8A77961",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77965",
+    "name": "Renesas R8A77965",
+    "vendor": "Renesas",
+    "model": "R8A77965",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77970",
+    "name": "Renesas R8A77970",
+    "vendor": "Renesas",
+    "model": "R8A77970",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77980",
+    "name": "Renesas R8A77980",
+    "vendor": "Renesas",
+    "model": "R8A77980",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77990",
+    "name": "Renesas R8A77990",
+    "vendor": "Renesas",
+    "model": "R8A77990",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a77995",
+    "name": "Renesas R8A77995",
+    "vendor": "Renesas",
+    "model": "R8A77995",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  },
+  {
+    "id": "r8a78000",
+    "name": "Renesas R8A78000",
+    "vendor": "Renesas",
+    "model": "R8A78000",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A57"
+  }
+]

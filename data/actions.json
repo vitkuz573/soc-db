@@ -1,0 +1,20 @@
+[
+  {
+    "id": "s700",
+    "name": "Actions S700",
+    "vendor": "Actions",
+    "model": "S700",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A53"
+  },
+  {
+    "id": "s900",
+    "name": "Actions S900",
+    "vendor": "Actions",
+    "model": "S900",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A53"
+  }
+]

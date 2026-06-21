@@ -1,0 +1,101 @@
+[
+  {
+    "id": "ac5",
+    "name": "Marvell Ac5",
+    "vendor": "Marvell",
+    "model": "AC5",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "ac5x",
+    "name": "Marvell Ac5X",
+    "vendor": "Marvell",
+    "model": "AC5X",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "armada_3720",
+    "name": "Marvell Armada 3720",
+    "vendor": "Marvell",
+    "model": "ARMADA-3720",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "armada_7020",
+    "name": "Marvell Armada 7020",
+    "vendor": "Marvell",
+    "model": "ARMADA-7020",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "armada_7040",
+    "name": "Marvell Armada 7040",
+    "vendor": "Marvell",
+    "model": "ARMADA-7040",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "armada_8040",
+    "name": "Marvell Armada 8040",
+    "vendor": "Marvell",
+    "model": "ARMADA-8040",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "armada_8080",
+    "name": "Marvell Armada 8080",
+    "vendor": "Marvell",
+    "model": "ARMADA-8080",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "cn9130",
+    "name": "Marvell Cn9130",
+    "vendor": "Marvell",
+    "model": "CN9130",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "cn9131",
+    "name": "Marvell Cn9131",
+    "vendor": "Marvell",
+    "model": "CN9131",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "cn9132",
+    "name": "Marvell Cn9132",
+    "vendor": "Marvell",
+    "model": "CN9132",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "pxa1908",
+    "name": "Marvell Pxa1908",
+    "vendor": "Marvell",
+    "model": "PXA1908",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  }
+]

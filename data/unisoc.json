@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sc2731",
+    "name": "Unisoc SC2731",
+    "vendor": "Unisoc",
+    "model": "SC2731",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  },
+  {
+    "id": "sc9836",
+    "name": "Unisoc SC9836",
+    "vendor": "Unisoc",
+    "model": "SC9836",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  },
+  {
+    "id": "sc9860",
+    "name": "Unisoc SC9860",
+    "vendor": "Unisoc",
+    "model": "SC9860",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  },
+  {
+    "id": "sp9860",
+    "name": "Unisoc SP9860",
+    "vendor": "Unisoc",
+    "model": "SP9860",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  },
+  {
+    "id": "sp9863",
+    "name": "Unisoc SP9863",
+    "vendor": "Unisoc",
+    "model": "SP9863",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  },
+  {
+    "id": "ums9620",
+    "name": "Unisoc UMS9620",
+    "vendor": "Unisoc",
+    "model": "UMS9620",
+    "source": "linux_dt",
+    "cores": 8,
+    "architecture": "ARM Cortex-A55"
+  }
+]

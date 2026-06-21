@@ -121,6 +121,15 @@ VENDOR_FILES = {
     "Intel Atom": "intel_atom.json",
     "Ingenic": "ingenic.json",
     "NXP i.MX": "nxp_imx.json",
+    "Actions": "actions.json",
+    "Broadcom": "broadcom.json",
+    "Marvell": "marvell.json",
+    "Realtek": "realtek.json",
+    "Unisoc": "unisoc.json",
+    "Renesas": "renesas.json",
+    "STMicroelectronics": "stmicro.json",
+    "Microchip": "microchip.json",
+    "Xilinx": "xilinx.json",
 }
 
 

@@ -2,6 +2,11 @@
   "version": "1.0.0",
   "updated": "2026-06-21T09:00:00Z",
   "vendors": {
+    "actions": {
+      "name": "Actions",
+      "file": "actions.json",
+      "count": 2
+    },
     "allwinner": {
       "name": "Allwinner",
       "file": "allwinner.json",
@@ -16,6 +21,11 @@
       "name": "Apple",
       "file": "apple.json",
       "count": 17
+    },
+    "broadcom": {
+      "name": "Broadcom",
+      "file": "broadcom.json",
+      "count": 21
     },
     "google": {
       "name": "Google",
@@ -37,10 +47,20 @@
       "file": "intel_atom.json",
       "count": 212
     },
+    "marvell": {
+      "name": "Marvell",
+      "file": "marvell.json",
+      "count": 11
+    },
     "mediatek": {
       "name": "MediaTek",
       "file": "mediatek.json",
       "count": 315
+    },
+    "microchip": {
+      "name": "Microchip",
+      "file": "microchip.json",
+      "count": 3
     },
     "nvidia": {
       "name": "Nvidia",
@@ -57,6 +77,16 @@
       "file": "qualcomm.json",
       "count": 299
     },
+    "realtek": {
+      "name": "Realtek",
+      "file": "realtek.json",
+      "count": 8
+    },
+    "renesas": {
+      "name": "Renesas",
+      "file": "renesas.json",
+      "count": 9
+    },
     "rockchip": {
       "name": "Rockchip",
       "file": "rockchip.json",
@@ -67,12 +97,27 @@
       "file": "exynos.json",
       "count": 98
     },
+    "stmicroelectronics": {
+      "name": "STMicroelectronics",
+      "file": "stmicro.json",
+      "count": 10
+    },
     "ti_omap": {
       "name": "TI OMAP",
       "file": "ti_omap.json",
       "count": 16
+    },
+    "unisoc": {
+      "name": "Unisoc",
+      "file": "unisoc.json",
+      "count": 6
+    },
+    "xilinx": {
+      "name": "Xilinx",
+      "file": "xilinx.json",
+      "count": 1
     }
   },
-  "total": 1171,
+  "total": 1242,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

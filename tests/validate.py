@@ -34,7 +34,9 @@ def validate_data_files():
     required = ["id", "name", "vendor", "cores", "architecture"]
     valid_vendors = {"Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple",
                      "Intel", "AMD", "Rockchip", "Allwinner", "Amlogic", "Nvidia",
-                     "TI OMAP", "Intel Atom", "Ingenic", "NXP i.MX"}
+                     "TI OMAP", "Intel Atom", "Ingenic", "NXP i.MX",
+                     "Actions", "Broadcom", "Marvell", "Realtek", "Unisoc",
+                     "Renesas", "STMicroelectronics", "Microchip", "Xilinx"}
     all_ok = True
     ids_seen = set()
     total = 0

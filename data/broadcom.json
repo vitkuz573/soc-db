@@ -1,0 +1,191 @@
+[
+  {
+    "id": "bcm2711",
+    "name": "Broadcom BCM2711",
+    "vendor": "Broadcom",
+    "model": "BCM2711",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm2712",
+    "name": "Broadcom BCM2712",
+    "vendor": "Broadcom",
+    "model": "BCM2712",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm2837",
+    "name": "Broadcom BCM2837",
+    "vendor": "Broadcom",
+    "model": "BCM2837",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm4906",
+    "name": "Broadcom BCM4906",
+    "vendor": "Broadcom",
+    "model": "BCM4906",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm4908",
+    "name": "Broadcom BCM4908",
+    "vendor": "Broadcom",
+    "model": "BCM4908",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm4912",
+    "name": "Broadcom BCM4912",
+    "vendor": "Broadcom",
+    "model": "BCM4912",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm63146",
+    "name": "Broadcom BCM63146",
+    "vendor": "Broadcom",
+    "model": "BCM63146",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm63158",
+    "name": "Broadcom BCM63158",
+    "vendor": "Broadcom",
+    "model": "BCM63158",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm6813",
+    "name": "Broadcom BCM6813",
+    "vendor": "Broadcom",
+    "model": "BCM6813",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm6856",
+    "name": "Broadcom BCM6856",
+    "vendor": "Broadcom",
+    "model": "BCM6856",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm6858",
+    "name": "Broadcom BCM6858",
+    "vendor": "Broadcom",
+    "model": "BCM6858",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm94908",
+    "name": "Broadcom BCM94908",
+    "vendor": "Broadcom",
+    "model": "BCM94908",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm94912",
+    "name": "Broadcom BCM94912",
+    "vendor": "Broadcom",
+    "model": "BCM94912",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm958742",
+    "name": "Broadcom BCM958742",
+    "vendor": "Broadcom",
+    "model": "BCM958742",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm958802",
+    "name": "Broadcom BCM958802",
+    "vendor": "Broadcom",
+    "model": "BCM958802",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm963146",
+    "name": "Broadcom BCM963146",
+    "vendor": "Broadcom",
+    "model": "BCM963146",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm963158",
+    "name": "Broadcom BCM963158",
+    "vendor": "Broadcom",
+    "model": "BCM963158",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm96813",
+    "name": "Broadcom BCM96813",
+    "vendor": "Broadcom",
+    "model": "BCM96813",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm96856",
+    "name": "Broadcom BCM96856",
+    "vendor": "Broadcom",
+    "model": "BCM96856",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "bcm96858",
+    "name": "Broadcom BCM96858",
+    "vendor": "Broadcom",
+    "model": "BCM96858",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  },
+  {
+    "id": "ns2",
+    "name": "Broadcom NS2",
+    "vendor": "Broadcom",
+    "model": "NS2",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72"
+  }
+]
