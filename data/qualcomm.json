@@ -9,7 +9,7 @@
     "year": 2012,
     "gpu": "LPDDR2 Dual-channel 533 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -27,7 +27,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 320 400 MHz (WUXGA / 1080p)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8260A Pro [ 32 ]",
@@ -54,7 +54,7 @@
     "max_freq": "1.7 GHz",
     "year": 2012,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8960DT [ 36 ]",
@@ -69,7 +69,7 @@
     "cores": 8,
     "year": 2012,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8960T [ 32 ]",
@@ -88,7 +88,7 @@
     "aliases": [
       "MSM8960T Pro  (MSM8960AB) (MSM8960T Pro [ 32 ] [ 35 ] (MSM8960AB))"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -103,7 +103,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 306 400/450 MHz (19.2/21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -126,7 +126,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 305 400 MHz (19.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5714,
+    "completeness": 0.56,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -153,7 +153,7 @@
     "year": 2013,
     "gpu": "Adreno 305 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -166,7 +166,7 @@
     "year": 2013,
     "gpu": "Adreno 305 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8030AB [ 49 ]",
@@ -185,7 +185,7 @@
     "max_freq": "1.5 GHz",
     "gpu": "Adreno 320 400 MHz (76.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -200,7 +200,7 @@
     "max_freq": "1.50 GHz",
     "gpu": "Adreno 320 400 MHz (76.8 GFLOPS in FP32)",
     "year": 2013,
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1500,
@@ -227,7 +227,7 @@
     "max_freq": "450 MHz",
     "gpu": "Adreno 320 450 MHz (86.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064AB",
@@ -242,7 +242,7 @@
     "cores": 8,
     "max_freq": "533 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064M",
@@ -257,7 +257,7 @@
     "cores": 8,
     "max_freq": "600 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064T"
@@ -272,7 +272,7 @@
     "max_freq": "2.26 GHz",
     "gpu": "Adreno 330 450 MHz (115.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8074AA",
@@ -302,7 +302,7 @@
     "max_freq": "933 MHz",
     "gpu": "— N/a",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8074AB v3",
@@ -320,7 +320,7 @@
     "max_freq": "600 MHz",
     "gpu": "Hexagon V50 800 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 600,
@@ -339,7 +339,7 @@
     "cores": 8,
     "max_freq": "400 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -358,7 +358,7 @@
     "max_freq": "400 MHz",
     "gpu": "Hexagon QDSP6",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -374,7 +374,7 @@
     "max_freq": "1.2 GHz",
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -388,7 +388,7 @@
     "max_freq": "1.40 GHz",
     "gpu": "Adreno 203 400 MHz (12.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8225Q [ 38 ]",
@@ -417,7 +417,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8226",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -429,7 +429,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8228",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -443,7 +443,7 @@
     "year": 2013,
     "gpu": "Adreno 305 400 MHz (19.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -458,7 +458,7 @@
     "aliases": [
       "MSM8230AB (MSM8230AB [ 49 ])"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -470,7 +470,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8274AA",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -481,7 +481,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8274AB",
@@ -495,7 +495,7 @@
     "cores": 8,
     "max_freq": "2.45 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8274AC v3"
@@ -508,7 +508,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8610",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -520,7 +520,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8612",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -535,7 +535,7 @@
     "aliases": [
       "MSM8625Q (MSM8625Q [ 38 ])"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -547,7 +547,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8626",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -559,7 +559,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8628",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -574,7 +574,7 @@
     "aliases": [
       "MSM8630AB (MSM8630AB [ 49 ])"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -586,7 +586,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8674AA",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -597,7 +597,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8674AB v3",
@@ -613,7 +613,7 @@
     "max_freq": "400 MHz",
     "gpu": "Hexagon 536",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -631,7 +631,7 @@
     "cores": 8,
     "max_freq": "1.1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "LPDDR2 / 3 Single-channel 533 MHz",
@@ -646,7 +646,7 @@
     "cores": 8,
     "max_freq": "1.3 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8909AA [ 45 ]",
@@ -663,7 +663,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8916",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -678,7 +678,7 @@
     "max_freq": "1.40 GHz",
     "gpu": "Adreno 306 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -700,7 +700,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 598,
@@ -716,7 +716,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "October 18, 2016 [ 59 ] [ 60 ]",
@@ -730,7 +730,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8926",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -742,7 +742,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8928",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -756,7 +756,7 @@
     "max_freq": "465 MHz",
     "gpu": "Hexagon V50",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 465,
@@ -772,7 +772,7 @@
     "max_freq": "1.4 GHz",
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8930AA [ 49 ]",
@@ -791,7 +791,7 @@
     "aliases": [
       "MSM8930AB (MSM8930AB [ 49 ])"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -805,7 +805,7 @@
     "max_freq": "550 MHz",
     "gpu": "Hexagon V50 700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 550,
@@ -827,7 +827,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 450,
@@ -844,7 +844,7 @@
     "cores": 8,
     "max_freq": "1.7 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -857,7 +857,7 @@
     "cores": 8,
     "max_freq": "1.7 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q3 2015"
@@ -872,7 +872,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q4 2016"
@@ -886,7 +886,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "LPDDR3 Single-channel 32-bit 933 MHz (7.5 GB/s)",
@@ -905,7 +905,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 506 650 MHz (62.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4694,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -925,7 +925,7 @@
     "cores": 8,
     "max_freq": "2.2 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q4 2016"
@@ -941,7 +941,7 @@
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 510 600 MHz (153.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -968,7 +968,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8974AA",
     "year": 2013,
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -979,7 +979,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AA v3",
@@ -992,7 +992,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AB v3"
@@ -1004,7 +1004,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AC v3"
@@ -1018,7 +1018,7 @@
     "cores": 8,
     "max_freq": "1.8 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1032,7 +1032,7 @@
     "max_freq": "621 MHz",
     "gpu": "X9 LTE (download: Cat 7, up to 300 Mbit/s; upload: Cat 13, up to 150 Mbit/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 621,
@@ -1052,7 +1052,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1440,
@@ -1081,7 +1081,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 600,
@@ -1100,7 +1100,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1114,7 +1114,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1130,7 +1130,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1147,7 +1147,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1360,
@@ -1175,7 +1175,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1189,7 +1189,7 @@
     "year": 2013,
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1205,7 +1205,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1221,7 +1221,7 @@
     "year": 2013,
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1238,7 +1238,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 10,
     "process_name": "10nm",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1900,
@@ -1265,7 +1265,7 @@
     "max_freq": "485 MHz",
     "gpu": "Hexagon",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "model": "QM215 [ 47 ]",
@@ -1285,7 +1285,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SDA660"
@@ -1301,7 +1301,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 504 320 MHz (30.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -1324,7 +1324,7 @@
     "max_freq": "650 MHz",
     "gpu": "Up to 21 MP single camera / 8 MP dual camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
@@ -1341,7 +1341,7 @@
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 506 600 MHz (57.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1372,7 +1372,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
@@ -1393,7 +1393,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 725,
@@ -1414,7 +1414,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 430,
@@ -1436,7 +1436,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1840,
@@ -1466,7 +1466,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 615 430 MHz (220.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -1496,7 +1496,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 10,
     "process_name": "10nm",
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1519,7 +1519,7 @@
     "max_freq": "1.8 GHz",
     "gpu": "Adreno 610 600 MHz (153.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1534,7 +1534,7 @@
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 610 600 MHz (153.6 GFLOPS in FP32)",
     "year": 2013,
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -1565,7 +1565,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 619 650 MHz (332.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.602,
+    "completeness": 0.59,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1595,7 +1595,7 @@
     "year": 2013,
     "max_freq": "2.2 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1608,7 +1608,7 @@
     "model": "SM4350",
     "max_freq": "2.2 GHz",
     "year": 2013,
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "October 26, 2021 [ 74 ]",
@@ -1625,7 +1625,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 610 950 MHz (243.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1654,7 +1654,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "X12 LTE (download: Cat 12, up to 600 Mbit/s; upload: Cat 13, up to 150 Mbit/s)",
@@ -1671,7 +1671,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 612 845 MHz (216.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -1691,7 +1691,7 @@
     "max_freq": "895 MHz",
     "gpu": "December 15, 2020 [ 120 ]",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 895,
@@ -1709,7 +1709,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 610 1114 MHz (285.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1900,
@@ -1740,7 +1740,7 @@
     "max_freq": "1.26 GHz",
     "gpu": "Spectra (108 MP single camera / 16 MP dual camera with ZSL / 13+13+5 MP triple camera with ZSL; Video Capture: 1080p@60f",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1260,
@@ -1760,7 +1760,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -1790,7 +1790,7 @@
     "max_freq": "2.20 GHz",
     "gpu": "Adreno 619 840 MHz (430.1 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1823,7 +1823,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.602,
+    "completeness": 0.59,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1853,7 +1853,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1869,7 +1869,7 @@
     "year": 2013,
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1880,7 +1880,7 @@
     "cores": 8,
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SM8150P",
@@ -1904,7 +1904,7 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1937,7 +1937,7 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1956,7 +1956,7 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 60000,
@@ -1978,7 +1978,7 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1997,7 +1997,7 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2017,7 +2017,7 @@
     "aliases": [
       "Lahaina"
     ],
-    "completeness": 0.6224,
+    "completeness": 0.61,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -2050,7 +2050,7 @@
     "aliases": [
       "Lahaina"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2069,7 +2069,7 @@
     "aliases": [
       "Lahaina"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2080,7 +2080,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 860"
@@ -2103,7 +2103,7 @@
     "aliases": [
       "Snapdragon 660 (SDM660)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2125,7 +2125,7 @@
     "aliases": [
       "Snapdragon 845 (SDM845)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2140,7 +2140,7 @@
     "max_freq": "2.20 GHz",
     "gpu": "Adreno 616 504 MHz (258 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -2171,7 +2171,7 @@
     "max_freq": "610 MHz",
     "gpu": "4+",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 610,
@@ -2189,7 +2189,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 618 750 MHz (384 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4898,
+    "completeness": 0.48,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -2213,7 +2213,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2229,7 +2229,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 610,
@@ -2249,7 +2249,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2265,7 +2265,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2281,7 +2281,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2297,7 +2297,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -2314,7 +2314,7 @@
     "max_freq": "800 MHz",
     "gpu": "Hexagon 694 (4.7 TOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -2337,7 +2337,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2354,7 +2354,7 @@
     "year": 2018,
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+1+6",
@@ -2378,7 +2378,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2394,7 +2394,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 625,
@@ -2412,7 +2412,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2428,7 +2428,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 750,
@@ -2446,7 +2446,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642L 550 MHz (563.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2477,7 +2477,7 @@
     "max_freq": "2.5 GHz",
     "gpu": "Adreno 642L 608 MHz (622.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2491,7 +2491,7 @@
     "max_freq": "608 MHz",
     "gpu": "October 26, 2021 [ 74 ]",
     "year": 2018,
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 608,
@@ -2509,7 +2509,7 @@
     "max_freq": "2.7 GHz",
     "gpu": "Adreno 642L 719 MHz (736.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2524,7 +2524,7 @@
     "max_freq": "2.70 GHz",
     "gpu": "Adreno 642L 719 MHz (736.3 GFLOPS in FP32)",
     "year": 2018,
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2550,7 +2550,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2565,7 +2565,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
     "year": 2018,
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2598,7 +2598,7 @@
     "aliases": [
       "Snapdragon 730G (SM7150)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2620,7 +2620,7 @@
     "aliases": [
       "Snapdragon 765G (SM7250)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2643,7 +2643,7 @@
       "Kona",
       "Snapdragon 865 (SM8250)"
     ],
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2665,7 +2665,7 @@
     "aliases": [
       "Snapdragon 690 (SM6350)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2688,7 +2688,7 @@
       "Kona",
       "Snapdragon 865+ (SM8250-AB)"
     ],
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2711,7 +2711,7 @@
       "Lahaina",
       "Snapdragon 888 (SM8350)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2723,7 +2723,7 @@
     "cores": 8,
     "year": 2021,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2743,7 +2743,7 @@
     "aliases": [
       "Waipio"
     ],
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2777,7 +2777,7 @@
     "aliases": [
       "Waipio"
     ],
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
@@ -2800,7 +2800,7 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2820,7 +2820,7 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+2+2",
@@ -2847,7 +2847,7 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2866,7 +2866,7 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2880,7 +2880,7 @@
     "max_freq": "1.10 GHz",
     "gpu": "Spectra (200 MP Photo Capture, 108 MP single camera @30fps ZSL, 64+36 MP dual camera @30fps ZSL, 36 MP triple camera @30",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1100,
@@ -2903,7 +2903,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2922,7 +2922,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2942,7 +2942,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2962,7 +2962,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+2",
@@ -2989,7 +2989,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3008,7 +3008,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3026,7 +3026,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3045,7 +3045,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3064,7 +3064,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3079,7 +3079,7 @@
     "max_freq": "3.21 GHz",
     "gpu": "Adreno 825 1150 MHz (2355.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+2",
@@ -3108,7 +3108,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3127,7 +3127,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3147,7 +3147,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3167,7 +3167,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3194,7 +3194,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3213,7 +3213,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3227,7 +3227,7 @@
     "max_freq": "1.23 GHz",
     "gpu": "LPDDR5X quad-channel 16-bit (64-bit) 4800 MHz (76.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1225,
@@ -3245,7 +3245,7 @@
     "max_freq": "4.74 GHz",
     "gpu": "Adreno 840 1300 MHz (3993.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3259,7 +3259,7 @@
     "max_freq": "4.74 GHz",
     "gpu": "Adreno 840 1300 MHz (3993.6 GFLOPS in FP32)",
     "year": 2021,
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3272,7 +3272,7 @@
     "max_freq": "4.61 GHz",
     "year": 2021,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3285,7 +3285,7 @@
     "model": "SM8850",
     "max_freq": "4.61 GHz",
     "year": 2021,
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3300,7 +3300,7 @@
     "max_freq": "4.61 GHz",
     "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3315,7 +3315,7 @@
     "max_freq": "4.61 GHz",
     "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
     "year": 2021,
-    "completeness": 0.4898,
+    "completeness": 0.48,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3344,7 +3344,7 @@
     "aliases": [
       "Snapdragon 695 (SM6375)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3364,7 +3364,7 @@
     "aliases": [
       "Snapdragon 778G (SM7325)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3379,7 +3379,7 @@
     "aliases": [
       "Snapdragon 8 (since 2021) (Kryo (1× 3.2 GHz Cortex-X2 + 3× 2.75 GHz Cortex-A710 + 4× 2.0 GHz Cortex-A510 ))"
     ],
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3402,7 +3402,7 @@
       "Snapdragon 8 Gen 1 (SM8450)",
       "Waipio"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3432,7 +3432,7 @@
       "Kona",
       "Snapdragon 870 (SM8250-AC)"
     ],
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3455,7 +3455,7 @@
       "Lahaina",
       "Snapdragon 888+ (SM8350-AB)"
     ],
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3470,7 +3470,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 619 700 MHz (358.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.602,
+    "completeness": 0.59,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -3501,7 +3501,7 @@
     "max_freq": "2.20 GHz",
     "gpu": "Adreno 613 955 MHz (244.5 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1950,
@@ -3530,7 +3530,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "Adreno 613",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3544,7 +3544,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "Spectra (108 MP single camera / 16 MP dual camera with ZSL)",
     "year": 2022,
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "LPDDR4X dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s) or LPDDR5 dual-channel",
@@ -3560,7 +3560,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Spectra (84 MP single camera / 16 MP dual camera with ZSL)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "LPDDR4X Dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s)",
@@ -3576,7 +3576,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "gpu_clock": 2133,
@@ -3594,7 +3594,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "Adreno 619 900 MHz (460.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3609,7 +3609,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 619 900 MHz (460.8 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.5918,
+    "completeness": 0.58,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -3639,7 +3639,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 710",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3654,7 +3654,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 710",
     "year": 2022,
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -3676,7 +3676,7 @@
     "max_freq": "2.20 GHz",
     "gpu": "Adreno 710 676 MHz (346.1 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -3706,7 +3706,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32) or 1010 MHz (517.1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3720,7 +3720,7 @@
     "max_freq": "1.01 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 940,
@@ -3740,7 +3740,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 810 895 MHz (458.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.602,
+    "completeness": 0.59,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3772,7 +3772,7 @@
     "max_freq": "2.60 GHz",
     "gpu": "Adreno 812",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -3796,7 +3796,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3811,7 +3811,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 710 940 MHz (481.3 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.602,
+    "completeness": 0.59,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1950,
@@ -3842,7 +3842,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno 644 443 MHz (680.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3857,7 +3857,7 @@
     "max_freq": "2.50 GHz",
     "gpu": "Adreno 644 443 MHz (680.4 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.6327,
+    "completeness": 0.62,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "3+4",
@@ -3890,7 +3890,7 @@
     "max_freq": "2.91 GHz",
     "gpu": "Adreno 725 580 MHz (1187.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3905,7 +3905,7 @@
     "max_freq": "2.91 GHz",
     "gpu": "Adreno 725 580 MHz (1187.8 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.5714,
+    "completeness": 0.56,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3935,7 +3935,7 @@
     "max_freq": "2.63 GHz",
     "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3950,7 +3950,7 @@
     "max_freq": "2.63 GHz",
     "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3976,7 +3976,7 @@
     "max_freq": "1.05 GHz",
     "gpu": "Hexagon",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1050,
@@ -3996,7 +3996,7 @@
     "max_freq": "2.7 GHz",
     "gpu": "Adreno 810 1150 MHz (588.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4010,7 +4010,7 @@
     "max_freq": "1.15 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1150,
@@ -4030,7 +4030,7 @@
     "max_freq": "2.8 GHz",
     "gpu": "Adreno 732 950 MHz (1459.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4044,7 +4044,7 @@
     "max_freq": "950 MHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 950,
@@ -4063,7 +4063,7 @@
     "max_freq": "2.8 GHz",
     "gpu": "Adreno 722 1150 MHz (1177.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4077,7 +4077,7 @@
     "max_freq": "1.15 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1150,
@@ -4096,7 +4096,7 @@
     "year": 2022,
     "gpu": "Q2 2024",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 4 Gen 2 Accelerated Edition [ a ]",
@@ -4123,7 +4123,7 @@
       "Kalama",
       "Snapdragon 8 Gen 2 (SM8550)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4146,7 +4146,7 @@
       "Snapdragon 8+ Gen 1 (SM8475)",
       "Waipio"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4169,7 +4169,7 @@
       "Pineapple",
       "Snapdragon 8 Gen 3 (SM8650)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4184,7 +4184,7 @@
     "max_freq": "2.1 GHz",
     "gpu": "Adreno 610 1050 MHz (268.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4199,7 +4199,7 @@
     "max_freq": "2.10 GHz",
     "gpu": "Adreno 610 1050 MHz (268.8 GFLOPS in FP32)",
     "year": 2024,
-    "completeness": 0.6122,
+    "completeness": 0.6,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -4230,7 +4230,7 @@
     "max_freq": "2.9 GHz",
     "gpu": "Adreno 610",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4245,7 +4245,7 @@
     "max_freq": "2.90 GHz",
     "gpu": "Adreno 610",
     "year": 2024,
-    "completeness": 0.5408,
+    "completeness": 0.53,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1900,
@@ -4280,7 +4280,7 @@
       "Pineapple",
       "Snapdragon 8 Elite (SM8750)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4294,7 +4294,7 @@
     "architecture": "ARMv7-A",
     "max_freq": "1.3 GHz",
     "gpu": "Adreno 304 (HD)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4308,7 +4308,7 @@
     "process": "28 nm",
     "max_freq": "1.30 GHz",
     "gpu": "Adreno 304 (HD)",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1300,
@@ -4331,7 +4331,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
     "gpu": "Adreno 308 (Full HD)",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4344,7 +4344,7 @@
     "max_freq": "400 MHz",
     "gpu": "Up to 13.5 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -4361,7 +4361,7 @@
     "max_freq": "1.8 GHz",
     "gpu": "Adreno 506 (Full HD+)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4375,7 +4375,7 @@
     "process": "14 nm",
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 506 (Full HD+)",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -4394,7 +4394,7 @@
     "cores": 8,
     "max_freq": "1.4 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4408,7 +4408,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 220 266 MHz (WXGA+)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5408,
+    "completeness": 0.53,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -4433,7 +4433,7 @@
     "max_freq": "400 MHz",
     "gpu": "Up to 20 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8060A [ 32 ]",
@@ -4451,7 +4451,7 @@
     "cores": 8,
     "gpu": "Adreno A11",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G1 Gen 1"
@@ -4465,7 +4465,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno A12 1010 MHz (258.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G1 Gen 2"
@@ -4477,7 +4477,7 @@
     "cores": 4,
     "gpu": "Adreno A21",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G2 Gen 1"
@@ -4490,7 +4490,7 @@
     "cores": 4,
     "gpu": "Adreno A22",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G2 Gen 2"
@@ -4504,7 +4504,7 @@
     "max_freq": "3.3 GHz",
     "gpu": "Adreno A33",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G3 Gen 3"
@@ -4518,7 +4518,7 @@
     "max_freq": "3.0 GHz",
     "gpu": "Adreno 660 900 MHz (1382.4 GFLOPs in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G3x Gen 1"
@@ -4532,7 +4532,7 @@
     "max_freq": "3.36 GHz",
     "gpu": "Adreno A32 1000 MHz (3072 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "G3x Gen 2"
@@ -4546,7 +4546,7 @@
     "cores": 8,
     "max_freq": "528 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 528,
@@ -4572,7 +4572,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
     "gpu": "Adreno 200 245 MHz (HVGA)",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7225A [ 22 ]",
@@ -4599,7 +4599,7 @@
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7225AB [ 22 ]",
@@ -4616,7 +4616,7 @@
     "max_freq": "226 MHz",
     "gpu": "Up to 8 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 226,
@@ -4632,7 +4632,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "245 MHz",
     "gpu": "Up to 8 MP camera",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7227A [ 22 ]",
@@ -4653,7 +4653,7 @@
     "max_freq": "800 MHz",
     "gpu": "Adreno 205 266 MHz ( XGA )",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -4678,7 +4678,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7625",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4692,7 +4692,7 @@
     "aliases": [
       "MSM7625A (MSM7625A [ 22 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4703,7 +4703,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7627",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4717,7 +4717,7 @@
     "aliases": [
       "MSM7627A (MSM7627A [ 22 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4728,7 +4728,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7630",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4742,7 +4742,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 203 320 MHz (FWVGA)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -4768,7 +4768,7 @@
     "max_freq": "1.00 GHz",
     "gpu": "Adreno 305 320 MHz (FWVGA / 720p)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -4791,7 +4791,7 @@
     "cores": 8,
     "max_freq": "1.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4802,7 +4802,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8255T [ 22 ]",
@@ -4817,7 +4817,7 @@
     "model": "MSM8260",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4827,7 +4827,7 @@
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8260A [ 32 ]",
@@ -4842,7 +4842,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8625",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4853,7 +4853,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8627",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4864,7 +4864,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8630",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4875,7 +4875,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8655",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4889,7 +4889,7 @@
     "aliases": [
       "MSM8655T (MSM8655T [ 22 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4900,7 +4900,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8660",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4914,7 +4914,7 @@
     "aliases": [
       "MSM8660A (MSM8660A [ 32 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4926,7 +4926,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "LPDDR3 400 MHz",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8909w [ 314 ]",
@@ -4944,7 +4944,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8930",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4955,7 +4955,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8960",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4968,7 +4968,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 685 590 MHz (1812.5 GFLOPs in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ1",
@@ -4997,7 +4997,7 @@
     "max_freq": "680 MHz",
     "gpu": "October 1, 2020 [ 290 ]",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ2",
@@ -5014,7 +5014,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 695 900 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4694,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ3",
@@ -5035,7 +5035,7 @@
     "model": "QCS403",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "none",
@@ -5049,7 +5049,7 @@
     "model": "QCS404",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5061,7 +5061,7 @@
     "gpu": "Adreno 306 (Full HD+)",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5072,7 +5072,7 @@
     "model": "QCS407",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "32× audio channels supported"
@@ -5087,7 +5087,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 615 (Quad HD + 4K Ultra HD external display)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5408,
+    "completeness": 0.53,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -5113,7 +5113,7 @@
     "cores": 8,
     "max_freq": "2.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Bluetooth 5.0, NFC , 802.11ac 2x2 (MU-MIMO) Wi-Fi up to 867 Mbit/s, GPS, GLONASS, Beidou, Galileo, QZSS, SBAS, USB 3.1"
@@ -5127,7 +5127,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.00 GHz",
     "gpu": "Adreno 200 226 MHz (WXGA)",
-    "completeness": 0.5408,
+    "completeness": 0.53,
     "sources": {},
     "updated": "2026-06-21",
     "model": "QSD8250 [ 22 ]",
@@ -5157,7 +5157,7 @@
     "aliases": [
       "QSD8650 (QSD8650 [ 22 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5170,7 +5170,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 608/612 430 MHz (110 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA6155P [ 339 ] [ 340 ]",
@@ -5200,7 +5200,7 @@
     "gpu": "Hexagon",
     "max_freq": "600 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8195P [ 341 ] [ 342 ]",
@@ -5220,7 +5220,7 @@
     "max_freq": "2.35 GHz",
     "gpu": "Adreno 663",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8255P",
@@ -5243,7 +5243,7 @@
     "max_freq": "2.56 GHz",
     "gpu": "Hexagon (30 TOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8295P",
@@ -5261,7 +5261,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 618 825 MHz (422.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5714,
+    "completeness": 0.56,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2400,
@@ -5287,7 +5287,7 @@
     "cores": 8,
     "max_freq": "2.55 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC7180P",
@@ -5303,7 +5303,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642L 700 MHz (716.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5714,
+    "completeness": 0.56,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5332,7 +5332,7 @@
     "max_freq": "2.45 GHz",
     "gpu": "Adreno 675 590 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5361,7 +5361,7 @@
     "max_freq": "2.84 GHz",
     "gpu": "Adreno 680 585 MHz (1797.1 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC8180X",
@@ -5390,7 +5390,7 @@
     "max_freq": "660 MHz",
     "gpu": "No internal modem Optional external X24 LTE (Cat 20: download @ 2 Gbit/s, 7x20 MHz CA, 256-QAM, 4x4 MIMO on 5C. Upload @",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC8180XP",
@@ -5409,7 +5409,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 695 900 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2400,
@@ -5432,7 +5432,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 504 320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SDM429w",
@@ -5457,7 +5457,7 @@
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 630 710 MHz (727 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -5484,7 +5484,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno A702 1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SW5100",
@@ -5511,7 +5511,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "Adreno 306",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 410E"
@@ -5525,7 +5525,7 @@
     "process": "28 nm",
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 306",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 410E [ 347 ] (APQ8016E)",
@@ -5553,7 +5553,7 @@
     "architecture": "ARMv7-A",
     "max_freq": "1.5 GHz",
     "gpu": "Adreno 320 400 MHz",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 600E"
@@ -5566,7 +5566,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "400 MHz",
     "gpu": "Hexagon QDSP6 V4 500 MHz",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 600E [ 348 ] (APQ8064E)",
@@ -5591,7 +5591,7 @@
     "aliases": [
       "Snapdragon 602A (APQ8064)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5605,7 +5605,7 @@
     "process": "28 nm",
     "max_freq": "1.51 GHz",
     "gpu": "Adreno 320 400 MHz (76.8 GFLOPs) (2048x1536 + 1080p external display)",
-    "completeness": 0.551,
+    "completeness": 0.54,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1510,
@@ -5636,7 +5636,7 @@
     "aliases": [
       "Snapdragon 800E (APQ8074)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5650,7 +5650,7 @@
     "process": "28 nm",
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 330",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2300,
@@ -5678,7 +5678,7 @@
     "aliases": [
       "Snapdragon 810E (APQ8094)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5692,7 +5692,7 @@
     "process": "20 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 430 650 MHz",
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1550,
@@ -5717,7 +5717,7 @@
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 820AM"
@@ -5731,7 +5731,7 @@
     "process": "14 nm",
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)",
-    "completeness": 0.5612,
+    "completeness": 0.55,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 820AM [ 338 ] (APQ8096AU/ MSM8996AU)",
@@ -5766,7 +5766,7 @@
     "aliases": [
       "Snapdragon 820E (APQ8096)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5780,7 +5780,7 @@
     "process": "14 nm",
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -5804,7 +5804,7 @@
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 640 675 MHz (1036.8 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 855A"
@@ -5818,7 +5818,7 @@
     "process": "7 nm",
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 640 675 MHz (1036.8 GFLOPs)",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 855A [ 341 ] [ 342 ] (SA8155P)",
@@ -5849,7 +5849,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Adreno A11",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon G series",
@@ -5867,7 +5867,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno X1-45 1107 MHz (1.7 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1-26-100",
@@ -5897,7 +5897,7 @@
     "cores": 8,
     "max_freq": "3.4 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1E-78-100",
@@ -5912,7 +5912,7 @@
     "cores": 8,
     "max_freq": "3.2 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1P-42-100",
@@ -5928,7 +5928,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-45 1367 MHz (2.1 TFLOPS)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Oryon 8 core (3.4 GHz, single-core boost up to 4.0 GHz)",
@@ -5944,7 +5944,7 @@
     "max_freq": "1.35 GHz",
     "gpu": "Adreno X2-85 1350 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-78-100",
@@ -5963,7 +5963,7 @@
     "max_freq": "1.85 GHz",
     "gpu": "Hexagon (80 TOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-94-100",
@@ -5983,7 +5983,7 @@
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 910 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5816,
+    "completeness": 0.57,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2P-42-100",
@@ -6014,7 +6014,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 1700 MHz",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon X2 series"
@@ -6027,7 +6027,7 @@
     "architecture": "ARMv8.2-A",
     "process": "10 nm",
     "gpu": "Adreno 615",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon XR series",
@@ -6049,7 +6049,7 @@
     "cores": 4,
     "max_freq": "250 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "W5+ Gen 1"
@@ -6062,7 +6062,7 @@
     "cores": 4,
     "max_freq": "250 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "W5+ Gen 2"
@@ -6074,7 +6074,7 @@
     "cores": 5,
     "process": "4 nm",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "W5/W5+ Gen 2"
@@ -6086,7 +6086,7 @@
     "cores": 1,
     "architecture": "ARMv7-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Wear 1200"
@@ -6097,7 +6097,7 @@
     "vendor": "Qualcomm",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Wear 2500"
@@ -6109,7 +6109,7 @@
     "cores": 1,
     "max_freq": "50 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Wear 3100"
@@ -6122,7 +6122,7 @@
     "cores": 12,
     "max_freq": "50 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Wear 4100+"
@@ -6135,7 +6135,7 @@
     "max_freq": "3.8 GHz",
     "gpu": "Adreno X1-85 1500 MHz (4.6 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1E-84-100"
@@ -6148,7 +6148,7 @@
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-45 1367 MHz (2.1 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1P-46-100"
@@ -6161,7 +6161,7 @@
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-85 1250 MHz (3.8 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1P-64-100"
@@ -6174,7 +6174,7 @@
     "max_freq": "4.0 GHz",
     "gpu": "Adreno X2-85 1700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-80-100"
@@ -6186,7 +6186,7 @@
     "cores": 12,
     "max_freq": "4.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-84-100"
@@ -6199,7 +6199,7 @@
     "max_freq": "4.0 GHz",
     "gpu": "Adreno X2-90 1700 MHz (6.9 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-88-100"
@@ -6211,7 +6211,7 @@
     "cores": 18,
     "max_freq": "4.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-90-100"
@@ -6223,7 +6223,7 @@
     "cores": 18,
     "max_freq": "4.4 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-96-100"
@@ -6236,7 +6236,7 @@
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 1700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2P-64-100"
@@ -6249,7 +6249,7 @@
     "cores": 10,
     "gpu": "Adreno 615",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR1"
@@ -6263,7 +6263,7 @@
     "max_freq": "2.84 GHz",
     "gpu": "Adreno 650 (up to 2x 3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR2"
@@ -6277,7 +6277,7 @@
     "max_freq": "2.36 GHz",
     "gpu": "Adreno 740 (up to 2x 3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR2 Gen 2"
@@ -6288,7 +6288,7 @@
     "vendor": "Qualcomm",
     "cores": 5,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR2+ Gen 1"
@@ -6300,7 +6300,7 @@
     "cores": 4,
     "gpu": "Adreno 740 (up to 2x 4.3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "XR2+ Gen 2"

@@ -9,7 +9,7 @@
     "process": "28 nm",
     "max_freq": "2.20 GHz",
     "gpu": "PowerVR G6200 @ 550/700 MHz (70.4/89.6 GFLOPS in FP32)",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X10 MT6795M/ 6795/6795T",
@@ -36,7 +36,7 @@
     "max_freq": "780 MHz",
     "gpu": "LPDDR3 dual-channel 32-bit (64-bit) 800 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 780,
@@ -53,7 +53,7 @@
     "year": 2014,
     "gpu": "Mali-T880 MP4 @ 800 MHz (134.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X23 MT6797D",
@@ -70,7 +70,7 @@
     "max_freq": "2.50 GHz",
     "year": 2014,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X25 MT6797T [ 40 ]",
@@ -91,7 +91,7 @@
     "year": 2014,
     "gpu": "Mali-T880 MP4 @ 875 MHz (147.0 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio X27 MT6797X [ 40 ]",
@@ -114,7 +114,7 @@
     "max_freq": "850 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "LPDDR4X quad-channel 16-bit (64-bit) 1866 MHz (29.9 GB/s)",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 850,
@@ -133,7 +133,7 @@
     "process": "28 nm",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-T860 MP2 @ 700 MHz (39.2 GFLOPS in FP32)",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -156,7 +156,7 @@
     "max_freq": "2.20 GHz",
     "year": 2015,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P15 MT6755T [ 34 ]",
@@ -176,7 +176,7 @@
     "year": 2015,
     "gpu": "Mali-T860 MP2 @ 800 MHz (44.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P18 MT6755S [ 34 ]",
@@ -198,7 +198,7 @@
     "max_freq": "900 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
@@ -216,7 +216,7 @@
     "max_freq": "650 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "LPDDR3 single-channel 32-bit 933 MHz (7.4 GB/s) LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
@@ -235,7 +235,7 @@
     "max_freq": "770 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1600 MHz (12.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 770,
@@ -251,7 +251,7 @@
     "year": 2015,
     "gpu": "Mali-T880 MP2 @ 1.0 GHz (56.0 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P25 / P25T MT6757CD MT6757T",
@@ -269,7 +269,7 @@
     "year": 2015,
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat 6 FDD and TD-LTE w/ 20+20 CA",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -287,7 +287,7 @@
     "max_freq": "680 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR GE8320 @ 680 MHz (43.5 GFLOPS in FP32)",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 680,
@@ -303,7 +303,7 @@
     "year": 2015,
     "gpu": "2× Cadence Tensilica Vision P6 DSP @ 525 MHz (2x 140 GMACs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -322,7 +322,7 @@
     "year": 2015,
     "gpu": "Mali-G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -338,7 +338,7 @@
     "year": 2015,
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, CDMA2000 1x/EVDO Rev. A, Cat-7 (DL)/Cat-13 (UL); Dual 4G VoLTE; TAS 2.0; Global",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P70 [ 40 ] MT6771V/CT MT6771V/WT",
@@ -358,7 +358,7 @@
     "year": 2015,
     "max_freq": "970 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1866 MHz (14.9 GB/s)",
-    "completeness": 0.4796,
+    "completeness": 0.47,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio P90 [ 46 ] MT6779V/CU",
@@ -383,7 +383,7 @@
     "year": 2015,
     "process_nm": 12,
     "process_name": "12nm",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -397,7 +397,7 @@
     "process": "12 nm",
     "max_freq": "1.80 GHz",
     "gpu": "PowerVR GE8300 @ 550 MHz (17.6 GFLOPS in FP32)",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A20 MT6761V/WE",
@@ -420,7 +420,7 @@
     "year": 2018,
     "architecture": "ARMv8.2-A",
     "gpu": "UMTS, HSPA+, HSUPA, GSM, GPRS, TD-SCDMA, LTE Cat 7 (DL) & Cat 13 (UL), CDMA2000 1x/ EVDO Rev. A (SRLTE)",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A22 MT6761V/WAB MT6761V/WBB",
@@ -436,7 +436,7 @@
     "year": 2018,
     "architecture": "ARMv8.2-A",
     "gpu": "UMTS, HSPA+, HSUPA, GSM, GPRS, TD-SCDMA, LTE Cat 4, CDMA2000 1x/EVDO Rev. A (SRLTE)",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio A25 MT6762V/WB MT6762V/WD",
@@ -452,7 +452,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G100 [ 64 ] MT6789H MT6789I MT6789J",
@@ -469,7 +469,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G200 [ 65 ] MT6789T",
@@ -489,7 +489,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "PowerVR GE8320 @ 650 MHz (41.6 GFLOPS in FP32)",
-    "completeness": 0.5612,
+    "completeness": 0.55,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G25 [ 47 ] MT6762G",
@@ -518,7 +518,7 @@
     "year": 2019,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR GE8320 @ 680 MHz (43.5 GFLOPS in FP32)",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G35 [ 48 ] MT6765G MT6765V/CB [ 49 ]",
@@ -537,7 +537,7 @@
     "max_freq": "2.20 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G36 [ 50 ] MT6765V/XAA MT6765V/XBA",
@@ -556,7 +556,7 @@
     "max_freq": "2.30 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G37 [ 51 ] MT6765H",
@@ -575,7 +575,7 @@
     "max_freq": "2.20 GHz",
     "year": 2019,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G50 [ 52 ] MT6765V",
@@ -595,7 +595,7 @@
     "year": 2019,
     "max_freq": "820 MHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 1800 MHz (14.4 GB/s)",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G70 [ 53 ] MT6769V/CB",
@@ -616,7 +616,7 @@
     "year": 2019,
     "gpu": "Mali-G52 MC2 @ 950 MHz (91.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G80 [ 54 ] MT6769T MT6769V/CT MT6769V/CU",
@@ -636,7 +636,7 @@
     "year": 2019,
     "gpu": "Mali G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G81 [ 55 ] MT6769J MT6769L MT6769S",
@@ -656,7 +656,7 @@
     "year": 2019,
     "gpu": "Mali-G52 MC2 @ 1.0 GHz (96 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G85 [ 56 ] MT6769Z MT6769V/CZ",
@@ -674,7 +674,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G88 [ 57 ] MT6769H",
@@ -694,7 +694,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 12,
     "process_name": "12nm",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -720,7 +720,7 @@
     "aliases": [
       "Helio G90T (MT6785)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -733,7 +733,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G90T MT6785V/CC",
@@ -749,7 +749,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G91 [ 58 ] MT6769G MT6769K",
@@ -764,7 +764,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G92 [ 59 ] MT6769I",
@@ -781,7 +781,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Helio G95 [ 61 ] MT6785V/CD",
@@ -803,7 +803,7 @@
     "year": 2019,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 950,
@@ -820,7 +820,7 @@
     "max_freq": "1.00 GHz",
     "gpu": "Q2 2022",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -842,7 +842,7 @@
     "aliases": [
       "Helio P65 (MT6768)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -862,7 +862,7 @@
     "aliases": [
       "Dimensity 1000+ (MT6889)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -884,7 +884,7 @@
     "aliases": [
       "Dimensity 720 (MT6853)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -904,7 +904,7 @@
     "aliases": [
       "Helio G35 (MT6765)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -924,7 +924,7 @@
     "aliases": [
       "Dimensity 1100 (MT6891)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -946,7 +946,7 @@
     "aliases": [
       "Dimensity 1200 (MT6893)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -968,7 +968,7 @@
     "aliases": [
       "Dimensity 900 (MT6877)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -990,7 +990,7 @@
     "aliases": [
       "Dimensity 9000 (MT6983)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1012,7 +1012,7 @@
     "aliases": [
       "Dimensity 9200 (MT6985)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1032,7 +1032,7 @@
     "aliases": [
       "Dimensity 9300 (MT6989)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1054,7 +1054,7 @@
     "aliases": [
       "Dimensity 9400 (MT6991)"
     ],
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1066,7 +1066,7 @@
     "architecture": "ARMv8.2-A",
     "process": "14 nm",
     "max_freq": "1.5 GHz",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300A"
@@ -1080,7 +1080,7 @@
     "process": "14 nm",
     "max_freq": "1.50 GHz",
     "gpu": "IMG PowerVR GE8300 @ ? MHz",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300A [ 155 ] (MT8362A) [ 156 ]",
@@ -1102,7 +1102,7 @@
     "cores": 4,
     "max_freq": "1.3 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300B"
@@ -1114,7 +1114,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.30 GHz",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300B [ 157 ] (MT8362B) [ 158 ]",
@@ -1132,7 +1132,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "max_freq": "2.0 GHz",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300PA"
@@ -1146,7 +1146,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "IMG PowerVR GE8320 @ 650 MHz",
-    "completeness": 0.4694,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300PA [ 159 ] (MT8768V/WA)",
@@ -1169,7 +1169,7 @@
     "cores": 4,
     "max_freq": "2.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300PB"
@@ -1181,7 +1181,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i300PB [ 160 ] (MT8768V/WB)",
@@ -1199,7 +1199,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G72 MP3 @ 800 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i500P"
@@ -1212,7 +1212,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
     "gpu": "Q3 2020",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "AIoT i500P [ 165 ] (MT8788A) [ 166 ]",
@@ -1233,7 +1233,7 @@
     "clock_min": 522,
     "clock_max": 522,
     "max_freq": "522 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1248,7 +1248,7 @@
     "clock_max": 1,
     "max_freq": "1 MHz",
     "gpu": "LTE Cat 4, 4G, 3G, 2G, Dual-band Wi-Fi, FM, Bluetooth, GPS, BeiDou, Glonass",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1264,7 +1264,7 @@
     "aliases": [
       "Dimensity 1000 (MT6889)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1277,7 +1277,7 @@
     "model": "MT6889",
     "max_freq": "2.60 GHz",
     "gpu": "Mali-G77 MC9 @ 836 MHz (481.5 GFLOPS in FP32)",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -1294,7 +1294,7 @@
     "aliases": [
       "Dimensity 1000+ (MT6889Z/CZA) (Dimensity 1000+ [ 77 ] (MT6889Z/CZA))"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1307,7 +1307,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G57 MC5 @ 654 MHz (209.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 1000C"
@@ -1321,7 +1321,7 @@
     "process": "7 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G57 MC5 @ 654 MHz (209.3 GFLOPS in FP32)",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 1000C [ 75 ] (MT6883Z/CZA)",
@@ -1349,7 +1349,7 @@
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G77 MC7 @ 695 MHz (311.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 1000L"
@@ -1362,7 +1362,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.20 GHz",
     "gpu": "Photo: 80 MP, 32 MP + 16 MP Video: 4K HDR",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 1000L (MT6885Z/CZA)",
@@ -1386,7 +1386,7 @@
     "aliases": [
       "Dimensity 1050 (MT6879)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1402,7 +1402,7 @@
     "gpu": "LPDDR4X, LPDDR5",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -1423,7 +1423,7 @@
     "aliases": [
       "Dimensity 1080 (MT6877)"
     ],
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1438,7 +1438,7 @@
     "gpu": "Photo: 200 MP Video: 4K30 HDR",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4286,
+    "completeness": 0.42,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1458,7 +1458,7 @@
     "aliases": [
       "Dimensity 1100 (MT6891)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1471,7 +1471,7 @@
     "model": "MT6891",
     "max_freq": "2.60 GHz",
     "gpu": "Mediatek APU 3.0 (6 cores)",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -1493,7 +1493,7 @@
     "aliases": [
       "Dimensity 1200 (MT6893)"
     ],
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1508,7 +1508,7 @@
     "gpu": "Photo: 200 MP, 32 MP + 16 MP Video: 4K HDR",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -1528,7 +1528,7 @@
     "aliases": [
       "Dimensity 1300 (MT6893Z_Z/CZA MT6893Z_T/CZA) (Dimensity 1300 [ 82 ] (MT6893Z_Z/CZA MT6893Z_T/CZA))"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1541,7 +1541,7 @@
     "process": "7 nm",
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6020"
@@ -1555,7 +1555,7 @@
     "process": "7 nm",
     "max_freq": "2.20 GHz",
     "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6020 [ 83 ] (Dimensity 700 renamed)",
@@ -1583,7 +1583,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Mali-G57 MC2 @ 1068 MHz (136.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6080"
@@ -1597,7 +1597,7 @@
     "process": "6 nm",
     "max_freq": "1.07 GHz",
     "gpu": "Photo: 108 MP, 16 + 16 MP",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6080 [ 84 ] (Dimensity 810 renamed)",
@@ -1619,7 +1619,7 @@
     "aliases": [
       "Dimensity 6100+ (MT6835)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1632,7 +1632,7 @@
     "model": "MT6835",
     "max_freq": "2.20 GHz",
     "gpu": "Q3 2023",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1651,7 +1651,7 @@
     "aliases": [
       "Dimensity 6300 (MT6835)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1664,7 +1664,7 @@
     "model": "MT6835",
     "max_freq": "2.40 GHz",
     "gpu": "Mali-G57 MC2 @ 1072 MHz (137.2 GFLOPS in FP32)",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1681,7 +1681,7 @@
     "aliases": [
       "Dimensity 6360 (Dimensity 6360 [ 87 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1696,7 +1696,7 @@
     "aliases": [
       "Dimensity 6400 (MT6835)"
     ],
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1708,7 +1708,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT6835",
     "max_freq": "2.50 GHz",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1723,7 +1723,7 @@
     "max_freq": "2.60 GHz",
     "gpu": "Mali-G57 MC2 @ 1.1 GHz (140.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 6500 [ 89 ]",
@@ -1749,7 +1749,7 @@
     "aliases": [
       "Dimensity 700 (MT6833)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1765,7 +1765,7 @@
     "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.4898,
+    "completeness": 0.48,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -1786,7 +1786,7 @@
     "architecture": "ARMv8.2-A",
     "process": "6 nm",
     "max_freq": "2.2 GHz",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7020"
@@ -1799,7 +1799,7 @@
     "architecture": "ARMv8.2-A",
     "process": "6 nm",
     "max_freq": "2.20 GHz",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7020 [ 90 ] (Dimensity 930 renamed)",
@@ -1826,7 +1826,7 @@
     "cores": 2,
     "max_freq": "2.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7025"
@@ -1838,7 +1838,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.50 GHz",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7025 [ 91 ] (MT6855V/ATZA MT6855V_A/ATZA)",
@@ -1857,7 +1857,7 @@
     "max_freq": "1.0 GHz",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7030"
@@ -1870,7 +1870,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "5G NR Sub-6 GHz & mmWave, 4G LTE, dual-band GNSS (GPS, QZSS, BeiDou, Glonass, Galileo, NavIC), Wi-Fi 6E (2x2), Bluetooth",
     "max_freq": "1.00 GHz",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7030 [ 92 ] (Dimensity 1050 renamed)",
@@ -1888,7 +1888,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-G68 MC4 @ 950 MHz (243.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7050"
@@ -1901,7 +1901,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.60 GHz",
     "gpu": "5G NR Sub-6 GHz, 4G LTE, dual-band GNSS (GPS, QZSS, BeiDou, Glonass, Galileo, NavIC), Wi-Fi 6 (2x2), Bluetooth 5.2",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7050 [ 93 ] (Dimensity 1080 renamed)",
@@ -1919,7 +1919,7 @@
     "cores": 8,
     "max_freq": "950 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7060"
@@ -1931,7 +1931,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "950 MHz",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7060 [ 94 ] (MT6855V/TTZA)",
@@ -1954,7 +1954,7 @@
     "aliases": [
       "Dimensity 7100 (MT6858)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -1967,7 +1967,7 @@
     "model": "MT6858",
     "max_freq": "2.40 GHz",
     "gpu": "Q4 2025",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -1982,7 +1982,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G57 MC3 @ 730 MHz (140.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 720"
@@ -1995,7 +1995,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
     "gpu": "Q3 2020",
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 720 [ 67 ] (MT6853V/ZA MT6853V/NZA)",
@@ -2021,7 +2021,7 @@
     "aliases": [
       "Dimensity 7200 (MT6886)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2035,7 +2035,7 @@
     "process": "4 nm",
     "max_freq": "2.80 GHz",
     "gpu": "Mali-G610 MC4 @ 1.13 GHz (578.6 GFLOPS in FP32)",
-    "completeness": 0.5,
+    "completeness": 0.49,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -2063,7 +2063,7 @@
     "aliases": [
       "Dimensity 7300 (MT6878)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2077,7 +2077,7 @@
     "process": "4 nm",
     "gpu": "MediaTek NPU 655",
     "max_freq": "3.20 GHz",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2133,
@@ -2093,7 +2093,7 @@
     "process": "6 nm",
     "max_freq": "2.5 GHz",
     "gpu": "Mali-G610 MC2 @ 1.0 GHz (256 GFLOPS in FP32)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7300e"
@@ -2107,7 +2107,7 @@
     "process": "6 nm",
     "max_freq": "2.50 GHz",
     "gpu": "Mali-G610 MC2 @ 1.0 GHz (256 GFLOPS in FP32)",
-    "completeness": 0.4898,
+    "completeness": 0.48,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7300e [ 98 ] (MT6858T)",
@@ -2134,7 +2134,7 @@
     "process": "4 nm",
     "max_freq": "3.0 GHz",
     "gpu": "Mali-G610 MC4 @ 1.3 GHz (665.6 GFLOPS in FP32)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7350"
@@ -2148,7 +2148,7 @@
     "process": "4 nm",
     "max_freq": "3.00 GHz",
     "gpu": "Mali-G610 MC4 @ 1.3 GHz (665.6 GFLOPS in FP32)",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7350 [ 103 ] (MT6886V/TCZA)",
@@ -2172,7 +2172,7 @@
     "aliases": [
       "Dimensity 7360 (MT6878V_G/ZA) (Dimensity 7360 [ 102 ] (MT6878V_G/ZA))"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2185,7 +2185,7 @@
     "process": "4 nm",
     "max_freq": "2.6 GHz",
     "gpu": "Mali-G615 MC2 @ 1.3 GHz (665.6 GFLOPS in FP32)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7400"
@@ -2199,7 +2199,7 @@
     "process": "4 nm",
     "max_freq": "2.60 GHz",
     "gpu": "Mali-G615 MC2 @ 1.3 GHz (665.6 GFLOPS in FP32)",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 7400 [ 104 ] (MT6878V/TZA MT6878V_B/TZA)",
@@ -2223,7 +2223,7 @@
     "aliases": [
       "Dimensity 7450 (Dimensity 7450 [ 107 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2240,7 +2240,7 @@
     "aliases": [
       "Dimensity 7500 (MT6881)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2254,7 +2254,7 @@
     "process": "4 nm",
     "max_freq": "2.60 GHz",
     "gpu": "Mali-G625 MC2",
-    "completeness": 0.5102,
+    "completeness": 0.5,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -2281,7 +2281,7 @@
     "aliases": [
       "Dimensity 800 (MT6873)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2294,7 +2294,7 @@
     "model": "MT6873",
     "max_freq": "2.00 GHz",
     "gpu": "64 MP Single Camera 32 MP + 16 MP Dual Camera at 30 fps",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -2316,7 +2316,7 @@
     "aliases": [
       "Dimensity 8000 (MT6895)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2332,7 +2332,7 @@
     "gpu": "Mali-G610 MC6 @ 700 MHz (537.6 GFLOPS in FP32)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.5204,
+    "completeness": 0.51,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -2355,7 +2355,7 @@
     "process": "7 nm",
     "max_freq": "2.4 GHz",
     "gpu": "Mali-G57 MC3 @ 950 MHz (182.4 GFLOPS in FP32)",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 800U"
@@ -2369,7 +2369,7 @@
     "process": "7 nm",
     "max_freq": "2.40 GHz",
     "gpu": "Mali-G57 MC3 @ 950 MHz (182.4 GFLOPS in FP32)",
-    "completeness": 0.5204,
+    "completeness": 0.51,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 800U [ 68 ] (MT6853T MT6853V/TNZA)",
@@ -2398,7 +2398,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-G77 MC9 @ 836 MHz (481.5 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8020"
@@ -2412,7 +2412,7 @@
     "process": "6 nm",
     "max_freq": "836 MHz",
     "gpu": "LPDDR4X quad-channel 16-bit (64-bit) 2133 MHz (34.1 GB/s)",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8020 [ 112 ] (Dimensity 1100 renamed)",
@@ -2432,7 +2432,7 @@
     "max_freq": "3.0 GHz",
     "gpu": "Mali-G77 MC9 @ 886 MHz (510.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8050"
@@ -2445,7 +2445,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "3.00 GHz",
     "gpu": "Mali-G77 MC9 @ 886 MHz (510.3 GFLOPS in FP32)",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8050 [ 113 ] (Dimensity 1300 renamed)",
@@ -2466,7 +2466,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "Mali-G57 MC2 @ 1068 MHz (136.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 810"
@@ -2480,7 +2480,7 @@
     "process": "6 nm",
     "max_freq": "1.07 GHz",
     "gpu": "Mali-G57 MC2 @ 1068 MHz (136.7 GFLOPS in FP32)",
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 810 [ 70 ] (MT6833P MT6833GP MT6833V/PNZA)",
@@ -2508,7 +2508,7 @@
     "aliases": [
       "Dimensity 8100 (MT6895)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2524,7 +2524,7 @@
     "gpu": "LPDDR5 quad-channel 16-bit (64-bit) 3200 MHz (51.2 GB/s)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 860,
@@ -2545,7 +2545,7 @@
     "aliases": [
       "Dimensity 820 (MT6875)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2559,7 +2559,7 @@
     "process": "7 nm",
     "max_freq": "900 MHz",
     "gpu": "Mediatek APU 3.0 (4 cores) 2.4 TOPS",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
@@ -2579,7 +2579,7 @@
     "aliases": [
       "Dimensity 8200 (MT6896)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2593,7 +2593,7 @@
     "process": "4 nm",
     "max_freq": "950 MHz",
     "gpu": "MediaTek Imagiq 785 Photo: 320 MP, 32 MP + 32 MP + 32 MP Video: 4K60 HDR",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 950,
@@ -2606,7 +2606,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MT6896",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2623,7 +2623,7 @@
     "aliases": [
       "Dimensity 8300 (MT6897)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2637,7 +2637,7 @@
     "process": "4 nm",
     "max_freq": "3.35 GHz",
     "gpu": "Mali-G615 MC6 @ 1400 MHz (2150.4 GFLOPS in FP32)",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2661,7 +2661,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MT6897",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2677,7 +2677,7 @@
     "aliases": [
       "Dimensity 8400 (MT6899)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2690,7 +2690,7 @@
     "model": "MT6899",
     "max_freq": "1.30 GHz",
     "gpu": "MediaTek NPU 880",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1300,
@@ -2707,7 +2707,7 @@
     "aliases": [
       "Dimensity 8450 (MT6899Z_D/ZA) (Dimensity 8450 [ 124 ] (MT6899Z_D/ZA))"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2719,7 +2719,7 @@
     "max_freq": "3.4 GHz",
     "gpu": "Mali-G720 MC8 @ 1508 MHz (3088.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8500"
@@ -2732,7 +2732,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "3.40 GHz",
     "gpu": "Mali-G720 MC8 @ 1508 MHz (3088.4 GFLOPS in FP32)",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 8500 [ 125 ] (MT6899Z_A/TZA)",
@@ -2754,7 +2754,7 @@
     "aliases": [
       "Dimensity 8550 (Dimensity 8550 [ 127 ])"
     ],
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2773,7 +2773,7 @@
     "aliases": [
       "Dimensity 900 (MT6877)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2789,7 +2789,7 @@
     "gpu": "Mali-G68 MC4 @ 900 MHz (230.4 GFLOPS in FP32)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4898,
+    "completeness": 0.48,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -2815,7 +2815,7 @@
     "aliases": [
       "Dimensity 9000 (MT6983)"
     ],
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2831,7 +2831,7 @@
     "gpu": "Mali-G710 MC10 @ 848 MHz (1085.4 GFLOPS in FP32)",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2860,7 +2860,7 @@
     "aliases": [
       "Dimensity 9000+ (MT6983)"
     ],
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2875,7 +2875,7 @@
     "gpu": "Mali-G710 MC10 @ 848 or 950 MHz (1085.4 or 1216 GFLOPS in FP32)",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.4184,
+    "completeness": 0.41,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2897,7 +2897,7 @@
     "aliases": [
       "Dimensity 920 (MT6877)"
     ],
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2912,7 +2912,7 @@
     "gpu": "Mali-G68 MC4 @ 950 MHz (243.2 GFLOPS in FP32)",
     "process_nm": 6,
     "process_name": "6nm",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -2933,7 +2933,7 @@
     "aliases": [
       "Dimensity 9200 (MT6985)"
     ],
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2948,7 +2948,7 @@
     "max_freq": "981 MHz",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 981,
@@ -2970,7 +2970,7 @@
     "aliases": [
       "Dimensity 9200+ (MT6985)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -2984,7 +2984,7 @@
     "max_freq": "3.35 GHz",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3003,7 +3003,7 @@
     "aliases": [
       "Dimensity 930 (MT6855)"
     ],
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3015,7 +3015,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT6855",
     "max_freq": "2.20 GHz",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3035,7 +3035,7 @@
     "aliases": [
       "Dimensity 9300 (MT6989)"
     ],
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3048,7 +3048,7 @@
     "model": "MT6989",
     "process": "4 nm",
     "max_freq": "3.25 GHz",
-    "completeness": 0.5306,
+    "completeness": 0.52,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3077,7 +3077,7 @@
     "aliases": [
       "Dimensity 9300+ (MT6989)"
     ],
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3089,7 +3089,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT6989",
     "max_freq": "3.40 GHz",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3111,7 +3111,7 @@
     "aliases": [
       "Dimensity 9400 (MT6991)"
     ],
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3126,7 +3126,7 @@
     "max_freq": "1.61 GHz",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.4388,
+    "completeness": 0.43,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1612,
@@ -3148,7 +3148,7 @@
     "aliases": [
       "Dimensity 9400+ (MT6991)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3162,7 +3162,7 @@
     "max_freq": "3.73 GHz",
     "process_nm": 4,
     "process_name": "4nm",
-    "completeness": 0.3878,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3177,7 +3177,7 @@
     "cores": 5,
     "max_freq": "6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 9400e"
@@ -3189,7 +3189,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "6.00 GHz",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 9400e [ 141 ] (MT6989T_e)",
@@ -3212,7 +3212,7 @@
     "aliases": [
       "Dimensity 9500 (MT6993)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3226,7 +3226,7 @@
     "process": "3 nm",
     "max_freq": "4.21 GHz",
     "gpu": "Mali G1-Ultra MC12 @ 1716 MHz (5271.6 GFLOPS in FP32)",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3245,7 +3245,7 @@
     "max_freq": "1612 MHz",
     "cores": 3,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 9500s"
@@ -3257,7 +3257,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.61 GHz",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Dimensity 9500s [ 148 ] (MT6991Z/SCZB MT6991Z/ECZB)",
@@ -3281,7 +3281,7 @@
     "aliases": [
       "Genio 1200 (MT8395)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3298,7 +3298,7 @@
     "aliases": [
       "Genio 350 (MT8365)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3315,7 +3315,7 @@
     "aliases": [
       "Genio 500 (MT8385)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3332,7 +3332,7 @@
     "aliases": [
       "Genio 510 (MT8370)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3348,7 +3348,7 @@
     "aliases": [
       "Genio 700 (MT8390)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3360,7 +3360,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-G57 MC5 @ ? MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 1200"
@@ -3373,7 +3373,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.60 GHz",
     "gpu": "Wi-Fi 5 (ac), Bluetooth, GPS",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 1200 [ 185 ] (MT8195GV)",
@@ -3396,7 +3396,7 @@
     "aliases": [
       "Kompanio 1300T (MT8797)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3409,7 +3409,7 @@
     "model": "MT8797",
     "max_freq": "2.60 GHz",
     "gpu": "Q3 2021",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -3424,7 +3424,7 @@
     "max_freq": "3.0 GHz",
     "gpu": "Mali-G57 MC5 @ ? MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 1380"
@@ -3437,7 +3437,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "3.00 GHz",
     "gpu": "Q1 2022",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 1380 [ 187 ] (MT8195TV)",
@@ -3457,7 +3457,7 @@
     "process": "12 nm",
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G72 MP3 @ 800 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 500"
@@ -3471,7 +3471,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G72 MP3 @ 800 MHz",
-    "completeness": 0.4592,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 500 [ 174 ] (MT8183V) [ 175 ] (prev. Helio P60T ) [ 176 ]",
@@ -3495,7 +3495,7 @@
     "process": "12 nm",
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MC2 @ ? MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 520"
@@ -3509,7 +3509,7 @@
     "process": "12 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G52 MC2 @ ? MHz",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 520 [ 177 ] (MT8186GV)",
@@ -3537,7 +3537,7 @@
     "aliases": [
       "Kompanio 528 (MT8186TV) (Kompanio 528 [ 178 ] (MT8186TV))"
     ],
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3550,7 +3550,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "LPDDR5 @ 6400 MT/s LPDDR4X @ 4266 MT/s",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 540 [ 179 ]",
@@ -3571,7 +3571,7 @@
     "aliases": [
       "Kompanio 800T (MT8771)"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3585,7 +3585,7 @@
     "process": "6 nm",
     "max_freq": "2.4 GHz",
     "gpu": "LPDDR4X @ 4266 MT/s",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3598,7 +3598,7 @@
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G57 MC5 @ ?MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 820"
@@ -3612,7 +3612,7 @@
     "process": "7 nm",
     "max_freq": "2.2 GHz",
     "gpu": "LPDDR4X",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 820 [ 181 ] (MT8192V)",
@@ -3634,7 +3634,7 @@
     "aliases": [
       "Kompanio 828 (MT8192T) (Kompanio 828 [ 182 ] (MT8192T))"
     ],
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3647,7 +3647,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-G57 MC3 @ ? MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 838"
@@ -3661,7 +3661,7 @@
     "process": "6 nm",
     "max_freq": "2.6 GHz",
     "gpu": "LPDDR4X @ 3733 MT/s DDR4 @ 3200 MT/s",
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio 838 [ 183 ] (MT8188GV)",
@@ -3681,7 +3681,7 @@
     "aliases": [
       "Kompanio 900T (MT8791)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3694,7 +3694,7 @@
     "model": "MT8791",
     "max_freq": "2.40 GHz",
     "gpu": "Wi-Fi 6 (ax), Bluetooth 5.2, GPS",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3709,7 +3709,7 @@
     "architecture": "ARMv8.2-A",
     "process": "3 nm",
     "max_freq": "3.62 GHz",
-    "completeness": 0.5102,
+    "completeness": 0.51,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kompanio Ultra 910 [ 188 ]",
@@ -3736,7 +3736,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "260 MHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3748,7 +3748,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT2502",
     "max_freq": "260 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 260,
@@ -3761,7 +3761,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "208 MHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT2523D"
@@ -3773,7 +3773,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "208 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT2523D (now managed and sold to Airoha)",
@@ -3786,7 +3786,7 @@
     "vendor": "MediaTek",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT2523G"
@@ -3797,7 +3797,7 @@
     "vendor": "MediaTek",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT2523G (now managed and sold to Airoha)",
@@ -3812,7 +3812,7 @@
     "architecture": "ARMv7-A",
     "process": "28 nm",
     "max_freq": "1.2 GHz",
-    "completeness": 0.2959,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3825,7 +3825,7 @@
     "model": "MT2601",
     "process": "28 nm",
     "max_freq": "1.20 GHz",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -3841,7 +3841,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "260 MHz",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 260,
@@ -3856,7 +3856,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "104 MHz",
-    "completeness": 0.3469,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 104,
@@ -3870,7 +3870,7 @@
     "model": "MT3303",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3882,7 +3882,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "158 MHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3894,7 +3894,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT3332",
     "max_freq": "158 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 158,
@@ -3908,7 +3908,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "98 MHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3920,7 +3920,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT3336",
     "max_freq": "98 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 98,
@@ -3934,7 +3934,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "98 MHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -3946,7 +3946,7 @@
     "architecture": "ARMv8.2-A",
     "model": "MT3339",
     "max_freq": "98 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 98,
@@ -3960,7 +3960,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "500 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 200,
@@ -3974,7 +3974,7 @@
     "cores": 8,
     "max_freq": "1.20 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.398,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -3993,7 +3993,7 @@
     "gpu": "Mali-T624 MP4",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 700,
@@ -4007,7 +4007,7 @@
     "model": "MT5366",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "MPEG1/2/4, H.264, VC-1, RMVB, AVS"
@@ -4019,7 +4019,7 @@
     "model": "MT5389",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "MPEG1/2/4, H.264, VC-1, RMVB, AVS, VP8"
@@ -4031,7 +4031,7 @@
     "model": "MT5395",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "MPEG1/2/4, H.264, VC-1, RMVB, AVS"
@@ -4044,7 +4044,7 @@
     "cores": 8,
     "max_freq": "900 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
@@ -4058,7 +4058,7 @@
     "model": "MT5398",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "MPEG-1/2/4, H.264, VC-1, RMVB, AVS, VP8",
@@ -4072,7 +4072,7 @@
     "cores": 8,
     "gpu": "TCON, HDMI 1.4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "Smart 3D TV"
@@ -4085,7 +4085,7 @@
     "cores": 8,
     "max_freq": "700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 700,
@@ -4100,7 +4100,7 @@
     "cores": 8,
     "max_freq": "800 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -4114,7 +4114,7 @@
     "model": "MT5582",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.29,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "H.265, HEVC, VP-9"
@@ -4127,7 +4127,7 @@
     "cores": 8,
     "max_freq": "1.00 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -4142,7 +4142,7 @@
     "cores": 8,
     "gpu": "Mali-T6xx [ 224 ]",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "video_decode": "4K HEVC/VP9 @ 60 fps"
@@ -4156,7 +4156,7 @@
     "gpu": "Mali-T860 MP2",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3878,
+    "completeness": 0.39,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1100,
@@ -4172,7 +4172,7 @@
     "max_freq": "1.00 GHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3367,
+    "completeness": 0.34,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -4186,7 +4186,7 @@
     "model": "MT6205",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4198,7 +4198,7 @@
     "gpu": "No GPU",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4209,7 +4209,7 @@
     "model": "MT6217",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4220,7 +4220,7 @@
     "cores": 8,
     "max_freq": "52 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6218B",
@@ -4233,7 +4233,7 @@
     "model": "MT6219",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4244,7 +4244,7 @@
     "model": "MT6223",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4255,7 +4255,7 @@
     "model": "MT6225",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4267,7 +4267,7 @@
     "cores": 8,
     "max_freq": "52 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "2003"
@@ -4279,7 +4279,7 @@
     "model": "MT6227",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4290,7 +4290,7 @@
     "model": "MT6228",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4302,7 +4302,7 @@
     "cores": 8,
     "max_freq": "104 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4313,7 +4313,7 @@
     "model": "MT6230",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4325,7 +4325,7 @@
     "cores": 8,
     "max_freq": "208 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 208,
@@ -4340,7 +4340,7 @@
     "max_freq": "312 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "2007"
@@ -4353,7 +4353,7 @@
     "cores": 8,
     "max_freq": "104 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 104,
@@ -4367,7 +4367,7 @@
     "model": "MT6253",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4379,7 +4379,7 @@
     "process": "65 nm",
     "max_freq": "520 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6276M",
@@ -4395,7 +4395,7 @@
     "model": "MT6280",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4409,7 +4409,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX531 @ 281 MHz (2.2 GFLOPS in FP32) [ 2 ]",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 281,
@@ -4425,7 +4425,7 @@
     "process": "40 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32) [ 2 ]",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4446,7 +4446,7 @@
     "process": "65 nm",
     "max_freq": "416 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 416,
@@ -4464,7 +4464,7 @@
     "process": "40 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR SGX531 Ultra @ 522 MHz (4.1 GFLOPS in FP32) [ 2 ]",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4483,7 +4483,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6517T",
@@ -4500,7 +4500,7 @@
     "max_freq": "500 MHz",
     "gpu": "GSM/EDGE (2G), Multi-mode Rel.8 HSPA+/TD-SCDMA (3G), Wi-Fi, FM, Bluetooth, GPS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 500,
@@ -4513,7 +4513,7 @@
     "model": "MT6571",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4525,7 +4525,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4539,7 +4539,7 @@
     "max_freq": "1 MHz",
     "gpu": "Mali-400 MP1 @ 400 MHz (3.6 GFLOPS in FP32) [ 2 ]",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6572M [ 13 ]",
@@ -4556,7 +4556,7 @@
     "model": "MT6573",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4568,7 +4568,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4582,7 +4582,7 @@
     "max_freq": "281 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "2012",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6575M [ 6 ]",
@@ -4600,7 +4600,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4613,7 +4613,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6577T",
@@ -4630,7 +4630,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32) [ 2 ]",
-    "completeness": 0.4694,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4652,7 +4652,7 @@
     "max_freq": "500 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 500,
@@ -4666,7 +4666,7 @@
     "max_freq": "400 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6582M",
@@ -4683,7 +4683,7 @@
     "max_freq": "600 MHz",
     "gpu": "R8 HSPA+/TD-SCDMA, Wi-Fi, FM, Bluetooth, GPS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 600,
@@ -4698,7 +4698,7 @@
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544MP @ 266 MHz (8.5 GFLOPS in FP32) [ 17 ]",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4712,7 +4712,7 @@
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "Q2 2013",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6589M [ 16 ]",
@@ -4730,7 +4730,7 @@
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544MP @ 357 MHz (11.4 GFLOPS in FP32) [ 17 ]",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6589T [ 19 ]",
@@ -4750,7 +4750,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32) [ 2 ]",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4770,7 +4770,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Mali-450 MP4 @ 700 MHz (42 GFLOPS in FP32) [ 2 ]",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -4783,7 +4783,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6592M [ 21 ]",
@@ -4803,7 +4803,7 @@
     "max_freq": "1.70 GHz",
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR G6200 @ 600 MHz (76.8 GFLOPS in FP32)",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2,
@@ -4817,7 +4817,7 @@
     "max_freq": "1.50 GHz",
     "architecture": "ARMv8.2-A",
     "gpu": "WCDMA, TD-SCDMA, GSM, FDD/TDD-LTE, CMCC 3G, CMCC 4G, TD-LTE",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6595M [ 24 ]",
@@ -4837,7 +4837,7 @@
     "process": "28 nm",
     "max_freq": "1 MHz",
     "gpu": "PowerVR GE8100 @ 350 MHz (5.6 GFLOPS in FP32)",
-    "completeness": 0.449,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4857,7 +4857,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4871,7 +4871,7 @@
     "max_freq": "1 MHz",
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, LTE Cat 4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6732M [ 31 ]",
@@ -4890,7 +4890,7 @@
     "max_freq": "1 MHz",
     "gpu": "Mali-T720 MP2 @ 600 MHz [ 30 ] (24 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -4909,7 +4909,7 @@
     "aliases": [
       "MT6735M (MT6735M [ 28 ] [ 29 ])"
     ],
-    "completeness": 0.3367,
+    "completeness": 0.33,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -4921,7 +4921,7 @@
     "max_freq": "1 MHz",
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, EVDO, LTE Cat 4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6735P [ 28 ] [ 29 ]",
@@ -4940,7 +4940,7 @@
     "max_freq": "1.30 GHz",
     "gpu": "Q2 2016",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1300,
@@ -4954,7 +4954,7 @@
     "max_freq": "1 MHz",
     "gpu": "Q2 2016",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6737T [ 28 ] [ 29 ]",
@@ -4973,7 +4973,7 @@
     "max_freq": "350 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 350,
@@ -4987,7 +4987,7 @@
     "max_freq": "520 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.36,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6738T [ 28 ] [ 29 ]",
@@ -5006,7 +5006,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Q4 2017",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 570,
@@ -5022,7 +5022,7 @@
     "process": "28 nm",
     "max_freq": "1.00 GHz",
     "gpu": "Mali-T860 MP2 @ 520 MHz [ 34 ] [ 35 ] (29.1 GFLOPS in FP32)",
-    "completeness": 0.4694,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -5042,7 +5042,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MT6750N",
-    "completeness": 0.2755,
+    "completeness": 0.27,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5053,7 +5053,7 @@
     "gpu": "Mali-T860 MP2",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3163,
+    "completeness": 0.31,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6750S [ 37 ]",
@@ -5069,7 +5069,7 @@
     "max_freq": "1.00 GHz",
     "gpu": "GSM, UMTS, GPRS, TD-SCDMA, HSPA+, HSUPA, CDMA2000 1x/EVDO Rev. A, Cat 6 FDD/TD-LTE w/ 20+20 CA, VoLTE",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6750T",
@@ -5084,7 +5084,7 @@
     "cores": 8,
     "max_freq": "1 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -5098,7 +5098,7 @@
     "max_freq": "1 MHz",
     "gpu": "GSM, UMTS, GPRS, HSPA+, HSUPA, TD-SCDMA, LTE Cat 4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT6752M",
@@ -5114,7 +5114,7 @@
     "max_freq": "1.30 GHz",
     "gpu": "GSM, UMTS, GPRS, TD-SCDMA, HSPA+, HSUPA, CDMA2000 1x/EVDO Rev. A, Cat 4 FDD/TD-LTE",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1,
@@ -5128,7 +5128,7 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5141,7 +5141,7 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5153,7 +5153,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT7988A Filogic 880 [ 242 ] [ 243 ]",
@@ -5171,7 +5171,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT7988D Filogic 860 [ 240 ] [ 241 ]",
@@ -5190,7 +5190,7 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5203,7 +5203,7 @@
     "cores": 8,
     "max_freq": "160 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5216,7 +5216,7 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5229,7 +5229,7 @@
     "cores": 8,
     "max_freq": "320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3061,
+    "completeness": 0.3,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "No"
@@ -5241,7 +5241,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT8362A"
@@ -5253,7 +5253,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.50 GHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT8362A (i300A)",
@@ -5267,7 +5267,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.2857,
+    "completeness": 0.28,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT8362B"
@@ -5279,7 +5279,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.30 GHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MT8362B (i300B)",
@@ -5294,7 +5294,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -5309,7 +5309,7 @@
     "gpu": "Mali-G52 3EE MC1",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1500,
@@ -5325,7 +5325,7 @@
     "gpu": "Mali-G52 2EE MC1",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3673,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1500,
@@ -5340,7 +5340,7 @@
     "max_freq": "1.50 GHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1500,
@@ -5354,7 +5354,7 @@
     "max_freq": "1.40 GHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3571,
+    "completeness": 0.35,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -5370,7 +5370,7 @@
     "gpu": "Mali-G52 2EE MC2 @ 800 MHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3776,
+    "completeness": 0.38,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5390,7 +5390,7 @@
     "aliases": [
       "Pentonic 1000 (MT9972)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5403,7 +5403,7 @@
     "model": "MT9972",
     "max_freq": "2.00 GHz",
     "gpu": "Mali-G57 MC2 @ 800 MHz",
-    "completeness": 0.449,
+    "completeness": 0.45,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -5428,7 +5428,7 @@
     "aliases": [
       "Pentonic 2000 (MT9902)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5441,7 +5441,7 @@
     "model": "MT9902",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-G57 MC3 @ 1.0 GHz",
-    "completeness": 0.4592,
+    "completeness": 0.46,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5466,7 +5466,7 @@
     "aliases": [
       "Pentonic 700 (MT9618)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5479,7 +5479,7 @@
     "model": "MT9618",
     "max_freq": "1.40 GHz",
     "gpu": "Mali-G52 MC1 @ ? MHz",
-    "completeness": 0.3673,
+    "completeness": 0.37,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -5498,7 +5498,7 @@
     "aliases": [
       "Pentonic 800 (MT9655)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5511,7 +5511,7 @@
     "model": "MT9655",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-G57 MC1 @ ? MHz",
-    "completeness": 0.4388,
+    "completeness": 0.44,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5535,7 +5535,7 @@
     "aliases": [
       "Pentonic 900 (MT9950)"
     ],
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -5548,7 +5548,7 @@
     "model": "MT9950",
     "max_freq": "1.80 GHz",
     "gpu": "Mali-G52 MC2 @ 800 MHz",
-    "completeness": 0.4082,
+    "completeness": 0.4,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -5566,7 +5566,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "3Q 2013",
     "max_freq": "522 MHz",
-    "completeness": 0.3265,
+    "completeness": 0.32,
     "sources": {},
     "updated": "2026-06-21",
     "model": "1.2 GHz dual-core ARM Cortex-A9",

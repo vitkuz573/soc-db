@@ -1,13 +1,19 @@
-.PHONY: validate scrape enrich server docker-build docker-run cli clean
+.PHONY: validate scrape enrich pipeline server docker-build docker-run cli clean
 
 validate:
 	python3 tests/validate.py
 
 scrape:
-	bash scripts/run_all.sh 2>/dev/null || echo "No run_all.sh found"
+	python3 scripts/scraper_wikipedia.py
+
+scrape-apple:
+	python3 scripts/scraper_apple.py
 
 enrich:
 	python3 scripts/migrate.py
+
+pipeline:
+	python3 scripts/pipeline.py
 
 server:
 	uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
