@@ -6,7 +6,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom 230"
@@ -18,7 +18,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom 330"
@@ -30,12 +30,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.25 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2308",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2316",
@@ -44,12 +45,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2316",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2338",
@@ -58,12 +60,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2338",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2350",
@@ -72,12 +75,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2350",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2358",
@@ -86,12 +90,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2358",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2508",
@@ -100,12 +105,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.25 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2508",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2516",
@@ -114,12 +120,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2516",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2518",
@@ -128,12 +135,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.70 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2518",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2530",
@@ -142,12 +150,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2530",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2538",
@@ -156,12 +165,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.40 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2538",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2550",
@@ -170,12 +180,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2550",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2558",
@@ -184,12 +195,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2558",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2718",
@@ -198,12 +210,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2718",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2730",
@@ -212,12 +225,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2730",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2738",
@@ -226,12 +240,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2738",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2750",
@@ -240,12 +255,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2750",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c2758",
@@ -254,12 +270,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C2758",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_c3308",
@@ -268,12 +285,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3308",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3336",
@@ -282,12 +300,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3336",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3338",
@@ -296,12 +315,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3338",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3338r",
@@ -310,12 +330,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3338R",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3436l",
@@ -324,12 +345,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3436L",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3508",
@@ -338,12 +360,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3508",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3538",
@@ -352,12 +375,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3538",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3558",
@@ -366,12 +390,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3558",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3558r",
@@ -380,12 +405,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3558R",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3708",
@@ -394,12 +420,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.7 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3708",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3750",
@@ -408,12 +435,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3750",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3758",
@@ -422,12 +450,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3758",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3758r",
@@ -436,12 +465,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3758R",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3808",
@@ -450,12 +480,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3808",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3830",
@@ -464,12 +495,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.3 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3830",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3850",
@@ -478,12 +510,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3850",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3858",
@@ -492,12 +525,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3858",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3950",
@@ -506,12 +540,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3950",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3955",
@@ -520,12 +555,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3955",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c3958",
@@ -534,12 +570,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C3958",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5115",
@@ -548,12 +585,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.8 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5115",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5125",
@@ -562,12 +600,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.8 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5125",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5310",
@@ -576,12 +615,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5310",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5315",
@@ -590,12 +630,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5315",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5320",
@@ -604,12 +645,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5320",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_c5325",
@@ -618,12 +660,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.4 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom C5325",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_ce4105",
@@ -632,7 +675,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4105",
@@ -646,7 +689,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4110",
@@ -660,7 +703,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4130",
@@ -674,7 +717,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4150",
@@ -688,7 +731,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4157",
@@ -702,7 +745,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4160",
@@ -716,7 +759,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4170",
@@ -730,7 +773,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4177",
@@ -744,7 +787,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4215",
@@ -757,7 +800,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4235",
@@ -770,7 +813,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4253",
@@ -784,7 +827,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4255",
@@ -797,7 +840,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4257",
@@ -810,7 +853,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4270",
@@ -823,7 +866,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4275",
@@ -836,7 +879,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE4277",
@@ -849,12 +892,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5310",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5315",
@@ -863,12 +907,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5315",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5318",
@@ -877,12 +922,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5318",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5320",
@@ -891,12 +937,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5320",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5328",
@@ -905,12 +952,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1200 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5328",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5335",
@@ -919,12 +967,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1600 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5335",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5338",
@@ -933,12 +982,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1800 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5338",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5343",
@@ -947,12 +997,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1800 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5343",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_ce5348",
@@ -961,12 +1012,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1800 MHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom CE5348",
     "gpu": "? MHz",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d2500",
@@ -975,13 +1027,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2500",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d2550",
@@ -990,13 +1043,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2550",
     "gpu": "640 MHz",
     "gpu_clock": 640,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d2560",
@@ -1005,13 +1059,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2560",
     "gpu": "640 MHz",
     "gpu_clock": 640,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d2700",
@@ -1020,13 +1075,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2700",
     "gpu": "640 MHz",
     "gpu_clock": 640,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d2701",
@@ -1035,7 +1091,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D2701 [ 3 ]",
@@ -1044,7 +1100,8 @@
     "memory_type": "DDR3",
     "aliases": [
       "Atom D2701 (Atom D2701 [ 3 ])"
-    ]
+    ],
+    "memory_clock": 1333
   },
   {
     "id": "atom_d410",
@@ -1053,7 +1110,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D410",
@@ -1067,13 +1124,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D425",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_d510",
@@ -1082,7 +1140,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D510",
@@ -1096,13 +1154,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom D525",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3805",
@@ -1111,12 +1170,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3805",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3815",
@@ -1125,13 +1185,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3815",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3825",
@@ -1140,13 +1201,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3825",
     "gpu": "533 MHz",
     "gpu_clock": 533,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3826",
@@ -1155,13 +1217,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3826",
     "gpu": "533-667 MHz",
     "gpu_clock": 667,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3827",
@@ -1170,13 +1233,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.75 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3827",
     "gpu": "542-792 MHz",
     "gpu_clock": 792,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e3845",
@@ -1185,13 +1249,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.91 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E3845",
     "gpu": "542-792 MHz",
     "gpu_clock": 792,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_e620",
@@ -1200,7 +1265,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E620",
@@ -1214,7 +1279,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E620T",
@@ -1228,7 +1293,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E625C",
@@ -1242,7 +1307,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "600 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E625CT",
@@ -1256,7 +1321,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E640",
@@ -1270,7 +1335,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E640T",
@@ -1284,7 +1349,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E645C",
@@ -1298,7 +1363,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E645CT",
@@ -1312,7 +1377,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E660",
@@ -1326,7 +1391,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E660T",
@@ -1340,7 +1405,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E665C",
@@ -1354,7 +1419,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E665CT",
@@ -1368,7 +1433,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E680",
@@ -1382,7 +1447,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom E680T",
@@ -1396,13 +1461,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N2100",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n2600",
@@ -1411,13 +1477,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N2600",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n270",
@@ -1426,7 +1493,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N270"
@@ -1438,7 +1505,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N280"
@@ -1450,13 +1517,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N2800",
     "gpu": "640 MHz",
     "gpu_clock": 640,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n435",
@@ -1465,13 +1533,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N435",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n450",
@@ -1480,7 +1549,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N450",
@@ -1494,13 +1563,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N455",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n470",
@@ -1509,7 +1579,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N470",
@@ -1523,13 +1593,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N475",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n550",
@@ -1538,13 +1609,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N550",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_n570",
@@ -1553,13 +1625,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.67 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom N570",
     "gpu": "200 MHz",
     "gpu_clock": 200,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_p5322",
@@ -1568,12 +1641,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5322",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5332",
@@ -1582,12 +1656,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5332",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5342",
@@ -1596,12 +1671,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5342",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5352",
@@ -1610,12 +1686,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5352",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5362",
@@ -1624,12 +1701,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5362",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5721",
@@ -1638,12 +1716,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5721",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5731",
@@ -1652,12 +1731,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5731",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5742",
@@ -1666,12 +1746,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5742",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5752",
@@ -1680,12 +1761,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5752",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5921b",
@@ -1694,12 +1776,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5921B",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5931b",
@@ -1708,12 +1791,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5931B",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5942b",
@@ -1722,12 +1806,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5942B",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_p5962b",
@@ -1736,12 +1821,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.2 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom P5962B",
     "gpu": "— N/a",
-    "memory_type": "DDR4"
+    "memory_type": "DDR4",
+    "memory_clock": 2400
   },
   {
     "id": "atom_s1220",
@@ -1750,12 +1836,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1220",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_s1240",
@@ -1764,12 +1851,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1240",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_s1260",
@@ -1778,12 +1866,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1260",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_s1269",
@@ -1792,12 +1881,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1269",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_s1279",
@@ -1806,12 +1896,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1279",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_s1289",
@@ -1820,12 +1911,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3398,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom S1289",
     "gpu": "— N/a",
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z2420",
@@ -1834,7 +1926,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2420",
@@ -1848,7 +1940,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2460",
@@ -1862,7 +1954,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2480",
@@ -1876,7 +1968,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2520",
@@ -1890,7 +1982,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2560",
@@ -1904,7 +1996,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2580",
@@ -1918,7 +2010,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2610",
@@ -1932,7 +2024,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.8 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z2760",
@@ -1946,13 +2038,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3460",
     "gpu": "400-457 MHz",
     "gpu_clock": 457,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3480",
@@ -1961,13 +2054,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3480",
     "gpu": "457-533 MHz",
     "gpu_clock": 533,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3530",
@@ -1976,13 +2070,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3530",
     "gpu": "457 MHz",
     "gpu_clock": 457,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3560",
@@ -1991,13 +2086,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.83 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3560",
     "gpu": "457–533 MHz",
     "gpu_clock": 533,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3570",
@@ -2006,13 +2102,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.00 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3570",
     "gpu": "457–640 MHz",
     "gpu_clock": 640,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3580",
@@ -2021,13 +2118,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3580",
     "gpu": "457–533 MHz",
     "gpu_clock": 533,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3590",
@@ -2036,13 +2134,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.50 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3590",
     "gpu": "457-640 MHz",
     "gpu_clock": 640,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3680",
@@ -2051,13 +2150,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3680",
     "gpu": "311-667 MHz",
     "gpu_clock": 667,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3680d",
@@ -2066,13 +2166,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3680D",
     "gpu": "313-688 MHz",
     "gpu_clock": 688,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3735d",
@@ -2081,14 +2182,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735D",
     "gpu": "311-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 64
+    "memory_bus": 64,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3735e",
@@ -2097,14 +2199,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735E",
     "gpu": "311-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 32
+    "memory_bus": 32,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3735f",
@@ -2113,14 +2216,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735F",
     "gpu": "311-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 64
+    "memory_bus": 64,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3735g",
@@ -2129,14 +2233,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3735G",
     "gpu": "311-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 32
+    "memory_bus": 32,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3736f",
@@ -2145,14 +2250,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3736F",
     "gpu": "313-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 64
+    "memory_bus": 64,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3736g",
@@ -2161,14 +2267,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.35,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3736G",
     "gpu": "313-646 MHz",
     "gpu_clock": 646,
     "memory_type": "DDR3",
-    "memory_bus": 32
+    "memory_bus": 32,
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3740",
@@ -2177,13 +2284,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3740",
     "gpu": "311-667 MHz",
     "gpu_clock": 667,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3740d",
@@ -2192,13 +2300,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3740D",
     "gpu": "313-688 MHz",
     "gpu_clock": 688,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3745",
@@ -2207,13 +2316,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3745",
     "gpu": "311-778 MHz",
     "gpu_clock": 778,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3745d",
@@ -2222,13 +2332,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3745D",
     "gpu": "311-792 MHz",
     "gpu_clock": 792,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3770",
@@ -2237,13 +2348,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3770",
     "gpu": "311-667 MHz",
     "gpu_clock": 667,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3770d",
@@ -2252,13 +2364,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.50 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3770D",
     "gpu": "313-688 MHz",
     "gpu_clock": 688,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3775",
@@ -2267,13 +2380,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.46 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3775",
     "gpu": "311-778 MHz",
     "gpu_clock": 778,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3775d",
@@ -2282,13 +2396,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.49 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3775D",
     "gpu": "311-792 MHz",
     "gpu_clock": 792,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_z3785",
@@ -2297,13 +2412,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.49 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3785",
     "gpu": "313-833 MHz",
     "gpu_clock": 833,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z3795",
@@ -2312,13 +2428,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.59 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z3795",
     "gpu": "311-778 MHz",
     "gpu_clock": 778,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_z500",
@@ -2327,7 +2444,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z500"
@@ -2339,7 +2456,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510"
@@ -2351,7 +2468,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510P"
@@ -2363,7 +2480,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z510PT"
@@ -2375,7 +2492,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z515"
@@ -2387,7 +2504,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z520"
@@ -2399,7 +2516,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.33 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z520PT"
@@ -2411,7 +2528,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z530"
@@ -2423,7 +2540,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z530P"
@@ -2435,7 +2552,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.87 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z540"
@@ -2447,7 +2564,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z550"
@@ -2459,7 +2576,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.13 GHz",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z560"
@@ -2471,7 +2588,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z600",
@@ -2485,7 +2602,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1 GHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z605",
@@ -2498,7 +2615,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z610",
@@ -2511,7 +2628,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "900 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z612",
@@ -2524,7 +2641,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z615",
@@ -2538,7 +2655,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "900 MHz",
-    "completeness": 0.31,
+    "completeness": 0.301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z620",
@@ -2551,7 +2668,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z625",
@@ -2565,7 +2682,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z650",
@@ -2579,7 +2696,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.32,
+    "completeness": 0.3107,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom Z670",
@@ -2594,7 +2711,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
     "gpu": "480 MHz",
-    "completeness": 0.34,
+    "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3130",
@@ -2609,13 +2726,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3200RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3205rk",
@@ -2625,13 +2743,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3205RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3230rk",
@@ -2641,13 +2760,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3230RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3235rk",
@@ -2657,13 +2777,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3235RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3265rk",
@@ -2673,13 +2794,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3265RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3295rk",
@@ -2689,13 +2811,14 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.1 GHz",
     "gpu": "600 MHz",
-    "completeness": 0.36,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3295RK",
     "gpu_clock": 600,
     "memory_type": "DDR3",
-    "wifi": "Wi-Fi"
+    "wifi": "Wi-Fi",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x3_c3405",
@@ -2705,7 +2828,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "456 MHz",
-    "completeness": 0.34,
+    "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3405",
@@ -2720,7 +2843,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "456 MHz",
-    "completeness": 0.34,
+    "completeness": 0.3301,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x3-C3445",
@@ -2734,13 +2857,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.3 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E3930",
     "gpu": "400–550 MHz",
     "gpu_clock": 550,
-    "memory_type": "LPDDR4"
+    "memory_type": "LPDDR4",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "atom_x5_e3940",
@@ -2749,13 +2874,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E3940",
     "gpu": "400–600 MHz",
     "gpu_clock": 600,
-    "memory_type": "LPDDR4"
+    "memory_type": "LPDDR4",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "atom_x5_e8000",
@@ -2764,13 +2891,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.04 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-E8000",
     "gpu": "320 MHz",
     "gpu_clock": 320,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x5_z8300",
@@ -2779,13 +2907,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8300",
     "gpu": "200-500 MHz",
     "gpu_clock": 500,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x5_z8330",
@@ -2794,13 +2923,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8330",
     "gpu": "200-500 MHz",
     "gpu_clock": 500,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x5_z8350",
@@ -2809,13 +2939,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8350",
     "gpu": "200-500 MHz",
     "gpu_clock": 500,
-    "memory_type": "DDR3"
+    "memory_type": "DDR3",
+    "memory_clock": 1333
   },
   {
     "id": "atom_x5_z8500",
@@ -2824,13 +2955,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8500",
     "gpu": "200-600 MHz",
     "gpu_clock": 600,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_x5_z8550",
@@ -2839,13 +2971,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.44 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x5-Z8550",
     "gpu": "200-600 MHz",
     "gpu_clock": 600,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_x6200fe",
@@ -2854,12 +2987,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
-    "completeness": 0.33,
+    "completeness": 0.3592,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6200FE",
     "gpu": "— N/a",
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6211e",
@@ -2868,13 +3003,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6211E",
     "gpu": "350–750 MHz",
     "gpu_clock": 750,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6212re",
@@ -2883,13 +3020,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6212RE",
     "gpu": "350 MHz",
     "gpu_clock": 350,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6413e",
@@ -2898,13 +3037,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6413E",
     "gpu": "500–750 MHz",
     "gpu_clock": 750,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6414re",
@@ -2913,13 +3054,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6414RE",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6425e",
@@ -2928,13 +3071,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.8 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6425E",
     "gpu": "500–750 MHz",
     "gpu_clock": 750,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6425re",
@@ -2943,13 +3088,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6425RE",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x6427fe",
@@ -2958,13 +3105,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x6427FE",
     "gpu": "400 MHz",
     "gpu_clock": 400,
-    "memory_type": "LPDDR4X"
+    "memory_type": "LPDDR4X",
+    "memory_clock": 2133,
+    "memory_bus": 64
   },
   {
     "id": "atom_x7_e3950",
@@ -2973,13 +3122,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.6 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-E3950",
     "gpu": "500–650 MHz",
     "gpu_clock": 650,
-    "memory_type": "LPDDR4"
+    "memory_type": "LPDDR4",
+    "memory_clock": 1600,
+    "memory_bus": 64
   },
   {
     "id": "atom_x7_z8700",
@@ -2988,13 +3139,14 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.60 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-Z8700",
     "gpu": "200-600 MHz",
     "gpu_clock": 600,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   },
   {
     "id": "atom_x7_z8750",
@@ -3003,12 +3155,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.60 GHz",
-    "completeness": 0.34,
+    "completeness": 0.3495,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Atom x7-Z8750",
     "gpu": "200-600 MHz",
     "gpu_clock": 600,
-    "memory_type": "LPDDR3"
+    "memory_type": "LPDDR3",
+    "memory_clock": 800
   }
 ]

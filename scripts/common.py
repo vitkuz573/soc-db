@@ -204,32 +204,144 @@ FIELD_GROUPS = {
 FIELD_WEIGHTS = {
     "name": 5, "vendor": 5, "model": 5, "architecture": 4, "cores": 4,
     "process_nm": 3, "gpu": 3, "memory_type": 2, "year": 3,
-    "clock_max": 3, "modem": 2, "npu": 2, "wifi": 2, "bluetooth": 2,
-    "display_max": 2, "camera_max": 2,
+    "clock_max": 3, "clock_min": 2, "modem": 2, "npu": 2,
+    "wifi": 2, "bluetooth": 2, "memory_clock": 2, "memory_bus": 2,
+    "display_max": 2, "camera_max": 2, "charging": 2,
+    "cluster_config": 2, "video_decode": 1, "storage_type": 1,
 }
 
 VENDOR_KNOWLEDGE = {
     "Qualcomm": {
         "architecture": "ARMv8",
         "process_map": {
-            "sm8750": 3, "sm8650": 4, "sm8550": 4, "sm8475": 4, "sm8450": 4,
-            "sm8350": 5, "sm8250": 7, "sm8150": 7, "sm7250": 8, "sm7150": 8,
-            "sm6350": 8, "sdm845": 10, "sdm835": 10, "sdm820": 14,
-            "sdm660": 14, "sdm636": 14, "sdm632": 14, "sdm630": 14, "sdm625": 14,
+            "sm8750": 3, "sm8735": 3, "sm8675": 3, "sm8650": 4, "sm8635": 4,
+            "sm8550": 4, "sm8475": 4, "sm8450": 4, "sm8350": 5, "sm8325": 5,
+            "sm8250": 7, "sm8150": 7, "sm7450": 8, "sm7350": 8, "sm7325": 8,
+            "sm7315": 8, "sm7275": 8, "sm7250": 8, "sm7225": 8, "sm7150": 8,
+            "sm7125": 8, "sm7115": 8, "sm6450": 4, "sm6375": 6, "sm6365": 8,
+            "sm6350": 8, "sm6250": 8, "sm6235": 8, "sm6225": 6, "sm6115": 11,
+            "sm4350": 8, "sm4325": 8, "sm4250": 11, "sm4125": 11,
+            "sdm9860": 7, "sdm985": 7, "sdm980": 7, "sdm875": 7,
+            "sdm865": 7, "sdm860": 7, "sdm855": 7, "sdm850": 10,
+            "sdm845": 10, "sdm840": 10, "sdm835": 10, "sdm830": 10,
+            "sdm820": 14, "sdm821": 14,
+            "sdm670": 10, "sdm665": 11, "sdm660": 14, "sdm650": 14,
+            "sdm636": 14, "sdm632": 14, "sdm630": 14, "sdm625": 14,
+            "sdm615": 28, "sdm610": 28, "sdm608": 28, "sdm600": 28,
+            "sdm450": 28, "sdm439": 28, "sdm435": 28, "sdm430": 28,
+            "sdm429": 28, "sdm425": 28, "sdm412": 28, "sdm410": 28,
             "msm8998": 10, "msm8996": 14, "msm8994": 20, "msm8992": 20,
-            "msm8940": 28, "msm8937": 28, "msm8917": 28,
+            "msm8953": 14, "msm8952": 28, "msm8940": 28, "msm8937": 28,
+            "msm8917": 28, "msm8909": 28,
+            "qcm6490": 6, "qcm5430": 6, "qcm4290": 8, "qcm2290": 11,
+            "qcs6490": 6, "qcs5430": 6, "qcs4290": 8, "qcs2290": 11,
+            "qcs410": 10, "qcs404": 28, "qcs603": 28, "qcs605": 14,
         },
         "gpu_map": {
-            "sm8750": "Adreno 830", "sm8650": "Adreno 750", "sm8550": "Adreno 740",
-            "sm8475": "Adreno 730", "sm8450": "Adreno 730", "sm8350": "Adreno 660",
+            "sm8750": "Adreno 830", "sm8735": "Adreno 830",
+            "sm8675": "Adreno 830", "sm8650": "Adreno 750",
+            "sm8635": "Adreno 750", "sm8550": "Adreno 740",
+            "sm8475": "Adreno 730", "sm8450": "Adreno 730",
+            "sm8350": "Adreno 660", "sm8325": "Adreno 660",
             "sm8250": "Adreno 650", "sm8150": "Adreno 640",
-            "sm7250": "Adreno 620", "sm7150": "Adreno 618",
+            "sm7250": "Adreno 620", "sm7225": "Adreno 619",
+            "sm7150": "Adreno 618", "sm7125": "Adreno 618",
+            "sm7115": "Adreno 618", "sm7350": "Adreno 619",
+            "sm7325": "Adreno 619", "sm7315": "Adreno 619",
+            "sm7275": "Adreno 619", "sm7450": "Adreno 620",
+            "sm6350": "Adreno 619", "sm6250": "Adreno 619",
+            "sm6225": "Adreno 619",             "sm6235": "Adreno 619",
+            "sm6450": "Adreno 643", "sm6375": "Adreno 643",
+            "sm6365": "Adreno 613", "sm6115": "Adreno 610",
+            "sm4350": "Adreno 619", "sm4325": "Adreno 619",
+            "sm4250": "Adreno 610", "sm4125": "Adreno 610",
+            "sdm865": "Adreno 650", "sdm860": "Adreno 650",
+            "sdm855": "Adreno 640", "sdm850": "Adreno 630",
+            "sdm845": "Adreno 630", "sdm840": "Adreno 630",
+            "sdm835": "Adreno 540", "sdm830": "Adreno 540",
+            "sdm820": "Adreno 530", "sdm821": "Adreno 530",
+            "sdm670": "Adreno 615", "sdm665": "Adreno 610",
+            "sdm660": "Adreno 512", "sdm650": "Adreno 510",
+            "sdm636": "Adreno 509", "sdm632": "Adreno 506",
+            "sdm630": "Adreno 508", "sdm625": "Adreno 506",
+            "sdm450": "Adreno 506", "sdm439": "Adreno 505",
+            "sdm435": "Adreno 505", "sdm430": "Adreno 505",
+            "sdm429": "Adreno 504", "sdm425": "Adreno 308",
+            "sdm412": "Adreno 306", "sdm410": "Adreno 306",
+            "msm8998": "Adreno 540", "msm8996": "Adreno 530",
+            "msm8994": "Adreno 430", "msm8992": "Adreno 418",
+            "msm8953": "Adreno 506", "qcm6490": "Adreno 643",
         },
     },
-    "MediaTek": {"architecture": "ARMv8", "process_map": {"mt6983": 4, "mt6985": 4, "mt6991": 4, "mt6893": 6, "mt6895": 6, "mt6877": 6, "mt6879": 6, "mt6833": 7, "mt6853": 7, "mt6785": 12, "mt6779": 12}},
+    "MediaTek": {
+        "architecture": "ARMv8",
+        "process_map": {
+            "mt6991": 3, "mt6989": 3, "mt6985": 4, "mt6983": 4,
+            "mt6899": 3, "mt6897": 4, "mt6895": 6, "mt6893": 6, "mt6891": 6,
+            "mt6889": 7, "mt6885": 7, "mt6883": 7, "mt6881": 7,
+            "mt6879": 6, "mt6877": 6, "mt6875": 6, "mt6873": 6,
+            "mt6855": 6, "mt6853": 7, "mt6835": 6, "mt6833": 7,
+            "mt6797": 20, "mt6795": 20,
+            "mt6789": 6, "mt6785": 12, "mt6781": 6,
+            "mt6779": 12, "mt6771": 12, "mt6768": 12, "mt6765": 12,
+            "mt6757": 20, "mt6755": 28, "mt6753": 28, "mt6752": 28, "mt6750": 28,
+            "mt6739": 28, "mt6737": 28, "mt6735": 28,
+        },
+        "gpu_map": {
+            "mt6991": "Immortalis-G925", "mt6989": "Immortalis-G720",
+            "mt6985": "Immortalis-G715", "mt6983": "Mali-G710",
+            "mt6899": "Immortalis-G925", "mt6897": "Mali-G720",
+            "mt6895": "Mali-G710", "mt6893": "Mali-G77",
+            "mt6889": "Mali-G77", "mt6885": "Mali-G77",
+            "mt6883": "Mali-G57", "mt6879": "Mali-G68",
+            "mt6877": "Mali-G68", "mt6875": "Mali-G57",
+            "mt6855": "Mali-G57", "mt6853": "Mali-G57",
+            "mt6835": "Mali-G57", "mt6833": "Mali-G57",
+            "mt6789": "Mali-G68", "mt6785": "Mali-G76",
+            "mt6781": "Mali-G68", "mt6779": "Mali-G76",
+            "mt6771": "Mali-G72",
+        },
+    },
     "Apple": {"architecture": "ARMv8"},
-    "Samsung": {"architecture": "ARMv8"},
-    "HiSilicon": {"architecture": "ARMv8"},
+    "Samsung": {
+        "architecture": "ARMv8",
+        "process_map": {
+            "exynos 2200": 4, "exynos 2100": 5, "exynos 990": 7,
+            "exynos 9825": 7, "exynos 9820": 8, "exynos 9810": 10,
+            "exynos 8895": 10, "exynos 8890": 14, "exynos 7420": 14,
+            "exynos 5433": 20, "exynos 5422": 28, "exynos 5410": 28,
+            "exynos 9611": 10, "exynos 9610": 10, "exynos 9609": 10,
+            "exynos 7885": 14, "exynos 7872": 14,
+        },
+        "gpu_map": {
+            "exynos 2200": "Xclipse 920", "exynos 2100": "Mali-G78",
+            "exynos 990": "Mali-G77", "exynos 9825": "Mali-G76",
+            "exynos 9820": "Mali-G76", "exynos 9810": "Mali-G72",
+            "exynos 8895": "Mali-G71", "exynos 8890": "Mali-T880",
+            "exynos 7420": "Mali-T760", "exynos 9611": "Mali-G72",
+            "exynos 9610": "Mali-G72", "exynos 7885": "Mali-G71",
+        },
+    },
+    "HiSilicon": {
+        "architecture": "ARMv8",
+        "process_map": {
+            "kirin 9000": 5, "kirin 9000e": 5, "kirin 990": 7,
+            "kirin 990 5g": 7, "kirin 980": 7, "kirin 970": 10,
+            "kirin 960": 16, "kirin 955": 16, "kirin 950": 16,
+            "kirin 935": 28, "kirin 930": 28, "kirin 920": 28,
+            "kirin 710": 12, "kirin 810": 7, "kirin 820": 7,
+            "kirin 985": 7, "kirin 990e": 7,
+        },
+        "gpu_map": {
+            "kirin 9000": "Mali-G78", "kirin 9000e": "Mali-G78",
+            "kirin 990": "Mali-G76", "kirin 990 5g": "Mali-G76",
+            "kirin 980": "Mali-G76", "kirin 970": "Mali-G72",
+            "kirin 960": "Mali-G71", "kirin 955": "Mali-T880",
+            "kirin 950": "Mali-T880", "kirin 710": "Mali-G51",
+            "kirin 810": "Mali-G52", "kirin 820": "Mali-G57",
+            "kirin 985": "Mali-G77",
+        },
+    },
     "Google": {"architecture": "ARMv8"},
     "Rockchip": {"architecture": "ARMv8"},
     "Allwinner": {"architecture": "ARMv8"},
@@ -242,11 +354,36 @@ def _has(chip: dict, field: str) -> bool:
     return v is not None and v != "" and v != [] and v != 0 and v != 0.0
 
 
+MEMORY_CLOCK_FROM_TYPE = {
+    "LPDDR5X": 4266,
+    "LPDDR5T": 4800,
+    "LPDDR5": 3200,
+    "LPDDR4X": 2133,
+    "LPDDR4": 1600,
+    "LPDDR3": 800,
+    "DDR5": 4800,
+    "DDR4": 2400,
+    "DDR3": 1333,
+}
+
+
 def enrich_one(chip: dict) -> dict:
     if not chip.get("model"):
         chip["model"] = chip.get("name", chip.get("id", "unknown"))
     vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
     model_upper = chip.get("model", "").upper()
+    # Infer memory_clock from memory_type
+    if not chip.get("memory_clock") and chip.get("memory_type"):
+        for mtype, clock in MEMORY_CLOCK_FROM_TYPE.items():
+            if mtype in chip["memory_type"].upper():
+                chip["memory_clock"] = clock
+                break
+    # Infer memory_bus from brand/architecture
+    if not chip.get("memory_bus"):
+        if chip.get("memory_type") in ("LPDDR5X", "LPDDR5"):
+            chip["memory_bus"] = 64
+        elif chip.get("memory_type") in ("LPDDR4X", "LPDDR4"):
+            chip["memory_bus"] = 64
     if not chip.get("architecture") and vk.get("architecture"):
         chip["architecture"] = vk["architecture"]
     if not chip.get("process_nm") and vk.get("process_map"):

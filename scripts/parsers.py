@@ -228,6 +228,18 @@ def parse_camera(text: str) -> dict:
     return result
 
 
+def parse_year(text: str) -> dict:
+    result = {}
+    if not text:
+        return result
+    m = re.search(r'(20\d{2})', text)
+    if m:
+        y = int(m.group(1))
+        if 2005 <= y <= 2030:
+            result["year"] = y
+    return result
+
+
 # Map column header keywords to (field_name, parser_function)
 COLUMN_MAP = [
     (["model number", "model", "soc", "chipset", "chip name"], "model", None),
@@ -237,15 +249,16 @@ COLUMN_MAP = [
     (["dsp"], "dsp", lambda t: {"dsp": t.strip()[:80]} if t else {}),
     (["npu", "ai", "ai accelerator", "machine learning"], "npu", lambda t: {"npu": t.strip()[:80]} if t else {}),
     (["memory", "memory support", "ram", "memory type"], "memory", parse_memory),
-    (["process", "fabrication", "node", "process node", "technology", "fab"], "process", parse_process),
+    (["process", "fabrication", "node", "process node", "technology", "fab", "process technology"], "process", parse_process),
     (["modem", "cellular", "mobile radio"], "modem", parse_modem),
-    (["connectivity", "wifi", "wi-fi", "bluetooth"], "connectivity", parse_connectivity),
+    (["connectivity", "wifi", "wi-fi", "bluetooth", "wireless", "wireless radio technologies"], "connectivity", parse_connectivity),
     (["charging", "charge", "fast charge", "battery charging", "quick charge"], "charging", lambda t: {"charging": t.strip()[:80]} if t else {}),
     (["storage", "storage type"], "storage", lambda t: {"storage_type": t.strip()[:80]} if t else {}),
     (["video", "video codec", "video encode/decode", "video codecs", "video encoding/decoding"], "video", parse_video),
     (["display", "display support", "screen"], "display", parse_display),
     (["camera", "isp", "isps", "image signal", "camera specs"], "camera", parse_camera),
     (["location", "gnss", "navigation", "gps", "positioning"], "location", lambda t: {"navigation": t.strip()[:80]} if t else {}),
+    (["released", "release date", "announced", "launch", "introduced", "year"], "year", parse_year),
 ]
 
 

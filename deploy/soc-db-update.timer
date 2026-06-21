@@ -1,0 +1,11 @@
+[Unit]
+Description=Run soc-db update daily
+Requires=soc-db-update.service
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=3600
+Persistent=true
+
+[Install]
+WantedBy=timers.target

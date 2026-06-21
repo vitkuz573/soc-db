@@ -19,7 +19,7 @@
     "aliases": [
       "Tensor (GS101)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -43,7 +43,7 @@
     "aliases": [
       "Tensor G2 (GS201)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -67,7 +67,7 @@
     "aliases": [
       "Tensor G3 (GS301)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -91,7 +91,7 @@
     "aliases": [
       "Tensor G4 (GS401)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3689,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -102,7 +102,7 @@
     "cores": 2,
     "max_freq": "1066 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "1st Gen Edge TPU  (Abrolhos) @ 1066 MHz"
@@ -114,7 +114,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -124,7 +124,7 @@
     "vendor": "Google",
     "cores": 5,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Bluetooth 5.2"
@@ -135,7 +135,7 @@
     "vendor": "Google",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5123b"
@@ -147,7 +147,7 @@
     "model": "GS101",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -158,7 +158,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "GS101",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -169,7 +169,7 @@
     "gpu": "Mali-G710 MP7 [ 40 ]",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3,
+    "completeness": 0.2913,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Mali -G78 MP20"
@@ -181,7 +181,7 @@
     "max_freq": "2.85 GHz",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Octa-core :  2× 2.8 GHz Cortex-X1 2× 2.25 GHz Cortex-A76 4× "
@@ -192,7 +192,7 @@
     "vendor": "Google",
     "cores": 6,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21",
     "model": "October 19, 2021"
@@ -204,7 +204,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "Samsung",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   }

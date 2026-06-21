@@ -7,7 +7,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -19,7 +19,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -31,7 +31,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -43,7 +43,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -55,7 +55,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -67,7 +67,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -79,7 +79,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -91,7 +91,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -103,7 +103,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -115,7 +115,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -127,7 +127,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -139,7 +139,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -151,7 +151,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -163,7 +163,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -175,7 +175,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -187,7 +187,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -199,7 +199,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -211,7 +211,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -223,7 +223,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -235,7 +235,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -247,7 +247,7 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.27,
+    "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
   }

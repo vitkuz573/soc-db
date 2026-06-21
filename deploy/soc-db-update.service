@@ -1,0 +1,17 @@
+[Unit]
+Description=soc-db auto-deploy pipeline
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/tmp/soc-db/bin/auto-deploy.sh --skip-scrape
+User=vitaly
+WorkingDirectory=/tmp/soc-db
+StandardOutput=journal
+StandardError=journal
+
+# Protection
+ProtectSystem=full
+PrivateTmp=true
+NoNewPrivileges=true

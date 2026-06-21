@@ -10,7 +10,7 @@
     "aliases": [
       "Marvell Ac5 (AC5)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -25,7 +25,7 @@
     "aliases": [
       "Marvell Ac5X (AC5X)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -40,7 +40,7 @@
     "aliases": [
       "Marvell Armada 3720 (ARMADA-3720)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -55,7 +55,7 @@
     "aliases": [
       "Marvell Armada 7020 (ARMADA-7020)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -70,7 +70,7 @@
     "aliases": [
       "Marvell Armada 7040 (ARMADA-7040)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -85,7 +85,7 @@
     "aliases": [
       "Marvell Armada 8040 (ARMADA-8040)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -100,7 +100,7 @@
     "aliases": [
       "Marvell Armada 8080 (ARMADA-8080)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -115,7 +115,7 @@
     "aliases": [
       "Marvell Cn9130 (CN9130)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -130,7 +130,7 @@
     "aliases": [
       "Marvell Cn9131 (CN9131)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -145,7 +145,7 @@
     "aliases": [
       "Marvell Cn9132 (CN9132)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -160,7 +160,7 @@
     "aliases": [
       "Marvell Pxa1908 (PXA1908)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   }

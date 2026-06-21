@@ -27,6 +27,21 @@ docker-run:
 cli:
 	@python3 bin/soc-db $(filter-out $@,$(MAKECMDGOALS))
 
+deploy:
+	@echo "To install auto-deploy timer:"
+	@echo "  sudo cp deploy/soc-db-update.* /etc/systemd/system/"
+	@echo "  sudo systemctl daemon-reload"
+	@echo "  sudo systemctl enable --now soc-db-update.timer"
+	@echo ""
+	@echo "To run once: sudo systemctl start soc-db-update.service"
+
+install-timer:
+	sudo cp deploy/soc-db-update.* /etc/systemd/system/ && \
+	sudo systemctl daemon-reload && \
+	sudo systemctl enable --now soc-db-update.timer && \
+	echo "Timer installed. Status:" && \
+	sudo systemctl status soc-db-update.timer --no-pager
+
 clean:
 	rm -rf __pycache__ .pytest_cache
 	find . -name "*.pyc" -delete

@@ -10,7 +10,7 @@
     "aliases": [
       "STM32 MP211 (STM32MP211)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -25,7 +25,7 @@
     "aliases": [
       "STM32 MP213 (STM32MP213)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -40,7 +40,7 @@
     "aliases": [
       "STM32 MP215 (STM32MP215)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -55,7 +55,7 @@
     "aliases": [
       "STM32 MP231 (STM32MP231)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -70,7 +70,7 @@
     "aliases": [
       "STM32 MP233 (STM32MP233)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -85,7 +85,7 @@
     "aliases": [
       "STM32 MP235 (STM32MP235)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -100,7 +100,7 @@
     "aliases": [
       "STM32 MP251 (STM32MP251)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -115,7 +115,7 @@
     "aliases": [
       "STM32 MP253 (STM32MP253)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -130,7 +130,7 @@
     "aliases": [
       "STM32 MP255 (STM32MP255)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -145,7 +145,7 @@
     "aliases": [
       "STM32 MP257 (STM32MP257)"
     ],
-    "completeness": 0.28,
+    "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21"
   }
