@@ -6,7 +6,7 @@ install:
 	pip install -e .
 
 install-dev:
-	pip install -e ".[dev]" || pip install -r requirements-dev.txt
+	pip install -e ".[dev]"
 	pre-commit install
 
 ## ── Quality ───────────────────────────────────────────────────
@@ -25,7 +25,7 @@ test-cov:
 	python -m pytest tests/ -v --tb=short --cov=soc_db --cov-report=term-missing
 
 security:
-	bandit -r src/ -x tests/ || true
+	bandit -r src/ -x tests/
 
 ci: lint typecheck test validate
 

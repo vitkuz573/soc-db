@@ -1,16 +1,8 @@
 #!/usr/bin/env python3
-"""
-soc-db CLI — query and export the SoC database.
+"""Command-line interface for the SoC database.
 
-Usage:
-    soc-db list [--vendor VENDOR] [--json]
-    soc-db query [--vendor VENDOR] [--arch ARCH] [--gpu GPU]
-                 [--year YEAR] [--min-cores N] [--min-ghz G]
-                 [--completeness C] [--search TERM]
-                 [--json] [--csv] [--limit N]
-    soc-db show <id>
-    soc-db stats [--json]
-    soc-db enrich                     # Re-apply enrichment to all data
+Provides subcommands to list vendors, query chips, show chip details,
+compute database statistics, and re-apply enrichment.
 """
 
 import json
@@ -24,6 +16,14 @@ logger = logging.getLogger(__name__)
 
 
 def load_all():
+    """Load all chip records from JSON data files.
+
+    Reads every ``.json`` file in the data directory, skipping
+    ``index.json``, and returns the combined list of chip dictionaries.
+
+    Returns:
+        list[dict]: All chips across all vendor files.
+    """
     chips = []
     for fpath in sorted(DATA_DIR.glob("*.json")):
         if fpath.name == "index.json":
@@ -33,6 +33,15 @@ def load_all():
 
 
 def fmt_table(rows, headers):
+    """Format tabular data as an ASCII-art table.
+
+    Args:
+        rows: Iterable of tuples/lists, one per row.
+        headers: Column header strings.
+
+    Returns:
+        str: The rendered table, including separator lines.
+    """
     cols = len(headers)
     widths = [len(h) for h in headers]
     for row in rows:
@@ -51,6 +60,14 @@ def fmt_table(rows, headers):
 
 
 def cmd_list(args):
+    """Handle the ``list`` subcommand — show vendor summary.
+
+    Prints a table (or JSON) of vendors with chip count and average
+    completeness, optionally filtered by ``--vendor``.
+
+    Args:
+        args: Parsed argparse namespace with ``.vendor`` and ``.json``.
+    """
     chips = load_all()
     if args.vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == args.vendor.lower()]
@@ -74,6 +91,15 @@ def cmd_list(args):
 
 
 def cmd_query(args):
+    """Handle the ``query`` subcommand — search and filter chips.
+
+    Applies all provided filters (vendor, arch, GPU, year, min-cores,
+    min-ghz, completeness, full-text search) and outputs results as a
+    table, JSON, or CSV.
+
+    Args:
+        args: Parsed argparse namespace with filter and output options.
+    """
     chips = load_all()
     if args.vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == args.vendor.lower()]
@@ -122,6 +148,14 @@ def cmd_query(args):
 
 
 def cmd_show(args):
+    """Handle the ``show`` subcommand — display a single chip.
+
+    Looks up a chip by its ``id`` field and prints its full JSON
+    representation.  Exits with code 1 if not found.
+
+    Args:
+        args: Parsed argparse namespace with ``.id``.
+    """
     chips = load_all()
     match = None
     for c in chips:
@@ -135,6 +169,14 @@ def cmd_show(args):
 
 
 def cmd_stats(args):
+    """Handle the ``stats`` subcommand — database-level statistics.
+
+    Computes total chips, vendors, year range, average completeness,
+    and field-presence counters.  Outputs as plain text or JSON.
+
+    Args:
+        args: Parsed argparse namespace with ``.json``.
+    """
     chips = load_all()
     vcount = len(set(c.get("vendor", "") for c in chips))
     years = [c.get("year") for c in chips if c.get("year")]
@@ -163,6 +205,14 @@ def cmd_stats(args):
 
 
 def cmd_enrich(args):
+    """Handle the ``enrich`` subcommand — re-apply enrichment to all data.
+
+    Reads every vendor JSON file, runs :func:`soc_db.common.enrich_all`
+    on its chips, and writes the updated data back to disk.
+
+    Args:
+        args: Parsed argparse namespace (unused).
+    """
     for fpath in sorted(DATA_DIR.glob("*.json")):
         if fpath.name == "index.json":
             continue
@@ -173,6 +223,7 @@ def cmd_enrich(args):
 
 
 def main():
+    """CLI entry point — parse arguments and dispatch to the appropriate command handler."""
     import argparse
 
     p = argparse.ArgumentParser(description="soc-db CLI")

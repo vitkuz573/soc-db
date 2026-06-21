@@ -19,6 +19,19 @@ USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
 
 def fetch(url: str, ttl: int = 86400) -> str:
+    """Fetch a URL with caching.
+
+    Retrieves the content at the given URL. Results are cached on disk
+    under CACHE_DIR keyed by MD5 hash of the URL. Subsequent calls within
+    the TTL window return the cached response.
+
+    Args:
+        url: The URL to fetch.
+        ttl: Time-to-live in seconds for the cache (default 86400).
+
+    Returns:
+        The response body as a UTF-8 decoded string.
+    """
     key = hashlib.md5(url.encode()).hexdigest()
     cache_file = CACHE_DIR / key
     if cache_file.exists():
@@ -34,15 +47,29 @@ def fetch(url: str, ttl: int = 86400) -> str:
 
 
 def extract_int(text: str) -> int | None:
-    if not text:
+    """Extract the first integer from a string.
+
+    Args:
+        text: The input string to search.
+
+    Returns:
+        The first integer found, or None if no digits are present.
+    """
+    if not isinstance(text, str):
         return None
     m = re.search(r"\d+", text)
     return int(m.group()) if m else None
 
 
 def extract_freq(text: str) -> str | None:
-    if not text:
-        return None
+    """Extract a clock frequency (MHz/GHz) from a string.
+
+    Args:
+        text: The input string to search.
+
+    Returns:
+        The matched frequency string (e.g. "3.2 GHz"), or None.
+    """
     m = re.search(r"[\d.]+[\s]*(?:MHz|GHz)", text, re.IGNORECASE)
     if m:
         return m.group().strip()
@@ -50,14 +77,31 @@ def extract_freq(text: str) -> str | None:
 
 
 def extract_process(text: str) -> str | None:
-    if not text:
-        return None
+    """Extract a process node (e.g. "7 nm") from a string.
+
+    Args:
+        text: The input string to search.
+
+    Returns:
+        The matched process string (e.g. "7 nm"), or None.
+    """
     m = re.search(r"(\d+)\s*nm", text, re.IGNORECASE)
     return m.group(0) if m else None
 
 
 def clean(text: str | None) -> str | None:
-    if not text:
+    """Strip HTML tags, references, and extra whitespace from a string.
+
+    Removes HTML tags, bracketed annotations like ``[citation]``,
+    normalises whitespace, and strips ``(now ...)`` suffixes.
+
+    Args:
+        text: The raw input string.
+
+    Returns:
+        The cleaned string, or None if the input was empty.
+    """
+    if not isinstance(text, str):
         return None
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\[\s*\w+\s*\]", "", text)
@@ -67,6 +111,19 @@ def clean(text: str | None) -> str | None:
 
 
 def slug(name: str, model: str = "") -> str:
+    """Generate a URL/filesystem-friendly identifier from a chip name and model.
+
+    Lowercases the name, removes special characters, filters common
+    stop-words, joins up to six parts with underscores, and optionally
+    appends a sanitised model string.
+
+    Args:
+        name: The chip name (e.g. "Snapdragon 8 Gen 2").
+        model: An optional model number (e.g. "SM8550").
+
+    Returns:
+        A slug string suitable for use as a unique ID.
+    """
     s = name.lower().replace("+", "p").replace("®", "").replace("-", "_")
     s = re.sub(r"[^a-z0-9_ ]", "", s)
     parts = [p for p in s.split() if p]
@@ -82,6 +139,18 @@ def slug(name: str, model: str = "") -> str:
 
 
 def _match_existing(chip: dict[str, Any], existing: dict[str, Any]) -> str | None:
+    """Match a chip dict against a dict of already-known chips.
+
+    Tries matching by ``id``, then by ``model`` (case-insensitive),
+    then by ``name`` (case-insensitive).
+
+    Args:
+        chip: The new chip record.
+        existing: Mapping of existing chip IDs to their records.
+
+    Returns:
+        The matching ID from *existing*, or None if no match found.
+    """
     cid: str = chip.get("id", "")
     if cid in existing:
         return cid
@@ -101,6 +170,17 @@ def _match_existing(chip: dict[str, Any], existing: dict[str, Any]) -> str | Non
 
 
 def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
+    """Merge a list of scraped chips into the vendor's JSON file on disk.
+
+    Loads the existing vendor file (if any), matches new chips against
+    existing entries by ID/model/name, updates or adds records, prunes
+    stale entries with low completeness, and writes the merged result
+    back through :func:`enrich_all`.
+
+    Args:
+        vendor: Vendor name (must be a key in VENDOR_FILES).
+        chips: List of chip dicts produced by a scraper.
+    """
     vfile = VENDOR_FILES.get(vendor)
     if not vfile:
         logger.warning("Unknown vendor: %s", vendor)
@@ -199,6 +279,18 @@ VENDOR_FILES = {
 
 
 def extract_model(text: str) -> str | None:
+    """Extract a SoC model identifier from arbitrary text.
+
+    Matches against known vendor patterns such as Qualcomm SM/SDM/MSM,
+    MediaTek MT, Samsung Exynos, HiSilicon Kirin, Google GS, Rockchip RK,
+    TI OMAP, Amlogic AM/DM, and Apple APL/T-prefix identifiers.
+
+    Args:
+        text: The input string to search.
+
+    Returns:
+        The uppercased model string (e.g. "SM8550"), or None.
+    """
     patterns = [
         r"\b(SM\d{3,}|SDM\d{3,}|MSM\d{3,}|APQ\d{3,}|SC\d{4}|QCS\d{3})\b",
         r"\b(MT\d{4,})\b",
@@ -218,6 +310,18 @@ def extract_model(text: str) -> str | None:
 
 
 def merge_chips(a: dict[str, Any], b: dict[str, Any]) -> dict[str, Any]:
+    """Merge two chip dicts, preferring non-empty values from *b*.
+
+    Fields in *b* whose values are ``None``, ``""``, ``0``, or ``[]``
+    are skipped, preserving the value from *a*.
+
+    Args:
+        a: The base chip dict.
+        b: The chip dict whose values take precedence.
+
+    Returns:
+        A new merged dict.
+    """
     merged = dict(a)
     for k, v in b.items():
         if v not in (None, "", 0, []):
@@ -580,6 +684,17 @@ VENDOR_KNOWLEDGE: dict[str, dict[str, Any]] = {
 
 
 def _has(chip: dict[str, Any], field: str) -> bool:
+    """Check whether a chip dict has a non-empty value for *field*.
+
+    Considers ``None``, ``""``, ``[]``, ``0``, and ``0.0`` as empty.
+
+    Args:
+        chip: The chip record.
+        field: The key to check.
+
+    Returns:
+        True if the field is present and non-empty.
+    """
     v = chip.get(field)
     return v is not None and v != "" and v != [] and v != 0 and v != 0.0
 
@@ -598,6 +713,32 @@ MEMORY_CLOCK_FROM_TYPE = {
 
 
 def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
+    """Enrich a single chip record by filling in missing fields with
+    inferred defaults.
+
+    The enrichment pipeline applies the following stages in order:
+
+    1. **Cleanup** – strip ``(now ...)`` suffixes from name/model.
+    2. **Model fallback** – if no model, derive from name or use ``id``.
+    3. **Memory** – infer clock speed and bus width from memory type.
+    4. **Process node** – look up ``VENDOR_KNOWLEDGE`` process map, then
+       fall back to a year-based heuristic.
+    5. **GPU** – look up ``VENDOR_KNOWLEDGE`` gpu map, then vendor defaults.
+    6. **Year** – attempt to parse the year from model/name via extensive
+       vendor-specific regex patterns; validate range.
+    7. **Wi-Fi / Bluetooth** – infer from year.
+    8. **Modem / NPU** – infer from vendor and year.
+    9. **Storage type** – infer from year.
+    10. **Aliases** – generate known codename aliases.
+    11. **Completeness score** – weighted fill ratio of ``FIELD_GROUPS``.
+    12. **Sources / updated** – ensure provenance metadata.
+
+    Args:
+        chip: The raw chip record to enrich (modified in place).
+
+    Returns:
+        The enriched chip dict (same object as the input).
+    """
     ann = re.compile(r"\s*\(now\s+[^)]*?\)")
     for k in ("name", "model"):
         if chip.get(k):
@@ -1390,4 +1531,12 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
 
 
 def enrich_all(chips: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Apply :func:`enrich_one` to every chip in a list.
+
+    Args:
+        chips: List of chip records to enrich.
+
+    Returns:
+        The enriched list (same objects in-place).
+    """
     return [enrich_one(c) for c in chips]

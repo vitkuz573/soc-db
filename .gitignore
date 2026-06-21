@@ -4,6 +4,8 @@ __pycache__/
 *.egg-info/
 .DS_Store
 .env
+.env.local
+.env.production
 .venv
 venv/
 dist/
@@ -14,4 +16,23 @@ build/
 *.log
 /tmp/soc-db-cache/
 .coverage
+.coverage.*
+coverage.xml
 htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# OS
+Thumbs.db
+.directory
+
+# C extensions
+*.so
+*.dylib
+*.dll

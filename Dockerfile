@@ -1,22 +1,19 @@
-FROM python:3.12-slim AS builder
+FROM python:3.12-slim@sha256:3f095bce82c410e9ece1c8f718f3f5bcfdab5635657e00c2ed8ac35ad5081350 AS builder
 
 WORKDIR /build
 COPY pyproject.toml requirements.txt ./
-COPY src/ src/
 RUN pip install --no-cache-dir --user .
 
-FROM python:3.12-slim
+FROM python:3.12-slim@sha256:3f095bce82c410e9ece1c8f718f3f5bcfdab5635657e00c2ed8ac35ad5081350
 
 RUN groupadd -r socdb && useradd -r -g socdb -d /app -s /sbin/nologin socdb
 
 WORKDIR /app
 COPY --from=builder /root/.local /usr/local
+COPY src/ src/
 COPY data/ data/
 COPY schema/ schema/
 COPY api/ api/
-
-RUN pip install --no-cache-dir fastapi uvicorn && \
-    rm -rf /root/.cache
 
 EXPOSE 8000
 USER socdb

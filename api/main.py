@@ -1,4 +1,9 @@
-"""soc-db REST API — FastAPI server."""
+"""FastAPI REST server for the SoC database.
+
+Provides endpoints for listing chips, vendors, stats, schema, and
+exporting data in multiple formats.  Chips are cached in-memory after
+the first load.
+"""
 
 import gzip
 import json
@@ -15,17 +20,30 @@ SCHEMA_FILE = ROOT / "schema" / "chip-schema.json"
 
 app = FastAPI(
     title="SoC Database API",
-    version="2.0.0",
+    version="2.1.0-dev",
     description="Enterprise SoC/CPU database — query, filter, export",
 )
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
 def load_index():
+    """Load the chip index from ``data/index.json``.
+
+    Returns:
+        dict: The parsed index content.
+    """
     return json.loads((DATA_DIR / "index.json").read_text("utf-8"))
 
 
 def load_all():
+    """Load all chip records from JSON data files.
+
+    Reads every ``.json`` file in the data directory, skipping
+    ``index.json``, and returns the combined list of chip dictionaries.
+
+    Returns:
+        list[dict]: All chips across all vendor files.
+    """
     chips = []
     for fpath in sorted(DATA_DIR.glob("*.json")):
         if fpath.name == "index.json":
@@ -35,6 +53,13 @@ def load_all():
 
 
 def make_cache_buster():
+    """Generate a random 8-character cache-busting string.
+
+    Uses MD5 of cryptographically random bytes.
+
+    Returns:
+        str: An 8-character hex string.
+    """
     from hashlib import md5
     from os import urandom
 
@@ -43,11 +68,20 @@ def make_cache_buster():
 
 @app.on_event("startup")
 async def startup():
+    """FastAPI startup event — initialise cache state.
+
+    Sets a random cache buster and marks the chip cache as empty.
+    """
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
 
 
 def get_chips():
+    """Return the cached chip list, loading it on first access.
+
+    Returns:
+        list[dict]: All chips, cached in ``app.state._chips``.
+    """
     if app.state._chips is None:
         app.state._chips = load_all()
     return app.state._chips
@@ -55,6 +89,11 @@ def get_chips():
 
 @app.get("/")
 def root():
+    """Root endpoint — return API metadata and available routes.
+
+    Returns:
+        dict: API name, version, endpoint listing, and docs URL.
+    """
     return {
         "api": "SoC Database API",
         "version": "2.0.0",
@@ -72,6 +111,12 @@ def root():
 
 @app.get("/vendors")
 def list_vendors():
+    """List all vendors with chip counts and average completeness.
+
+    Returns:
+        dict: Mapping of vendor name to ``{"count": int, "avg_completeness": float}``.
+              HTTP 200 on success.
+    """
     chips = get_chips()
     vendors = {}
     for c in chips:
@@ -101,6 +146,15 @@ def list_chips(
     sort: str | None = Query(None, description="Sort field"),
     order: str = Query("asc", pattern="^(asc|desc)$"),
 ):
+    """Search and filter chips with pagination.
+
+    Accepts optional query parameters for filtering, full-text search,
+    sorting, field projection, and pagination (offset/limit).
+
+    Returns:
+        dict: ``{"total": int, "offset": int, "limit": int, "data": list[dict]}``.
+              HTTP 200 on success.
+    """
     chips = get_chips()
     if vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == vendor.lower()]
@@ -130,6 +184,15 @@ def list_chips(
 
 @app.get("/chips/{chip_id}")
 def get_chip(chip_id: str):
+    """Retrieve a single chip by its ID.
+
+    Args:
+        chip_id: Unique chip identifier.
+
+    Returns:
+        dict: The full chip record.
+              HTTP 200 on success, HTTP 404 if not found.
+    """
     chips = get_chips()
     for c in chips:
         if c.get("id") == chip_id:
@@ -139,6 +202,13 @@ def get_chip(chip_id: str):
 
 @app.get("/stats")
 def stats():
+    """Database-wide aggregate statistics.
+
+    Returns:
+        dict: Total chips, vendors, year range, average completeness,
+              and field-presence counters.
+              HTTP 200 on success.
+    """
     chips = get_chips()
     vcount = len(set(c.get("vendor", "") for c in chips))
     years = [c.get("year") for c in chips if c.get("year")]
@@ -160,12 +230,27 @@ def stats():
 
 @app.get("/schema")
 def get_schema():
+    """Return the JSON Schema for a chip record.
+
+    Returns:
+        JSONResponse with media type ``application/schema+json``.
+        HTTP 200 on success.
+    """
     schema = json.loads(SCHEMA_FILE.read_text("utf-8"))
     return JSONResponse(schema, media_type="application/schema+json")
 
 
 @app.get("/export/{fmt}")
 def export(fmt: str):
+    """Export all chip data in the requested format.
+
+    Args:
+        fmt: Output format — ``"json"``, ``"json.gz"``, or ``"csv"``.
+
+    Returns:
+        JSONResponse, gzip-compressed JSON, or CSV Response depending
+        on ``fmt``.  HTTP 400 if the format is unsupported.
+    """
     chips = get_chips()
     if fmt == "json":
         return JSONResponse(chips)
