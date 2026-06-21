@@ -1,7 +1,10 @@
-.PHONY: validate server clean
+.PHONY: validate scrape clean server
 
 validate:
 	python3 tests/validate.py
+
+scrape:
+	bash scripts/run_all.sh
 
 server:
 	python3 -m http.server 8080 --bind 0.0.0.0

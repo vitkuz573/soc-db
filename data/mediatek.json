@@ -1,73 +1,355 @@
 [
   {
-    "id": "mt6893",
-    "name": "Dimensity 1200",
+    "id": "helio_x10_mt6795m_67956795t",
+    "name": "Helio X10 MT6795M/ 6795/6795T",
     "vendor": "MediaTek",
-    "codename": "mt6893",
-    "model": "MT6893",
-    "revision": "",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G77 MC9",
-    "process": "6nm",
-    "year": 2021,
-    "max_freq": "3.0 GHz"
+    "year": 2014,
+    "process": "28 nm",
+    "max_freq": "2.2 GHz"
   },
   {
-    "id": "mt6891",
-    "name": "Dimensity 1100",
+    "id": "helio_x20_mt6797",
+    "name": "Helio X20 MT6797",
     "vendor": "MediaTek",
-    "codename": "mt6891",
-    "model": "MT6891",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G77 MC9",
-    "process": "6nm",
-    "year": 2021,
-    "max_freq": "2.6 GHz"
+    "model": "MT6797",
+    "process": "20 nm",
+    "year": 2014,
+    "cores": 2,
+    "max_freq": "2.1 GHz",
+    "gpu": "Mali-T880 MP4 @ 780 MHz (131.0 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
   },
   {
-    "id": "mt6889",
-    "name": "Dimensity 1000+",
+    "id": "helio_x23_mt6797d",
+    "name": "Helio X23 MT6797D",
     "vendor": "MediaTek",
-    "codename": "mt6889",
-    "model": "MT6889",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G77 MC9",
-    "process": "7nm",
-    "year": 2020,
-    "max_freq": "2.6 GHz"
+    "cores": 2,
+    "max_freq": "2.3 GHz",
+    "year": 2014,
+    "gpu": "Mali-T880 MP4 @ 800 MHz (134.4 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
   },
   {
-    "id": "mt6877",
-    "name": "Dimensity 900",
+    "id": "helio_x25_mt6797t",
+    "name": "Helio X25 MT6797T",
     "vendor": "MediaTek",
-    "codename": "mt6877",
-    "model": "MT6877",
-    "revision": "",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G68 MC4",
-    "process": "6nm",
-    "year": 2021,
-    "max_freq": "2.4 GHz"
+    "cores": 2,
+    "max_freq": "2.5 GHz",
+    "year": 2014,
+    "architecture": "ARMv8.2-A"
   },
   {
-    "id": "mt6853",
-    "name": "Dimensity 720",
+    "id": "helio_x27_mt6797x",
+    "name": "Helio X27 MT6797X",
     "vendor": "MediaTek",
-    "codename": "mt6853",
-    "model": "MT6853",
-    "revision": "",
+    "cores": 2,
+    "max_freq": "2.6 GHz",
+    "year": 2014,
+    "gpu": "Mali-T880 MP4 @ 875 MHz (147.0 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_x30_mt6799",
+    "name": "Helio X30 MT6799",
+    "vendor": "MediaTek",
+    "model": "MT6799",
+    "process": "10 nm",
+    "cores": 10,
+    "year": 2014,
+    "max_freq": "2.6 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p10_mt6755_mt6755m",
+    "name": "Helio P10 MT6755 MT6755M",
+    "vendor": "MediaTek",
+    "model": "MT6755",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G57 MC3",
-    "process": "7nm",
-    "year": 2020,
+    "year": 2015,
+    "process": "28 nm",
+    "max_freq": "1.8 GHz",
+    "gpu": "Mali-T860 MP2 @ 700 MHz (39.2 GFLOPS in FP32)"
+  },
+  {
+    "id": "helio_p15_mt6755t",
+    "name": "Helio P15 MT6755T",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.2 GHz",
+    "year": 2015,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p18_mt6755s",
+    "name": "Helio P18 MT6755S",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "year": 2015,
+    "gpu": "Mali-T860 MP2 @ 800 MHz (44.8 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p20_mt6757",
+    "name": "Helio P20 MT6757",
+    "vendor": "MediaTek",
+    "model": "MT6757",
+    "process": "16 nm",
+    "cores": 16,
+    "year": 2015,
+    "max_freq": "2.3 GHz",
+    "gpu": "Mali-T880 MP2 @ 900 MHz (50.4 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p22_mt6762",
+    "name": "Helio P22 MT6762",
+    "vendor": "MediaTek",
+    "model": "MT6762",
+    "process": "12 nm",
+    "cores": 12,
+    "year": 2015,
+    "max_freq": "2.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p23_p23t_mt6763_mt6763t",
+    "name": "Helio P23 / P23T MT6763 MT6763T",
+    "vendor": "MediaTek",
+    "model": "MT6763",
+    "process": "16 nm",
+    "cores": 16,
+    "year": 2015,
+    "max_freq": "2.5 GHz",
+    "gpu": "Mali-G71 MP2 @ 770 MHz (37 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p25_p25t_mt6757cd_mt6757t",
+    "name": "Helio P25 / P25T MT6757CD MT6757T",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.6 GHz",
+    "year": 2015,
+    "gpu": "Mali-T880 MP2 @ 1.0 GHz (56.0 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p30_mt6758",
+    "name": "Helio P30 MT6758",
+    "vendor": "MediaTek",
+    "model": "MT6758",
+    "cores": 4,
+    "max_freq": "2.3 GHz",
+    "year": 2015,
+    "gpu": "Mali-G71 MP2 @ 950 MHz (45.6 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p35_mt6765",
+    "name": "Helio P35 MT6765",
+    "vendor": "MediaTek",
+    "model": "MT6765",
+    "process": "12 nm",
+    "cores": 12,
+    "year": 2015,
+    "max_freq": "2.3 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p60_mt6771",
+    "name": "Helio P60 MT6771",
+    "vendor": "MediaTek",
+    "model": "MT6771",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "year": 2015,
+    "gpu": "Mali-G72 MP3 @ 800 MHz (57.6 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p65_mt6768",
+    "name": "Helio P65 MT6768",
+    "vendor": "MediaTek",
+    "model": "MT6768",
+    "cores": 2,
+    "max_freq": "2.0 GHz",
+    "year": 2015,
+    "gpu": "Mali-G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p70_mt6771vct_mt6771vwt",
+    "name": "Helio P70 MT6771V/CT MT6771V/WT",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.1 GHz",
+    "year": 2015,
+    "gpu": "Mali-G72 MP3 @ 900 MHz (64.8 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_p90_mt6779vcu",
+    "name": "Helio P90 MT6779V/CU",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "year": 2015,
+    "max_freq": "2.2 GHz"
+  },
+  {
+    "id": "helio_a20_mt6761vwe",
+    "name": "Helio A20 MT6761V/WE",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "year": 2018,
+    "process": "12 nm",
+    "max_freq": "1.8 GHz"
+  },
+  {
+    "id": "helio_a22_mt6761vwab_mt6761vwbb",
+    "name": "Helio A22 MT6761V/WAB MT6761V/WBB",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "year": 2018,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_a25_mt6762vwb_mt6762vwd",
+    "name": "Helio A25 MT6762V/WB MT6762V/WD",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "1.8 GHz",
+    "year": 2018,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g100_mt6789h_mt6789i_mt6789j",
+    "name": "Helio G100 MT6789H MT6789I MT6789J",
+    "vendor": "MediaTek",
+    "year": 2019,
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g200_mt6789t",
+    "name": "Helio G200 MT6789T",
+    "vendor": "MediaTek",
+    "gpu": "Mali-G57 MC2 @ 1.1 GHz (140.8 GFLOPS in FP32)",
+    "max_freq": "1.1 GHz",
+    "year": 2019,
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g25_mt6762g",
+    "name": "Helio G25 MT6762G",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "year": 2019,
+    "process": "12 nm",
     "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "helio_g35_mt6765g_mt6765vcb",
+    "name": "Helio G35 MT6765G MT6765V/CB",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.3 GHz",
+    "year": 2019,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g36_mt6765vxaa_mt6765vxba",
+    "name": "Helio G36 MT6765V/XAA MT6765V/XBA",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.2 GHz",
+    "year": 2019,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g37_mt6765h",
+    "name": "Helio G37 MT6765H",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.3 GHz",
+    "year": 2019,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g50_mt6765v",
+    "name": "Helio G50 MT6765V",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.2 GHz",
+    "year": 2019,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g70_mt6769vcb",
+    "name": "Helio G70 MT6769V/CB",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "year": 2019,
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)"
+  },
+  {
+    "id": "helio_g80_mt6769t_mt6769vct_mt6769vcu",
+    "name": "Helio G80 MT6769T MT6769V/CT MT6769V/CU",
+    "vendor": "MediaTek",
+    "cores": 6,
+    "max_freq": "2.0 GHz",
+    "year": 2019,
+    "gpu": "Mali-G52 MC2 @ 950 MHz (91.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g81_mt6769j_mt6769l_mt6769s",
+    "name": "Helio G81 MT6769J MT6769L MT6769S",
+    "vendor": "MediaTek",
+    "cores": 6,
+    "max_freq": "2.0 GHz",
+    "year": 2019,
+    "gpu": "Mali G52 MC2 @ 820 MHz (78.7 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g85_mt6769z_mt6769vcz",
+    "name": "Helio G85 MT6769Z MT6769V/CZ",
+    "vendor": "MediaTek",
+    "cores": 6,
+    "max_freq": "2.0 GHz",
+    "year": 2019,
+    "gpu": "Mali-G52 MC2 @ 1.0 GHz (96 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g88_mt6769h",
+    "name": "Helio G88 MT6769H",
+    "vendor": "MediaTek",
+    "year": 2019,
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g90_mt6785_mt6785v",
+    "name": "Helio G90 MT6785 MT6785V",
+    "vendor": "MediaTek",
+    "model": "MT6785",
+    "cores": 2,
+    "max_freq": "2.05 GHz",
+    "year": 2019,
+    "gpu": "Mali-G76 MC4 @ 720 MHz (138.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "mt6785",
@@ -84,6 +366,65 @@
     "max_freq": "2.05 GHz"
   },
   {
+    "id": "helio_g90t_mt6785vcc",
+    "name": "Helio G90T MT6785V/CC",
+    "vendor": "MediaTek",
+    "gpu": "Mali-G76 MC4 @ 800 MHz (153.6 GFLOPS in FP32)",
+    "max_freq": "800 MHz",
+    "year": 2019,
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g91_mt6769g_mt6769k",
+    "name": "Helio G91 MT6769G MT6769K",
+    "vendor": "MediaTek",
+    "year": 2019,
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g92_mt6769i",
+    "name": "Helio G92 MT6769I",
+    "vendor": "MediaTek",
+    "year": 2019,
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g95_mt6785vcd",
+    "name": "Helio G95 MT6785V/CD",
+    "vendor": "MediaTek",
+    "gpu": "Mali-G76 MC4 @ 900 MHz (172.8 GFLOPS in FP32)",
+    "max_freq": "900 MHz",
+    "year": 2019,
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g96_mt6781_mt6781vcd",
+    "name": "Helio G96 MT6781 MT6781V/CD",
+    "vendor": "MediaTek",
+    "model": "MT6781",
+    "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)",
+    "max_freq": "950 MHz",
+    "year": 2019,
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "helio_g99_mt6789_mt6789g_mt6789u_mt6789vcd",
+    "name": "Helio G99 MT6789 MT6789G MT6789U MT6789V/CD MT8781 MT8781V/CA MT8781V/NA",
+    "vendor": "MediaTek",
+    "model": "MT6789",
+    "process": "6 nm",
+    "cores": 6,
+    "year": 2019,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC2 @ 1.0 GHz (128 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
     "id": "mt6768",
     "name": "Helio P65",
     "vendor": "MediaTek",
@@ -95,6 +436,34 @@
     "gpu": "Mali-G52 MC2",
     "process": "12nm",
     "year": 2019,
+    "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "mt6889",
+    "name": "Dimensity 1000+",
+    "vendor": "MediaTek",
+    "codename": "mt6889",
+    "model": "MT6889",
+    "revision": "",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G77 MC9",
+    "process": "7nm",
+    "year": 2020,
+    "max_freq": "2.6 GHz"
+  },
+  {
+    "id": "mt6853",
+    "name": "Dimensity 720",
+    "vendor": "MediaTek",
+    "codename": "mt6853",
+    "model": "MT6853",
+    "revision": "",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G57 MC3",
+    "process": "7nm",
+    "year": 2020,
     "max_freq": "2.0 GHz"
   },
   {
@@ -110,6 +479,48 @@
     "process": "12nm",
     "year": 2020,
     "max_freq": "2.3 GHz"
+  },
+  {
+    "id": "mt6891",
+    "name": "Dimensity 1100",
+    "vendor": "MediaTek",
+    "codename": "mt6891",
+    "model": "MT6891",
+    "revision": "",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G77 MC9",
+    "process": "6nm",
+    "year": 2021,
+    "max_freq": "2.6 GHz"
+  },
+  {
+    "id": "mt6893",
+    "name": "Dimensity 1200",
+    "vendor": "MediaTek",
+    "codename": "mt6893",
+    "model": "MT6893",
+    "revision": "",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G77 MC9",
+    "process": "6nm",
+    "year": 2021,
+    "max_freq": "3.0 GHz"
+  },
+  {
+    "id": "mt6877",
+    "name": "Dimensity 900",
+    "vendor": "MediaTek",
+    "codename": "mt6877",
+    "model": "MT6877",
+    "revision": "",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "gpu": "Mali-G68 MC4",
+    "process": "6nm",
+    "year": 2021,
+    "max_freq": "2.4 GHz"
   },
   {
     "id": "mt6983",
@@ -166,5 +577,1692 @@
     "process": "3nm",
     "year": 2024,
     "max_freq": "3.63 GHz"
+  },
+  {
+    "id": "aiot_i300a",
+    "name": "AIoT i300A",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "14 nm",
+    "max_freq": "1.5 GHz"
+  },
+  {
+    "id": "aiot_i300b",
+    "name": "AIoT i300B",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "1.3 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "aiot_i300pa",
+    "name": "AIoT i300PA",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "aiot_i300pb",
+    "name": "AIoT i300PB",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "aiot_i500p",
+    "name": "AIoT i500P",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G72 MP3 @ 800 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1000",
+    "name": "Dimensity 1000",
+    "vendor": "MediaTek",
+    "model": "MT6889",
+    "cores": 4,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G77 MC9 @ 836 MHz (481.5 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1000c",
+    "name": "Dimensity 1000C",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "process": "7 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G57 MC5 @ 654 MHz (209.3 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1000l",
+    "name": "Dimensity 1000L",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G77 MC7 @ 695 MHz (311.4 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1050",
+    "name": "Dimensity 1050",
+    "vendor": "MediaTek",
+    "model": "MT6879",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.5 GHz",
+    "gpu": "Mali-G610 MC3 @ 1.0 GHz (384 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1080",
+    "name": "Dimensity 1080",
+    "vendor": "MediaTek",
+    "model": "MT6877",
+    "cores": 2,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G68 MC4 @ 950 MHz (243.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1100",
+    "name": "Dimensity 1100",
+    "vendor": "MediaTek",
+    "model": "MT6891",
+    "cores": 4,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G77 MC9 @ 836 MHz (481.5 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_1200",
+    "name": "Dimensity 1200",
+    "vendor": "MediaTek",
+    "model": "MT6893",
+    "cores": 1,
+    "max_freq": "3.0 GHz",
+    "gpu": "Mali-G77 MC9 @ 886 MHz (510.3 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_6020",
+    "name": "Dimensity 6020",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "7 nm",
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_6080",
+    "name": "Dimensity 6080",
+    "vendor": "MediaTek",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G57 MC2 @ 1068 MHz (136.7 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_6100p",
+    "name": "Dimensity 6100+",
+    "vendor": "MediaTek",
+    "model": "MT6835",
+    "cores": 2,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC2 @ 962 MHz (123.1 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_6300",
+    "name": "Dimensity 6300",
+    "vendor": "MediaTek",
+    "model": "MT6835",
+    "cores": 2,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G57 MC2 @ 1072 MHz (137.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_6400",
+    "name": "Dimensity 6400",
+    "vendor": "MediaTek",
+    "model": "MT6835",
+    "cores": 2,
+    "max_freq": "2.5 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_6500",
+    "name": "Dimensity 6500",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G57 MC2 @ 1.1 GHz (140.8 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_700",
+    "name": "Dimensity 700",
+    "vendor": "MediaTek",
+    "model": "MT6833",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "7 nm",
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC2 @ 950 MHz (121.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_7020",
+    "name": "Dimensity 7020",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "6 nm",
+    "max_freq": "2.2 GHz"
+  },
+  {
+    "id": "dimensity_7025",
+    "name": "Dimensity 7025",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "max_freq": "2.5 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7030",
+    "name": "Dimensity 7030",
+    "vendor": "MediaTek",
+    "gpu": "Mali-G610 MC3 @ 1.0 GHz (384 GFLOPS in FP32)",
+    "max_freq": "1.0 GHz",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7050",
+    "name": "Dimensity 7050",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G68 MC4 @ 950 MHz (243.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7060",
+    "name": "Dimensity 7060",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "max_freq": "950 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7100",
+    "name": "Dimensity 7100",
+    "vendor": "MediaTek",
+    "model": "MT6858",
+    "cores": 4,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G610 MC2 @ 1.0 GHz (256 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_720",
+    "name": "Dimensity 720",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G57 MC3 @ 730 MHz (140.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7200",
+    "name": "Dimensity 7200",
+    "vendor": "MediaTek",
+    "model": "MT6886",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "2.8 GHz",
+    "gpu": "Mali-G610 MC4 @ 1.13 GHz (578.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_7300",
+    "name": "Dimensity 7300",
+    "vendor": "MediaTek",
+    "model": "MT6878",
+    "process": "4 nm",
+    "cores": 4,
+    "gpu": "Mali-G615 MC2 @ 1047 MHz (536.1 GFLOPS in FP32)",
+    "max_freq": "1047 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_7300e",
+    "name": "Dimensity 7300e",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "6 nm",
+    "max_freq": "2.5 GHz",
+    "gpu": "Mali-G610 MC2 @ 1.0 GHz (256 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_7350",
+    "name": "Dimensity 7350",
+    "vendor": "MediaTek",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "3.0 GHz",
+    "gpu": "Mali-G610 MC4 @ 1.3 GHz (665.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_7400",
+    "name": "Dimensity 7400",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "4 nm",
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G615 MC2 @ 1.3 GHz (665.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_7500",
+    "name": "Dimensity 7500",
+    "vendor": "MediaTek",
+    "model": "MT6881",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G625 MC2"
+  },
+  {
+    "id": "dimensity_800",
+    "name": "Dimensity 800",
+    "vendor": "MediaTek",
+    "model": "MT6873",
+    "cores": 4,
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G57 MC4 @ 748 MHz (191.5 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_8000",
+    "name": "Dimensity 8000",
+    "vendor": "MediaTek",
+    "model": "MT6895",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "5 nm",
+    "max_freq": "2.75 GHz",
+    "gpu": "Mali-G610 MC6 @ 700 MHz (537.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_800u",
+    "name": "Dimensity 800U",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "7 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G57 MC3 @ 950 MHz (182.4 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_8020",
+    "name": "Dimensity 8020",
+    "vendor": "MediaTek",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G77 MC9 @ 836 MHz (481.5 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_8050",
+    "name": "Dimensity 8050",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "3.0 GHz",
+    "gpu": "Mali-G77 MC9 @ 886 MHz (510.3 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_810",
+    "name": "Dimensity 810",
+    "vendor": "MediaTek",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G57 MC2 @ 1068 MHz (136.7 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_8100",
+    "name": "Dimensity 8100",
+    "vendor": "MediaTek",
+    "model": "MT6895",
+    "process": "5 nm",
+    "cores": 5,
+    "max_freq": "2.85 GHz",
+    "gpu": "Mali-G610 MC6 @ 860 MHz (660.5 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_820",
+    "name": "Dimensity 820",
+    "vendor": "MediaTek",
+    "model": "MT6875",
+    "process": "7 nm",
+    "cores": 7,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G57 MC5 @ 900 MHz (288 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_8200",
+    "name": "Dimensity 8200",
+    "vendor": "MediaTek",
+    "model": "MT6896",
+    "process": "4 nm",
+    "cores": 4,
+    "max_freq": "3.1 GHz",
+    "gpu": "Mali-G610 MC6 @ 950 MHz (729.6 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_8300",
+    "name": "Dimensity 8300",
+    "vendor": "MediaTek",
+    "model": "MT6897",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "3.35 GHz",
+    "gpu": "Mali-G615 MC6 @ 1400 MHz (2150.4 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_8400",
+    "name": "Dimensity 8400",
+    "vendor": "MediaTek",
+    "model": "MT6899",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "max_freq": "3.25 GHz",
+    "gpu": "Mali-G720 MC7 @ 1300 MHz (2329.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_8500",
+    "name": "Dimensity 8500",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "3.4 GHz",
+    "gpu": "Mali-G720 MC8 @ 1508 MHz (3088.4 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_900",
+    "name": "Dimensity 900",
+    "vendor": "MediaTek",
+    "model": "MT6877",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "6 nm",
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G68 MC4 @ 900 MHz (230.4 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_9000",
+    "name": "Dimensity 9000",
+    "vendor": "MediaTek",
+    "model": "MT6983",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "3.05 GHz",
+    "gpu": "Mali-G710 MC10 @ 848 MHz (1085.4 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_9000p",
+    "name": "Dimensity 9000+",
+    "vendor": "MediaTek",
+    "model": "MT6983",
+    "cores": 1,
+    "max_freq": "3.2 GHz",
+    "gpu": "Mali-G710 MC10 @ 848 or 950 MHz (1085.4 or 1216 GFLOPS in FP",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_920",
+    "name": "Dimensity 920",
+    "vendor": "MediaTek",
+    "model": "MT6877",
+    "cores": 2,
+    "max_freq": "2.5 GHz",
+    "gpu": "Mali-G68 MC4 @ 950 MHz (243.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9200",
+    "name": "Dimensity 9200",
+    "vendor": "MediaTek",
+    "model": "MT6985",
+    "process": "4 nm",
+    "cores": 4,
+    "max_freq": "3.05 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9200p",
+    "name": "Dimensity 9200+",
+    "vendor": "MediaTek",
+    "model": "MT6985",
+    "cores": 1,
+    "max_freq": "3.35 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_930",
+    "name": "Dimensity 930",
+    "vendor": "MediaTek",
+    "model": "MT6855",
+    "cores": 2,
+    "max_freq": "2.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9300",
+    "name": "Dimensity 9300",
+    "vendor": "MediaTek",
+    "model": "MT6989",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "4 nm",
+    "max_freq": "3.25 GHz"
+  },
+  {
+    "id": "dimensity_9300p",
+    "name": "Dimensity 9300+",
+    "vendor": "MediaTek",
+    "model": "MT6989",
+    "cores": 1,
+    "max_freq": "3.4 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9400",
+    "name": "Dimensity 9400",
+    "vendor": "MediaTek",
+    "model": "MT6991",
+    "process": "3 nm",
+    "cores": 3,
+    "max_freq": "3.62 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9400p",
+    "name": "Dimensity 9400+",
+    "vendor": "MediaTek",
+    "model": "MT6991",
+    "cores": 1,
+    "max_freq": "3.73 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9400e",
+    "name": "Dimensity 9400e",
+    "vendor": "MediaTek",
+    "cores": 5,
+    "max_freq": "6 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "dimensity_9500",
+    "name": "Dimensity 9500",
+    "vendor": "MediaTek",
+    "model": "MT6993",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "3 nm",
+    "max_freq": "4.21 GHz",
+    "gpu": "Mali G1-Ultra MC12 @ 1716 MHz (5271.6 GFLOPS in FP32)"
+  },
+  {
+    "id": "dimensity_9500s",
+    "name": "Dimensity 9500s",
+    "vendor": "MediaTek",
+    "max_freq": "1612 MHz",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "genio_1200",
+    "name": "Genio 1200",
+    "vendor": "MediaTek",
+    "model": "MT8395",
+    "cores": 4,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC5 @ 880 MHz [ 173 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "genio_350",
+    "name": "Genio 350",
+    "vendor": "MediaTek",
+    "model": "MT8365",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "14 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G52 MC1 @ 800 MHz"
+  },
+  {
+    "id": "genio_500",
+    "name": "Genio 500",
+    "vendor": "MediaTek",
+    "model": "MT8385",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G72 MP3 @ 800 MHz"
+  },
+  {
+    "id": "genio_510",
+    "name": "Genio 510",
+    "vendor": "MediaTek",
+    "model": "MT8370",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "6 nm",
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC2 @ ? MHz"
+  },
+  {
+    "id": "genio_700",
+    "name": "Genio 700",
+    "vendor": "MediaTek",
+    "model": "MT8390",
+    "cores": 2,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC3 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_1200",
+    "name": "Kompanio 1200",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G57 MC5 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_1300t",
+    "name": "Kompanio 1300T",
+    "vendor": "MediaTek",
+    "model": "MT8797",
+    "cores": 4,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G77 MC9 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_1380",
+    "name": "Kompanio 1380",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "3.0 GHz",
+    "gpu": "Mali-G57 MC5 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_500",
+    "name": "Kompanio 500",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G72 MP3 @ 800 MHz"
+  },
+  {
+    "id": "kompanio_520",
+    "name": "Kompanio 520",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "12 nm",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G52 MC2 @ ? MHz"
+  },
+  {
+    "id": "kompanio_540",
+    "name": "Kompanio 540",
+    "vendor": "MediaTek",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G57 MC2",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_800t",
+    "name": "Kompanio 800T",
+    "vendor": "MediaTek",
+    "model": "MT8771",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali -G57 MC2 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_820",
+    "name": "Kompanio 820",
+    "vendor": "MediaTek",
+    "process": "7 nm",
+    "cores": 7,
+    "max_freq": "2.2 GHz",
+    "gpu": "Mali-G57 MC5 @ ?MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_838",
+    "name": "Kompanio 838",
+    "vendor": "MediaTek",
+    "process": "6 nm",
+    "cores": 6,
+    "max_freq": "2.6 GHz",
+    "gpu": "Mali-G57 MC3 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_900t",
+    "name": "Kompanio 900T",
+    "vendor": "MediaTek",
+    "model": "MT8791",
+    "cores": 2,
+    "max_freq": "2.4 GHz",
+    "gpu": "Mali-G68 MC4 @ ? MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "kompanio_ultra_910",
+    "name": "Kompanio Ultra 910",
+    "vendor": "MediaTek",
+    "cores": 9,
+    "architecture": "ARMv9-A",
+    "process": "3 nm",
+    "max_freq": "3.62 GHz"
+  },
+  {
+    "id": "mt2502_mt2503",
+    "name": "MT2502 / MT2503",
+    "vendor": "MediaTek",
+    "model": "MT2502",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "260 MHz"
+  },
+  {
+    "id": "mt2523d",
+    "name": "MT2523D",
+    "vendor": "MediaTek",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "208 MHz"
+  },
+  {
+    "id": "mt2523g",
+    "name": "MT2523G",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt2601",
+    "name": "MT2601",
+    "vendor": "MediaTek",
+    "model": "MT2601",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "28 nm",
+    "max_freq": "1.2 GHz"
+  },
+  {
+    "id": "mt2621",
+    "name": "MT2621",
+    "vendor": "MediaTek",
+    "model": "MT2621",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "260 MHz"
+  },
+  {
+    "id": "mt2625",
+    "name": "MT2625",
+    "vendor": "MediaTek",
+    "model": "MT2625",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "104 MHz"
+  },
+  {
+    "id": "mt3303",
+    "name": "MT3303",
+    "vendor": "MediaTek",
+    "model": "MT3303",
+    "cores": 7,
+    "architecture": "ARMv7-A"
+  },
+  {
+    "id": "mt3332_mt3333",
+    "name": "MT3332 / MT3333",
+    "vendor": "MediaTek",
+    "model": "MT3332",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "158 MHz"
+  },
+  {
+    "id": "mt3336_mt3337",
+    "name": "MT3336 / MT3337",
+    "vendor": "MediaTek",
+    "model": "MT3336",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "98 MHz"
+  },
+  {
+    "id": "mt3339",
+    "name": "MT3339",
+    "vendor": "MediaTek",
+    "model": "MT3339",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "98 MHz"
+  },
+  {
+    "id": "mt3620",
+    "name": "MT3620",
+    "vendor": "MediaTek",
+    "model": "MT3620",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "max_freq": "500 MHz"
+  },
+  {
+    "id": "mt5327",
+    "name": "MT5327",
+    "vendor": "MediaTek",
+    "model": "MT5327",
+    "cores": 9,
+    "max_freq": "1.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5329",
+    "name": "MT5329",
+    "vendor": "MediaTek",
+    "model": "MT5329",
+    "max_freq": "1.0 GHz",
+    "gpu": "Mali-T624 MP4",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5366",
+    "name": "MT5366",
+    "vendor": "MediaTek",
+    "model": "MT5366",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5389",
+    "name": "MT5389",
+    "vendor": "MediaTek",
+    "model": "MT5389",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5395",
+    "name": "MT5395",
+    "vendor": "MediaTek",
+    "model": "MT5395",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5396",
+    "name": "MT5396",
+    "vendor": "MediaTek",
+    "model": "MT5396",
+    "cores": 9,
+    "max_freq": "900 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5398",
+    "name": "MT5398",
+    "vendor": "MediaTek",
+    "model": "MT5398",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5505",
+    "name": "MT5505",
+    "vendor": "MediaTek",
+    "model": "MT5505",
+    "cores": 4,
+    "gpu": "Mali-4xx MP2",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5561",
+    "name": "MT5561",
+    "vendor": "MediaTek",
+    "model": "MT5561",
+    "cores": 11,
+    "max_freq": "700 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5580",
+    "name": "MT5580",
+    "vendor": "MediaTek",
+    "model": "MT5580",
+    "cores": 9,
+    "max_freq": "800 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5582",
+    "name": "MT5582",
+    "vendor": "MediaTek",
+    "model": "MT5582",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5592",
+    "name": "MT5592",
+    "vendor": "MediaTek",
+    "model": "MT5592",
+    "cores": 9,
+    "max_freq": "1.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5595",
+    "name": "MT5595",
+    "vendor": "MediaTek",
+    "model": "MT5595",
+    "cores": 34,
+    "gpu": "Mali-T6xx [ 224 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5596",
+    "name": "MT5596",
+    "vendor": "MediaTek",
+    "model": "MT5596",
+    "max_freq": "1.1 GHz",
+    "gpu": "Mali-T860 MP2",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt5597",
+    "name": "MT5597",
+    "vendor": "MediaTek",
+    "model": "MT5597",
+    "max_freq": "1.0 GHz",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6205",
+    "name": "MT6205",
+    "vendor": "MediaTek",
+    "model": "MT6205",
+    "cores": 7,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6216",
+    "name": "MT6216",
+    "vendor": "MediaTek",
+    "model": "MT6216",
+    "gpu": "No GPU",
+    "cores": 12,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6217",
+    "name": "MT6217",
+    "vendor": "MediaTek",
+    "model": "MT6217",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6218b",
+    "name": "MT6218B",
+    "vendor": "MediaTek",
+    "cores": 7,
+    "max_freq": "52 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6219",
+    "name": "MT6219",
+    "vendor": "MediaTek",
+    "model": "MT6219",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6223",
+    "name": "MT6223",
+    "vendor": "MediaTek",
+    "model": "MT6223",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6225",
+    "name": "MT6225",
+    "vendor": "MediaTek",
+    "model": "MT6225",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6226",
+    "name": "MT6226",
+    "vendor": "MediaTek",
+    "model": "MT6226",
+    "cores": 7,
+    "max_freq": "52 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6227",
+    "name": "MT6227",
+    "vendor": "MediaTek",
+    "model": "MT6227",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6228",
+    "name": "MT6228",
+    "vendor": "MediaTek",
+    "model": "MT6228",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6229",
+    "name": "MT6229",
+    "vendor": "MediaTek",
+    "model": "MT6229",
+    "cores": 7,
+    "max_freq": "104 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6230",
+    "name": "MT6230",
+    "vendor": "MediaTek",
+    "model": "MT6230",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6235",
+    "name": "MT6235",
+    "vendor": "MediaTek",
+    "model": "MT6235",
+    "cores": 9,
+    "max_freq": "208 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6236",
+    "name": "MT6236",
+    "vendor": "MediaTek",
+    "model": "MT6236",
+    "max_freq": "312 MHz",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6252",
+    "name": "MT6252",
+    "vendor": "MediaTek",
+    "model": "MT6252",
+    "cores": 7,
+    "max_freq": "104 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6253",
+    "name": "MT6253",
+    "vendor": "MediaTek",
+    "model": "MT6253",
+    "cores": 12,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6276m",
+    "name": "MT6276M",
+    "vendor": "MediaTek",
+    "cores": 6,
+    "process": "65 nm",
+    "max_freq": "520 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6280",
+    "name": "MT6280",
+    "vendor": "MediaTek",
+    "model": "MT6280",
+    "cores": 7,
+    "architecture": "ARMv7-A"
+  },
+  {
+    "id": "mt6513",
+    "name": "MT6513",
+    "vendor": "MediaTek",
+    "model": "MT6513",
+    "process": "65 nm",
+    "max_freq": "650 MHz",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6515",
+    "name": "MT6515",
+    "vendor": "MediaTek",
+    "model": "MT6515",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "40 nm",
+    "max_freq": "1.0 GHz"
+  },
+  {
+    "id": "mt6516",
+    "name": "MT6516",
+    "vendor": "MediaTek",
+    "model": "MT6516",
+    "cores": 9,
+    "process": "65 nm",
+    "max_freq": "416 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6517",
+    "name": "MT6517",
+    "vendor": "MediaTek",
+    "model": "MT6517",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "40 nm",
+    "max_freq": "1.0 GHz"
+  },
+  {
+    "id": "mt6517t",
+    "name": "MT6517T",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6570",
+    "name": "MT6570",
+    "vendor": "MediaTek",
+    "model": "MT6570",
+    "process": "28 nm",
+    "cores": 1,
+    "max_freq": "1.3 GHz",
+    "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32) [ 2 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6571",
+    "name": "MT6571",
+    "vendor": "MediaTek",
+    "model": "MT6571",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6572",
+    "name": "MT6572",
+    "vendor": "MediaTek",
+    "model": "MT6572",
+    "cores": 1,
+    "max_freq": "1.4 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6572m",
+    "name": "MT6572M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.0 GHz",
+    "gpu": "Mali-400 MP1 @ 400 MHz (3.6 GFLOPS in FP32) [ 2 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6573",
+    "name": "MT6573",
+    "vendor": "MediaTek",
+    "model": "MT6573",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6575",
+    "name": "MT6575",
+    "vendor": "MediaTek",
+    "model": "MT6575",
+    "cores": 1,
+    "max_freq": "1.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6575m",
+    "name": "MT6575M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6577",
+    "name": "MT6577",
+    "vendor": "MediaTek",
+    "model": "MT6577",
+    "cores": 1,
+    "max_freq": "1.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6577t",
+    "name": "MT6577T",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6580",
+    "name": "MT6580",
+    "vendor": "MediaTek",
+    "model": "MT6580",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "28 nm",
+    "max_freq": "1.3 GHz",
+    "gpu": "Mali-400 MP1 @ 500 MHz (4.5 GFLOPS in FP32) [ 2 ]"
+  },
+  {
+    "id": "mt6582",
+    "name": "MT6582",
+    "vendor": "MediaTek",
+    "model": "MT6582",
+    "gpu": "Mali-400 MP2 @ 500 MHz (9 GFLOPS in FP32) [ 2 ]",
+    "max_freq": "500 MHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6582m",
+    "name": "MT6582M",
+    "vendor": "MediaTek",
+    "gpu": "Mali-400 MP2 @ 400 MHz (7.2 GFLOPS in FP32) [ 2 ]",
+    "max_freq": "400 MHz",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6588",
+    "name": "MT6588",
+    "vendor": "MediaTek",
+    "model": "MT6588",
+    "process": "28 nm",
+    "cores": 1,
+    "max_freq": "1.7 GHz",
+    "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32) [ 2 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6589",
+    "name": "MT6589",
+    "vendor": "MediaTek",
+    "model": "MT6589",
+    "cores": 1,
+    "max_freq": "1.3 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6589m",
+    "name": "MT6589M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6589t",
+    "name": "MT6589T",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.5 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6591",
+    "name": "MT6591",
+    "vendor": "MediaTek",
+    "model": "MT6591",
+    "cores": 7,
+    "architecture": "ARMv7-A",
+    "process": "28 nm",
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-450 MP4 @ 600 MHz (36 GFLOPS in FP32) [ 2 ]"
+  },
+  {
+    "id": "mt6592",
+    "name": "MT6592",
+    "vendor": "MediaTek",
+    "model": "MT6592",
+    "cores": 1,
+    "max_freq": "2 GHz",
+    "gpu": "Mali-450 MP4 @ 700 MHz (42 GFLOPS in FP32) [ 2 ]",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6592m",
+    "name": "MT6592M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.4 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6595",
+    "name": "MT6595",
+    "vendor": "MediaTek",
+    "model": "MT6595",
+    "cores": 2,
+    "max_freq": "2.2 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6595m",
+    "name": "MT6595M",
+    "vendor": "MediaTek",
+    "cores": 2,
+    "max_freq": "2.0 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6731",
+    "name": "MT6731",
+    "vendor": "MediaTek",
+    "model": "MT6731",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "max_freq": "1.1 GHz"
+  },
+  {
+    "id": "mt6732",
+    "name": "MT6732",
+    "vendor": "MediaTek",
+    "model": "MT6732",
+    "cores": 1,
+    "max_freq": "1.5 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6732m",
+    "name": "MT6732M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.3 GHz",
+    "gpu": "Mali-T760 MP2 @ 500 MHz [ 2 ] (28 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6735",
+    "name": "MT6735",
+    "vendor": "MediaTek",
+    "model": "MT6735",
+    "cores": 1,
+    "max_freq": "1.3 GHz",
+    "gpu": "Mali-T720 MP2 @ 600 MHz [ 30 ] (24 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6735p",
+    "name": "MT6735P",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.0 GHz",
+    "gpu": "Mali-T720 MP2 @ 400 MHz [ 30 ] (16 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6737",
+    "name": "MT6737",
+    "vendor": "MediaTek",
+    "model": "MT6737",
+    "cores": 1,
+    "max_freq": "1.3 GHz",
+    "gpu": "Mali-T720 MP2 @ 550–650 MHz [ 30 ] (22–26 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6737t",
+    "name": "MT6737T",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-T720 MP2 @ 600 MHz [ 30 ] (24 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6738",
+    "name": "MT6738",
+    "vendor": "MediaTek",
+    "model": "MT6738",
+    "gpu": "Mali-T860 MP2 @ 350 MHz [ 30 ] (19.6 GFLOPS in FP32)",
+    "max_freq": "350 MHz",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6738t",
+    "name": "MT6738T",
+    "vendor": "MediaTek",
+    "gpu": "Mali-T860 MP2 @ 520 MHz [ 30 ] (29.1 GFLOPS in FP32)",
+    "max_freq": "520 MHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6739",
+    "name": "MT6739",
+    "vendor": "MediaTek",
+    "model": "MT6739",
+    "max_freq": "570 MHz",
+    "cores": 3,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6750",
+    "name": "MT6750",
+    "vendor": "MediaTek",
+    "model": "MT6750",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "process": "28 nm",
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-T860 MP2 @ 520 MHz [ 34 ] [ 35 ] (29.1 GFLOPS in FP32)"
+  },
+  {
+    "id": "mt6750s",
+    "name": "MT6750S",
+    "vendor": "MediaTek",
+    "gpu": "Mali-T860 MP2",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6750t",
+    "name": "MT6750T",
+    "vendor": "MediaTek",
+    "cores": 106,
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-T860 MP2 @ 650 MHz [ 34 ] (36.4 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6752",
+    "name": "MT6752",
+    "vendor": "MediaTek",
+    "model": "MT6752",
+    "cores": 1,
+    "max_freq": "1.7 GHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6752m",
+    "name": "MT6752M",
+    "vendor": "MediaTek",
+    "cores": 1,
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-T760 MP2 @ 700 MHz [ 2 ] (39.2 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt6753",
+    "name": "MT6753",
+    "vendor": "MediaTek",
+    "model": "MT6753",
+    "cores": 106,
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-T720 MP3 @ 700 MHz [ 30 ] (42 GFLOPS in FP32)",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7925_filogic_360",
+    "name": "MT7925 Filogic 360",
+    "vendor": "MediaTek",
+    "model": "MT7925",
+    "cores": 2,
+    "max_freq": "160 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7927_filogic_380",
+    "name": "MT7927 Filogic 380",
+    "vendor": "MediaTek",
+    "model": "MT7927",
+    "cores": 2,
+    "max_freq": "320 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7988a_filogic_880",
+    "name": "MT7988A Filogic 880",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "320 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7988d_filogic_860",
+    "name": "MT7988D Filogic 860",
+    "vendor": "MediaTek",
+    "cores": 4,
+    "max_freq": "160 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7991_filogic_660",
+    "name": "MT7991 Filogic 660",
+    "vendor": "MediaTek",
+    "model": "MT7991",
+    "cores": 2,
+    "max_freq": "160 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7992_filogic_660",
+    "name": "MT7992 Filogic 660",
+    "vendor": "MediaTek",
+    "model": "MT7992",
+    "cores": 4,
+    "max_freq": "160 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7995_filogic_680",
+    "name": "MT7995 Filogic 680",
+    "vendor": "MediaTek",
+    "model": "MT7995",
+    "cores": 2,
+    "max_freq": "320 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt7996_filogic_680",
+    "name": "MT7996 Filogic 680",
+    "vendor": "MediaTek",
+    "model": "MT7996",
+    "cores": 4,
+    "max_freq": "320 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt8362a",
+    "name": "MT8362A",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.5 GHz"
+  },
+  {
+    "id": "mt8362b",
+    "name": "MT8362B",
+    "vendor": "MediaTek",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "1.3 GHz"
+  },
+  {
+    "id": "mt8385_i500_genio_500",
+    "name": "MT8385 (i500) Genio 500",
+    "vendor": "MediaTek",
+    "model": "MT8385",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "2.0 GHz"
+  },
+  {
+    "id": "mt9638",
+    "name": "MT9638",
+    "vendor": "MediaTek",
+    "model": "MT9638",
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-G52 3EE MC1",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt9675_mt9632_mt9602",
+    "name": "MT9675 / MT9632 / MT9602",
+    "vendor": "MediaTek",
+    "model": "MT9675",
+    "max_freq": "1.5 GHz",
+    "gpu": "Mali-G52 2EE MC1",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt9685_mt9612",
+    "name": "MT9685 / MT9612",
+    "vendor": "MediaTek",
+    "model": "MT9685",
+    "max_freq": "1.5 GHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt9686_mt9652_mt9613",
+    "name": "MT9686 / MT9652 / MT9613",
+    "vendor": "MediaTek",
+    "model": "MT9686",
+    "max_freq": "1.4 GHz",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mt9950_mt5895_s900_mt9970a",
+    "name": "MT9950 / MT5895 (S900) / MT9970A",
+    "vendor": "MediaTek",
+    "model": "MT9950",
+    "max_freq": "1.8 GHz",
+    "gpu": "Mali-G52 2EE MC2 @ 800 MHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "pentonic_1000",
+    "name": "Pentonic 1000",
+    "vendor": "MediaTek",
+    "model": "MT9972",
+    "max_freq": "2.0 GHz",
+    "gpu": "Mali-G57 MC2 @ 800 MHz",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "pentonic_2000",
+    "name": "Pentonic 2000",
+    "vendor": "MediaTek",
+    "model": "MT9902",
+    "max_freq": "1.8 GHz",
+    "gpu": "Mali-G57 MC3 @ 1.0 GHz",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "pentonic_700",
+    "name": "Pentonic 700",
+    "vendor": "MediaTek",
+    "model": "MT9618",
+    "max_freq": "1.4 GHz",
+    "gpu": "Mali-G52 MC1 @ ? MHz",
+    "cores": 2,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "pentonic_800",
+    "name": "Pentonic 800",
+    "vendor": "MediaTek",
+    "model": "MT9655",
+    "max_freq": "1.8 GHz",
+    "gpu": "Mali-G57 MC1 @ ? MHz",
+    "cores": 1,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "pentonic_900",
+    "name": "Pentonic 900",
+    "vendor": "MediaTek",
+    "model": "MT9950",
+    "max_freq": "1.8 GHz",
+    "gpu": "Mali-G52 MC2 @ 800 MHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
   }
 ]

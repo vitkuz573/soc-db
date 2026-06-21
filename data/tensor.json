@@ -12,7 +12,10 @@
     "process": "5nm",
     "year": 2021,
     "max_freq": "2.8 GHz",
-    "devices": ["Google Pixel 6", "Google Pixel 6 Pro"]
+    "devices": [
+      "Google Pixel 6",
+      "Google Pixel 6 Pro"
+    ]
   },
   {
     "id": "gs201_cloudripper",
@@ -27,7 +30,10 @@
     "process": "5nm",
     "year": 2022,
     "max_freq": "2.85 GHz",
-    "devices": ["Google Pixel 7", "Google Pixel 7 Pro"]
+    "devices": [
+      "Google Pixel 7",
+      "Google Pixel 7 Pro"
+    ]
   },
   {
     "id": "gs301_zuma",
@@ -42,7 +48,10 @@
     "process": "4nm",
     "year": 2023,
     "max_freq": "3.0 GHz",
-    "devices": ["Google Pixel 8", "Google Pixel 8 Pro"]
+    "devices": [
+      "Google Pixel 8",
+      "Google Pixel 8 Pro"
+    ]
   },
   {
     "id": "gs401_zumapro",
@@ -57,6 +66,62 @@
     "process": "4nm",
     "year": 2024,
     "max_freq": "3.1 GHz",
-    "devices": ["Google Pixel 9", "Google Pixel 9 Pro"]
+    "devices": [
+      "Google Pixel 9",
+      "Google Pixel 9 Pro"
+    ]
+  },
+  {
+    "id": "1st_gen_edge_tpu_abrolhos_1066",
+    "name": "1st Gen Edge TPU  (Abrolhos) @ 1066 MHz",
+    "vendor": "Google",
+    "cores": 2,
+    "max_freq": "1066 MHz",
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "bluetooth_52",
+    "name": "Bluetooth 5.2",
+    "vendor": "Google",
+    "cores": 5,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "exynos_5123b",
+    "name": "Exynos 5123b",
+    "vendor": "Google",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "gs101",
+    "name": "GS101",
+    "vendor": "Google",
+    "model": "GS101",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "mali_g78_mp20",
+    "name": "Mali -G78 MP20",
+    "vendor": "Google",
+    "gpu": "Mali-G710 MP7 [ 40 ]",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "octacore_2_28_cortexx1_2_225",
+    "name": "Octa-core :  2× 2.8 GHz Cortex-X1 2× 2.25 GHz Cortex-A76 4× ",
+    "vendor": "Google",
+    "max_freq": "2.85 GHz",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
+  },
+  {
+    "id": "october_19_2021",
+    "name": "October 19, 2021",
+    "vendor": "Google",
+    "cores": 6,
+    "architecture": "ARMv8.2-A"
   }
 ]

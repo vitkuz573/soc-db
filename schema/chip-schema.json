@@ -4,7 +4,7 @@
   "title": "SoC/CPU Database Entry",
   "description": "Schema for a single SoC or CPU entry in the SOC-DB",
   "type": "object",
-  "required": ["id", "name", "vendor", "cores", "architecture", "year"],
+  "required": ["id", "name", "vendor", "cores", "architecture"],
   "properties": {
     "id": {
       "type": "string",

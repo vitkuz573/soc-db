@@ -2,17 +2,33 @@
 
 Enterprise-grade SoC / CPU identifier database.
 
-- 100+ chips across 6 vendors (Qualcomm, MediaTek, Samsung, HiSilicon, Google, Apple)
+- **636+ chips** across 6 vendors (Qualcomm, MediaTek, Samsung, HiSilicon, Google, Apple)
 - JSON Schema validated
 - GitHub Pages frontend with search, filter, sort, and detailed chip view
-- Local CLI validation (`make validate`)
+- Automated Wikipedia scraper pipeline (`make scrape`)
 
 ## Quick Start
 
 ```bash
+make scrape     # scrape Wikipedia data for all vendors
 make validate   # validate all JSON files
 make server     # start local web UI at http://localhost:8080/
 ```
+
+## Scraping Pipeline
+
+Automatic extraction from Wikipedia tables:
+
+| Vendor | Data file | Source |
+|--------|-----------|--------|
+| Qualcomm | `data/qualcomm.json` | List of Snapdragon processors |
+| MediaTek | `data/mediatek.json` | List of MediaTek processors |
+| Samsung | `data/exynos.json` | Exynos page |
+| HiSilicon | `data/kirin.json` | HiSilicon page |
+| Google | `data/tensor.json` | Google Tensor page |
+| Apple | `data/apple.json` | Apple A-series + M-series (name mapping) |
+
+Run `bash scripts/run_all.sh` to refresh all data from Wikipedia.
 
 ## Data Format
 
@@ -38,21 +54,21 @@ Each chip entry follows the [JSON Schema](schema/chip-schema.json):
 
 ```
 soc-db/
-├── data/           # JSON data files (one per vendor)
+├── data/             # JSON data files (one per vendor)
 │   ├── index.json
-│   ├── qualcomm.json
-│   ├── mediatek.json
-│   ├── exynos.json
-│   ├── kirin.json
-│   ├── tensor.json
-│   └── apple.json
-├── index.html      # GitHub Pages web UI (root level)
+│   └── {vendor}.json
+├── scripts/          # Wikipedia scrapers
+│   ├── common.py
+│   ├── scraper_wikipedia.py
+│   ├── scraper_apple.py
+│   └── run_all.sh
+├── index.html        # GitHub Pages web UI
 ├── docs/
 │   ├── api.md
 │   └── contributing.md
-├── schema/         # JSON Schema definition
+├── schema/
 │   └── chip-schema.json
-├── tests/          # Validation scripts
+├── tests/
 │   └── validate.py
 ├── Makefile
 ├── package.json

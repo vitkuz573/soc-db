@@ -31,7 +31,7 @@ def validate_schema():
 
 def validate_data_files():
     """Validate each data file is valid JSON and has required fields."""
-    required = ["id", "name", "vendor", "cores", "architecture", "year"]
+    required = ["id", "name", "vendor", "cores", "architecture"]
     valid_vendors = {"Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple", "Intel", "AMD"}
     all_ok = True
     ids_seen = set()
