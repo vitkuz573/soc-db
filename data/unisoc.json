@@ -6,7 +6,10 @@
     "model": "SC2731",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "sc9836",
@@ -15,7 +18,10 @@
     "model": "SC9836",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "sc9860",
@@ -24,7 +30,10 @@
     "model": "SC9860",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "sp9860",
@@ -33,7 +42,10 @@
     "model": "SP9860",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "sp9863",
@@ -42,7 +54,10 @@
     "model": "SP9863",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "ums9620",
@@ -51,6 +66,9 @@
     "model": "UMS9620",
     "source": "linux_dt",
     "cores": 8,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

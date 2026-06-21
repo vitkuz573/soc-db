@@ -6,7 +6,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "process": "20 nm",
-    "max_freq": "2.2 GHz"
+    "max_freq": "2.2 GHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2"
   },
   {
     "id": "odnx10_a1_tm675m_a1",
@@ -15,21 +19,33 @@
     "cores": 16,
     "architecture": "ARMv8.2-A",
     "process": "16 nm",
-    "max_freq": "2.1 GHz"
+    "max_freq": "2.1 GHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "ODNX10-A1 TM675M-A1"
   },
   {
     "id": "t241",
     "name": "T241",
     "vendor": "Nvidia",
     "cores": 72,
-    "architecture": "ARMv9-A"
+    "architecture": "ARMv9-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T241"
   },
   {
     "id": "t254",
     "name": "T254 ?",
     "vendor": "Nvidia",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T254 ?"
   },
   {
     "id": "t264",
@@ -37,7 +53,11 @@
     "vendor": "Nvidia",
     "cores": 12,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.6 GHz"
+    "max_freq": "2.6 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T264"
   },
   {
     "id": "te980_m",
@@ -45,7 +65,11 @@
     "vendor": "Nvidia",
     "cores": 3,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.0 GHz"
+    "max_freq": "2.0 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "TE980-M"
   },
   {
     "id": "tm660m_a2",
@@ -53,7 +77,11 @@
     "vendor": "Nvidia",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.4 GHz"
+    "max_freq": "1.4 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "TM660M-A2"
   },
   {
     "id": "tegra_2",
@@ -61,7 +89,11 @@
     "vendor": "Nvidia",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.0 GHz"
+    "max_freq": "1.0 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra 2"
   },
   {
     "id": "tegra_3",
@@ -69,7 +101,11 @@
     "vendor": "Nvidia",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.2 GHz"
+    "max_freq": "1.2 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra 3"
   },
   {
     "id": "tegra_4",
@@ -77,7 +113,11 @@
     "vendor": "Nvidia",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "max_freq": "672 MHz"
+    "max_freq": "672 MHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra 4"
   },
   {
     "id": "tegra_4i",
@@ -85,7 +125,11 @@
     "vendor": "Nvidia",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "max_freq": "660 MHz"
+    "max_freq": "660 MHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra 4i"
   },
   {
     "id": "tegra_k1",
@@ -93,7 +137,11 @@
     "vendor": "Nvidia",
     "cores": 3,
     "architecture": "ARMv8.2-A",
-    "max_freq": "951 MHz"
+    "max_freq": "951 MHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra K1"
   },
   {
     "id": "tegra_x2_parker",
@@ -101,13 +149,21 @@
     "vendor": "Nvidia",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.0 GHz"
+    "max_freq": "2.0 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Tegra X2 (Parker)"
   },
   {
     "id": "thor",
     "name": "Thor",
     "vendor": "Nvidia",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Thor"
   }
 ]

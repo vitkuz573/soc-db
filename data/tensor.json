@@ -15,7 +15,13 @@
     "devices": [
       "Google Pixel 6",
       "Google Pixel 6 Pro"
-    ]
+    ],
+    "aliases": [
+      "Tensor (GS101)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "gs201_cloudripper",
@@ -33,7 +39,13 @@
     "devices": [
       "Google Pixel 7",
       "Google Pixel 7 Pro"
-    ]
+    ],
+    "aliases": [
+      "Tensor G2 (GS201)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "gs301_zuma",
@@ -51,7 +63,13 @@
     "devices": [
       "Google Pixel 8",
       "Google Pixel 8 Pro"
-    ]
+    ],
+    "aliases": [
+      "Tensor G3 (GS301)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "gs401_zumapro",
@@ -69,7 +87,13 @@
     "devices": [
       "Google Pixel 9",
       "Google Pixel 9 Pro"
-    ]
+    ],
+    "aliases": [
+      "Tensor G4 (GS401)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "1st_gen_edge_tpu_abrolhos_1066",
@@ -77,21 +101,33 @@
     "vendor": "Google",
     "cores": 2,
     "max_freq": "1066 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "1st Gen Edge TPU  (Abrolhos) @ 1066 MHz"
   },
   {
     "id": "bluetooth_52",
     "name": "Bluetooth 5.2",
     "vendor": "Google",
     "cores": 5,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Bluetooth 5.2"
   },
   {
     "id": "exynos_5123b",
     "name": "Exynos 5123b",
     "vendor": "Google",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5123b"
   },
   {
     "id": "gs101",
@@ -99,7 +135,10 @@
     "vendor": "Google",
     "model": "GS101",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "gs101_s5p9845",
@@ -107,7 +146,10 @@
     "vendor": "Google",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "model": "GS101"
+    "model": "GS101",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "mali_g78_mp20",
@@ -115,7 +157,11 @@
     "vendor": "Google",
     "gpu": "Mali-G710 MP7 [ 40 ]",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Mali -G78 MP20"
   },
   {
     "id": "octacore_2_28_cortexx1_2_225",
@@ -123,13 +169,21 @@
     "vendor": "Google",
     "max_freq": "2.85 GHz",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Octa-core :  2× 2.8 GHz Cortex-X1 2× 2.25 GHz Cortex-A76 4× "
   },
   {
     "id": "october_19_2021",
     "name": "October 19, 2021",
     "vendor": "Google",
     "cores": 6,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "October 19, 2021"
   }
 ]

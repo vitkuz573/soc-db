@@ -6,7 +6,10 @@
     "model": "LAN9691",
     "source": "linux_dt",
     "cores": 2,
-    "architecture": "ARM Cortex-A7"
+    "architecture": "ARM Cortex-A7",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "lan9696",
@@ -15,7 +18,10 @@
     "model": "LAN9696",
     "source": "linux_dt",
     "cores": 2,
-    "architecture": "ARM Cortex-A7"
+    "architecture": "ARM Cortex-A7",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "sparx5",
@@ -24,6 +30,9 @@
     "model": "SPARX5",
     "source": "linux_dt",
     "cores": 2,
-    "architecture": "ARM Cortex-A7"
+    "architecture": "ARM Cortex-A7",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

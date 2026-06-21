@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""
+soc-db CLI — query and export the SoC database.
+
+Usage:
+    soc-db list [--vendor VENDOR] [--json]
+    soc-db query [--vendor VENDOR] [--arch ARCH] [--gpu GPU]
+                 [--year YEAR] [--min-cores N] [--min-ghz G]
+                 [--completeness C] [--search TERM]
+                 [--json] [--csv] [--limit N]
+    soc-db show <id>
+    soc-db stats [--json]
+    soc-db enrich                     # Re-apply enrichment to all data
+"""
+
+import json
+import sys
+import os
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+DATA_DIR = ROOT / "data"
+
+sys.path.insert(0, str(ROOT / "scripts"))
+
+
+def load_all():
+    chips = []
+    for fpath in sorted(DATA_DIR.glob("*.json")):
+        if fpath.name == "index.json":
+            continue
+        chips.extend(json.loads(fpath.read_text("utf-8")))
+    return chips
+
+
+def fmt_table(rows, headers):
+    cols = len(headers)
+    widths = [len(h) for h in headers]
+    for row in rows:
+        for i in range(cols):
+            widths[i] = max(widths[i], len(str(row[i])))
+    sep = "+" + "+".join("-" * (w + 2) for w in widths) + "+"
+    lines = [sep]
+    hdr = "| " + " | ".join(h.center(widths[i]) for i, h in enumerate(headers)) + " |"
+    lines.append(hdr)
+    lines.append(sep)
+    for row in rows:
+        line = "| " + " | ".join(str(row[i]).ljust(widths[i]) for i in range(cols)) + " |"
+        lines.append(line)
+    lines.append(sep)
+    return "\n".join(lines)
+
+
+def cmd_list(args):
+    chips = load_all()
+    if args.vendor:
+        chips = [c for c in chips if c.get("vendor", "").lower() == args.vendor.lower()]
+    vendors = {}
+    for c in chips:
+        v = c.get("vendor", "Unknown")
+        vendors.setdefault(v, {"count": 0, "completeness": []})
+        vendors[v]["count"] += 1
+        vendors[v]["completeness"].append(c.get("completeness", 0))
+    if args.json:
+        out = {k: {"count": v["count"], "avg_completeness": round(sum(v["completeness"]) / max(len(v["completeness"]), 1), 3)} for k, v in sorted(vendors.items())}
+        print(json.dumps(out, indent=2))
+    else:
+        rows = []
+        for vname, vdata in sorted(vendors.items()):
+            avg = sum(vdata["completeness"]) / max(len(vdata["completeness"]), 1)
+            rows.append((vname, str(vdata["count"]), f"{avg:.3f}"))
+        print(fmt_table(rows, ["Vendor", "Chips", "Completeness"]))
+
+
+def cmd_query(args):
+    chips = load_all()
+    if args.vendor:
+        chips = [c for c in chips if c.get("vendor", "").lower() == args.vendor.lower()]
+    if args.arch:
+        chips = [c for c in chips if args.arch.lower() in c.get("architecture", "").lower()]
+    if args.gpu:
+        chips = [c for c in chips if args.gpu.lower() in c.get("gpu", "").lower()]
+    if args.year:
+        chips = [c for c in chips if c.get("year") == args.year]
+    if args.min_ghz:
+        min_mhz = int(args.min_ghz * 1000)
+        chips = [c for c in chips if (c.get("clock_max") or 0) >= min_mhz]
+    if args.min_cores:
+        chips = [c for c in chips if (c.get("cores") or 0) >= args.min_cores]
+    if args.completeness:
+        chips = [c for c in chips if (c.get("completeness") or 0) >= args.completeness]
+    if args.search:
+        term = args.search.lower()
+        chips = [c for c in chips if term in json.dumps(c).lower()]
+    if args.limit:
+        chips = chips[:args.limit]
+    if args.csv:
+        import csv, io
+        out = io.StringIO()
+        w = csv.writer(out)
+        fields = ["id", "name", "vendor", "model", "architecture", "cores", "process_nm", "gpu", "year", "completeness"]
+        w.writerow(fields)
+        for c in chips:
+            w.writerow([c.get(f, "") for f in fields])
+        print(out.getvalue().strip())
+    elif args.json:
+        print(json.dumps(chips, indent=2, ensure_ascii=False))
+    else:
+        rows = []
+        for c in chips:
+            gpu = c.get("gpu", "") or ""
+            proc = f"{c.get('process_nm', '?')}nm" if c.get("process_nm") else ""
+            rows.append((c.get("id", ""), c.get("name", ""), c.get("vendor", ""), str(c.get("cores", "?")), proc, gpu, str(c.get("year", ""))))
+        if rows:
+            print(fmt_table(rows, ["ID", "Name", "Vendor", "Cores", "Process", "GPU", "Year"]))
+            print(f"\n{len(chips)} chips matched")
+        else:
+            print("No chips matched")
+
+
+def cmd_show(args):
+    chips = load_all()
+    match = None
+    for c in chips:
+        if c.get("id") == args.id:
+            match = c
+            break
+    if not match:
+        print(f"Chip '{args.id}' not found", file=sys.stderr)
+        sys.exit(1)
+    print(json.dumps(match, indent=2, ensure_ascii=False))
+
+
+def cmd_stats(args):
+    chips = load_all()
+    vcount = len(set(c.get("vendor", "") for c in chips))
+    years = [c.get("year") for c in chips if c.get("year")]
+    comps = [c.get("completeness", 0) for c in chips]
+    gpu_count = sum(1 for c in chips if c.get("gpu"))
+    proc_count = sum(1 for c in chips if c.get("process_nm"))
+    clock_count = sum(1 for c in chips if c.get("clock_max"))
+    stats = {
+        "total_chips": len(chips),
+        "total_vendors": vcount,
+        "year_min": min(years) if years else None,
+        "year_max": max(years) if years else None,
+        "avg_completeness": round(sum(comps) / max(len(comps), 1), 3),
+        "fields_present": {
+            "gpu": f"{gpu_count}/{len(chips)}",
+            "process_nm": f"{proc_count}/{len(chips)}",
+            "clock_max": f"{clock_count}/{len(chips)}",
+            "architecture": f"{sum(1 for c in chips if c.get('architecture'))}/{len(chips)}",
+        },
+    }
+    if args.json:
+        print(json.dumps(stats, indent=2))
+    else:
+        for k, v in stats.items():
+            print(f"  {k}: {v}")
+
+
+def cmd_enrich(args):
+    from common import enrich_all
+    for fpath in sorted(DATA_DIR.glob("*.json")):
+        if fpath.name == "index.json":
+            continue
+        chips = json.loads(fpath.read_text("utf-8"))
+        enrich_all(chips)
+        fpath.write_text(json.dumps(chips, indent=2, ensure_ascii=False) + "\n", "utf-8")
+        print(f"  {fpath.name}: {len(chips)} entries enriched")
+
+
+def main():
+    import argparse
+    p = argparse.ArgumentParser(description="soc-db CLI")
+    sp = p.add_subparsers(dest="cmd")
+
+    p_list = sp.add_parser("list", help="List vendors")
+    p_list.add_argument("--vendor", "-v", help="Filter by vendor")
+    p_list.add_argument("--json", action="store_true", help="JSON output")
+
+    p_query = sp.add_parser("query", help="Search chips")
+    p_query.add_argument("--vendor", "-v", help="Vendor filter")
+    p_query.add_argument("--arch", "-a", help="Architecture filter (substring)")
+    p_query.add_argument("--gpu", "-g", help="GPU filter (substring)")
+    p_query.add_argument("--year", type=int, help="Release year")
+    p_query.add_argument("--min-cores", type=int, help="Minimum cores")
+    p_query.add_argument("--min-ghz", type=float, help="Minimum clock GHz")
+    p_query.add_argument("--completeness", type=float, help="Minimum completeness (0-1)")
+    p_query.add_argument("--search", "-s", help="Full-text search")
+    p_query.add_argument("--json", action="store_true", help="JSON output")
+    p_query.add_argument("--csv", action="store_true", help="CSV output")
+    p_query.add_argument("--limit", type=int, help="Max results")
+
+    p_show = sp.add_parser("show", help="Show chip details")
+    p_show.add_argument("id", help="Chip ID")
+
+    p_stats = sp.add_parser("stats", help="Database statistics")
+    p_stats.add_argument("--json", action="store_true", help="JSON output")
+
+    sp.add_parser("enrich", help="Re-apply enrichment to all data")
+
+    args = p.parse_args()
+    if args.cmd == "list":
+        cmd_list(args)
+    elif args.cmd == "query":
+        cmd_query(args)
+    elif args.cmd == "show":
+        cmd_show(args)
+    elif args.cmd == "stats":
+        cmd_stats(args)
+    elif args.cmd == "enrich":
+        cmd_enrich(args)
+    else:
+        p.print_help()
+
+
+if __name__ == "__main__":
+    main()

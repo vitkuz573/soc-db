@@ -6,7 +6,10 @@
     "model": "RTD1293",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1295",
@@ -15,7 +18,10 @@
     "model": "RTD1295",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1296",
@@ -24,7 +30,10 @@
     "model": "RTD1296",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1395",
@@ -33,7 +42,10 @@
     "model": "RTD1395",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1501",
@@ -42,7 +54,10 @@
     "model": "RTD1501",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1619",
@@ -51,7 +66,10 @@
     "model": "RTD1619",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1861",
@@ -60,7 +78,10 @@
     "model": "RTD1861",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "rtd1920",
@@ -69,6 +90,9 @@
     "model": "RTD1920",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A55"
+    "architecture": "ARM Cortex-A55",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

@@ -1,62 +1,227 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json",
-  "title": "SoC/CPU Database Entry",
-  "description": "Schema for a single SoC or CPU entry in the SOC-DB",
+  "title": "SoC Chip Database Entry",
+  "description": "Enterprise schema for system-on-a-chip database entries",
   "type": "object",
-  "required": ["id", "name", "vendor", "cores", "architecture"],
+  "required": [
+    "id",
+    "name",
+    "vendor"
+  ],
   "properties": {
     "id": {
       "type": "string",
       "description": "Unique identifier (lowercase, underscore-separated)",
-      "pattern": "^[a-z0-9_]+$",
-      "examples": ["sm8250_kona", "mt6893"]
+      "pattern": "^[a-z0-9_]+$"
     },
     "name": {
       "type": "string",
-      "description": "Marketing name",
-      "examples": ["Snapdragon 870", "Dimensity 1200"]
+      "description": "Marketing name"
     },
     "vendor": {
       "type": "string",
-      "description": "Manufacturer",
-      "enum": ["Qualcomm", "MediaTek", "Samsung", "HiSilicon", "Google", "Apple", "Intel", "AMD"]
-    },
-    "codename": {
-      "type": "string",
-      "description": "Internal platform codename",
-      "examples": ["kona", "lahaina", "mt6893"]
+      "description": "Manufacturer name"
     },
     "model": {
       "type": "string",
-      "description": "Exact model number",
-      "examples": ["SM8250-AC", "MT6893"]
+      "description": "Exact model number"
     },
-    "revision": {
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names / aliases"
+    },
+    "codename": {
       "type": "string",
-      "description": "Revision or stepping (optional)",
-      "examples": ["2.1", "1.0"]
+      "description": "Internal platform codename"
     },
-    "cores": {
-      "type": "integer",
-      "description": "Number of CPU cores",
-      "minimum": 1,
-      "maximum": 256
+    "description": {
+      "type": "string",
+      "description": "Short description"
     },
     "architecture": {
       "type": "string",
-      "description": "ISA architecture",
-      "examples": ["ARMv8.2-A", "ARMv9-A", "x86_64"]
+      "description": "ISA architecture (e.g. ARMv8.2-A, x86-64)"
     },
-    "gpu": {
+    "isa": {
       "type": "string",
-      "description": "Integrated GPU (optional)",
-      "examples": ["Adreno 650", "Mali-G78 MC14"]
+      "description": "Instruction set architecture details"
+    },
+    "cores": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 256,
+      "description": "Total core count"
+    },
+    "threads": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of threads (if different from cores)"
+    },
+    "cluster_config": {
+      "type": "string",
+      "description": "Core cluster layout (e.g. 1+3+4)"
+    },
+    "clock_max": {
+      "type": "integer",
+      "description": "Maximum clock speed in MHz"
+    },
+    "clock_mid": {
+      "type": "integer",
+      "description": "Mid-cluster clock speed in MHz"
+    },
+    "clock_min": {
+      "type": "integer",
+      "description": "Minimum (efficiency) clock speed in MHz"
+    },
+    "max_freq": {
+      "type": "string",
+      "description": "Maximum clock frequency as display string"
+    },
+    "process_nm": {
+      "type": "integer",
+      "description": "Fabrication process node in nanometers"
+    },
+    "process_name": {
+      "type": "string",
+      "description": "Process node marketing name"
     },
     "process": {
       "type": "string",
-      "description": "Fabrication process node (optional)",
-      "examples": ["7nm", "5nm", "4nm"]
+      "description": "Fabrication process node string (legacy)"
+    },
+    "cache": {
+      "type": "object",
+      "description": "Cache hierarchy",
+      "properties": {
+        "l1": {
+          "type": "string"
+        },
+        "l2": {
+          "type": "string"
+        },
+        "l3": {
+          "type": "string"
+        }
+      }
+    },
+    "tdp": {
+      "type": "number",
+      "description": "Thermal Design Power in Watts"
+    },
+    "gpu": {
+      "type": "string",
+      "description": "GPU model name"
+    },
+    "gpu_clock": {
+      "type": "integer",
+      "description": "GPU clock speed in MHz"
+    },
+    "gpu_api": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Supported GPU APIs"
+    },
+    "gpu_tflops": {
+      "type": "number",
+      "description": "GPU compute in TFLOPS"
+    },
+    "memory_type": {
+      "type": "string",
+      "description": "RAM type (e.g. LPDDR5, LPDDR4X)"
+    },
+    "memory_max": {
+      "type": "integer",
+      "description": "Maximum RAM supported in GB"
+    },
+    "memory_clock": {
+      "type": "integer",
+      "description": "Memory clock speed in MHz"
+    },
+    "memory_bus": {
+      "type": "integer",
+      "description": "Memory bus width in bits"
+    },
+    "memory_bandwidth": {
+      "type": "integer",
+      "description": "Memory bandwidth in GB/s"
+    },
+    "storage_type": {
+      "type": "string",
+      "description": "Storage interface (e.g. UFS 3.1, eMMC 5.1)"
+    },
+    "npu": {
+      "type": "string",
+      "description": "NPU / AI accelerator name"
+    },
+    "ai_ops": {
+      "type": "number",
+      "description": "AI performance in TOPS"
+    },
+    "modem": {
+      "type": "string",
+      "description": "Modem model name"
+    },
+    "modem_dl": {
+      "type": "integer",
+      "description": "Modem max download in Mbps"
+    },
+    "modem_ul": {
+      "type": "integer",
+      "description": "Modem max upload in Mbps"
+    },
+    "cellular": {
+      "type": "string",
+      "description": "Cellular generation and bands"
+    },
+    "video_decode": {
+      "type": "string",
+      "description": "Video decode capabilities"
+    },
+    "video_encode": {
+      "type": "string",
+      "description": "Video encode capabilities"
+    },
+    "display_max": {
+      "type": "string",
+      "description": "Maximum display resolution and refresh rate"
+    },
+    "camera_max": {
+      "type": "string",
+      "description": "Maximum camera resolution"
+    },
+    "isps": {
+      "type": "integer",
+      "description": "Number of Image Signal Processors"
+    },
+    "video_capture": {
+      "type": "string",
+      "description": "Video capture capabilities"
+    },
+    "wifi": {
+      "type": "string",
+      "description": "WiFi standard"
+    },
+    "bluetooth": {
+      "type": "string",
+      "description": "Bluetooth version"
+    },
+    "usb": {
+      "type": "string",
+      "description": "USB version/support"
+    },
+    "navigation": {
+      "type": "string",
+      "description": "Supported navigation satellite systems"
+    },
+    "charging": {
+      "type": "string",
+      "description": "Charging technology (e.g. QC 5, USB-PD)"
     },
     "year": {
       "type": "integer",
@@ -64,36 +229,138 @@
       "minimum": 2007,
       "maximum": 2030
     },
+    "announced": {
+      "type": "string",
+      "format": "date",
+      "description": "Announcement date (ISO 8601)"
+    },
+    "revision": {
+      "type": "string",
+      "description": "Revision or stepping"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "announced",
+        "production",
+        "end-of-life",
+        "unknown"
+      ],
+      "description": "Lifecycle status",
+      "default": "unknown"
+    },
+    "completeness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Data completeness score (0.0 to 1.0)"
+    },
+    "sources": {
+      "type": "object",
+      "description": "Per-field data source tracking",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date"
+    },
+    "datasheet_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to manufacturer datasheet"
+    },
+    "wikipedia_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to Wikipedia article"
+    },
+    "wikidata_id": {
+      "type": "string",
+      "description": "Wikidata item ID"
+    },
+    "linux_dt_compatible": {
+      "type": "string",
+      "description": "Linux Device Tree compatible string"
+    },
     "devices": {
       "type": "array",
-      "description": "Known devices using this SoC (optional)",
-      "items": { "type": "string" },
-      "uniqueItems": true
+      "items": {
+        "type": "string"
+      },
+      "description": "Known devices using this chip"
     },
     "alternative_names": {
       "type": "array",
-      "description": "Alternative names or aliases (optional)",
-      "items": { "type": "string" },
-      "uniqueItems": true
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names (legacy)"
     },
-    "threads": {
-      "type": "integer",
-      "description": "Number of threads (if different from cores)",
-      "minimum": 1
-    },
-    "max_freq": {
+    "parent": {
       "type": "string",
-      "description": "Maximum clock frequency (optional)",
-      "examples": ["3.2 GHz", "2.85 GHz"]
+      "description": "Parent chip ID (for variants/derivatives)"
     },
-    "cache": {
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Arbitrary tags for categorization"
+    },
+    "rating": {
       "type": "object",
-      "description": "Cache hierarchy (optional)",
       "properties": {
-        "l1": { "type": "string" },
-        "l2": { "type": "string" },
-        "l3": { "type": "string" }
-      }
+        "performance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "efficiency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "gpu_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "ai_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "modem_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "description": "Normalized performance ratings (0-100)"
+    },
+    "benchmarks": {
+      "type": "object",
+      "properties": {
+        "antutu_v10": {
+          "type": "integer"
+        },
+        "geekbench_6_single": {
+          "type": "integer"
+        },
+        "geekbench_6_multi": {
+          "type": "integer"
+        },
+        "geekbench_5_single": {
+          "type": "integer"
+        },
+        "geekbench_5_multi": {
+          "type": "integer"
+        }
+      },
+      "description": "Benchmark scores"
     }
   }
 }

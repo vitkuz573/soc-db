@@ -11,7 +11,10 @@
     "gpu": "Mali-G51 MP4",
     "process": "12nm",
     "year": 2018,
-    "max_freq": "2.2 GHz"
+    "max_freq": "2.2 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin980",
@@ -25,7 +28,10 @@
     "gpu": "Mali-G76 MP10",
     "process": "7nm",
     "year": 2018,
-    "max_freq": "2.6 GHz"
+    "max_freq": "2.6 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin810",
@@ -39,7 +45,10 @@
     "gpu": "Mali-G52 MP6",
     "process": "7nm",
     "year": 2019,
-    "max_freq": "2.27 GHz"
+    "max_freq": "2.27 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin990_4g",
@@ -53,7 +62,10 @@
     "gpu": "Mali-G76 MP16",
     "process": "7nm",
     "year": 2019,
-    "max_freq": "2.86 GHz"
+    "max_freq": "2.86 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin990_5g",
@@ -67,7 +79,10 @@
     "gpu": "Mali-G76 MP16",
     "process": "7nm+",
     "year": 2019,
-    "max_freq": "2.86 GHz"
+    "max_freq": "2.86 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin9000",
@@ -81,7 +96,10 @@
     "gpu": "Mali-G78 MP24",
     "process": "5nm",
     "year": 2020,
-    "max_freq": "3.13 GHz"
+    "max_freq": "3.13 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin9000e",
@@ -95,7 +113,10 @@
     "gpu": "Mali-G78 MP22",
     "process": "5nm",
     "year": 2020,
-    "max_freq": "3.13 GHz"
+    "max_freq": "3.13 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin985",
@@ -109,7 +130,10 @@
     "gpu": "Mali-G77 MP8",
     "process": "7nm",
     "year": 2020,
-    "max_freq": "2.58 GHz"
+    "max_freq": "2.58 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "k3v2",
@@ -118,7 +142,11 @@
     "process": "40 nm",
     "cores": 7,
     "architecture": "ARMv7-A",
-    "max_freq": "533 MHz"
+    "max_freq": "533 MHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "K3V2"
   },
   {
     "id": "k3v2e",
@@ -127,7 +155,11 @@
     "process": "40 nm",
     "cores": 7,
     "architecture": "ARMv7-A",
-    "max_freq": "533 MHz"
+    "max_freq": "533 MHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "K3V2E"
   },
   {
     "id": "kirin_620",
@@ -138,7 +170,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 620 (KIRIN 620)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_620_hi6220",
@@ -149,7 +187,13 @@
     "model": "KIRIN 620",
     "process": "28 nm",
     "gpu": "Mali-450 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 620 (Hi6220) (KIRIN 620)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_650",
@@ -160,7 +204,13 @@
     "cores": 16,
     "gpu": "Mali-T830 MP2",
     "max_freq": "933 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 650 (KIRIN 650)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_650_hi6250",
@@ -171,7 +221,13 @@
     "model": "KIRIN 650",
     "process": "16 nm",
     "gpu": "Mali-T830 MP2",
-    "max_freq": "933 MHz"
+    "max_freq": "933 MHz",
+    "aliases": [
+      "Kirin 650 (Hi6250) (KIRIN 650)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_655",
@@ -179,7 +235,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 655",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 655 (KIRIN 655)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_658",
@@ -187,7 +249,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 658",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 658 (KIRIN 658)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_710",
@@ -197,7 +265,13 @@
     "process": "12 nm",
     "cores": 12,
     "gpu": "Mali-G51 MP4",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 710 (KIRIN 710)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_710_hi6260",
@@ -207,7 +281,13 @@
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 710",
     "process": "12 nm",
-    "gpu": "Mali-G51 MP4"
+    "gpu": "Mali-G51 MP4",
+    "aliases": [
+      "Kirin 710 (Hi6260) (KIRIN 710)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_710a",
@@ -215,14 +295,22 @@
     "vendor": "HiSilicon",
     "process": "14 nm",
     "cores": 14,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 710A"
   },
   {
     "id": "kirin_710f",
     "name": "Kirin 710F",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 710F"
   },
   {
     "id": "kirin_8000",
@@ -233,7 +321,13 @@
     "cores": 2,
     "gpu": "Mali-G610 MP4",
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 8000 (KIRIN 8000)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_8000_hi6290v110",
@@ -244,7 +338,13 @@
     "model": "KIRIN 8000",
     "process": "7 nm",
     "gpu": "Mali-G610 MP4",
-    "max_freq": "2133 MHz"
+    "max_freq": "2133 MHz",
+    "aliases": [
+      "Kirin 8000 (Hi6290V110) (KIRIN 8000)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_8020",
@@ -253,7 +353,13 @@
     "model": "KIRIN 8020",
     "cores": 5,
     "max_freq": "4266 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 8020 (KIRIN 8020)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_810",
@@ -264,7 +370,13 @@
     "cores": 7,
     "gpu": "Mali-G52 MP6",
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 810 (KIRIN 810)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_810_hi6280",
@@ -275,7 +387,13 @@
     "model": "KIRIN 810",
     "process": "7 nm",
     "gpu": "Mali-G52 MP6",
-    "max_freq": "2133 MHz"
+    "max_freq": "2133 MHz",
+    "aliases": [
+      "Kirin 810 (Hi6280) (KIRIN 810)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_820_5g",
@@ -285,7 +403,13 @@
     "cores": 2,
     "gpu": "Mali-G57 MP6",
     "max_freq": "6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 820 5G (KIRIN 820)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_820_5g_hi6290l_v100",
@@ -295,7 +419,13 @@
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 820",
     "gpu": "Mali-G57 MP6",
-    "max_freq": "6 GHz"
+    "max_freq": "6 GHz",
+    "aliases": [
+      "Kirin 820 5G (Hi6290L V100) (KIRIN 820)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_820e_5g",
@@ -304,7 +434,11 @@
     "cores": 3,
     "gpu": "Mali-G57 MP6",
     "max_freq": "6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 820E 5G"
   },
   {
     "id": "kirin_9000",
@@ -313,7 +447,13 @@
     "model": "KIRIN 9000",
     "gpu": "Mali-G78 MP24",
     "cores": 6,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 9000 (KIRIN 9000)"
+    ],
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9000_hi36a0v101",
@@ -322,14 +462,24 @@
     "cores": 6,
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 9000",
-    "gpu": "Mali-G78 MP24"
+    "gpu": "Mali-G78 MP24",
+    "aliases": [
+      "Kirin 9000 (Hi36A0V101) (KIRIN 9000)"
+    ],
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9000e",
     "name": "Kirin 9000E",
     "vendor": "HiSilicon",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000E"
   },
   {
     "id": "kirin_9000l",
@@ -339,7 +489,11 @@
     "cores": 5,
     "gpu": "Mali-G78 MP22",
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000L"
   },
   {
     "id": "kirin_9000s",
@@ -348,7 +502,11 @@
     "process": "7 nm",
     "cores": 7,
     "max_freq": "2.62 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000S"
   },
   {
     "id": "kirin_9000s_hi36a0v120",
@@ -357,7 +515,11 @@
     "cores": 7,
     "architecture": "ARMv8.2-A",
     "process": "7 nm",
-    "max_freq": "2.62 GHz"
+    "max_freq": "2.62 GHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000S (Hi36A0V120)"
   },
   {
     "id": "kirin_9000s1",
@@ -365,7 +527,11 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "max_freq": "2.49 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000S1"
   },
   {
     "id": "kirin_9000s1_hi36a0v120",
@@ -373,7 +539,11 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.49 GHz"
+    "max_freq": "2.49 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000S1 (Hi36A0V120)"
   },
   {
     "id": "kirin_9000sl",
@@ -381,7 +551,11 @@
     "vendor": "HiSilicon",
     "cores": 4,
     "max_freq": "2.35 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000SL"
   },
   {
     "id": "kirin_9000sl_hi36a0v120",
@@ -389,63 +563,99 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.35 GHz"
+    "max_freq": "2.35 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000SL (Hi36A0V120)"
   },
   {
     "id": "kirin_9000w",
     "name": "Kirin 9000W",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000W"
   },
   {
     "id": "kirin_9000w_hi36a0v120",
     "name": "Kirin 9000W (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000W (Hi36A0V120)"
   },
   {
     "id": "kirin_9000we",
     "name": "Kirin 9000WE",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WE"
   },
   {
     "id": "kirin_9000we_hi36a0v120",
     "name": "Kirin 9000WE (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WE (Hi36A0V120)"
   },
   {
     "id": "kirin_9000wl",
     "name": "Kirin 9000WL",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WL"
   },
   {
     "id": "kirin_9000wl_hi36a0v120",
     "name": "Kirin 9000WL (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WL (Hi36A0V120)"
   },
   {
     "id": "kirin_9000wm",
     "name": "Kirin 9000WM",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WM"
   },
   {
     "id": "kirin_9000wm_hi36a0v120",
     "name": "Kirin 9000WM (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9000WM (Hi36A0V120)"
   },
   {
     "id": "kirin_9010",
@@ -454,7 +664,13 @@
     "model": "KIRIN 9010",
     "cores": 5,
     "max_freq": "2.30 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 9010 (KIRIN 9010)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9010_hi36a0v121",
@@ -463,21 +679,35 @@
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 9010",
-    "max_freq": "2.30 GHz"
+    "max_freq": "2.30 GHz",
+    "aliases": [
+      "Kirin 9010 (Hi36A0V121) (KIRIN 9010)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9010a",
     "name": "Kirin 9010A",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010A"
   },
   {
     "id": "kirin_9010a_hi36a0v121",
     "name": "Kirin 9010A (Hi36A0V121)",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010A (Hi36A0V121)"
   },
   {
     "id": "kirin_9010e",
@@ -485,7 +715,11 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "max_freq": "2.19 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010E"
   },
   {
     "id": "kirin_9010e_hi36a0v121",
@@ -493,7 +727,11 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.19 GHz"
+    "max_freq": "2.19 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010E (Hi36A0V121)"
   },
   {
     "id": "kirin_9010l",
@@ -501,7 +739,11 @@
     "vendor": "HiSilicon",
     "cores": 4,
     "max_freq": "2.19 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010L"
   },
   {
     "id": "kirin_9010l_hi36a0v121",
@@ -509,21 +751,33 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "2.19 GHz"
+    "max_freq": "2.19 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010L (Hi36A0V121)"
   },
   {
     "id": "kirin_9010w",
     "name": "Kirin 9010W",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010W"
   },
   {
     "id": "kirin_9010w_hi36a0v121",
     "name": "Kirin 9010W (Hi36A0V121)",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9010W (Hi36A0V121)"
   },
   {
     "id": "kirin_9020",
@@ -532,7 +786,13 @@
     "model": "KIRIN 9020",
     "cores": 5,
     "max_freq": "2.50 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 9020 (KIRIN 9020)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9020_hi36c0v110",
@@ -541,7 +801,13 @@
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 9020",
-    "max_freq": "2.50 GHz"
+    "max_freq": "2.50 GHz",
+    "aliases": [
+      "Kirin 9020 (Hi36C0V110) (KIRIN 9020)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9030",
@@ -551,7 +817,13 @@
     "process": "5 nm",
     "cores": 5,
     "max_freq": "2.69 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 9030 (KIRIN 9030)"
+    ],
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9030_pro",
@@ -560,7 +832,13 @@
     "model": "KIRIN 9030",
     "cores": 2,
     "max_freq": "2.75 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 9030 Pro (KIRIN 9030)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_9030s",
@@ -568,7 +846,11 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "max_freq": "2.7 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 9030S"
   },
   {
     "id": "kirin_910",
@@ -579,7 +861,13 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "gpu": "Mali-450 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 910 (KIRIN 910)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_910_hi6620",
@@ -590,14 +878,24 @@
     "model": "KIRIN 910",
     "process": "28 nm",
     "gpu": "Mali-450 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 910 (Hi6620) (KIRIN 910)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_910t",
     "name": "Kirin 910T",
     "vendor": "HiSilicon",
     "cores": 7,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 910T"
   },
   {
     "id": "kirin_920",
@@ -608,7 +906,13 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "gpu": "Mali-T628 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 920 (KIRIN 920)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_925",
@@ -616,7 +920,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 925",
     "cores": 1,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 925 (KIRIN 925)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_925_hi3630",
@@ -624,7 +934,13 @@
     "vendor": "HiSilicon",
     "cores": 3,
     "architecture": "ARMv8.2-A",
-    "model": "KIRIN 925"
+    "model": "KIRIN 925",
+    "aliases": [
+      "Kirin 925 (Hi3630) (KIRIN 925)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_928",
@@ -632,7 +948,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 928",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 928 (KIRIN 928)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_930",
@@ -643,7 +965,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-T628 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 930 (KIRIN 930)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_930_hi3635",
@@ -654,7 +982,13 @@
     "model": "KIRIN 930",
     "process": "28 nm",
     "gpu": "Mali-T628 MP4",
-    "max_freq": "800 MHz"
+    "max_freq": "800 MHz",
+    "aliases": [
+      "Kirin 930 (Hi3635) (KIRIN 930)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_935",
@@ -662,7 +996,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 935",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 935 (KIRIN 935)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_950",
@@ -673,7 +1013,13 @@
     "cores": 16,
     "gpu": "Mali-T880 MP4",
     "max_freq": "1600 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 950 (KIRIN 950)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_950_hi3650",
@@ -684,7 +1030,13 @@
     "model": "KIRIN 950",
     "process": "16 nm",
     "gpu": "Mali-T880 MP4",
-    "max_freq": "1600 MHz"
+    "max_freq": "1600 MHz",
+    "aliases": [
+      "Kirin 950 (Hi3650) (KIRIN 950)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_955",
@@ -692,7 +1044,13 @@
     "vendor": "HiSilicon",
     "model": "KIRIN 955",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 955 (KIRIN 955)"
+    ],
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_960",
@@ -703,7 +1061,13 @@
     "cores": 16,
     "gpu": "Mali-G71 MP8",
     "max_freq": "1600 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 960 (KIRIN 960)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_960_hi3660",
@@ -714,7 +1078,13 @@
     "model": "KIRIN 960",
     "process": "16 nm",
     "gpu": "Mali-G71 MP8",
-    "max_freq": "1600 MHz"
+    "max_freq": "1600 MHz",
+    "aliases": [
+      "Kirin 960 (Hi3660) (KIRIN 960)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_970",
@@ -725,7 +1095,13 @@
     "cores": 10,
     "gpu": "Mali-G72 MP12",
     "max_freq": "1866 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 970 (KIRIN 970)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_970_hi3670",
@@ -736,7 +1112,13 @@
     "model": "KIRIN 970",
     "process": "10 nm",
     "gpu": "Mali-G72 MP12",
-    "max_freq": "1866 MHz"
+    "max_freq": "1866 MHz",
+    "aliases": [
+      "Kirin 970 (Hi3670) (KIRIN 970)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_980",
@@ -747,7 +1129,13 @@
     "cores": 7,
     "gpu": "Mali-G76 MP10 [ 32 ]",
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 980 (KIRIN 980)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_985_5g4g",
@@ -757,7 +1145,13 @@
     "cores": 2,
     "gpu": "Mali-G77 MP8",
     "max_freq": "6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 985 5G/4G (KIRIN 985)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_985_5g4g_hi6290v110",
@@ -767,7 +1161,13 @@
     "architecture": "ARMv8.2-A",
     "model": "KIRIN 985",
     "gpu": "Mali-G77 MP8",
-    "max_freq": "6 GHz"
+    "max_freq": "6 GHz",
+    "aliases": [
+      "Kirin 985 5G/4G (Hi6290V110) (KIRIN 985)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_990_4g",
@@ -778,7 +1178,13 @@
     "cores": 7,
     "gpu": "Mali-G76 MP16",
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 990 4G (KIRIN 990)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_990_5g",
@@ -787,7 +1193,13 @@
     "model": "KIRIN 990",
     "process": "7 nm",
     "cores": 7,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Kirin 990 5G (KIRIN 990)"
+    ],
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "kirin_990e_5g",
@@ -795,83 +1207,131 @@
     "vendor": "HiSilicon",
     "gpu": "Mali-G76 MP14",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin 990E 5G"
   },
   {
     "id": "kirin_t80",
     "name": "Kirin T80",
     "vendor": "HiSilicon",
     "cores": 1,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T80"
   },
   {
     "id": "kirin_t80_hi6290v110",
     "name": "Kirin T80 (Hi6290V110)",
     "vendor": "HiSilicon",
     "cores": 11,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T80 (Hi6290V110)"
   },
   {
     "id": "kirin_t82",
     "name": "Kirin T82",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T82"
   },
   {
     "id": "kirin_t90",
     "name": "Kirin T90",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T90"
   },
   {
     "id": "kirin_t90_hi36a0v120",
     "name": "Kirin T90 (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T90 (Hi36A0V120)"
   },
   {
     "id": "kirin_t90a",
     "name": "Kirin T90A",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T90A"
   },
   {
     "id": "kirin_t90a_hi36a0v120",
     "name": "Kirin T90A (Hi36A0V120)",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T90A (Hi36A0V120)"
   },
   {
     "id": "kirin_t91",
     "name": "Kirin T91",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T91"
   },
   {
     "id": "kirin_t91_hi36a0v121",
     "name": "Kirin T91 (Hi36A0V121)",
     "vendor": "HiSilicon",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T91 (Hi36A0V121)"
   },
   {
     "id": "kirin_t92",
     "name": "Kirin T92",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T92"
   },
   {
     "id": "kirin_t92_hi36c0v110",
     "name": "Kirin T92 (Hi36C0V110)",
     "vendor": "HiSilicon",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Kirin T92 (Hi36C0V110)"
   }
 ]

@@ -5,7 +5,11 @@
     "vendor": "Amlogic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "process": "28 nm"
+    "process": "28 nm",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A111"
   },
   {
     "id": "a112",
@@ -13,7 +17,11 @@
     "vendor": "Amlogic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "process": "28 nm"
+    "process": "28 nm",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A112"
   },
   {
     "id": "a113",
@@ -21,7 +29,11 @@
     "vendor": "Amlogic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "process": "28 nm"
+    "process": "28 nm",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A113"
   },
   {
     "id": "s905d",
@@ -30,7 +42,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-450 OpenGL ES 2.0"
+    "gpu": "Mali-450 OpenGL ES 2.0",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905D"
   },
   {
     "id": "s905l",
@@ -39,7 +55,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-450 OpenGL ES 2.0"
+    "gpu": "Mali-450 OpenGL ES 2.0",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905L"
   },
   {
     "id": "s905x",
@@ -48,7 +68,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-450 OpenGL ES 2.0"
+    "gpu": "Mali-450 OpenGL ES 2.0",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905X"
   },
   {
     "id": "s905x2",
@@ -57,7 +81,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
-    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905X2"
   },
   {
     "id": "s905y2",
@@ -66,7 +94,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
-    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905Y2"
   },
   {
     "id": "s905y4",
@@ -75,7 +107,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
-    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2"
+    "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S905Y4"
   },
   {
     "id": "s912",
@@ -84,7 +120,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-T820 MP3 OpenGL ES 3.1"
+    "gpu": "Mali-T820 MP3 OpenGL ES 3.1",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S912"
   },
   {
     "id": "s922x",
@@ -93,7 +133,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
-    "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2"
+    "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "S922X"
   },
   {
     "id": "t920l",
@@ -101,7 +145,11 @@
     "vendor": "Amlogic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1"
+    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T920L"
   },
   {
     "id": "t950",
@@ -109,7 +157,11 @@
     "vendor": "Amlogic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1"
+    "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T950"
   },
   {
     "id": "t962",
@@ -118,7 +170,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-450 MP5 OpenGL ES 2.0"
+    "gpu": "Mali-450 MP5 OpenGL ES 2.0",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T962"
   },
   {
     "id": "t966",
@@ -127,7 +183,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-T830 MP2 OpenGL ES 3.1"
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T966"
   },
   {
     "id": "t968",
@@ -136,6 +196,10 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-T830 MP2 OpenGL ES 3.1"
+    "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "T968"
   }
 ]

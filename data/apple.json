@@ -7,7 +7,13 @@
     "architecture": "ARMv8.6-A",
     "year": 2019,
     "model": "T8301",
-    "process": "7 nm"
+    "process": "7 nm",
+    "aliases": [
+      "Apple A13 Bionic (T8301)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "apple_a12z_bionic_t8006",
@@ -17,7 +23,13 @@
     "architecture": "ARMv8.6-A",
     "year": 2020,
     "model": "T8006",
-    "process": "7 nm"
+    "process": "7 nm",
+    "aliases": [
+      "Apple A12Z Bionic (T8006)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8103_h13g",
@@ -32,7 +44,13 @@
     "gpu": "Apple A14 GPU (4-core)",
     "process": "5nm",
     "year": 2020,
-    "max_freq": "3.0 GHz"
+    "max_freq": "3.0 GHz",
+    "aliases": [
+      "Apple A14 Bionic (T8103)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8110_h14g",
@@ -47,7 +65,13 @@
     "gpu": "Apple M1 GPU (7/8-core)",
     "process": "5nm",
     "year": 2020,
-    "max_freq": "3.2 GHz"
+    "max_freq": "3.2 GHz",
+    "aliases": [
+      "Apple M1 (T8110)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8110_h14p_a15",
@@ -62,7 +86,13 @@
     "gpu": "Apple A15 GPU (4/5-core)",
     "process": "5nm",
     "year": 2021,
-    "max_freq": "3.23 GHz"
+    "max_freq": "3.23 GHz",
+    "aliases": [
+      "Apple A15 Bionic (T8110)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "apple_a15_bionic_t8310",
@@ -72,7 +102,13 @@
     "architecture": "ARMv8.6-A",
     "year": 2021,
     "model": "T8310",
-    "process": "4 nm"
+    "process": "4 nm",
+    "aliases": [
+      "Apple A15 Bionic (T8310)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8116_h14m",
@@ -87,7 +123,13 @@
     "gpu": "Apple M1 Max GPU (24/32-core)",
     "process": "5nm",
     "year": 2021,
-    "max_freq": "3.2 GHz"
+    "max_freq": "3.2 GHz",
+    "aliases": [
+      "Apple M1 Max (T8116)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8112_h14p",
@@ -102,7 +144,13 @@
     "gpu": "Apple M1 Pro GPU (14/16-core)",
     "process": "5nm",
     "year": 2021,
-    "max_freq": "3.2 GHz"
+    "max_freq": "3.2 GHz",
+    "aliases": [
+      "Apple M1 Pro (T8112)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8112_h14p_a16",
@@ -117,7 +165,13 @@
     "gpu": "Apple A16 GPU (5-core)",
     "process": "4nm",
     "year": 2022,
-    "max_freq": "3.46 GHz"
+    "max_freq": "3.46 GHz",
+    "aliases": [
+      "Apple A16 Bionic (T8120)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "apple_a16_bionic_apl1110",
@@ -127,7 +181,13 @@
     "architecture": "ARMv8.6-A",
     "year": 2022,
     "model": "APL1110",
-    "process": "4 nm"
+    "process": "4 nm",
+    "aliases": [
+      "Apple A16 Bionic (APL1110)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t6000_h15g",
@@ -142,7 +202,13 @@
     "gpu": "Apple M2 GPU (10-core)",
     "process": "5nm",
     "year": 2022,
-    "max_freq": "3.5 GHz"
+    "max_freq": "3.5 GHz",
+    "aliases": [
+      "Apple M2 (T6000)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t8130_h15g_a17",
@@ -157,7 +223,13 @@
     "gpu": "Apple A17 GPU (6-core)",
     "process": "3nm",
     "year": 2023,
-    "max_freq": "3.78 GHz"
+    "max_freq": "3.78 GHz",
+    "aliases": [
+      "Apple A17 Pro (T8130)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "apple_a17_pro_apl1201",
@@ -167,7 +239,13 @@
     "architecture": "ARMv8.6-A",
     "year": 2023,
     "model": "APL1201",
-    "process": "3 nm"
+    "process": "3 nm",
+    "aliases": [
+      "Apple A17 Pro (APL1201)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t6021_h15m",
@@ -182,7 +260,13 @@
     "gpu": "Apple M2 Max GPU (30/38-core)",
     "process": "5nm",
     "year": 2023,
-    "max_freq": "3.5 GHz"
+    "max_freq": "3.5 GHz",
+    "aliases": [
+      "Apple M2 Max (T6021)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t6020_h15p",
@@ -197,7 +281,13 @@
     "gpu": "Apple M2 Pro GPU (16/19-core)",
     "process": "5nm",
     "year": 2023,
-    "max_freq": "3.5 GHz"
+    "max_freq": "3.5 GHz",
+    "aliases": [
+      "Apple M2 Pro (T6020)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t9500_h18g",
@@ -212,7 +302,13 @@
     "gpu": "Apple A18 GPU (6-core)",
     "process": "3nm",
     "year": 2024,
-    "max_freq": "4.04 GHz"
+    "max_freq": "4.04 GHz",
+    "aliases": [
+      "Apple A18 Pro (T9500)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "t9515_h18p",
@@ -227,6 +323,12 @@
     "gpu": "Apple M4 GPU (10-core)",
     "process": "3nm",
     "year": 2024,
-    "max_freq": "4.4 GHz"
+    "max_freq": "4.4 GHz",
+    "aliases": [
+      "Apple M4 (T9515)"
+    ],
+    "completeness": 0.38,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

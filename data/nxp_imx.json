@@ -4,14 +4,22 @@
     "name": "i.MX 6",
     "vendor": "NXP i.MX",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 6"
   },
   {
     "id": "imx_7",
     "name": "i.MX 7",
     "vendor": "NXP i.MX",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 7"
   },
   {
     "id": "imx_8",
@@ -20,7 +28,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "gpu": "2× Vivante GC7000/XSVX",
-    "max_freq": "266 MHz"
+    "max_freq": "266 MHz",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 8"
   },
   {
     "id": "imx_8m",
@@ -28,7 +40,11 @@
     "vendor": "NXP i.MX",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.5 GHz"
+    "max_freq": "1.5 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 8M"
   },
   {
     "id": "imx_8x",
@@ -36,13 +52,21 @@
     "vendor": "NXP i.MX",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.2 GHz"
+    "max_freq": "1.2 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 8X"
   },
   {
     "id": "imx_9",
     "name": "i.MX 9",
     "vendor": "NXP i.MX",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "i.MX 9"
   }
 ]

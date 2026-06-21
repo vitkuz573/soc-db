@@ -7,21 +7,33 @@
     "architecture": "ARMv7-A",
     "process": "55 nm",
     "gpu": "Mali-400 (300 MHz) [ 30 ]",
-    "max_freq": "300 MHz"
+    "max_freq": "300 MHz",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A10"
   },
   {
     "id": "a10s",
     "name": "A10s",
     "vendor": "Allwinner",
     "cores": 10,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A10s"
   },
   {
     "id": "a13",
     "name": "A13",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A13"
   },
   {
     "id": "a133",
@@ -30,7 +42,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "PowerVR GE8300"
+    "gpu": "PowerVR GE8300",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A133"
   },
   {
     "id": "a20",
@@ -39,7 +55,11 @@
     "cores": 7,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
-    "max_freq": "350 MHz"
+    "max_freq": "350 MHz",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A20"
   },
   {
     "id": "a23",
@@ -47,7 +67,11 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "process": "40 nm"
+    "process": "40 nm",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A23"
   },
   {
     "id": "a31",
@@ -56,14 +80,22 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 MP2 (350 MHz) [ 30 ]",
-    "max_freq": "350 MHz"
+    "max_freq": "350 MHz",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A31"
   },
   {
     "id": "a31s",
     "name": "A31s",
     "vendor": "Allwinner",
     "cores": 5,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A31s"
   },
   {
     "id": "a33",
@@ -72,14 +104,22 @@
     "cores": 97,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
-    "max_freq": "350 MHz"
+    "max_freq": "350 MHz",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A33"
   },
   {
     "id": "a40i",
     "name": "A40i",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A40i"
   },
   {
     "id": "a50",
@@ -88,7 +128,11 @@
     "cores": 7,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-400 MP2"
+    "gpu": "Mali-400 MP2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A50"
   },
   {
     "id": "a63",
@@ -97,7 +141,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali T760"
+    "gpu": "Mali T760",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A63"
   },
   {
     "id": "a64",
@@ -106,7 +154,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "gpu": "Mali-400 MP2"
+    "gpu": "Mali-400 MP2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A64"
   },
   {
     "id": "a80_octa",
@@ -116,7 +168,11 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "PowerVR G6230 (Rogue) (533 MHz) [ 30 ]",
-    "max_freq": "533 MHz"
+    "max_freq": "533 MHz",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A80 Octa"
   },
   {
     "id": "a83t",
@@ -125,56 +181,88 @@
     "cores": 7,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 (700 MHz) [ 30 ]",
-    "max_freq": "700 MHz"
+    "max_freq": "700 MHz",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "A83T"
   },
   {
     "id": "f10",
     "name": "F10",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F10"
   },
   {
     "id": "f13",
     "name": "F13",
     "vendor": "Allwinner",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F13"
   },
   {
     "id": "f18",
     "name": "F18",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F18"
   },
   {
     "id": "f1c100",
     "name": "F1C100",
     "vendor": "Allwinner",
     "cores": 9,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F1C100"
   },
   {
     "id": "f1c200s",
     "name": "F1C200s",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F1C200s"
   },
   {
     "id": "f1e200",
     "name": "F1E200",
     "vendor": "Allwinner",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F1E200"
   },
   {
     "id": "f20",
     "name": "F20",
     "vendor": "Allwinner",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "F20"
   },
   {
     "id": "h616",
@@ -182,14 +270,22 @@
     "vendor": "Allwinner",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "H616"
   },
   {
     "id": "h618",
     "name": "H618",
     "vendor": "Allwinner",
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "H618"
   },
   {
     "id": "h64",
@@ -198,14 +294,22 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "gpu": "Mali-400 MP2"
+    "gpu": "Mali-400 MP2",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "H64"
   },
   {
     "id": "r16",
     "name": "R16",
     "vendor": "Allwinner",
     "cores": 7,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "R16"
   },
   {
     "id": "r18",
@@ -213,14 +317,22 @@
     "vendor": "Allwinner",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-400 MP2"
+    "gpu": "Mali-400 MP2",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "R18"
   },
   {
     "id": "r40",
     "name": "R40",
     "vendor": "Allwinner",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "R40"
   },
   {
     "id": "r58",
@@ -228,6 +340,10 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544 MP1"
+    "gpu": "PowerVR SGX544 MP1",
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "R58"
   }
 ]

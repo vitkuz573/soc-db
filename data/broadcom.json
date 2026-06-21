@@ -6,7 +6,10 @@
     "model": "BCM2711",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm2712",
@@ -15,7 +18,10 @@
     "model": "BCM2712",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm2837",
@@ -24,7 +30,10 @@
     "model": "BCM2837",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm4906",
@@ -33,7 +42,10 @@
     "model": "BCM4906",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm4908",
@@ -42,7 +54,10 @@
     "model": "BCM4908",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm4912",
@@ -51,7 +66,10 @@
     "model": "BCM4912",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm63146",
@@ -60,7 +78,10 @@
     "model": "BCM63146",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm63158",
@@ -69,7 +90,10 @@
     "model": "BCM63158",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm6813",
@@ -78,7 +102,10 @@
     "model": "BCM6813",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm6856",
@@ -87,7 +114,10 @@
     "model": "BCM6856",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm6858",
@@ -96,7 +126,10 @@
     "model": "BCM6858",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm94908",
@@ -105,7 +138,10 @@
     "model": "BCM94908",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm94912",
@@ -114,7 +150,10 @@
     "model": "BCM94912",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm958742",
@@ -123,7 +162,10 @@
     "model": "BCM958742",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm958802",
@@ -132,7 +174,10 @@
     "model": "BCM958802",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm963146",
@@ -141,7 +186,10 @@
     "model": "BCM963146",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm963158",
@@ -150,7 +198,10 @@
     "model": "BCM963158",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm96813",
@@ -159,7 +210,10 @@
     "model": "BCM96813",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm96856",
@@ -168,7 +222,10 @@
     "model": "BCM96856",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "bcm96858",
@@ -177,7 +234,10 @@
     "model": "BCM96858",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "ns2",
@@ -186,6 +246,9 @@
     "model": "NS2",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72"
+    "architecture": "ARM Cortex-A72",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

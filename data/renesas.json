@@ -6,7 +6,10 @@
     "model": "R8A77951",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77960",
@@ -15,7 +18,10 @@
     "model": "R8A77960",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77961",
@@ -24,7 +30,10 @@
     "model": "R8A77961",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77965",
@@ -33,7 +42,10 @@
     "model": "R8A77965",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77970",
@@ -42,7 +54,10 @@
     "model": "R8A77970",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77980",
@@ -51,7 +66,10 @@
     "model": "R8A77980",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77990",
@@ -60,7 +78,10 @@
     "model": "R8A77990",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a77995",
@@ -69,7 +90,10 @@
     "model": "R8A77995",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "r8a78000",
@@ -78,6 +102,9 @@
     "model": "R8A78000",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A57"
+    "architecture": "ARM Cortex-A57",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

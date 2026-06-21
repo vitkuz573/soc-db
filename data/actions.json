@@ -6,7 +6,10 @@
     "model": "S700",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A53"
+    "architecture": "ARM Cortex-A53",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "s900",
@@ -15,6 +18,9 @@
     "model": "S900",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A53"
+    "architecture": "ARM Cortex-A53",
+    "completeness": 0.27,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

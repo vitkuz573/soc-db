@@ -9,7 +9,13 @@
     "year": 2000,
     "max_freq": "2.91 GHz",
     "gpu": "Mali -G78 MP14",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 2100 (EXYNOS 2100)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2100_s5e9840",
@@ -21,7 +27,13 @@
     "process": "5 nm",
     "max_freq": "2.91 GHz",
     "gpu": "Mali -G78 MP14",
-    "year": 2000
+    "year": 2000,
+    "aliases": [
+      "Exynos 2100 (S5E9840) (EXYNOS 2100)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2200",
@@ -33,7 +45,13 @@
     "year": 2000,
     "max_freq": "2.95 GHz",
     "gpu": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP [ 60 ",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 2200 (EXYNOS 2200)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2200_s5e9925",
@@ -45,7 +63,13 @@
     "process": "4 nm",
     "max_freq": "2.95 GHz",
     "gpu": "Xclipse 920 \"Voyager\" ( RDNA 2 based 384:24:24:6 3 WGP [ 60 ] ) [ a ]",
-    "year": 2000
+    "year": 2000,
+    "aliases": [
+      "Exynos 2200 (S5E9925) (EXYNOS 2200)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_24002400e",
@@ -57,7 +81,13 @@
     "year": 2000,
     "max_freq": "3.2 GHz",
     "gpu": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP) [ ",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 2400/2400e (EXYNOS 2400)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_24002400e_s5e9945",
@@ -69,7 +99,13 @@
     "process": "4 nm",
     "max_freq": "3.2 GHz",
     "gpu": "Xclipse 940 \"Magellan\" ( RDNA 3 based 768:48:32:12 6 WGP) [ a ]",
-    "year": 2000
+    "year": 2000,
+    "aliases": [
+      "Exynos 2400/2400e (S5E9945) (EXYNOS 2400)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2500",
@@ -81,7 +117,13 @@
     "year": 2000,
     "max_freq": "3.3 GHz",
     "gpu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP) [ ",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 2500 (EXYNOS 2500)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2500_s5e9955",
@@ -93,7 +135,13 @@
     "process": "3 nm",
     "max_freq": "3.3 GHz",
     "gpu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP) [ a ]",
-    "year": 2000
+    "year": 2000,
+    "aliases": [
+      "Exynos 2500 (S5E9955) (EXYNOS 2500)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2600",
@@ -105,7 +153,13 @@
     "year": 2000,
     "max_freq": "3.8 GHz",
     "gpu": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP) [ a ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 2600 (EXYNOS 2600)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_2600_s5e9965",
@@ -117,7 +171,13 @@
     "process": "2 nm",
     "max_freq": "3.8 GHz",
     "gpu": "Xclipse 960 \"Juno\" ( RDNA 4 based 3584:64:64:16 8 WGP) [ a ]",
-    "year": 2000
+    "year": 2000,
+    "aliases": [
+      "Exynos 2600 (S5E9965) (EXYNOS 2600)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_3_quad_3470",
@@ -128,7 +188,11 @@
     "cores": 4,
     "max_freq": "1.4 GHz",
     "gpu": "Mali-400 MP4",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 3 Quad 3470"
   },
   {
     "id": "exynos_3_quad_3475",
@@ -138,7 +202,11 @@
     "cores": 4,
     "max_freq": "1.3 GHz",
     "gpu": "Mali-T720",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 3 Quad 3475"
   },
   {
     "id": "exynos_3_single_3110",
@@ -148,7 +216,11 @@
     "year": 2010,
     "cores": 7,
     "architecture": "ARMv7-A",
-    "max_freq": "1.2 GHz"
+    "max_freq": "1.2 GHz",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 3 Single 3110"
   },
   {
     "id": "exynos_3_single_3110_previously_hummingbird",
@@ -159,7 +231,11 @@
     "process": "45 nm",
     "max_freq": "1.2 GHz",
     "gpu": "PowerVR SGX540",
-    "year": 2010
+    "year": 2010,
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)"
   },
   {
     "id": "exynos_4_dual_4210",
@@ -170,7 +246,11 @@
     "cores": 2,
     "max_freq": "1.2 GHz",
     "gpu": "Mali-400 MP4",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 4 Dual 4210"
   },
   {
     "id": "exynos_4_dual_4212",
@@ -180,7 +260,11 @@
     "year": 2010,
     "cores": 2,
     "max_freq": "1.5 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 4 Dual 4212"
   },
   {
     "id": "exynos_4_quad_4412",
@@ -189,7 +273,11 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "1.6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 4 Quad 4412"
   },
   {
     "id": "exynos_4_quad_4415",
@@ -199,7 +287,11 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "1.5 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 4 Quad 4415"
   },
   {
     "id": "exynos_5_dual_5250",
@@ -210,7 +302,11 @@
     "cores": 2,
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T604 MP4 [ 96 ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Dual 5250"
   },
   {
     "id": "exynos_5_hexa_5260",
@@ -221,7 +317,11 @@
     "cores": 4,
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T624 MP4",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Hexa 5260"
   },
   {
     "id": "exynos_5_octa_5410",
@@ -231,7 +331,11 @@
     "cores": 4,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "gpu": "PowerVR SGX544 MP3"
+    "gpu": "PowerVR SGX544 MP3",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Octa 5410"
   },
   {
     "id": "exynos_5_octa_5420",
@@ -241,7 +345,11 @@
     "cores": 4,
     "max_freq": "1.9 GHz",
     "gpu": "Mali-T628 MP6",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Octa 5420"
   },
   {
     "id": "exynos_5_octa_5422",
@@ -250,7 +358,11 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "2.1 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Octa 5422"
   },
   {
     "id": "exynos_5_octa_5430",
@@ -260,7 +372,11 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "1.8 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Octa 5430"
   },
   {
     "id": "exynos_5_octa_5800",
@@ -270,7 +386,11 @@
     "year": 2010,
     "cores": 4,
     "max_freq": "2.0 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 5 Octa 5800"
   },
   {
     "id": "exynos_7_octa_5433",
@@ -281,7 +401,11 @@
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
-    "gpu": "Mali-T760 MP6"
+    "gpu": "Mali-T760 MP6",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Octa 5433"
   },
   {
     "id": "exynos_7_octa_7420",
@@ -292,7 +416,11 @@
     "year": 2010,
     "max_freq": "2.1 GHz",
     "gpu": "Mali-T760 MP8",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Octa 7420"
   },
   {
     "id": "exynos_7_octa_7580",
@@ -301,7 +429,11 @@
     "cores": 6,
     "max_freq": "1.6 GHz",
     "year": 2010,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Octa 7580"
   },
   {
     "id": "exynos_7_octa_7870",
@@ -311,7 +443,11 @@
     "cores": 14,
     "year": 2010,
     "gpu": "Mali-T830 MP1 [ 142 ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Octa 7870"
   },
   {
     "id": "exynos_7_quad_7570",
@@ -322,7 +458,11 @@
     "year": 2010,
     "max_freq": "1.4 GHz",
     "gpu": "Mali-T720 MP1 [ 135 ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Quad 7570"
   },
   {
     "id": "exynos_7_quad_7578",
@@ -333,7 +473,11 @@
     "cores": 4,
     "max_freq": "1.5 GHz",
     "gpu": "Mali-T720 MP2",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Quad 7578"
   },
   {
     "id": "exynos_7872",
@@ -344,7 +488,13 @@
     "cores": 4,
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G71 MP1",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 7872 (EXYNOS 7872)"
+    ],
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_7880",
@@ -355,7 +505,13 @@
     "cores": 4,
     "max_freq": "1.9 GHz",
     "gpu": "Mali-T830 MP3",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 7880 (EXYNOS 7880)"
+    ],
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_7884",
@@ -365,7 +521,13 @@
     "cores": 6,
     "max_freq": "1.6 GHz",
     "year": 2010,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 7884 (EXYNOS 7884)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_7884a",
@@ -375,7 +537,11 @@
     "cores": 6,
     "max_freq": "1.35 GHz",
     "gpu": "Mali-G71 MP2",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7884A"
   },
   {
     "id": "exynos_7885",
@@ -385,7 +551,13 @@
     "cores": 6,
     "max_freq": "2.2 GHz",
     "year": 2010,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 7885 (EXYNOS 7885)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_7904",
@@ -395,7 +567,13 @@
     "cores": 6,
     "max_freq": "1.8 GHz",
     "year": 2010,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 7904 (EXYNOS 7904)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_8_octa_8890",
@@ -405,7 +583,11 @@
     "cores": 4,
     "max_freq": "2.3 GHz",
     "gpu": "Mali-T880 MP12",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.34,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 8 Octa 8890"
   },
   {
     "id": "exynos_8895",
@@ -417,7 +599,13 @@
     "year": 2010,
     "max_freq": "2.314 GHz",
     "gpu": "Mali-G71 MP20",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 8895 (EXYNOS 8895)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9609",
@@ -428,7 +616,13 @@
     "cores": 4,
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G72 MP3",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9609 (EXYNOS 9609)"
+    ],
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9610",
@@ -438,7 +632,13 @@
     "cores": 4,
     "max_freq": "2.3 GHz",
     "year": 2010,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9610 (EXYNOS 9610)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9611",
@@ -447,7 +647,13 @@
     "model": "EXYNOS 9611",
     "year": 2010,
     "cores": 3,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9611 (EXYNOS 9611)"
+    ],
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9810",
@@ -459,7 +665,13 @@
     "year": 2010,
     "max_freq": "2.9 GHz",
     "gpu": "Mali-G72 MP18",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9810 (EXYNOS 9810)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9810_s5e9810",
@@ -471,7 +683,13 @@
     "process": "10 nm",
     "max_freq": "2.9 GHz",
     "gpu": "Mali-G72 MP18",
-    "year": 2010
+    "year": 2010,
+    "aliases": [
+      "Exynos 9810 (S5E9810) (EXYNOS 9810)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9820",
@@ -483,7 +701,13 @@
     "year": 2010,
     "max_freq": "2.73 GHz",
     "gpu": "Mali-G76 MP12",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9820 (EXYNOS 9820)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9820_s5e9820",
@@ -495,7 +719,13 @@
     "process": "8 nm",
     "max_freq": "2.73 GHz",
     "gpu": "Mali-G76 MP12",
-    "year": 2010
+    "year": 2010,
+    "aliases": [
+      "Exynos 9820 (S5E9820) (EXYNOS 9820)"
+    ],
+    "completeness": 0.36,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9825",
@@ -506,7 +736,13 @@
     "cores": 7,
     "year": 2010,
     "max_freq": "2.73 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9825 (EXYNOS 9825)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9825_s5e9825",
@@ -517,7 +753,13 @@
     "model": "EXYNOS 9825",
     "process": "7 nm",
     "max_freq": "2.73 GHz",
-    "year": 2010
+    "year": 2010,
+    "aliases": [
+      "Exynos 9825 (S5E9825) (EXYNOS 9825)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos9810",
@@ -531,7 +773,10 @@
     "gpu": "Mali-G72 MP18",
     "process": "10nm",
     "year": 2017,
-    "max_freq": "2.9 GHz"
+    "max_freq": "2.9 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos9820",
@@ -545,7 +790,10 @@
     "gpu": "Mali-G76 MP12",
     "process": "8nm",
     "year": 2018,
-    "max_freq": "2.73 GHz"
+    "max_freq": "2.73 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos9825",
@@ -559,7 +807,10 @@
     "gpu": "Mali-G76 MP12",
     "process": "7nm",
     "year": 2019,
-    "max_freq": "2.73 GHz"
+    "max_freq": "2.73 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos990",
@@ -573,7 +824,10 @@
     "gpu": "Mali-G77 MP11",
     "process": "7nm",
     "year": 2019,
-    "max_freq": "2.73 GHz"
+    "max_freq": "2.73 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos2100",
@@ -587,7 +841,10 @@
     "gpu": "Mali-G78 MP14",
     "process": "5nm",
     "year": 2021,
-    "max_freq": "2.9 GHz"
+    "max_freq": "2.9 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos2200",
@@ -601,7 +858,10 @@
     "gpu": "Xclipse 920 (AMD RDNA2)",
     "process": "4nm",
     "year": 2022,
-    "max_freq": "2.8 GHz"
+    "max_freq": "2.8 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos2400",
@@ -615,7 +875,10 @@
     "gpu": "Xclipse 940 (AMD RDNA3)",
     "process": "4nm",
     "year": 2024,
-    "max_freq": "3.2 GHz"
+    "max_freq": "3.2 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos2500",
@@ -629,7 +892,10 @@
     "gpu": "Xclipse 950 (AMD RDNA3+)",
     "process": "3nm",
     "year": 2025,
-    "max_freq": "3.3 GHz"
+    "max_freq": "3.3 GHz",
+    "completeness": 0.35,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1080",
@@ -640,7 +906,13 @@
     "cores": 5,
     "max_freq": "2.8 GHz",
     "gpu": "Mali -G78 MP10",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1080 (EXYNOS 1080)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1080_s5e9815",
@@ -651,7 +923,13 @@
     "model": "EXYNOS 1080",
     "process": "5 nm",
     "max_freq": "2.8 GHz",
-    "gpu": "Mali -G78 MP10"
+    "gpu": "Mali -G78 MP10",
+    "aliases": [
+      "Exynos 1080 (S5E9815) (EXYNOS 1080)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1280",
@@ -661,7 +939,13 @@
     "cores": 6,
     "max_freq": "2.4 GHz",
     "gpu": "Mali-G68 MP4",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1280 (EXYNOS 1280)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1280_s5e8825",
@@ -671,7 +955,13 @@
     "architecture": "ARMv8.2-A",
     "model": "EXYNOS 1280",
     "max_freq": "2.4 GHz",
-    "gpu": "Mali-G68 MP4"
+    "gpu": "Mali-G68 MP4",
+    "aliases": [
+      "Exynos 1280 (S5E8825) (EXYNOS 1280)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1330",
@@ -681,7 +971,13 @@
     "gpu": "Mali -G68 MP2",
     "cores": 4,
     "max_freq": "2133 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1330 (EXYNOS 1330)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1330_s5e8535",
@@ -691,7 +987,13 @@
     "architecture": "ARMv8.2-A",
     "model": "EXYNOS 1330",
     "gpu": "Mali -G68 MP2",
-    "max_freq": "2133 MHz"
+    "max_freq": "2133 MHz",
+    "aliases": [
+      "Exynos 1330 (S5E8535) (EXYNOS 1330)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1380",
@@ -701,7 +1003,13 @@
     "cores": 4,
     "max_freq": "2.4 GHz",
     "gpu": "Mali -G68 MP5",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1380 (EXYNOS 1380)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1380_s5e8835",
@@ -711,7 +1019,13 @@
     "architecture": "ARMv8.2-A",
     "model": "EXYNOS 1380",
     "max_freq": "2.4 GHz",
-    "gpu": "Mali -G68 MP5"
+    "gpu": "Mali -G68 MP5",
+    "aliases": [
+      "Exynos 1380 (S5E8835) (EXYNOS 1380)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1480",
@@ -722,7 +1036,13 @@
     "cores": 4,
     "max_freq": "2.75 GHz",
     "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1480 (EXYNOS 1480)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1480_s5e8845",
@@ -733,7 +1053,13 @@
     "model": "EXYNOS 1480",
     "process": "4 nm",
     "max_freq": "2.75 GHz",
-    "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]"
+    "gpu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP) [ a ]",
+    "aliases": [
+      "Exynos 1480 (S5E8845) (EXYNOS 1480)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1580",
@@ -744,7 +1070,13 @@
     "cores": 4,
     "max_freq": "2.9 GHz",
     "gpu": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1580 (EXYNOS 1580)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1580_s5e8855",
@@ -755,7 +1087,13 @@
     "model": "EXYNOS 1580",
     "process": "4 nm",
     "max_freq": "2.9 GHz",
-    "gpu": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]"
+    "gpu": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP) [ a ]",
+    "aliases": [
+      "Exynos 1580 (S5E8855) (EXYNOS 1580)"
+    ],
+    "completeness": 0.33,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1680",
@@ -765,7 +1103,13 @@
     "cores": 3,
     "max_freq": "2.9 GHz",
     "gpu": "Xclipse 550 \"Triton\" ( RDNA 3 based 256:16:16:4 2 WGP) [ a ]",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 1680 (EXYNOS 1680)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_1680_s5e8865",
@@ -775,7 +1119,13 @@
     "architecture": "ARMv8.2-A",
     "model": "EXYNOS 1680",
     "max_freq": "2.9 GHz",
-    "gpu": "Xclipse 550 \"Triton\" ( RDNA 3 based 256:16:16:4 2 WGP) [ a ]"
+    "gpu": "Xclipse 550 \"Triton\" ( RDNA 3 based 256:16:16:4 2 WGP) [ a ]",
+    "aliases": [
+      "Exynos 1680 (S5E8865) (EXYNOS 1680)"
+    ],
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_3_dual_3250",
@@ -785,7 +1135,11 @@
     "cores": 2,
     "max_freq": "1.0 GHz",
     "gpu": "Mali -400 MP2",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 3 Dual 3250"
   },
   {
     "id": "exynos_4_dual_4212_single_core",
@@ -795,7 +1149,11 @@
     "architecture": "ARMv7-A",
     "process": "32 nm",
     "max_freq": "0.8 GHz",
-    "gpu": "Mali-400 MP4"
+    "gpu": "Mali-400 MP4",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 4 Dual 4212 (Single core)"
   },
   {
     "id": "exynos_7_dual_7270",
@@ -805,7 +1163,11 @@
     "cores": 14,
     "max_freq": "1.0 GHz",
     "gpu": "Mali-T720 MP1",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Dual 7270"
   },
   {
     "id": "exynos_7_dual_7270_sc57270",
@@ -815,7 +1177,11 @@
     "architecture": "ARMv8.2-A",
     "process": "14 nm",
     "max_freq": "1.0 GHz",
-    "gpu": "Mali-T720 MP1"
+    "gpu": "Mali-T720 MP1",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 7 Dual 7270 (SC57270)"
   },
   {
     "id": "exynos_850",
@@ -825,7 +1191,11 @@
     "cores": 8,
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MP1",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 850"
   },
   {
     "id": "exynos_850_s5e3830",
@@ -835,7 +1205,11 @@
     "architecture": "ARMv8.2-A",
     "process": "8 nm",
     "max_freq": "2.0 GHz",
-    "gpu": "Mali-G52 MP1"
+    "gpu": "Mali-G52 MP1",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 850 (S5E3830)"
   },
   {
     "id": "exynos_880",
@@ -844,7 +1218,11 @@
     "cores": 6,
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G76 MP5",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 880"
   },
   {
     "id": "exynos_880_s5e8805",
@@ -853,7 +1231,11 @@
     "cores": 6,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "gpu": "Mali-G76 MP5"
+    "gpu": "Mali-G76 MP5",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 880 (S5E8805)"
   },
   {
     "id": "exynos_9110",
@@ -863,7 +1245,13 @@
     "process": "10 nm",
     "cores": 10,
     "max_freq": "1.15 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "aliases": [
+      "Exynos 9110 (EXYNOS 9110)"
+    ],
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_9110_sc59110xsc",
@@ -873,7 +1261,13 @@
     "architecture": "ARMv8.2-A",
     "model": "EXYNOS 9110",
     "process": "10 nm",
-    "max_freq": "1.15 GHz"
+    "max_freq": "1.15 GHz",
+    "aliases": [
+      "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
+    ],
+    "completeness": 0.3,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_980",
@@ -883,7 +1277,11 @@
     "cores": 8,
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 980"
   },
   {
     "id": "exynos_980_s5e9630",
@@ -893,7 +1291,11 @@
     "architecture": "ARMv8.2-A",
     "process": "8 nm",
     "max_freq": "2.2 GHz",
-    "gpu": "Mali-G76 MP5"
+    "gpu": "Mali-G76 MP5",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 980 (S5E9630)"
   },
   {
     "id": "exynos_990",
@@ -903,7 +1305,11 @@
     "cores": 7,
     "max_freq": "3.02 GHz",
     "gpu": "Mali-G77 MP11",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 990"
   },
   {
     "id": "exynos_990_s5e9830",
@@ -913,7 +1319,11 @@
     "architecture": "ARMv8.2-A",
     "process": "7 nm",
     "max_freq": "3.02 GHz",
-    "gpu": "Mali-G77 MP11"
+    "gpu": "Mali-G77 MP11",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos 990 (S5E9830)"
   },
   {
     "id": "exynos_auto_8890",
@@ -923,7 +1333,11 @@
     "cores": 14,
     "max_freq": "2.6 GHz",
     "gpu": "Mali-T880 MP12",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto 8890"
   },
   {
     "id": "exynos_auto_8890_sga8890a",
@@ -933,7 +1347,11 @@
     "architecture": "ARMv8.2-A",
     "process": "14 nm",
     "max_freq": "2.6 GHz",
-    "gpu": "Mali-T880 MP12"
+    "gpu": "Mali-T880 MP12",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto 8890 (SGA8890A)"
   },
   {
     "id": "exynos_auto_t5123",
@@ -943,7 +1361,10 @@
     "cores": 7,
     "max_freq": "2133 MHz",
     "architecture": "ARMv8.2-A",
-    "model": "T5123"
+    "model": "T5123",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos_auto_v7",
@@ -953,7 +1374,11 @@
     "cores": 2,
     "max_freq": "1.5 GHz",
     "gpu": "2× Mali-G76 (MP8 + MP3)",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto V7"
   },
   {
     "id": "exynos_auto_v9",
@@ -962,7 +1387,11 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)"
+    "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto V9"
   },
   {
     "id": "exynos_auto_v9_s5ahr80a",
@@ -971,7 +1400,11 @@
     "cores": 3,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
-    "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)"
+    "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
+    "completeness": 0.31,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto V9 (S5AHR80A)"
   },
   {
     "id": "exynos_auto_v920",
@@ -981,7 +1414,11 @@
     "cores": 5,
     "gpu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
     "max_freq": "3200 MHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto V920"
   },
   {
     "id": "exynos_auto_v920_s5av920",
@@ -991,7 +1428,11 @@
     "architecture": "ARMv8.2-A",
     "process": "5 nm",
     "gpu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
-    "max_freq": "3200 MHz"
+    "max_freq": "3200 MHz",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos Auto V920 (S5AV920)"
   },
   {
     "id": "exynos_w1000",
@@ -1000,7 +1441,11 @@
     "process": "3 nm",
     "cores": 3,
     "max_freq": "1.6 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W1000"
   },
   {
     "id": "exynos_w1000_sc55535aha",
@@ -1009,7 +1454,11 @@
     "cores": 3,
     "architecture": "ARMv8.2-A",
     "process": "3 nm",
-    "max_freq": "1.6 GHz"
+    "max_freq": "1.6 GHz",
+    "completeness": 0.29,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W1000 (SC55535AHA)"
   },
   {
     "id": "exynos_w920",
@@ -1019,7 +1468,11 @@
     "cores": 5,
     "max_freq": "1.18 GHz",
     "gpu": "Mali-G68 MP2",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W920"
   },
   {
     "id": "exynos_w920_sc55515xbd",
@@ -1029,7 +1482,11 @@
     "architecture": "ARMv8.2-A",
     "process": "5 nm",
     "max_freq": "1.18 GHz",
-    "gpu": "Mali-G68 MP2"
+    "gpu": "Mali-G68 MP2",
+    "completeness": 0.32,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W920 (SC55515XBD)"
   },
   {
     "id": "exynos_w930",
@@ -1037,7 +1494,11 @@
     "vendor": "Samsung",
     "cores": 2,
     "max_freq": "1.4 GHz",
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W930"
   },
   {
     "id": "exynos_w930_sc55515xbe",
@@ -1045,6 +1506,10 @@
     "vendor": "Samsung",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "max_freq": "1.4 GHz"
+    "max_freq": "1.4 GHz",
+    "completeness": 0.28,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Exynos W930 (SC55515XBE)"
   }
 ]
