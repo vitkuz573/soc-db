@@ -1,6 +1,6 @@
 [
   {
-    "id": "atom_230",
+    "id": "atom_230_atom230",
     "name": "Atom 230",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -13,7 +13,7 @@
     "year": 2008
   },
   {
-    "id": "atom_330",
+    "id": "atom_330_atom330",
     "name": "Atom 330",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -26,7 +26,7 @@
     "year": 2008
   },
   {
-    "id": "atom_n270",
+    "id": "atom_n270_atomn270",
     "name": "Atom N270",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -39,7 +39,7 @@
     "year": 2008
   },
   {
-    "id": "atom_z500",
+    "id": "atom_z500_atomz500",
     "name": "Atom Z500",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -52,7 +52,7 @@
     "year": 2008
   },
   {
-    "id": "atom_z510",
+    "id": "atom_z510_atomz510",
     "name": "Atom Z510",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -65,7 +65,7 @@
     "year": 2008
   },
   {
-    "id": "atom_z520",
+    "id": "atom_z520_atomz520",
     "name": "Atom Z520",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -78,7 +78,7 @@
     "year": 2008
   },
   {
-    "id": "atom_z530",
+    "id": "atom_z530_atomz530",
     "name": "Atom Z530",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -91,7 +91,7 @@
     "year": 2008
   },
   {
-    "id": "atom_z540",
+    "id": "atom_z540_atomz540",
     "name": "Atom Z540",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -104,7 +104,7 @@
     "year": 2008
   },
   {
-    "id": "atom_ce4110",
+    "id": "atom_ce4110_atomce4110",
     "name": "Atom CE4110",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -119,7 +119,7 @@
     "year": 2009
   },
   {
-    "id": "atom_d510",
+    "id": "atom_d510_atomd510",
     "name": "Atom D510",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -134,7 +134,7 @@
     "year": 2009
   },
   {
-    "id": "atom_n280",
+    "id": "atom_n280_atomn280",
     "name": "Atom N280",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -147,7 +147,7 @@
     "year": 2009
   },
   {
-    "id": "atom_n450",
+    "id": "atom_n450_atomn450",
     "name": "Atom N450",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -162,7 +162,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z510p",
+    "id": "atom_z510p_atomz510p",
     "name": "Atom Z510P",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -175,7 +175,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z510pt",
+    "id": "atom_z510pt_atomz510pt",
     "name": "Atom Z510PT",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -188,7 +188,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z515",
+    "id": "atom_z515_atomz515",
     "name": "Atom Z515",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -201,7 +201,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z520pt",
+    "id": "atom_z520pt_atomz520pt",
     "name": "Atom Z520PT",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -214,7 +214,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z530p",
+    "id": "atom_z530p_atomz530p",
     "name": "Atom Z530P",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -227,7 +227,7 @@
     "year": 2009
   },
   {
-    "id": "atom_z550",
+    "id": "atom_z550_atomz550",
     "name": "Atom Z550",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -240,7 +240,7 @@
     "year": 2009
   },
   {
-    "id": "atom_d410",
+    "id": "atom_d410_atomd410",
     "name": "Atom D410",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -255,7 +255,7 @@
     "year": 2010
   },
   {
-    "id": "atom_d425",
+    "id": "atom_d425_atomd425",
     "name": "Atom D425",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -272,7 +272,7 @@
     "year": 2010
   },
   {
-    "id": "atom_d525",
+    "id": "atom_d525_atomd525",
     "name": "Atom D525",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -289,7 +289,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e620",
+    "id": "atom_e620_atome620",
     "name": "Atom E620",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -304,7 +304,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e620t",
+    "id": "atom_e620t_atome620t",
     "name": "Atom E620T",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -319,7 +319,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e625c",
+    "id": "atom_e625c_atome625c",
     "name": "Atom E625C",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -334,7 +334,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e625ct",
+    "id": "atom_e625ct_atome625ct",
     "name": "Atom E625CT",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -349,7 +349,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e640",
+    "id": "atom_e640_atome640",
     "name": "Atom E640",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -364,7 +364,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e640t",
+    "id": "atom_e640t_atome640t",
     "name": "Atom E640T",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -379,7 +379,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e645c",
+    "id": "atom_e645c_atome645c",
     "name": "Atom E645C",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -394,7 +394,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e645ct",
+    "id": "atom_e645ct_atome645ct",
     "name": "Atom E645CT",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -409,7 +409,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e660",
+    "id": "atom_e660_atome660",
     "name": "Atom E660",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -424,7 +424,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e660t",
+    "id": "atom_e660t_atome660t",
     "name": "Atom E660T",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -439,7 +439,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e665c",
+    "id": "atom_e665c_atome665c",
     "name": "Atom E665C",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -454,7 +454,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e665ct",
+    "id": "atom_e665ct_atome665ct",
     "name": "Atom E665CT",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -469,7 +469,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e680",
+    "id": "atom_e680_atome680",
     "name": "Atom E680",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -484,7 +484,7 @@
     "year": 2010
   },
   {
-    "id": "atom_e680t",
+    "id": "atom_e680t_atome680t",
     "name": "Atom E680T",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -499,7 +499,7 @@
     "year": 2010
   },
   {
-    "id": "atom_n455",
+    "id": "atom_n455_atomn455",
     "name": "Atom N455",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -516,7 +516,7 @@
     "year": 2010
   },
   {
-    "id": "atom_n470",
+    "id": "atom_n470_atomn470",
     "name": "Atom N470",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -531,7 +531,7 @@
     "year": 2010
   },
   {
-    "id": "atom_n475",
+    "id": "atom_n475_atomn475",
     "name": "Atom N475",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -548,7 +548,7 @@
     "year": 2010
   },
   {
-    "id": "atom_n550",
+    "id": "atom_n550_atomn550",
     "name": "Atom N550",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -565,7 +565,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z560",
+    "id": "atom_z560_atomz560",
     "name": "Atom Z560",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -578,7 +578,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z600",
+    "id": "atom_z600_atomz600",
     "name": "Atom Z600",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -593,7 +593,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z605",
+    "id": "atom_z605_atomz605",
     "name": "Atom Z605",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -607,7 +607,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z610",
+    "id": "atom_z610_atomz610",
     "name": "Atom Z610",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -621,7 +621,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z612",
+    "id": "atom_z612_atomz612",
     "name": "Atom Z612",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -635,7 +635,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z615",
+    "id": "atom_z615_atomz615",
     "name": "Atom Z615",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -650,7 +650,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z620",
+    "id": "atom_z620_atomz620",
     "name": "Atom Z620",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -664,7 +664,7 @@
     "year": 2010
   },
   {
-    "id": "atom_z625",
+    "id": "atom_z625_atomz625",
     "name": "Atom Z625",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -679,7 +679,7 @@
     "year": 2010
   },
   {
-    "id": "atom_d2500",
+    "id": "atom_d2500_atomd2500",
     "name": "Atom D2500",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -696,7 +696,7 @@
     "year": 2011
   },
   {
-    "id": "atom_d2700",
+    "id": "atom_d2700_atomd2700",
     "name": "Atom D2700",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -713,7 +713,7 @@
     "year": 2011
   },
   {
-    "id": "atom_n2600",
+    "id": "atom_n2600_atomn2600",
     "name": "Atom N2600",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -730,7 +730,7 @@
     "year": 2011
   },
   {
-    "id": "atom_n2800",
+    "id": "atom_n2800_atomn2800",
     "name": "Atom N2800",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -747,7 +747,7 @@
     "year": 2011
   },
   {
-    "id": "atom_n435",
+    "id": "atom_n435_atomn435",
     "name": "Atom N435",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -764,7 +764,7 @@
     "year": 2011
   },
   {
-    "id": "atom_n570",
+    "id": "atom_n570_atomn570",
     "name": "Atom N570",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -781,7 +781,7 @@
     "year": 2011
   },
   {
-    "id": "atom_z650",
+    "id": "atom_z650_atomz650",
     "name": "Atom Z650",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -796,7 +796,7 @@
     "year": 2011
   },
   {
-    "id": "atom_z670",
+    "id": "atom_z670_atomz670",
     "name": "Atom Z670",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -811,7 +811,7 @@
     "year": 2011
   },
   {
-    "id": "atom_d2550",
+    "id": "atom_d2550_atomd2550",
     "name": "Atom D2550",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -828,7 +828,7 @@
     "year": 2012
   },
   {
-    "id": "atom_d2560",
+    "id": "atom_d2560_atomd2560",
     "name": "Atom D2560",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -845,7 +845,7 @@
     "year": 2012
   },
   {
-    "id": "atom_s1220",
+    "id": "atom_s1220_atoms1220",
     "name": "Atom S1220",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -861,7 +861,7 @@
     "year": 2012
   },
   {
-    "id": "atom_s1240",
+    "id": "atom_s1240_atoms1240",
     "name": "Atom S1240",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -877,7 +877,7 @@
     "year": 2012
   },
   {
-    "id": "atom_s1260",
+    "id": "atom_s1260_atoms1260",
     "name": "Atom S1260",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -893,7 +893,7 @@
     "year": 2012
   },
   {
-    "id": "atom_z2460",
+    "id": "atom_z2460_atomz2460",
     "name": "Atom Z2460",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -908,7 +908,7 @@
     "year": 2012
   },
   {
-    "id": "atom_z2480",
+    "id": "atom_z2480_atomz2480",
     "name": "Atom Z2480",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -923,7 +923,7 @@
     "year": 2012
   },
   {
-    "id": "atom_z2610",
+    "id": "atom_z2610_atomz2610",
     "name": "Atom Z2610",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -938,7 +938,7 @@
     "year": 2012
   },
   {
-    "id": "atom_z2760",
+    "id": "atom_z2760_atomz2760",
     "name": "Atom Z2760",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -953,7 +953,7 @@
     "year": 2012
   },
   {
-    "id": "atom_c2338",
+    "id": "atom_c2338_atomc2338",
     "name": "Atom C2338",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -969,7 +969,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2350",
+    "id": "atom_c2350_atomc2350",
     "name": "Atom C2350",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -985,7 +985,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2358",
+    "id": "atom_c2358_atomc2358",
     "name": "Atom C2358",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1001,7 +1001,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2518",
+    "id": "atom_c2518_atomc2518",
     "name": "Atom C2518",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1017,7 +1017,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2530",
+    "id": "atom_c2530_atomc2530",
     "name": "Atom C2530",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1033,7 +1033,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2538",
+    "id": "atom_c2538_atomc2538",
     "name": "Atom C2538",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1049,7 +1049,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2550",
+    "id": "atom_c2550_atomc2550",
     "name": "Atom C2550",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1065,7 +1065,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2558",
+    "id": "atom_c2558_atomc2558",
     "name": "Atom C2558",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1081,7 +1081,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2718",
+    "id": "atom_c2718_atomc2718",
     "name": "Atom C2718",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1097,7 +1097,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2730",
+    "id": "atom_c2730_atomc2730",
     "name": "Atom C2730",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1113,7 +1113,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2738",
+    "id": "atom_c2738_atomc2738",
     "name": "Atom C2738",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1129,7 +1129,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2750",
+    "id": "atom_c2750_atomc2750",
     "name": "Atom C2750",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1145,7 +1145,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2758",
+    "id": "atom_c2758_atomc2758",
     "name": "Atom C2758",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1161,7 +1161,7 @@
     "year": 2013
   },
   {
-    "id": "atom_e3815",
+    "id": "atom_e3815_atome3815",
     "name": "Atom E3815",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1178,7 +1178,7 @@
     "year": 2013
   },
   {
-    "id": "atom_e3825",
+    "id": "atom_e3825_atome3825",
     "name": "Atom E3825",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1195,7 +1195,7 @@
     "year": 2013
   },
   {
-    "id": "atom_e3826",
+    "id": "atom_e3826_atome3826",
     "name": "Atom E3826",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1212,7 +1212,7 @@
     "year": 2013
   },
   {
-    "id": "atom_e3827",
+    "id": "atom_e3827_atome3827",
     "name": "Atom E3827",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1229,7 +1229,7 @@
     "year": 2013
   },
   {
-    "id": "atom_e3845",
+    "id": "atom_e3845_atome3845",
     "name": "Atom E3845",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1246,7 +1246,7 @@
     "year": 2013
   },
   {
-    "id": "atom_s1269",
+    "id": "atom_s1269_atoms1269",
     "name": "Atom S1269",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1262,7 +1262,7 @@
     "year": 2013
   },
   {
-    "id": "atom_s1279",
+    "id": "atom_s1279_atoms1279",
     "name": "Atom S1279",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1278,7 +1278,7 @@
     "year": 2013
   },
   {
-    "id": "atom_s1289",
+    "id": "atom_s1289_atoms1289",
     "name": "Atom S1289",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1294,7 +1294,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z2420",
+    "id": "atom_z2420_atomz2420",
     "name": "Atom Z2420",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1309,7 +1309,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z2520",
+    "id": "atom_z2520_atomz2520",
     "name": "Atom Z2520",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1324,7 +1324,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z2560",
+    "id": "atom_z2560_atomz2560",
     "name": "Atom Z2560",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1339,7 +1339,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z2580",
+    "id": "atom_z2580_atomz2580",
     "name": "Atom Z2580",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1354,7 +1354,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3680",
+    "id": "atom_z3680_atomz3680",
     "name": "Atom Z3680",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1371,7 +1371,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3680d",
+    "id": "atom_z3680d_atomz3680d",
     "name": "Atom Z3680D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1388,7 +1388,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3740",
+    "id": "atom_z3740_atomz3740",
     "name": "Atom Z3740",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1405,7 +1405,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3740d",
+    "id": "atom_z3740d_atomz3740d",
     "name": "Atom Z3740D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1422,7 +1422,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3770",
+    "id": "atom_z3770_atomz3770",
     "name": "Atom Z3770",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1439,7 +1439,7 @@
     "year": 2013
   },
   {
-    "id": "atom_z3770d",
+    "id": "atom_z3770d_atomz3770d",
     "name": "Atom Z3770D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1456,7 +1456,7 @@
     "year": 2013
   },
   {
-    "id": "atom_c2308",
+    "id": "atom_c2308_atomc2308",
     "name": "Atom C2308",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1472,7 +1472,7 @@
     "year": 2014
   },
   {
-    "id": "atom_c2508",
+    "id": "atom_c2508_atomc2508",
     "name": "Atom C2508",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1488,7 +1488,7 @@
     "year": 2014
   },
   {
-    "id": "atom_e3805",
+    "id": "atom_e3805_atome3805",
     "name": "Atom E3805",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1504,7 +1504,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3460",
+    "id": "atom_z3460_atomz3460",
     "name": "Atom Z3460",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1521,7 +1521,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3480",
+    "id": "atom_z3480_atomz3480",
     "name": "Atom Z3480",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1538,7 +1538,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3530",
+    "id": "atom_z3530_atomz3530",
     "name": "Atom Z3530",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1555,7 +1555,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3560",
+    "id": "atom_z3560_atomz3560",
     "name": "Atom Z3560",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1572,7 +1572,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3570",
+    "id": "atom_z3570_atomz3570",
     "name": "Atom Z3570",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1589,7 +1589,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3580",
+    "id": "atom_z3580_atomz3580",
     "name": "Atom Z3580",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1606,7 +1606,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3735d",
+    "id": "atom_z3735d_atomz3735d",
     "name": "Atom Z3735D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1624,7 +1624,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3735e",
+    "id": "atom_z3735e_atomz3735e",
     "name": "Atom Z3735E",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1642,7 +1642,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3735f",
+    "id": "atom_z3735f_atomz3735f",
     "name": "Atom Z3735F",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1660,7 +1660,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3735g",
+    "id": "atom_z3735g_atomz3735g",
     "name": "Atom Z3735G",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1678,7 +1678,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3736f",
+    "id": "atom_z3736f_atomz3736f",
     "name": "Atom Z3736F",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1696,7 +1696,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3736g",
+    "id": "atom_z3736g_atomz3736g",
     "name": "Atom Z3736G",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1714,7 +1714,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3745",
+    "id": "atom_z3745_atomz3745",
     "name": "Atom Z3745",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1731,7 +1731,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3745d",
+    "id": "atom_z3745d_atomz3745d",
     "name": "Atom Z3745D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1748,7 +1748,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3775",
+    "id": "atom_z3775_atomz3775",
     "name": "Atom Z3775",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1765,7 +1765,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3775d",
+    "id": "atom_z3775d_atomz3775d",
     "name": "Atom Z3775D",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1782,7 +1782,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3785",
+    "id": "atom_z3785_atomz3785",
     "name": "Atom Z3785",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1799,7 +1799,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3795",
+    "id": "atom_z3795_atomz3795",
     "name": "Atom Z3795",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1816,7 +1816,7 @@
     "year": 2014
   },
   {
-    "id": "atom_z3590",
+    "id": "atom_z3590_atomz3590",
     "name": "Atom Z3590",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1833,7 +1833,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3130",
+    "id": "atom_x3_c3130_atomx3c3130",
     "name": "Atom x3-C3130",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1849,7 +1849,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3200rk",
+    "id": "atom_x3_c3200rk_atomx3c3200rk",
     "name": "Atom x3-C3200RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1867,7 +1867,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3230rk",
+    "id": "atom_x3_c3230rk_atomx3c3230rk",
     "name": "Atom x3-C3230RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1885,7 +1885,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3405",
+    "id": "atom_x3_c3405_atomx3c3405",
     "name": "Atom x3-C3405",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1901,7 +1901,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3445",
+    "id": "atom_x3_c3445_atomx3c3445",
     "name": "Atom x3-C3445",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1917,7 +1917,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x5_z8300",
+    "id": "atom_x5_z8300_atomx5z8300",
     "name": "Atom x5-Z8300",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1934,7 +1934,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x5_z8500",
+    "id": "atom_x5_z8500_atomx5z8500",
     "name": "Atom x5-Z8500",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1951,7 +1951,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x7_z8700",
+    "id": "atom_x7_z8700_atomx7z8700",
     "name": "Atom x7-Z8700",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1968,7 +1968,7 @@
     "year": 2015
   },
   {
-    "id": "atom_x3_c3205rk",
+    "id": "atom_x3_c3205rk_atomx3c3205rk",
     "name": "Atom x3-C3205RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -1986,7 +1986,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x3_c3235rk",
+    "id": "atom_x3_c3235rk_atomx3c3235rk",
     "name": "Atom x3-C3235RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2004,7 +2004,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x3_c3265rk",
+    "id": "atom_x3_c3265rk_atomx3c3265rk",
     "name": "Atom x3-C3265RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2022,7 +2022,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x3_c3295rk",
+    "id": "atom_x3_c3295rk_atomx3c3295rk",
     "name": "Atom x3-C3295RK",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2040,7 +2040,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_e3930",
+    "id": "atom_x5_e3930_atomx5e3930",
     "name": "Atom x5-E3930",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2058,7 +2058,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_e3940",
+    "id": "atom_x5_e3940_atomx5e3940",
     "name": "Atom x5-E3940",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2076,7 +2076,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_e8000",
+    "id": "atom_x5_e8000_atomx5e8000",
     "name": "Atom x5-E8000",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2093,7 +2093,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_z8330",
+    "id": "atom_x5_z8330_atomx5z8330",
     "name": "Atom x5-Z8330",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2110,7 +2110,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_z8350",
+    "id": "atom_x5_z8350_atomx5z8350",
     "name": "Atom x5-Z8350",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2127,7 +2127,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x5_z8550",
+    "id": "atom_x5_z8550_atomx5z8550",
     "name": "Atom x5-Z8550",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2144,7 +2144,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x7_e3950",
+    "id": "atom_x7_e3950_atomx7e3950",
     "name": "Atom x7-E3950",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2162,7 +2162,7 @@
     "year": 2016
   },
   {
-    "id": "atom_x7_z8750",
+    "id": "atom_x7_z8750_atomx7z8750",
     "name": "Atom x7-Z8750",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2179,7 +2179,7 @@
     "year": 2016
   },
   {
-    "id": "atom_c2316",
+    "id": "atom_c2316_atomc2316",
     "name": "Atom C2316",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2195,7 +2195,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c2516",
+    "id": "atom_c2516_atomc2516",
     "name": "Atom C2516",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2211,7 +2211,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3308",
+    "id": "atom_c3308_atomc3308",
     "name": "Atom C3308",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2227,7 +2227,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3338",
+    "id": "atom_c3338_atomc3338",
     "name": "Atom C3338",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2243,7 +2243,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3508",
+    "id": "atom_c3508_atomc3508",
     "name": "Atom C3508",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2259,7 +2259,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3538",
+    "id": "atom_c3538_atomc3538",
     "name": "Atom C3538",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2275,7 +2275,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3558",
+    "id": "atom_c3558_atomc3558",
     "name": "Atom C3558",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2291,7 +2291,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3708",
+    "id": "atom_c3708_atomc3708",
     "name": "Atom C3708",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2307,7 +2307,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3750",
+    "id": "atom_c3750_atomc3750",
     "name": "Atom C3750",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2323,7 +2323,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3758",
+    "id": "atom_c3758_atomc3758",
     "name": "Atom C3758",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2339,7 +2339,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3808",
+    "id": "atom_c3808_atomc3808",
     "name": "Atom C3808",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2355,7 +2355,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3830",
+    "id": "atom_c3830_atomc3830",
     "name": "Atom C3830",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2371,7 +2371,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3850",
+    "id": "atom_c3850_atomc3850",
     "name": "Atom C3850",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2387,7 +2387,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3858",
+    "id": "atom_c3858_atomc3858",
     "name": "Atom C3858",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2403,7 +2403,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3950",
+    "id": "atom_c3950_atomc3950",
     "name": "Atom C3950",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2419,7 +2419,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3955",
+    "id": "atom_c3955_atomc3955",
     "name": "Atom C3955",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2435,7 +2435,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3958",
+    "id": "atom_c3958_atomc3958",
     "name": "Atom C3958",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2451,7 +2451,7 @@
     "year": 2017
   },
   {
-    "id": "atom_c3336",
+    "id": "atom_c3336_atomc3336",
     "name": "Atom C3336",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2467,7 +2467,7 @@
     "year": 2018
   },
   {
-    "id": "atom_c3338r",
+    "id": "atom_c3338r_atomc3338r",
     "name": "Atom C3338R",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2483,7 +2483,7 @@
     "year": 2020
   },
   {
-    "id": "atom_c3436l",
+    "id": "atom_c3436l_atomc3436l",
     "name": "Atom C3436L",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2499,7 +2499,7 @@
     "year": 2020
   },
   {
-    "id": "atom_c3558r",
+    "id": "atom_c3558r_atomc3558r",
     "name": "Atom C3558R",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2515,7 +2515,7 @@
     "year": 2020
   },
   {
-    "id": "atom_c3758r",
+    "id": "atom_c3758r_atomc3758r",
     "name": "Atom C3758R",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2531,7 +2531,7 @@
     "year": 2020
   },
   {
-    "id": "atom_p5921b",
+    "id": "atom_p5921b_atomp5921b",
     "name": "Atom P5921B",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2547,7 +2547,7 @@
     "year": 2020
   },
   {
-    "id": "atom_p5931b",
+    "id": "atom_p5931b_atomp5931b",
     "name": "Atom P5931B",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2563,7 +2563,7 @@
     "year": 2020
   },
   {
-    "id": "atom_p5942b",
+    "id": "atom_p5942b_atomp5942b",
     "name": "Atom P5942B",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2579,7 +2579,7 @@
     "year": 2020
   },
   {
-    "id": "atom_p5962b",
+    "id": "atom_p5962b_atomp5962b",
     "name": "Atom P5962B",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2595,7 +2595,7 @@
     "year": 2020
   },
   {
-    "id": "atom_x6200fe",
+    "id": "atom_x6200fe_atomx6200fe",
     "name": "Atom x6200FE",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2612,7 +2612,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6211e",
+    "id": "atom_x6211e_atomx6211e",
     "name": "Atom x6211E",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2630,7 +2630,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6212re",
+    "id": "atom_x6212re_atomx6212re",
     "name": "Atom x6212RE",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2648,7 +2648,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6413e",
+    "id": "atom_x6413e_atomx6413e",
     "name": "Atom x6413E",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2666,7 +2666,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6414re",
+    "id": "atom_x6414re_atomx6414re",
     "name": "Atom x6414RE",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2684,7 +2684,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6425e",
+    "id": "atom_x6425e_atomx6425e",
     "name": "Atom x6425E",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2702,7 +2702,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6425re",
+    "id": "atom_x6425re_atomx6425re",
     "name": "Atom x6425RE",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2720,7 +2720,7 @@
     "year": 2021
   },
   {
-    "id": "atom_x6427fe",
+    "id": "atom_x6427fe_atomx6427fe",
     "name": "Atom x6427FE",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2738,7 +2738,7 @@
     "year": 2021
   },
   {
-    "id": "atom_c5115",
+    "id": "atom_c5115_atomc5115",
     "name": "Atom C5115",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2754,7 +2754,7 @@
     "year": 2022
   },
   {
-    "id": "atom_c5125",
+    "id": "atom_c5125_atomc5125",
     "name": "Atom C5125",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2770,7 +2770,7 @@
     "year": 2022
   },
   {
-    "id": "atom_c5310",
+    "id": "atom_c5310_atomc5310",
     "name": "Atom C5310",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2786,7 +2786,7 @@
     "year": 2022
   },
   {
-    "id": "atom_c5315",
+    "id": "atom_c5315_atomc5315",
     "name": "Atom C5315",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2802,7 +2802,7 @@
     "year": 2022
   },
   {
-    "id": "atom_c5320",
+    "id": "atom_c5320_atomc5320",
     "name": "Atom C5320",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2818,7 +2818,7 @@
     "year": 2022
   },
   {
-    "id": "atom_c5325",
+    "id": "atom_c5325_atomc5325",
     "name": "Atom C5325",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2834,7 +2834,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5322",
+    "id": "atom_p5322_atomp5322",
     "name": "Atom P5322",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2850,7 +2850,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5332",
+    "id": "atom_p5332_atomp5332",
     "name": "Atom P5332",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2866,7 +2866,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5342",
+    "id": "atom_p5342_atomp5342",
     "name": "Atom P5342",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2882,7 +2882,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5352",
+    "id": "atom_p5352_atomp5352",
     "name": "Atom P5352",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2898,7 +2898,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5362",
+    "id": "atom_p5362_atomp5362",
     "name": "Atom P5362",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2914,7 +2914,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5721",
+    "id": "atom_p5721_atomp5721",
     "name": "Atom P5721",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2930,7 +2930,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5731",
+    "id": "atom_p5731_atomp5731",
     "name": "Atom P5731",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2946,7 +2946,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5742",
+    "id": "atom_p5742_atomp5742",
     "name": "Atom P5742",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2962,7 +2962,7 @@
     "year": 2022
   },
   {
-    "id": "atom_p5752",
+    "id": "atom_p5752_atomp5752",
     "name": "Atom P5752",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2978,7 +2978,7 @@
     "year": 2022
   },
   {
-    "id": "atom_ce4105",
+    "id": "atom_ce4105_atomce4105",
     "name": "Atom CE4105",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -2992,7 +2992,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4130",
+    "id": "atom_ce4130_atomce4130",
     "name": "Atom CE4130",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3006,7 +3006,7 @@
     "gpu_clock": 200
   },
   {
-    "id": "atom_ce4150",
+    "id": "atom_ce4150_atomce4150",
     "name": "Atom CE4150",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3020,7 +3020,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4157",
+    "id": "atom_ce4157_atomce4157",
     "name": "Atom CE4157",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3034,7 +3034,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4160",
+    "id": "atom_ce4160_atomce4160",
     "name": "Atom CE4160",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3048,7 +3048,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4170",
+    "id": "atom_ce4170_atomce4170",
     "name": "Atom CE4170",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3062,7 +3062,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4177",
+    "id": "atom_ce4177_atomce4177",
     "name": "Atom CE4177",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3076,7 +3076,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4215",
+    "id": "atom_ce4215_atomce4215",
     "name": "Atom CE4215",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3089,7 +3089,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4235",
+    "id": "atom_ce4235_atomce4235",
     "name": "Atom CE4235",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3102,7 +3102,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4253",
+    "id": "atom_ce4253_atomce4253",
     "name": "Atom CE4253",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3116,7 +3116,7 @@
     "gpu_clock": 400
   },
   {
-    "id": "atom_ce4255",
+    "id": "atom_ce4255_atomce4255",
     "name": "Atom CE4255",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3129,7 +3129,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4257",
+    "id": "atom_ce4257_atomce4257",
     "name": "Atom CE4257",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3142,7 +3142,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4270",
+    "id": "atom_ce4270_atomce4270",
     "name": "Atom CE4270",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3155,7 +3155,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4275",
+    "id": "atom_ce4275_atomce4275",
     "name": "Atom CE4275",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3168,7 +3168,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce4277",
+    "id": "atom_ce4277_atomce4277",
     "name": "Atom CE4277",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3181,7 +3181,7 @@
     "gpu": "— N/a"
   },
   {
-    "id": "atom_ce5310",
+    "id": "atom_ce5310_atomce5310",
     "name": "Atom CE5310",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3196,7 +3196,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5315",
+    "id": "atom_ce5315_atomce5315",
     "name": "Atom CE5315",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3211,7 +3211,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5318",
+    "id": "atom_ce5318_atomce5318",
     "name": "Atom CE5318",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3226,7 +3226,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5320",
+    "id": "atom_ce5320_atomce5320",
     "name": "Atom CE5320",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3241,7 +3241,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5328",
+    "id": "atom_ce5328_atomce5328",
     "name": "Atom CE5328",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3256,7 +3256,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5335",
+    "id": "atom_ce5335_atomce5335",
     "name": "Atom CE5335",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3271,7 +3271,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5338",
+    "id": "atom_ce5338_atomce5338",
     "name": "Atom CE5338",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3286,7 +3286,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5343",
+    "id": "atom_ce5343_atomce5343",
     "name": "Atom CE5343",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3301,7 +3301,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_ce5348",
+    "id": "atom_ce5348_atomce5348",
     "name": "Atom CE5348",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3316,7 +3316,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_d2701",
+    "id": "atom_d2701_atomd27013",
     "name": "Atom D2701",
     "vendor": "Intel Atom",
     "cores": 8,
@@ -3335,7 +3335,7 @@
     "memory_clock": 1333
   },
   {
-    "id": "atom_n2100",
+    "id": "atom_n2100_atomn2100",
     "name": "Atom N2100",
     "vendor": "Intel Atom",
     "cores": 8,

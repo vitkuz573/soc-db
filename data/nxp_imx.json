@@ -1,6 +1,6 @@
 [
   {
-    "id": "imx_6",
+    "id": "imx_6_imx6",
     "name": "i.MX 6",
     "vendor": "NXP i.MX",
     "cores": 8,
@@ -12,7 +12,7 @@
     "gpu": "security"
   },
   {
-    "id": "imx_7",
+    "id": "imx_7_imx7",
     "name": "i.MX 7",
     "vendor": "NXP i.MX",
     "cores": 8,
@@ -24,7 +24,7 @@
     "gpu": "Secondary CPU – ARM Cortex M4 real-time co-processor"
   },
   {
-    "id": "imx_8",
+    "id": "imx_8_imx8",
     "name": "i.MX 8",
     "vendor": "NXP i.MX",
     "cores": 8,
@@ -37,7 +37,7 @@
     "model": "i.MX 8"
   },
   {
-    "id": "imx_8m",
+    "id": "imx_8m_imx8m",
     "name": "i.MX 8M",
     "vendor": "NXP i.MX",
     "cores": 8,
@@ -50,7 +50,7 @@
     "gpu": "GC7000Lite"
   },
   {
-    "id": "imx_8x",
+    "id": "imx_8x_imx8x",
     "name": "i.MX 8X",
     "vendor": "NXP i.MX",
     "cores": 8,
@@ -65,7 +65,7 @@
     "gpu": "DDR3L (ECC option) LPDDR4 (no ECC)"
   },
   {
-    "id": "imx_9",
+    "id": "imx_9_imx9",
     "name": "i.MX 9",
     "vendor": "NXP i.MX",
     "cores": 8,

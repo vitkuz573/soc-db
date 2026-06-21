@@ -1,6 +1,6 @@
 [
   {
-    "id": "google_g1_original",
+    "id": "google_g1_original_gs101",
     "name": "Google G1 (Original)",
     "vendor": "Google",
     "cores": 8,
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "id": "google_g2",
+    "id": "google_g2_gs201",
     "name": "Google G2",
     "vendor": "Google",
     "cores": 2,
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "id": "google_g3",
+    "id": "google_g3_gs301",
     "name": "Google G3",
     "vendor": "Google",
     "cores": 8,
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "id": "google_g4",
+    "id": "google_g4_gs401",
     "name": "Google G4",
     "vendor": "Google",
     "cores": 2,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "id": "google_g5",
+    "id": "google_g5_googleg5",
     "name": "Google G5",
     "vendor": "Google",
     "cores": 8,

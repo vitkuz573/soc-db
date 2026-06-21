@@ -18,7 +18,7 @@
     "dsp": "External"
   },
   {
-    "id": "msm8260a_pro",
+    "id": "msm8260a_pro_msm8260apro32",
     "name": "MSM8260A Pro",
     "vendor": "Qualcomm",
     "process": "28 nm",
@@ -47,7 +47,7 @@
     "camera_max": "Up to 20 MP camera"
   },
   {
-    "id": "msm8960dt",
+    "id": "msm8960dt_msm8960dt36",
     "name": "MSM8960DT",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "id": "msm8960t",
+    "id": "msm8960t_msm8960t32",
     "name": "MSM8960T",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "id": "msm8960t_pro_msm8960ab",
+    "id": "msm8960t_pro_msm8960ab_msm8960tpro3235msm8960ab",
     "name": "MSM8960T Pro  (MSM8960AB)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -158,7 +158,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "apq8030ab",
+    "id": "apq8030ab_apq8030ab49",
     "name": "APQ8030AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -280,7 +280,7 @@
     "camera_max": "21 MP single camera (Video capture: 4K@30fps)"
   },
   {
-    "id": "apq8074ab_v3",
+    "id": "apq8074ab_v3_apq8074abv3",
     "name": "APQ8074AB v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -365,7 +365,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8225q",
+    "id": "msm8225q_msm8225q38",
     "name": "MSM8225Q",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -434,7 +434,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8230ab",
+    "id": "msm8230ab_msm8230ab49",
     "name": "MSM8230AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -474,7 +474,7 @@
     "gpu": "Q4 2013"
   },
   {
-    "id": "msm8274ac_v3",
+    "id": "msm8274ac_v3_msm8274acv3",
     "name": "MSM8274AC v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -511,7 +511,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8625q",
+    "id": "msm8625q_msm8625q38",
     "name": "MSM8625Q",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -550,7 +550,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8630ab",
+    "id": "msm8630ab_msm8630ab49",
     "name": "MSM8630AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -577,7 +577,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8674ab_v3",
+    "id": "msm8674ab_v3_msm8674abv3",
     "name": "MSM8674AB v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -627,7 +627,7 @@
     "process_name": "28nm"
   },
   {
-    "id": "msm8909aa",
+    "id": "msm8909aa_msm8909aa45",
     "name": "MSM8909AA",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -755,7 +755,7 @@
     "modem": "February 18, 2015 [ 55 ]"
   },
   {
-    "id": "msm8930aa",
+    "id": "msm8930aa_msm8930aa49",
     "name": "MSM8930AA",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -771,7 +771,7 @@
     ]
   },
   {
-    "id": "msm8930ab",
+    "id": "msm8930ab_msm8930ab49",
     "name": "MSM8930AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -967,7 +967,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8974aa_v3",
+    "id": "msm8974aa_v3_msm8974aav3",
     "name": "MSM8974AA v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -980,7 +980,7 @@
     "gpu": "Q3 2014"
   },
   {
-    "id": "msm8974ab_v3",
+    "id": "msm8974ab_v3_msm8974abv3",
     "name": "MSM8974AB v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -992,7 +992,7 @@
     "model": "MSM8974AB v3"
   },
   {
-    "id": "msm8974ac_v3",
+    "id": "msm8974ac_v3_msm8974acv3",
     "name": "MSM8974AC v3",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -1223,7 +1223,7 @@
     "camera_max": "Spectra 180 (32 MP Photo capture / 25 MP at 30fps single camera with ZSL / 16 MP"
   },
   {
-    "id": "qm215",
+    "id": "qm215_qm21547",
     "name": "QM215",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -1945,7 +1945,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "snapdragon_860",
+    "id": "snapdragon_860_snapdragon860",
     "name": "Snapdragon 860",
     "vendor": "Qualcomm",
     "year": 2013,
@@ -2693,7 +2693,7 @@
     "process_name": "3nm"
   },
   {
-    "id": "snapdragon_8_since_2021",
+    "id": "snapdragon_8_since_2021_kryo132ghzcortexx23275ghzcortexa710420ghzcortexa510",
     "name": "Snapdragon 8 (since 2021)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3229,7 +3229,7 @@
     "charging": "May 15, 2025 [ 183 ]"
   },
   {
-    "id": "snapdragon_4_gen_2_accelerated_edition",
+    "id": "snapdragon_4_gen_2_accelerated_edition_snapdragon4gen2acceleratededitiona",
     "name": "Snapdragon 4 Gen 2 Accelerated Edition",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3418,7 +3418,7 @@
     "camera_max": "Up to 16 MP camera"
   },
   {
-    "id": "apq8060a",
+    "id": "apq8060a_apq8060a32",
     "name": "APQ8060A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3556,7 +3556,7 @@
     "camera_max": "Up to 5 MP camera"
   },
   {
-    "id": "msm7225a",
+    "id": "msm7225a_msm7225a22",
     "name": "MSM7225A",
     "vendor": "Qualcomm",
     "process": "45 nm",
@@ -3586,7 +3586,7 @@
     "camera_max": "Up to 5 MP camera"
   },
   {
-    "id": "msm7225ab",
+    "id": "msm7225ab_msm7225ab22",
     "name": "MSM7225AB",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3620,7 +3620,7 @@
     "modem": "2008"
   },
   {
-    "id": "msm7227a",
+    "id": "msm7227a_msm7227a22",
     "name": "MSM7227A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3678,7 +3678,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm7625a",
+    "id": "msm7625a_msm7625a22",
     "name": "MSM7625A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3703,7 +3703,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm7627a",
+    "id": "msm7627a_msm7627a22",
     "name": "MSM7627A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3791,7 +3791,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8255t",
+    "id": "msm8255t_msm8255t22",
     "name": "MSM8255T",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3817,7 +3817,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8260a",
+    "id": "msm8260a_msm8260a32",
     "name": "MSM8260A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3875,7 +3875,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8655t",
+    "id": "msm8655t_msm8655t22",
     "name": "MSM8655T",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3900,7 +3900,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8660a",
+    "id": "msm8660a_msm8660a32",
     "name": "MSM8660A",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3914,7 +3914,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "msm8909w",
+    "id": "msm8909w_msm8909w314",
     "name": "MSM8909w",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -3957,7 +3957,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "microsoft_sq1",
+    "id": "microsoft_sq1_microsoftsq1",
     "name": "Microsoft SQ1",
     "vendor": "Qualcomm",
     "process": "7 nm",
@@ -3987,7 +3987,7 @@
     "camera_max": "Spectra 390 (192 MP single camera / 22 MP at 30fps dual camera with MFNR/ZSL)"
   },
   {
-    "id": "microsoft_sq2",
+    "id": "microsoft_sq2_microsoftsq2",
     "name": "Microsoft SQ2",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4003,7 +4003,7 @@
     "dsp": "Q4 2020"
   },
   {
-    "id": "microsoft_sq3",
+    "id": "microsoft_sq3_microsoftsq3",
     "name": "Microsoft SQ3",
     "vendor": "Qualcomm",
     "process": "5 nm",
@@ -4120,7 +4120,7 @@
     "process_name": "14nm"
   },
   {
-    "id": "qsd8250",
+    "id": "qsd8250_qsd825022",
     "name": "QSD8250",
     "vendor": "Qualcomm",
     "process": "65 nm",
@@ -4149,7 +4149,7 @@
     "camera_max": "Up to 12 MP camera"
   },
   {
-    "id": "qsd8650",
+    "id": "qsd8650_qsd865022",
     "name": "QSD8650",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4163,7 +4163,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sa6155p",
+    "id": "sa6155p_sa6155p339340",
     "name": "SA6155P",
     "vendor": "Qualcomm",
     "process": "11 nm",
@@ -4194,7 +4194,7 @@
     "process_name": "11nm"
   },
   {
-    "id": "sa8195p",
+    "id": "sa8195p_sa8195p341342",
     "name": "SA8195P",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4518,7 +4518,7 @@
     "model": "Snapdragon 410E"
   },
   {
-    "id": "snapdragon_410e_apq8016e",
+    "id": "snapdragon_410e_apq8016e_snapdragon410e347apq8016e",
     "name": "Snapdragon 410E (APQ8016E)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4560,7 +4560,7 @@
     "model": "Snapdragon 600E"
   },
   {
-    "id": "snapdragon_600e_apq8064e",
+    "id": "snapdragon_600e_apq8064e_snapdragon600e348apq8064e",
     "name": "Snapdragon 600E (APQ8064E)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4673,7 +4673,7 @@
     "model": "Snapdragon 820AM"
   },
   {
-    "id": "snapdragon_820am_apq8096au_msm8996au",
+    "id": "snapdragon_820am_apq8096au_msm8996au_snapdragon820am338apq8096aumsm8996au",
     "name": "Snapdragon 820AM (APQ8096AU/ MSM8996AU)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4743,7 +4743,7 @@
     "model": "Snapdragon 855A"
   },
   {
-    "id": "snapdragon_855a_sa8155p",
+    "id": "snapdragon_855a_sa8155p_snapdragon855a341342sa8155p",
     "name": "Snapdragon 855A  (SA8155P)",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4776,7 +4776,7 @@
     "process_name": "7nm"
   },
   {
-    "id": "snapdragon_g_series",
+    "id": "snapdragon_g_series_snapdragongseries",
     "name": "Snapdragon G series",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4792,7 +4792,7 @@
     "npu": "Q4 2023"
   },
   {
-    "id": "snapdragon_x",
+    "id": "snapdragon_x_x126100",
     "name": "Snapdragon X",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4824,7 +4824,7 @@
     "camera_max": "Spectra (36 MP single camera)"
   },
   {
-    "id": "snapdragon_x_elite",
+    "id": "snapdragon_x_elite_x1e78100",
     "name": "Snapdragon X Elite",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4839,7 +4839,7 @@
     ]
   },
   {
-    "id": "snapdragon_x_plus",
+    "id": "snapdragon_x_plus_x1p42100",
     "name": "Snapdragon X Plus",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4854,7 +4854,7 @@
     ]
   },
   {
-    "id": "snapdragon_x1_series",
+    "id": "snapdragon_x1_series_oryon8core34ghzsinglecoreboostupto40ghz",
     "name": "Snapdragon X1 series",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4870,7 +4870,7 @@
     ]
   },
   {
-    "id": "snapdragon_x2_elite",
+    "id": "snapdragon_x2_elite_x2e78100",
     "name": "Snapdragon X2 Elite",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4889,7 +4889,7 @@
     ]
   },
   {
-    "id": "snapdragon_x2_elite_extreme",
+    "id": "snapdragon_x2_elite_extreme_x2e94100",
     "name": "Snapdragon X2 Elite Extreme",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4908,7 +4908,7 @@
     ]
   },
   {
-    "id": "snapdragon_x2_plus",
+    "id": "snapdragon_x2_plus_x2p42100",
     "name": "Snapdragon X2 Plus",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4940,7 +4940,7 @@
     "camera_max": "Spectra (36 MP single/38 MP dual camera)"
   },
   {
-    "id": "snapdragon_x2_series",
+    "id": "snapdragon_x2_series_snapdragonx2series",
     "name": "Snapdragon X2 series",
     "vendor": "Qualcomm",
     "cores": 8,
@@ -4953,7 +4953,7 @@
     "model": "Snapdragon X2 series"
   },
   {
-    "id": "snapdragon_xr_series",
+    "id": "snapdragon_xr_series_snapdragonxrseries",
     "name": "Snapdragon XR series",
     "vendor": "Qualcomm",
     "cores": 8,

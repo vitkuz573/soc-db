@@ -1,6 +1,6 @@
 [
   {
-    "id": "odnx02_a2",
+    "id": "odnx02_a2_odnx02a2",
     "name": "ODNX02-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -11,7 +11,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "odnx02_a2_tm670d_a1_tm670m_a2_tm671d_a2",
+    "id": "odnx02_a2_tm670d_a1_tm670m_a2_tm671d_a2_odnx02a2tm670da1tm670ma2tm671da2",
     "name": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -26,7 +26,7 @@
     "gpu_clock": 1000
   },
   {
-    "id": "odnx10_a1",
+    "id": "odnx10_a1_odnx10a1",
     "name": "ODNX10-A1",
     "vendor": "Nvidia",
     "cores": 8,
@@ -37,7 +37,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "odnx10_a1_tm675m_a1",
+    "id": "odnx10_a1_tm675m_a1_odnx10a1tm675ma1",
     "name": "ODNX10-A1 TM675M-A1",
     "vendor": "Nvidia",
     "cores": 8,
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "id": "te980_m",
+    "id": "te980_m_te980m171",
     "name": "TE980-M",
     "vendor": "Nvidia",
     "cores": 8,
@@ -101,7 +101,7 @@
     ]
   },
   {
-    "id": "tm660m_a2",
+    "id": "tm660m_a2_tm660ma2",
     "name": "TM660M-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -117,7 +117,7 @@
     "memory_bus": 64
   },
   {
-    "id": "tm670d_a1",
+    "id": "tm670d_a1_tm670da1",
     "name": "TM670D-A1",
     "vendor": "Nvidia",
     "cores": 8,
@@ -128,7 +128,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tm670d_a2",
+    "id": "tm670d_a2_tm670da2",
     "name": "TM670D-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -139,7 +139,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tm670m_a2",
+    "id": "tm670m_a2_tm670ma2",
     "name": "TM670M-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -150,7 +150,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tm671d_a2",
+    "id": "tm671d_a2_tm671da2",
     "name": "TM671D-A2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -161,7 +161,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tm675m_a1",
+    "id": "tm675m_a1_tm675ma1",
     "name": "TM675M-A1",
     "vendor": "Nvidia",
     "cores": 8,
@@ -172,7 +172,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "tegra_2",
+    "id": "tegra_2_cortexa9",
     "name": "Tegra 2",
     "vendor": "Nvidia",
     "cores": 8,
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "id": "tegra_3",
+    "id": "tegra_3_cortexa9",
     "name": "Tegra 3",
     "vendor": "Nvidia",
     "cores": 8,
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "id": "tegra_4",
+    "id": "tegra_4_4119ghzcortexa15",
     "name": "Tegra 4",
     "vendor": "Nvidia",
     "cores": 8,
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "id": "tegra_4i",
+    "id": "tegra_4i_4120ghzcortexa9r4",
     "name": "Tegra 4i",
     "vendor": "Nvidia",
     "cores": 8,

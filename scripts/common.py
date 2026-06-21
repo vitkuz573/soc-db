@@ -60,6 +60,8 @@ def clean(text: str | None) -> str | None:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\[\w+\]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
+    # Strip editorial annotations like "(now managed and sold to X)"
+    text = re.sub(r'\s*\(now\s+[^)]*?\)', '', text)
     return text or None
 
 
@@ -117,14 +119,26 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
         if match_id:
             matched_ids.add(match_id)
             old = existing[match_id]
-            # Only copy fields that old is missing (prefer existing data)
+            # Prefer scraper values for name and model (cleaner source)
+            for k in ("name", "model"):
+                if chip.get(k) and chip[k] != old.get(k):
+                    old[k] = chip[k]
+            # Re-slug if name changed significantly (e.g., editorial text removed)
+            new_id = slug(old.get("name", ""), old.get("model", ""))
+            if new_id != match_id and new_id not in existing:
+                old["id"] = new_id
+                existing[new_id] = old
+                del existing[match_id]
+                matched_ids.remove(match_id)
+                matched_ids.add(new_id)
+                match_id = new_id
+            # For other fields, only copy if old is missing
             for k, v in chip.items():
+                if k in ("name", "model"):
+                    continue
                 if k not in old or old[k] in (None, "", [], 0, 0.0):
                     if v not in (None, "", [], 0, 0.0):
                         old[k] = v
-                elif k == "model" and old[k] == old.get("name", "") and v != old[k]:
-                    # Prefer scraper's model (e.g., "GS101") over enrich's copy of name
-                    old[k] = v
             updated += 1
         else:
             cid = chip["id"]
@@ -406,6 +420,13 @@ MEMORY_CLOCK_FROM_TYPE = {
 
 
 def enrich_one(chip: dict) -> dict:
+    # Strip editorial annotations from name and model
+    ann = re.compile(r'\s*\(now\s+[^)]*?\)')
+    for k in ("name", "model"):
+        if chip.get(k):
+            cleaned = ann.sub('', chip[k]).strip()
+            if cleaned != chip[k]:
+                chip[k] = cleaned
     if not chip.get("model"):
         name = chip.get("name", "")
         # Only copy name to model when name looks like a model number
