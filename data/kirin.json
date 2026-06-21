@@ -12,7 +12,7 @@
     "process": "7nm+",
     "year": 2019,
     "max_freq": "2.86 GHz",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -20,7 +20,11 @@
     "memory_type": "LPDDR4X",
     "storage_type": "UFS 3.0",
     "memory_clock": 2133,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "k3v2",
@@ -30,10 +34,20 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "533 MHz",
-    "completeness": 0.2816,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "K3V2"
+    "model": "K3V2",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "k3v2e",
@@ -43,10 +57,20 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "533 MHz",
-    "completeness": 0.2816,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "K3V2E"
+    "model": "K3V2E",
+    "year": 2013,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "kirin_620_hi6220_kirin620",
@@ -61,12 +85,20 @@
     "aliases": [
       "Kirin 620 (Hi6220) (KIRIN 620)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "500",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_650_hi6250_kirin650",
@@ -81,12 +113,20 @@
     "aliases": [
       "Kirin 650 (Hi6250) (KIRIN 650)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "900",
     "process_nm": 16,
-    "process_name": "16nm"
+    "process_name": "16nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_655_kirin655",
@@ -98,10 +138,20 @@
     "aliases": [
       "Kirin 655 (KIRIN 655)"
     ],
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "Q4 2016"
+    "gpu": "Q4 2016",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_658_kirin658",
@@ -113,10 +163,20 @@
     "aliases": [
       "Kirin 658 (KIRIN 658)"
     ],
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "WIFI 5 (802.11ac)"
+    "gpu": "WIFI 5 (802.11ac)",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_710_hi6260_kirin710",
@@ -130,12 +190,20 @@
     "aliases": [
       "Kirin 710 (Hi6260) (KIRIN 710)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1000",
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_710a_kirin710a",
@@ -144,13 +212,22 @@
     "process": "14 nm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 710A",
     "gpu": "Q2 2020",
     "process_nm": 14,
-    "process_name": "14nm"
+    "process_name": "14nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_710f_kirin710f",
@@ -158,7 +235,7 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 710F",
@@ -167,7 +244,16 @@
     ],
     "process_nm": 12,
     "process_name": "12nm",
-    "gpu": "Mali-G51"
+    "gpu": "Mali-G51",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_8000_hi6290v110_kirin8000",
@@ -182,12 +268,20 @@
     "aliases": [
       "Kirin 8000 (Hi6290V110) (KIRIN 8000)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "864",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2024,
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_8020_kirin8020",
@@ -200,12 +294,22 @@
     "aliases": [
       "Kirin 8020 (KIRIN 8020)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
     "gpu": "Maleoon 920C",
-    "npu": "68.2 (4266 MHz)"
+    "npu": "68.2 (4266 MHz)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_810_hi6280_kirin810",
@@ -220,12 +324,20 @@
     "aliases": [
       "Kirin 810 (Hi6280) (KIRIN 810)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "820",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_820_5g_hi6290l_v100_kirin820",
@@ -239,12 +351,21 @@
     "aliases": [
       "Kirin 820 5G (Hi6290L V100) (KIRIN 820)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_820e_5g_kirin820e5g",
@@ -254,13 +375,22 @@
     "gpu": "Mali-G57 MP6",
     "max_freq": "6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 820E 5G",
     "cluster_config": "3+3",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_9000_hi36a0v101_kirin9000",
@@ -273,11 +403,20 @@
     "aliases": [
       "Kirin 9000 (Hi36A0V101) (KIRIN 9000)"
     ],
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000e_kirin9000e",
@@ -285,13 +424,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000E",
     "gpu": "— N/a",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000l_kirin9000l",
@@ -302,13 +450,21 @@
     "gpu": "Cortex-A77 Cortex-A55 ( big.LITTLE )",
     "max_freq": "2133 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000L",
     "npu": "759",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000s_kirin9000s",
@@ -318,13 +474,22 @@
     "cores": 7,
     "max_freq": "2.62 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000S",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000s_hi36a0v120_kirin9000shi36a0v120",
@@ -334,14 +499,22 @@
     "architecture": "ARMv8.2-A",
     "process": "7 nm",
     "max_freq": "2.62 GHz",
-    "completeness": 0.3689,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000S (Hi36A0V120)",
     "gpu": "HiSilicon Taishan, Cortex-A510",
     "npu": "HiSilicon Maleoon 910",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000s1_kirin9000s1",
@@ -350,13 +523,22 @@
     "cores": 2,
     "max_freq": "2.49 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000S1",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000s1_hi36a0v120_kirin9000s1hi36a0v120",
@@ -365,13 +547,22 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.49 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000S1 (Hi36A0V120)",
     "gpu": "Huawei Pura 70",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000sl_kirin9000sl",
@@ -380,13 +571,22 @@
     "cores": 4,
     "max_freq": "2.35 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000SL",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000sl_hi36a0v120_kirin9000slhi36a0v120",
@@ -395,13 +595,22 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.35 GHz",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000SL (Hi36A0V120)",
     "gpu": "2.35 GHz (TaishanV120) 2.15 GHz (TaishanV120) 1.53 GHz (Cortex-A510)",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000w_kirin9000w",
@@ -409,13 +618,22 @@
     "vendor": "HiSilicon",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000W",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000w_hi36a0v120_kirin9000whi36a0v120",
@@ -423,13 +641,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000W (Hi36A0V120)",
     "gpu": "List Huawei MatePad Pro 13.2 Huawei MatePad Air (2024)",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000we_kirin9000we",
@@ -437,13 +664,22 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WE",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000we_hi36a0v120_kirin9000wehi36a0v120",
@@ -451,13 +687,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WE (Hi36A0V120)",
     "gpu": "Huawei MatePad 11.5 S (12GB RAM)",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000wl_kirin9000wl",
@@ -465,13 +710,22 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WL",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000wl_hi36a0v120_kirin9000wlhi36a0v120",
@@ -479,13 +733,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WL (Hi36A0V120)",
     "gpu": "Huawei MatePad 11.5 S PaperMatte Edition",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000wm_kirin9000wm",
@@ -493,13 +756,22 @@
     "vendor": "HiSilicon",
     "cores": 2,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WM",
     "process_nm": 5,
     "process_name": "5nm",
-    "gpu": "Mali-G78"
+    "gpu": "Mali-G78",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9000wm_hi36a0v120_kirin9000wmhi36a0v120",
@@ -507,13 +779,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9000WM (Hi36A0V120)",
     "gpu": "Huawei MatePad 11.5 S Smart Model",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_9010_hi36a0v121_kirin9010",
@@ -526,12 +807,21 @@
     "aliases": [
       "Kirin 9010 (Hi36A0V121) (KIRIN 9010)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "2.30 GHz (TaishanV121) 2.18 GHz (TaishanV120) 1.55 GHz (Cortex-A510)",
     "memory_clock": 3200,
-    "npu": "List Huawei Pura 70 Pro Huawei Pura 70 Pro+ Huawei Pura 70 Ultra Huawei Mate XT"
+    "npu": "List Huawei Pura 70 Pro Huawei Pura 70 Pro+ Huawei Pura 70 Ultra Huawei Mate XT",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_9010a_hi36a0v121_kirin9010ahi36a0v121",
@@ -539,10 +829,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kirin 9010A (Hi36A0V121)"
+    "model": "Kirin 9010A (Hi36A0V121)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Mali GPU"
   },
   {
     "id": "kirin_9010e_hi36a0v121_kirin9010ehi36a0v121",
@@ -551,11 +853,22 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.19 GHz",
-    "completeness": 0.301,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9010E (Hi36A0V121)",
-    "gpu": "Huawei Nova Flip"
+    "gpu": "Huawei Nova Flip",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_9010l_hi36a0v121_kirin9010lhi36a0v121",
@@ -564,11 +877,22 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.19 GHz",
-    "completeness": 0.301,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9010L (Hi36A0V121)",
-    "gpu": "2.19 GHz (TaishanV121) 2.18 GHz (TaishanV120) 1.40 GHz (Cortex-A510)"
+    "gpu": "2.19 GHz (TaishanV121) 2.18 GHz (TaishanV120) 1.40 GHz (Cortex-A510)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_9010w_hi36a0v121_kirin9010whi36a0v121",
@@ -576,10 +900,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kirin 9010W (Hi36A0V121)"
+    "model": "Kirin 9010W (Hi36A0V121)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "HiSilicon NPU",
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Mali GPU"
   },
   {
     "id": "kirin_9020_hi36c0v110_kirin9020",
@@ -592,11 +928,21 @@
     "aliases": [
       "Kirin 9020 (Hi36C0V110) (KIRIN 9020)"
     ],
-    "completeness": 0.3301,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "2+6+4 (12)",
-    "npu": "1720"
+    "npu": "1720",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_9030_pro_kirin9030",
@@ -610,13 +956,21 @@
     "aliases": [
       "Kirin 9030 (KIRIN 9030)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "2+6+4 (12)",
     "npu": "2388",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2024,
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_9030s_kirin9030s",
@@ -625,12 +979,22 @@
     "cores": 8,
     "max_freq": "2.7 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3204,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 9030S",
     "gpu": "2.7 GHz (Taishan V124 Big) 2.15 GHz (Taishan V124 Mid) 1.62 GHz (Taishan V124 Little)",
-    "npu": "34.1 (4266 MHz)"
+    "npu": "34.1 (4266 MHz)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_910_hi6620_kirin910",
@@ -645,12 +1009,20 @@
     "aliases": [
       "Kirin 910 (Hi6620) (KIRIN 910)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "533",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2014,
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "kirin_910t_kirin910t",
@@ -658,12 +1030,22 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 910T",
     "gpu": "41.8",
-    "npu": "H1 2014"
+    "npu": "H1 2014",
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "kirin_920_kirin920",
@@ -678,12 +1060,20 @@
     "aliases": [
       "Kirin 920 (KIRIN 920)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "600",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2014,
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "kirin_925_hi3630_kirin925",
@@ -695,10 +1085,20 @@
     "aliases": [
       "Kirin 925 (Hi3630) (KIRIN 925)"
     ],
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "— N/a"
+    "gpu": "— N/a",
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "kirin_928_kirin928",
@@ -710,10 +1110,20 @@
     "aliases": [
       "Kirin 928 (KIRIN 928)"
     ],
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "— N/a"
+    "gpu": "— N/a",
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "kirin_930_hi3635_kirin930",
@@ -728,12 +1138,20 @@
     "aliases": [
       "Kirin 930 (Hi3635) (KIRIN 930)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "600",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_935_kirin935",
@@ -745,13 +1163,21 @@
     "aliases": [
       "Kirin 935 (KIRIN 935)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "87",
     "npu": "Q1 2015",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_950_hi3650_kirin950",
@@ -766,12 +1192,20 @@
     "aliases": [
       "Kirin 950 (Hi3650) (KIRIN 950)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "900",
     "process_nm": 16,
-    "process_name": "16nm"
+    "process_name": "16nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_955_kirin955",
@@ -783,13 +1217,21 @@
     "aliases": [
       "Kirin 955 (KIRIN 955)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "— N/a",
     "npu": "List Huawei P9 , Huawei P9 Plus, Honor Note 8, Honor V8 64 GB",
     "process_nm": 16,
-    "process_name": "16nm"
+    "process_name": "16nm",
+    "year": 2015,
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_960_hi3660_kirin960",
@@ -804,12 +1246,20 @@
     "aliases": [
       "Kirin 960 (Hi3660) (KIRIN 960)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1037",
     "process_nm": 16,
-    "process_name": "16nm"
+    "process_name": "16nm",
+    "year": 2016,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "kirin_970_hi3670_kirin970",
@@ -824,12 +1274,20 @@
     "aliases": [
       "Kirin 970 (Hi3670) (KIRIN 970)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "746",
     "process_nm": 10,
-    "process_name": "10nm"
+    "process_name": "10nm",
+    "year": 2017,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_980_kirin980",
@@ -844,12 +1302,20 @@
     "aliases": [
       "Kirin 980 (KIRIN 980)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "720",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_985_5g4g_hi6290v110_kirin985",
@@ -863,12 +1329,20 @@
     "aliases": [
       "Kirin 985 5G/4G (Hi6290V110) (KIRIN 985)"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "— N/a",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2018,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Balong 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "kirin_990_5g_kirin990",
@@ -883,12 +1357,20 @@
     "aliases": [
       "Kirin 990 4G (KIRIN 990)"
     ],
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "600",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_990e_5g_kirin990e5g",
@@ -897,13 +1379,21 @@
     "gpu": "403.2",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin 990E 5G",
     "npu": "List Huawei Mate 30E Pro 5G Huawei Mate 40E (4G/5G)",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "kirin_t80_hi6290v110_kirint80hi6290v110",
@@ -911,10 +1401,21 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kirin T80 (Hi6290V110)"
+    "model": "Kirin T80 (Hi6290V110)",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "kirin_t82_kirint82",
@@ -922,10 +1423,21 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Kirin T82"
+    "model": "Kirin T82",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "kirin_t90_hi36a0v120_kirint90hi36a0v120",
@@ -933,11 +1445,21 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin T90 (Hi36A0V120)",
-    "gpu": "Huawei MatePad Air (2024)"
+    "gpu": "Huawei MatePad Air (2024)",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_t90a_hi36a0v120_kirint90ahi36a0v120",
@@ -945,11 +1467,21 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin T90A (Hi36A0V120)",
-    "gpu": "Huawei MatePad 12 X"
+    "gpu": "Huawei MatePad 12 X",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_t91_hi36a0v121_kirint91hi36a0v121",
@@ -957,11 +1489,21 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin T91 (Hi36A0V121)",
-    "gpu": "Huawei MatePad Pro 12.2 (2024)"
+    "gpu": "Huawei MatePad Pro 12.2 (2024)",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "kirin_t92_hi36c0v110_kirint92hi36c0v110",
@@ -969,10 +1511,20 @@
     "vendor": "HiSilicon",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Kirin T92 (Hi36C0V110)",
-    "gpu": "Huawei MatePad Pro 13.2 (2025)"
+    "gpu": "Huawei MatePad Pro 13.2 (2025)",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Balong 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   }
 ]

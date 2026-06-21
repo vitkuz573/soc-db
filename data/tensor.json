@@ -12,7 +12,7 @@
     "storage_type": "Type",
     "bluetooth": "5.3",
     "model": "GS101",
-    "completeness": 0.4757,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2021,
@@ -22,7 +22,8 @@
     "memory_bus": 64,
     "aliases": [
       "Google G1 (Original) (GS101)"
-    ]
+    ],
+    "wifi": "Wi-Fi 6E"
   },
   {
     "id": "google_g2_gs201",
@@ -40,14 +41,15 @@
     "model": "GS201",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.4757,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2022,
     "codename": "Cloudripper",
     "aliases": [
       "Google G2 (GS201)"
-    ]
+    ],
+    "wifi": "Wi-Fi 6E"
   },
   {
     "id": "google_g3_gs301",
@@ -64,7 +66,7 @@
     "model": "GS301",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.4757,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2023,
@@ -72,7 +74,8 @@
     "bluetooth": "6.0",
     "aliases": [
       "Google G3 (GS301)"
-    ]
+    ],
+    "wifi": "Wi-Fi 7"
   },
   {
     "id": "google_g4_gs401",
@@ -85,7 +88,7 @@
     "process": "3 nm",
     "gpu": "Mali-G715 MP7",
     "model": "GS401",
-    "completeness": 0.4563,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2024,
@@ -96,7 +99,9 @@
     "memory_type": "LPDDR5X",
     "storage_type": "UFS 3.1",
     "memory_clock": 4266,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "google_g5_googleg5",
@@ -106,7 +111,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR DXT-48-1536",
     "model": "Google G5",
-    "completeness": 0.4369,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
@@ -116,6 +121,8 @@
     "memory_type": "LPDDR5X",
     "storage_type": "UFS 3.1",
     "memory_clock": 4266,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   }
 ]

@@ -7,9 +7,19 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A53",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Mali-400 MP"
   },
   {
     "id": "actions_s900",
@@ -19,8 +29,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A53",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 933,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1",
+    "gpu": "Mali-400 MP"
   }
 ]

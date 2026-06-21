@@ -8,11 +8,11 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
-DATA_DIR = ROOT / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
-from scripts.common import enrich_all
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+
+from soc_db.common import enrich_all
 
 
 def main():

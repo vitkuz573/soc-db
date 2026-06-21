@@ -2,14 +2,16 @@
 
 import hashlib
 import json
+import logging
 import re
-import sys
 import time
+from collections import defaultdict
 from pathlib import Path
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError
+from urllib.request import Request, urlopen
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+logger = logging.getLogger(__name__)
+
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 CACHE_DIR = Path("/tmp/soc-db-cache")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
@@ -60,7 +62,6 @@ def clean(text: str | None) -> str | None:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\[\s*\w+\s*\]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    # Strip editorial annotations like "(now managed and sold to X)"
     text = re.sub(r'\s*\(now\s+[^)]*?\)', '', text)
     return text or None
 
@@ -82,7 +83,6 @@ def slug(name: str, model: str = "") -> str:
 
 
 def _match_existing(chip: dict, existing: dict) -> str | None:
-    """Find existing entry by id or by model number."""
     cid = chip.get("id", "")
     if cid in existing:
         return cid
@@ -102,7 +102,7 @@ def _match_existing(chip: dict, existing: dict) -> str | None:
 def write_vendor_file(vendor: str, chips: list[dict]) -> None:
     vfile = VENDOR_FILES.get(vendor)
     if not vfile:
-        print(f"  Unknown vendor: {vendor}")
+        logger.warning("Unknown vendor: %s", vendor)
         return
     fpath = DATA_DIR / vfile
     existing = {}
@@ -119,11 +119,9 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
         if match_id:
             matched_ids.add(match_id)
             old = existing[match_id]
-            # Prefer scraper values for name and model (cleaner source)
             for k in ("name", "model"):
                 if chip.get(k) and chip[k] != old.get(k):
                     old[k] = chip[k]
-            # Re-slug if name changed significantly (e.g., editorial text removed)
             new_id = slug(old.get("name", ""), old.get("model", ""))
             if new_id != match_id and new_id not in existing:
                 old["id"] = new_id
@@ -132,7 +130,6 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
                 matched_ids.remove(match_id)
                 matched_ids.add(new_id)
                 match_id = new_id
-            # For other fields, only copy if old is missing
             for k, v in chip.items():
                 if k in ("name", "model"):
                     continue
@@ -145,7 +142,6 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             existing[cid] = dict(chip)
             matched_ids.add(cid)
             added += 1
-    # Prune: remove unmatched entries that are likely garbage
     stale = set()
     for eid, ec in existing.items():
         if eid not in matched_ids and (
@@ -153,8 +149,6 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             ec.get("name", "").lower().startswith(("mali ", "adreno ", "powervr "))
         ):
             stale.add(eid)
-    # Also remove duplicates: same model AND overlapping name with a matched entry
-    from collections import defaultdict
     matched_models: dict[str, list[str]] = defaultdict(list)
     for eid in matched_ids:
         ec = existing.get(eid, {})
@@ -168,7 +162,6 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             if m and m in matched_models:
                 ename = ec.get("name", "").lower()
                 for mname in matched_models[m]:
-                    # Names share significant overlap (one contains the other, or both contain a key word)
                     if ename and (ename in mname or mname in ename or
                                   any(w in ename and w in mname for w in ename.split() if len(w) > 2)):
                         stale.add(eid)
@@ -179,7 +172,7 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
     output = sorted(existing.values(), key=lambda x: (x.get("year", 9999), x["name"]))
     output = enrich_all(output)
     fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
-    print(f"  {vfile}: {len(output)} entries ({added} new, {updated} updated, {removed} pruned)")
+    logger.info("%s: %d entries (%d new, %d updated, %d pruned)", vfile, len(output), added, updated, removed)
 
 
 VENDOR_FILES = {
@@ -235,8 +228,6 @@ def merge_chips(a: dict, b: dict) -> dict:
             merged[k] = v
     return merged
 
-
-# --- Enterprise enrichment ---
 
 FIELD_GROUPS = {
     "identity": ["id", "name", "vendor", "model", "aliases", "codename", "description"],
@@ -420,7 +411,6 @@ MEMORY_CLOCK_FROM_TYPE = {
 
 
 def enrich_one(chip: dict) -> dict:
-    # Strip editorial annotations from name and model
     ann = re.compile(r'\s*\(now\s+[^)]*?\)')
     for k in ("name", "model"):
         if chip.get(k):
@@ -429,24 +419,19 @@ def enrich_one(chip: dict) -> dict:
                 chip[k] = cleaned
     if not chip.get("model"):
         name = chip.get("name", "")
-        # Only copy name to model when name looks like a model number
         if re.match(r'^[A-Za-z0-9][A-Za-z0-9/\-.\s]{1,30}$', name) and re.search(r'\d', name):
             chip["model"] = name
         else:
             chip["model"] = chip.get("id", "unknown")
     vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
     model_upper = chip.get("model", "").upper()
-    # Infer memory_clock from memory_type
     if not chip.get("memory_clock") and chip.get("memory_type"):
         for mtype, clock in MEMORY_CLOCK_FROM_TYPE.items():
             if mtype in chip["memory_type"].upper():
                 chip["memory_clock"] = clock
                 break
-    # Infer memory_bus from brand/architecture
     if not chip.get("memory_bus"):
-        if chip.get("memory_type") in ("LPDDR5X", "LPDDR5"):
-            chip["memory_bus"] = 64
-        elif chip.get("memory_type") in ("LPDDR4X", "LPDDR4"):
+        if chip.get("memory_type") in ("LPDDR5X", "LPDDR5") or chip.get("memory_type") in ("LPDDR4X", "LPDDR4"):
             chip["memory_bus"] = 64
     if not chip.get("architecture") and vk.get("architecture"):
         chip["architecture"] = vk["architecture"]
@@ -461,17 +446,14 @@ def enrich_one(chip: dict) -> dict:
             if key.upper() in model_upper:
                 chip["gpu"] = gpu_name
                 break
-    # Fix implausible years that came from old buggy inference formulas
     y_chk = chip.get("year")
     if y_chk and (y_chk < 2003 or y_chk > 2026):
         chip["year"] = None
-    # Infer year from model/name if missing
     year = chip.get("year")
     if not year:
         for f_text in (chip.get("model", "").upper(), chip.get("name", "").upper()):
             if not f_text:
                 continue
-            # MediaTek MTxxxx: MT6[7-9]xx→2018-2019, MT8xxx→2020+, MT9xxx→2024+
             m = re.search(r'MT(\d{4})', f_text)
             if m:
                 mt = int(m.group(1))
@@ -502,37 +484,26 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2013
                 break
-            # MediaTek Dimensity/Helio naming: Dimensity 1000→2020, 1200→2021, 8000→2022
             m = re.search(r'(?:DIMENSITY|HELIO)\s*(\d{3,4})', f_text)
             if m:
                 d = int(m.group(1))
                 if d >= 9400:
                     year = 2025
-                elif d >= 9300:
-                    year = 2024
-                elif d >= 9200:
+                elif d >= 9300 or d >= 9200:
                     year = 2024
                 elif d >= 9000:
                     year = 2023
-                elif d >= 8400:
-                    year = 2024
-                elif d >= 8300:
+                elif d >= 8400 or d >= 8300:
                     year = 2024
                 elif d >= 8200:
                     year = 2023
-                elif d >= 8100:
-                    year = 2022
-                elif d >= 8000:
+                elif d >= 8100 or d >= 8000:
                     year = 2022
                 elif d >= 7200:
                     year = 2023
-                elif d >= 7000:
+                elif d >= 7000 or d >= 6000:
                     year = 2022
-                elif d >= 6000:
-                    year = 2022
-                elif d >= 1200:
-                    year = 2021
-                elif d >= 1100:
+                elif d >= 1200 or d >= 1100:
                     year = 2021
                 elif d >= 1000:
                     year = 2020
@@ -549,7 +520,6 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2014
                 break
-            # HiSilicon Kirin: Kirin 9000→2020, Kirin 9000S→2023
             m = re.search(r'KIRIN\s*(\d{3,4})', f_text)
             if m:
                 k = int(m.group(1))
@@ -567,24 +537,17 @@ def enrich_one(chip: dict) -> dict:
                     year = 2017
                 elif k >= 960:
                     year = 2016
-                elif k >= 950:
+                elif k >= 950 or k >= 930:
                     year = 2015
-                elif k >= 930:
-                    year = 2015
-                elif k >= 920:
+                elif k >= 920 or k >= 900:
                     year = 2014
-                elif k >= 900:
-                    year = 2014
-                elif k >= 800:
-                    year = 2018
-                elif k >= 700:
+                elif k >= 800 or k >= 700:
                     year = 2018
                 elif k >= 600:
                     year = 2015
                 else:
                     year = 2013
                 break
-            # Qualcomm SM naming: SM8250→2020, SM8350→2021, SM8450→2022
             m = re.search(r'(?:SM|SDM)(\d{3,4})', f_text)
             if m:
                 sm = int(m.group(1))
@@ -619,7 +582,6 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2011
                 break
-            # Qualcomm MSM/APQ naming: MSM8974→2013, MSM8996→2015
             m = re.search(r'(?:MSM|APQ)(\d{4})', f_text)
             if m:
                 msm = int(m.group(1))
@@ -646,16 +608,11 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2007
                 break
-            # Samsung Exynos: Exynos 2200→2022. Also handles "Exynos 3 Dual 3250", "Exynos 850"
             m = re.search(r'EXYNOS', f_text)
             if m:
-                # Try to find all 4-digit numbers in the text after EXYNOS
                 all_nums = re.findall(r'(\d{4})', f_text[m.end():])
                 if all_nums:
                     ex = int(all_nums[0])
-                    # Exynos 3xxx=2010, 4xxx=2011, 5xxx=2012, 7xxx=2014, 8xxx=2015, 9xxx=2016
-                    # Exynos 1080=2020, 1280=2022, 1380=2023, 1480=2024, 1580=2025
-                    # Exynos 2100=2021, 2200=2022, 2400=2024, 2500=2025 (WIP)
                     if ex >= 2500:
                         year = 2025
                     elif ex >= 2400:
@@ -703,35 +660,24 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2005
                     break
-                # Try 3-digit numbers: Exynos 850, Exynos 880, Exynos 980, Exynos 990
                 all_3 = re.findall(r'(\d{3})', f_text[m.end():])
                 if all_3:
                     ex3 = int(all_3[0])
-                    if ex3 >= 990:
-                        year = 2020
-                    elif ex3 >= 980:
-                        year = 2020
-                    elif ex3 >= 880:
-                        year = 2020
-                    elif ex3 >= 850:
+                    if ex3 >= 990 or ex3 >= 980 or ex3 >= 880 or ex3 >= 850:
                         year = 2020
                     else:
                         year = 2015
                     break
-                # Exynos W series: W920=2021, W930=2023, W1000=2023
                 m_w = re.search(r'EXYNOS\s+W(\d+)', f_text)
                 if m_w:
                     w = int(m_w.group(1))
-                    if w >= 1000:
-                        year = 2023
-                    elif w >= 930:
+                    if w >= 1000 or w >= 930:
                         year = 2023
                     elif w >= 920:
                         year = 2021
                     else:
                         year = 2020
                     break
-                # Exynos Auto: Auto V7=2018, V9=2020, V920=2023
                 m_a = re.search(r'EXYNOS\s+AUTO\s*V(\d+)', f_text)
                 if m_a:
                     av = int(m_a.group(1))
@@ -746,7 +692,6 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2018
                     break
-            # Qualcomm Snapdragon X Elite/Plus naming
             m = re.search(r'SNAPDRAGON\s*X\s*(?:ELITE|PLUS)', f_text)
             if m and not re.search(r'X\s*2', f_text):
                 year = 2024
@@ -755,20 +700,17 @@ def enrich_one(chip: dict) -> dict:
             if m:
                 year = 2025
                 break
-            # Qualcomm Snapdragon 8 Gen x: 8 Gen 1→2022, 8 Gen 2→2023
             m = re.search(r'SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)', f_text)
             if m:
                 series = int(m.group(1))
                 gen = int(m.group(2))
                 year = 2021 + gen if series >= 8 else 2020 + gen
                 break
-            # Rockchip RK naming: RK3588→2022, RK3399→2016
             m = re.search(r'RK(\d{4})', f_text)
             if m:
                 rk = int(m.group(1))
                 year = 2008 + (rk - 2000) // 200
                 break
-            # Apple A/M naming: A14→2020, M1→2020, M2→2022
             m = re.search(r'\b([AM])(\d+)\b', f_text)
             if m:
                 prefix = m.group(1)
@@ -810,7 +752,6 @@ def enrich_one(chip: dict) -> dict:
                     elif num == 1:
                         year = 2020
                 break
-            # NVIDIA Tegra naming: Tegra 4→2013, K1→2014, X1→2015
             m = re.search(r'TEGRA\s*(\d+)', f_text)
             if m:
                 t = int(m.group(1))
@@ -824,22 +765,17 @@ def enrich_one(chip: dict) -> dict:
             if x1_match:
                 year = 2015
                 break
-            # Intel Atom naming patterns
             m = re.search(r'ATOM\s*(\w+)', f_text)
             if m:
                 atom_name = m.group(1).upper()
                 if re.search(r'Z\d{3,}', atom_name) or re.search(r'N\d{3,}', atom_name) or re.search(r'x\d{2,}', atom_name):
-                    # Just a general mapping
                     pass
-            # Intel Atom: extract from name like "Atom Z3560" or "Atom x5-Z8350"
             m = re.search(r'\b[xzzn]\d+', f_text, re.IGNORECASE)
             if m:
-                # Intel Atom SoFIA / Bay Trail / Cherry Trail
                 if re.search(r'[xX]\d', f_text):
-                    year = 2015  # Cherry Trail
+                    year = 2015
                 elif re.search(r'[Zz]\d{4}', f_text):
-                    year = 2014  # Bay Trail
-            # Qualcomm G series: G1 Gen 1=2021, G2 Gen 1=2022, G3 Gen 3=2023, G3x Gen 1=2021, G3x Gen 2=2023
+                    year = 2014
             m = re.search(r'\bG(\d+)\s*GEN\s*(\d+)', f_text)
             if m:
                 g_series = int(m.group(1))
@@ -856,19 +792,16 @@ def enrich_one(chip: dict) -> dict:
                 g_gen = int(m.group(2))
                 year = 2020 + g_gen if g_gen == 1 else 2021 + g_gen
                 break
-            # Qualcomm Microsoft SQ: SQ1=2019, SQ2=2020, SQ3=2022
             m = re.search(r'MICROSOFT\s+SQ(\d+)', f_text)
             if m:
                 sq = int(m.group(1))
                 year = 2018 + sq
                 break
-            # Qualcomm QCSxxx IoT: QCS403=2018, QCS404=2018, QCS405=2019, QCS603=2019, QCS605=2019
             m = re.search(r'\bQCS(\d{3})\b', f_text)
             if m:
                 qcs = int(m.group(1))
                 year = 2015 + (qcs // 100)
                 break
-            # Qualcomm SC7xxx/8xxx compute: SC7180=2020, SC7280=2021, SC8180=2019, SC8280=2021
             m = re.search(r'\bSC(\d{4})', f_text)
             if m:
                 sc = int(m.group(1))
@@ -885,7 +818,6 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2018
                 break
-            # Qualcomm SA automotive: SA6155P=2019, SA8195P=2019, SA8255P=2024, SA8295P=2021
             m = re.search(r'\bSA(\d{4})P?\b', f_text)
             if m:
                 sa = int(m.group(1))
@@ -893,28 +825,22 @@ def enrich_one(chip: dict) -> dict:
                     year = 2024
                 elif sa >= 8295:
                     year = 2021
-                elif sa >= 8195:
-                    year = 2019
-                elif sa >= 8155:
-                    year = 2019
-                elif sa >= 6155:
+                elif sa >= 8195 or sa >= 8155 or sa >= 6155:
                     year = 2019
                 else:
                     year = 2018
                 break
-            # Qualcomm Wear OS: Wear 4100+=2020, W5+ Gen 1=2022, W5+ Gen 2=2024
             m = re.search(r'WEAR\s*(\d+)', f_text)
             if m:
                 wear = int(m.group(1))
                 year = 2016 + (wear - 2100) // 500 if wear >= 2100 else 2018 + (wear - 2500) // 500
-                year = 2020  # Wear 4100+ is ~2020
+                year = 2020
                 break
             m = re.search(r'W\d+\+?\s*GEN\s*(\d+)', f_text)
             if m:
                 w_gen = int(m.group(1))
                 year = 2021 + w_gen
                 break
-            # Qualcomm XR: XR1=2018, XR2=2019, XR2 Gen 2=2022
             m = re.search(r'XR(\d+)\s*(?:GEN\s*(\d+))?', f_text)
             if m:
                 xr = int(m.group(1))
@@ -926,7 +852,6 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2018
                 break
-            # Qualcomm Snapdragon 4-digit + suffix: 410E=2016, 600E=2018, 820AM=2016, 855A=2019
             m = re.search(r'SNAPDRAGON\s+(\d{3})(\d?)', f_text)
             if m:
                 sd_prefix = int(m.group(1))
@@ -942,39 +867,32 @@ def enrich_one(chip: dict) -> dict:
                     year = 2016
                 elif sd_full >= 810:
                     year = 2015
-                elif sd_full >= 800:
-                    year = 2014
-                elif sd_full >= 600:
+                elif sd_full >= 800 or sd_full >= 600:
                     year = 2014
                 elif sd_full >= 400:
                     year = 2013
                 else:
                     year = 2012
                 break
-            # Qualcomm QSD: QSD8250=2009, QSD8650=2009
             m = re.search(r'\bQSD(\d{4})\b', f_text)
             if m:
                 year = 2009
                 break
-            # Qualcomm SW: SW5100=2020
             m = re.search(r'\bSW(\d{4})\b', f_text)
             if m:
                 sw = int(m.group(1))
                 year = 2015 + (sw // 1000)
                 break
-            # Intel Atom CE4xxx → 2010-2011
             m = re.search(r'\bCE(\d{4})\b', f_text)
             if m:
                 ce = int(m.group(1))
                 year = 2008 + (ce // 1000)
                 break
-            # TI OMAP3/4/5 naming → OMAP3=2008, OMAP4=2010, OMAP5=2012
             m = re.search(r'\bOMAP(\d)\d{3}\b', f_text)
             if m:
                 omap_gen = int(m.group(1))
                 year = 2004 + omap_gen * 2
                 break
-            # Allwinner A/H/F/R series: A10=2011, A20=2013, A31=2013, H3=2015, R16=2014
             m = re.search(r'\b([AHFR])(\d{2,3})', f_text)
             if m:
                 aw_prefix = m.group(1)
@@ -1003,16 +921,13 @@ def enrich_one(chip: dict) -> dict:
                         year = 2015
                     elif aw_num >= 31:
                         year = 2013
-                    elif aw_num >= 20:
-                        year = 2012
-                    elif aw_num >= 13:
+                    elif aw_num >= 20 or aw_num >= 13:
                         year = 2012
                     elif aw_num >= 10:
                         year = 2011
                     else:
                         year = 2011 + aw_num // 5
                 break
-            # Amlogic S9xx/S9xxx naming: S905=2016, S912=2016, S922X=2019
             m = re.search(r'\bS(\d{3})', f_text)
             if m:
                 aml = int(m.group(1))
@@ -1020,9 +935,7 @@ def enrich_one(chip: dict) -> dict:
                     year = 2020
                 elif aml >= 922:
                     year = 2019
-                elif aml >= 912:
-                    year = 2016
-                elif aml >= 905:
+                elif aml >= 912 or aml >= 905:
                     year = 2016
                 elif aml >= 812:
                     year = 2015
@@ -1033,7 +946,6 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2012
                 break
-            # Amlogic T9xx TV chips: T950=2015, T962/T966/T968=2016, T920L=2018
             if chip.get("vendor") == "Amlogic":
                 m = re.search(r'\bT(\d{3})', f_text)
                 if m:
@@ -1047,22 +959,16 @@ def enrich_one(chip: dict) -> dict:
                     else:
                         year = 2014
                     break
-            # Mediatek Kompanio naming: Kompanio 500=2021, 1200=2022
             m = re.search(r'KOMPANIO\s*(\d+)', f_text)
             if m:
                 komp = int(m.group(1))
-                if komp >= 1300:
-                    year = 2022
-                elif komp >= 1200:
-                    year = 2022
-                elif komp >= 800:
+                if komp >= 1300 or komp >= 1200 or komp >= 800:
                     year = 2022
                 elif komp >= 500:
                     year = 2021
                 else:
                     year = 2020
                 break
-            # Intel Atom D/N series: D2700=2011, N2100=2012
             m = re.search(r'ATOM\s+([DN])(\d{4})', f_text)
             if m:
                 atom_letter = m.group(1)
@@ -1072,49 +978,40 @@ def enrich_one(chip: dict) -> dict:
                 else:
                     year = 2009 + (atom_digits // 500)
                 break
-            # Ingenic Jz naming: Jz4775=2012
             m = re.search(r'\bJZ(\d{4})\b', f_text, re.IGNORECASE)
             if m:
                 jz = int(m.group(1))
                 year = 2005 + (jz // 1000)
                 break
-            # Nvidia Thor: 2025
             m = re.search(r'\bTHOR\b', f_text)
             if m:
                 year = 2025
                 break
-            # Allwinner F1C series: F1C100=2015, F1C200s=2015, F1E200=2016
             m = re.search(r'F1[CE](\d{3})', f_text)
             if m:
                 f1 = int(m.group(1))
                 year = 2014 + (f1 // 100)
                 break
-            # MediaTek AIoT series: i300=2021, i500=2021
             m = re.search(r'AIOT\s*[Ii](\d{3})', f_text)
             if m:
                 year = 2020 + (int(m.group(1)) // 100)
                 break
-            # Unisoc SP series: SP9860=2015, SP9863=2018
             m = re.search(r'\bSP(\d{4})\b', f_text)
             if m:
                 sp = int(m.group(1))
                 year = 2010 + (sp - 9000) // 100
                 break
-            # Unisoc UMS series: UMS9620=2022
             m = re.search(r'\bUMS(\d{4})\b', f_text)
             if m:
                 ums = int(m.group(1))
                 year = 2018 + ((ums - 9000) // 200)
                 break
-            # HiSilicon K3V2 → 2012
             m = re.search(r'\bK3V2', f_text)
             if m:
                 year = 2012
-                # Check for K3V2E suffix
                 if 'K3V2E' in f_text:
                     year = 2013
                 break
-            # HiSilicon Kirin T series: T80/T82=2020, T90=2023, T91=2024, T92=2025
             m = re.search(r'\bT(\d{2,3})', f_text)
             if m and 'KIRIN' in f_text:
                 kt = int(m.group(1))
@@ -1131,7 +1028,6 @@ def enrich_one(chip: dict) -> dict:
                 break
     if year:
         chip["year"] = year
-    # Infer process_nm from year if not set via knowledge map
     yr = chip.get("year")
     if not chip.get("process_nm") and yr:
         proc_by_year = [
@@ -1144,7 +1040,6 @@ def enrich_one(chip: dict) -> dict:
                 chip["process_nm"] = nm
                 chip["process_name"] = f"{nm}nm"
                 break
-    # Infer memory_type from year if missing
     yr = chip.get("year")
     if not chip.get("memory_type") and yr:
         mem_by_year = [
@@ -1156,7 +1051,6 @@ def enrich_one(chip: dict) -> dict:
             if yr >= y:
                 chip["memory_type"] = mt
                 break
-    # Infer storage_type from year if missing
     yr = chip.get("year")
     if not chip.get("storage_type") and yr:
         st_by_year = [
@@ -1167,7 +1061,6 @@ def enrich_one(chip: dict) -> dict:
             if yr >= y:
                 chip["storage_type"] = st
                 break
-    # Infer memory_clock from memory_type if missing
     mt = chip.get("memory_type", "")
     if not chip.get("memory_clock") and mt:
         clock_map = {
@@ -1184,13 +1077,11 @@ def enrich_one(chip: dict) -> dict:
             if mt.startswith(k):
                 chip["memory_clock"] = v
                 break
-    # Infer memory_bus from memory_type if missing
     if not chip.get("memory_bus") and mt:
         if mt.startswith("LPDDR4") or mt.startswith("LPDDR5") or mt.startswith("LPDDR6"):
             chip["memory_bus"] = 64
         elif mt.startswith("LPDDR3") or mt.startswith("LPDDR2") or mt.startswith("LPDDR"):
             chip["memory_bus"] = 32
-    # Infer GPU from vendor/year if missing
     if not chip.get("gpu") and chip.get("year"):
         vendor = chip.get("vendor", "")
         yr = chip["year"]
@@ -1210,17 +1101,12 @@ def enrich_one(chip: dict) -> dict:
             chip["gpu"] = "Mali GPU"
         elif vendor == "Qualcomm":
             chip["gpu"] = "Adreno GPU"
-        elif vendor == "Samsung":
-            chip["gpu"] = "Mali GPU"
-        elif vendor == "HiSilicon":
-            chip["gpu"] = "Mali GPU"
-        elif vendor == "Unisoc":
+        elif vendor == "Samsung" or vendor == "HiSilicon" or vendor == "Unisoc":
             chip["gpu"] = "Mali GPU"
         elif vendor == "NXP i.MX":
             chip["gpu"] = "Vivante GC"
         elif vendor == "Xilinx":
             chip["gpu"] = "Mali GPU"
-    # Infer NPU from chip model/year
     if not chip.get("npu") and chip.get("year") and chip.get("year") >= 2017:
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
@@ -1231,13 +1117,10 @@ def enrich_one(chip: dict) -> dict:
                 chip["npu"] = npu_name
                 break
         else:
-            # Generic NPU inference by vendor
             if vendor == "Apple" and chip["year"] >= 2017:
                 chip["npu"] = "Neural Engine"
             elif vendor == "Qualcomm":
-                if any(x in model_u for x in ("SM8", "SM7", "SDM8", "SDM7")):
-                    chip["npu"] = "Hexagon NPU"
-                elif any(x in model_u for x in ("SM6", "SDM6")):
+                if any(x in model_u for x in ("SM8", "SM7", "SDM8", "SDM7")) or any(x in model_u for x in ("SM6", "SDM6")):
                     chip["npu"] = "Hexagon NPU"
             elif vendor == "MediaTek":
                 if "DIMENSITY" in model_u or "DIMENSITY" in name_u:
@@ -1251,13 +1134,11 @@ def enrich_one(chip: dict) -> dict:
             elif vendor == "HiSilicon":
                 if re.search(r'KIRIN\s*(9|8|7)', model_u):
                     chip["npu"] = "HiSilicon NPU"
-    # Infer modem from chip model/year
     if not chip.get("modem") and chip.get("year"):
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
         name_u = chip.get("name", "").upper()
         yr = chip["year"]
-        # Qualcomm X-series modem inference
         if vendor == "Qualcomm":
             sm_match = re.search(r'(SM|SDM)(\d{4})', model_u)
             if sm_match:
@@ -1296,7 +1177,6 @@ def enrich_one(chip: dict) -> dict:
                 chip["modem"] = "Balong 5G"
             elif chip["year"] >= 2014:
                 chip["modem"] = "Balong 4G LTE"
-    # Infer wifi from year
     yr = chip.get("year")
     if not chip.get("wifi") and yr:
         wifi_by_year = [
@@ -1308,7 +1188,6 @@ def enrich_one(chip: dict) -> dict:
             if yr >= y:
                 chip["wifi"] = w
                 break
-    # Infer bluetooth from year
     if not chip.get("bluetooth") and yr:
         bt_by_year = [
             (2025, "5.4"), (2023, "5.3"), (2021, "5.2"),

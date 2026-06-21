@@ -6,9 +6,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "ODNX02-A2",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "odnx02_a2_tm670d_a1_tm670m_a2_tm671d_a2_odnx02a2tm670da1tm670ma2tm671da2",
@@ -18,12 +28,21 @@
     "architecture": "ARMv8.2-A",
     "process": "20 nm",
     "max_freq": "2.2 GHz",
-    "completeness": 0.3204,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2",
     "gpu": "1000 MHz (256:16:16) : 753",
-    "gpu_clock": 1000
+    "gpu_clock": 1000,
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "odnx10_a1_odnx10a1",
@@ -32,9 +51,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "ODNX10-A1",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "odnx10_a1_tm675m_a1_odnx10a1tm675ma1",
@@ -44,12 +73,21 @@
     "architecture": "ARMv8.2-A",
     "process": "16 nm",
     "max_freq": "2.1 GHz",
-    "completeness": 0.3204,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX10-A1 TM675M-A1",
     "gpu": "1267 MHz (256:16:16)",
-    "gpu_clock": 1267
+    "gpu_clock": 1267,
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "t254",
@@ -107,14 +145,20 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.3592,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "TM660M-A2",
     "gpu": "472",
     "memory_type": "LPDDR4",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "tm670d_a1_tm670da1",
@@ -123,9 +167,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670D-A1",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "tm670d_a2_tm670da2",
@@ -134,9 +188,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670D-A2",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "tm670m_a2_tm670ma2",
@@ -145,9 +209,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670M-A2",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "tm671d_a2_tm671da2",
@@ -156,9 +230,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM671D-A2",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2008,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "tm675m_a1_tm675ma1",
@@ -167,9 +251,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM675M-A1",
-    "completeness": 0.2621,
+    "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2007,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Nvidia GPU"
   },
   {
     "id": "tegra_3_cortexa9",
@@ -178,14 +272,23 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
-    "completeness": 0.3107,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Cortex-A9",
     "gpu": "1.0 GHz",
     "aliases": [
       "Tegra 2 (Cortex-A9)"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "tegra_4_4119ghzcortexa15",
@@ -194,7 +297,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "672 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 1.9 GHz Cortex-A15",
@@ -202,7 +305,15 @@
     "memory_clock": 672,
     "aliases": [
       "Tegra 4 (4+1 × 1.9 GHz Cortex-A15)"
-    ]
+    ],
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "tegra_4i_4120ghzcortexa9r4",
@@ -211,7 +322,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "660 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 2.0 GHz Cortex-A9 \"R4\"",
@@ -219,7 +330,15 @@
     "memory_clock": 660,
     "aliases": [
       "Tegra 4i (4+1 × 2.0 GHz Cortex-A9 \"R4\")"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "tegra_k1_4123ghzcortexa15r332bit",
@@ -228,7 +347,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "951 MHz",
-    "completeness": 0.3301,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 2.3 GHz Cortex-A15 R3 (32-bit)",
@@ -236,7 +355,15 @@
     "memory_clock": 951,
     "aliases": [
       "Tegra K1 (4+1 × 2.3 GHz Cortex-A15 R3 (32-bit))"
-    ]
+    ],
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "tegra_x2_parker_tegrax2parker",
@@ -245,12 +372,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.3107,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Tegra X2 (Parker)",
     "gpu": "854–1465 MHz 256:16:16 (2)",
-    "gpu_clock": 1465
+    "gpu_clock": 1465,
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "thor_14neoversev3ae26ghz",
@@ -258,13 +394,22 @@
     "vendor": "Nvidia",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "14 × Neoverse V3AE (2.6 GHz)",
     "gpu": "8.064",
     "aliases": [
       "Thor (14 × Neoverse V3AE (2.6 GHz))"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   }
 ]

@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soc-db"
+version = "2.0.0"
+description = "Enterprise-grade SoC / CPU identifier database"
+authors = [
+    { name = "Vitaly Kuznetsov", email = "vitkuz573@gmail.com" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["soc", "cpu", "scraper", "database", "qualcomm", "mediatek", "exynos"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Hardware",
+    "Topic :: Database",
+]
+
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "lxml>=5.1",
+    "requests>=2.31",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/vitkuz573/soc-db"
+Repository = "https://github.com/vitkuz573/soc-db"
+Documentation = "https://vitkuz573.github.io/soc-db/"
+
+[project.scripts]
+soc-db = "soc_db.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["soc_db*"]
+
+[tool.setuptools.package-data]
+soc_db = ["py.typed"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 160
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "SIM", "ARG", "C4", "ISC", "PIE", "T20", "RET", "SLF", "SLOT", "YTT", "ASYNC", "FURB"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101", "D100", "D101", "D102", "D103"]
+
+[tool.ruff.format]
+preview = true
+
+[tool.mypy]
+python_version = "3.12"
+strict = false
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v --tb=short"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.coverage.run]
+source = ["soc_db"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 0

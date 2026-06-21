@@ -9,7 +9,7 @@
     "year": 2012,
     "gpu": "LPDDR2 Dual-channel 533 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -19,7 +19,11 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8260a_pro_msm8260apro",
@@ -31,7 +35,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 320 400 MHz (WUXGA / 1080p)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5728,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8260A Pro",
@@ -50,7 +54,8 @@
     "process_name": "28nm",
     "camera_max": "Up to 20 MP camera",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "msm8960dt",
@@ -60,7 +65,7 @@
     "max_freq": "1.7 GHz",
     "year": 2012,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8960DT",
@@ -70,7 +75,13 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8960t",
@@ -79,7 +90,7 @@
     "cores": 8,
     "year": 2012,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8960T",
@@ -89,7 +100,13 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8960t_pro_msm8960ab_msm8960tpromsm8960ab",
@@ -102,13 +119,19 @@
     "aliases": [
       "MSM8960T Pro (MSM8960AB) (MSM8960T Pro (MSM8960AB))"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "apq8016",
@@ -121,7 +144,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 306 400/450 MHz (19.2/21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -133,7 +156,11 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "apq8026",
@@ -146,7 +173,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 305 400 MHz (19.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6019,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -163,7 +190,8 @@
     "process_name": "28nm",
     "camera_max": "Up to 13.5 MP single camera",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "apq8028",
@@ -175,13 +203,18 @@
     "year": 2013,
     "gpu": "Adreno 305 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "apq8030ab",
@@ -192,7 +225,7 @@
     "year": 2013,
     "gpu": "Adreno 305 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8030AB",
@@ -202,7 +235,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "apq8064_1aa_debflo",
@@ -244,7 +282,7 @@
     "max_freq": "450 MHz",
     "gpu": "Adreno 320 450 MHz (86.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064AB",
@@ -253,7 +291,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "apq8064m",
@@ -263,7 +306,7 @@
     "cores": 8,
     "max_freq": "533 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4175,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064M",
@@ -272,7 +315,13 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "apq8064t",
@@ -282,14 +331,20 @@
     "cores": 8,
     "max_freq": "600 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8064T",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "apq8074aa",
@@ -332,7 +387,7 @@
     "max_freq": "933 MHz",
     "gpu": "— N/a",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8074AB v3",
@@ -342,7 +397,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "apq8084",
@@ -354,7 +414,7 @@
     "max_freq": "600 MHz",
     "gpu": "Hexagon V50 800 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 600,
@@ -366,7 +426,11 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8208",
@@ -377,7 +441,7 @@
     "cores": 8,
     "max_freq": "400 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -387,7 +451,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8210",
@@ -400,7 +469,7 @@
     "max_freq": "400 MHz",
     "gpu": "Hexagon QDSP6",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -409,7 +478,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8212",
@@ -420,13 +494,19 @@
     "max_freq": "1.2 GHz",
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8225q",
@@ -438,7 +518,7 @@
     "max_freq": "1.40 GHz",
     "gpu": "Adreno 203 400 MHz (12.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6117,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8225Q",
@@ -459,7 +539,8 @@
     "process_name": "45nm",
     "camera_max": "Up to 8 MP single camera",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "msm8226",
@@ -469,13 +550,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8226",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8228",
@@ -485,13 +572,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8228",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8230",
@@ -503,13 +596,18 @@
     "year": 2013,
     "gpu": "Adreno 305 400 MHz (19.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8230ab",
@@ -522,13 +620,19 @@
     "aliases": [
       "MSM8230AB (MSM8230AB )"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8274aa",
@@ -538,13 +642,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8274AA",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8274ab",
@@ -553,7 +663,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8274AB",
@@ -561,7 +671,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8274ac_v3_msm8274acv3",
@@ -571,14 +686,20 @@
     "cores": 8,
     "max_freq": "2.45 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8274AC v3",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8610",
@@ -588,13 +709,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8610",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8612",
@@ -604,13 +731,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8612",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8625q",
@@ -623,13 +756,19 @@
     "aliases": [
       "MSM8625Q (MSM8625Q )"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8626",
@@ -639,13 +778,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8626",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8628",
@@ -655,13 +800,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8628",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8630ab",
@@ -674,13 +825,19 @@
     "aliases": [
       "MSM8630AB (MSM8630AB )"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8674aa",
@@ -690,13 +847,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8674AA",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8674ab_v3_msm8674abv3",
@@ -705,7 +868,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8674AB v3",
@@ -713,7 +876,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8905",
@@ -725,7 +893,7 @@
     "max_freq": "400 MHz",
     "gpu": "Hexagon 536",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
@@ -736,7 +904,11 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8909",
@@ -747,7 +919,7 @@
     "cores": 8,
     "max_freq": "1.1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "LPDDR2 / 3 Single-channel 533 MHz",
@@ -756,7 +928,12 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8909aa",
@@ -766,7 +943,7 @@
     "cores": 8,
     "max_freq": "1.3 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4078,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8909AA",
@@ -777,7 +954,12 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8916",
@@ -787,13 +969,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8916",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8916_v2",
@@ -806,7 +994,7 @@
     "max_freq": "1.40 GHz",
     "gpu": "Adreno 306 450 MHz (21.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -816,7 +1004,12 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8917",
@@ -830,7 +1023,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 598,
@@ -838,7 +1031,11 @@
     "dsp": "Up to 16 MP single camera",
     "modem": "February 11, 2016",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8920",
@@ -848,7 +1045,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "October 18, 2016",
@@ -856,7 +1053,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8926",
@@ -866,13 +1068,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8926",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8928",
@@ -882,13 +1090,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8928",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8929",
@@ -900,7 +1114,7 @@
     "max_freq": "465 MHz",
     "gpu": "Hexagon V50",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 465,
@@ -910,7 +1124,11 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8930aa",
@@ -920,7 +1138,7 @@
     "max_freq": "1.4 GHz",
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3786,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8930AA",
@@ -930,7 +1148,13 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8930ab",
@@ -943,13 +1167,19 @@
     "aliases": [
       "MSM8930AB (MSM8930AB )"
     ],
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8936",
@@ -961,7 +1191,7 @@
     "max_freq": "550 MHz",
     "gpu": "Hexagon V50 700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 550,
@@ -973,7 +1203,11 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8937",
@@ -987,7 +1221,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 450,
@@ -995,7 +1229,11 @@
     "dsp": "LPDDR3 Single-channel 32-bit 800 MHz (6.4 GB/s)",
     "modem": "Q2 2016",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8939",
@@ -1006,13 +1244,19 @@
     "cores": 8,
     "max_freq": "1.7 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8939_v2",
@@ -1023,14 +1267,19 @@
     "cores": 8,
     "max_freq": "1.7 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q3 2015",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8940",
@@ -1042,12 +1291,17 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 28,
     "process_name": "28nm",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q4 2016",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8952",
@@ -1058,7 +1312,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "LPDDR3 Single-channel 32-bit 933 MHz (7.5 GB/s)",
@@ -1068,7 +1322,11 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8953",
@@ -1081,7 +1339,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 506 650 MHz (62.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -1092,7 +1350,11 @@
     "process_nm": 14,
     "process_name": "14nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8953_pro",
@@ -1103,14 +1365,19 @@
     "cores": 8,
     "max_freq": "2.2 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Q4 2016",
     "process_nm": 14,
     "process_name": "14nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8956",
@@ -1123,7 +1390,7 @@
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 510 600 MHz (153.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6117,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1400,
@@ -1141,7 +1408,8 @@
     "process_nm": 28,
     "process_name": "28nm",
     "camera_max": "Up to 21 MP single camera; Video Capture: 4K@30fps",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8974aa",
@@ -1151,13 +1419,19 @@
     "architecture": "ARMv8.2-A",
     "model": "MSM8974AA",
     "year": 2013,
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8974aa_v3_msm8974aav3",
@@ -1166,7 +1440,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AA v3",
@@ -1174,7 +1448,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8974ab_v3_msm8974abv3",
@@ -1183,14 +1462,20 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AB v3",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8974ac_v3_msm8974acv3",
@@ -1199,14 +1484,20 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8974AC v3",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8976",
@@ -1217,13 +1508,19 @@
     "cores": 8,
     "max_freq": "1.8 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8976_pro",
@@ -1235,7 +1532,7 @@
     "max_freq": "621 MHz",
     "gpu": "X9 LTE (download: Cat 7, up to 300 Mbit/s; upload: Cat 13, up to 150 Mbit/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 621,
@@ -1244,7 +1541,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8992",
@@ -1289,14 +1591,19 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 600,
     "clock_max": 600,
     "dsp": "LPDDR4 Dual-channel 32-bit 1600 MHz (25.6 GB/s)",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8994_v2",
@@ -1310,11 +1617,16 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8994_v21",
@@ -1326,12 +1638,17 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 20,
     "process_name": "20nm",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Adreno 430",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8996",
@@ -1345,11 +1662,16 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8996_lite",
@@ -1393,12 +1715,17 @@
     "year": 2013,
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Adreno 530",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8996_pro_ac",
@@ -1412,11 +1739,16 @@
     "year": 2013,
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "msm8998",
@@ -1459,7 +1791,7 @@
     "max_freq": "485 MHz",
     "gpu": "Hexagon",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "model": "QM215",
@@ -1474,7 +1806,11 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sda660",
@@ -1483,14 +1819,20 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SDA660",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "sdm429",
@@ -1503,7 +1845,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 504 320 MHz (30.7 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -1516,7 +1858,11 @@
     "process_name": "12nm",
     "camera_max": "Up to 16 MP single camera / 8 MP dual camera",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm439",
@@ -1528,7 +1874,7 @@
     "max_freq": "650 MHz",
     "gpu": "Up to 21 MP single camera / 8 MP dual camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
@@ -1536,7 +1882,12 @@
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm450",
@@ -1581,7 +1932,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 650,
@@ -1590,7 +1941,11 @@
     "modem": "Bluetooth 5, 802.11ac Wi-Fi 1x1, NFC , USB 3.1",
     "charging": "May 8, 2017",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm632",
@@ -1604,7 +1959,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 725,
@@ -1613,7 +1968,11 @@
     "modem": "3.0",
     "charging": "Q3 2018",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm636",
@@ -1627,7 +1986,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 14,
     "process_name": "14nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 430,
@@ -1636,7 +1995,11 @@
     "modem": "4.0",
     "charging": "Q4 2017",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm660",
@@ -1682,7 +2045,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 615 430 MHz (220.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5728,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -1698,7 +2061,9 @@
     "process_nm": 10,
     "process_name": "10nm",
     "camera_max": "Spectra 250 (192 MP single camera / 16 MP dual camera with ZSL; Video Capture: 4",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sdm845",
@@ -1713,7 +2078,7 @@
     "architecture": "ARMv8.2-A",
     "process_nm": 10,
     "process_name": "10nm",
-    "completeness": 0.5437,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -1725,7 +2090,10 @@
     "charging": "Q1 2018",
     "camera_max": "Spectra 280 (192 MP Photo capture / 48 MP single camera with MFNR / 32 MP at 30f",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm4250_aa",
@@ -1801,7 +2169,7 @@
     "model": "SM4350",
     "max_freq": "2.2 GHz",
     "year": 2013,
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "October 26, 2021",
@@ -1809,7 +2177,12 @@
     "process_nm": 8,
     "process_name": "8nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm6115",
@@ -1852,7 +2225,7 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "X12 LTE (download: Cat 12, up to 600 Mbit/s; upload: Cat 13, up to 150 Mbit/s)",
@@ -1860,7 +2233,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm6150",
@@ -1873,7 +2251,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 612 845 MHz (216.3 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -1883,7 +2261,12 @@
     "process_nm": 11,
     "process_name": "11nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm6150_ac",
@@ -1895,7 +2278,7 @@
     "max_freq": "895 MHz",
     "gpu": "December 15, 2020",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 895,
@@ -1904,7 +2287,12 @@
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm6225",
@@ -1949,7 +2337,7 @@
     "max_freq": "1.26 GHz",
     "gpu": "Spectra (108 MP single camera / 16 MP dual camera with ZSL / 13+13+5 MP triple camera with ZSL; Video Capture: 1080p@60f",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1260,
@@ -1958,7 +2346,12 @@
     "process_nm": 6,
     "process_name": "6nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm6350",
@@ -2069,11 +2462,16 @@
     "year": 2013,
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.3981,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm8150p",
@@ -2082,7 +2480,7 @@
     "cores": 8,
     "year": 2013,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SM8150P",
@@ -2090,7 +2488,12 @@
     "process_name": "7nm",
     "gpu": "Adreno 640",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X50 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm8250",
@@ -2142,14 +2545,19 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 60000,
     "clock_max": 60000,
     "dsp": "Q3 2020",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm8250_ac",
@@ -2166,11 +2574,16 @@
     "aliases": [
       "Kona"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "sm8350",
@@ -2222,11 +2635,16 @@
     "aliases": [
       "Lahaina"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon X60 5G",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0"
   },
   {
     "id": "snapdragon_860_snapdragon860",
@@ -2235,14 +2653,20 @@
     "year": 2013,
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 860",
     "process_nm": 20,
     "process_name": "20nm",
     "memory_type": "LPDDR2",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "sdm710",
@@ -2287,7 +2711,7 @@
     "max_freq": "610 MHz",
     "gpu": "4+",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 610,
@@ -2298,7 +2722,11 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7125",
@@ -2311,7 +2739,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 618 750 MHz (384 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5437,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -2325,7 +2753,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7150_aa",
@@ -2339,7 +2770,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.5049,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 610,
@@ -2349,7 +2780,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7150_ab",
@@ -2363,13 +2797,17 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4369,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7150_ac",
@@ -2383,7 +2821,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -2392,7 +2830,11 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7225",
@@ -2404,7 +2846,7 @@
     "max_freq": "800 MHz",
     "gpu": "Hexagon 694 (4.7 TOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -2418,7 +2860,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7250_aa",
@@ -2433,7 +2878,7 @@
     "year": 2018,
     "process_nm": 7,
     "process_name": "7nm",
-    "completeness": 0.5728,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+1+6",
@@ -2447,7 +2892,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7250_ab",
@@ -2461,7 +2909,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 625,
@@ -2469,7 +2917,11 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7250_ac",
@@ -2483,7 +2935,7 @@
     "year": 2018,
     "process_nm": 8,
     "process_name": "8nm",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 750,
@@ -2492,7 +2944,11 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7325",
@@ -2505,7 +2961,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642L 550 MHz (563.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6408,
+    "completeness": 0.6602,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2525,7 +2981,8 @@
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra 570L (200 MP Photo Capture / 64 MP single camera with ZSL / 36+22 MP dua",
-    "storage_type": "UFS 2.1"
+    "storage_type": "UFS 2.1",
+    "npu": "Hexagon NPU"
   },
   {
     "id": "sm7325_ae",
@@ -2537,7 +2994,7 @@
     "max_freq": "608 MHz",
     "gpu": "October 26, 2021",
     "year": 2018,
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 608,
@@ -2548,7 +3005,11 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7325_af",
@@ -2561,7 +3022,7 @@
     "max_freq": "2.70 GHz",
     "gpu": "Adreno 642L 719 MHz (736.3 GFLOPS in FP32)",
     "year": 2018,
-    "completeness": 0.5825,
+    "completeness": 0.6408,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2578,7 +3039,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "sm7350_ab",
@@ -2591,7 +3055,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642 490 MHz (752.6 GFLOPS in FP32)",
     "year": 2018,
-    "completeness": 0.5825,
+    "completeness": 0.6408,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2608,7 +3072,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "snapdragon_865p_sm8250ab",
@@ -2629,13 +3096,17 @@
       "Kona",
       "Snapdragon 865+ (SM8250-AB)"
     ],
-    "completeness": 0.4757,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR4X",
     "storage_type": "UFS 3.0",
     "memory_clock": 2133,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "sm8425",
@@ -2645,7 +3116,7 @@
     "cores": 8,
     "year": 2021,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3981,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -2653,7 +3124,12 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X60 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "sm8450",
@@ -2671,7 +3147,7 @@
     "aliases": [
       "Waipio"
     ],
-    "completeness": 0.6408,
+    "completeness": 0.6602,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -2688,7 +3164,8 @@
     "bluetooth": "5.3",
     "charging": "5",
     "camera_max": "Spectra (200 MP Photo Capture, 108 MP single camera @30fps ZSL, 64+36 MP dual ca",
-    "storage_type": "UFS 3.1"
+    "storage_type": "UFS 3.1",
+    "npu": "Hexagon NPU"
   },
   {
     "id": "sm8475",
@@ -2706,7 +3183,7 @@
     "aliases": [
       "Waipio"
     ],
-    "completeness": 0.5049,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 900,
@@ -2715,7 +3192,11 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X65 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8550_ab",
@@ -2733,7 +3214,7 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+2+2",
@@ -2747,7 +3228,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8550_ac",
@@ -2764,13 +3248,17 @@
     "aliases": [
       "Kalama"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8635",
@@ -2782,7 +3270,7 @@
     "max_freq": "1.10 GHz",
     "gpu": "Spectra (200 MP Photo Capture, 108 MP single camera @30fps ZSL, 64+36 MP dual camera @30fps ZSL, 36 MP triple camera @30",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1100,
@@ -2794,7 +3282,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8650_aa",
@@ -2811,13 +3302,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8650_ab",
@@ -2835,7 +3330,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+2",
@@ -2849,7 +3344,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8650_ac",
@@ -2866,13 +3364,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8650_q_aa",
@@ -2888,13 +3390,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4369,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8650_q_ab",
@@ -2911,13 +3417,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8735",
@@ -2930,7 +3440,7 @@
     "max_freq": "3.21 GHz",
     "gpu": "Adreno 825 1150 MHz (2355.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5631,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+2",
@@ -2946,7 +3456,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8750_3_ab",
@@ -2963,13 +3476,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8750_ab",
@@ -2987,7 +3504,7 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.5825,
+    "completeness": 0.6408,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3001,7 +3518,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8750_ac",
@@ -3018,13 +3538,17 @@
     "aliases": [
       "Pineapple"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8845",
@@ -3036,7 +3560,7 @@
     "max_freq": "1.23 GHz",
     "gpu": "LPDDR5X quad-channel 16-bit (64-bit) 4800 MHz (76.8 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1225,
@@ -3048,7 +3572,11 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8850_1_ad",
@@ -3060,7 +3588,7 @@
     "max_freq": "4.74 GHz",
     "gpu": "Adreno 840 1300 MHz (3993.6 GFLOPS in FP32)",
     "year": 2021,
-    "completeness": 0.4369,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -3068,7 +3596,11 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm8850_5_ac",
@@ -3079,7 +3611,7 @@
     "model": "SM8850",
     "max_freq": "4.61 GHz",
     "year": 2021,
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -3087,7 +3619,12 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "sm8850_ac",
@@ -3100,7 +3637,7 @@
     "max_freq": "4.61 GHz",
     "gpu": "Adreno 840 1200 MHz (3686.4 GFLOPS in FP32)",
     "year": 2021,
-    "completeness": 0.5534,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "2+6",
@@ -3115,7 +3652,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "snapdragon_8_since_2021_kryo132ghzcortexx23275ghzcortexa710420ghzcortexa510",
@@ -3128,7 +3668,7 @@
     "aliases": [
       "Snapdragon 8 (since 2021) (Kryo (1× 3.2 GHz Cortex-X2 + 3× 2.75 GHz Cortex-A710 + 4× 2.0 GHz Cortex-A510 ))"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -3136,7 +3676,11 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "snapdragon_870_sm8250ac",
@@ -3164,13 +3708,17 @@
       "Kona",
       "Snapdragon 870 (SM8250-AC)"
     ],
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "snapdragon_888p_sm8350ab",
@@ -3191,13 +3739,17 @@
       "Lahaina",
       "Snapdragon 888+ (SM8350-AB)"
     ],
-    "completeness": 0.4757,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X60 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm4375",
@@ -3272,7 +3824,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "Spectra (108 MP single camera / 16 MP dual camera with ZSL)",
     "year": 2022,
-    "completeness": 0.4563,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "LPDDR4X dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s) or LPDDR5 dual-channel",
@@ -3282,7 +3834,9 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm4635",
@@ -3294,7 +3848,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Spectra (84 MP single camera / 16 MP dual camera with ZSL)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "LPDDR4X Dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s)",
@@ -3304,7 +3858,9 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm4850",
@@ -3316,7 +3872,7 @@
     "max_freq": "2.4 GHz",
     "gpu": "LPDDR4X dual-channel 16-bit (32-bit) 2133 MHz (17.0 GB/s)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "gpu_clock": 2133,
@@ -3327,7 +3883,9 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm6375_ac",
@@ -3340,7 +3898,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 619 900 MHz (460.8 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.6117,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -3358,7 +3916,8 @@
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra (108 MP single camera / 25+13 MP dual camera with ZSL / 13 MP triple cam",
-    "storage_type": "UFS 3.1"
+    "storage_type": "UFS 3.1",
+    "npu": "Hexagon NPU"
   },
   {
     "id": "sm6435_aa",
@@ -3371,7 +3930,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 710",
     "year": 2022,
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -3384,7 +3943,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm6450",
@@ -3428,7 +3990,7 @@
     "max_freq": "1.01 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.5146,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 940,
@@ -3441,7 +4003,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm6650",
@@ -3454,7 +4019,7 @@
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 810 895 MHz (458.2 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.6311,
+    "completeness": 0.6505,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3474,7 +4039,8 @@
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 64 MP single camera with ZSL / 32+16 MP dual cam",
-    "storage_type": "UFS 3.1"
+    "storage_type": "UFS 3.1",
+    "npu": "Hexagon NPU"
   },
   {
     "id": "sm6850",
@@ -3487,7 +4053,7 @@
     "max_freq": "2.60 GHz",
     "gpu": "Adreno 812",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5631,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2000,
@@ -3502,7 +4068,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7435_ab",
@@ -3581,7 +4150,7 @@
     "max_freq": "2.91 GHz",
     "gpu": "Adreno 725 580 MHz (1187.8 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.6019,
+    "completeness": 0.6602,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3599,7 +4168,10 @@
     "process_nm": 4,
     "process_name": "4nm",
     "camera_max": "Spectra (200 MP Photo Capture / 108 MP single camera with ZSL / 64+36 MP dual ca",
-    "storage_type": "UFS 3.1"
+    "storage_type": "UFS 3.1",
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7550_ab",
@@ -3612,7 +4184,7 @@
     "max_freq": "2.63 GHz",
     "gpu": "Adreno 720 975 MHz (998.4 GFLOPS in FP32)",
     "year": 2022,
-    "completeness": 0.6019,
+    "completeness": 0.6602,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "1+3+4",
@@ -3630,7 +4202,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7635",
@@ -3642,7 +4217,7 @@
     "max_freq": "1.05 GHz",
     "gpu": "Hexagon",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1050,
@@ -3656,7 +4231,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7635_ac",
@@ -3668,7 +4246,7 @@
     "max_freq": "1.15 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1150,
@@ -3682,7 +4260,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7675_ab",
@@ -3694,7 +4275,7 @@
     "max_freq": "950 MHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.5146,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 950,
@@ -3707,7 +4288,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm7750_ab",
@@ -3719,7 +4303,7 @@
     "max_freq": "1.15 GHz",
     "gpu": "Hexagon",
     "year": 2022,
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1150,
@@ -3733,7 +4317,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "snapdragon_4_gen_2_accelerated_edition_snapdragon4gen2acceleratededition",
@@ -3744,7 +4331,7 @@
     "year": 2022,
     "gpu": "Q2 2024",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 4 Gen 2 Accelerated Edition",
@@ -3756,7 +4343,10 @@
     "memory_type": "LPDDR5",
     "storage_type": "UFS 3.1",
     "memory_clock": 3200,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sm6115_ac",
@@ -3801,7 +4391,7 @@
     "max_freq": "2.90 GHz",
     "gpu": "Adreno 610",
     "year": 2024,
-    "completeness": 0.5631,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1900,
@@ -3816,7 +4406,10 @@
     "process_nm": 6,
     "process_name": "6nm",
     "camera_max": "Spectra (108 MP single camera / 16 MP dual camera with ZSL / 13+13+5 MP triple c",
-    "storage_type": "UFS 3.1"
+    "storage_type": "UFS 3.1",
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "apq8009_sda212",
@@ -3828,7 +4421,7 @@
     "process": "28 nm",
     "max_freq": "1.30 GHz",
     "gpu": "Adreno 304 (HD)",
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1300,
@@ -3840,7 +4433,11 @@
     "bluetooth": "4.2",
     "process_nm": 28,
     "process_name": "28nm",
-    "camera_max": "Up to 16 MP camera"
+    "camera_max": "Up to 16 MP camera",
+    "year": 2009,
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "apq8017",
@@ -3851,9 +4448,18 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
     "gpu": "Adreno 308 (Full HD)",
-    "completeness": 0.301,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "apq8030",
@@ -3864,12 +4470,21 @@
     "max_freq": "400 MHz",
     "gpu": "Up to 13.5 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 400,
     "clock_max": 400,
-    "dsp": "LPDDR2 Single-channel 533 MHz"
+    "dsp": "LPDDR2 Single-channel 533 MHz",
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "apq8053_sda624",
@@ -3881,7 +4496,7 @@
     "process": "14 nm",
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 506 (Full HD+)",
-    "completeness": 0.4563,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -3891,7 +4506,12 @@
     "process_nm": 14,
     "process_name": "14nm",
     "camera_max": "Up to 24 MP camera, 13 MP dual",
-    "memory_clock": 800
+    "memory_clock": 800,
+    "year": 2009,
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "apq8055",
@@ -3901,9 +4521,19 @@
     "cores": 8,
     "max_freq": "1.4 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "apq8060",
@@ -3915,7 +4545,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 220 266 MHz (WXGA+)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -3930,7 +4560,11 @@
     "npu": "2011",
     "process_nm": 45,
     "process_name": "45nm",
-    "camera_max": "Up to 16 MP camera"
+    "camera_max": "Up to 16 MP camera",
+    "year": 2009,
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "apq8060a",
@@ -3940,7 +4574,7 @@
     "max_freq": "400 MHz",
     "gpu": "Up to 20 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "APQ8060A",
@@ -3949,7 +4583,16 @@
     "dsp": "LPDDR2 Dual-channel 500 MHz",
     "aliases": [
       "APQ8060A (APQ8060A )"
-    ]
+    ],
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "g1_gen_1_g1gen1",
@@ -3958,10 +4601,20 @@
     "cores": 8,
     "gpu": "Adreno A11",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G1 Gen 1"
+    "model": "G1 Gen 1",
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "g1_gen_2_g1gen2",
@@ -3972,10 +4625,20 @@
     "max_freq": "2.4 GHz",
     "gpu": "Adreno A12 1010 MHz (258.6 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G1 Gen 2"
+    "model": "G1 Gen 2",
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "g2_gen_1_g2gen1",
@@ -3984,10 +4647,20 @@
     "cores": 4,
     "gpu": "Adreno A21",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G2 Gen 1"
+    "model": "G2 Gen 1",
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "g2_gen_2_g2gen2",
@@ -3997,10 +4670,20 @@
     "cores": 4,
     "gpu": "Adreno A22",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G2 Gen 2"
+    "model": "G2 Gen 2",
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "g3_gen_3_g3gen3",
@@ -4011,10 +4694,20 @@
     "max_freq": "3.3 GHz",
     "gpu": "Adreno A33",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G3 Gen 3"
+    "model": "G3 Gen 3",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "g3x_gen_1_g3xgen1",
@@ -4025,10 +4718,20 @@
     "max_freq": "3.0 GHz",
     "gpu": "Adreno 660 900 MHz (1382.4 GFLOPs in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G3x Gen 1"
+    "model": "G3x Gen 1",
+    "year": 2021,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "g3x_gen_2_g3xgen2",
@@ -4039,10 +4742,20 @@
     "max_freq": "3.36 GHz",
     "gpu": "Adreno A32 1000 MHz (3072 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "G3x Gen 2"
+    "model": "G3x Gen 2",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "msm7225",
@@ -4053,7 +4766,7 @@
     "cores": 8,
     "max_freq": "528 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 528,
@@ -4068,7 +4781,11 @@
     "npu": "2007",
     "process_nm": 65,
     "process_name": "65nm",
-    "camera_max": "Up to 5 MP camera"
+    "camera_max": "Up to 5 MP camera",
+    "year": 2017,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_bus": 64
   },
   {
     "id": "msm7225a",
@@ -4079,7 +4796,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "800 MHz",
     "gpu": "Adreno 200 245 MHz (HVGA)",
-    "completeness": 0.5437,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7225A",
@@ -4098,7 +4815,11 @@
     ],
     "process_nm": 45,
     "process_name": "45nm",
-    "camera_max": "Up to 5 MP camera"
+    "camera_max": "Up to 5 MP camera",
+    "year": 2017,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_bus": 64
   },
   {
     "id": "msm7225ab",
@@ -4106,7 +4827,7 @@
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7225AB",
@@ -4115,7 +4836,16 @@
     ],
     "process_nm": 8,
     "process_name": "8nm",
-    "gpu": "Adreno 619"
+    "gpu": "Adreno 619",
+    "year": 2017,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "msm7227",
@@ -4126,13 +4856,23 @@
     "max_freq": "226 MHz",
     "gpu": "Up to 8 MP camera",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3689,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 226,
     "clock_max": 226,
     "dsp": "LPDDR Single-channel 166 MHz (1.33 GB/s)",
-    "modem": "2008"
+    "modem": "2008",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "msm7227a",
@@ -4142,7 +4882,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "245 MHz",
     "gpu": "Up to 8 MP camera",
-    "completeness": 0.3592,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM7227A",
@@ -4151,7 +4891,18 @@
     "dsp": "UMTS , MBMS ; GSM",
     "aliases": [
       "MSM7227A (MSM7227A )"
-    ]
+    ],
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "msm7230",
@@ -4163,7 +4914,7 @@
     "max_freq": "800 MHz",
     "gpu": "Adreno 205 266 MHz ( XGA )",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5534,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 800,
@@ -4179,7 +4930,10 @@
     "npu": "Q2 2010",
     "process_nm": 45,
     "process_name": "45nm",
-    "camera_max": "Up to 12 MP camera"
+    "camera_max": "Up to 12 MP camera",
+    "year": 2017,
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1"
   },
   {
     "id": "msm7625",
@@ -4188,9 +4942,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7625",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm7625a",
@@ -4202,9 +4968,21 @@
     "aliases": [
       "MSM7625A (MSM7625A )"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm7627",
@@ -4213,9 +4991,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7627",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm7627a",
@@ -4227,9 +5017,21 @@
     "aliases": [
       "MSM7627A (MSM7627A )"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm7630",
@@ -4238,9 +5040,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM7630",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2017,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8225",
@@ -4252,7 +5066,7 @@
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 203 320 MHz (FWVGA)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1200,
@@ -4266,7 +5080,11 @@
     "npu": "1H 2012",
     "process_nm": 45,
     "process_name": "45nm",
-    "camera_max": "Up to 8 MP camera"
+    "camera_max": "Up to 8 MP camera",
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_bus": 64
   },
   {
     "id": "msm8227",
@@ -4278,7 +5096,7 @@
     "max_freq": "1.00 GHz",
     "gpu": "Adreno 305 320 MHz (FWVGA / 720p)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1000,
@@ -4291,7 +5109,11 @@
     "bluetooth": "4.0",
     "npu": "2H 2012",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_bus": 64
   },
   {
     "id": "msm8255",
@@ -4301,9 +5123,21 @@
     "cores": 8,
     "max_freq": "1.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8255t",
@@ -4312,13 +5146,25 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8255T",
     "aliases": [
       "MSM8255T (MSM8255T )"
-    ]
+    ],
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8260",
@@ -4327,9 +5173,21 @@
     "model": "MSM8260",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8260a",
@@ -4337,13 +5195,25 @@
     "vendor": "Qualcomm",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8260A",
     "aliases": [
       "MSM8260A (MSM8260A )"
-    ]
+    ],
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X55 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8625",
@@ -4352,9 +5222,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8625",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8627",
@@ -4363,9 +5245,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8627",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8630",
@@ -4374,9 +5268,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8630",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X70 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8655",
@@ -4385,9 +5291,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8655",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8655t",
@@ -4399,9 +5317,21 @@
     "aliases": [
       "MSM8655T (MSM8655T )"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8660",
@@ -4410,9 +5340,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8660",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8660a",
@@ -4424,9 +5366,21 @@
     "aliases": [
       "MSM8660A (MSM8660A )"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.5146,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X75 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8909w",
@@ -4436,7 +5390,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "LPDDR3 400 MHz",
-    "completeness": 0.3786,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "MSM8909w",
@@ -4447,7 +5401,15 @@
       "MSM8909w (MSM8909w )"
     ],
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2025,
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "msm8930",
@@ -4456,9 +5418,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8930",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "msm8960",
@@ -4467,9 +5441,21 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "MSM8960",
-    "completeness": 0.2621,
+    "completeness": 0.5049,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Hexagon NPU",
+    "modem": "Snapdragon X80 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "microsoft_sq1_microsoftsq1",
@@ -4480,7 +5466,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 685 590 MHz (1812.5 GFLOPs in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5922,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ1",
@@ -4499,7 +5485,9 @@
     "npu": "Q4 2019",
     "process_nm": 7,
     "process_name": "7nm",
-    "camera_max": "Spectra 390 (192 MP single camera / 22 MP at 30fps dual camera with MFNR/ZSL)"
+    "camera_max": "Spectra 390 (192 MP single camera / 22 MP at 30fps dual camera with MFNR/ZSL)",
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "microsoft_sq2_microsoftsq2",
@@ -4509,13 +5497,23 @@
     "max_freq": "680 MHz",
     "gpu": "October 1, 2020",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ2",
     "clock_min": 680,
     "clock_max": 680,
-    "dsp": "Q4 2020"
+    "dsp": "Q4 2020",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "microsoft_sq3_microsoftsq3",
@@ -4526,7 +5524,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 695 900 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Microsoft SQ3",
@@ -4538,7 +5536,14 @@
     "modem": "FastConnect 6900, Bluetooth 5.1; 802.11ac/ax (Wi-Fi 6E) 2x2 (MU-MIMO) @ 3.6 Gbit",
     "process_nm": 5,
     "process_name": "5nm",
-    "camera_max": "Spectra (24 MP at 30fps single camera with MFNR/ZSL)"
+    "camera_max": "Spectra (24 MP at 30fps single camera with MFNR/ZSL)",
+    "year": 2021,
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "qcs403",
@@ -4547,12 +5552,21 @@
     "model": "QCS403",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "none",
     "dsp": "2x Hexagon V66",
-    "modem": "Bluetooth 5.1; 802.11ax-ready, 802.11ac, 4x4 (MIMO); Zigbee/15.4"
+    "modem": "Bluetooth 5.1; 802.11ax-ready, 802.11ac, 4x4 (MIMO); Zigbee/15.4",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "qcs404",
@@ -4561,11 +5575,20 @@
     "model": "QCS404",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2019,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "qcs405",
@@ -4575,9 +5598,19 @@
     "gpu": "Adreno 306 (Full HD+)",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "qcs407",
@@ -4586,10 +5619,20 @@
     "model": "QCS407",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "gpu": "32× audio channels supported"
+    "gpu": "32× audio channels supported",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "qcs603",
@@ -4601,7 +5644,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 615 (Quad HD + 4K Ultra HD external display)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -4617,7 +5660,9 @@
     "charging": "4+",
     "process_nm": 10,
     "process_name": "10nm",
-    "camera_max": "Spectra 270 (Up to 24 MP camera / 16 MP dual)"
+    "camera_max": "Spectra 270 (Up to 24 MP camera / 16 MP dual)",
+    "year": 2021,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "qcs605",
@@ -4627,12 +5672,20 @@
     "cores": 8,
     "max_freq": "2.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "Bluetooth 5.0, NFC , 802.11ac 2x2 (MU-MIMO) Wi-Fi up to 867 Mbit/s, GPS, GLONASS, Beidou, Galileo, QZSS, SBAS, USB 3.1",
     "process_nm": 14,
-    "process_name": "14nm"
+    "process_name": "14nm",
+    "year": 2021,
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "qsd8250",
@@ -4643,7 +5696,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.00 GHz",
     "gpu": "Adreno 200 226 MHz (WXGA)",
-    "completeness": 0.534,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "model": "QSD8250",
@@ -4661,7 +5714,11 @@
     ],
     "process_nm": 65,
     "process_name": "65nm",
-    "camera_max": "Up to 12 MP camera"
+    "camera_max": "Up to 12 MP camera",
+    "year": 2009,
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_bus": 32
   },
   {
     "id": "qsd8650",
@@ -4673,9 +5730,19 @@
     "aliases": [
       "QSD8650 (QSD8650 )"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "sa6155p",
@@ -4686,7 +5753,7 @@
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 608/612 430 MHz (110 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA6155P",
@@ -4706,7 +5773,9 @@
       "SA6155P (SA6155P )"
     ],
     "process_nm": 11,
-    "process_name": "11nm"
+    "process_name": "11nm",
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "sa8195p",
@@ -4716,7 +5785,7 @@
     "gpu": "Hexagon",
     "max_freq": "600 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8195P",
@@ -4725,7 +5794,17 @@
     "dsp": "Internal: no",
     "aliases": [
       "SA8195P (SA8195P )"
-    ]
+    ],
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "sa8255p",
@@ -4736,7 +5815,7 @@
     "max_freq": "2.35 GHz",
     "gpu": "Adreno 663",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8255P",
@@ -4749,7 +5828,11 @@
     "memory_bus": 16,
     "modem": "Bluetooth 5.2 802.11ax (Wi-Fi 6) GPS, Glonass, Beidou, Galileo, QZSS, SBAS",
     "process_nm": 5,
-    "process_name": "5nm"
+    "process_name": "5nm",
+    "year": 2024,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "sa8295p",
@@ -4759,13 +5842,22 @@
     "max_freq": "2.56 GHz",
     "gpu": "Hexagon (30 TOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3301,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SA8295P",
     "dsp": "LPDDR4X Octa-channel 16-bit (128-bit) 2133 MHz (68.2 GB/s)",
     "memory_max": 7,
-    "modem": "2023"
+    "modem": "2023",
+    "year": 2024,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3"
   },
   {
     "id": "sc7180",
@@ -4777,7 +5869,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 618 825 MHz (422.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5728,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2400,
@@ -4794,7 +5886,9 @@
     "npu": "Q1 2020",
     "process_nm": 8,
     "process_name": "8nm",
-    "camera_max": "Spectra 255 (32 MP camera, 16 MP dual)"
+    "camera_max": "Spectra 255 (32 MP camera, 16 MP dual)",
+    "year": 2020,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "sc7180p",
@@ -4803,11 +5897,21 @@
     "cores": 8,
     "max_freq": "2.55 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC7180P",
-    "gpu": "Q2 2021"
+    "gpu": "Q2 2021",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "sc7280",
@@ -4819,7 +5923,7 @@
     "max_freq": "2.40 GHz",
     "gpu": "Adreno 642L 700 MHz (716.8 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5728,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -4836,7 +5940,9 @@
     "npu": "Q1 2022",
     "process_nm": 6,
     "process_name": "6nm",
-    "camera_max": "Spectra (64 MP single camera or 36+22 MP dual camera)"
+    "camera_max": "Spectra (64 MP single camera or 36+22 MP dual camera)",
+    "year": 2021,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "sc8180",
@@ -4848,7 +5954,7 @@
     "max_freq": "2.45 GHz",
     "gpu": "Adreno 675 590 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5922,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1800,
@@ -4866,7 +5972,9 @@
     "npu": "Q1 2020",
     "process_nm": 7,
     "process_name": "7nm",
-    "camera_max": "Spectra 390 (192MP single camera or 22MP at 30fps dual camera with MFNR / ZSL)"
+    "camera_max": "Spectra 390 (192MP single camera or 22MP at 30fps dual camera with MFNR / ZSL)",
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "sc8180x",
@@ -4877,7 +5985,7 @@
     "max_freq": "2.84 GHz",
     "gpu": "Adreno 680 585 MHz (1797.1 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5922,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC8180X",
@@ -4896,7 +6004,9 @@
     "npu": "Q3 2019",
     "process_nm": 7,
     "process_name": "7nm",
-    "camera_max": "Spectra 390 (32MP single camera, 16MP at 30fps dual camera with MFNR / ZSL) [ 27"
+    "camera_max": "Spectra 390 (32MP single camera, 16MP at 30fps dual camera with MFNR / ZSL) [ 27",
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "sc8180xp",
@@ -4906,14 +6016,24 @@
     "max_freq": "660 MHz",
     "gpu": "No internal modem Optional external X24 LTE (Cat 20: download @ 2 Gbit/s, 7x20 MHz CA, 256-QAM, 4x4 MIMO on 5C. Upload @",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SC8180XP",
     "clock_min": 660,
     "clock_max": 660,
     "gpu_clock": 20,
-    "dsp": "Bluetooth 5.1; 802.11ax (Wi-Fi 6) 2x2 (MU-MIMO) @ 2.4 Gbit/s, NFC, GPS, Glonass,"
+    "dsp": "Bluetooth 5.1; 802.11ax (Wi-Fi 6) 2x2 (MU-MIMO) @ 2.4 Gbit/s, NFC, GPS, Glonass,",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "sc8280",
@@ -4925,7 +6045,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno 695 900 MHz (3686.4 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2400,
@@ -4937,7 +6057,14 @@
     "charging": "December 1, 2021",
     "process_nm": 5,
     "process_name": "5nm",
-    "camera_max": "Spectra (24 MP at 30fps single camera with MFNR/ZSL)"
+    "camera_max": "Spectra (24 MP at 30fps single camera with MFNR/ZSL)",
+    "year": 2021,
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "sdm429w",
@@ -4948,7 +6075,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno 504 320 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.5631,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SDM429w",
@@ -4961,7 +6088,11 @@
     "memory_bus": 32,
     "modem": "Bluetooth 5.0; 802.11a/b/g/n; NFC; GPS; GLONASS, Galileo, BeiDou",
     "process_nm": 12,
-    "process_name": "12nm"
+    "process_name": "12nm",
+    "year": 2011,
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "sdm850",
@@ -4973,7 +6104,7 @@
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 630 710 MHz (727 GFLOPS in FP32)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5534,
+    "completeness": 0.6311,
     "sources": {},
     "updated": "2026-06-21",
     "cluster_config": "4+4",
@@ -4989,7 +6120,11 @@
     "charging": "June 4, 2018",
     "process_nm": 10,
     "process_name": "10nm",
-    "camera_max": "Spectra 280 (192 MP single camera / 16 MP at 30fps Dual Camera with MFNR/ZSL)"
+    "camera_max": "Spectra 280 (192 MP single camera / 16 MP at 30fps Dual Camera with MFNR/ZSL)",
+    "year": 2011,
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "sw5100",
@@ -5000,7 +6135,7 @@
     "max_freq": "1.70 GHz",
     "gpu": "Adreno A702 1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "model": "SW5100",
@@ -5016,7 +6151,9 @@
     "connectivity": "NFC",
     "npu": "Q3 2022",
     "process_nm": 4,
-    "process_name": "4nm"
+    "process_name": "4nm",
+    "year": 2020,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "snapdragon_410e_snapdragon410e",
@@ -5027,10 +6164,20 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
     "gpu": "Adreno 306",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 410E"
+    "model": "Snapdragon 410E",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "snapdragon_410e_apq8016e_snapdragon410eapq8016e",
@@ -5041,7 +6188,7 @@
     "process": "28 nm",
     "max_freq": "1.20 GHz",
     "gpu": "Adreno 306",
-    "completeness": 0.534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 410E (APQ8016E)",
@@ -5059,7 +6206,10 @@
     ],
     "process_nm": 28,
     "process_name": "28nm",
-    "camera_max": "Up to 13 MP camera"
+    "camera_max": "Up to 13 MP camera",
+    "year": 2009,
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "snapdragon_600e_snapdragon600e",
@@ -5069,10 +6219,20 @@
     "architecture": "ARMv7-A",
     "max_freq": "1.5 GHz",
     "gpu": "Adreno 320 400 MHz",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 600E"
+    "model": "Snapdragon 600E",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "snapdragon_600e_apq8064e_snapdragon600eapq8064e",
@@ -5082,7 +6242,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "400 MHz",
     "gpu": "Hexagon QDSP6 V4 500 MHz",
-    "completeness": 0.3689,
+    "completeness": 0.5437,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 600E (APQ8064E)",
@@ -5092,7 +6252,16 @@
     "dsp": "Up to 21 MP camera",
     "aliases": [
       "Snapdragon 600E (APQ8064E) (Snapdragon 600E (APQ8064E))"
-    ]
+    ],
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "snapdragon_602a_apq8064_au",
@@ -5104,7 +6273,7 @@
     "process": "28 nm",
     "max_freq": "1.51 GHz",
     "gpu": "Adreno 320 400 MHz (76.8 GFLOPs) (2048x1536 + 1080p external display)",
-    "completeness": 0.5534,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1510,
@@ -5120,7 +6289,9 @@
     "bluetooth": "4.1",
     "npu": "Q1 2014",
     "process_nm": 28,
-    "process_name": "28nm"
+    "process_name": "28nm",
+    "year": 2009,
+    "storage_type": "eMMC 5.0"
   },
   {
     "id": "snapdragon_800e_apq8074",
@@ -5132,7 +6303,7 @@
     "process": "28 nm",
     "max_freq": "2.30 GHz",
     "gpu": "Adreno 330",
-    "completeness": 0.5049,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 2300,
@@ -5145,7 +6316,11 @@
     "modem": "Bluetooth 4.1 ; 802.11n / ac (2.4/5 GHz); IZat Gen8B; NFC, Gigabit Ethernet, HDM",
     "process_nm": 28,
     "process_name": "28nm",
-    "camera_max": "Up to 55 MP camera"
+    "camera_max": "Up to 55 MP camera",
+    "year": 2009,
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "snapdragon_810e_apq8094",
@@ -5157,7 +6332,7 @@
     "process": "20 nm",
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 430 650 MHz",
-    "completeness": 0.5146,
+    "completeness": 0.5922,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1550,
@@ -5171,7 +6346,11 @@
     "modem": "Bluetooth 4.1; 802.11ac; IZat Gen8C",
     "process_nm": 20,
     "process_name": "20nm",
-    "camera_max": "Up to 55 MP camera"
+    "camera_max": "Up to 55 MP camera",
+    "year": 2009,
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "snapdragon_820am_snapdragon820am",
@@ -5182,10 +6361,20 @@
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 820AM"
+    "model": "Snapdragon 820AM",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "snapdragon_820am_apq8096au_msm8996au_snapdragon820amapq8096aumsm8996au",
@@ -5196,7 +6385,7 @@
     "process": "14 nm",
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530 624 MHz (319.4 GFLOPs)",
-    "completeness": 0.5631,
+    "completeness": 0.6019,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 820AM (APQ8096AU/ MSM8996AU)",
@@ -5216,7 +6405,9 @@
     "npu": "Q1 2016",
     "aliases": [
       "Snapdragon 820AM (APQ8096AU/ MSM8996AU) (Snapdragon 820AM (APQ8096AU/ MSM8996AU))"
-    ]
+    ],
+    "year": 2025,
+    "storage_type": "UFS 3.1"
   },
   {
     "id": "snapdragon_820e_apq8096",
@@ -5228,7 +6419,7 @@
     "process": "14 nm",
     "max_freq": "2.15 GHz",
     "gpu": "Adreno 530",
-    "completeness": 0.5049,
+    "completeness": 0.5825,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -5241,7 +6432,11 @@
     "modem": "Bluetooth 4.1; 802.11ac /ad; IZat Gen8C",
     "process_nm": 14,
     "process_name": "14nm",
-    "camera_max": "Up to 28 MP camera"
+    "camera_max": "Up to 28 MP camera",
+    "year": 2009,
+    "storage_type": "eMMC 5.0",
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
   },
   {
     "id": "snapdragon_855a_snapdragon855a",
@@ -5252,10 +6447,20 @@
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 640 675 MHz (1036.8 GFLOPs)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon 855A"
+    "model": "Snapdragon 855A",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "snapdragon_855a_sa8155p_snapdragon855asa8155p",
@@ -5266,7 +6471,7 @@
     "process": "7 nm",
     "max_freq": "2.96 GHz",
     "gpu": "Adreno 640 675 MHz (1036.8 GFLOPs)",
-    "completeness": 0.5825,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Snapdragon 855A (SA8155P)",
@@ -5288,7 +6493,9 @@
       "Snapdragon 855A (SA8155P) (Snapdragon 855A (SA8155P))"
     ],
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2019,
+    "storage_type": "UFS 3.0"
   },
   {
     "id": "snapdragon_g_series_snapdragongseries",
@@ -5315,7 +6522,7 @@
     "max_freq": "3.00 GHz",
     "gpu": "Adreno X1-45 1107 MHz (1.7 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5825,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1-26-100",
@@ -5336,7 +6543,9 @@
     ],
     "process_nm": 4,
     "process_name": "4nm",
-    "camera_max": "Spectra (36 MP single camera)"
+    "camera_max": "Spectra (36 MP single camera)",
+    "year": 2015,
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "snapdragon_x_elite_x1e78100",
@@ -5345,13 +6554,24 @@
     "cores": 8,
     "max_freq": "3.4 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1E-78-100",
     "aliases": [
       "Snapdragon X Elite (X1E-78-100)"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "snapdragon_x_plus_x1p42100",
@@ -5360,13 +6580,24 @@
     "cores": 8,
     "max_freq": "3.2 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X1P-42-100",
     "aliases": [
       "Snapdragon X Plus (X1P-42-100)"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "snapdragon_x1_series_oryon8core34ghzsinglecoreboostupto40ghz",
@@ -5376,13 +6607,23 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-45 1367 MHz (2.1 TFLOPS)",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Oryon 8 core (3.4 GHz, single-core boost up to 4.0 GHz)",
     "aliases": [
       "Snapdragon X1 series (Oryon 8 core (3.4 GHz, single-core boost up to 4.0 GHz))"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "snapdragon_x2_elite_x2e78100",
@@ -5392,7 +6633,7 @@
     "max_freq": "1.35 GHz",
     "gpu": "Adreno X2-85 1350 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-78-100",
@@ -5401,7 +6642,17 @@
     "dsp": "Q1 2026",
     "aliases": [
       "Snapdragon X2 Elite (X2E-78-100)"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "snapdragon_x2_elite_extreme_x2e94100",
@@ -5411,7 +6662,7 @@
     "max_freq": "1.85 GHz",
     "gpu": "Hexagon (80 TOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3592,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2E-94-100",
@@ -5420,7 +6671,17 @@
     "dsp": "LPDDR5X-9523 Dodeca-channel 16-bit (192-bit) @ 4761.5 MHz (228 GB/s)",
     "aliases": [
       "Snapdragon X2 Elite Extreme (X2E-94-100)"
-    ]
+    ],
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "snapdragon_x2_plus_x2p42100",
@@ -5431,7 +6692,7 @@
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 910 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5825,
+    "completeness": 0.6214,
     "sources": {},
     "updated": "2026-06-21",
     "model": "X2P-42-100",
@@ -5452,7 +6713,9 @@
     ],
     "process_nm": 3,
     "process_name": "3nm",
-    "camera_max": "Spectra (36 MP single/38 MP dual camera)"
+    "camera_max": "Spectra (36 MP single/38 MP dual camera)",
+    "year": 2015,
+    "storage_type": "UFS 2.0"
   },
   {
     "id": "snapdragon_x2_series_snapdragonx2series",
@@ -5462,10 +6725,20 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 1700 MHz",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Snapdragon X2 series"
+    "model": "Snapdragon X2 series",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "snapdragon_xr_series_snapdragonxrseries",
@@ -5498,10 +6771,21 @@
     "cores": 4,
     "max_freq": "250 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "W5+ Gen 1"
+    "model": "W5+ Gen 1",
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "w5p_gen_2_w5gen2",
@@ -5511,10 +6795,21 @@
     "cores": 4,
     "max_freq": "250 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "W5+ Gen 2"
+    "model": "W5+ Gen 2",
+    "year": 2023,
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "wear_4100p_wear4100",
@@ -5524,10 +6819,21 @@
     "cores": 12,
     "max_freq": "50 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Wear 4100+"
+    "model": "Wear 4100+",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "gpu": "Adreno GPU"
   },
   {
     "id": "x1e_84_100_x1e84100",
@@ -5537,10 +6843,20 @@
     "max_freq": "3.8 GHz",
     "gpu": "Adreno X1-85 1500 MHz (4.6 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X1E-84-100"
+    "model": "X1E-84-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "x1p_46_100_x1p46100",
@@ -5550,10 +6866,20 @@
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-45 1367 MHz (2.1 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X1P-46-100"
+    "model": "X1P-46-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "x1p_64_100_x1p64100",
@@ -5563,10 +6889,20 @@
     "max_freq": "3.4 GHz",
     "gpu": "Adreno X1-85 1250 MHz (3.8 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X1P-64-100"
+    "model": "X1P-64-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "x2e_80_100_x2e80100",
@@ -5576,10 +6912,20 @@
     "max_freq": "4.0 GHz",
     "gpu": "Adreno X2-85 1700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X2E-80-100"
+    "model": "X2E-80-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "x2e_88_100_x2e88100",
@@ -5589,10 +6935,20 @@
     "max_freq": "4.0 GHz",
     "gpu": "Adreno X2-90 1700 MHz (6.9 TFLOPS)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X2E-88-100"
+    "model": "X2E-88-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "x2p_64_100_x2p64100",
@@ -5602,10 +6958,20 @@
     "max_freq": "4.04 GHz",
     "gpu": "Adreno X2-45 1700 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "X2P-64-100"
+    "model": "X2P-64-100",
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "UFS 2.0",
+    "memory_clock": 800,
+    "memory_bus": 32,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "xr1",
@@ -5615,10 +6981,20 @@
     "cores": 10,
     "gpu": "Adreno 615",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "XR1"
+    "model": "XR1",
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Snapdragon 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "xr2",
@@ -5629,10 +7005,20 @@
     "max_freq": "2.84 GHz",
     "gpu": "Adreno 650 (up to 2x 3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "XR2"
+    "model": "XR2",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "xr2_gen_2_xr2gen2",
@@ -5643,10 +7029,20 @@
     "max_freq": "2.36 GHz",
     "gpu": "Adreno 740 (up to 2x 3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "XR2 Gen 2"
+    "model": "XR2 Gen 2",
+    "year": 2022,
+    "process_nm": 5,
+    "process_name": "5nm",
+    "memory_type": "LPDDR5",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2"
   },
   {
     "id": "xr2p_gen_2_xr2gen2",
@@ -5655,9 +7051,19 @@
     "cores": 4,
     "gpu": "Adreno 740 (up to 2x 4.3K displays at 90 Hz)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "XR2+ Gen 2"
+    "model": "XR2+ Gen 2",
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Snapdragon 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   }
 ]

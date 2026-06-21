@@ -6,14 +6,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A111",
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "DDR3",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "a112",
@@ -22,14 +27,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A112",
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "DDR3",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "a113",
@@ -38,14 +48,19 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A113",
     "process_nm": 28,
     "process_name": "28nm",
     "memory_type": "DDR3",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "amlogic_a111_amlogica111",
@@ -59,9 +74,14 @@
     "memory_type": "DDR3",
     "model": "Amlogic A111",
     "memory_clock": 1333,
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "amlogic_a112_amlogica112",
@@ -75,9 +95,14 @@
     "memory_type": "DDR3",
     "model": "Amlogic A112",
     "memory_clock": 1333,
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "amlogic_a113_amlogica113",
@@ -91,9 +116,14 @@
     "memory_type": "DDR3",
     "model": "Amlogic A113",
     "memory_clock": 1333,
-    "completeness": 0.3495,
+    "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-G31 MP2"
   },
   {
     "id": "amlogic_s912_amlogics912",
@@ -114,9 +144,12 @@
     "npu": "Stereo DACs I2S, SPDIF, DMIC",
     "model": "Amlogic S912",
     "memory_clock": 1333,
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "amlogic_t950_amlogict950",
@@ -133,12 +166,15 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T950",
     "memory_clock": 1333,
-    "completeness": 0.4078,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 28,
     "process_name": "28nm",
-    "process": "28 nm"
+    "process": "28 nm",
+    "year": 2015,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "amlogic_t962_amlogict962",
@@ -158,9 +194,12 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T962",
     "memory_clock": 1333,
-    "completeness": 0.4078,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "amlogic_t966_amlogict966",
@@ -180,9 +219,12 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T966",
     "memory_clock": 1333,
-    "completeness": 0.4078,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "amlogic_t968_amlogict968",
@@ -202,9 +244,12 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T968",
     "memory_clock": 1333,
-    "completeness": 0.4078,
+    "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905d",
@@ -214,7 +259,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905D",
@@ -227,7 +272,10 @@
     "video_decode": "TS in, DVP",
     "memory_clock": 1333,
     "storage_type": "NAND Flash eMMC 5.0, SD, NOR Flash",
-    "npu": "Stereo DACs I2S, SPDIF, DMIC"
+    "npu": "Stereo DACs I2S, SPDIF, DMIC",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905l",
@@ -237,7 +285,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905L",
@@ -250,7 +298,10 @@
     "video_decode": "/",
     "memory_clock": 1333,
     "storage_type": "NAND flash eMMC 5.0 , SD , NOR flash",
-    "npu": "Stereo DACs I2S, SPDIF, DMIC"
+    "npu": "Stereo DACs I2S, SPDIF, DMIC",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905x",
@@ -260,7 +311,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4272,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X",
@@ -273,7 +324,10 @@
     "video_decode": "/",
     "memory_clock": 1333,
     "storage_type": "NAND Flash eMMC 5.0, SD, NOR Flash",
-    "npu": "Stereo DACs I2S, SPDIF, DMIC"
+    "npu": "Stereo DACs I2S, SPDIF, DMIC",
+    "year": 2016,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905x2",
@@ -283,7 +337,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X2",
@@ -296,7 +350,12 @@
     "wifi": "Wi-Fi",
     "memory_clock": 800,
     "storage_type": "SLC NAND Flash, eMMC 5.0, SD, SPI NOR/NAND",
-    "npu": "?"
+    "npu": "?",
+    "memory_bus": 32,
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905y2",
@@ -306,7 +365,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y2",
@@ -319,7 +378,12 @@
     "wifi": "Wi-Fi",
     "memory_clock": 800,
     "storage_type": "SLC NAND Flash, eMMC 5.0, SD, SPI NOR/NAND",
-    "npu": "?"
+    "npu": "?",
+    "memory_bus": 32,
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "bluetooth": "4.1"
   },
   {
     "id": "s905y4",
@@ -329,7 +393,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y4",
@@ -342,7 +406,12 @@
     "wifi": "Wi-Fi",
     "memory_clock": 800,
     "storage_type": "SLC NAND Flash, eMMC 5.0, SDSC/SDXC/SDHC/SDIO",
-    "npu": "Stereo DAC SPDIF, TDM/PCM/I2s interface"
+    "npu": "Stereo DAC SPDIF, TDM/PCM/I2s interface",
+    "memory_bus": 32,
+    "year": 2016,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "bluetooth": "4.1"
   },
   {
     "id": "s912",
@@ -352,7 +421,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T820 MP3 OpenGL ES 3.1",
-    "completeness": 0.3981,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S912",
@@ -363,7 +432,11 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "TS in, DVP",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2016,
+    "storage_type": "UFS 2.0",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "s922x",
@@ -373,7 +446,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.4078,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S922X",
@@ -386,7 +459,12 @@
     "wifi": "Wi-Fi",
     "memory_clock": 800,
     "storage_type": "SLC/MLC/TLC NAND Flash, eMMC 5.0, SDSC/SDXC/SDHC/SDIO, SPI NOR/NAND",
-    "npu": "Stereo DAC I2S, SPDIF, DMIC"
+    "npu": "Stereo DAC I2S, SPDIF, DMIC",
+    "memory_bus": 32,
+    "year": 2019,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "bluetooth": "5.0"
   },
   {
     "id": "t920l",
@@ -395,7 +473,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.3592,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T920L",
@@ -405,7 +483,12 @@
     "memory_type": "DDR3",
     "video_decode": "HDMI 1.4b , CVBS",
     "memory_clock": 1333,
-    "storage_type": "eMMC 5.0, SD"
+    "storage_type": "eMMC 5.0, SD",
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "t950",
@@ -414,7 +497,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.3495,
+    "completeness": 0.466,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T950",
@@ -423,7 +506,13 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "HDMI 2.0b, CVBS",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2015,
+    "process_nm": 14,
+    "process_name": "14nm",
+    "storage_type": "UFS 2.0",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "t962",
@@ -433,7 +522,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 MP5 OpenGL ES 2.0",
-    "completeness": 0.3981,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T962",
@@ -444,7 +533,11 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "HDMI 2.0b, CVBS",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2016,
+    "storage_type": "UFS 2.0",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "t966",
@@ -454,7 +547,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.3981,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T966",
@@ -465,7 +558,11 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "HDMI 2.0b, CVBS",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2016,
+    "storage_type": "UFS 2.0",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   },
   {
     "id": "t968",
@@ -475,7 +572,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.3981,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T968",
@@ -486,6 +583,10 @@
     ],
     "memory_type": "DDR3",
     "video_decode": "HDMI 2.0b, CVBS",
-    "memory_clock": 1333
+    "memory_clock": 1333,
+    "year": 2016,
+    "storage_type": "UFS 2.0",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.1"
   }
 ]

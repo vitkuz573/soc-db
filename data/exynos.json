@@ -9,11 +9,11 @@
     "process": "5 nm",
     "max_freq": "2.91 GHz",
     "gpu": "128.1",
-    "year": 2000,
+    "year": 2021,
     "aliases": [
       "Exynos 2100 (S5E9840) (EXYNOS 2100)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.91 GHz Cortex-X1 + 2.81 GHz Cortex-A78 + 2.2 GHz Cortex-A55 )",
@@ -21,7 +21,11 @@
     "process_nm": 5,
     "process_name": "5nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_2200_s5e9925_exynos2200",
@@ -33,11 +37,11 @@
     "process": "4 nm",
     "max_freq": "2.95 GHz",
     "gpu": "104.7",
-    "year": 2000,
+    "year": 2022,
     "aliases": [
       "Exynos 2200 (S5E9925) (EXYNOS 2200)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.95 GHz Cortex-X2 + 2.70 GHz Cortex-A710 + 2.10 GHz Cortex-A51",
@@ -45,7 +49,11 @@
     "process_nm": 4,
     "process_name": "4nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_24002400e_s5e9945_exynos2400",
@@ -57,11 +65,11 @@
     "process": "4 nm",
     "max_freq": "3.2 GHz",
     "gpu": "137.4",
-    "year": 2000,
+    "year": 2024,
     "aliases": [
       "Exynos 2400/2400e (S5E9945) (EXYNOS 2400)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 2 + 3 + 4 cores (3.1/3.2 GHz Cortex-X4 + 2.9 GHz Cortex-A720 + 2.6 GHz Corte",
@@ -69,7 +77,11 @@
     "process_nm": 65,
     "process_name": "65nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_2500_s5e9955_exynos2500",
@@ -81,11 +93,11 @@
     "process": "3 nm",
     "max_freq": "3.3 GHz",
     "gpu": "141.6",
-    "year": 2000,
+    "year": 2025,
     "aliases": [
       "Exynos 2500 (S5E9955) (EXYNOS 2500)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP)",
@@ -93,7 +105,11 @@
     "process_nm": 65,
     "process_name": "65nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_2600_s5e9965_exynos2600",
@@ -105,11 +121,11 @@
     "process": "2 nm",
     "max_freq": "3.8 GHz",
     "gpu": "141.5",
-    "year": 2000,
+    "year": 2025,
     "aliases": [
       "Exynos 2600 (S5E9965) (EXYNOS 2600)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 6 cores (3.8 GHz C1-Ultra + 3.25 GHz C1-Pro + 2.75 GHz C1-Pro)",
@@ -117,7 +133,11 @@
     "process_nm": 65,
     "process_name": "65nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_3_quad_3470_exynos3quad3470",
@@ -129,7 +149,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3470",
@@ -141,7 +161,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_3_quad_3475_exynos3quad3475",
@@ -152,7 +176,7 @@
     "max_freq": "1.3 GHz",
     "gpu": "4 cores 1.3 GHz Cortex-A7",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4369,
+    "completeness": 0.5146,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3475",
@@ -161,7 +185,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_3_single_3110_exynos3single3110",
@@ -172,14 +200,19 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Single 3110",
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_3_single_3110_previously_hummingbird_exynos3single3110previouslyhummingbirds5pc110",
@@ -191,7 +224,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "PowerVR SGX540",
     "year": 2010,
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
@@ -203,7 +236,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_4_dual_4210_exynos4dual4210",
@@ -215,7 +252,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4210",
@@ -227,7 +264,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_4_dual_4212_exynos4dual4212",
@@ -238,7 +279,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4212",
@@ -250,7 +291,12 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_4_quad_4412_exynos4quad4412",
@@ -260,7 +306,7 @@
     "cores": 8,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4412",
@@ -272,7 +318,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_4_quad_4415_exynos4quad4415",
@@ -283,7 +333,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4415",
@@ -295,7 +345,12 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_5_dual_5250_exynos5dual5250",
@@ -307,7 +362,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T604 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Dual 5250",
@@ -319,7 +374,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_hexa_5260_exynos5hexa5260",
@@ -331,7 +390,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T624 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Hexa 5260",
@@ -343,7 +402,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_octa_5410_exynos5octa5410",
@@ -354,7 +417,7 @@
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
     "gpu": "4+4 cores (1.6 GHz Cortex-A15 + 1.2 GHz Cortex-A7 )",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5410",
@@ -366,7 +429,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_octa_5420_exynos5octa5420",
@@ -377,7 +444,7 @@
     "max_freq": "1.9 GHz",
     "gpu": "4+4 cores (1.9 GHz Cortex-A15 + 1.3 GHz Cortex-A7 )",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5420",
@@ -389,7 +456,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_octa_5422_exynos5octa5422",
@@ -399,7 +470,7 @@
     "cores": 8,
     "max_freq": "2.1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4272,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5422",
@@ -411,7 +482,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_octa_5430_exynos5octa5430",
@@ -422,7 +497,7 @@
     "cores": 8,
     "max_freq": "1.8 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5430",
@@ -435,7 +510,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_5_octa_5800_exynos5octa5800",
@@ -446,7 +525,7 @@
     "cores": 8,
     "max_freq": "2.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3883,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5800",
@@ -456,7 +535,12 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_7_octa_5433_exynos7octa5433",
@@ -468,7 +552,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
     "gpu": "113.42",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 5433",
@@ -480,7 +564,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7_octa_7420_exynos7octa7420",
@@ -492,7 +580,7 @@
     "max_freq": "2.1 GHz",
     "gpu": "78.23",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7420",
@@ -504,7 +592,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7_octa_7580_exynos7octa7580",
@@ -514,7 +606,7 @@
     "max_freq": "1.60 GHz",
     "year": 2010,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7580",
@@ -527,7 +619,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7_octa_7870_exynos7octa7870",
@@ -538,7 +634,7 @@
     "year": 2010,
     "gpu": "Mali-T830 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7870",
@@ -551,7 +647,10 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7_quad_7570_exynos7quad7570",
@@ -563,7 +662,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7570",
@@ -575,7 +674,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7_quad_7578_exynos7quad7578",
@@ -587,7 +690,7 @@
     "max_freq": "1.5 GHz",
     "gpu": "Mali-T720 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7578",
@@ -596,7 +699,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7872_exynos7872",
@@ -611,7 +718,7 @@
     "aliases": [
       "Exynos 7872 (EXYNOS 7872)"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1200",
@@ -619,7 +726,11 @@
     "process_nm": 14,
     "process_name": "14nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7880_exynos7880",
@@ -634,7 +745,7 @@
     "aliases": [
       "Exynos 7880 (EXYNOS 7880)"
     ],
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "950",
@@ -642,7 +753,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7884_exynos7884",
@@ -656,7 +771,7 @@
     "aliases": [
       "Exynos 7884 (EXYNOS 7884)"
     ],
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1350,
@@ -667,7 +782,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7884a_exynos7884a",
@@ -678,7 +797,7 @@
     "max_freq": "1.35 GHz",
     "gpu": "2 + 6 cores (1.35 GHz Cortex-A73 + 1.35 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7884A",
@@ -690,7 +809,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7885_exynos7885",
@@ -704,7 +827,7 @@
     "aliases": [
       "Exynos 7885 (EXYNOS 7885)"
     ],
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -715,7 +838,11 @@
     "process_nm": 14,
     "process_name": "14nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_7904_exynos7904",
@@ -729,7 +856,7 @@
     "aliases": [
       "Exynos 7904 (EXYNOS 7904)"
     ],
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -740,7 +867,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_8_octa_8890_exynos8octa8890",
@@ -751,7 +882,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "4 + 4 cores (2.3 GHz, up to 2.6 GHz in dual-core load, Exynos M1 \"Mongoose\" + 1.6 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4466,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 8 Octa 8890",
@@ -763,7 +894,11 @@
     "process_nm": 40,
     "process_name": "40nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_8895_exynos8895",
@@ -779,7 +914,7 @@
     "aliases": [
       "Exynos 8895 (EXYNOS 8895)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G71 MP20",
@@ -787,7 +922,11 @@
     "process_nm": 10,
     "process_name": "10nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9609_exynos9609",
@@ -802,13 +941,17 @@
     "aliases": [
       "Exynos 9609 (EXYNOS 9609)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 10,
     "process_name": "10nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9610_exynos9610",
@@ -822,7 +965,7 @@
     "aliases": [
       "Exynos 9610 (EXYNOS 9610)"
     ],
-    "completeness": 0.4951,
+    "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -833,7 +976,11 @@
     "process_nm": 10,
     "process_name": "10nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9611_exynos9611",
@@ -846,7 +993,7 @@
     "aliases": [
       "Exynos 9611 (EXYNOS 9611)"
     ],
-    "completeness": 0.4175,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "91.8",
@@ -854,7 +1001,11 @@
     "process_nm": 10,
     "process_name": "10nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9810_s5e9810_exynos9810",
@@ -870,7 +1021,7 @@
     "aliases": [
       "Exynos 9810 (S5E9810) (EXYNOS 9810)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "4 + 4 cores (2.9 GHz Exynos M3 \"Meerkat\" + 1.9 GHz Cortex-A55 )",
@@ -878,7 +1029,11 @@
     "process_nm": 10,
     "process_name": "10nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9820_s5e9820_exynos9820",
@@ -894,7 +1049,7 @@
     "aliases": [
       "Exynos 9820 (S5E9820) (EXYNOS 9820)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G76 MP12",
@@ -902,7 +1057,11 @@
     "process_nm": 8,
     "process_name": "8nm",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9825_s5e9825_exynos9825",
@@ -917,7 +1076,7 @@
     "aliases": [
       "Exynos 9825 (S5E9825) (EXYNOS 9825)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "754",
@@ -926,7 +1085,11 @@
     "process_name": "7nm",
     "gpu": "Mali-G76",
     "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0"
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0"
   },
   {
     "id": "exynos_9110_sc59110xsc_exynos9110",
@@ -940,7 +1103,7 @@
     "aliases": [
       "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
     ],
-    "completeness": 0.466,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "LPDDR4 LPDDR4X",
@@ -951,7 +1114,10 @@
     "memory_type": "LPDDR4",
     "storage_type": "UFS 2.1",
     "memory_clock": 1600,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_990_exynos990",
@@ -966,7 +1132,7 @@
     "process": "7nm",
     "year": 2019,
     "max_freq": "2.73 GHz",
-    "completeness": 0.4466,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -974,7 +1140,10 @@
     "memory_type": "LPDDR4X",
     "storage_type": "UFS 3.0",
     "memory_clock": 2133,
-    "memory_bus": 64
+    "memory_bus": 64,
+    "modem": "Exynos 4G LTE",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_1080_s5e9815_exynos1080",
@@ -989,11 +1158,20 @@
     "aliases": [
       "Exynos 1080 (S5E9815) (EXYNOS 1080)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.8 GHz Cortex-A78 + 2.6 GHz Cortex-A78 + 2.0 GHz Cortex-A55 )",
-    "modem": "Mali -G78 MP10"
+    "modem": "Mali -G78 MP10",
+    "year": 2020,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1280_s5e8825_exynos1280",
@@ -1007,11 +1185,20 @@
     "aliases": [
       "Exynos 1280 (S5E8825) (EXYNOS 1280)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "897",
-    "modem": "229.6"
+    "modem": "229.6",
+    "year": 2022,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1330_s5e8535_exynos1330",
@@ -1025,11 +1212,20 @@
     "aliases": [
       "Exynos 1330 (S5E8535) (EXYNOS 1330)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "121.5",
-    "modem": "LPDDR4X LPDDR5"
+    "modem": "LPDDR4X LPDDR5",
+    "year": 2022,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1380_s5e8835_exynos1380",
@@ -1043,11 +1239,20 @@
     "aliases": [
       "Exynos 1380 (S5E8835) (EXYNOS 1380)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "303.7",
-    "modem": "Single-core NPU 1196 MHz (4.9 TOPs)"
+    "modem": "Single-core NPU 1196 MHz (4.9 TOPs)",
+    "year": 2023,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1480_s5e8845_exynos1480",
@@ -1062,11 +1267,20 @@
     "aliases": [
       "Exynos 1480 (S5E8845) (EXYNOS 1480)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP)",
-    "modem": "1300"
+    "modem": "1300",
+    "year": 2024,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1580_s5e8855_exynos1580",
@@ -1081,11 +1295,20 @@
     "aliases": [
       "Exynos 1580 (S5E8855) (EXYNOS 1580)"
     ],
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.9 GHz Cortex-A720 + 2.6 GHz Cortex-A720 + 1.95 GHz Cortex-A52",
-    "modem": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP)"
+    "modem": "Xclipse 540 \"Ariel\" ( RDNA 3 based 256:16:8:4 2 WGP)",
+    "year": 2025,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_1680_s5e8865_exynos1680",
@@ -1099,11 +1322,20 @@
     "aliases": [
       "Exynos 1680 (S5E8865) (EXYNOS 1680)"
     ],
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1200",
-    "modem": "1,228.8"
+    "modem": "1,228.8",
+    "year": 2025,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 2",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_3_dual_3250_exynos3dual3250",
@@ -1114,12 +1346,21 @@
     "max_freq": "1.0 GHz",
     "gpu": "Mali -400 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Dual 3250",
     "npu": "Mali -400 MP2",
-    "modem": "400"
+    "modem": "400",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_4_dual_4212_single_core_exynos4dual4212singlecore",
@@ -1130,7 +1371,7 @@
     "process": "32 nm",
     "max_freq": "0.8 GHz",
     "gpu": "Mali-400 MP4",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4212 (Single core)",
@@ -1138,7 +1379,16 @@
     "modem": "Mali-400 MP4",
     "aliases": [
       "Exynos 4 Dual 4212 (Single core) (Exynos 4 Dual 4212 (Single core) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_7_dual_7270_exynos7dual7270",
@@ -1149,10 +1399,20 @@
     "max_freq": "1.0 GHz",
     "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 7 Dual 7270"
+    "model": "Exynos 7 Dual 7270",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_7_dual_7270_sc57270_exynos7dual7270sc57270",
@@ -1163,7 +1423,7 @@
     "process": "14 nm",
     "max_freq": "1.0 GHz",
     "gpu": "Mali-T720 MP1",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Dual 7270 (SC57270)",
@@ -1171,7 +1431,16 @@
     "modem": "Mali-T720 MP1",
     "aliases": [
       "Exynos 7 Dual 7270 (SC57270) (Exynos 7 Dual 7270 (SC57270) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_850_exynos850",
@@ -1182,10 +1451,20 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 850"
+    "model": "Exynos 850",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_850_s5e3830_exynos850s5e3830",
@@ -1196,7 +1475,7 @@
     "process": "8 nm",
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MP1",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 850 (S5E3830)",
@@ -1204,7 +1483,16 @@
     "modem": "Mali-G52 MP1",
     "aliases": [
       "Exynos 850 (S5E3830) (Exynos 850 (S5E3830) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_880_exynos880",
@@ -1214,10 +1502,20 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 880"
+    "model": "Exynos 880",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_880_s5e8805_exynos880s5e8805",
@@ -1227,7 +1525,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
     "gpu": "2 + 6 cores (2.0 GHz Cortex-A77 + 1.8 GHz Cortex-A55 )",
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 880 (S5E8805)",
@@ -1235,7 +1533,16 @@
     "modem": "131",
     "aliases": [
       "Exynos 880 (S5E8805) (Exynos 880 (S5E8805) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_980_exynos980",
@@ -1246,10 +1553,20 @@
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos 980"
+    "model": "Exynos 980",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_980_s5e9630_exynos980s5e9630",
@@ -1260,7 +1577,7 @@
     "process": "8 nm",
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 980 (S5E9630)",
@@ -1268,7 +1585,16 @@
     "modem": "Mali-G76 MP5",
     "aliases": [
       "Exynos 980 (S5E9630) (Exynos 980 (S5E9630) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_990",
@@ -1279,12 +1605,20 @@
     "max_freq": "3.02 GHz",
     "gpu": "Mali-G77 MP11",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3495,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 990",
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2020,
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_990_s5e9830_exynos990s5e9830",
@@ -1295,7 +1629,7 @@
     "process": "7 nm",
     "max_freq": "3.02 GHz",
     "gpu": "91.83",
-    "completeness": 0.3981,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 990 (S5E9830)",
@@ -1305,7 +1639,14 @@
       "Exynos 990 (S5E9830) (Exynos 990 (S5E9830) )"
     ],
     "process_nm": 7,
-    "process_name": "7nm"
+    "process_name": "7nm",
+    "year": 2025,
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_auto_8890_exynosauto8890",
@@ -1316,10 +1657,20 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-T880 MP12",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto 8890"
+    "model": "Exynos Auto 8890",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_auto_8890_sga8890a_exynosauto8890sga8890a",
@@ -1330,7 +1681,7 @@
     "process": "14 nm",
     "max_freq": "2.6 GHz",
     "gpu": "Mali-T880 MP12",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto 8890 (SGA8890A)",
@@ -1338,7 +1689,16 @@
     "modem": "650",
     "aliases": [
       "Exynos Auto 8890 (SGA8890A) (Exynos Auto 8890 (SGA8890A) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_auto_t5123",
@@ -1349,9 +1709,19 @@
     "max_freq": "2133 MHz",
     "architecture": "ARMv8.2-A",
     "model": "T5123",
-    "completeness": 0.2816,
+    "completeness": 0.4854,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_auto_v7_exynosautov7",
@@ -1362,14 +1732,24 @@
     "max_freq": "1.5 GHz",
     "gpu": "2× Mali-G76 (MP8 + MP3)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3398,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V7",
     "npu": "2× Mali-G76 (MP8 + MP3)",
     "aliases": [
       "Exynos Auto V7 (Exynos Auto V7 )"
-    ]
+    ],
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "modem": "Exynos 4G LTE",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2"
   },
   {
     "id": "exynos_auto_v9_exynosautov9",
@@ -1379,10 +1759,20 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
     "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
-    "completeness": 0.301,
+    "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto V9"
+    "model": "Exynos Auto V9",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_auto_v9_s5ahr80a_exynosautov9s5ahr80a",
@@ -1392,7 +1782,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.10 GHz",
     "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
-    "completeness": 0.3592,
+    "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V9 (S5AHR80A)",
@@ -1400,7 +1790,17 @@
     "clock_max": 2100,
     "aliases": [
       "Exynos Auto V9 (S5AHR80A) (Exynos Auto V9 (S5AHR80A) )"
-    ]
+    ],
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_auto_v920_exynosautov920",
@@ -1411,10 +1811,20 @@
     "gpu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
     "max_freq": "3200 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos Auto V920"
+    "model": "Exynos Auto V920",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_auto_v920_s5av920_exynosautov920s5av920",
@@ -1425,14 +1835,24 @@
     "process": "5 nm",
     "gpu": "148.72",
     "max_freq": "3200 MHz",
-    "completeness": 0.3398,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V920 (S5AV920)",
     "npu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
     "aliases": [
       "Exynos Auto V920 (S5AV920) (Exynos Auto V920 (S5AV920) )"
-    ]
+    ],
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_w1000_exynosw1000",
@@ -1442,10 +1862,20 @@
     "cores": 3,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2816,
+    "completeness": 0.4854,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos W1000"
+    "model": "Exynos W1000",
+    "year": 2005,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.0",
+    "gpu": "Mali GPU"
   },
   {
     "id": "exynos_w1000_sc55535aha_exynosw1000sc55535aha",
@@ -1455,7 +1885,7 @@
     "architecture": "ARMv8.2-A",
     "process": "3 nm",
     "max_freq": "1.6 GHz",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W1000 (SC55535AHA)",
@@ -1464,7 +1894,16 @@
     "modem": "89.9",
     "aliases": [
       "Exynos W1000 (SC55535AHA) (Exynos W1000 (SC55535AHA) )"
-    ]
+    ],
+    "year": 2005,
+    "process_nm": 65,
+    "process_name": "65nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.0"
   },
   {
     "id": "exynos_w920_exynosw920",
@@ -1475,10 +1914,20 @@
     "max_freq": "1.18 GHz",
     "gpu": "Mali-G68 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.3107,
+    "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Exynos W920"
+    "model": "Exynos W920",
+    "year": 2020,
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "modem": "Exynos 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0"
   },
   {
     "id": "exynos_w920_sc55515xbd_exynosw920sc55515xbd",
@@ -1489,7 +1938,7 @@
     "process": "5 nm",
     "max_freq": "1.18 GHz",
     "gpu": "Mali-G68 MP2",
-    "completeness": 0.3592,
+    "completeness": 0.534,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W920 (SC55515XBD)",
@@ -1497,7 +1946,16 @@
     "modem": "Mali-G68 MP2",
     "aliases": [
       "Exynos W920 (SC55515XBD) (Exynos W920 (SC55515XBD) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   },
   {
     "id": "exynos_w930_sc55515xbe_exynosw930sc55515xbe",
@@ -1506,7 +1964,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.3495,
+    "completeness": 0.5243,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W930 (SC55515XBE)",
@@ -1515,6 +1973,15 @@
     "modem": "Q3 2023",
     "aliases": [
       "Exynos W930 (SC55515XBE) (Exynos W930 (SC55515XBE) )"
-    ]
+    ],
+    "year": 2025,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
   }
 ]

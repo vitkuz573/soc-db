@@ -3,6 +3,7 @@
 set -euo pipefail
 DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$DIR/.."
+export PYTHONPATH="$ROOT/src:$PYTHONPATH"
 
 echo "=== SOC-DB Scraper Suite ==="
 echo ""
