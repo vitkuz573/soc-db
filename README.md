@@ -3,6 +3,9 @@
 [![GitHub Pages](https://img.shields.io/badge/Web%20UI-vitkuz573.github.io/soc--db-2ea44f)](https://vitkuz573.github.io/soc-db/)
 [![Swagger](https://img.shields.io/badge/Swagger-API%20Docs-85EA2D)](https://vitkuz573.github.io/soc-db/docs/swagger.html)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Changelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog-E05735)](CHANGELOG.md)
+[![Contributing](https://img.shields.io/badge/contributing-guide-2ea44f)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-Contributor%20Covenant-ff69b4)](CODE_OF_CONDUCT.md)
 
 Enterprise-grade SoC / CPU identifier database.
 
@@ -39,7 +42,7 @@ soc-db/
 ├── schema/           # JSON Schema
 ├── scripts/          # Legacy runner scripts
 ├── deploy/           # Systemd timer for auto-update
-├── docs/             # Docs + Swagger UI for GitHub Pages
+├── docs/             # OpenAPI spec + Swagger UI for GitHub Pages
 └── pyproject.toml    # Project metadata & tooling config
 ```
 
@@ -120,6 +123,18 @@ Each chip entry follows [JSON Schema](schema/chip-schema.json):
 
 Run `make scrape` to refresh all data from Wikipedia.
 
+## Project Status
+
+SOC-DB follows **semantic versioning** (see [CHANGELOG](CHANGELOG.md)).
+Data format is versioned via `data/index.json` and may evolve with minor bumps.
+
+## Community
+
+- [Contributing Guide](CONTRIBUTING.md) — how to help
+- [Code of Conduct](CODE_OF_CONDUCT.md) — community standards
+- [Security Policy](SECURITY.md) — how to report vulnerabilities
+- [Issue Templates](https://github.com/vitkuz573/soc-db/issues/new/choose) — bug, feature, data issue
+
 ## Enterprise Features
 
 - **Structured logging** — all `print()` replaced with `logging` calls
@@ -133,7 +148,7 @@ Run `make scrape` to refresh all data from Wikipedia.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
 
 ## Links
 
@@ -141,3 +156,4 @@ MIT
 - **Swagger Docs**: https://vitkuz573.github.io/soc-db/docs/swagger.html
 - **Repository**: https://github.com/vitkuz573/soc-db
 - **API Docs**: https://vitkuz573.github.io/soc-db/docs/api.html
+- **Changelog**: https://github.com/vitkuz573/soc-db/blob/main/CHANGELOG.md

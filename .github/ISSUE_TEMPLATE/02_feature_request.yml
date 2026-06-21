@@ -1,0 +1,26 @@
+name: Feature Request
+description: Suggest an idea for SOC-DB
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Tell us what would make SOC-DB more useful.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What gap or limitation are you trying to address?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How should it work?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What workarounds have you considered?

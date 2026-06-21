@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Issue
+    url: https://github.com/vitkuz573/soc-db/security/policy
+    about: Please report security vulnerabilities privately.

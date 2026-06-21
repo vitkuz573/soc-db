@@ -1,0 +1,40 @@
+name: Bug Report
+description: Report a bug in the data, CLI, API, or frontend
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Data (wrong chip info, missing field, etc.)
+        - CLI (soc-db command errors)
+        - API (REST server bug)
+        - Frontend (GitHub Pages UI)
+        - Scraper (Wikipedia extraction)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Steps or query to reproduce the issue.
+      placeholder: |
+        1. Run `soc-db query --vendor ...`
+        2. See error
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Version from data/index.json or the commit hash.

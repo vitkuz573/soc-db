@@ -1,0 +1,35 @@
+name: Data Issue
+description: Report missing, incorrect, or outdated chip data
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: Help us keep the database accurate.
+  - type: input
+    id: chip
+    attributes:
+      label: Chip ID or Name
+      description: e.g. `sm8250_kona` or "Snapdragon 870"
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: e.g. Qualcomm, MediaTek
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's wrong?
+      description: Missing chip? Wrong process node? Incorrect core count?
+      placeholder: |
+        - Field "cores" should be 8, not 4
+        - Missing chip "Snapdragon 8 Gen 4" (SM8750)
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link to Wikipedia or official specification
+      placeholder: https://en.wikipedia.org/...
