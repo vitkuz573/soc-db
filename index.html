@@ -3,109 +3,229 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SOC-DB · SoC Identifier Database</title>
+<title>SOC-DB · SoC/CPU Database</title>
+<meta name="description" content="Enterprise SoC / CPU identifier database — 1096+ chips across 23 vendors. Search, filter, sort, and explore.">
+<meta property="og:title" content="SOC-DB · SoC/CPU Database">
+<meta property="og:description" content="1096+ chips across 23 vendors. Search, filter, sort, and explore.">
+<meta property="og:url" content="https://vitkuz573.github.io/soc-db/">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
 <style>
-  :root {
-    --bg: #0d1117;
-    --surface: #151b23;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --accent: #58a6ff;
-    --accent2: #3fb950;
-    --accent3: #d29922;
-    --radius: 8px;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
-    background: var(--bg); color: var(--text); padding: 24px; line-height: 1.6;
-  }
-  .container { max-width: 960px; margin: 0 auto; }
-  header { text-align: center; margin-bottom: 32px; }
-  h1 { font-size: 2rem; font-weight: 700; }
-  h1 span { color: var(--accent); }
-  .subtitle { color: var(--muted); margin-top: 4px; font-size: 0.9rem; }
-  .stats { display: flex; gap: 16px; justify-content: center; margin: 16px 0; flex-wrap: wrap; }
-  .stat-card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 12px 24px; text-align: center; min-width: 100px;
-  }
-  .stat-card .num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
-  .stat-card .label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; }
-  .search-box {
-    width: 100%; padding: 12px 16px; font-size: 1rem;
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); color: var(--text); outline: none;
-  }
-  .search-box:focus { border-color: var(--accent); }
-  .vendor-nav { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 16px 0 24px; }
-  .vendor-btn {
-    padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
-    background: var(--surface); color: var(--text); cursor: pointer; font-size: 0.85rem;
-    transition: all 0.15s;
-  }
-  .vendor-btn:hover { border-color: var(--accent); color: var(--accent); }
-  .vendor-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .table-wrap { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-  th {
-    text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border);
-    color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;
-    cursor: pointer; user-select: none; white-space: nowrap;
-  }
-  th:hover { color: var(--text); }
-  th::after { content: ' ↕'; opacity: 0.3; }
-  th.sort-asc::after { content: ' ↑'; opacity: 1; color: var(--accent); }
-  th.sort-desc::after { content: ' ↓'; opacity: 1; color: var(--accent); }
-  td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
-  tr:hover td { background: var(--surface); }
-  .vendor-badge {
-    display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem;
-    font-weight: 600;
-  }
-  .vendor-Qualcomm { background: #1a3a1a; color: #3fb950; }
-  .vendor-MediaTek { background: #1a2a3a; color: #58a6ff; }
-  .vendor-Samsung { background: #2a1a2a; color: #bc8cff; }
-  .vendor-HiSilicon { background: #2a2a1a; color: #d29922; }
-  .vendor-Google { background: #1a2a2a; color: #3fb950; }
-  .vendor-Apple { background: #2a1a1a; color: #f78166; }
-  .chip-name { font-weight: 600; color: var(--accent); cursor: pointer; }
-  .chip-name:hover { text-decoration: underline; }
-  .empty { text-align: center; padding: 48px; color: var(--muted); }
-  .chip-detail {
-    display: none; background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 24px; margin-top: 16px;
-  }
-  .chip-detail.open { display: block; }
-  .chip-detail h2 { margin-bottom: 16px; }
-  .detail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-  .detail-item dt { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
-  .detail-item dd { font-size: 1rem; }
-  .close-btn {
-    float: right; background: none; border: none; color: var(--muted); font-size: 1.5rem;
-    cursor: pointer;
-  }
-  .close-btn:hover { color: var(--text); }
-  .footer { text-align: center; margin-top: 48px; color: var(--muted); font-size: 0.8rem; }
-  .footer a { color: var(--accent); }
-  @media (max-width: 600px) {
-    body { padding: 12px; }
-    th, td { padding: 8px; }
-    .stat-card { min-width: 80px; padding: 8px 16px; }
-  }
+:root {
+  --bg: #0b0f17;
+  --surface: rgba(21, 27, 35, 0.85);
+  --surface-hover: rgba(30, 40, 55, 0.9);
+  --border: rgba(48, 54, 61, 0.6);
+  --text: #e6edf3;
+  --text-dim: #6e7681;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-glow: rgba(88, 166, 255, 0.15);
+  --green: #3fb950;
+  --green-glow: rgba(63, 185, 80, 0.12);
+  --yellow: #d29922;
+  --red: #f85149;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
+  background-image: radial-gradient(ellipse at 50% 0%, rgba(88, 166, 255, 0.04) 0%, transparent 60%);
+}
+::selection { background: var(--accent); color: #fff; }
+
+/* Hero */
+.hero {
+  text-align: center; padding: 56px 24px 48px; position: relative; overflow: hidden;
+  background: linear-gradient(180deg, rgba(88, 166, 255, 0.06) 0%, transparent 100%);
+}
+.hero::before {
+  content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+  background: radial-gradient(circle at 50% 40%, rgba(88, 166, 255, 0.04) 0%, transparent 50%);
+  animation: heroGlow 8s ease-in-out infinite alternate;
+}
+@keyframes heroGlow {
+  0% { transform: translate(0, 0); opacity: 0.5; }
+  100% { transform: translate(2%, -2%); opacity: 1; }
+}
+.hero h1 {
+  font-size: 3rem; font-weight: 800; letter-spacing: -1px; position: relative;
+  background: linear-gradient(135deg, var(--accent) 0%, #a371f7 50%, var(--green) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.hero h1 span { font-weight: 300; }
+.hero .subtitle { color: var(--text-muted); font-size: 1.05rem; margin-top: 6px; position: relative; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+/* Stats */
+.stats { display: flex; gap: 12px; justify-content: center; margin: -28px auto 24px; flex-wrap: wrap; position: relative; z-index: 1; }
+.stat-card {
+  background: var(--surface); backdrop-filter: blur(12px); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 28px; text-align: center; min-width: 120px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3); transition: transform 0.2s, box-shadow 0.2s;
+}
+.stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.stat-card .icon { font-size: 1.2rem; display: block; margin-bottom: 2px; }
+.stat-card .num { font-size: 1.6rem; font-weight: 700; color: var(--accent); line-height: 1.2; }
+.stat-card .label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px; }
+
+/* Search */
+.search-wrap { position: relative; margin-bottom: 16px; }
+.search-wrap .icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-dim); font-size: 1rem; pointer-events: none; }
+.search-box {
+  width: 100%; padding: 12px 16px 12px 40px; font-size: 0.95rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  color: var(--text); outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+  backdrop-filter: blur(12px);
+}
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+.search-box::placeholder { color: var(--text-dim); }
+.search-meta { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 0.8rem; color: var(--text-muted); }
+.result-count { font-size: 0.8rem; }
+.result-count strong { color: var(--text); }
+.clear-btn {
+  background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 0.8rem;
+  padding: 2px 8px; border-radius: var(--radius-sm); transition: background 0.15s;
+}
+.clear-btn:hover { background: var(--surface-hover); color: var(--text); }
+
+/* Vendor nav */
+.vendor-nav { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 20px; }
+.vendor-btn {
+  padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text-muted); cursor: pointer; font-size: 0.82rem;
+  transition: all 0.15s; backdrop-filter: blur(8px);
+}
+.vendor-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
+.vendor-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; }
+.vendor-btn .count { opacity: 0.6; }
+
+/* Table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); backdrop-filter: blur(12px); }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+thead { position: sticky; top: 0; z-index: 2; }
+th {
+  text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border);
+  color: var(--text-muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.6px;
+  cursor: pointer; user-select: none; white-space: nowrap; background: rgba(13, 17, 23, 0.9);
+  backdrop-filter: blur(8px);
+}
+th:hover { color: var(--text); }
+th .sort-icon { display: inline-block; margin-left: 2px; opacity: 0.3; }
+th.sort-asc .sort-icon { opacity: 1; color: var(--accent); }
+th.sort-desc .sort-icon { opacity: 1; color: var(--accent); }
+td { padding: 9px 12px; border-bottom: 1px solid rgba(48, 54, 61, 0.3); transition: background 0.15s; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--surface-hover); }
+tr { transition: opacity 0.2s; }
+.vendor-badge {
+  display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 0.73rem; font-weight: 600;
+}
+.vendor-Qualcomm { background: rgba(63, 185, 80, 0.12); color: var(--green); }
+.vendor-MediaTek { background: rgba(88, 166, 255, 0.12); color: var(--accent); }
+.vendor-Samsung { background: rgba(188, 140, 255, 0.12); color: #bc8cff; }
+.vendor-HiSilicon { background: rgba(210, 153, 34, 0.12); color: var(--yellow); }
+.vendor-Google { background: rgba(63, 185, 80, 0.12); color: var(--green); }
+.vendor-Apple { background: rgba(248, 129, 102, 0.12); color: #f78166; }
+.vendor-Rockchip { background: rgba(88, 166, 255, 0.12); color: var(--accent); }
+.vendor-Allwinner { background: rgba(210, 153, 34, 0.12); color: var(--yellow); }
+.vendor-Amlogic { background: rgba(188, 140, 255, 0.12); color: #bc8cff; }
+.vendor-Nvidia { background: rgba(63, 185, 80, 0.12); color: var(--green); }
+.vendor-TIOMAP { background: rgba(248, 129, 102, 0.12); color: #f78166; }
+.vendor-IntelAtom { background: rgba(88, 166, 255, 0.12); color: var(--accent); }
+.vendor-Ingenic { background: rgba(210, 153, 34, 0.12); color: var(--yellow); }
+.vendor-NXPi.MX { background: rgba(188, 140, 255, 0.12); color: #bc8cff; }
+.chip-name { font-weight: 600; color: var(--accent); cursor: pointer; }
+.chip-name:hover { text-decoration: underline; }
+
+/* Skeleton */
+.skeleton .sk-row td { height: 38px; }
+.sk-pulse { background: linear-gradient(90deg, var(--surface) 25%, rgba(48,54,61,0.4) 50%, var(--surface) 75%); background-size: 200% 100%; animation: skPulse 1.5s ease-in-out infinite; border-radius: 4px; display: inline-block; height: 12px; width: 80%; }
+.sk-pulse.w40 { width: 40%; } .sk-pulse.w60 { width: 60%; } .sk-pulse.w30 { width: 30%; } .sk-pulse.w20 { width: 20%; }
+@keyframes skPulse { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+/* Empty state */
+.empty-state { text-align: center; padding: 48px 24px; color: var(--text-muted); }
+.empty-state .icon { font-size: 2rem; margin-bottom: 8px; display: block; }
+.empty-state p { font-size: 0.9rem; }
+
+/* Chip detail */
+.chip-detail {
+  display: none; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 24px; margin-top: 16px;
+  position: relative; animation: slideDown 0.25s ease-out;
+}
+.chip-detail.open { display: block; }
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.chip-detail h2 { font-size: 1.3rem; margin-bottom: 16px; padding-right: 32px; }
+.detail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.detail-item dt { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 1px; }
+.detail-item dd { font-size: 0.95rem; font-weight: 500; word-break: break-word; }
+.close-btn {
+  position: absolute; top: 12px; right: 16px; background: none; border: none;
+  color: var(--text-muted); font-size: 1.4rem; cursor: pointer; padding: 4px;
+  line-height: 1; border-radius: var(--radius-sm); transition: color 0.15s, background 0.15s;
+}
+.close-btn:hover { color: var(--text); background: var(--surface-hover); }
+
+/* Back to top */
+.btt {
+  position: fixed; bottom: 24px; right: 24px; width: 40px; height: 40px; border-radius: 50%;
+  background: var(--surface); border: 1px solid var(--border); color: var(--text-muted);
+  font-size: 1.2rem; cursor: pointer; opacity: 0; transform: translateY(12px);
+  transition: opacity 0.25s, transform 0.25s, background 0.15s; display: flex;
+  align-items: center; justify-content: center; backdrop-filter: blur(12px);
+  z-index: 100;
+}
+.btt.visible { opacity: 1; transform: translateY(0); }
+.btt:hover { background: var(--surface-hover); color: var(--text); }
+
+/* Footer */
+.footer { text-align: center; padding: 40px 20px; color: var(--text-dim); font-size: 0.8rem; }
+.footer a { color: var(--text-muted); text-decoration: none; padding: 4px 10px; border-radius: var(--radius-sm); transition: color 0.15s, background 0.15s; }
+.footer a:hover { color: var(--accent); background: var(--accent-glow); }
+.footer .dot { color: var(--text-dim); opacity: 0.3; }
+
+/* Keyboard hint */
+.kbd {
+  display: inline-block; padding: 1px 6px; border-radius: 4px; border: 1px solid var(--border);
+  font-family: inherit; font-size: 0.7rem; color: var(--text-dim); background: var(--surface);
+  vertical-align: middle; line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .hero { padding: 36px 16px 40px; }
+  .hero h1 { font-size: 2rem; }
+  .stat-card { min-width: 90px; padding: 10px 16px; }
+  .stat-card .num { font-size: 1.2rem; }
+}
 </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1><span>SOC</span>-DB</h1>
-    <div class="subtitle">Enterprise SoC / CPU Identifier Database</div>
-  </header>
 
+<div class="hero">
+  <h1>SoC<span>-DB</span></h1>
+  <div class="subtitle">Enterprise SoC / CPU Identifier Database</div>
+</div>
+
+<div class="container">
   <div class="stats" id="stats"></div>
 
-  <input type="text" class="search-box" id="search" placeholder="Search by name, model, codename, device..." autofocus>
+  <div class="search-wrap">
+    <span class="icon">🔍</span>
+    <input type="text" class="search-box" id="search" placeholder="Search by name, model, codename, device…" autofocus>
+  </div>
+  <div class="search-meta">
+    <span class="result-count" id="resultCount"></span>
+    <span>Press <span class="kbd">/</span> to focus · <span class="kbd">Esc</span> to clear</span>
+  </div>
 
   <div class="vendor-nav" id="vendorNav"></div>
 
@@ -113,82 +233,139 @@
     <table>
       <thead>
         <tr>
-          <th data-sort="name">Name</th>
-          <th data-sort="vendor">Vendor</th>
-          <th data-sort="model">Model</th>
-          <th data-sort="cores">Cores</th>
-          <th data-sort="year">Year</th>
-          <th data-sort="process">Process</th>
+          <th data-sort="name">Name <span class="sort-icon">↕</span></th>
+          <th data-sort="vendor">Vendor <span class="sort-icon">↕</span></th>
+          <th data-sort="model">Model <span class="sort-icon">↕</span></th>
+          <th data-sort="cores">Cores <span class="sort-icon">↕</span></th>
+          <th data-sort="year">Year <span class="sort-icon">↕</span></th>
+          <th data-sort="process">Process <span class="sort-icon">↕</span></th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
     </table>
   </div>
 
-  <div class="empty" id="empty">No chips found</div>
+  <div class="empty-state" id="empty" style="display:none">
+    <span class="icon">🔎</span>
+    <p>No chips found — try a different search or filter</p>
+  </div>
 
   <div class="chip-detail" id="chipDetail">
     <button class="close-btn" onclick="closeDetail()">✕</button>
     <h2 id="detailName"></h2>
     <div class="detail-grid" id="detailGrid"></div>
   </div>
+</div>
 
-  <div class="footer">
-    <a href="https://github.com/vitkuz573/soc-db">GitHub</a> ·
-    <a href="https://vitkuz573.github.io/soc-db/schema/chip-schema.json">Schema</a> ·
-    <a href="docs/api.md">API</a> ·
-    <a href="docs/contributing.md">Contributing</a> ·
-    <span id="footerInfo"></span>
-  </div>
+<button class="btt" id="bttBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<div class="footer">
+  <a href="https://github.com/vitkuz573/soc-db">GitHub</a> <span class="dot">·</span>
+  <a href="schema/chip-schema.json">Schema</a> <span class="dot">·</span>
+  <a href="docs/swagger.html">Swagger</a> <span class="dot">·</span>
+  <a href="docs/api.md">API</a> <span class="dot">·</span>
+  <span id="footerInfo"></span>
 </div>
 
 <script>
-let allChips = [];
-let currentVendor = 'all';
+let allChips = [], isLoading = true;
+let currentVendor = 'all', currentSort = { key: '', dir: 'asc' };
+let searchDebounce = null;
+
+// ── URL helpers ──────────────────────────────────────────
+function updateURL() {
+  const p = new URLSearchParams();
+  if (currentVendor !== 'all') p.set('vendor', currentVendor);
+  const q = document.getElementById('search').value.trim();
+  if (q) p.set('q', q);
+  const s = currentSort.key ? `${currentSort.key},${currentSort.dir}` : '';
+  if (s) p.set('sort', s);
+  const url = p.toString() ? '?' + p.toString() : window.location.pathname;
+  history.replaceState(null, '', url);
+}
+
+function applyURL() {
+  const p = new URLSearchParams(location.search);
+  const v = p.get('vendor');
+  if (v) currentVendor = v;
+  const q = p.get('q');
+  if (q) document.getElementById('search').value = q;
+  const s = p.get('sort');
+  if (s) {
+    const [key, dir] = s.split(',');
+    if (key && dir) { currentSort = { key, dir }; }
+  }
+}
+
+// ── Loading ──────────────────────────────────────────────
+function showSkeleton() {
+  const rows = 8;
+  document.getElementById('tableBody').innerHTML =
+    `<tr class="skeleton">${'<td colspan="6"><div class="sk-pulse" style="width:60%"></div></td>'.repeat(6)}</tr>`.repeat(rows);
+}
 
 async function loadData() {
+  showSkeleton();
   try {
     const idx = await fetch('data/index.json').then(r => r.json());
     const files = Object.values(idx.vendors).map(v => v.file);
     const results = await Promise.all(files.map(f => fetch(`data/${f}`).then(r => r.json())));
     allChips = results.flat();
+    isLoading = false;
     renderStats(idx);
     renderVendors(idx);
-    renderTable(allChips);
+    activeVendor(currentVendor);
+    filterTable();
   } catch (e) {
-    document.getElementById('stats').innerHTML = `<div style="color:#f85149">Failed to load: ${e.message}</div>`;
+    isLoading = false;
+    document.getElementById('stats').innerHTML =
+      `<div class="stat-card" style="border-color:var(--red)"><span class="icon">⚠️</span><div class="num" style="font-size:0.85rem;color:var(--red)">Failed to load: ${e.message}</div></div>`;
+    document.getElementById('tableBody').innerHTML = '';
   }
 }
 
+// ── Render ───────────────────────────────────────────────
 function renderStats(idx) {
   const el = document.getElementById('stats');
-  let html = `<div class="stat-card"><div class="num">${idx.total}</div><div class="label">Chips</div></div>`;
-  html += `<div class="stat-card"><div class="num">${Object.keys(idx.vendors).length}</div><div class="label">Vendors</div></div>`;
-  html += `<div class="stat-card"><div class="num">${new Date(idx.updated).toLocaleDateString()}</div><div class="label">Updated</div></div>`;
-  el.innerHTML = html;
-  document.getElementById('footerInfo').textContent = `v${idx.version} · ${idx.total} chips`;
+  const icons = ['🧠', '🏭', '📅'];
+  el.innerHTML = [
+    [idx.total, 'Chips'],
+    [Object.keys(idx.vendors).length, 'Vendors'],
+    [new Date(idx.updated).toLocaleDateString(), 'Updated'],
+  ].map(([n, l], i) => `<div class="stat-card"><span class="icon">${icons[i]}</span><div class="num">${n}</div><div class="label">${l}</div></div>`).join('');
+  document.getElementById('footerInfo').textContent = `v${idx.version} · ${idx.total} chips · ${Object.keys(idx.vendors).length} vendors`;
 }
 
 function renderVendors(idx) {
   const nav = document.getElementById('vendorNav');
-  let html = `<button class="vendor-btn active" data-vendor="all">All</button>`;
-  for (const [key, v] of Object.entries(idx.vendors)) {
-    html += ` <button class="vendor-btn" data-vendor="${key}">${v.name} (${v.count})</button>`;
-  }
-  nav.innerHTML = html;
+  nav.innerHTML = `<button class="vendor-btn active" data-vendor="all">All <span class="count">${idx.total}</span></button>` +
+    Object.entries(idx.vendors).map(([k, v]) =>
+      `<button class="vendor-btn" data-vendor="${k}">${v.name} <span class="count">${v.count}</span></button>`
+    ).join('');
   nav.querySelectorAll('.vendor-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       nav.querySelectorAll('.vendor-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentVendor = btn.dataset.vendor;
+      updateURL();
       filterTable();
     });
+  });
+}
+
+function activeVendor(key) {
+  if (key === 'all') return;
+  document.querySelectorAll('.vendor-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.vendor === key);
   });
 }
 
 function renderTable(chips) {
   const tbody = document.getElementById('tableBody');
   const empty = document.getElementById('empty');
+  document.getElementById('resultCount').innerHTML = chips.length === allChips.length
+    ? `<strong>${allChips.length}</strong> chips`
+    : `<strong>${chips.length}</strong> of <strong>${allChips.length}</strong> chips`;
   if (!chips.length) {
     tbody.innerHTML = '';
     empty.style.display = 'block';
@@ -196,35 +373,87 @@ function renderTable(chips) {
   }
   empty.style.display = 'none';
   tbody.innerHTML = chips.map(c => {
-    const vclass = `vendor-${c.vendor.replace(/\s+/g, '')}`;
+    const vclass = 'vendor-' + c.vendor.replace(/[\s.]+/g, '');
+    const highlight = document.getElementById('search').value.trim();
+    const name = highlight ? highlightText(c.name, highlight) : esc(c.name);
     return `<tr>
-      <td><span class="chip-name" onclick="showDetail('${c.id}')">${c.name}</span></td>
-      <td><span class="vendor-badge ${vclass}">${c.vendor}</span></td>
-      <td>${c.model || '—'}</td>
+      <td><span class="chip-name" onclick="showDetail('${escAttr(c.id)}')">${name}</span></td>
+      <td><span class="vendor-badge ${vclass}">${esc(c.vendor)}</span></td>
+      <td>${c.model ? esc(c.model) : '<span style="color:var(--text-dim)">—</span>'}</td>
       <td>${c.cores}</td>
-      <td>${c.year}</td>
-      <td>${c.process || '—'}</td>
+      <td>${c.year || '<span style="color:var(--text-dim)">—</span>'}</td>
+      <td>${c.process ? esc(c.process) : '<span style="color:var(--text-dim)">—</span>'}</td>
     </tr>`;
   }).join('');
 }
 
+function highlightText(text, query) {
+  if (!query) return esc(text);
+  const re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+  return esc(text).replace(re, '<mark style="background:rgba(88,166,255,0.25);color:var(--accent);border-radius:2px;padding:0 2px">$1</mark>');
+}
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escAttr(s) { return String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+
+// ── Filter & sort ────────────────────────────────────────
 function filterTable() {
   const q = document.getElementById('search').value.toLowerCase();
   let filtered = allChips;
-  if (currentVendor !== 'all') {
-    const idx = window.__index;
-    const vname = idx.vendors[currentVendor]?.name || '';
-    filtered = filtered.filter(c => c.vendor === vname);
+  if (currentVendor !== 'all' && window.__index) {
+    const vname = window.__index.vendors[currentVendor]?.name || '';
+    if (vname) filtered = filtered.filter(c => c.vendor === vname);
   }
   if (q) {
-    filtered = filtered.filter(c => {
-      const s = JSON.stringify(c).toLowerCase();
-      return s.includes(q);
+    filtered = filtered.filter(c => JSON.stringify(c).toLowerCase().includes(q));
+  }
+  if (currentSort.key) {
+    const { key, dir } = currentSort;
+    filtered.sort((a, b) => {
+      const va = a[key] ?? '', vb = b[key] ?? '';
+      if (typeof va === 'number') return dir === 'asc' ? va - vb : vb - va;
+      return dir === 'asc'
+        ? String(va).localeCompare(String(vb))
+        : String(vb).localeCompare(String(va));
     });
   }
   renderTable(filtered);
 }
 
+// ── Search ───────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', () => {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => { updateURL(); filterTable(); }, 150);
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+    e.preventDefault();
+    document.getElementById('search').focus();
+  }
+  if (e.key === 'Escape') {
+    const s = document.getElementById('search');
+    if (s.value) { s.value = ''; updateURL(); filterTable(); }
+    else s.blur();
+  }
+});
+
+// ── Sorting ──────────────────────────────────────────────
+function setupSort() {
+  document.querySelectorAll('th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.sort;
+      const dir = currentSort.key === key && currentSort.dir === 'asc' ? 'desc' : 'asc';
+      currentSort = { key, dir };
+      document.querySelectorAll('th[data-sort]').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+      th.classList.add(dir === 'asc' ? 'sort-asc' : 'sort-desc');
+      updateURL();
+      filterTable();
+    });
+  });
+}
+
+// ── Chip detail ──────────────────────────────────────────
 function showDetail(id) {
   const chip = allChips.find(c => c.id === id);
   if (!chip) return;
@@ -242,50 +471,43 @@ function showDetail(id) {
     ['GPU', chip.gpu],
     ['Process', chip.process],
     ['Year', chip.year],
-    ['Max Freq', chip.max_freq],
+    ['Max Freq', chip.max_freq ? (typeof chip.max_freq === 'string' ? chip.max_freq : chip.max_freq + ' MHz') : null],
     ['Cache L1', chip.cache?.l1],
     ['Cache L2', chip.cache?.l2],
     ['Cache L3', chip.cache?.l3],
     ['Devices', chip.devices?.join(', ')],
     ['Aliases', chip.alternative_names?.join(', ')],
+    ['ISA', chip.isa],
+    ['SIMD', chip.simd],
   ];
-  grid.innerHTML = fields.filter(([_, v]) => v != null).map(([k, v]) =>
-    `<div class="detail-item"><dt>${k}</dt><dd>${v}</dd></div>`
-  ).join('');
+  grid.innerHTML = fields
+    .filter(([_, v]) => v != null && v !== '' && !(Array.isArray(v) && v.length === 0))
+    .map(([k, v]) => `<div class="detail-item"><dt>${k}</dt><dd>${esc(String(v))}</dd></div>`)
+    .join('');
   detail.classList.add('open');
-  detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function closeDetail() {
   document.getElementById('chipDetail').classList.remove('open');
 }
 
-let sortDir = {};
-function setupSort() {
-  document.querySelectorAll('th[data-sort]').forEach(th => {
-    th.addEventListener('click', () => {
-      const key = th.dataset.sort;
-      const dir = sortDir[key] === 'asc' ? 'desc' : 'asc';
-      sortDir = { [key]: dir };
-      document.querySelectorAll('th[data-sort]').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
-      th.classList.add(dir === 'asc' ? 'sort-asc' : 'sort-desc');
-      allChips.sort((a, b) => {
-        const va = a[key] ?? '', vb = b[key] ?? '';
-        if (typeof va === 'number') return dir === 'asc' ? va - vb : vb - va;
-        return dir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
-      });
-      filterTable();
-    });
-  });
-}
+// ── Back to top ──────────────────────────────────────────
+window.addEventListener('scroll', () => {
+  document.getElementById('bttBtn').classList.toggle('visible', window.scrollY > 400);
+});
 
-document.getElementById('search').addEventListener('input', filterTable);
-
-// Store index globally for vendor filter
-fetch('data/index.json').then(r => r.json()).then(idx => window.__index = idx);
-
-loadData();
+// ── Init ─────────────────────────────────────────────────
+applyURL();
 setupSort();
+loadData();
+fetch('data/index.json').then(r => r.json()).then(idx => { window.__index = idx; });
+
+// restore sort indicators from URL
+if (currentSort.key) {
+  const th = document.querySelector(`th[data-sort="${currentSort.key}"]`);
+  if (th) th.classList.add(currentSort.dir === 'asc' ? 'sort-asc' : 'sort-desc');
+}
 </script>
 </body>
 </html>
