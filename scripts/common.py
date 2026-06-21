@@ -102,6 +102,7 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
             existing[cid] = chip
             added += 1
     output = sorted(existing.values(), key=lambda x: (x.get("year", 9999), x["name"]))
+    output = enrich_all(output)
     fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
     print(f"  {vfile}: {len(output)} entries ({added} new, {updated} updated)")
 
@@ -166,9 +167,23 @@ FIELD_WEIGHTS = {
 }
 
 VENDOR_KNOWLEDGE = {
-    "Qualcomm": {"architecture": "ARMv8",
-        "process_map": {"sm8750": 3, "sm8650": 4, "sm8550": 4, "sm8475": 4, "sm8450": 4, "sm8350": 5, "sm8250": 7, "sm8150": 7, "sm7250": 8, "sm7150": 8, "sm6350": 8, "sdm845": 10, "sdm835": 10, "sdm820": 14, "sdm660": 14, "sdm636": 14, "sdm632": 14, "sdm630": 14, "sdm625": 14, "msm8998": 10, "msm8996": 14, "msm8994": 20, "msm8992": 20, "msm8940": 28, "msm8937": 28, "msm8917": 28},
-        "gpu_map": {"sm8750": "Adreno 830", "sm8650": "Adreno 750", "sm8550": "Adreno 740", "sm8475": "Adreno 730", "sm8450": "Adreno 730", "sm8350": "Adreno 660", "sm8250": "Adreno 650", "sm8150": "Adreno 640", "sm7250": "Adreno 620", "sm7150": "Adreno 618}},
+    "Qualcomm": {
+        "architecture": "ARMv8",
+        "process_map": {
+            "sm8750": 3, "sm8650": 4, "sm8550": 4, "sm8475": 4, "sm8450": 4,
+            "sm8350": 5, "sm8250": 7, "sm8150": 7, "sm7250": 8, "sm7150": 8,
+            "sm6350": 8, "sdm845": 10, "sdm835": 10, "sdm820": 14,
+            "sdm660": 14, "sdm636": 14, "sdm632": 14, "sdm630": 14, "sdm625": 14,
+            "msm8998": 10, "msm8996": 14, "msm8994": 20, "msm8992": 20,
+            "msm8940": 28, "msm8937": 28, "msm8917": 28,
+        },
+        "gpu_map": {
+            "sm8750": "Adreno 830", "sm8650": "Adreno 750", "sm8550": "Adreno 740",
+            "sm8475": "Adreno 730", "sm8450": "Adreno 730", "sm8350": "Adreno 660",
+            "sm8250": "Adreno 650", "sm8150": "Adreno 640",
+            "sm7250": "Adreno 620", "sm7150": "Adreno 618",
+        },
+    },
     "MediaTek": {"architecture": "ARMv8", "process_map": {"mt6983": 4, "mt6985": 4, "mt6991": 4, "mt6893": 6, "mt6895": 6, "mt6877": 6, "mt6879": 6, "mt6833": 7, "mt6853": 7, "mt6785": 12, "mt6779": 12}},
     "Apple": {"architecture": "ARMv8"},
     "Samsung": {"architecture": "ARMv8"},
