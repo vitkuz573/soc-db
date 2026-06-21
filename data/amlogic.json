@@ -6,10 +6,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.28,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A111"
+    "model": "A111",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "DDR3"
   },
   {
     "id": "a112",
@@ -18,10 +21,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.28,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A112"
+    "model": "A112",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "DDR3"
   },
   {
     "id": "a113",
@@ -30,10 +36,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.28,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A113"
+    "model": "A113",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "DDR3"
   },
   {
     "id": "s905d",
@@ -43,10 +52,17 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905D"
+    "model": "S905D",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "TS in, DVP"
   },
   {
     "id": "s905l",
@@ -56,10 +72,17 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905L"
+    "model": "S905L",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "/"
   },
   {
     "id": "s905x",
@@ -69,49 +92,77 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905X"
+    "model": "S905X",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "/"
   },
   {
     "id": "s905x2",
     "name": "S905X2",
     "vendor": "Amlogic",
-    "cores": 8,
+    "cores": 12,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.31,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905X2"
+    "model": "S905X2",
+    "gpu_api": [
+      "OpenGL ES",
+      "Vulkan"
+    ],
+    "memory_type": "LPDDR3",
+    "video_decode": "TS in, DVP",
+    "wifi": "Wi-Fi"
   },
   {
     "id": "s905y2",
     "name": "S905Y2",
     "vendor": "Amlogic",
-    "cores": 8,
+    "cores": 12,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.31,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905Y2"
+    "model": "S905Y2",
+    "gpu_api": [
+      "OpenGL ES",
+      "Vulkan"
+    ],
+    "memory_type": "LPDDR3",
+    "video_decode": "TS in",
+    "wifi": "Wi-Fi"
   },
   {
     "id": "s905y4",
     "name": "S905Y4",
     "vendor": "Amlogic",
-    "cores": 8,
+    "cores": 12,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.31,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S905Y4"
+    "model": "S905Y4",
+    "gpu_api": [
+      "OpenGL ES",
+      "Vulkan"
+    ],
+    "memory_type": "LPDDR3",
+    "video_decode": "TS in",
+    "wifi": "Wi-Fi"
   },
   {
     "id": "s912",
@@ -121,23 +172,37 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T820 MP3 OpenGL ES 3.1",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S912"
+    "model": "S912",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "TS in, DVP"
   },
   {
     "id": "s922x",
     "name": "S922X",
     "vendor": "Amlogic",
-    "cores": 8,
+    "cores": 12,
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.31,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "S922X"
+    "model": "S922X",
+    "gpu_api": [
+      "OpenGL ES",
+      "Vulkan"
+    ],
+    "memory_type": "LPDDR3",
+    "video_decode": "TS in, DVP, MIPI",
+    "wifi": "Wi-Fi"
   },
   {
     "id": "t920l",
@@ -146,10 +211,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.3,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T920L"
+    "model": "T920L",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "HDMI 1.4b , CVBS"
   },
   {
     "id": "t950",
@@ -158,10 +228,15 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.3,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T950"
+    "model": "T950",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "HDMI 2.0b, CVBS"
   },
   {
     "id": "t962",
@@ -171,10 +246,17 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 MP5 OpenGL ES 2.0",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T962"
+    "model": "T962",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "HDMI 2.0b, CVBS"
   },
   {
     "id": "t966",
@@ -184,10 +266,17 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T966"
+    "model": "T966",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "HDMI 2.0b, CVBS"
   },
   {
     "id": "t968",
@@ -197,9 +286,16 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.31,
+    "completeness": 0.398,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "T968"
+    "model": "T968",
+    "process_nm": 28,
+    "process_name": "28nm",
+    "gpu_api": [
+      "OpenGL ES"
+    ],
+    "memory_type": "DDR3",
+    "video_decode": "HDMI 2.0b, CVBS"
   }
 ]

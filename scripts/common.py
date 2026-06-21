@@ -79,6 +79,24 @@ def slug(name: str, model: str = "") -> str:
     return base or "unknown"
 
 
+def _match_existing(chip: dict, existing: dict) -> str | None:
+    """Find existing entry by id or by model number."""
+    cid = chip.get("id", "")
+    if cid in existing:
+        return cid
+    model = chip.get("model", "").strip().upper()
+    if model:
+        for eid, ec in existing.items():
+            if ec.get("model", "").strip().upper() == model:
+                return eid
+    name = chip.get("name", "").lower().strip()
+    if name:
+        for eid, ec in existing.items():
+            if ec.get("name", "").lower().strip() == name:
+                return eid
+    return None
+
+
 def write_vendor_file(vendor: str, chips: list[dict]) -> None:
     vfile = VENDOR_FILES.get(vendor)
     if not vfile:
@@ -92,14 +110,19 @@ def write_vendor_file(vendor: str, chips: list[dict]) -> None:
                 existing[c["id"]] = c
         except json.JSONDecodeError:
             pass
-    added = updated = 0
+    added = updated = merged = 0
     for chip in chips:
-        cid = chip["id"]
-        if cid in existing:
-            existing[cid].update(chip)
+        match_id = _match_existing(chip, existing)
+        if match_id:
+            old = existing[match_id]
+            # Only copy fields that old is missing (prefer existing data)
+            for k, v in chip.items():
+                if k not in old or old[k] in (None, "", [], 0, 0.0):
+                    if v not in (None, "", [], 0, 0.0):
+                        old[k] = v
             updated += 1
         else:
-            existing[cid] = chip
+            existing[chip["id"]] = dict(chip)
             added += 1
     output = sorted(existing.values(), key=lambda x: (x.get("year", 9999), x["name"]))
     output = enrich_all(output)
@@ -132,6 +155,25 @@ VENDOR_FILES = {
     "Microchip": "microchip.json",
     "Xilinx": "xilinx.json",
 }
+
+
+def extract_model(text: str) -> str | None:
+    patterns = [
+        r'\b(SM\d{3,}|SDM\d{3,}|MSM\d{3,}|APQ\d{3,}|SC\d{4}|QCS\d{3})\b',
+        r'\b(MT\d{4,})\b',
+        r'\b(Exynos\s*\d{4,})\b',
+        r'\b(Kirin\s*\d{3,})\b',
+        r'\b(GS\d{3})\b',
+        r'\b(RK\d{3,})\b',
+        r'\b(OMAP\d{4,})\b',
+        r'\b(AM\d{3,}|DM\d{3,})\b',
+        r'\b(APL\w+|T\d{4})\b',
+    ]
+    for pat in patterns:
+        m = re.search(pat, text, re.IGNORECASE)
+        if m:
+            return m.group(1).upper()
+    return None
 
 
 def merge_chips(a: dict, b: dict) -> dict:

@@ -3,26 +3,30 @@
     "id": "a10",
     "name": "A10",
     "vendor": "Allwinner",
-    "cores": 7,
-    "architecture": "ARMv7-A",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
     "process": "55 nm",
-    "gpu": "Mali-400 (300 MHz) [ 30 ]",
+    "gpu": "Cortex-A8",
     "max_freq": "300 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A10"
+    "model": "A10",
+    "video_decode": "1",
+    "process_nm": 55,
+    "process_name": "55nm"
   },
   {
     "id": "a10s",
     "name": "A10s",
     "vendor": "Allwinner",
-    "cores": 10,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3061,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A10s"
+    "model": "A10s",
+    "gpu": "OLinuXino A10S"
   },
   {
     "id": "a13",
@@ -30,36 +34,44 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3061,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A13"
+    "model": "A13",
+    "gpu": "List CCE Motion Tab TR71, OLinuXino A13 iView CyberPad, iView-420TPC, PocketBook 624 (Basic Touch)"
   },
   {
     "id": "a133",
     "name": "A133",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "PowerVR GE8300",
-    "completeness": 0.31,
+    "gpu": "Cortex-A53",
+    "completeness": 0.3673,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A133"
+    "model": "A133",
+    "video_decode": "4",
+    "process_nm": 28,
+    "process_name": "28nm"
   },
   {
     "id": "a20",
     "name": "A20",
     "vendor": "Allwinner",
-    "cores": 7,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "gpu": "256 KB [ 32 ] [ 33 ]",
     "max_freq": "350 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3367,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A20"
+    "model": "A20 [ 31 ]",
+    "video_decode": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "aliases": [
+      "A20 (A20 [ 31 ])"
+    ]
   },
   {
     "id": "a23",
@@ -68,47 +80,61 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "completeness": 0.28,
+    "completeness": 0.3673,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A23"
+    "model": "A23",
+    "gpu": "H.264 1080p @ 60 fps",
+    "video_decode": "BGA280, 14×14, 0.80",
+    "process_nm": 40,
+    "process_name": "40nm"
   },
   {
     "id": "a31",
     "name": "A31",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 MP2 (350 MHz) [ 30 ]",
     "max_freq": "350 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3367,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A31"
+    "model": "A31",
+    "gpu_clock": 350,
+    "video_decode": "2160p 4K×2K"
   },
   {
     "id": "a31s",
     "name": "A31s",
     "vendor": "Allwinner",
-    "cores": 5,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3163,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A31s"
+    "model": "A31s",
+    "gpu": "Phablet, Tablet, smartphone, smart TV",
+    "video_decode": "List Boardcon Compact31S, [ 34 ] iView CyberPad iView-788TPC, MSI Primo81, Teclast P88s mini, Ainol "
   },
   {
     "id": "a33",
     "name": "A33",
     "vendor": "Allwinner",
-    "cores": 97,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-400 MP2 (350 MHz) [ 30 ]",
+    "gpu": "1080p @ 60 fps multi-format",
     "max_freq": "350 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A33"
+    "model": "A33 [ 36 ] [ 37 ]",
+    "clock_min": 350,
+    "clock_max": 350,
+    "video_decode": "H.264 1080p @ 60 fps",
+    "aliases": [
+      "A33 (A33 [ 36 ] [ 37 ])"
+    ]
   },
   {
     "id": "a40i",
@@ -116,76 +142,101 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3163,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A40i"
+    "model": "A40i",
+    "gpu": "Industrial control, Self-service terminal",
+    "video_decode": "Boardcon EMA40i [ 39 ]"
   },
   {
     "id": "a50",
     "name": "A50",
     "vendor": "Allwinner",
-    "cores": 7,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali-400 MP2",
-    "completeness": 0.31,
+    "gpu": "4",
+    "completeness": 0.3673,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A50"
+    "model": "A50",
+    "video_decode": "512 KB",
+    "process_nm": 28,
+    "process_name": "28nm"
   },
   {
     "id": "a63",
     "name": "A63",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "Mali T760",
-    "completeness": 0.31,
+    "gpu": "Cortex-A53",
+    "completeness": 0.3673,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A63"
+    "model": "A63",
+    "video_decode": "4",
+    "process_nm": 28,
+    "process_name": "28nm"
   },
   {
     "id": "a64",
     "name": "A64",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "gpu": "Mali-400 MP2",
-    "completeness": 0.31,
+    "gpu": "Cortex-A53",
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A64"
+    "model": "A64 [ 46 ]",
+    "video_decode": "4",
+    "aliases": [
+      "A64 (A64 [ 46 ])"
+    ],
+    "process_nm": 40,
+    "process_name": "40nm"
   },
   {
     "id": "a80_octa",
     "name": "A80 Octa",
     "vendor": "Allwinner",
-    "cores": 15,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "gpu": "PowerVR G6230 (Rogue) (533 MHz) [ 30 ]",
+    "gpu": "8",
     "max_freq": "533 MHz",
-    "completeness": 0.32,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A80 Octa"
+    "model": "A80 Octa [ 40 ]",
+    "video_decode": "2 MB + 512 KB",
+    "aliases": [
+      "A80 Octa (A80 Octa [ 40 ])"
+    ],
+    "process_nm": 28,
+    "process_name": "28nm"
   },
   {
     "id": "a83t",
     "name": "A83T",
     "vendor": "Allwinner",
-    "cores": 7,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 (700 MHz) [ 30 ]",
     "max_freq": "700 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3469,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "A83T"
+    "model": "A83T [ 19 ] [ 43 ]",
+    "gpu_clock": 700,
+    "video_decode": "1080p @ 60 fps, H.264, HVEC MP/L5.2",
+    "aliases": [
+      "A83T (A83T [ 19 ] [ 43 ])"
+    ]
   },
   {
     "id": "f10",
@@ -193,18 +244,19 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "F10"
+    "model": "F10",
+    "video_decode": "Multimedia Box, HD Player"
   },
   {
     "id": "f13",
     "name": "F13",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "F13"
@@ -215,7 +267,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "F18"
@@ -224,12 +276,13 @@
     "id": "f1c100",
     "name": "F1C100",
     "vendor": "Allwinner",
-    "cores": 9,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "F1C100"
+    "model": "F1C100",
+    "video_decode": "720p"
   },
   {
     "id": "f1c200s",
@@ -237,91 +290,113 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "F1C200s"
+    "model": "F1C200s",
+    "video_decode": "QFN 88"
   },
   {
     "id": "f1e200",
     "name": "F1E200",
     "vendor": "Allwinner",
-    "cores": 2,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "F1E200"
+    "model": "F1E200",
+    "video_decode": "eLQFP128"
   },
   {
     "id": "f20",
     "name": "F20",
     "vendor": "Allwinner",
-    "cores": 2,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "F20"
+    "model": "F20",
+    "video_decode": "BGA400"
   },
   {
     "id": "h616",
     "name": "H616",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-G31 MP2",
-    "completeness": 0.3,
+    "completeness": 0.3265,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "H616"
+    "model": "H616 [ 58 ]",
+    "video_decode": "H.265 4K@60 fps or 6K@30 fps VP9, 4K@60 fps VP8, 1080p@60 fps",
+    "aliases": [
+      "H616 (H616 [ 58 ])"
+    ]
   },
   {
     "id": "h618",
     "name": "H618",
     "vendor": "Allwinner",
-    "cores": 3,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "H618"
+    "model": "H618 [ 59 ]",
+    "aliases": [
+      "H618 (H618 [ 59 ])"
+    ]
   },
   {
     "id": "h64",
     "name": "H64",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "gpu": "Mali-400 MP2",
-    "completeness": 0.31,
+    "gpu": "Cortex-A53",
+    "completeness": 0.3776,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "H64"
+    "model": "H64 [ 56 ]",
+    "video_decode": "4",
+    "aliases": [
+      "H64 (H64 [ 56 ])"
+    ],
+    "process_nm": 40,
+    "process_name": "40nm"
   },
   {
     "id": "r16",
     "name": "R16",
     "vendor": "Allwinner",
-    "cores": 7,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3265,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R16"
+    "model": "R16 [ 63 ]",
+    "gpu": "4",
+    "video_decode": "512 KB",
+    "aliases": [
+      "R16 (R16 [ 63 ])"
+    ]
   },
   {
     "id": "r18",
     "name": "R18",
     "vendor": "Allwinner",
-    "cores": 4,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Mali-400 MP2",
-    "completeness": 0.3,
+    "gpu": "Cortex-A53",
+    "completeness": 0.3163,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R18"
+    "model": "R18",
+    "video_decode": "4"
   },
   {
     "id": "r40",
@@ -329,10 +404,15 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.3265,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R40"
+    "model": "R40 [ 65 ]",
+    "gpu": "FBGA468",
+    "video_decode": "IoT , Security Systems",
+    "aliases": [
+      "R40 (R40 [ 65 ])"
+    ]
   },
   {
     "id": "r58",
@@ -341,9 +421,13 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 MP1",
-    "completeness": 0.3,
+    "completeness": 0.3265,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "R58"
+    "model": "R58 [ 66 ]",
+    "video_decode": "PowerVR SGX544 MP1",
+    "aliases": [
+      "R58 (R58 [ 66 ])"
+    ]
   }
 ]

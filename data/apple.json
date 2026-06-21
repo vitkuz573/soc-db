@@ -3,17 +3,21 @@
     "id": "apple_a13_bionic_t8301",
     "name": "Apple A13 Bionic",
     "vendor": "Apple",
-    "cores": 8,
-    "architecture": "ARMv8.6-A",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
     "year": 2019,
     "model": "T8301",
-    "process": "7 nm",
+    "process": "7 nm",
     "aliases": [
       "Apple A13 Bionic (T8301)"
     ],
-    "completeness": 0.32,
+    "completeness": 0.4082,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 7,
+    "process_name": "7nm",
+    "cluster_config": "2+4",
+    "gpu": "Apple A13 GPU"
   },
   {
     "id": "apple_a12z_bionic_t8006",
@@ -23,13 +27,16 @@
     "architecture": "ARMv8.6-A",
     "year": 2020,
     "model": "T8006",
-    "process": "7 nm",
+    "process": "7 nm",
     "aliases": [
       "Apple A12Z Bionic (T8006)"
     ],
-    "completeness": 0.32,
+    "completeness": 0.398,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 7,
+    "process_name": "7nm",
+    "gpu": "Apple A12Z GPU"
   },
   {
     "id": "t8103_h13g",
@@ -48,7 +55,7 @@
     "aliases": [
       "Apple A14 Bionic (T8103)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -69,7 +76,7 @@
     "aliases": [
       "Apple M1 (T8110)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -90,7 +97,7 @@
     "aliases": [
       "Apple A15 Bionic (T8110)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -98,17 +105,21 @@
     "id": "apple_a15_bionic_t8310",
     "name": "Apple A15 Bionic",
     "vendor": "Apple",
-    "cores": 8,
-    "architecture": "ARMv8.6-A",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
     "year": 2021,
     "model": "T8310",
-    "process": "4 nm",
+    "process": "5 nm",
     "aliases": [
       "Apple A15 Bionic (T8310)"
     ],
-    "completeness": 0.32,
+    "completeness": 0.4082,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 5,
+    "process_name": "5nm",
+    "cluster_config": "2+4",
+    "gpu": "Apple A15 GPU"
   },
   {
     "id": "t8116_h14m",
@@ -127,7 +138,7 @@
     "aliases": [
       "Apple M1 Max (T8116)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -148,7 +159,7 @@
     "aliases": [
       "Apple M1 Pro (T8112)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -169,7 +180,7 @@
     "aliases": [
       "Apple A16 Bionic (T8120)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -177,17 +188,21 @@
     "id": "apple_a16_bionic_apl1110",
     "name": "Apple A16 Bionic",
     "vendor": "Apple",
-    "cores": 8,
-    "architecture": "ARMv8.6-A",
+    "cores": 6,
+    "architecture": "ARMv8.2-A",
     "year": 2022,
     "model": "APL1110",
     "process": "4 nm",
     "aliases": [
       "Apple A16 Bionic (APL1110)"
     ],
-    "completeness": 0.32,
+    "completeness": 0.4082,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "cluster_config": "2+4",
+    "gpu": "Apple A16 GPU"
   },
   {
     "id": "t6000_h15g",
@@ -206,7 +221,7 @@
     "aliases": [
       "Apple M2 (T6000)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -227,7 +242,7 @@
     "aliases": [
       "Apple A17 Pro (T8130)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -235,7 +250,7 @@
     "id": "apple_a17_pro_apl1201",
     "name": "Apple A17 Pro",
     "vendor": "Apple",
-    "cores": 8,
+    "cores": 6,
     "architecture": "ARMv8.6-A",
     "year": 2023,
     "model": "APL1201",
@@ -243,9 +258,13 @@
     "aliases": [
       "Apple A17 Pro (APL1201)"
     ],
-    "completeness": 0.32,
+    "completeness": 0.4082,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "process_nm": 3,
+    "process_name": "3nm",
+    "cluster_config": "2+4",
+    "gpu": "Apple A17 Pro GPU"
   },
   {
     "id": "t6021_h15m",
@@ -264,7 +283,7 @@
     "aliases": [
       "Apple M2 Max (T6021)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -285,7 +304,7 @@
     "aliases": [
       "Apple M2 Pro (T6020)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -306,7 +325,7 @@
     "aliases": [
       "Apple A18 Pro (T9500)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -327,7 +346,7 @@
     "aliases": [
       "Apple M4 (T9515)"
     ],
-    "completeness": 0.38,
+    "completeness": 0.3878,
     "sources": {},
     "updated": "2026-06-21"
   }

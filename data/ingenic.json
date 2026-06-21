@@ -5,10 +5,13 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Adoption"
+    "model": "Ben NanoNote",
+    "aliases": [
+      "Adoption (Ben NanoNote)"
+    ]
   },
   {
     "id": "jz4720",
@@ -16,7 +19,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4720"
@@ -27,7 +30,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4725B"
@@ -36,9 +39,9 @@
     "id": "jz4730",
     "name": "Jz4730",
     "vendor": "Ingenic",
-    "cores": 16,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4730"
@@ -49,7 +52,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4740"
@@ -60,7 +63,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4750"
@@ -71,7 +74,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2755,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4755"
@@ -82,8 +85,8 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Vivante GC200",
-    "completeness": 0.3,
+    "gpu": "second core is for video processing only, IEEE754-complient FPU",
+    "completeness": 0.3061,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4760"
@@ -94,9 +97,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "gpu": "Vivante GC860 [ 13 ]",
+    "gpu": "JZ4770",
     "max_freq": "500 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3163,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4770"
@@ -105,13 +108,17 @@
     "id": "jz4775",
     "name": "Jz4775",
     "vendor": "Ingenic",
-    "cores": 2,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "500 MHz",
-    "completeness": 0.28,
+    "completeness": 0.3265,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Jz4775"
+    "model": "Jz4775 [ 14 ]",
+    "gpu": "X2D Core",
+    "aliases": [
+      "Jz4775 (Jz4775 [ 14 ])"
+    ]
   },
   {
     "id": "jz4780",
@@ -121,7 +128,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX 540",
     "max_freq": "500 MHz",
-    "completeness": 0.31,
+    "completeness": 0.3163,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4780"
@@ -132,20 +139,26 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Skytone"
+    "model": "Skytone Alpha-400",
+    "aliases": [
+      "Skytone (Skytone Alpha-400)"
+    ]
   },
   {
     "id": "velocity_micro",
     "name": "Velocity Micro",
     "vendor": "Ingenic",
-    "cores": 2,
+    "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.27,
+    "completeness": 0.2857,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "Velocity Micro"
+    "model": "Cruz T103, T301",
+    "aliases": [
+      "Velocity Micro (Cruz T103, T301)"
+    ]
   }
 ]

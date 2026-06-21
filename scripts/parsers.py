@@ -231,21 +231,29 @@ def parse_camera(text: str) -> dict:
 # Map column header keywords to (field_name, parser_function)
 COLUMN_MAP = [
     (["model number", "model", "soc", "chipset", "chip name"], "model", None),
+    (["product name", "brand", "marketing name"], "name", None),
     (["cpu", "cpu cores", "cpu config", "cpu cluster"], "cpu", parse_cpu),
     (["gpu", "graphics"], "gpu", parse_gpu),
     (["dsp"], "dsp", lambda t: {"dsp": t.strip()[:80]} if t else {}),
     (["npu", "ai", "ai accelerator", "machine learning"], "npu", lambda t: {"npu": t.strip()[:80]} if t else {}),
     (["memory", "memory support", "ram", "memory type"], "memory", parse_memory),
-    (["process", "fabrication", "node", "process node", "technology"], "process", parse_process),
+    (["process", "fabrication", "node", "process node", "technology", "fab"], "process", parse_process),
     (["modem", "cellular", "mobile radio"], "modem", parse_modem),
     (["connectivity", "wifi", "wi-fi", "bluetooth"], "connectivity", parse_connectivity),
-    (["charging", "charge", "fast charge", "battery charging"], "charging", lambda t: {"charging": t.strip()[:80]} if t else {}),
+    (["charging", "charge", "fast charge", "battery charging", "quick charge"], "charging", lambda t: {"charging": t.strip()[:80]} if t else {}),
     (["storage", "storage type"], "storage", lambda t: {"storage_type": t.strip()[:80]} if t else {}),
     (["video", "video codec", "video encode/decode", "video codecs", "video encoding/decoding"], "video", parse_video),
     (["display", "display support", "screen"], "display", parse_display),
-    (["camera", "isps", "image signal", "camera specs"], "camera", parse_camera),
+    (["camera", "isp", "isps", "image signal", "camera specs"], "camera", parse_camera),
     (["location", "gnss", "navigation", "gps", "positioning"], "location", lambda t: {"navigation": t.strip()[:80]} if t else {}),
 ]
+
+
+def _kw_match(text: str, keyword: str) -> bool:
+    """Keyword matching: whole-word for short keywords, substring for long ones."""
+    if len(keyword) <= 3:
+        return bool(re.search(rf'\b{re.escape(keyword)}\b', text, re.IGNORECASE))
+    return keyword.lower() in text.lower()
 
 
 def detect_columns(header_row) -> list[tuple[str, callable]]:
@@ -255,7 +263,7 @@ def detect_columns(header_row) -> list[tuple[str, callable]]:
         text = cell.get_text(" ", strip=True).lower().strip()
         matched = False
         for keywords, field_name, parser in COLUMN_MAP:
-            if any(kw in text for kw in keywords):
+            if any(_kw_match(text, kw) for kw in keywords):
                 columns.append((field_name, parser))
                 matched = True
                 break

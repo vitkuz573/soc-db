@@ -124,11 +124,20 @@ def parse_standard_table(tbl, section_heading="", chip_name_override=""):
         # Override vendor
         chip["vendor"] = "?"
 
-        # Year from section heading
+        # Year: prefer chip name/model, then section heading, ignore improbable years
         if "year" not in chip:
-            ym = re.search(r'(20\d\d)', section_heading)
-            if ym:
-                chip["year"] = int(ym.group(1))
+            for src in [chip_name, chip.get("model", ""), section_heading]:
+                ym = re.search(r'(20[0-2]\d)', src)
+                if ym:
+                    y = int(ym.group(1))
+                    if 2007 <= y <= 2030:
+                        chip["year"] = y
+                        break
+                    elif len(chips) > 1 and "year" in chips[-1]:
+                        y = chips[-1]["year"]
+                        if 2007 <= y <= 2030:
+                            chip["year"] = y
+                            break
 
         chips.append(chip)
 
@@ -184,9 +193,13 @@ def parse_transposed_table(tbl, section_heading=""):
                 break
 
         if "year" not in chip:
-            ym = re.search(r'(20\d\d)', section_heading)
-            if ym:
-                chip["year"] = int(ym.group(1))
+            for src in [name, section_heading]:
+                ym = re.search(r'(20[0-2]\d)', src)
+                if ym:
+                    y = int(ym.group(1))
+                    if 2007 <= y <= 2030:
+                        chip["year"] = y
+                        break
         chips.append(chip)
 
     return chips
