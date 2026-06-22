@@ -609,14 +609,12 @@
     "vendor": "Allwinner",
     "model": "SUN50",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "Allwinner Sun50 (SUN50)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4
+    "updated": "2026-06-21"
   },
   {
     "id": "allwinner_sun55",
@@ -699,7 +697,6 @@
     "vendor": "Allwinner",
     "model": "SUNIV",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "Allwinner Suniv (SUNIV)"
     ],
@@ -714,7 +711,6 @@
     "vendor": "Allwinner",
     "model": "SUNXI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "Allwinner Sunxi (SUNXI)"
     ],

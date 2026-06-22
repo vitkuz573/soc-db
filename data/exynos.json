@@ -2199,7 +2199,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS4412",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2303,7 +2303,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5420",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2329,7 +2329,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5422",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2576,8 +2576,7 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 8
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos4",
@@ -2585,14 +2584,12 @@
     "vendor": "Samsung",
     "model": "EXYNOS4",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "exynos4 (EXYNOS4)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos5",
@@ -2600,14 +2597,12 @@
     "vendor": "Samsung",
     "model": "EXYNOS5",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "exynos5 (EXYNOS5)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 8
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos54",
@@ -2615,14 +2610,12 @@
     "vendor": "Samsung",
     "model": "EXYNOS54",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "exynos54 (EXYNOS54)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 8
+    "updated": "2026-06-21"
   },
   {
     "id": "exynos7",

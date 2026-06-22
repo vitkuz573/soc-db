@@ -595,11 +595,9 @@
     "vendor": "Amlogic",
     "model": "AMLOGIC",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "completeness": 0.2233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4
+    "updated": "2026-06-21"
   },
   {
     "id": "meson",
@@ -607,14 +605,12 @@
     "vendor": "Amlogic",
     "model": "MESON",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "meson (MESON)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4
+    "updated": "2026-06-21"
   },
   {
     "id": "meson8",
@@ -637,13 +633,11 @@
     "vendor": "Amlogic",
     "model": "MESONI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
     "aliases": [
       "mesoni (MESONI)"
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4
+    "updated": "2026-06-21"
   }
 ]
