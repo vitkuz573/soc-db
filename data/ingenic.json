@@ -126,6 +126,31 @@
     "gpu": "GC400"
   },
   {
+    "id": "jz4775",
+    "name": "Jz4775",
+    "vendor": "Ingenic",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "max_freq": "500 MHz",
+    "completeness": 0.4854,
+    "sources": {},
+    "updated": "2026-06-21",
+    "model": "Jz4775",
+    "gpu": "X2D Core",
+    "aliases": [
+      "Jz4775 (Jz4775 )"
+    ],
+    "year": 2009,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 3",
+    "bluetooth": "2.1"
+  },
+  {
     "id": "jz4760",
     "name": "Jz4760",
     "vendor": "Ingenic",
@@ -189,30 +214,5 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "4.0"
-  },
-  {
-    "id": "jz4775",
-    "name": "Jz4775",
-    "vendor": "Ingenic",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "max_freq": "500 MHz",
-    "completeness": 0.4854,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "Jz4775",
-    "gpu": "X2D Core",
-    "aliases": [
-      "Jz4775 (Jz4775 )"
-    ],
-    "year": 2009,
-    "process_nm": 40,
-    "process_name": "40nm",
-    "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0",
-    "memory_clock": 400,
-    "memory_bus": 32,
-    "wifi": "Wi-Fi 3",
-    "bluetooth": "2.1"
   }
 ]

@@ -1,5 +1,15 @@
 [
   {
+    "id": "realtek_rtd129",
+    "name": "Realtek RTD129",
+    "vendor": "Realtek",
+    "model": "RTD129",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "realtek_rtd1293",
     "name": "Realtek RTD1293",
     "vendor": "Realtek",
@@ -36,6 +46,16 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "realtek_rtd139",
+    "name": "Realtek RTD139",
+    "vendor": "Realtek",
+    "model": "RTD139",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "realtek_rtd1395",
     "name": "Realtek RTD1395",
     "vendor": "Realtek",
@@ -56,6 +76,16 @@
     "cores": 4,
     "architecture": "ARM Cortex-A55",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "realtek_rtd16",
+    "name": "Realtek RTD16",
+    "vendor": "Realtek",
+    "model": "RTD16",
+    "source": "linux_dt",
+    "completeness": 0.1845,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -92,6 +122,19 @@
     "cores": 4,
     "architecture": "ARM Cortex-A55",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "kenti",
+    "name": "kenti",
+    "vendor": "Realtek",
+    "model": "KENTI",
+    "source": "linux_dt",
+    "aliases": [
+      "kenti (KENTI)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   }

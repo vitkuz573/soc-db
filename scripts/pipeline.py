@@ -20,6 +20,8 @@ sys.path.insert(0, str(ROOT))
 DATA_DIR = ROOT / "data"
 
 SCRAPERS = [
+    ("scripts/scraper_linux_dt", "Linux Device Tree (35+ vendors)", True),
+    ("scripts/scraper_wikidata_sparql", "Wikidata SPARQL (fringe vendors)", True),
     ("scripts/scraper_wikipedia", "Wikipedia (13 vendors)", True),
     ("scripts/scraper_apple", "Apple Silicon", True),
 ]

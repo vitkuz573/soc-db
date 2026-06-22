@@ -1,7 +1,17 @@
 [
   {
-    "id": "stm32_mp211_stm32mp211",
-    "name": "STM32 MP211",
+    "id": "stm32mp21",
+    "name": "STM32MP21",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP21",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "stm32mp211",
+    "name": "STM32MP211",
     "vendor": "STMicroelectronics",
     "model": "STM32MP211",
     "source": "linux_dt",
@@ -15,8 +25,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp213_stm32mp213",
-    "name": "STM32 MP213",
+    "id": "stm32mp213",
+    "name": "STM32MP213",
     "vendor": "STMicroelectronics",
     "model": "STM32MP213",
     "source": "linux_dt",
@@ -30,8 +40,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp215_stm32mp215",
-    "name": "STM32 MP215",
+    "id": "stm32mp215",
+    "name": "STM32MP215",
     "vendor": "STMicroelectronics",
     "model": "STM32MP215",
     "source": "linux_dt",
@@ -45,8 +55,18 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp231_stm32mp231",
-    "name": "STM32 MP231",
+    "id": "stm32mp23",
+    "name": "STM32MP23",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP23",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "stm32mp231",
+    "name": "STM32MP231",
     "vendor": "STMicroelectronics",
     "model": "STM32MP231",
     "source": "linux_dt",
@@ -60,8 +80,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp233_stm32mp233",
-    "name": "STM32 MP233",
+    "id": "stm32mp233",
+    "name": "STM32MP233",
     "vendor": "STMicroelectronics",
     "model": "STM32MP233",
     "source": "linux_dt",
@@ -75,8 +95,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp235_stm32mp235",
-    "name": "STM32 MP235",
+    "id": "stm32mp235",
+    "name": "STM32MP235",
     "vendor": "STMicroelectronics",
     "model": "STM32MP235",
     "source": "linux_dt",
@@ -90,8 +110,18 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp251_stm32mp251",
-    "name": "STM32 MP251",
+    "id": "stm32mp25",
+    "name": "STM32MP25",
+    "vendor": "STMicroelectronics",
+    "model": "STM32MP25",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "stm32mp251",
+    "name": "STM32MP251",
     "vendor": "STMicroelectronics",
     "model": "STM32MP251",
     "source": "linux_dt",
@@ -105,8 +135,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp253_stm32mp253",
-    "name": "STM32 MP253",
+    "id": "stm32mp253",
+    "name": "STM32MP253",
     "vendor": "STMicroelectronics",
     "model": "STM32MP253",
     "source": "linux_dt",
@@ -120,8 +150,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp255_stm32mp255",
-    "name": "STM32 MP255",
+    "id": "stm32mp255",
+    "name": "STM32MP255",
     "vendor": "STMicroelectronics",
     "model": "STM32MP255",
     "source": "linux_dt",
@@ -135,8 +165,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "stm32_mp257_stm32mp257",
-    "name": "STM32 MP257",
+    "id": "stm32mp257",
+    "name": "STM32MP257",
     "vendor": "STMicroelectronics",
     "model": "STM32MP257",
     "source": "linux_dt",

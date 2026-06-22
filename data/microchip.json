@@ -1,31 +1,7 @@
 [
   {
-    "id": "lan9691",
-    "name": "LAN9691",
-    "vendor": "Microchip",
-    "model": "LAN9691",
-    "source": "linux_dt",
-    "cores": 2,
-    "architecture": "ARM Cortex-A7",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "lan9696",
-    "name": "LAN9696",
-    "vendor": "Microchip",
-    "model": "LAN9696",
-    "source": "linux_dt",
-    "cores": 2,
-    "architecture": "ARM Cortex-A7",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21"
-  },
-  {
-    "id": "sparx5",
-    "name": "SPARX5",
+    "id": "unisoc_sparx5",
+    "name": "Unisoc SPARX5",
     "vendor": "Microchip",
     "model": "SPARX5",
     "source": "linux_dt",
@@ -34,5 +10,35 @@
     "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
+  },
+  {
+    "id": "lan9691",
+    "name": "lan9691",
+    "vendor": "Microchip",
+    "model": "LAN9691",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7",
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "aliases": [
+      "lan9691 (LAN9691)"
+    ]
+  },
+  {
+    "id": "lan9696",
+    "name": "lan9696",
+    "vendor": "Microchip",
+    "model": "LAN9696",
+    "source": "linux_dt",
+    "cores": 2,
+    "architecture": "ARM Cortex-A7",
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "aliases": [
+      "lan9696 (LAN9696)"
+    ]
   }
 ]

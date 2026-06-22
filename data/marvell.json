@@ -1,31 +1,40 @@
 [
   {
-    "id": "marvell_ac5",
-    "name": "Marvell Ac5",
+    "id": "marvell_armada",
+    "name": "Marvell Armada",
     "vendor": "Marvell",
-    "model": "AC5",
+    "model": "ARMADA",
     "source": "linux_dt",
-    "cores": 4,
-    "architecture": "ARM Cortex-A72",
     "aliases": [
-      "Marvell Ac5 (AC5)"
+      "Marvell Armada (ARMADA)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   },
   {
-    "id": "marvell_ac5x",
-    "name": "Marvell Ac5X",
+    "id": "marvell_armada_37_armada37",
+    "name": "Marvell Armada 37",
     "vendor": "Marvell",
-    "model": "AC5X",
+    "model": "ARMADA-37",
     "source": "linux_dt",
-    "cores": 4,
-    "architecture": "ARM Cortex-A72",
     "aliases": [
-      "Marvell Ac5X (AC5X)"
+      "Marvell Armada 37 (ARMADA-37)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "marvell_armada_372_armada372",
+    "name": "Marvell Armada 372",
+    "vendor": "Marvell",
+    "model": "ARMADA-372",
+    "source": "linux_dt",
+    "aliases": [
+      "Marvell Armada 372 (ARMADA-372)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -41,6 +50,19 @@
       "Marvell Armada 3720 (ARMADA-3720)"
     ],
     "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "marvell_armada_70_armada70",
+    "name": "Marvell Armada 70",
+    "vendor": "Marvell",
+    "model": "ARMADA-70",
+    "source": "linux_dt",
+    "aliases": [
+      "Marvell Armada 70 (ARMADA-70)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -75,6 +97,19 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "marvell_armada_80_armada80",
+    "name": "Marvell Armada 80",
+    "vendor": "Marvell",
+    "model": "ARMADA-80",
+    "source": "linux_dt",
+    "aliases": [
+      "Marvell Armada 80 (ARMADA-80)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "marvell_armada_8040_armada8040",
     "name": "Marvell Armada 8040",
     "vendor": "Marvell",
@@ -105,8 +140,23 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "marvell_cn9130",
-    "name": "Marvell Cn9130",
+    "id": "ac5",
+    "name": "ac5",
+    "vendor": "Marvell",
+    "model": "AC5",
+    "source": "linux_dt",
+    "cores": 4,
+    "architecture": "ARM Cortex-A72",
+    "aliases": [
+      "Marvell Ac5 (AC5)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "cn9130",
+    "name": "cn9130",
     "vendor": "Marvell",
     "model": "CN9130",
     "source": "linux_dt",
@@ -120,8 +170,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "marvell_cn9131",
-    "name": "Marvell Cn9131",
+    "id": "cn9131",
+    "name": "cn9131",
     "vendor": "Marvell",
     "model": "CN9131",
     "source": "linux_dt",
@@ -135,8 +185,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "marvell_cn9132",
-    "name": "Marvell Cn9132",
+    "id": "cn9132",
+    "name": "cn9132",
     "vendor": "Marvell",
     "model": "CN9132",
     "source": "linux_dt",
@@ -150,8 +200,21 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "marvell_pxa1908",
-    "name": "Marvell Pxa1908",
+    "id": "db",
+    "name": "db",
+    "vendor": "Marvell",
+    "model": "DB",
+    "source": "linux_dt",
+    "aliases": [
+      "db (DB)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "pxa1908",
+    "name": "pxa1908",
     "vendor": "Marvell",
     "model": "PXA1908",
     "source": "linux_dt",

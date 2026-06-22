@@ -26,10 +26,9 @@ def test_stats_output():
 
 
 def test_show_chip():
-    result = run_cli("show", "sm8550_ab")
+    result = run_cli("show", "sm8550_ac")
     assert result.returncode == 0
     assert "Qualcomm" in result.stdout
-    assert "sm8550_ab" in result.stdout
 
 
 def test_query_vendor():

@@ -1,5 +1,16 @@
 [
   {
+    "id": "nxp_lpc",
+    "name": "NXP LPC",
+    "vendor": "NXP i.MX",
+    "description": "ARM Cortex-M based Microcontrollers by NXP",
+    "model": "NXP LPC",
+    "source": "wikidata",
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "imx_6_imx6",
     "name": "i.MX 6",
     "vendor": "NXP i.MX",
@@ -63,16 +74,5 @@
     "dsp": "Tensilica HiFi 4 DSP",
     "memory_bus": 32,
     "gpu": "DDR3L (ECC option) LPDDR4 (no ECC)"
-  },
-  {
-    "id": "imx_9_imx9",
-    "name": "i.MX 9",
-    "vendor": "NXP i.MX",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "completeness": 0.2621,
-    "sources": {},
-    "updated": "2026-06-21",
-    "model": "i.MX 9"
   }
 ]

@@ -1,5 +1,189 @@
 [
   {
+    "id": "s800",
+    "name": "s800",
+    "vendor": "Apple",
+    "model": "S800",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s800 (S800)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8000",
+    "name": "s8000",
+    "vendor": "Apple",
+    "model": "S8000",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8000 (S8000)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8000i",
+    "name": "s8000i",
+    "vendor": "Apple",
+    "model": "S8000I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8000i (S8000I)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8001",
+    "name": "s8001",
+    "vendor": "Apple",
+    "model": "S8001",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8001 (S8001)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8001i",
+    "name": "s8001i",
+    "vendor": "Apple",
+    "model": "S8001I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8001i (S8001I)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8003",
+    "name": "s8003",
+    "vendor": "Apple",
+    "model": "S8003",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8003 (S8003)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s8003i",
+    "name": "s8003i",
+    "vendor": "Apple",
+    "model": "S8003I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s8003i (S8003I)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s800x",
+    "name": "s800x",
+    "vendor": "Apple",
+    "model": "S800X",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2012,
+    "process_nm": 28,
+    "process_name": "28nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "s800x (S800X)"
+    ],
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "apple_a13_bionic_t8301",
     "name": "Apple A13 Bionic",
     "vendor": "Apple",
@@ -55,37 +239,6 @@
     "bluetooth": "5.0"
   },
   {
-    "id": "apple_a14_bionic_t8103",
-    "name": "Apple A14 Bionic",
-    "vendor": "Apple",
-    "codename": "h13g",
-    "model": "T8103",
-    "revision": "",
-    "cores": 6,
-    "threads": 6,
-    "architecture": "ARMv8.5-A",
-    "gpu": "Apple A14 GPU (4-core)",
-    "process": "5nm",
-    "year": 2020,
-    "max_freq": "3.0 GHz",
-    "aliases": [
-      "Apple A14 Bionic (T8103)"
-    ],
-    "completeness": 0.5534,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 7,
-    "process_name": "7nm",
-    "memory_type": "LPDDR4X",
-    "storage_type": "UFS 3.0",
-    "memory_clock": 2133,
-    "memory_bus": 64,
-    "npu": "Neural Engine",
-    "modem": "Apple 5G",
-    "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
-  },
-  {
     "id": "apple_m1_t8110",
     "name": "Apple M1",
     "vendor": "Apple",
@@ -115,6 +268,38 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.0"
+  },
+  {
+    "id": "t8103",
+    "name": "t8103",
+    "vendor": "Apple",
+    "codename": "h13g",
+    "model": "T8103",
+    "revision": "",
+    "cores": 6,
+    "threads": 6,
+    "architecture": "ARMv8.5-A",
+    "gpu": "Apple A14 GPU (4-core)",
+    "process": "5nm",
+    "year": 2020,
+    "max_freq": "3.0 GHz",
+    "aliases": [
+      "Apple A14 Bionic (T8103)"
+    ],
+    "completeness": 0.5534,
+    "sources": {},
+    "updated": "2026-06-21",
+    "process_nm": 7,
+    "process_name": "7nm",
+    "memory_type": "LPDDR4X",
+    "storage_type": "UFS 3.0",
+    "memory_clock": 2133,
+    "memory_bus": 64,
+    "npu": "Neural Engine",
+    "modem": "Apple 5G",
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "source": "linux_dt"
   },
   {
     "id": "apple_a15_bionic_t8110",
@@ -207,8 +392,8 @@
     "bluetooth": "5.2"
   },
   {
-    "id": "apple_m1_pro_t8112",
-    "name": "Apple M1 Pro",
+    "id": "t8112",
+    "name": "t8112",
     "vendor": "Apple",
     "codename": "h14p",
     "model": "T8112",
@@ -235,7 +420,8 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "source": "linux_dt"
   },
   {
     "id": "apple_a16_bionic_t8120",
@@ -297,8 +483,8 @@
     "bluetooth": "5.2"
   },
   {
-    "id": "apple_m2_t6000",
-    "name": "Apple M2",
+    "id": "t6000",
+    "name": "t6000",
     "vendor": "Apple",
     "codename": "h15g",
     "model": "T6000",
@@ -325,7 +511,8 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "source": "linux_dt"
   },
   {
     "id": "apple_a17_pro_t8130",
@@ -387,39 +574,8 @@
     "bluetooth": "5.3"
   },
   {
-    "id": "apple_m2_max_t6021",
-    "name": "Apple M2 Max",
-    "vendor": "Apple",
-    "codename": "h15m",
-    "model": "T6021",
-    "revision": "",
-    "cores": 12,
-    "threads": 12,
-    "architecture": "ARMv8.6-A",
-    "gpu": "Apple M2 Max GPU (30/38-core)",
-    "process": "5nm",
-    "year": 2023,
-    "max_freq": "3.5 GHz",
-    "aliases": [
-      "Apple M2 Max (T6021)"
-    ],
-    "completeness": 0.5534,
-    "sources": {},
-    "updated": "2026-06-21",
-    "process_nm": 4,
-    "process_name": "4nm",
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "npu": "Neural Engine",
-    "modem": "Apple 5G",
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
-  },
-  {
-    "id": "apple_m2_pro_t6020",
-    "name": "Apple M2 Pro",
+    "id": "t6020",
+    "name": "t6020",
     "vendor": "Apple",
     "codename": "h15p",
     "model": "T6020",
@@ -446,7 +602,40 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "source": "linux_dt"
+  },
+  {
+    "id": "t6021",
+    "name": "t6021",
+    "vendor": "Apple",
+    "codename": "h15m",
+    "model": "T6021",
+    "revision": "",
+    "cores": 12,
+    "threads": 12,
+    "architecture": "ARMv8.6-A",
+    "gpu": "Apple M2 Max GPU (30/38-core)",
+    "process": "5nm",
+    "year": 2023,
+    "max_freq": "3.5 GHz",
+    "aliases": [
+      "Apple M2 Max (T6021)"
+    ],
+    "completeness": 0.5534,
+    "sources": {},
+    "updated": "2026-06-21",
+    "process_nm": 4,
+    "process_name": "4nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "npu": "Neural Engine",
+    "modem": "Apple 5G",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "source": "linux_dt"
   },
   {
     "id": "apple_a18_pro_t9500",
@@ -509,5 +698,226 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.3"
+  },
+  {
+    "id": "spi1",
+    "name": "Unisoc SPI1",
+    "vendor": "Apple",
+    "model": "SPI1",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "completeness": 0.2233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s5l8960x",
+    "name": "s5l8960x",
+    "vendor": "Apple",
+    "model": "S5L8960X",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "s5l8960x (S5L8960X)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s5l8960xi",
+    "name": "s5l8960xi",
+    "vendor": "Apple",
+    "model": "S5L8960XI",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "s5l8960xi (S5L8960XI)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s5l8965x",
+    "name": "s5l8965x",
+    "vendor": "Apple",
+    "model": "S5L8965X",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "s5l8965x (S5L8965X)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t600",
+    "name": "t600",
+    "vendor": "Apple",
+    "model": "T600",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t600 (T600)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t6001",
+    "name": "t6001",
+    "vendor": "Apple",
+    "model": "T6001",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t6001 (T6001)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t6002",
+    "name": "t6002",
+    "vendor": "Apple",
+    "model": "T6002",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t6002 (T6002)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t602",
+    "name": "t602",
+    "vendor": "Apple",
+    "model": "T602",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t602 (T602)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t6022",
+    "name": "t6022",
+    "vendor": "Apple",
+    "model": "T6022",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t6022 (T6022)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t7000",
+    "name": "t7000",
+    "vendor": "Apple",
+    "model": "T7000",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t7000 (T7000)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t7001",
+    "name": "t7001",
+    "vendor": "Apple",
+    "model": "T7001",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t7001 (T7001)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t8010",
+    "name": "t8010",
+    "vendor": "Apple",
+    "model": "T8010",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t8010 (T8010)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t8011",
+    "name": "t8011",
+    "vendor": "Apple",
+    "model": "T8011",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t8011 (T8011)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t8012",
+    "name": "t8012",
+    "vendor": "Apple",
+    "model": "T8012",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t8012 (T8012)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t8015",
+    "name": "t8015",
+    "vendor": "Apple",
+    "model": "T8015",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t8015 (T8015)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "t8122",
+    "name": "t8122",
+    "vendor": "Apple",
+    "model": "T8122",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "t8122 (T8122)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

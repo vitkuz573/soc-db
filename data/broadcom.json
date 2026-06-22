@@ -1,7 +1,7 @@
 [
   {
-    "id": "broadcom_bcm2711",
-    "name": "Broadcom BCM2711",
+    "id": "bcm2711",
+    "name": "BCM2711",
     "vendor": "Broadcom",
     "model": "BCM2711",
     "source": "linux_dt",
@@ -12,8 +12,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "broadcom_bcm2712",
-    "name": "Broadcom BCM2712",
+    "id": "bcm2712",
+    "name": "BCM2712",
     "vendor": "Broadcom",
     "model": "BCM2712",
     "source": "linux_dt",
@@ -24,8 +24,8 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "broadcom_bcm2837",
-    "name": "Broadcom BCM2837",
+    "id": "bcm2837",
+    "name": "BCM2837",
     "vendor": "Broadcom",
     "model": "BCM2837",
     "source": "linux_dt",
@@ -36,218 +36,311 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "broadcom_bcm4906",
-    "name": "Broadcom BCM4906",
+    "id": "bcm4906",
+    "name": "bcm4906",
     "vendor": "Broadcom",
     "model": "BCM4906",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm4906 (BCM4906)"
+    ]
   },
   {
-    "id": "broadcom_bcm4908",
-    "name": "Broadcom BCM4908",
+    "id": "bcm4908",
+    "name": "bcm4908",
     "vendor": "Broadcom",
     "model": "BCM4908",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm4908 (BCM4908)"
+    ]
   },
   {
-    "id": "broadcom_bcm4912",
-    "name": "Broadcom BCM4912",
+    "id": "bcm4912",
+    "name": "bcm4912",
     "vendor": "Broadcom",
     "model": "BCM4912",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm4912 (BCM4912)"
+    ]
   },
   {
-    "id": "broadcom_bcm63146",
-    "name": "Broadcom BCM63146",
+    "id": "bcm63146",
+    "name": "bcm63146",
     "vendor": "Broadcom",
     "model": "BCM63146",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm63146 (BCM63146)"
+    ]
   },
   {
-    "id": "broadcom_bcm63158",
-    "name": "Broadcom BCM63158",
+    "id": "bcm63158",
+    "name": "bcm63158",
     "vendor": "Broadcom",
     "model": "BCM63158",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm63158 (BCM63158)"
+    ]
   },
   {
-    "id": "broadcom_bcm6813",
-    "name": "Broadcom BCM6813",
+    "id": "bcm6813",
+    "name": "bcm6813",
     "vendor": "Broadcom",
     "model": "BCM6813",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm6813 (BCM6813)"
+    ]
   },
   {
-    "id": "broadcom_bcm6856",
-    "name": "Broadcom BCM6856",
+    "id": "bcm6856",
+    "name": "bcm6856",
     "vendor": "Broadcom",
     "model": "BCM6856",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm6856 (BCM6856)"
+    ]
   },
   {
-    "id": "broadcom_bcm6858",
-    "name": "Broadcom BCM6858",
+    "id": "bcm6858",
+    "name": "bcm6858",
     "vendor": "Broadcom",
     "model": "BCM6858",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm6858 (BCM6858)"
+    ]
   },
   {
-    "id": "broadcom_bcm94908",
-    "name": "Broadcom BCM94908",
+    "id": "bcm94908",
+    "name": "bcm94908",
     "vendor": "Broadcom",
     "model": "BCM94908",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm94908 (BCM94908)"
+    ]
   },
   {
-    "id": "broadcom_bcm94912",
-    "name": "Broadcom BCM94912",
+    "id": "bcm94912",
+    "name": "bcm94912",
     "vendor": "Broadcom",
     "model": "BCM94912",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm94912 (BCM94912)"
+    ]
   },
   {
-    "id": "broadcom_bcm958742",
-    "name": "Broadcom BCM958742",
+    "id": "bcm958742",
+    "name": "bcm958742",
     "vendor": "Broadcom",
     "model": "BCM958742",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm958742 (BCM958742)"
+    ]
   },
   {
-    "id": "broadcom_bcm958802",
-    "name": "Broadcom BCM958802",
+    "id": "bcm958802",
+    "name": "bcm958802",
     "vendor": "Broadcom",
     "model": "BCM958802",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm958802 (BCM958802)"
+    ]
   },
   {
-    "id": "broadcom_bcm963146",
-    "name": "Broadcom BCM963146",
+    "id": "bcm963146",
+    "name": "bcm963146",
     "vendor": "Broadcom",
     "model": "BCM963146",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm963146 (BCM963146)"
+    ]
   },
   {
-    "id": "broadcom_bcm963158",
-    "name": "Broadcom BCM963158",
+    "id": "bcm963158",
+    "name": "bcm963158",
     "vendor": "Broadcom",
     "model": "BCM963158",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm963158 (BCM963158)"
+    ]
   },
   {
-    "id": "broadcom_bcm96813",
-    "name": "Broadcom BCM96813",
+    "id": "bcm96813",
+    "name": "bcm96813",
     "vendor": "Broadcom",
     "model": "BCM96813",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm96813 (BCM96813)"
+    ]
   },
   {
-    "id": "broadcom_bcm96856",
-    "name": "Broadcom BCM96856",
+    "id": "bcm96856",
+    "name": "bcm96856",
     "vendor": "Broadcom",
     "model": "BCM96856",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm96856 (BCM96856)"
+    ]
   },
   {
-    "id": "broadcom_bcm96858",
-    "name": "Broadcom BCM96858",
+    "id": "bcm96858",
+    "name": "bcm96858",
     "vendor": "Broadcom",
     "model": "BCM96858",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "aliases": [
+      "bcm96858 (BCM96858)"
+    ]
   },
   {
-    "id": "broadcom_ns2",
-    "name": "Broadcom NS2",
+    "id": "ns2",
+    "name": "ns2",
     "vendor": "Broadcom",
     "model": "NS2",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A72",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "aliases": [
+      "ns2 (NS2)"
+    ]
+  },
+  {
+    "id": "rp1",
+    "name": "rp1",
+    "vendor": "Broadcom",
+    "model": "RP1",
+    "source": "linux_dt",
+    "aliases": [
+      "rp1 (RP1)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "stingray",
+    "name": "stingray",
+    "vendor": "Broadcom",
+    "model": "STINGRAY",
+    "source": "linux_dt",
+    "aliases": [
+      "stingray (STINGRAY)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "stingrayi",
+    "name": "stingrayi",
+    "vendor": "Broadcom",
+    "model": "STINGRAYI",
+    "source": "linux_dt",
+    "aliases": [
+      "stingrayi (STINGRAYI)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   }

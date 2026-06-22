@@ -1,5 +1,85 @@
 [
   {
+    "id": "renesas_r8a774a1",
+    "name": "Renesas R8A774A1",
+    "vendor": "Renesas",
+    "model": "R8A774A1",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774a1i",
+    "name": "Renesas R8A774A1I",
+    "vendor": "Renesas",
+    "model": "R8A774A1I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774b1",
+    "name": "Renesas R8A774B1",
+    "vendor": "Renesas",
+    "model": "R8A774B1",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774b1i",
+    "name": "Renesas R8A774B1I",
+    "vendor": "Renesas",
+    "model": "R8A774B1I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774c0",
+    "name": "Renesas R8A774C0",
+    "vendor": "Renesas",
+    "model": "R8A774C0",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774c0i",
+    "name": "Renesas R8A774C0I",
+    "vendor": "Renesas",
+    "model": "R8A774C0I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774e1",
+    "name": "Renesas R8A774E1",
+    "vendor": "Renesas",
+    "model": "R8A774E1",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a774e1i",
+    "name": "Renesas R8A774E1I",
+    "vendor": "Renesas",
+    "model": "R8A774E1I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "renesas_r8a77951",
     "name": "Renesas R8A77951",
     "vendor": "Renesas",
@@ -8,6 +88,16 @@
     "cores": 4,
     "architecture": "ARM Cortex-A57",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77951i",
+    "name": "Renesas R8A77951I",
+    "vendor": "Renesas",
+    "model": "R8A77951I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -24,6 +114,16 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "renesas_r8a77960i",
+    "name": "Renesas R8A77960I",
+    "vendor": "Renesas",
+    "model": "R8A77960I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "renesas_r8a77961",
     "name": "Renesas R8A77961",
     "vendor": "Renesas",
@@ -32,6 +132,16 @@
     "cores": 4,
     "architecture": "ARM Cortex-A57",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77961i",
+    "name": "Renesas R8A77961I",
+    "vendor": "Renesas",
+    "model": "R8A77961I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -48,6 +158,16 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "renesas_r8a77965i",
+    "name": "Renesas R8A77965I",
+    "vendor": "Renesas",
+    "model": "R8A77965I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "renesas_r8a77970",
     "name": "Renesas R8A77970",
     "vendor": "Renesas",
@@ -56,6 +176,16 @@
     "cores": 4,
     "architecture": "ARM Cortex-A57",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77970i",
+    "name": "Renesas R8A77970I",
+    "vendor": "Renesas",
+    "model": "R8A77970I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -72,6 +202,36 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "renesas_r8a77980a",
+    "name": "Renesas R8A77980A",
+    "vendor": "Renesas",
+    "model": "R8A77980A",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77980ai",
+    "name": "Renesas R8A77980AI",
+    "vendor": "Renesas",
+    "model": "R8A77980AI",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77980i",
+    "name": "Renesas R8A77980I",
+    "vendor": "Renesas",
+    "model": "R8A77980I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "renesas_r8a77990",
     "name": "Renesas R8A77990",
     "vendor": "Renesas",
@@ -80,6 +240,16 @@
     "cores": 4,
     "architecture": "ARM Cortex-A57",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a77990i",
+    "name": "Renesas R8A77990I",
+    "vendor": "Renesas",
+    "model": "R8A77990I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
     "sources": {},
     "updated": "2026-06-21"
   },
@@ -96,6 +266,256 @@
     "updated": "2026-06-21"
   },
   {
+    "id": "renesas_r8a77995i",
+    "name": "Renesas R8A77995I",
+    "vendor": "Renesas",
+    "model": "R8A77995I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779a0",
+    "name": "Renesas R8A779A0",
+    "vendor": "Renesas",
+    "model": "R8A779A0",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779a0i",
+    "name": "Renesas R8A779A0I",
+    "vendor": "Renesas",
+    "model": "R8A779A0I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779f0",
+    "name": "Renesas R8A779F0",
+    "vendor": "Renesas",
+    "model": "R8A779F0",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779f0i",
+    "name": "Renesas R8A779F0I",
+    "vendor": "Renesas",
+    "model": "R8A779F0I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779f4",
+    "name": "Renesas R8A779F4",
+    "vendor": "Renesas",
+    "model": "R8A779F4",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779f4i",
+    "name": "Renesas R8A779F4I",
+    "vendor": "Renesas",
+    "model": "R8A779F4I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g0",
+    "name": "Renesas R8A779G0",
+    "vendor": "Renesas",
+    "model": "R8A779G0",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g0i",
+    "name": "Renesas R8A779G0I",
+    "vendor": "Renesas",
+    "model": "R8A779G0I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g2",
+    "name": "Renesas R8A779G2",
+    "vendor": "Renesas",
+    "model": "R8A779G2",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g2i",
+    "name": "Renesas R8A779G2I",
+    "vendor": "Renesas",
+    "model": "R8A779G2I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g3",
+    "name": "Renesas R8A779G3",
+    "vendor": "Renesas",
+    "model": "R8A779G3",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779g3i",
+    "name": "Renesas R8A779G3I",
+    "vendor": "Renesas",
+    "model": "R8A779G3I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779h0",
+    "name": "Renesas R8A779H0",
+    "vendor": "Renesas",
+    "model": "R8A779H0",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779h0i",
+    "name": "Renesas R8A779H0I",
+    "vendor": "Renesas",
+    "model": "R8A779H0I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779h2",
+    "name": "Renesas R8A779H2",
+    "vendor": "Renesas",
+    "model": "R8A779H2",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779h2i",
+    "name": "Renesas R8A779H2I",
+    "vendor": "Renesas",
+    "model": "R8A779H2I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m1",
+    "name": "Renesas R8A779M1",
+    "vendor": "Renesas",
+    "model": "R8A779M1",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m1i",
+    "name": "Renesas R8A779M1I",
+    "vendor": "Renesas",
+    "model": "R8A779M1I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m3",
+    "name": "Renesas R8A779M3",
+    "vendor": "Renesas",
+    "model": "R8A779M3",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m3i",
+    "name": "Renesas R8A779M3I",
+    "vendor": "Renesas",
+    "model": "R8A779M3I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m5",
+    "name": "Renesas R8A779M5",
+    "vendor": "Renesas",
+    "model": "R8A779M5",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779m5i",
+    "name": "Renesas R8A779M5I",
+    "vendor": "Renesas",
+    "model": "R8A779M5I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779md",
+    "name": "Renesas R8A779MD",
+    "vendor": "Renesas",
+    "model": "R8A779MD",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a779mdi",
+    "name": "Renesas R8A779MDI",
+    "vendor": "Renesas",
+    "model": "R8A779MDI",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "renesas_r8a78000",
     "name": "Renesas R8A78000",
     "vendor": "Renesas",
@@ -104,6 +524,741 @@
     "cores": 4,
     "architecture": "ARM Cortex-A57",
     "completeness": 0.2621,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas_r8a78000i",
+    "name": "Renesas R8A78000I",
+    "vendor": "Renesas",
+    "model": "R8A78000I",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ti_draaki",
+    "name": "TI DRAAKI",
+    "vendor": "Renesas",
+    "model": "DRAAKI",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "aistarvision",
+    "name": "aistarvision",
+    "vendor": "Renesas",
+    "model": "AISTARVISION",
+    "source": "linux_dt",
+    "aliases": [
+      "aistarvision (AISTARVISION)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "beacon",
+    "name": "beacon",
+    "vendor": "Renesas",
+    "model": "BEACON",
+    "source": "linux_dt",
+    "aliases": [
+      "beacon (BEACON)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "cat875i",
+    "name": "cat875i",
+    "vendor": "Renesas",
+    "model": "CAT875I",
+    "source": "linux_dt",
+    "aliases": [
+      "cat875i (CAT875I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "condor",
+    "name": "condor",
+    "vendor": "Renesas",
+    "model": "CONDOR",
+    "source": "linux_dt",
+    "aliases": [
+      "condor (CONDOR)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ebisui",
+    "name": "ebisui",
+    "vendor": "Renesas",
+    "model": "EBISUI",
+    "source": "linux_dt",
+    "aliases": [
+      "ebisui (EBISUI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "gray",
+    "name": "gray",
+    "vendor": "Renesas",
+    "model": "GRAY",
+    "source": "linux_dt",
+    "aliases": [
+      "gray (GRAY)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "hihope",
+    "name": "hihope",
+    "vendor": "Renesas",
+    "model": "HIHOPE",
+    "source": "linux_dt",
+    "aliases": [
+      "hihope (HIHOPE)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "panel",
+    "name": "panel",
+    "vendor": "Renesas",
+    "model": "PANEL",
+    "source": "linux_dt",
+    "aliases": [
+      "panel (PANEL)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g043i",
+    "name": "r9a07g043i",
+    "vendor": "Renesas",
+    "model": "R9A07G043I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g043i (R9A07G043I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g043u11",
+    "name": "r9a07g043u11",
+    "vendor": "Renesas",
+    "model": "R9A07G043U11",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g043u11 (R9A07G043U11)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g043ui",
+    "name": "r9a07g043ui",
+    "vendor": "Renesas",
+    "model": "R9A07G043UI",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g043ui (R9A07G043UI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g044c2",
+    "name": "r9a07g044c2",
+    "vendor": "Renesas",
+    "model": "R9A07G044C2",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g044c2 (R9A07G044C2)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g044c2i",
+    "name": "r9a07g044c2i",
+    "vendor": "Renesas",
+    "model": "R9A07G044C2I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g044c2i (R9A07G044C2I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g044i",
+    "name": "r9a07g044i",
+    "vendor": "Renesas",
+    "model": "R9A07G044I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g044i (R9A07G044I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g044l2",
+    "name": "r9a07g044l2",
+    "vendor": "Renesas",
+    "model": "R9A07G044L2",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g044l2 (R9A07G044L2)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g044l2i",
+    "name": "r9a07g044l2i",
+    "vendor": "Renesas",
+    "model": "R9A07G044L2I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g044l2i (R9A07G044L2I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g054i",
+    "name": "r9a07g054i",
+    "vendor": "Renesas",
+    "model": "R9A07G054I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g054i (R9A07G054I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g054l2",
+    "name": "r9a07g054l2",
+    "vendor": "Renesas",
+    "model": "R9A07G054L2",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g054l2 (R9A07G054L2)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a07g054l2i",
+    "name": "r9a07g054l2i",
+    "vendor": "Renesas",
+    "model": "R9A07G054L2I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a07g054l2i (R9A07G054L2I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g045i",
+    "name": "r9a08g045i",
+    "vendor": "Renesas",
+    "model": "R9A08G045I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g045i (R9A08G045I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g045s33",
+    "name": "r9a08g045s33",
+    "vendor": "Renesas",
+    "model": "R9A08G045S33",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g045s33 (R9A08G045S33)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g045s33i",
+    "name": "r9a08g045s33i",
+    "vendor": "Renesas",
+    "model": "R9A08G045S33I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g045s33i (R9A08G045S33I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g046i",
+    "name": "r9a08g046i",
+    "vendor": "Renesas",
+    "model": "R9A08G046I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g046i (R9A08G046I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g046l48",
+    "name": "r9a08g046l48",
+    "vendor": "Renesas",
+    "model": "R9A08G046L48",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g046l48 (R9A08G046L48)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a08g046l48i",
+    "name": "r9a08g046l48i",
+    "vendor": "Renesas",
+    "model": "R9A08G046L48I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a08g046l48i (R9A08G046L48I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g011",
+    "name": "r9a09g011",
+    "vendor": "Renesas",
+    "model": "R9A09G011",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g011 (R9A09G011)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g011i",
+    "name": "r9a09g011i",
+    "vendor": "Renesas",
+    "model": "R9A09G011I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g011i (R9A09G011I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g047e57",
+    "name": "r9a09g047e57",
+    "vendor": "Renesas",
+    "model": "R9A09G047E57",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g047e57 (R9A09G047E57)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g047e57i",
+    "name": "r9a09g047e57i",
+    "vendor": "Renesas",
+    "model": "R9A09G047E57I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g047e57i (R9A09G047E57I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g047i",
+    "name": "r9a09g047i",
+    "vendor": "Renesas",
+    "model": "R9A09G047I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g047i (R9A09G047I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g056i",
+    "name": "r9a09g056i",
+    "vendor": "Renesas",
+    "model": "R9A09G056I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g056i (R9A09G056I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g056n48",
+    "name": "r9a09g056n48",
+    "vendor": "Renesas",
+    "model": "R9A09G056N48",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g056n48 (R9A09G056N48)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g057h44",
+    "name": "r9a09g057h44",
+    "vendor": "Renesas",
+    "model": "R9A09G057H44",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g057h44 (R9A09G057H44)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g057h48",
+    "name": "r9a09g057h48",
+    "vendor": "Renesas",
+    "model": "R9A09G057H48",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g057h48 (R9A09G057H48)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g057i",
+    "name": "r9a09g057i",
+    "vendor": "Renesas",
+    "model": "R9A09G057I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g057i (R9A09G057I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g077i",
+    "name": "r9a09g077i",
+    "vendor": "Renesas",
+    "model": "R9A09G077I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g077i (R9A09G077I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g077m44",
+    "name": "r9a09g077m44",
+    "vendor": "Renesas",
+    "model": "R9A09G077M44",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g077m44 (R9A09G077M44)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g077m44i",
+    "name": "r9a09g077m44i",
+    "vendor": "Renesas",
+    "model": "R9A09G077M44I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g077m44i (R9A09G077M44I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g087i",
+    "name": "r9a09g087i",
+    "vendor": "Renesas",
+    "model": "R9A09G087I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g087i (R9A09G087I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g087m44",
+    "name": "r9a09g087m44",
+    "vendor": "Renesas",
+    "model": "R9A09G087M44",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g087m44 (R9A09G087M44)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "r9a09g087m44i",
+    "name": "r9a09g087m44i",
+    "vendor": "Renesas",
+    "model": "R9A09G087M44I",
+    "source": "linux_dt",
+    "aliases": [
+      "r9a09g087m44i (R9A09G087M44I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "renesas",
+    "name": "renesas",
+    "vendor": "Renesas",
+    "model": "RENESAS",
+    "source": "linux_dt",
+    "aliases": [
+      "renesas (RENESAS)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rz",
+    "name": "rz",
+    "vendor": "Renesas",
+    "model": "RZ",
+    "source": "linux_dt",
+    "aliases": [
+      "rz (RZ)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg2",
+    "name": "rzg2",
+    "vendor": "Renesas",
+    "model": "RZG2",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg2 (RZG2)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg2l",
+    "name": "rzg2l",
+    "vendor": "Renesas",
+    "model": "RZG2L",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg2l (RZG2L)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg2lc",
+    "name": "rzg2lc",
+    "vendor": "Renesas",
+    "model": "RZG2LC",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg2lc (RZG2LC)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg2ul",
+    "name": "rzg2ul",
+    "vendor": "Renesas",
+    "model": "RZG2UL",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg2ul (RZG2UL)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg3e",
+    "name": "rzg3e",
+    "vendor": "Renesas",
+    "model": "RZG3E",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg3e (RZG3E)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg3l",
+    "name": "rzg3l",
+    "vendor": "Renesas",
+    "model": "RZG3L",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg3l (RZG3L)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzg3s",
+    "name": "rzg3s",
+    "vendor": "Renesas",
+    "model": "RZG3S",
+    "source": "linux_dt",
+    "aliases": [
+      "rzg3s (RZG3S)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rzt2h",
+    "name": "rzt2h",
+    "vendor": "Renesas",
+    "model": "RZT2H",
+    "source": "linux_dt",
+    "aliases": [
+      "rzt2h (RZT2H)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "salvator",
+    "name": "salvator",
+    "vendor": "Renesas",
+    "model": "SALVATOR",
+    "source": "linux_dt",
+    "aliases": [
+      "salvator (SALVATOR)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ulcb",
+    "name": "ulcb",
+    "vendor": "Renesas",
+    "model": "ULCB",
+    "source": "linux_dt",
+    "aliases": [
+      "ulcb (ULCB)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ulcbi",
+    "name": "ulcbi",
+    "vendor": "Renesas",
+    "model": "ULCBI",
+    "source": "linux_dt",
+    "aliases": [
+      "ulcbi (ULCBI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "white",
+    "name": "white",
+    "vendor": "Renesas",
+    "model": "WHITE",
+    "source": "linux_dt",
+    "aliases": [
+      "white (WHITE)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   }

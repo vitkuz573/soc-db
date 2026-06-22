@@ -1,13 +1,13 @@
 [
   {
-    "id": "actions_s700",
-    "name": "Actions S700",
+    "id": "s700",
+    "name": "s700",
     "vendor": "Actions",
     "model": "S700",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A53",
-    "completeness": 0.466,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2012,
@@ -19,17 +19,20 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "4.0",
-    "gpu": "Mali-400 MP"
+    "gpu": "Mali-400 MP",
+    "aliases": [
+      "s700 (S700)"
+    ]
   },
   {
-    "id": "actions_s900",
-    "name": "Actions S900",
+    "id": "s900",
+    "name": "s900",
     "vendor": "Actions",
     "model": "S900",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A53",
-    "completeness": 0.466,
+    "completeness": 0.4757,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2015,
@@ -41,6 +44,9 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "gpu": "Mali-400 MP"
+    "gpu": "Mali-400 MP",
+    "aliases": [
+      "s900 (S900)"
+    ]
   }
 ]

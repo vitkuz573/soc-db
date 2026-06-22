@@ -1,13 +1,55 @@
 [
   {
-    "id": "xilinx_zynqmp",
-    "name": "Xilinx ZYNQMP",
+    "id": "avnet",
+    "name": "avnet",
+    "vendor": "Xilinx",
+    "model": "AVNET",
+    "source": "linux_dt",
+    "aliases": [
+      "avnet (AVNET)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "versal",
+    "name": "versal",
+    "vendor": "Xilinx",
+    "model": "VERSAL",
+    "source": "linux_dt",
+    "aliases": [
+      "versal (VERSAL)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "zynqmp",
+    "name": "zynqmp",
     "vendor": "Xilinx",
     "model": "ZYNQMP",
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A53",
-    "completeness": 0.2621,
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "aliases": [
+      "zynqmp (ZYNQMP)"
+    ]
+  },
+  {
+    "id": "zynqmpi",
+    "name": "zynqmpi",
+    "vendor": "Xilinx",
+    "model": "ZYNQMPI",
+    "source": "linux_dt",
+    "aliases": [
+      "zynqmpi (ZYNQMPI)"
+    ],
+    "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
   }

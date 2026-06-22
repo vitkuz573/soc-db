@@ -1,27 +1,5 @@
 [
   {
-    "id": "rk1808",
-    "name": "RK1808",
-    "vendor": "Rockchip",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "RK1808",
-    "completeness": 0.4854,
-    "sources": {},
-    "updated": "2026-06-21",
-    "gpu": "ARM Cortex-A35",
-    "npu": "1.6",
-    "year": 2026,
-    "process_nm": 3,
-    "process_name": "3nm",
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
-  },
-  {
     "id": "rk2918",
     "name": "RK2918",
     "vendor": "Rockchip",
@@ -111,51 +89,6 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "rk3036",
-    "name": "RK3036",
-    "vendor": "Rockchip",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "RK3036",
-    "gpu": "Mali-400 MP",
-    "completeness": 0.4854,
-    "sources": {},
-    "updated": "2026-06-21",
-    "npu": "500",
-    "year": 2013,
-    "process_nm": 3,
-    "process_name": "3nm",
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
-  },
-  {
-    "id": "rk3066",
-    "name": "RK3066",
-    "vendor": "Rockchip",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "RK3066",
-    "process": "40 nm",
-    "gpu": "1.6",
-    "completeness": 0.4951,
-    "sources": {},
-    "updated": "2026-06-21",
-    "npu": "Mali-400 MP4",
-    "process_nm": 40,
-    "process_name": "40nm",
-    "year": 2013,
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
-  },
-  {
     "id": "rk3126",
     "name": "RK3126",
     "vendor": "Rockchip",
@@ -178,28 +111,6 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "rk3128",
-    "name": "RK3128",
-    "vendor": "Rockchip",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "RK3128",
-    "completeness": 0.4854,
-    "sources": {},
-    "updated": "2026-06-21",
-    "npu": "List Boardcon Compact3128",
-    "year": 2013,
-    "process_nm": 3,
-    "process_name": "3nm",
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4",
-    "gpu": "Mali-400 MP"
-  },
-  {
     "id": "rk3168",
     "name": "RK3168",
     "vendor": "Rockchip",
@@ -215,29 +126,6 @@
     "process_nm": 28,
     "process_name": "28nm",
     "year": 2013,
-    "memory_type": "LPDDR5X",
-    "storage_type": "UFS 3.1",
-    "memory_clock": 4266,
-    "memory_bus": 64,
-    "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
-  },
-  {
-    "id": "rk3188",
-    "name": "RK3188",
-    "vendor": "Rockchip",
-    "cores": 8,
-    "architecture": "ARMv8.2-A",
-    "model": "RK3188",
-    "gpu": "512",
-    "max_freq": "800 MHz",
-    "completeness": 0.4951,
-    "sources": {},
-    "updated": "2026-06-21",
-    "npu": "533",
-    "year": 2013,
-    "process_nm": 3,
-    "process_name": "3nm",
     "memory_type": "LPDDR5X",
     "storage_type": "UFS 3.1",
     "memory_clock": 4266,
@@ -268,8 +156,123 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "rk3229",
-    "name": "RK3229",
+    "id": "rockchip_rk3036",
+    "name": "Rockchip RK3036",
+    "vendor": "Rockchip",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "RK3036",
+    "gpu": "Mali-400 MP",
+    "completeness": 0.4854,
+    "sources": {},
+    "updated": "2026-06-21",
+    "npu": "500",
+    "year": 2013,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "source": "linux_dt"
+  },
+  {
+    "id": "rockchip_rk3066",
+    "name": "Rockchip RK3066",
+    "vendor": "Rockchip",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "RK3066",
+    "process": "40 nm",
+    "gpu": "1.6",
+    "completeness": 0.4951,
+    "sources": {},
+    "updated": "2026-06-21",
+    "npu": "Mali-400 MP4",
+    "process_nm": 40,
+    "process_name": "40nm",
+    "year": 2013,
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "source": "linux_dt"
+  },
+  {
+    "id": "rockchip_rk3128",
+    "name": "Rockchip RK3128",
+    "vendor": "Rockchip",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "RK3128",
+    "completeness": 0.4854,
+    "sources": {},
+    "updated": "2026-06-21",
+    "npu": "List Boardcon Compact3128",
+    "year": 2013,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "gpu": "Mali-400 MP",
+    "source": "linux_dt"
+  },
+  {
+    "id": "rockchip_rk3188",
+    "name": "Rockchip RK3188",
+    "vendor": "Rockchip",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "RK3188",
+    "gpu": "512",
+    "max_freq": "800 MHz",
+    "completeness": 0.4951,
+    "sources": {},
+    "updated": "2026-06-21",
+    "npu": "533",
+    "year": 2013,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "source": "linux_dt"
+  },
+  {
+    "id": "rockchip_rk3228",
+    "name": "Rockchip RK3228",
+    "vendor": "Rockchip",
+    "model": "RK3228",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 933,
+    "memory_bus": 32,
+    "gpu": "Mali-T760 MP4",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "completeness": 0.4272,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rockchip_rk3229",
+    "name": "Rockchip RK3229",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -287,11 +290,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3288",
-    "name": "RK3288",
+    "id": "rockchip_rk3288",
+    "name": "Rockchip RK3288",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -309,11 +313,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3308",
-    "name": "RK3308",
+    "id": "rockchip_rk3308",
+    "name": "Rockchip RK3308",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -330,11 +335,33 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3326_px30",
-    "name": "RK3326 PX30",
+    "id": "rockchip_rk3318",
+    "name": "Rockchip RK3318",
+    "vendor": "Rockchip",
+    "model": "RK3318",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "year": 2014,
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR3",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 933,
+    "memory_bus": 32,
+    "gpu": "Mali-T760 MP4",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "completeness": 0.4272,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rockchip_rk3326",
+    "name": "Rockchip RK3326",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -353,11 +380,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3328",
-    "name": "RK3328",
+    "id": "rockchip_rk3328",
+    "name": "Rockchip RK3328",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -375,11 +403,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3368_px5",
-    "name": "RK3368 PX5",
+    "id": "rockchip_rk3368",
+    "name": "Rockchip RK3368",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -397,11 +426,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3399_rk3399pro_px6",
-    "name": "RK3399 RK3399Pro PX6",
+    "id": "rockchip_rk3399",
+    "name": "Rockchip RK3399",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -419,7 +449,8 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
     "id": "rk3506_rk3506b_rk3506g2_rk3506j",
@@ -466,8 +497,8 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "rk3528_rk3528a",
-    "name": "RK3528 RK3528A",
+    "id": "rockchip_rk3528",
+    "name": "Rockchip RK3528",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -484,11 +515,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3562",
-    "name": "RK3562",
+    "id": "rockchip_rk3562",
+    "name": "Rockchip RK3562",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -506,11 +538,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3566",
-    "name": "RK3566",
+    "id": "rockchip_rk3566",
+    "name": "Rockchip RK3566",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -529,11 +562,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3568_rk3568j",
-    "name": "RK3568 RK3568J",
+    "id": "rockchip_rk3568",
+    "name": "Rockchip RK3568",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -550,11 +584,12 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-T760 MP4"
+    "gpu": "Mali-T760 MP4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3576_rk3576j",
-    "name": "RK3576 RK3576J",
+    "id": "rockchip_rk3576",
+    "name": "Rockchip RK3576",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -573,11 +608,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3582",
-    "name": "RK3582",
+    "id": "rockchip_rk3582",
+    "name": "Rockchip RK3582",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -595,11 +631,12 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
-    "id": "rk3588_rk3588s_rk3588s2_rk3588c",
-    "name": "RK3588 RK3588S RK3588S2 RK3588C",
+    "id": "rockchip_rk3588",
+    "name": "Rockchip RK3588",
     "vendor": "Rockchip",
     "cores": 8,
     "architecture": "ARMv8.2-A",
@@ -617,7 +654,8 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "source": "linux_dt"
   },
   {
     "id": "tablet_processors_modem_x3c3130",
@@ -644,5 +682,214 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1"
+  },
+  {
+    "id": "rk1808",
+    "name": "RK1808",
+    "vendor": "Rockchip",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "RK1808",
+    "completeness": 0.4854,
+    "sources": {},
+    "updated": "2026-06-21",
+    "gpu": "ARM Cortex-A35",
+    "npu": "1.6",
+    "year": 2026,
+    "process_nm": 3,
+    "process_name": "3nm",
+    "memory_type": "LPDDR5X",
+    "storage_type": "UFS 3.1",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4"
+  },
+  {
+    "id": "rk3",
+    "name": "Rockchip RK3",
+    "vendor": "Rockchip",
+    "model": "RK3",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "completeness": 0.2233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rk322",
+    "name": "Rockchip RK322",
+    "vendor": "Rockchip",
+    "model": "RK322",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "completeness": 0.2233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rk356",
+    "name": "Rockchip RK356",
+    "vendor": "Rockchip",
+    "model": "RK356",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "completeness": 0.2233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "px30",
+    "name": "px30",
+    "vendor": "Rockchip",
+    "model": "PX30",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "px30 (PX30)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "px30i",
+    "name": "px30i",
+    "vendor": "Rockchip",
+    "model": "PX30I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "px30i (PX30I)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rockchip",
+    "name": "rockchip",
+    "vendor": "Rockchip",
+    "model": "ROCKCHIP",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rockchip (ROCKCHIP)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1103b",
+    "name": "rv1103b",
+    "vendor": "Rockchip",
+    "model": "RV1103B",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1103b (RV1103B)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1103bi",
+    "name": "rv1103bi",
+    "vendor": "Rockchip",
+    "model": "RV1103BI",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1103bi (RV1103BI)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1108",
+    "name": "rv1108",
+    "vendor": "Rockchip",
+    "model": "RV1108",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1108 (RV1108)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1108i",
+    "name": "rv1108i",
+    "vendor": "Rockchip",
+    "model": "RV1108I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1108i (RV1108I)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1109",
+    "name": "rv1109",
+    "vendor": "Rockchip",
+    "model": "RV1109",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1109 (RV1109)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1109i",
+    "name": "rv1109i",
+    "vendor": "Rockchip",
+    "model": "RV1109I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1109i (RV1109I)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1126",
+    "name": "rv1126",
+    "vendor": "Rockchip",
+    "model": "RV1126",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1126 (RV1126)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "rv1126i",
+    "name": "rv1126i",
+    "vendor": "Rockchip",
+    "model": "RV1126I",
+    "source": "linux_dt",
+    "architecture": "ARMv8",
+    "aliases": [
+      "rv1126i (RV1126I)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

@@ -6,31 +6,31 @@
       "name": "Actions",
       "file": "actions.json",
       "count": 2,
-      "completeness": 0.466
+      "completeness": 0.476
     },
     "allwinner": {
       "name": "Allwinner",
       "file": "allwinner.json",
-      "count": 24,
-      "completeness": 0.487
+      "count": 41,
+      "completeness": 0.382
     },
     "amlogic": {
       "name": "Amlogic",
       "file": "amlogic.json",
-      "count": 24,
-      "completeness": 0.48
+      "count": 28,
+      "completeness": 0.444
     },
     "apple": {
       "name": "Apple",
       "file": "apple.json",
-      "count": 17,
-      "completeness": 0.549
+      "count": 41,
+      "completeness": 0.398
     },
     "broadcom": {
       "name": "Broadcom",
       "file": "broadcom.json",
-      "count": 21,
-      "completeness": 0.262
+      "count": 24,
+      "completeness": 0.261
     },
     "google": {
       "name": "Google",
@@ -41,8 +41,8 @@
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
-      "count": 61,
-      "completeness": 0.514
+      "count": 83,
+      "completeness": 0.44
     },
     "ingenic": {
       "name": "Ingenic",
@@ -53,94 +53,94 @@
     "intel_atom": {
       "name": "Intel Atom",
       "file": "intel_atom.json",
-      "count": 212,
-      "completeness": 0.471
+      "count": 288,
+      "completeness": 0.398
     },
     "marvell": {
       "name": "Marvell",
       "file": "marvell.json",
-      "count": 11,
-      "completeness": 0.272
+      "count": 16,
+      "completeness": 0.243
     },
     "mediatek": {
       "name": "MediaTek",
       "file": "mediatek.json",
-      "count": 264,
-      "completeness": 0.546
+      "count": 292,
+      "completeness": 0.536
     },
     "microchip": {
       "name": "Microchip",
       "file": "microchip.json",
       "count": 3,
-      "completeness": 0.262
+      "completeness": 0.269
     },
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 19,
-      "completeness": 0.456
+      "count": 44,
+      "completeness": 0.367
     },
     "nxp_i.mx": {
       "name": "NXP i.MX",
       "file": "nxp_imx.json",
       "count": 6,
-      "completeness": 0.295
+      "completeness": 0.283
     },
     "qualcomm": {
       "name": "Qualcomm",
       "file": "qualcomm.json",
-      "count": 262,
-      "completeness": 0.546
+      "count": 439,
+      "completeness": 0.445
     },
     "realtek": {
       "name": "Realtek",
       "file": "realtek.json",
-      "count": 8,
-      "completeness": 0.262
+      "count": 12,
+      "completeness": 0.237
     },
     "renesas": {
       "name": "Renesas",
       "file": "renesas.json",
-      "count": 9,
-      "completeness": 0.262
+      "count": 108,
+      "completeness": 0.196
     },
     "rockchip": {
       "name": "Rockchip",
       "file": "rockchip.json",
-      "count": 29,
-      "completeness": 0.486
+      "count": 45,
+      "completeness": 0.404
     },
     "samsung": {
       "name": "Samsung",
       "file": "exynos.json",
-      "count": 74,
-      "completeness": 0.525
+      "count": 113,
+      "completeness": 0.464
     },
     "stmicroelectronics": {
       "name": "STMicroelectronics",
       "file": "stmicro.json",
-      "count": 10,
-      "completeness": 0.272
+      "count": 13,
+      "completeness": 0.252
     },
     "ti_omap": {
       "name": "TI OMAP",
       "file": "ti_omap.json",
-      "count": 18,
-      "completeness": 0.481
+      "count": 65,
+      "completeness": 0.274
     },
     "unisoc": {
       "name": "Unisoc",
       "file": "unisoc.json",
-      "count": 6,
-      "completeness": 0.466
+      "count": 11,
+      "completeness": 0.359
     },
     "xilinx": {
       "name": "Xilinx",
       "file": "xilinx.json",
-      "count": 1,
-      "completeness": 0.262
+      "count": 4,
+      "completeness": 0.214
     }
   },
-  "total": 1096,
+  "total": 1693,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

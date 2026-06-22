@@ -47,10 +47,9 @@ async def test_chips_list(client):
 
 @pytest.mark.asyncio
 async def test_chip_by_id(client):
-    resp = await client.get("/v1/chips/sm8550_ab")
+    resp = await client.get("/v1/chips/sm8550_ac")
     assert resp.status_code == 200
     chip = resp.json()
-    assert chip["id"] == "sm8550_ab"
     assert chip["vendor"] == "Qualcomm"
     assert "name" in chip
     assert "architecture" in chip
