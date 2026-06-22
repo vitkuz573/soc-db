@@ -2680,6 +2680,30 @@
     "bluetooth": "4.0"
   },
   {
+    "id": "intel_quark",
+    "name": "Intel Quark",
+    "vendor": "Intel Atom",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "year": 2013,
+    "model": "intel_quark",
+    "process_nm": 20,
+    "process_name": "20nm",
+    "memory_type": "LPDDR2",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 533,
+    "memory_bus": 32,
+    "gpu": "Intel HD Graphics",
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "4.0",
+    "aliases": [
+      "Intel Quark (intel_quark)"
+    ],
+    "completeness": 0.4466,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
     "id": "atom_c2308_atomc2308",
     "name": "Atom C2308",
     "vendor": "Intel Atom",

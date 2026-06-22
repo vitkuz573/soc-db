@@ -57,6 +57,18 @@ KNOWN_MANUFACTURERS = {
     "Q82301": "Microchip",
     "Q746194": "Silicon Labs",
     "Q485995": "Espressif",
+    # New vendors from Linux DT
+    "Q4781558": "APM",
+    "Q131399365": "Airoha",
+    "Q438294": "Altera",
+    "Q19599375": "Amazon",
+    "Q43177802": "Bitmain",
+    "Q5055187": "Cavium",
+    "Q2005766": "Nuvoton",
+    "Q20983128": "Socionext",
+    "Q1571490": "Synaptics",
+    "Q478214": "Tesla",
+    "Q49125": "Toshiba",
 }
 
 # Architecture QID → name
@@ -90,7 +102,7 @@ def build_query(vendor_qid: str | None = None) -> str:
                     ?modelNumber ?cores ?arch ?archLabel
                     ?processNode ?gpu ?gpuLabel ?publicationDate ?maxFreq
     WHERE {{
-      ?soc wdt:P31 wd:Q5164383.           # instance of system-on-chip
+      ?soc wdt:P31 wd:Q610398.           # instance of system-on-chip
       {vendor_filter}
       OPTIONAL {{ ?soc wdt:P178 ?manufacturer. }}
       OPTIONAL {{ ?soc wdt:P1552 ?modelNumber. }}
@@ -297,6 +309,25 @@ def main():
         "Broadcom": "broadcom.json",
         "Marvell": "marvell.json",
         "Espressif": "espressif.json",
+        "APM": "apm.json",
+        "ASPEED": "aspeed.json",
+        "Airoha": "airoha.json",
+        "Altera": "altera.json",
+        "Amazon": "amazon.json",
+        "Bitmain": "bitmain.json",
+        "Cavium": "cavium.json",
+        "Nuvoton": "nuvoton.json",
+        "Socionext": "socionext.json",
+        "Sophgo": "sophgo.json",
+        "Synaptics": "synaptics.json",
+        "Tesla": "tesla.json",
+        "Toshiba": "toshiba.json",
+        "Actions": "actions.json",
+        "Renesas": "renesas.json",
+        "STMicroelectronics": "stmicro.json",
+        "Microchip": "microchip.json",
+        "Xilinx": "xilinx.json",
+        "AMD": "amd.json",
     }
 
     # Update VENDOR_FILES in common.py dynamically for new vendors

@@ -101,7 +101,7 @@
     "intel_atom": {
       "name": "Intel Atom",
       "file": "intel_atom.json",
-      "count": 288,
+      "count": 289,
       "completeness": 0.398
     },
     "marvell": {
@@ -131,8 +131,8 @@
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 32,
-      "completeness": 0.432
+      "count": 33,
+      "completeness": 0.426
     },
     "nxp_i.mx": {
       "name": "NXP i.MX",
@@ -225,6 +225,6 @@
       "completeness": 0.214
     }
   },
-  "total": 1746,
+  "total": 1748,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }
