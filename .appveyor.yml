@@ -1,4 +1,4 @@
-version: 1.0.{build}
+version: 2.1.{build}
 
 image: Ubuntu
 
@@ -15,17 +15,34 @@ matrix:
   allow_failures:
     - PYTHON: "3.14"
 
+skip_branch_with_pr: true
+
 install:
   - pyenv install $PYTHON -s
   - pyenv global $PYTHON
   - python --version
   - pip install -e ".[dev]"
+  - pre-commit install
 
 build: off
 
 test_script:
   - make ci
-  - bandit -r src/ -x tests/
+  - make security
+
+after_test:
+  - pre-commit run --all-files --show-diff-on-failure || true
+
+# deploy:
+#   - provider: GitHub
+#     tag: $(APPVEYOR_REPO_TAG_NAME)
+#     release: soc-db $(APPVEYOR_REPO_TAG_NAME)
+#     description: "Release $(APPVEYOR_REPO_TAG_NAME)"
+#     auth_token:
+#       secure: <encrypted-github-token>
+#     on:
+#       APPVEYOR_REPO_TAG: true
+#       PYTHON: "3.12"
 
 cache:
   - /home/appveyor/.cache/pip

@@ -27,7 +27,7 @@ test-cov:
 security:
 	bandit -r src/ -x tests/
 
-ci: lint typecheck test validate
+ci: lint typecheck security test validate
 
 ## ── Data ──────────────────────────────────────────────────────
 
@@ -81,7 +81,21 @@ install-timer:
 	echo "Timer installed. Status:" && \
 	sudo systemctl status soc-db-update.timer --no-pager
 
+## ── Release ───────────────────────────────────────────────────
+
+release:
+	@if [ -z "$(v)" ]; then echo "Usage: make release v=x.y.z"; exit 1; fi
+	@if ! git diff --quiet; then echo "Working tree is dirty. Commit first."; exit 1; fi
+	sed -i 's/^version = ".*"/version = "$(v)"/' pyproject.toml
+	git add pyproject.toml
+	git commit -m "release: $(v)"
+	git tag -a "v$(v)" -m "soc-db v$(v)"
+	@echo "Tagged v$(v). Push with: git push --follow-tags"
+
 ## ── Housekeeping ──────────────────────────────────────────────
+
+pre-commit:
+	pre-commit run --all-files
 
 benchmark:
 	python -m pytest tests/ --benchmark-only -v 2>/dev/null || echo "pytest-benchmark not installed; run: pip install pytest-benchmark"
