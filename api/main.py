@@ -13,7 +13,8 @@ from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 from uuid import uuid4
 
-from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Query, Request, status
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 
@@ -46,6 +47,7 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     setup_logging()
     _app.state._cache_buster = make_cache_buster()
     _app.state._chips = None
+    _app.state._search_index: dict[str, list[int]] | None = None
     _app.state._cache_loaded_at = 0.0
     _app.state._started_at = time.time()
     _app.state._request_count = 0
@@ -76,6 +78,38 @@ app = FastAPI(
 )
 app.add_middleware(CORSMiddleware, allow_origins=settings.api_cors_origins, allow_methods=["*"], allow_headers=["*"])
 
+
+# ---------------------------------------------------------------------------
+# Error handlers
+# ---------------------------------------------------------------------------
+@app.exception_handler(HTTPException)
+async def http_exception_handler(_request: Request, exc: HTTPException):
+    if isinstance(exc.detail, str):
+        detail_val = None
+        error_val = exc.detail
+    else:
+        error_val = exc.detail.get("error", "error")
+        detail_val = exc.detail.get("detail")
+    return JSONResponse(status_code=exc.status_code, content={"error": error_val, "detail": detail_val})
+
+
+@app.exception_handler(RequestValidationError)
+async def validation_handler(_request: Request, exc: RequestValidationError):
+    return JSONResponse(
+        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+        content={"error": "Validation error", "detail": exc.errors()},
+    )
+
+
+@app.exception_handler(Exception)
+async def generic_handler(_request: Request, exc: Exception):
+    logger.exception("Unhandled exception")
+    return JSONResponse(
+        status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+        content={"error": "Internal server error", "detail": str(exc) if settings.log_level == "DEBUG" else None},
+    )
+
+
 # ---------------------------------------------------------------------------
 # API v1 router
 # ---------------------------------------------------------------------------
@@ -91,21 +125,42 @@ def load_index():
     return json.loads((settings.data_dir / "index.json").read_text("utf-8"))
 
 
-def load_all():
+def load_all() -> list[dict]:
     """Load all chip records from JSON data files.
 
     Reads every ``.json`` file in the data directory, skipping
     ``index.json``, and returns the combined list of chip dictionaries.
-
-    Returns:
-        list[dict]: All chips across all vendor files.
     """
-    chips = []
+    chips: list[dict] = []
     for fpath in sorted(settings.data_dir.glob("*.json")):
         if fpath.name == "index.json":
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
     return chips
+
+
+def _build_search_index(chips: list[dict]) -> dict[str, list[int]]:
+    """Build an inverted index mapping lowercase tokens to chip indices."""
+    index: dict[str, list[int]] = {}
+    for i, c in enumerate(chips):
+        seen: set[str] = set()
+        for val in c.values():
+            if isinstance(val, str):
+                for word in val.lower().split():
+                    if word not in seen:
+                        seen.add(word)
+                        index.setdefault(word, []).append(i)
+            elif isinstance(val, (int, float)):
+                word = str(val)
+                if word not in seen:
+                    seen.add(word)
+                    index.setdefault(word, []).append(i)
+    return index
+
+
+async def load_all_async() -> list[dict]:
+    """Async wrapper around :func:`load_all`."""
+    return await asyncio.to_thread(load_all)
 
 
 def make_cache_buster():
@@ -120,6 +175,16 @@ def make_cache_buster():
     from os import urandom
 
     return md5(urandom(16)).hexdigest()[:8]
+
+
+@app.middleware("http")
+async def api_key_middleware(request: Request, call_next):
+    """Optional API key authentication for v1 endpoints."""
+    if settings.api_key and request.url.path.startswith("/v1/"):
+        key = request.headers.get("X-API-Key")
+        if key != settings.api_key:
+            return JSONResponse({"error": "Unauthorized", "detail": "Invalid or missing X-API-Key"}, status_code=401)
+    return await call_next(request)
 
 
 @app.middleware("http")
@@ -171,15 +236,39 @@ async def add_request_id(request: Request, call_next):
     return response
 
 
+def _search_chips(chips: list[dict], q: str, index: dict[str, list[int]] | None) -> list[dict]:
+    """Fast full-text search using the inverted index, falling back to linear scan."""
+    ql = q.lower()
+    if index is not None:
+        tokens = ql.split()
+        if not tokens:
+            return chips
+        result_sets: list[set[int]] = []
+        for token in tokens:
+            result_sets.append(set(index.get(token, [])))
+        if not result_sets:
+            return []
+        matched = result_sets[0].intersection(*result_sets[1:]) if len(result_sets) > 1 else result_sets[0]
+        return [chips[i] for i in sorted(matched)]
+    result: list[dict] = []
+    for c in chips:
+        for val in c.values():
+            if isinstance(val, str) and ql in val.lower():
+                result.append(c)
+                break
+    return result
+
+
 def get_chips():
     """Return the cached chip list with TTL-based invalidation.
 
-    Reloads from disk when the cache TTL (``cache_ttl`` seconds) has
-    elapsed since the last load.
+    Reloads from disk when the cache TTL has elapsed.
+    Also (re)builds the full-text search index on reload.
     """
     now = time.monotonic()
     if app.state._chips is None or (now - app.state._cache_loaded_at) > settings.cache_ttl:
         app.state._chips = load_all()
+        app.state._search_index = _build_search_index(app.state._chips)
         app.state._cache_loaded_at = now
     return app.state._chips
 
@@ -280,8 +369,7 @@ def list_chips(
     if vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == vendor.lower()]
     if q:
-        ql = q.lower()
-        chips = [c for c in chips if ql in json.dumps(c).lower()]
+        chips = _search_chips(chips, q, app.state._search_index)
     if arch:
         chips = [c for c in chips if arch.lower() in c.get("architecture", "").lower()]
     if gpu:

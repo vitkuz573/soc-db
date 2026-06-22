@@ -26,6 +26,9 @@ class Settings(BaseSettings):
     api_port: int = 8000
     api_cors_origins: list[str] = ["*"]
 
+    # --- Authentication ---
+    api_key: str | None = None
+
     # --- Rate limiting (requests per window per client) ---
     api_rate_limit: int = 100
     api_rate_limit_window: int = 60

@@ -68,6 +68,28 @@ class TestStatsResponse:
         assert stats.total_chips == 100
 
 
+class TestSearchIndex:
+    def test_build_search_index(self):
+        from api.main import _build_search_index, _search_chips
+
+        chips = [{"id": "chip_a", "name": "Snapdragon 888", "vendor": "Qualcomm"}, {"id": "chip_b", "name": "Exynos 2200", "vendor": "Samsung"}]
+        index = _build_search_index(chips)
+        assert "snapdragon" in index
+        assert "qualcomm" in index
+        assert "888" in index
+        result = _search_chips(chips, "snapdragon", index)
+        assert len(result) == 1
+        assert result[0]["id"] == "chip_a"
+
+    def test_search_fallback(self):
+        from api.main import _search_chips
+
+        chips = [{"id": "test_1", "name": "Test Processor", "vendor": "TestCorp"}]
+        result = _search_chips(chips, "processor", None)
+        assert len(result) == 1
+        assert result[0]["id"] == "test_1"
+
+
 class TestMetricsResponse:
     def test_metrics(self):
         m = MetricsResponse(uptime_seconds=3600, total_requests=1000, requests_per_second=0.28, chips_cached=500, active_rate_limit_clients=3)

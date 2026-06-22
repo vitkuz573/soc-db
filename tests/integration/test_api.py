@@ -10,6 +10,7 @@ def init_app_state():
 
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
+    app.state._search_index = None
     app.state._cache_loaded_at = 0.0
     app.state._started_at = time.time()
     app.state._request_count = 0
@@ -157,3 +158,45 @@ async def test_rate_limit_jail(client):
     finally:
         api_settings.api_rate_limit = saved
         _rate_limit_buckets.clear()
+
+
+@pytest.mark.asyncio
+async def test_search_qualcomm(client):
+    await client.get("/v1/chips")  # trigger cache load
+    resp = await client.get("/v1/chips?q=qualcomm")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["total"] > 0
+    for c in data["data"]:
+        assert "qualcomm" in c.get("vendor", "").lower()
+
+
+@pytest.mark.asyncio
+async def test_api_key_auth(client):
+    from api.main import settings as api_settings
+
+    saved = api_settings.api_key
+    api_settings.api_key = "test-secret-123"
+    try:
+        resp = await client.get("/v1/chips?limit=1")
+        assert resp.status_code == 401
+        resp = await client.get("/v1/chips?limit=1", headers={"X-API-Key": "test-secret-123"})
+        assert resp.status_code == 200
+    finally:
+        api_settings.api_key = saved
+
+
+@pytest.mark.asyncio
+async def test_validation_error(client):
+    resp = await client.get("/v1/chips?limit=-1")
+    assert resp.status_code == 422
+    data = resp.json()
+    assert "error" in data
+
+
+@pytest.mark.asyncio
+async def test_404_format(client):
+    resp = await client.get("/v1/chips/nonexistent")
+    assert resp.status_code == 404
+    data = resp.json()
+    assert data["error"] == "Chip not found"
