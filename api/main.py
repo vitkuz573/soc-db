@@ -19,6 +19,15 @@ from fastapi.responses import JSONResponse, Response
 
 from soc_db.config import settings
 from soc_db.log_config import setup_logging
+from soc_db.models import (
+    Chip,
+    ChipListResponse,
+    ErrorResponse,
+    HealthResponse,
+    MetricsResponse,
+    StatsResponse,
+    VendorResponse,
+)
 
 logger = logging.getLogger("soc_db.api")
 
@@ -37,6 +46,7 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     setup_logging()
     _app.state._cache_buster = make_cache_buster()
     _app.state._chips = None
+    _app.state._cache_loaded_at = 0.0
     _app.state._started_at = time.time()
     _app.state._request_count = 0
     logger.info("Server starting", extra={"version": _app.version, "cache_buster": _app.state._cache_buster})
@@ -69,7 +79,7 @@ app.add_middleware(CORSMiddleware, allow_origins=settings.api_cors_origins, allo
 # ---------------------------------------------------------------------------
 # API v1 router
 # ---------------------------------------------------------------------------
-api_v1 = APIRouter(prefix="/v1")
+api_v1 = APIRouter(prefix="/v1", tags=["v1"])
 
 
 def load_index():
@@ -162,17 +172,19 @@ async def add_request_id(request: Request, call_next):
 
 
 def get_chips():
-    """Return the cached chip list, loading it on first access.
+    """Return the cached chip list with TTL-based invalidation.
 
-    Returns:
-        list[dict]: All chips, cached in ``app.state._chips``.
+    Reloads from disk when the cache TTL (``cache_ttl`` seconds) has
+    elapsed since the last load.
     """
-    if app.state._chips is None:
+    now = time.monotonic()
+    if app.state._chips is None or (now - app.state._cache_loaded_at) > settings.cache_ttl:
         app.state._chips = load_all()
+        app.state._cache_loaded_at = now
     return app.state._chips
 
 
-@app.get("/health")
+@app.get("/health", response_model=HealthResponse, tags=["infra"])
 def health():
     """Liveness & readiness probe.
 
@@ -189,7 +201,7 @@ def health():
     }
 
 
-@app.get("/metrics")
+@app.get("/metrics", response_model=MetricsResponse, tags=["infra"])
 def metrics():
     """Prometheus-style application metrics."""
     uptime = time.time() - app.state._started_at
@@ -224,13 +236,11 @@ def root():
     }
 
 
-@api_v1.get("/vendors")
+@api_v1.get("/vendors", response_model=VendorResponse)
 def list_vendors():
     """List all vendors with chip counts and average completeness.
 
-    Returns:
-        dict: Mapping of vendor name to ``{"count": int, "avg_completeness": float}``.
-              HTTP 200 on success.
+    Returns a mapping of vendor name to chip count and average completeness score.
     """
     chips = get_chips()
     vendors = {}
@@ -246,29 +256,25 @@ def list_vendors():
     return result
 
 
-@api_v1.get("/chips")
+@api_v1.get("/chips", response_model=ChipListResponse)
 def list_chips(
-    q: str | None = Query(None, description="Full-text search"),
-    vendor: str | None = Query(None, description="Vendor name (exact)"),
-    arch: str | None = Query(None, description="Architecture (substring)"),
-    gpu: str | None = Query(None, description="GPU (substring)"),
+    q: str | None = Query(None, description="Full-text search across all fields"),
+    vendor: str | None = Query(None, description="Exact vendor name"),
+    arch: str | None = Query(None, description="Architecture substring match"),
+    gpu: str | None = Query(None, description="GPU substring match"),
     year: int | None = Query(None, description="Release year"),
-    min_cores: int | None = Query(None, alias="min-cores"),
-    min_completeness: float | None = Query(None, alias="min-completeness", ge=0, le=1),
-    limit: int = Query(100, ge=1, le=10000),
-    offset: int = Query(0, ge=0),
+    min_cores: int | None = Query(None, alias="min-cores", description="Minimum core count"),
+    min_completeness: float | None = Query(None, alias="min-completeness", ge=0, le=1, description="Minimum completeness score"),
+    limit: int = Query(100, ge=1, le=10000, description="Results per page"),
+    offset: int = Query(0, ge=0, description="Page offset"),
     fields: str | None = Query(None, description="Comma-separated field whitelist"),
     sort: str | None = Query(None, description="Sort field"),
-    order: str = Query("asc", pattern="^(asc|desc)$"),
+    order: str = Query("asc", pattern="^(asc|desc)$", description="Sort direction"),
 ):
     """Search and filter chips with pagination.
 
-    Accepts optional query parameters for filtering, full-text search,
-    sorting, field projection, and pagination (offset/limit).
-
-    Returns:
-        dict: ``{"total": int, "offset": int, "limit": int, "data": list[dict]}``.
-              HTTP 200 on success.
+    Supports full-text search, field-specific filtering, sorting,
+    field projection, and pagination.
     """
     chips = get_chips()
     if vendor:
@@ -297,32 +303,26 @@ def list_chips(
     return {"total": total, "offset": offset, "limit": limit, "data": chips}
 
 
-@api_v1.get("/chips/{chip_id}")
+@api_v1.get("/chips/{chip_id}", response_model=Chip, responses={404: {"model": ErrorResponse}})
 def get_chip(chip_id: str):
     """Retrieve a single chip by its ID.
 
-    Args:
-        chip_id: Unique chip identifier.
-
-    Returns:
-        dict: The full chip record.
-              HTTP 200 on success, HTTP 404 if not found.
+    Returns the full chip record for the given identifier,
+    or HTTP 404 if the chip does not exist.
     """
     chips = get_chips()
     for c in chips:
         if c.get("id") == chip_id:
-            return c
-    raise HTTPException(404, f"Chip '{chip_id}' not found")
+            return Chip.model_validate(c)
+    raise HTTPException(404, {"error": "Chip not found", "detail": f"Chip '{chip_id}' not found"})
 
 
-@api_v1.get("/stats")
+@api_v1.get("/stats", response_model=StatsResponse)
 def stats():
     """Database-wide aggregate statistics.
 
-    Returns:
-        dict: Total chips, vendors, year range, average completeness,
-              and field-presence counters.
-              HTTP 200 on success.
+    Returns total chips, vendors, year range, average completeness,
+    and field-presence counters.
     """
     chips = get_chips()
     vcount = len(set(c.get("vendor", "") for c in chips))

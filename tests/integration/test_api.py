@@ -10,6 +10,7 @@ def init_app_state():
 
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
+    app.state._cache_loaded_at = 0.0
     app.state._started_at = time.time()
     app.state._request_count = 0
 
