@@ -1,22 +1,13 @@
-"""Structured logging configuration for soc-db.
-
-Provides JSON-formatted structured logging for the API server and CLI,
-controlled by environment variables:
-
-- ``SOC_DB_LOG_LEVEL`` — log level (default: WARNING)
-- ``SOC_DB_LOG_FORMAT`` — ``"json"`` (default) or ``"plain"``
-"""
+"""Structured logging configuration for soc-db."""
 
 import json
 import logging
 import logging.config
-import os
 import traceback
 from datetime import UTC, datetime
 from typing import Any
 
-DEFAULT_LOG_LEVEL = "WARNING"
-DEFAULT_LOG_FORMAT = "json"
+from soc_db.config import settings
 
 _STANDARD_ATTRS = frozenset({
     "args",
@@ -80,8 +71,8 @@ def setup_logging(level: str | None = None, fmt: str | None = None) -> None:
         fmt: Override format — ``"json"`` or ``"plain"`` (default: from
             ``SOC_DB_LOG_FORMAT`` env or ``"json"``).
     """
-    level = (level or os.environ.get("SOC_DB_LOG_LEVEL") or DEFAULT_LOG_LEVEL).upper()
-    fmt = (fmt or os.environ.get("SOC_DB_LOG_FORMAT") or DEFAULT_LOG_FORMAT).lower()
+    level = (level or settings.log_level).upper()
+    fmt = (fmt or settings.log_format).lower()
 
     if fmt == "json":
         formatter: dict[str, Any] = {"()": JSONFormatter}

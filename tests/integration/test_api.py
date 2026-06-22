@@ -6,8 +6,12 @@ from api.main import app, make_cache_buster
 
 @pytest.fixture(autouse=True)
 def init_app_state():
+    import time
+
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
+    app.state._started_at = time.time()
+    app.state._request_count = 0
 
 
 @pytest.fixture
@@ -28,7 +32,7 @@ async def test_root(client):
 
 @pytest.mark.asyncio
 async def test_chips_list(client):
-    resp = await client.get("/chips")
+    resp = await client.get("/v1/chips")
     assert resp.status_code == 200
     data = resp.json()
     assert "total" in data
@@ -41,7 +45,7 @@ async def test_chips_list(client):
 
 @pytest.mark.asyncio
 async def test_chip_by_id(client):
-    resp = await client.get("/chips/sm8550_ab")
+    resp = await client.get("/v1/chips/sm8550_ab")
     assert resp.status_code == 200
     chip = resp.json()
     assert chip["id"] == "sm8550_ab"
@@ -53,7 +57,7 @@ async def test_chip_by_id(client):
 
 @pytest.mark.asyncio
 async def test_chip_not_found(client):
-    resp = await client.get("/chips/nonexistent_chip_xyz")
+    resp = await client.get("/v1/chips/nonexistent_chip_xyz")
     assert resp.status_code == 404
     data = resp.json()
     assert "detail" in data
@@ -61,7 +65,7 @@ async def test_chip_not_found(client):
 
 @pytest.mark.asyncio
 async def test_stats(client):
-    resp = await client.get("/stats")
+    resp = await client.get("/v1/stats")
     assert resp.status_code == 200
     data = resp.json()
     assert "total_chips" in data
@@ -76,7 +80,7 @@ async def test_stats(client):
 
 @pytest.mark.asyncio
 async def test_schema(client):
-    resp = await client.get("/schema")
+    resp = await client.get("/v1/schema")
     assert resp.status_code == 200
     data = resp.json()
     assert "type" in data
@@ -85,9 +89,70 @@ async def test_schema(client):
 
 @pytest.mark.asyncio
 async def test_export_json(client):
-    resp = await client.get("/export/json")
+    resp = await client.get("/v1/export/json")
     assert resp.status_code == 200
     data = resp.json()
     assert isinstance(data, list)
     assert len(data) > 0
     assert "id" in data[0]
+
+
+@pytest.mark.asyncio
+async def test_health(client):
+    await client.get("/v1/chips")  # trigger chip cache load
+    resp = await client.get("/health")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["status"] == "healthy"
+    assert "uptime" in data
+    assert "chips_cached" in data
+    assert "version" in data
+
+
+@pytest.mark.asyncio
+async def test_health_not_ready(client):
+    resp = await client.get("/health")
+    assert resp.status_code == 503
+    assert resp.json()["status"] == "not ready"
+
+
+@pytest.mark.asyncio
+async def test_metrics(client):
+    await client.get("/v1/chips")  # trigger chip cache load
+    resp = await client.get("/metrics")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "uptime_seconds" in data
+    assert "total_requests" in data
+    assert "requests_per_second" in data
+    assert "active_rate_limit_clients" in data
+
+
+@pytest.mark.asyncio
+async def test_x_request_id(client):
+    resp = await client.get("/", headers={"X-Request-ID": "my-test-id"})
+    assert resp.status_code == 200
+    assert resp.headers.get("x-request-id") == "my-test-id"
+
+
+@pytest.mark.asyncio
+async def test_rate_limit_jail(client):
+    from api.main import _rate_limit_buckets
+    from api.main import settings as api_settings
+
+    _rate_limit_buckets.clear()
+    saved = api_settings.api_rate_limit
+    api_settings.api_rate_limit = 10
+    api_settings.api_rate_limit_window = 60
+    try:
+        for _ in range(15):
+            resp = await client.get("/")
+            if resp.status_code == 429:
+                data = resp.json()
+                assert "error" in data
+                assert "retry_after" in data
+                return
+        pytest.fail("Rate limiter did not trigger (expected HTTP 429)")
+    finally:
+        api_settings.api_rate_limit = saved
+        _rate_limit_buckets.clear()

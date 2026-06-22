@@ -1,36 +1,75 @@
-"""FastAPI REST server for the SoC database.
+"""FastAPI REST server for the SoC database."""
 
-Provides endpoints for listing chips, vendors, stats, schema, and
-exporting data in multiple formats.  Chips are cached in-memory after
-the first load.
-"""
+from __future__ import annotations
 
+import asyncio
 import gzip
 import json
 import logging
+import signal
 import time
-from pathlib import Path
+from collections import defaultdict
+from collections.abc import AsyncGenerator
+from contextlib import asynccontextmanager
 from uuid import uuid4
 
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 
+from soc_db.config import settings
 from soc_db.log_config import setup_logging
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
-DATA_DIR = ROOT / "data"
-SCHEMA_FILE = ROOT / "schema" / "chip-schema.json"
-
 logger = logging.getLogger("soc_db.api")
+
+# ---------------------------------------------------------------------------
+# Rate-limiter state
+# ---------------------------------------------------------------------------
+_rate_limit_buckets: dict[str, list[float]] = defaultdict(list)
+_rate_limit_lock = asyncio.Lock()
+
+
+# ---------------------------------------------------------------------------
+# Application lifecycle
+# ---------------------------------------------------------------------------
+@asynccontextmanager
+async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
+    setup_logging()
+    _app.state._cache_buster = make_cache_buster()
+    _app.state._chips = None
+    _app.state._started_at = time.time()
+    _app.state._request_count = 0
+    logger.info("Server starting", extra={"version": _app.version, "cache_buster": _app.state._cache_buster})
+
+    loop = asyncio.get_running_loop()
+    stop = asyncio.Future()
+
+    def _shutdown() -> None:
+        if not stop.done():
+            stop.set_result(None)
+
+    loop.add_signal_handler(signal.SIGTERM, _shutdown)
+    loop.add_signal_handler(signal.SIGINT, _shutdown)
+
+    try:
+        yield
+    finally:
+        logger.info("Server shutting down, flushing rate-limit state")
+        _rate_limit_buckets.clear()
+
 
 app = FastAPI(
     title="SoC Database API",
     version="2.1.0-dev",
     description="Enterprise SoC/CPU database — query, filter, export",
+    lifespan=lifespan,
 )
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=settings.api_cors_origins, allow_methods=["*"], allow_headers=["*"])
+
+# ---------------------------------------------------------------------------
+# API v1 router
+# ---------------------------------------------------------------------------
+api_v1 = APIRouter(prefix="/v1")
 
 
 def load_index():
@@ -39,7 +78,7 @@ def load_index():
     Returns:
         dict: The parsed index content.
     """
-    return json.loads((DATA_DIR / "index.json").read_text("utf-8"))
+    return json.loads((settings.data_dir / "index.json").read_text("utf-8"))
 
 
 def load_all():
@@ -52,7 +91,7 @@ def load_all():
         list[dict]: All chips across all vendor files.
     """
     chips = []
-    for fpath in sorted(DATA_DIR.glob("*.json")):
+    for fpath in sorted(settings.data_dir.glob("*.json")):
         if fpath.name == "index.json":
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
@@ -74,6 +113,25 @@ def make_cache_buster():
 
 
 @app.middleware("http")
+async def rate_limit_middleware(request: Request, call_next):
+    """Sliding-window rate limiter per client IP."""
+    client = request.client.host if request.client else "unknown"
+    now = time.monotonic()
+    window = settings.api_rate_limit_window
+    limit = settings.api_rate_limit
+    async with _rate_limit_lock:
+        bucket = _rate_limit_buckets[client]
+        cutoff = now - window
+        while bucket and bucket[0] < cutoff:
+            bucket.pop(0)
+        if len(bucket) >= limit:
+            logger.warning("Rate limit exceeded", extra={"client": client, "limit": limit, "window": window})
+            return JSONResponse({"error": "Too many requests", "retry_after": window}, status_code=429)
+        bucket.append(now)
+    return await call_next(request)
+
+
+@app.middleware("http")
 async def add_request_id(request: Request, call_next):
     """Inject a unique ``X-Request-ID`` header into every response."""
     rid = request.headers.get("X-Request-ID", uuid4().hex[:16])
@@ -86,6 +144,7 @@ async def add_request_id(request: Request, call_next):
         raise
     elapsed = time.monotonic() - start
     response.headers["X-Request-ID"] = rid
+    app.state._request_count += 1
     logger.info(
         "request",
         extra={
@@ -102,19 +161,6 @@ async def add_request_id(request: Request, call_next):
     return response
 
 
-@app.on_event("startup")
-async def startup():
-    """FastAPI startup event — initialise cache state.
-
-    Configures structured logging, loads the chip cache, and
-    generates a random cache-buster string for stale-data detection.
-    """
-    setup_logging()
-    app.state._cache_buster = make_cache_buster()
-    app.state._chips = None
-    logger.info("Server starting", extra={"version": app.version, "cache_buster": app.state._cache_buster})
-
-
 def get_chips():
     """Return the cached chip list, loading it on first access.
 
@@ -126,29 +172,59 @@ def get_chips():
     return app.state._chips
 
 
+@app.get("/health")
+def health():
+    """Liveness & readiness probe.
+
+    Returns HTTP 200 when the application is healthy, HTTP 503 when the
+    chip cache has not been loaded yet.
+    """
+    if app.state._chips is None:
+        return JSONResponse({"status": "not ready", "uptime": time.time() - app.state._started_at}, status_code=503)
+    return {
+        "status": "healthy",
+        "uptime": round(time.time() - app.state._started_at, 2),
+        "chips_cached": len(app.state._chips),
+        "version": app.version,
+    }
+
+
+@app.get("/metrics")
+def metrics():
+    """Prometheus-style application metrics."""
+    uptime = time.time() - app.state._started_at
+    request_count = app.state._request_count
+    rps = round(request_count / uptime, 2) if uptime > 0 else 0.0
+    return {
+        "uptime_seconds": uptime,
+        "total_requests": request_count,
+        "requests_per_second": rps,
+        "chips_cached": len(app.state._chips) if app.state._chips else 0,
+        "active_rate_limit_clients": len(_rate_limit_buckets),
+    }
+
+
 @app.get("/")
 def root():
-    """Root endpoint — return API metadata and available routes.
-
-    Returns:
-        dict: API name, version, endpoint listing, and docs URL.
-    """
+    """Root endpoint — return API metadata and available routes."""
     return {
         "api": "SoC Database API",
         "version": "2.0.0",
         "endpoints": {
-            "vendors": "/vendors",
-            "chips": "/chips",
-            "search": "/chips?q=...",
-            "chip": "/chips/{id}",
-            "stats": "/stats",
-            "schema": "/schema",
+            "vendors": "/v1/vendors",
+            "chips": "/v1/chips",
+            "search": "/v1/chips?q=...",
+            "chip": "/v1/chips/{id}",
+            "stats": "/v1/stats",
+            "schema": "/v1/schema",
+            "export": "/v1/export/{fmt}",
         },
+        "infra": {"/health": "liveness probe", "/metrics": "application metrics"},
         "docs": "/docs",
     }
 
 
-@app.get("/vendors")
+@api_v1.get("/vendors")
 def list_vendors():
     """List all vendors with chip counts and average completeness.
 
@@ -170,7 +246,7 @@ def list_vendors():
     return result
 
 
-@app.get("/chips")
+@api_v1.get("/chips")
 def list_chips(
     q: str | None = Query(None, description="Full-text search"),
     vendor: str | None = Query(None, description="Vendor name (exact)"),
@@ -221,7 +297,7 @@ def list_chips(
     return {"total": total, "offset": offset, "limit": limit, "data": chips}
 
 
-@app.get("/chips/{chip_id}")
+@api_v1.get("/chips/{chip_id}")
 def get_chip(chip_id: str):
     """Retrieve a single chip by its ID.
 
@@ -239,7 +315,7 @@ def get_chip(chip_id: str):
     raise HTTPException(404, f"Chip '{chip_id}' not found")
 
 
-@app.get("/stats")
+@api_v1.get("/stats")
 def stats():
     """Database-wide aggregate statistics.
 
@@ -267,7 +343,7 @@ def stats():
     }
 
 
-@app.get("/schema")
+@api_v1.get("/schema")
 def get_schema():
     """Return the JSON Schema for a chip record.
 
@@ -275,11 +351,11 @@ def get_schema():
         JSONResponse with media type ``application/schema+json``.
         HTTP 200 on success.
     """
-    schema = json.loads(SCHEMA_FILE.read_text("utf-8"))
+    schema = json.loads(settings.schema_file.read_text("utf-8"))
     return JSONResponse(schema, media_type="application/schema+json")
 
 
-@app.get("/export/{fmt}")
+@api_v1.get("/export/{fmt}")
 def export(fmt: str):
     """Export all chip data in the requested format.
 
@@ -308,3 +384,6 @@ def export(fmt: str):
             w.writerow([c.get(f, "") for f in fields])
         return Response(out.getvalue(), media_type="text/csv")
     raise HTTPException(400, f"Unsupported format: {fmt}")
+
+
+app.include_router(api_v1)
