@@ -1,0 +1,13 @@
+[
+  {
+    "id": "gr712rc",
+    "name": "GR712RC",
+    "vendor": "Ramon Chips (Israel)",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "GR712RC",
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

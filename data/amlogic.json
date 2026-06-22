@@ -626,7 +626,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mesoni",

@@ -234,7 +234,8 @@
     "bluetooth": "4.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt2712",
@@ -255,7 +256,8 @@
     "bluetooth": "4.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 3
   },
   {
     "id": "helio_x10_mt6795m_67956795t_heliox10mt6795m67956795t",
@@ -3998,7 +4000,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mediatek_mt6795",
@@ -4020,7 +4023,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "dimensity_720_dimensity720",
@@ -4246,7 +4250,8 @@
     "bluetooth": "4.2",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "mediatek_mt7623",
@@ -4268,7 +4273,8 @@
     "bluetooth": "4.2",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt7629",
@@ -4290,7 +4296,8 @@
     "bluetooth": "4.2",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "helio_g100_mt6789h_mt6789i_mt6789j_heliog100mt6789hmt6789imt6789j",
@@ -4898,7 +4905,8 @@
     "bluetooth": "5.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "mediatek_mt7986",
@@ -4920,7 +4928,8 @@
     "bluetooth": "5.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt7988",
@@ -5288,7 +5297,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt8135",
@@ -5311,7 +5321,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt8167",
@@ -5357,7 +5368,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt8183",
@@ -5380,7 +5392,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mediatek_mt8186",
@@ -5403,7 +5416,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mediatek_mt8188",
@@ -5426,7 +5440,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mediatek_mt8192",
@@ -5449,7 +5464,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mediatek_mt8195",
@@ -5472,7 +5488,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "aiot_i300a_mt8362a_aioti300amt8362a",
@@ -5911,7 +5928,8 @@
     "bluetooth": "5.2",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "pentonic_2000_mt9902_mt9982",

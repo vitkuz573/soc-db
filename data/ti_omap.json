@@ -429,7 +429,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am6254atl_k3am6254atl",
@@ -494,7 +496,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62a7i_k3am62a7i",
@@ -585,7 +589,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62l3i_k3am62l3i",
@@ -637,7 +643,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62p5i_k3am62p5i",
@@ -702,7 +710,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am642i_k3am642i",
@@ -780,7 +790,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am6548_k3am6548",
@@ -871,7 +883,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j7200i_k3j7200i",
@@ -884,7 +898,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j721e_k3j721e",
@@ -897,7 +913,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j721ei_k3j721ei",
@@ -910,7 +928,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j721s2_k3j721s2",
@@ -923,7 +943,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j721s2i_k3j721s2i",
@@ -936,7 +958,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j722s_k3j722s",
@@ -949,7 +973,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j722si_k3j722si",
@@ -962,7 +988,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j742s2_k3j742s2",
@@ -975,7 +1003,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j742s2i_k3j742s2i",
@@ -988,7 +1018,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j784s4_k3j784s4",
@@ -1001,7 +1033,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j784s4i_k3j784s4i",
@@ -1014,6 +1048,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   }
 ]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "vt8500",
+    "name": "vt8500",
+    "vendor": "VIA WonderMedia",
+    "model": "VT8500",
+    "source": "linux_dt",
+    "aliases": [
+      "vt8500 (VT8500)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv5"
+  },
+  {
+    "id": "wm8505",
+    "name": "wm8505",
+    "vendor": "VIA WonderMedia",
+    "model": "WM8505",
+    "source": "linux_dt",
+    "aliases": [
+      "wm8505 (WM8505)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv5"
+  },
+  {
+    "id": "wm8650",
+    "name": "wm8650",
+    "vendor": "VIA WonderMedia",
+    "model": "WM8650",
+    "source": "linux_dt",
+    "aliases": [
+      "wm8650 (WM8650)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv5"
+  },
+  {
+    "id": "wm8750",
+    "name": "wm8750",
+    "vendor": "VIA WonderMedia",
+    "model": "WM8750",
+    "source": "linux_dt",
+    "aliases": [
+      "wm8750 (WM8750)"
+    ],
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21",
+    "cores": 1
+  },
+  {
+    "id": "wm8850",
+    "name": "wm8850",
+    "vendor": "VIA WonderMedia",
+    "model": "WM8850",
+    "source": "linux_dt",
+    "aliases": [
+      "wm8850 (WM8850)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "architecture": "ARMv7-A",
+    "cores": 1
+  },
+  {
+    "id": "wm8950",
+    "name": "wm8950",
+    "vendor": "VIA WonderMedia",
+    "model": "WM8950",
+    "source": "linux_dt",
+    "aliases": [
+      "wm8950 (WM8950)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

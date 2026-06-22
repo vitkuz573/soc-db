@@ -89,7 +89,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8001i",
@@ -112,7 +113,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8003",
@@ -722,7 +724,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s5l8960xi",
@@ -736,7 +739,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s5l8965x",
@@ -792,7 +796,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 10
   },
   {
     "id": "t602",
@@ -820,7 +825,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "t7000",
@@ -834,7 +840,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "t7001",
@@ -848,7 +855,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 3
   },
   {
     "id": "t8010",
@@ -862,7 +870,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "t8011",
@@ -876,7 +885,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 3
   },
   {
     "id": "t8012",
@@ -890,7 +900,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "t8015",
@@ -904,7 +915,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6
   },
   {
     "id": "t8122",
@@ -918,6 +930,7 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   }
 ]

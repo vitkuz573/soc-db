@@ -16,6 +16,13 @@ from common import (
 
 SPARQL_ENDPOINT = "https://query.wikidata.org/sparql?format=json&query="
 
+# Wikidata type QIDs that cover SoCs
+SOC_BASE_TYPES = [
+    "Q610398",   # system on a chip
+    "Q1671695",  # microprocessor
+    "Q188509",   # microcontroller
+]
+
 # Wikidata → our vendor name mapping
 # Format: "wikidata QID": "our vendor name"
 KNOWN_MANUFACTURERS = {
@@ -39,7 +46,7 @@ KNOWN_MANUFACTURERS = {
     "Q1061228": "Realtek",
     "Q585964": "Marvell",
     "Q84423": "Broadcom",
-    "Q4677449": "Actions Semiconductor",
+    "Q4677436": "Actions",
     "Q1275817": "Loongson",
     "Q10860611": "Zhaoxin",
     "Q2299406": "Microchip",
@@ -69,6 +76,12 @@ KNOWN_MANUFACTURERS = {
     "Q1571490": "Synaptics",
     "Q478214": "Tesla",
     "Q49125": "Toshiba",
+    "Q114358044": "SigmaStar",
+    "Q633839": "VIA WonderMedia",
+    "Q1067998": "Cirrus Logic",
+    "Q312": "Apple",
+    "Q2165106": "Allwinner",
+    "Q1046482": "Xilinx",
 }
 
 # Architecture QID → name
@@ -90,33 +103,67 @@ ARCH_MAP = {
 OUR_VENDOR_QIDS = {name: qid for qid, name in KNOWN_MANUFACTURERS.items()}
 
 
-def build_query(vendor_qid: str | None = None) -> str:
-    """Build SPARQL query. If vendor_qid is None, get ALL SoCs."""
-    vendor_filter = ""
-    if vendor_qid:
-        vendor_filter = f"?soc wdt:P178 wd:{vendor_qid}."
+def build_type_clauses(base_types: list[str] | None = None) -> str:
+    """Build SPARQL UNION clauses for multiple P31 instance types."""
+    if base_types is None:
+        base_types = SOC_BASE_TYPES
+    clauses = " UNION\n      ".join(
+        f"{{ ?soc wdt:P31/wdt:P279* wd:{t}. }}" for t in base_types
+    )
+    return f"{{ {clauses} }}"
 
-    # Use a simpler query that's less likely to timeout
-    return f"""
-    SELECT DISTINCT ?soc ?socLabel ?manufacturer ?manufacturerLabel
-                    ?modelNumber ?cores ?arch ?archLabel
-                    ?processNode ?gpu ?gpuLabel ?publicationDate ?maxFreq
-    WHERE {{
-      ?soc wdt:P31 wd:Q610398.           # instance of system-on-chip
-      {vendor_filter}
-      OPTIONAL {{ ?soc wdt:P178 ?manufacturer. }}
-      OPTIONAL {{ ?soc wdt:P1552 ?modelNumber. }}
-      OPTIONAL {{ ?soc wdt:P2101 ?cores. }}
-      OPTIONAL {{ ?soc wdt:P577 ?publicationDate. }}
-      OPTIONAL {{ ?soc wdt:P880 ?arch. }}
-      OPTIONAL {{ ?soc wdt:P2048 ?processNode. }}
-      OPTIONAL {{ ?soc wdt:P1542 ?gpu. }}
-      OPTIONAL {{ ?soc wdt:P2144 ?maxFreq. }}
-      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
-    }}
-    ORDER BY ?publicationDate
-    LIMIT 10000
+
+def build_query(vendor_qid: str | None = None, broad: bool = False) -> str:
+    """Build SPARQL query.
+    
+    If vendor_qid is set, searches for chips by that manufacturer.
+    If broad=True, searches across multiple chip types (SoC, microprocessor, microcontroller).
+    When vendor_qid is set, broad is always True.
     """
+    if vendor_qid:
+        # Per-vendor: broader search for this specific manufacturer
+        vendor_filter = f"?soc wdt:P178 wd:{vendor_qid}."
+        type_clauses = build_type_clauses()
+        return f"""
+        SELECT DISTINCT ?soc ?socLabel ?manufacturer ?manufacturerLabel
+                        ?modelNumber ?cores ?arch ?archLabel
+                        ?processNode ?gpu ?gpuLabel ?publicationDate ?maxFreq
+        WHERE {{
+          {type_clauses}
+          {vendor_filter}
+          OPTIONAL {{ ?soc wdt:P1552 ?modelNumber. }}
+          OPTIONAL {{ ?soc wdt:P2101 ?cores. }}
+          OPTIONAL {{ ?soc wdt:P577 ?publicationDate. }}
+          OPTIONAL {{ ?soc wdt:P880 ?arch. }}
+          OPTIONAL {{ ?soc wdt:P2048 ?processNode. }}
+          OPTIONAL {{ ?soc wdt:P1542 ?gpu. }}
+          OPTIONAL {{ ?soc wdt:P2144 ?maxFreq. }}
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+        }}
+        ORDER BY ?publicationDate
+        LIMIT 5000
+        """
+    else:
+        # Broad query: only direct SoC instances with manufacturer
+        return f"""
+        SELECT DISTINCT ?soc ?socLabel ?manufacturer ?manufacturerLabel
+                        ?modelNumber ?cores ?arch ?archLabel
+                        ?processNode ?gpu ?gpuLabel ?publicationDate ?maxFreq
+        WHERE {{
+          ?soc wdt:P31/wdt:P279* wd:Q610398.
+          ?soc wdt:P178 ?manufacturer.
+          OPTIONAL {{ ?soc wdt:P1552 ?modelNumber. }}
+          OPTIONAL {{ ?soc wdt:P2101 ?cores. }}
+          OPTIONAL {{ ?soc wdt:P577 ?publicationDate. }}
+          OPTIONAL {{ ?soc wdt:P880 ?arch. }}
+          OPTIONAL {{ ?soc wdt:P2048 ?processNode. }}
+          OPTIONAL {{ ?soc wdt:P1542 ?gpu. }}
+          OPTIONAL {{ ?soc wdt:P2144 ?maxFreq. }}
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+        }}
+        ORDER BY ?publicationDate
+        LIMIT 10000
+        """
 
 
 def fetch_sparql(query: str) -> list[dict]:
@@ -160,16 +207,20 @@ def parse_chip(binding: dict) -> dict | None:
 
     model = extract_value(binding, "modelNumber")
 
+    # Extract Wikidata QID for dedup
+    soc_uri = extract_value(binding, "soc")
+    wd_qid = soc_uri.split("/")[-1] if soc_uri else ""
+
     # Generate ID
     chip_id = slug(name, model)
     if not chip_id or chip_id == "unknown":
-        # Use Q-ID as fallback
-        chip_id = "wd_" + extract_value(binding, "soc").split("/")[-1]
+        chip_id = "wd_" + wd_qid
 
     chip = {
         "id": chip_id,
         "name": name,
         "vendor": vendor,
+        "_qid": wd_qid,
     }
 
     # Model
@@ -240,33 +291,59 @@ def parse_chip(binding: dict) -> dict | None:
 
 def scrape_all() -> dict[str, list[dict]]:
     """Scrape ALL SoCs from Wikidata, grouped by vendor."""
-    print("  Fetching ALL SoCs from Wikidata (this may take a minute)...")
-    query = build_query()
-    results = fetch_sparql(query)
-
-    print(f"  Got {len(results)} results from Wikidata")
-
-    # Group by manufacturer
+    seen_qids: set[str] = set()
     vendor_chips: dict[str, list[dict]] = defaultdict(list)
     other_chips = []
-    seen_ids = set()
     skipped = 0
 
+    # Phase 1: Broad query for all types
+    print("  Phase 1: Broad query across SoC/microprocessor/microcontroller types...")
+    query = build_query()
+    results = fetch_sparql(query)
+    print(f"  Got {len(results)} results from broad query")
     for binding in results:
         chip = parse_chip(binding)
         if not chip:
             skipped += 1
             continue
-        if chip["id"] in seen_ids:
-            continue
-        seen_ids.add(chip["id"])
-
-        # Check if vendor is known
         if chip["vendor"] in KNOWN_MANUFACTURERS.values():
             vendor_chips[chip["vendor"]].append(chip)
         elif chip["vendor"]:
-            # Unknown vendor, but still has a name
             other_chips.append(chip)
+
+    # Phase 2: Per-vendor queries to discover chips missed by broad query
+    print(f"  Phase 2: Per-vendor queries...")
+    for vname, vqid in OUR_VENDOR_QIDS.items():
+        q = build_query(vendor_qid=vqid)
+        r = fetch_sparql(q)
+        if not r:
+            continue
+        for binding in r:
+            chip = parse_chip(binding)
+            if not chip:
+                skipped += 1
+                continue
+            qid = chip.get("_qid", "")
+            if qid and qid in seen_qids:
+                continue
+            if qid:
+                seen_qids.add(qid)
+            if chip["vendor"] in KNOWN_MANUFACTURERS.values():
+                vendor_chips[chip["vendor"]].append(chip)
+            elif chip["vendor"]:
+                other_chips.append(chip)
+
+    # Deduplicate within each vendor
+    for vendor in list(vendor_chips.keys()):
+        seen = set()
+        deduped_list = []
+        for c in vendor_chips[vendor]:
+            key = c.get("_qid", c["id"])
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped_list.append(c)
+        vendor_chips[vendor] = deduped_list
 
     # Sort chips within each vendor by year
     for vendor in vendor_chips:
@@ -276,6 +353,9 @@ def scrape_all() -> dict[str, list[dict]]:
 
     print(f"  Grouped into {len(vendor_chips)} known vendors + Others ({len(other_chips)})")
     print(f"  Skipped {skipped} entries")
+
+    total = sum(len(v) for v in vendor_chips.values()) + len(other_chips)
+    print(f"  Total unique: {total} chips")
 
     vendor_chips["Other"] = other_chips
     return vendor_chips
@@ -322,6 +402,9 @@ def main():
         "Synaptics": "synaptics.json",
         "Tesla": "tesla.json",
         "Toshiba": "toshiba.json",
+        "SigmaStar": "sigmastar.json",
+        "VIA WonderMedia": "via_wondermedia.json",
+        "Cirrus Logic": "cirrus_logic.json",
         "Actions": "actions.json",
         "Renesas": "renesas.json",
         "STMicroelectronics": "stmicro.json",
@@ -348,6 +431,8 @@ def main():
             new_count = 0
             upd_count = 0
             for chip in vendor_chips[vendor]:
+                # Strip internal fields
+                chip.pop("_qid", None)
                 cid = chip["id"]
                 if cid in existing:
                     # Only add fields that are missing
@@ -363,17 +448,34 @@ def main():
             fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
             print(f"  {vfile}: {len(output)} entries (+{new_count}, ~{upd_count} updated)")
 
-    # Write "Other" vendors as a separate file
-    other_file = DATA_DIR / "other.json"
+    # Try to match "Other" vendor names to known vendors by label
     other_chips = vendor_chips.get("Other", [])
-    # Group by actual vendor name within other
     other_by_vendor = defaultdict(list)
     for c in other_chips:
-        other_by_vendor[c["vendor"]].append(c)
+        vname = c["vendor"]
+        matched = False
+        for known_vendor in KNOWN_MANUFACTURERS.values():
+            if known_vendor.lower() in vname.lower() or vname.lower() in known_vendor.lower():
+                c["vendor"] = known_vendor
+                vendor_chips.setdefault(known_vendor, []).append(c)
+                matched = True
+                break
+        if not matched:
+            other_by_vendor[vname].append(c)
+
+    # Clean up stale "Other" files from previous runs
+    known_files = set(known_vendor_files.values())
+    other_files_written = set()
+    for f in DATA_DIR.glob("*.json"):
+        if f.name in known_files or f.name in ("index.json", "chip-schema.json", "other.json"):
+            continue
+        other_files_written.add(f.name)
 
     # Write each other vendor as a separate file
     other_written = 0
     for vname, chips in sorted(other_by_vendor.items()):
+        for c in chips:
+            c.pop("_qid", None)
         # Sanitize filename
         vkey = vname.lower().replace(" ", "_").replace("/", "_").replace("&", "and")
         vkey = re.sub(r"[^a-z0-9_]", "", vkey)
@@ -382,8 +484,14 @@ def main():
 
         output = sorted(chips, key=lambda x: (x.get("year", 9999), x["name"]))
         fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
+        other_files_written.discard(vfile)
         other_written += 1
         print(f"  {vfile}: {len(output)} entries ({vname})")
+
+    # Remove stale files from previous runs that are no longer written
+    for sf in other_files_written:
+        (DATA_DIR / sf).unlink()
+        print(f"  Removed stale: {sf}")
 
     total = sum(len(c) for c in vendor_chips.values())
     print(f"\n  Total: {total} chips across {len(vendor_chips)} vendor groups")

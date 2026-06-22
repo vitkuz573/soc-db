@@ -23,7 +23,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "socfpga_stratix10_socdk_nand",
@@ -36,7 +38,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "socfpga_stratix10_socdki",
@@ -49,7 +53,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "socfpga_stratix10_swvp",
@@ -62,7 +68,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "socfpga_stratix10i",
@@ -75,6 +83,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   }
 ]

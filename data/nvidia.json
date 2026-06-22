@@ -447,7 +447,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "tegra30",
@@ -470,7 +472,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "tegra114",
@@ -493,7 +497,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "tegra124",
@@ -516,7 +522,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "tegra132",
@@ -539,7 +547,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tegra186",
@@ -562,7 +572,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tegra194",
@@ -585,7 +597,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tegra210",
@@ -608,7 +622,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tegra234",
@@ -631,7 +647,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12,
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "tegra264",
@@ -654,7 +672,9 @@
     ],
     "completeness": 0.3981,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "nvidia_drive",

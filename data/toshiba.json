@@ -10,7 +10,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tmpv7708_pinsi",
@@ -23,7 +25,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "tmpv7708i",
@@ -36,6 +40,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   }
 ]

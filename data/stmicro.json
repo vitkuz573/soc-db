@@ -7,7 +7,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "stm32mp211",
@@ -62,7 +64,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "stm32mp231",

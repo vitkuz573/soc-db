@@ -1,0 +1,22 @@
+[
+  {
+    "id": "apple_a12_bionic",
+    "name": "Apple A12 Bionic",
+    "vendor": "TSMC",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "Apple A12 Bionic",
+    "year": 2018,
+    "process_nm": 10,
+    "process_name": "10nm",
+    "memory_type": "LPDDR4",
+    "storage_type": "UFS 2.1",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "completeness": 0.4078,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

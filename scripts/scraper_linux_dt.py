@@ -78,6 +78,9 @@ VENDOR_MAP = {
     "tesla": "Tesla",
     "toshiba": "Toshiba",
     "nuvoton": "Nuvoton",
+    "sigmastar": "SigmaStar",
+    "vt8500": "VIA WonderMedia",
+    "cirrus": "Cirrus Logic",
 }
 
 # Known ARM 32-bit vendor dirs that moved to subdirs
@@ -121,6 +124,9 @@ VENDOR_SOC_PATTERNS = {
     "Microchip": r'^(lan\d+|sparx\d+|sam\d+|sama\d+|at91\d+)',
     "Xilinx": r'^(zynq\w+|versal\w+)',
     "Actions": r'^(s\d+|owl-s\d+)',
+    "SigmaStar": r'^(ssd\d+|msc\d+)',
+    "VIA WonderMedia": r'^(vt\d+|wm\d+)',
+    "Cirrus Logic": r'^(ep\d+)',
 }
 
 

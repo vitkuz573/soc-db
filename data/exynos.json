@@ -1357,7 +1357,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos990",
@@ -1382,7 +1383,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynosautov920",
@@ -1407,7 +1409,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 10
   },
   {
     "id": "exynosautov920i",
@@ -1432,7 +1435,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos_2100_s5e9840_exynos2100",
@@ -1568,7 +1572,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos_1380_s5e8835_exynos1380",
@@ -2133,7 +2138,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "exynos4210",
@@ -2158,7 +2164,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "exynos4212",
@@ -2183,7 +2190,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "exynos4412",
@@ -2208,7 +2216,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "exynos5250",
@@ -2233,7 +2242,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "exynos5260",
@@ -2258,7 +2268,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6
   },
   {
     "id": "exynos5410",
@@ -2283,7 +2294,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "exynos5420",
@@ -2333,7 +2345,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos5433",
@@ -2358,7 +2371,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos5800",
@@ -2408,7 +2422,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos7885",
@@ -2433,7 +2448,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos8895",
@@ -2458,7 +2474,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos9810",
@@ -2483,7 +2500,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "artpec8",
@@ -2497,7 +2515,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "artpec8i",
@@ -2511,7 +2530,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "artpec9",
@@ -2525,7 +2545,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6
   },
   {
     "id": "artpec9i",
@@ -2539,7 +2560,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6
   },
   {
     "id": "exynos",
@@ -2609,7 +2631,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "exynosautov9",
@@ -2623,7 +2646,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynosautov9i",
@@ -2637,7 +2661,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "gs101",
@@ -2651,7 +2676,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "gs101i",
@@ -2665,7 +2691,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "s3c6410",
@@ -2707,7 +2734,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "s3c64xxi",
@@ -2721,7 +2749,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "s5pv210",
@@ -2735,7 +2764,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "s5pv210i",
@@ -2749,6 +2779,7 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   }
 ]

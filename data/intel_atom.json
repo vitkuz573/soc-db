@@ -4706,7 +4706,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 16,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "axm55xxi",
@@ -4745,7 +4747,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "pxa25xi",
@@ -4823,7 +4827,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex5_socdk_socfpgaagilex5socdk",
@@ -4836,7 +4842,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex5_socdk_013b_socfpgaagilex5socdk013b",
@@ -4849,7 +4857,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex5_socdk_modular_socfpgaagilex5socdkmodular",
@@ -4862,7 +4872,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex5_socdk_nand_socfpgaagilex5socdknand",
@@ -4875,7 +4887,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex5i_socfpgaagilex5i",
@@ -4888,7 +4902,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex7m_socdk_socfpgaagilex7msocdk",
@@ -4901,7 +4917,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex_n6000_socfpgaagilexn6000",
@@ -4914,7 +4932,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex_socdk_socfpgaagilexsocdk",
@@ -4927,7 +4947,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex_socdk_emmc_socfpgaagilexsocdkemmc",
@@ -4940,7 +4962,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilex_socdk_nand_socfpgaagilexsocdknand",
@@ -4953,7 +4977,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_agilexi_socfpgaagilexi",
@@ -4966,7 +4992,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_chameleonv3_socfpgaarria10chameleonv3",
@@ -4979,7 +5007,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe1_emmc_socfpgaarria10mercuryaa1pe1emmc",
@@ -4992,7 +5022,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe1_qspi_socfpgaarria10mercuryaa1pe1qspi",
@@ -5005,7 +5037,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe1_sdmmc_socfpgaarria10mercuryaa1pe1sdmmc",
@@ -5018,7 +5052,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe3_emmc_socfpgaarria10mercuryaa1pe3emmc",
@@ -5031,7 +5067,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe3_qspi_socfpgaarria10mercuryaa1pe3qspi",
@@ -5044,7 +5082,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_pe3_sdmmc_socfpgaarria10mercuryaa1pe3sdmmc",
@@ -5057,7 +5097,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_st1_emmc_socfpgaarria10mercuryaa1st1emmc",
@@ -5070,7 +5112,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_st1_qspi_socfpgaarria10mercuryaa1st1qspi",
@@ -5083,7 +5127,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1_st1_sdmmc_socfpgaarria10mercuryaa1st1sdmmc",
@@ -5096,7 +5142,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_mercury_aa1i_socfpgaarria10mercuryaa1i",
@@ -5109,7 +5157,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_socdk_nand_socfpgaarria10socdknand",
@@ -5122,7 +5172,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_socdk_qspi_socfpgaarria10socdkqspi",
@@ -5135,7 +5187,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_socdk_sdmmc_socfpgaarria10socdksdmmc",
@@ -5148,7 +5202,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10_socdki_socfpgaarria10socdki",
@@ -5161,7 +5217,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria10i_socfpgaarria10i",
@@ -5174,7 +5232,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria5_socdk_socfpgaarria5socdk",
@@ -5187,7 +5247,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_arria5i_socfpgaarria5i",
@@ -5200,7 +5262,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_chameleon96_socfpgacyclone5chameleon96",
@@ -5213,7 +5277,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_de0_nano_soc_socfpgacyclone5de0nanosoc",
@@ -5226,7 +5292,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_de10nano_socfpgacyclone5de10nano",
@@ -5239,7 +5307,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mcvevk_socfpgacyclone5mcvevk",
@@ -5252,7 +5322,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mcvi_socfpgacyclone5mcvi",
@@ -5265,7 +5337,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe1_emmc_socfpgacyclone5mercurysa1pe1emmc",
@@ -5278,7 +5352,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe1_qspi_socfpgacyclone5mercurysa1pe1qspi",
@@ -5291,7 +5367,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc_socfpgacyclone5mercurysa1pe1sdmmc",
@@ -5304,7 +5382,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe3_emmc_socfpgacyclone5mercurysa1pe3emmc",
@@ -5317,7 +5397,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe3_qspi_socfpgacyclone5mercurysa1pe3qspi",
@@ -5330,7 +5412,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc_socfpgacyclone5mercurysa1pe3sdmmc",
@@ -5343,7 +5427,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_st1_emmc_socfpgacyclone5mercurysa1st1emmc",
@@ -5356,7 +5442,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_st1_qspi_socfpgacyclone5mercurysa1st1qspi",
@@ -5369,7 +5457,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1_st1_sdmmc_socfpgacyclone5mercurysa1st1sdmmc",
@@ -5382,7 +5472,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa1i_socfpgacyclone5mercurysa1i",
@@ -5395,7 +5487,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_pe1_qspi_socfpgacyclone5mercurysa2pe1qspi",
@@ -5408,7 +5502,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc_socfpgacyclone5mercurysa2pe1sdmmc",
@@ -5421,7 +5517,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_pe3_qspi_socfpgacyclone5mercurysa2pe3qspi",
@@ -5434,7 +5532,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc_socfpgacyclone5mercurysa2pe3sdmmc",
@@ -5447,7 +5547,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_st1_qspi_socfpgacyclone5mercurysa2st1qspi",
@@ -5460,7 +5562,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2_st1_sdmmc_socfpgacyclone5mercurysa2st1sdmmc",
@@ -5473,7 +5577,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_mercury_sa2i_socfpgacyclone5mercurysa2i",
@@ -5486,7 +5592,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_socdk_socfpgacyclone5socdk",
@@ -5499,7 +5607,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_sockit_socfpgacyclone5sockit",
@@ -5512,7 +5622,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_socrates_socfpgacyclone5socrates",
@@ -5525,7 +5637,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_sodia_socfpgacyclone5sodia",
@@ -5538,7 +5652,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5_vining_fpga_socfpgacyclone5viningfpga",
@@ -5551,7 +5667,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_cyclone5i_socfpgacyclone5i",
@@ -5564,7 +5682,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_bootmode_emmci_socfpgaenclustramercurybootmodeemmci",
@@ -5577,7 +5697,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_bootmode_qspii_socfpgaenclustramercurybootmodeqspii",
@@ -5590,7 +5712,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_bootmode_sdmmci_socfpgaenclustramercurybootmodesdmmci",
@@ -5603,7 +5727,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_pe1i_socfpgaenclustramercurype1i",
@@ -5616,7 +5742,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_pe3i_socfpgaenclustramercurype3i",
@@ -5629,7 +5757,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_enclustra_mercury_st1i_socfpgaenclustramercuryst1i",
@@ -5642,7 +5772,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_n5x_socdk_socfpgan5xsocdk",
@@ -5655,7 +5787,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpga_vt_socfpgavt",
@@ -5668,7 +5802,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "socfpgai",
@@ -5681,6 +5817,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   }
 ]

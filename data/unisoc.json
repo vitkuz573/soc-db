@@ -149,7 +149,9 @@
     "bluetooth": "5.2",
     "completeness": 0.3883,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "unisoc_ums512",
@@ -159,7 +161,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "sharkl3i",

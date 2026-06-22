@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ep7209",
+    "name": "ep7209",
+    "vendor": "Cirrus Logic",
+    "model": "EP7209",
+    "source": "linux_dt",
+    "aliases": [
+      "ep7209 (EP7209)"
+    ],
+    "completeness": 0.2718,
+    "sources": {},
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv4"
+  },
+  {
+    "id": "ep7211",
+    "name": "ep7211",
+    "vendor": "Cirrus Logic",
+    "model": "EP7211",
+    "source": "linux_dt",
+    "aliases": [
+      "ep7211 (EP7211)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ep93",
+    "name": "ep93",
+    "vendor": "Cirrus Logic",
+    "model": "EP93",
+    "source": "linux_dt",
+    "aliases": [
+      "ep93 (EP93)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

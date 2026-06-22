@@ -542,7 +542,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm632i",
@@ -626,7 +627,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm845i",
@@ -647,7 +649,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm850",
@@ -3210,7 +3213,8 @@
     "bluetooth": "4.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_x_x126100",
@@ -3724,7 +3728,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm6115p",
@@ -3746,7 +3751,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm6125i",
@@ -3768,7 +3774,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm6350i",
@@ -3790,7 +3797,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm6375i",
@@ -3812,7 +3820,8 @@
     "bluetooth": "4.1",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm7225",
@@ -5021,7 +5030,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "unisoc_sc8180x",
@@ -5076,7 +5086,8 @@
     "bluetooth": "5.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "xr2",
@@ -5434,7 +5445,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "unisoc_sc7180",
@@ -5488,7 +5500,8 @@
     "bluetooth": "5.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "wear_4100p_wear4100",
@@ -6087,7 +6100,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm8450",
@@ -6270,7 +6284,8 @@
     "bluetooth": "5.2",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "unisoc_sc8280xpi",
@@ -6292,7 +6307,8 @@
     "bluetooth": "5.2",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "qcs615",
@@ -6964,7 +6980,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "w5p_gen_1_w5gen1",
@@ -7155,7 +7172,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "w5p_gen_2_w5gen2",
@@ -7394,7 +7412,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "sa8295p",
@@ -7607,7 +7626,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_x2_series_snapdragonx2series",
@@ -7656,7 +7676,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8917i",
@@ -7682,7 +7703,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8926i",
@@ -7760,7 +7782,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8939i",
@@ -7786,7 +7809,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8953i",
@@ -7812,7 +7836,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8956i",
@@ -7864,7 +7889,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8992i",
@@ -7916,7 +7942,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8996i",
@@ -7942,7 +7969,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8996pro",
@@ -7994,7 +8022,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8998i",
@@ -8020,7 +8049,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_g_series_snapdragongseries",
@@ -8084,7 +8114,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "eliza",
@@ -8098,7 +8129,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "elizai",
@@ -8112,7 +8144,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "glymur",
@@ -8126,7 +8159,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 18
   },
   {
     "id": "glymuri",
@@ -8140,7 +8174,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 18
   },
   {
     "id": "hamoa",
@@ -8154,7 +8189,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "hamoai",
@@ -8182,7 +8218,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "ipq5018i",
@@ -8196,7 +8233,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "ipq5210",
@@ -8210,7 +8248,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq5210i",
@@ -8224,7 +8263,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq5332",
@@ -8238,7 +8278,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq5332i",
@@ -8252,7 +8293,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq5424",
@@ -8266,7 +8308,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq5424i",
@@ -8280,7 +8323,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq6018",
@@ -8294,7 +8338,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq6018i",
@@ -8308,7 +8353,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq8074",
@@ -8322,7 +8368,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq8074i",
@@ -8336,7 +8383,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq9574",
@@ -8350,7 +8398,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq9574i",
@@ -8364,7 +8413,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "ipq9650",
@@ -8378,7 +8428,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 5
   },
   {
     "id": "ipq9650i",
@@ -8392,7 +8443,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 5
   },
   {
     "id": "kaanapali",
@@ -8406,7 +8458,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "kaanapalii",
@@ -8420,7 +8473,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "kodiaki",
@@ -8434,7 +8488,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "lemans",
@@ -8448,7 +8503,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "lemansi",
@@ -8462,7 +8518,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "mahua",
@@ -8504,7 +8561,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "milosi",
@@ -8518,7 +8576,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "monaco",
@@ -8532,7 +8591,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "monacoi",
@@ -8546,7 +8606,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "pm4125i",
@@ -9615,7 +9676,8 @@
     ],
     "completeness": 0.2718,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "qcs6490",
@@ -9701,7 +9763,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "qdu1000i",
@@ -9715,7 +9778,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "qrb2210",
@@ -9827,7 +9891,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "sar2130pi",
@@ -9841,7 +9906,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "sdx75",
@@ -9855,7 +9921,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "sdx75i",
@@ -9869,7 +9936,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "talos",
@@ -9883,7 +9951,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "talosi",
@@ -9897,6 +9966,7 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   }
 ]

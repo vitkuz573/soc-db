@@ -1,0 +1,13 @@
+[
+  {
+    "id": "xiaomi_xring_o1",
+    "name": "Xiaomi Xring O1",
+    "vendor": "Xiaomi",
+    "cores": 8,
+    "architecture": "ARMv8.2-A",
+    "model": "Xiaomi Xring O1",
+    "completeness": 0.233,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

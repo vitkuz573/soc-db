@@ -7,7 +7,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "realtek_rtd1293",
@@ -53,7 +55,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "realtek_rtd1395",
@@ -136,6 +140,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8.2-A"
   }
 ]

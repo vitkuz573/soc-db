@@ -291,6 +291,9 @@ VENDOR_FILES = {
     "Synaptics": "synaptics.json",
     "Tesla": "tesla.json",
     "Toshiba": "toshiba.json",
+    "SigmaStar": "sigmastar.json",
+    "VIA WonderMedia": "via_wondermedia.json",
+    "Cirrus Logic": "cirrus_logic.json",
 }
 
 
