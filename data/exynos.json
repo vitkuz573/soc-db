@@ -2320,7 +2320,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos5422",
@@ -2575,7 +2576,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos4",
@@ -2589,7 +2591,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "exynos5",
@@ -2603,7 +2606,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos54",
@@ -2617,7 +2621,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "exynos7",
@@ -2706,7 +2711,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "s3c6410i",
@@ -2720,7 +2726,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "s3c64xx",

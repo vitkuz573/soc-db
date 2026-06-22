@@ -10,7 +10,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "ast2400",
@@ -23,7 +24,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv5"
   },
   {
     "id": "ast2500",
@@ -36,7 +39,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "ast2600",
@@ -49,7 +53,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "ast2700",

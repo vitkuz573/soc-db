@@ -7,7 +7,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "elba",
@@ -20,7 +22,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 16,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "elbai",
@@ -33,6 +37,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 16,
+    "architecture": "ARMv8-A"
   }
 ]

@@ -726,7 +726,8 @@
     "architecture": "ARMv8",
     "completeness": 0.2233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "rockchip_rk356",
@@ -737,7 +738,8 @@
     "architecture": "ARMv8",
     "completeness": 0.2233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "px30",
@@ -855,7 +857,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "rv1109i",
@@ -869,7 +872,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "rv1126",

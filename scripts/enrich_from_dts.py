@@ -116,9 +116,31 @@ def _detect_arch(compat: str) -> str | None:
     return best[0]
 
 
-def parse_cpu_info(content: str, dtsi_path: str = "") -> dict:
-    result = {}
+def _resolve_include(inc_path: str, cur_dir: str) -> str | None:
+    """Resolve a #include path relative to cur_dir (directory of including file)."""
+    # Normalize: remove ./ prefix
+    p = inc_path
+    if p.startswith("./"):
+        p = p[2:]
+    # Join with current dir
+    parts = cur_dir.rstrip("/").split("/")
+    for seg in p.split("/"):
+        if seg == "..":
+            if parts:
+                parts.pop()
+        elif seg and seg != ".":
+            parts.append(seg)
+    result = "/".join(parts)
+    # Make sure it's a .dtsi or .dts file
+    if result.endswith(".dtsi") or result.endswith(".dts"):
+        return result
+    # Some includes have no extension (uncommon but happens)
+    return result + ".dtsi"
 
+
+def _parse_cpus_from_content(content: str, dtsi_path: str) -> dict:
+    """Extract CPU info from DTS content. Returns empty dict if no CPU nodes."""
+    result = {}
     m = re.search(r"cpus\s*\{", content)
     if not m:
         return result
@@ -142,7 +164,6 @@ def parse_cpu_info(content: str, dtsi_path: str = "") -> dict:
 
     if cpu_addrs:
         result["cores"] = len(cpu_addrs)
-
     if arch_set:
         for arch in ["ARMv9-A", "ARMv8.2-A", "ARMv8-A", "ARMv7-A", "ARMv5", "ARMv4"]:
             if arch in arch_set:
@@ -150,6 +171,37 @@ def parse_cpu_info(content: str, dtsi_path: str = "") -> dict:
                 break
     elif dtsi_path.startswith("arch/arm64/"):
         result["architecture"] = "ARMv8-A"
+
+    return result
+
+
+def parse_cpu_info(content: str, dtsi_path: str = "", _depth: int = 0) -> dict:
+    """Extract CPU info, optionally following #include chains (max depth 2)."""
+    if _depth > 2:
+        return {}
+
+    result = _parse_cpus_from_content(content, dtsi_path)
+
+    # If no CPU nodes found, try following #include directives
+    if not result.get("cores"):
+        cur_dir = "/".join(dtsi_path.split("/")[:-1])
+        for m in re.finditer(r'#include\s+"([^"]+)"', content):
+            resolved = _resolve_include(m.group(1), cur_dir)
+            if not resolved:
+                continue
+            # Skip non-DTS includes (bindings, headers, etc.)
+            if not (resolved.endswith(".dtsi") or resolved.endswith(".dts")):
+                continue
+            url = f"https://raw.githubusercontent.com/torvalds/linux/master/{resolved}"
+            try:
+                inc_content = fetch(url, ttl=86400)
+            except Exception:
+                continue
+            if not inc_content or len(inc_content) < 200:
+                continue
+            result = parse_cpu_info(inc_content, resolved, _depth + 1)
+            if result.get("cores"):
+                break
 
     return result
 
@@ -182,8 +234,7 @@ def main():
             if not target_dirs:
                 continue
 
-            best_score = -1
-            best_path = None
+            candidates = []
             for key, paths in idx.items():
                 if model_clean != key and not key.startswith(model_clean) and not model_clean.startswith(key):
                     continue
@@ -195,27 +246,59 @@ def main():
                     score = 0
                     if key == model_clean:
                         score += 5
+                    elif model_clean.startswith(key):
+                        score += len(key) / 100.0
                     if "-base" in fname.replace(model_clean, ""):
                         score += 3
                     if fname.startswith(model_clean.split("-")[0] + "-"):
                         score += 1
-                    if score > best_score:
-                        best_score = score
-                        best_path = path
+                    candidates.append((score, key, path))
 
-            if not best_path:
+            if not candidates:
                 continue
+            candidates.sort(key=lambda x: (-x[0], -len(x[1])))
 
-            url = f"https://raw.githubusercontent.com/torvalds/linux/master/{best_path}"
-            try:
-                content = fetch(url, ttl=86400)
-            except Exception:
-                continue
-            if not content or len(content) < 200:
-                continue
-            total_fetched += 1
+            # Also collect sibling keys (same base prefix) for fallback
+            base_prefix = candidates[0][1]
+            sibling_paths = []
+            for key, paths in idx.items():
+                if key.startswith(base_prefix) and key != base_prefix:
+                    for path in paths:
+                        vdir = path.split("/")[4]
+                        if vdir in target_dirs:
+                            sibling_paths.append(path)
 
-            info = parse_cpu_info(content, best_path)
+            info = {}
+            used_path = ""
+            for _, key, path in candidates:
+                url = f"https://raw.githubusercontent.com/torvalds/linux/master/{path}"
+                try:
+                    content = fetch(url, ttl=86400)
+                except Exception:
+                    continue
+                if not content or len(content) < 200:
+                    continue
+                total_fetched += 1
+                info = parse_cpu_info(content, path)
+                if info.get("cores"):
+                    used_path = path
+                    break
+
+            if not info.get("cores") and sibling_paths:
+                for path in sibling_paths:
+                    url = f"https://raw.githubusercontent.com/torvalds/linux/master/{path}"
+                    try:
+                        content = fetch(url, ttl=86400)
+                    except Exception:
+                        continue
+                    if not content or len(content) < 200:
+                        continue
+                    total_fetched += 1
+                    info = parse_cpu_info(content, path)
+                    if info.get("cores"):
+                        used_path = path
+                        break
+
             if info:
                 changed = False
                 for k, v in info.items():
@@ -225,7 +308,7 @@ def main():
                 if changed:
                     updated += 1
                     total_enriched += 1
-                    src = best_path.split("/")[-1]
+                    src = used_path.split("/")[-1]
                     print(f"  {fpath.name}: {model:20s} <- {src:25s} {info}", flush=True)
 
         if updated > 0:

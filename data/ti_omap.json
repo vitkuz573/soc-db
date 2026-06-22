@@ -444,7 +444,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am6254atli_k3am6254atli",
@@ -457,7 +459,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am625i_k3am625i",
@@ -470,7 +474,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62a_k3am62a",
@@ -511,7 +517,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62ai_k3am62ai",
@@ -537,7 +545,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62d2i_k3am62d2i",
@@ -550,7 +560,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62i_k3am62i",
@@ -604,7 +616,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62li_k3am62li",
@@ -658,7 +672,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62pi_k3am62pi",
@@ -725,7 +741,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am64i_k3am64i",
@@ -764,7 +782,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am652i_k3am652i",
@@ -777,7 +797,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am654_k3am654",
@@ -805,7 +827,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am654i_k3am654i",
@@ -818,7 +842,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am65i_k3am65i",
@@ -857,7 +883,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am69_k3am69",
@@ -870,7 +898,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_j7200_k3j7200",

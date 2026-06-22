@@ -40,7 +40,8 @@
     "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "berlin2i",
@@ -83,7 +84,8 @@
     "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "architecture": "ARMv7-A"
   },
   {
     "id": "berlin4ct",

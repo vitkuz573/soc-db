@@ -521,7 +521,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm630i",
@@ -564,7 +565,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm636i",
@@ -585,7 +587,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm660i",
@@ -606,7 +609,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sdm670i",
@@ -704,7 +708,8 @@
     "bluetooth": "3.0",
     "completeness": 0.4272,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "apq8064",
@@ -3191,7 +3196,8 @@
     "bluetooth": "4.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm4450i",
@@ -3581,7 +3587,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "x1e001de",
@@ -3631,7 +3638,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "x1e80100",
@@ -3656,7 +3664,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "x1p42100",
@@ -3681,7 +3690,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "x1p64100",
@@ -4143,7 +4153,8 @@
     "bluetooth": "4.2",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm7225i",
@@ -4166,7 +4177,8 @@
     "bluetooth": "4.2",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "snapdragon_sm7325i",
@@ -4189,7 +4201,8 @@
     "bluetooth": "4.2",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "sdm710",
@@ -5210,7 +5223,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8255",
@@ -7467,7 +7481,8 @@
     ],
     "completeness": 0.4563,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "sa8775p",
@@ -7730,7 +7745,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8929i",
@@ -7863,7 +7879,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8976i",
@@ -7916,7 +7933,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "msm8994i",
@@ -7996,7 +8014,8 @@
     ],
     "completeness": 0.4757,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "msm8996proi",
@@ -8204,7 +8223,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "ipq5018",
@@ -8533,7 +8553,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 18
   },
   {
     "id": "mahuai",
@@ -8547,7 +8568,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 18
   },
   {
     "id": "milos",
@@ -9615,7 +9637,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "purwai",
@@ -9629,7 +9652,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "qcm6490",
@@ -9660,7 +9684,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "qcs404i",
@@ -9721,7 +9746,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "qcs8550i",
@@ -9735,7 +9761,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "qcs9100",
@@ -9835,7 +9862,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "qru1000i",
@@ -9849,7 +9877,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "sa8155pi",
@@ -9863,7 +9892,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "sa8540pi",
@@ -9877,7 +9907,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 8
   },
   {
     "id": "sar2130p",

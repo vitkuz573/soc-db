@@ -40,6 +40,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv7-A"
   }
 ]

@@ -20,7 +20,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8000",
@@ -43,7 +44,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8000i",
@@ -66,7 +68,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8001",
@@ -137,7 +140,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s8003i",
@@ -160,7 +164,8 @@
     ],
     "completeness": 0.4078,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2
   },
   {
     "id": "s800x",
@@ -768,7 +773,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 10
   },
   {
     "id": "t6001",
@@ -782,7 +788,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 10
   },
   {
     "id": "t6002",
@@ -811,7 +818,8 @@
     ],
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 12
   },
   {
     "id": "t6022",

@@ -10,7 +10,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "marvell_armada_37_armada37",
@@ -23,7 +24,8 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1
   },
   {
     "id": "marvell_armada_372_armada372",
@@ -36,7 +38,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 1,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "marvell_armada_3720_armada3720",
@@ -64,7 +68,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "marvell_armada_7020_armada7020",
@@ -107,7 +113,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "marvell_armada_8040_armada8040",

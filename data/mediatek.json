@@ -4951,7 +4951,8 @@
     "bluetooth": "5.0",
     "completeness": 0.4466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "dimensity_1000c_dimensity1000c",
@@ -5345,7 +5346,8 @@
     "bluetooth": "5.0",
     "completeness": 0.466,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4
   },
   {
     "id": "mediatek_mt8173",

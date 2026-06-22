@@ -91,7 +91,9 @@
     "source": "linux_dt",
     "completeness": 0.1845,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 6,
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "realtek_rtd1619",
