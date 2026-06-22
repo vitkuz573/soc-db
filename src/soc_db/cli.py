@@ -224,6 +224,9 @@ def cmd_enrich(args):
 
 def main():
     """CLI entry point — parse arguments and dispatch to the appropriate command handler."""
+    from soc_db.log_config import setup_logging as _setup_logging
+
+    _setup_logging()
     import argparse
 
     p = argparse.ArgumentParser(description="soc-db CLI")

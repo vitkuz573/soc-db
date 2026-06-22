@@ -7,16 +7,23 @@ the first load.
 
 import gzip
 import json
+import logging
+import time
 from pathlib import Path
+from uuid import uuid4
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
+
+from soc_db.log_config import setup_logging
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 DATA_DIR = ROOT / "data"
 SCHEMA_FILE = ROOT / "schema" / "chip-schema.json"
+
+logger = logging.getLogger("soc_db.api")
 
 app = FastAPI(
     title="SoC Database API",
@@ -66,14 +73,46 @@ def make_cache_buster():
     return md5(urandom(16)).hexdigest()[:8]
 
 
+@app.middleware("http")
+async def add_request_id(request: Request, call_next):
+    """Inject a unique ``X-Request-ID`` header into every response."""
+    rid = request.headers.get("X-Request-ID", uuid4().hex[:16])
+    request.state.request_id = rid
+    start = time.monotonic()
+    try:
+        response = await call_next(request)
+    except BaseException:
+        logger.exception("Unhandled exception processing %s %s", request.method, request.url.path)
+        raise
+    elapsed = time.monotonic() - start
+    response.headers["X-Request-ID"] = rid
+    logger.info(
+        "request",
+        extra={
+            "request_id": rid,
+            "method": request.method,
+            "path": request.url.path,
+            "query": str(request.url.query),
+            "status": response.status_code,
+            "duration_ms": round(elapsed * 1000, 2),
+            "client_host": request.client.host if request.client else None,
+            "user_agent": request.headers.get("user-agent"),
+        },
+    )
+    return response
+
+
 @app.on_event("startup")
 async def startup():
     """FastAPI startup event — initialise cache state.
 
-    Sets a random cache buster and marks the chip cache as empty.
+    Configures structured logging, loads the chip cache, and
+    generates a random cache-buster string for stale-data detection.
     """
+    setup_logging()
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
+    logger.info("Server starting", extra={"version": app.version, "cache_buster": app.state._cache_buster})
 
 
 def get_chips():
