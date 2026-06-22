@@ -3,7 +3,9 @@
 import hashlib
 import json
 import logging
+import os
 import re
+import tempfile
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -13,7 +15,7 @@ from urllib.request import Request, urlopen
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
-CACHE_DIR = Path("/tmp/soc-db-cache")
+CACHE_DIR = Path(os.environ.get("SOC_DB_CACHE_DIR", tempfile.gettempdir())) / "soc-db-cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
@@ -32,14 +34,14 @@ def fetch(url: str, ttl: int = 86400) -> str:
     Returns:
         The response body as a UTF-8 decoded string.
     """
-    key = hashlib.md5(url.encode()).hexdigest()
+    key = hashlib.md5(url.encode(), usedforsecurity=False).hexdigest()
     cache_file = CACHE_DIR / key
     if cache_file.exists():
         age = time.time() - cache_file.stat().st_mtime
         if age < ttl:
             return cache_file.read_text("utf-8")
     req = Request(url, headers={"User-Agent": USER_AGENT})
-    with urlopen(req, timeout=30) as resp:
+    with urlopen(req, timeout=30) as resp:  # nosec - controlled URLs only
         data: str = resp.read().decode("utf-8")
     cache_file.write_text(data, "utf-8")
     time.sleep(1)
