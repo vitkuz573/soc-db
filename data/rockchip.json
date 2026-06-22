@@ -706,7 +706,7 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "rk3",
+    "id": "rockchip_rk3",
     "name": "Rockchip RK3",
     "vendor": "Rockchip",
     "model": "RK3",
@@ -717,7 +717,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rk322",
+    "id": "rockchip_rk322",
     "name": "Rockchip RK322",
     "vendor": "Rockchip",
     "model": "RK322",
@@ -728,7 +728,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "rk356",
+    "id": "rockchip_rk356",
     "name": "Rockchip RK356",
     "vendor": "Rockchip",
     "model": "RK356",

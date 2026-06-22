@@ -4789,7 +4789,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex3_socdk",
+    "id": "socfpga_agilex3_socdk_socfpgaagilex3socdk",
     "name": "socfpga_agilex3_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX3_SOCDK",
@@ -4802,7 +4802,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex5_socdk",
+    "id": "socfpga_agilex5_socdk_socfpgaagilex5socdk",
     "name": "socfpga_agilex5_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX5_SOCDK",
@@ -4815,7 +4815,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex5_socdk_013b",
+    "id": "socfpga_agilex5_socdk_013b_socfpgaagilex5socdk013b",
     "name": "socfpga_agilex5_socdk_013b",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX5_SOCDK_013B",
@@ -4828,7 +4828,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex5_socdk_modular",
+    "id": "socfpga_agilex5_socdk_modular_socfpgaagilex5socdkmodular",
     "name": "socfpga_agilex5_socdk_modular",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX5_SOCDK_MODULAR",
@@ -4841,7 +4841,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex5_socdk_nand",
+    "id": "socfpga_agilex5_socdk_nand_socfpgaagilex5socdknand",
     "name": "socfpga_agilex5_socdk_nand",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX5_SOCDK_NAND",
@@ -4854,7 +4854,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex5i",
+    "id": "socfpga_agilex5i_socfpgaagilex5i",
     "name": "socfpga_agilex5i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX5I",
@@ -4867,7 +4867,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex7m_socdk",
+    "id": "socfpga_agilex7m_socdk_socfpgaagilex7msocdk",
     "name": "socfpga_agilex7m_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX7M_SOCDK",
@@ -4880,7 +4880,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex_n6000",
+    "id": "socfpga_agilex_n6000_socfpgaagilexn6000",
     "name": "socfpga_agilex_n6000",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX_N6000",
@@ -4893,7 +4893,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex_socdk",
+    "id": "socfpga_agilex_socdk_socfpgaagilexsocdk",
     "name": "socfpga_agilex_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX_SOCDK",
@@ -4906,7 +4906,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex_socdk_emmc",
+    "id": "socfpga_agilex_socdk_emmc_socfpgaagilexsocdkemmc",
     "name": "socfpga_agilex_socdk_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX_SOCDK_EMMC",
@@ -4919,7 +4919,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilex_socdk_nand",
+    "id": "socfpga_agilex_socdk_nand_socfpgaagilexsocdknand",
     "name": "socfpga_agilex_socdk_nand",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEX_SOCDK_NAND",
@@ -4932,7 +4932,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_agilexi",
+    "id": "socfpga_agilexi_socfpgaagilexi",
     "name": "socfpga_agilexi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_AGILEXI",
@@ -4945,7 +4945,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_chameleonv3",
+    "id": "socfpga_arria10_chameleonv3_socfpgaarria10chameleonv3",
     "name": "socfpga_arria10_chameleonv3",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_CHAMELEONV3",
@@ -4958,7 +4958,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe1_emmc",
+    "id": "socfpga_arria10_mercury_aa1_pe1_emmc_socfpgaarria10mercuryaa1pe1emmc",
     "name": "socfpga_arria10_mercury_aa1_pe1_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_EMMC",
@@ -4971,7 +4971,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe1_qspi",
+    "id": "socfpga_arria10_mercury_aa1_pe1_qspi_socfpgaarria10mercuryaa1pe1qspi",
     "name": "socfpga_arria10_mercury_aa1_pe1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_QSPI",
@@ -4984,7 +4984,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe1_sdmmc",
+    "id": "socfpga_arria10_mercury_aa1_pe1_sdmmc_socfpgaarria10mercuryaa1pe1sdmmc",
     "name": "socfpga_arria10_mercury_aa1_pe1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_SDMMC",
@@ -4997,7 +4997,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe3_emmc",
+    "id": "socfpga_arria10_mercury_aa1_pe3_emmc_socfpgaarria10mercuryaa1pe3emmc",
     "name": "socfpga_arria10_mercury_aa1_pe3_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_EMMC",
@@ -5010,7 +5010,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe3_qspi",
+    "id": "socfpga_arria10_mercury_aa1_pe3_qspi_socfpgaarria10mercuryaa1pe3qspi",
     "name": "socfpga_arria10_mercury_aa1_pe3_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_QSPI",
@@ -5023,7 +5023,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_pe3_sdmmc",
+    "id": "socfpga_arria10_mercury_aa1_pe3_sdmmc_socfpgaarria10mercuryaa1pe3sdmmc",
     "name": "socfpga_arria10_mercury_aa1_pe3_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_SDMMC",
@@ -5036,7 +5036,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_st1_emmc",
+    "id": "socfpga_arria10_mercury_aa1_st1_emmc_socfpgaarria10mercuryaa1st1emmc",
     "name": "socfpga_arria10_mercury_aa1_st1_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_EMMC",
@@ -5049,7 +5049,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_st1_qspi",
+    "id": "socfpga_arria10_mercury_aa1_st1_qspi_socfpgaarria10mercuryaa1st1qspi",
     "name": "socfpga_arria10_mercury_aa1_st1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_QSPI",
@@ -5062,7 +5062,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1_st1_sdmmc",
+    "id": "socfpga_arria10_mercury_aa1_st1_sdmmc_socfpgaarria10mercuryaa1st1sdmmc",
     "name": "socfpga_arria10_mercury_aa1_st1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_SDMMC",
@@ -5075,7 +5075,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_mercury_aa1i",
+    "id": "socfpga_arria10_mercury_aa1i_socfpgaarria10mercuryaa1i",
     "name": "socfpga_arria10_mercury_aa1i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_MERCURY_AA1I",
@@ -5088,7 +5088,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_socdk_nand",
+    "id": "socfpga_arria10_socdk_nand_socfpgaarria10socdknand",
     "name": "socfpga_arria10_socdk_nand",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_SOCDK_NAND",
@@ -5101,7 +5101,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_socdk_qspi",
+    "id": "socfpga_arria10_socdk_qspi_socfpgaarria10socdkqspi",
     "name": "socfpga_arria10_socdk_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_SOCDK_QSPI",
@@ -5114,7 +5114,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_socdk_sdmmc",
+    "id": "socfpga_arria10_socdk_sdmmc_socfpgaarria10socdksdmmc",
     "name": "socfpga_arria10_socdk_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_SOCDK_SDMMC",
@@ -5127,7 +5127,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10_socdki",
+    "id": "socfpga_arria10_socdki_socfpgaarria10socdki",
     "name": "socfpga_arria10_socdki",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10_SOCDKI",
@@ -5140,7 +5140,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria10i",
+    "id": "socfpga_arria10i_socfpgaarria10i",
     "name": "socfpga_arria10i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA10I",
@@ -5153,7 +5153,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria5_socdk",
+    "id": "socfpga_arria5_socdk_socfpgaarria5socdk",
     "name": "socfpga_arria5_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA5_SOCDK",
@@ -5166,7 +5166,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_arria5i",
+    "id": "socfpga_arria5i_socfpgaarria5i",
     "name": "socfpga_arria5i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ARRIA5I",
@@ -5179,7 +5179,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_chameleon96",
+    "id": "socfpga_cyclone5_chameleon96_socfpgacyclone5chameleon96",
     "name": "socfpga_cyclone5_chameleon96",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_CHAMELEON96",
@@ -5192,7 +5192,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_de0_nano_soc",
+    "id": "socfpga_cyclone5_de0_nano_soc_socfpgacyclone5de0nanosoc",
     "name": "socfpga_cyclone5_de0_nano_soc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_DE0_NANO_SOC",
@@ -5205,7 +5205,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_de10nano",
+    "id": "socfpga_cyclone5_de10nano_socfpgacyclone5de10nano",
     "name": "socfpga_cyclone5_de10nano",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_DE10NANO",
@@ -5218,7 +5218,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mcvevk",
+    "id": "socfpga_cyclone5_mcvevk_socfpgacyclone5mcvevk",
     "name": "socfpga_cyclone5_mcvevk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MCVEVK",
@@ -5231,7 +5231,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mcvi",
+    "id": "socfpga_cyclone5_mcvi_socfpgacyclone5mcvi",
     "name": "socfpga_cyclone5_mcvi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MCVI",
@@ -5244,7 +5244,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_emmc",
+    "id": "socfpga_cyclone5_mercury_sa1_pe1_emmc_socfpgacyclone5mercurysa1pe1emmc",
     "name": "socfpga_cyclone5_mercury_sa1_pe1_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_EMMC",
@@ -5257,7 +5257,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_qspi",
+    "id": "socfpga_cyclone5_mercury_sa1_pe1_qspi_socfpgacyclone5mercurysa1pe1qspi",
     "name": "socfpga_cyclone5_mercury_sa1_pe1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_QSPI",
@@ -5270,7 +5270,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc_socfpgacyclone5mercurysa1pe1sdmmc",
     "name": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_SDMMC",
@@ -5283,7 +5283,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_emmc",
+    "id": "socfpga_cyclone5_mercury_sa1_pe3_emmc_socfpgacyclone5mercurysa1pe3emmc",
     "name": "socfpga_cyclone5_mercury_sa1_pe3_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_EMMC",
@@ -5296,7 +5296,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_qspi",
+    "id": "socfpga_cyclone5_mercury_sa1_pe3_qspi_socfpgacyclone5mercurysa1pe3qspi",
     "name": "socfpga_cyclone5_mercury_sa1_pe3_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_QSPI",
@@ -5309,7 +5309,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc_socfpgacyclone5mercurysa1pe3sdmmc",
     "name": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_SDMMC",
@@ -5322,7 +5322,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_emmc",
+    "id": "socfpga_cyclone5_mercury_sa1_st1_emmc_socfpgacyclone5mercurysa1st1emmc",
     "name": "socfpga_cyclone5_mercury_sa1_st1_emmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_EMMC",
@@ -5335,7 +5335,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_qspi",
+    "id": "socfpga_cyclone5_mercury_sa1_st1_qspi_socfpgacyclone5mercurysa1st1qspi",
     "name": "socfpga_cyclone5_mercury_sa1_st1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_QSPI",
@@ -5348,7 +5348,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa1_st1_sdmmc_socfpgacyclone5mercurysa1st1sdmmc",
     "name": "socfpga_cyclone5_mercury_sa1_st1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_SDMMC",
@@ -5361,7 +5361,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa1i",
+    "id": "socfpga_cyclone5_mercury_sa1i_socfpgacyclone5mercurysa1i",
     "name": "socfpga_cyclone5_mercury_sa1i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA1I",
@@ -5374,7 +5374,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_pe1_qspi",
+    "id": "socfpga_cyclone5_mercury_sa2_pe1_qspi_socfpgacyclone5mercurysa2pe1qspi",
     "name": "socfpga_cyclone5_mercury_sa2_pe1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_QSPI",
@@ -5387,7 +5387,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc_socfpgacyclone5mercurysa2pe1sdmmc",
     "name": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_SDMMC",
@@ -5400,7 +5400,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_pe3_qspi",
+    "id": "socfpga_cyclone5_mercury_sa2_pe3_qspi_socfpgacyclone5mercurysa2pe3qspi",
     "name": "socfpga_cyclone5_mercury_sa2_pe3_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_QSPI",
@@ -5413,7 +5413,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc_socfpgacyclone5mercurysa2pe3sdmmc",
     "name": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_SDMMC",
@@ -5426,7 +5426,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_st1_qspi",
+    "id": "socfpga_cyclone5_mercury_sa2_st1_qspi_socfpgacyclone5mercurysa2st1qspi",
     "name": "socfpga_cyclone5_mercury_sa2_st1_qspi",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_QSPI",
@@ -5439,7 +5439,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2_st1_sdmmc",
+    "id": "socfpga_cyclone5_mercury_sa2_st1_sdmmc_socfpgacyclone5mercurysa2st1sdmmc",
     "name": "socfpga_cyclone5_mercury_sa2_st1_sdmmc",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_SDMMC",
@@ -5452,7 +5452,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_mercury_sa2i",
+    "id": "socfpga_cyclone5_mercury_sa2i_socfpgacyclone5mercurysa2i",
     "name": "socfpga_cyclone5_mercury_sa2i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_MERCURY_SA2I",
@@ -5465,7 +5465,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_socdk",
+    "id": "socfpga_cyclone5_socdk_socfpgacyclone5socdk",
     "name": "socfpga_cyclone5_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_SOCDK",
@@ -5478,7 +5478,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_sockit",
+    "id": "socfpga_cyclone5_sockit_socfpgacyclone5sockit",
     "name": "socfpga_cyclone5_sockit",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_SOCKIT",
@@ -5491,7 +5491,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_socrates",
+    "id": "socfpga_cyclone5_socrates_socfpgacyclone5socrates",
     "name": "socfpga_cyclone5_socrates",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_SOCRATES",
@@ -5504,7 +5504,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_sodia",
+    "id": "socfpga_cyclone5_sodia_socfpgacyclone5sodia",
     "name": "socfpga_cyclone5_sodia",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_SODIA",
@@ -5517,7 +5517,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5_vining_fpga",
+    "id": "socfpga_cyclone5_vining_fpga_socfpgacyclone5viningfpga",
     "name": "socfpga_cyclone5_vining_fpga",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5_VINING_FPGA",
@@ -5530,7 +5530,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_cyclone5i",
+    "id": "socfpga_cyclone5i_socfpgacyclone5i",
     "name": "socfpga_cyclone5i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_CYCLONE5I",
@@ -5543,7 +5543,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_bootmode_emmci",
+    "id": "socfpga_enclustra_mercury_bootmode_emmci_socfpgaenclustramercurybootmodeemmci",
     "name": "socfpga_enclustra_mercury_bootmode_emmci",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_EMMCI",
@@ -5556,7 +5556,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_bootmode_qspii",
+    "id": "socfpga_enclustra_mercury_bootmode_qspii_socfpgaenclustramercurybootmodeqspii",
     "name": "socfpga_enclustra_mercury_bootmode_qspii",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_QSPII",
@@ -5569,7 +5569,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_bootmode_sdmmci",
+    "id": "socfpga_enclustra_mercury_bootmode_sdmmci_socfpgaenclustramercurybootmodesdmmci",
     "name": "socfpga_enclustra_mercury_bootmode_sdmmci",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_SDMMCI",
@@ -5582,7 +5582,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_pe1i",
+    "id": "socfpga_enclustra_mercury_pe1i_socfpgaenclustramercurype1i",
     "name": "socfpga_enclustra_mercury_pe1i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_PE1I",
@@ -5595,7 +5595,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_pe3i",
+    "id": "socfpga_enclustra_mercury_pe3i_socfpgaenclustramercurype3i",
     "name": "socfpga_enclustra_mercury_pe3i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_PE3I",
@@ -5608,7 +5608,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_enclustra_mercury_st1i",
+    "id": "socfpga_enclustra_mercury_st1i_socfpgaenclustramercuryst1i",
     "name": "socfpga_enclustra_mercury_st1i",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_ENCLUSTRA_MERCURY_ST1I",
@@ -5621,7 +5621,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_n5x_socdk",
+    "id": "socfpga_n5x_socdk_socfpgan5xsocdk",
     "name": "socfpga_n5x_socdk",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_N5X_SOCDK",
@@ -5634,7 +5634,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "socfpga_vt",
+    "id": "socfpga_vt_socfpgavt",
     "name": "socfpga_vt",
     "vendor": "Intel Atom",
     "model": "SOCFPGA_VT",

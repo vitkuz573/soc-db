@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ma35d1",
+    "name": "ma35d1",
+    "vendor": "Nuvoton",
+    "model": "MA35D1",
+    "source": "linux_dt",
+    "aliases": [
+      "ma35d1 (MA35D1)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ma35d1i",
+    "name": "ma35d1i",
+    "vendor": "Nuvoton",
+    "model": "MA35D1I",
+    "source": "linux_dt",
+    "aliases": [
+      "ma35d1i (MA35D1I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "nuvoton",
+    "name": "nuvoton",
+    "vendor": "Nuvoton",
+    "model": "NUVOTON",
+    "source": "linux_dt",
+    "aliases": [
+      "nuvoton (NUVOTON)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

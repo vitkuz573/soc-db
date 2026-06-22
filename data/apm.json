@@ -1,0 +1,15 @@
+[
+  {
+    "id": "apm",
+    "name": "apm",
+    "vendor": "APM",
+    "model": "APM",
+    "source": "linux_dt",
+    "aliases": [
+      "apm (APM)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

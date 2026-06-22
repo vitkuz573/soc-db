@@ -700,7 +700,7 @@
     "bluetooth": "5.3"
   },
   {
-    "id": "spi1",
+    "id": "unisoc_spi1",
     "name": "Unisoc SPI1",
     "vendor": "Apple",
     "model": "SPI1",

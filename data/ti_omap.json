@@ -406,7 +406,7 @@
     "bluetooth": "4.0"
   },
   {
-    "id": "k3_am62",
+    "id": "ti_k3_am62_k3am62",
     "name": "TI K3 AM62",
     "vendor": "TI OMAP",
     "model": "K3-AM62",
@@ -419,7 +419,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am625",
+    "id": "ti_k3_am625_k3am625",
     "name": "TI K3 AM625",
     "vendor": "TI OMAP",
     "model": "K3-AM625",
@@ -432,7 +432,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am6254atl",
+    "id": "ti_k3_am6254atl_k3am6254atl",
     "name": "TI K3 AM6254ATL",
     "vendor": "TI OMAP",
     "model": "K3-AM6254ATL",
@@ -445,7 +445,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am6254atli",
+    "id": "ti_k3_am6254atli_k3am6254atli",
     "name": "TI K3 AM6254ATLI",
     "vendor": "TI OMAP",
     "model": "K3-AM6254ATLI",
@@ -458,7 +458,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am625i",
+    "id": "ti_k3_am625i_k3am625i",
     "name": "TI K3 AM625I",
     "vendor": "TI OMAP",
     "model": "K3-AM625I",
@@ -471,7 +471,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62a",
+    "id": "ti_k3_am62a_k3am62a",
     "name": "TI K3 AM62A",
     "vendor": "TI OMAP",
     "model": "K3-AM62A",
@@ -484,7 +484,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62a7",
+    "id": "ti_k3_am62a7_k3am62a7",
     "name": "TI K3 AM62A7",
     "vendor": "TI OMAP",
     "model": "K3-AM62A7",
@@ -497,7 +497,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62a7i",
+    "id": "ti_k3_am62a7i_k3am62a7i",
     "name": "TI K3 AM62A7I",
     "vendor": "TI OMAP",
     "model": "K3-AM62A7I",
@@ -510,7 +510,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62ai",
+    "id": "ti_k3_am62ai_k3am62ai",
     "name": "TI K3 AM62AI",
     "vendor": "TI OMAP",
     "model": "K3-AM62AI",
@@ -523,7 +523,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62d2",
+    "id": "ti_k3_am62d2_k3am62d2",
     "name": "TI K3 AM62D2",
     "vendor": "TI OMAP",
     "model": "K3-AM62D2",
@@ -536,7 +536,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62d2i",
+    "id": "ti_k3_am62d2i_k3am62d2i",
     "name": "TI K3 AM62D2I",
     "vendor": "TI OMAP",
     "model": "K3-AM62D2I",
@@ -549,7 +549,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62i",
+    "id": "ti_k3_am62i_k3am62i",
     "name": "TI K3 AM62I",
     "vendor": "TI OMAP",
     "model": "K3-AM62I",
@@ -562,7 +562,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62l",
+    "id": "ti_k3_am62l_k3am62l",
     "name": "TI K3 AM62L",
     "vendor": "TI OMAP",
     "model": "K3-AM62L",
@@ -575,7 +575,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62l3",
+    "id": "ti_k3_am62l3_k3am62l3",
     "name": "TI K3 AM62L3",
     "vendor": "TI OMAP",
     "model": "K3-AM62L3",
@@ -588,7 +588,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62l3i",
+    "id": "ti_k3_am62l3i_k3am62l3i",
     "name": "TI K3 AM62L3I",
     "vendor": "TI OMAP",
     "model": "K3-AM62L3I",
@@ -601,7 +601,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62li",
+    "id": "ti_k3_am62li_k3am62li",
     "name": "TI K3 AM62LI",
     "vendor": "TI OMAP",
     "model": "K3-AM62LI",
@@ -614,7 +614,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62p",
+    "id": "ti_k3_am62p_k3am62p",
     "name": "TI K3 AM62P",
     "vendor": "TI OMAP",
     "model": "K3-AM62P",
@@ -627,7 +627,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62p5",
+    "id": "ti_k3_am62p5_k3am62p5",
     "name": "TI K3 AM62P5",
     "vendor": "TI OMAP",
     "model": "K3-AM62P5",
@@ -640,7 +640,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62p5i",
+    "id": "ti_k3_am62p5i_k3am62p5i",
     "name": "TI K3 AM62P5I",
     "vendor": "TI OMAP",
     "model": "K3-AM62P5I",
@@ -653,7 +653,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62pi",
+    "id": "ti_k3_am62pi_k3am62pi",
     "name": "TI K3 AM62PI",
     "vendor": "TI OMAP",
     "model": "K3-AM62PI",
@@ -666,7 +666,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am62x",
+    "id": "ti_k3_am62x_k3am62x",
     "name": "TI K3 AM62X",
     "vendor": "TI OMAP",
     "model": "K3-AM62X",
@@ -679,7 +679,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am64",
+    "id": "ti_k3_am64_k3am64",
     "name": "TI K3 AM64",
     "vendor": "TI OMAP",
     "model": "K3-AM64",
@@ -692,7 +692,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am642",
+    "id": "ti_k3_am642_k3am642",
     "name": "TI K3 AM642",
     "vendor": "TI OMAP",
     "model": "K3-AM642",
@@ -705,7 +705,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am642i",
+    "id": "ti_k3_am642i_k3am642i",
     "name": "TI K3 AM642I",
     "vendor": "TI OMAP",
     "model": "K3-AM642I",
@@ -718,7 +718,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am64i",
+    "id": "ti_k3_am64i_k3am64i",
     "name": "TI K3 AM64I",
     "vendor": "TI OMAP",
     "model": "K3-AM64I",
@@ -731,7 +731,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am65",
+    "id": "ti_k3_am65_k3am65",
     "name": "TI K3 AM65",
     "vendor": "TI OMAP",
     "model": "K3-AM65",
@@ -744,7 +744,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am6528",
+    "id": "ti_k3_am6528_k3am6528",
     "name": "TI K3 AM6528",
     "vendor": "TI OMAP",
     "model": "K3-AM6528",
@@ -757,7 +757,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am652i",
+    "id": "ti_k3_am652i_k3am652i",
     "name": "TI K3 AM652I",
     "vendor": "TI OMAP",
     "model": "K3-AM652I",
@@ -770,7 +770,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am654",
+    "id": "ti_k3_am654_k3am654",
     "name": "TI K3 AM654",
     "vendor": "TI OMAP",
     "model": "K3-AM654",
@@ -783,7 +783,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am6548",
+    "id": "ti_k3_am6548_k3am6548",
     "name": "TI K3 AM6548",
     "vendor": "TI OMAP",
     "model": "K3-AM6548",
@@ -796,7 +796,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am654i",
+    "id": "ti_k3_am654i_k3am654i",
     "name": "TI K3 AM654I",
     "vendor": "TI OMAP",
     "model": "K3-AM654I",
@@ -809,7 +809,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am65i",
+    "id": "ti_k3_am65i_k3am65i",
     "name": "TI K3 AM65I",
     "vendor": "TI OMAP",
     "model": "K3-AM65I",
@@ -822,7 +822,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am67a",
+    "id": "ti_k3_am67a_k3am67a",
     "name": "TI K3 AM67A",
     "vendor": "TI OMAP",
     "model": "K3-AM67A",
@@ -835,7 +835,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am68",
+    "id": "ti_k3_am68_k3am68",
     "name": "TI K3 AM68",
     "vendor": "TI OMAP",
     "model": "K3-AM68",
@@ -848,7 +848,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_am69",
+    "id": "ti_k3_am69_k3am69",
     "name": "TI K3 AM69",
     "vendor": "TI OMAP",
     "model": "K3-AM69",
@@ -861,7 +861,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j7200",
+    "id": "ti_k3_j7200_k3j7200",
     "name": "TI K3 J7200",
     "vendor": "TI OMAP",
     "model": "K3-J7200",
@@ -874,7 +874,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j7200i",
+    "id": "ti_k3_j7200i_k3j7200i",
     "name": "TI K3 J7200I",
     "vendor": "TI OMAP",
     "model": "K3-J7200I",
@@ -887,7 +887,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j721e",
+    "id": "ti_k3_j721e_k3j721e",
     "name": "TI K3 J721E",
     "vendor": "TI OMAP",
     "model": "K3-J721E",
@@ -900,7 +900,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j721ei",
+    "id": "ti_k3_j721ei_k3j721ei",
     "name": "TI K3 J721EI",
     "vendor": "TI OMAP",
     "model": "K3-J721EI",
@@ -913,7 +913,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j721s2",
+    "id": "ti_k3_j721s2_k3j721s2",
     "name": "TI K3 J721S2",
     "vendor": "TI OMAP",
     "model": "K3-J721S2",
@@ -926,7 +926,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j721s2i",
+    "id": "ti_k3_j721s2i_k3j721s2i",
     "name": "TI K3 J721S2I",
     "vendor": "TI OMAP",
     "model": "K3-J721S2I",
@@ -939,7 +939,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j722s",
+    "id": "ti_k3_j722s_k3j722s",
     "name": "TI K3 J722S",
     "vendor": "TI OMAP",
     "model": "K3-J722S",
@@ -952,7 +952,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j722si",
+    "id": "ti_k3_j722si_k3j722si",
     "name": "TI K3 J722SI",
     "vendor": "TI OMAP",
     "model": "K3-J722SI",
@@ -965,7 +965,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j742s2",
+    "id": "ti_k3_j742s2_k3j742s2",
     "name": "TI K3 J742S2",
     "vendor": "TI OMAP",
     "model": "K3-J742S2",
@@ -978,7 +978,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j742s2i",
+    "id": "ti_k3_j742s2i_k3j742s2i",
     "name": "TI K3 J742S2I",
     "vendor": "TI OMAP",
     "model": "K3-J742S2I",
@@ -991,7 +991,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j784s4",
+    "id": "ti_k3_j784s4_k3j784s4",
     "name": "TI K3 J784S4",
     "vendor": "TI OMAP",
     "model": "K3-J784S4",
@@ -1004,7 +1004,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "k3_j784s4i",
+    "id": "ti_k3_j784s4i_k3j784s4i",
     "name": "TI K3 J784S4I",
     "vendor": "TI OMAP",
     "model": "K3-J784S4I",

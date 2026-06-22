@@ -1,0 +1,106 @@
+[
+  {
+    "id": "aspeed",
+    "name": "aspeed",
+    "vendor": "ASPEED",
+    "model": "ASPEED",
+    "source": "linux_dt",
+    "aliases": [
+      "aspeed (ASPEED)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ast2400",
+    "name": "ast2400",
+    "vendor": "ASPEED",
+    "model": "AST2400",
+    "source": "linux_dt",
+    "aliases": [
+      "ast2400 (AST2400)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ast2500",
+    "name": "ast2500",
+    "vendor": "ASPEED",
+    "model": "AST2500",
+    "source": "linux_dt",
+    "aliases": [
+      "ast2500 (AST2500)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ast2600",
+    "name": "ast2600",
+    "vendor": "ASPEED",
+    "model": "AST2600",
+    "source": "linux_dt",
+    "aliases": [
+      "ast2600 (AST2600)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ast2700",
+    "name": "ast2700",
+    "vendor": "ASPEED",
+    "model": "AST2700",
+    "source": "linux_dt",
+    "aliases": [
+      "ast2700 (AST2700)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "facebook",
+    "name": "facebook",
+    "vendor": "ASPEED",
+    "model": "FACEBOOK",
+    "source": "linux_dt",
+    "aliases": [
+      "facebook (FACEBOOK)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "ibm",
+    "name": "ibm",
+    "vendor": "ASPEED",
+    "model": "IBM",
+    "source": "linux_dt",
+    "aliases": [
+      "ibm (IBM)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "openbmc",
+    "name": "openbmc",
+    "vendor": "ASPEED",
+    "model": "OPENBMC",
+    "source": "linux_dt",
+    "aliases": [
+      "openbmc (OPENBMC)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

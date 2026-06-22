@@ -1,0 +1,38 @@
+[
+  {
+    "id": "amd",
+    "name": "TI AMD",
+    "vendor": "AMD",
+    "model": "AMD",
+    "source": "linux_dt",
+    "completeness": 0.1845,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "elba",
+    "name": "elba",
+    "vendor": "AMD",
+    "model": "ELBA",
+    "source": "linux_dt",
+    "aliases": [
+      "elba (ELBA)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "elbai",
+    "name": "elbai",
+    "vendor": "AMD",
+    "model": "ELBAI",
+    "source": "linux_dt",
+    "aliases": [
+      "elbai (ELBAI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "berlin2",
+    "name": "berlin2",
+    "vendor": "Synaptics",
+    "model": "BERLIN2",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2 (BERLIN2)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin2cd",
+    "name": "berlin2cd",
+    "vendor": "Synaptics",
+    "model": "BERLIN2CD",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2cd (BERLIN2CD)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin2cdi",
+    "name": "berlin2cdi",
+    "vendor": "Synaptics",
+    "model": "BERLIN2CDI",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2cdi (BERLIN2CDI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin2i",
+    "name": "berlin2i",
+    "vendor": "Synaptics",
+    "model": "BERLIN2I",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2i (BERLIN2I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin2q",
+    "name": "berlin2q",
+    "vendor": "Synaptics",
+    "model": "BERLIN2Q",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2q (BERLIN2Q)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin2qi",
+    "name": "berlin2qi",
+    "vendor": "Synaptics",
+    "model": "BERLIN2QI",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin2qi (BERLIN2QI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin4ct",
+    "name": "berlin4ct",
+    "vendor": "Synaptics",
+    "model": "BERLIN4CT",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin4ct (BERLIN4CT)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "berlin4cti",
+    "name": "berlin4cti",
+    "vendor": "Synaptics",
+    "model": "BERLIN4CTI",
+    "source": "linux_dt",
+    "aliases": [
+      "berlin4cti (BERLIN4CTI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

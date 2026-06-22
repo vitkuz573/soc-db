@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fsd",
+    "name": "fsd",
+    "vendor": "Tesla",
+    "model": "FSD",
+    "source": "linux_dt",
+    "aliases": [
+      "fsd (FSD)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "fsdi",
+    "name": "fsdi",
+    "vendor": "Tesla",
+    "model": "FSDI",
+    "source": "linux_dt",
+    "aliases": [
+      "fsdi (FSDI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

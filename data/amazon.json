@@ -1,0 +1,28 @@
+[
+  {
+    "id": "alpine",
+    "name": "alpine",
+    "vendor": "Amazon",
+    "model": "ALPINE",
+    "source": "linux_dt",
+    "aliases": [
+      "alpine (ALPINE)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "alpinei",
+    "name": "alpinei",
+    "vendor": "Amazon",
+    "model": "ALPINEI",
+    "source": "linux_dt",
+    "aliases": [
+      "alpinei (ALPINEI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

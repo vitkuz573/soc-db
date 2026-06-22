@@ -1,0 +1,41 @@
+[
+  {
+    "id": "tmpv7708",
+    "name": "tmpv7708",
+    "vendor": "Toshiba",
+    "model": "TMPV7708",
+    "source": "linux_dt",
+    "aliases": [
+      "tmpv7708 (TMPV7708)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tmpv7708_pinsi",
+    "name": "tmpv7708_pinsi",
+    "vendor": "Toshiba",
+    "model": "TMPV7708_PINSI",
+    "source": "linux_dt",
+    "aliases": [
+      "tmpv7708_pinsi (TMPV7708_PINSI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tmpv7708i",
+    "name": "tmpv7708i",
+    "vendor": "Toshiba",
+    "model": "TMPV7708I",
+    "source": "linux_dt",
+    "aliases": [
+      "tmpv7708i (TMPV7708I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

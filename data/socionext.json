@@ -1,0 +1,28 @@
+[
+  {
+    "id": "milbeaut",
+    "name": "milbeaut",
+    "vendor": "Socionext",
+    "model": "MILBEAUT",
+    "source": "linux_dt",
+    "aliases": [
+      "milbeaut (MILBEAUT)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "uniphier",
+    "name": "uniphier",
+    "vendor": "Socionext",
+    "model": "UNIPHIER",
+    "source": "linux_dt",
+    "aliases": [
+      "uniphier (UNIPHIER)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

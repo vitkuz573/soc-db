@@ -1,0 +1,28 @@
+[
+  {
+    "id": "sg2000",
+    "name": "sg2000",
+    "vendor": "Sophgo",
+    "model": "SG2000",
+    "source": "linux_dt",
+    "aliases": [
+      "sg2000 (SG2000)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "sg2000i",
+    "name": "sg2000i",
+    "vendor": "Sophgo",
+    "model": "SG2000I",
+    "source": "linux_dt",
+    "aliases": [
+      "sg2000i (SG2000I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

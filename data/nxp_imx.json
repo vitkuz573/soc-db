@@ -1,11 +1,13 @@
 [
   {
-    "id": "nxp_lpc",
-    "name": "NXP LPC",
+    "id": "fsl",
+    "name": "fsl",
     "vendor": "NXP i.MX",
-    "description": "ARM Cortex-M based Microcontrollers by NXP",
-    "model": "NXP LPC",
-    "source": "wikidata",
+    "model": "FSL",
+    "source": "linux_dt",
+    "aliases": [
+      "fsl (FSL)"
+    ],
     "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21"
@@ -74,5 +76,343 @@
     "dsp": "Tensilica HiFi 4 DSP",
     "memory_bus": 32,
     "gpu": "DDR3L (ECC option) LPDDR4 (no ECC)"
+  },
+  {
+    "id": "imx8",
+    "name": "i.MX8",
+    "vendor": "NXP i.MX",
+    "model": "IMX8",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX8 (IMX8)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx91",
+    "name": "i.MX91",
+    "vendor": "NXP i.MX",
+    "model": "IMX91",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX91 (IMX91)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx93",
+    "name": "i.MX93",
+    "vendor": "NXP i.MX",
+    "model": "IMX93",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX93 (IMX93)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx94",
+    "name": "i.MX94",
+    "vendor": "NXP i.MX",
+    "model": "IMX94",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX94 (IMX94)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx943",
+    "name": "i.MX943",
+    "vendor": "NXP i.MX",
+    "model": "IMX943",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX943 (IMX943)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx95",
+    "name": "i.MX95",
+    "vendor": "NXP i.MX",
+    "model": "IMX95",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX95 (IMX95)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "imx952",
+    "name": "i.MX952",
+    "vendor": "NXP i.MX",
+    "model": "IMX952",
+    "source": "linux_dt",
+    "aliases": [
+      "i.MX952 (IMX952)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "mba8mxi",
+    "name": "mba8mxi",
+    "vendor": "NXP i.MX",
+    "model": "MBA8MXI",
+    "source": "linux_dt",
+    "aliases": [
+      "mba8mxi (MBA8MXI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "mba8xxi",
+    "name": "mba8xxi",
+    "vendor": "NXP i.MX",
+    "model": "MBA8XXI",
+    "source": "linux_dt",
+    "aliases": [
+      "mba8xxi (MBA8XXI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "qoriq",
+    "name": "qoriq",
+    "vendor": "NXP i.MX",
+    "model": "QORIQ",
+    "source": "linux_dt",
+    "aliases": [
+      "qoriq (QORIQ)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32g274a",
+    "name": "s32g274a",
+    "vendor": "NXP i.MX",
+    "model": "S32G274A",
+    "source": "linux_dt",
+    "aliases": [
+      "s32g274a (S32G274A)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32g2i",
+    "name": "s32g2i",
+    "vendor": "NXP i.MX",
+    "model": "S32G2I",
+    "source": "linux_dt",
+    "aliases": [
+      "s32g2i (S32G2I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32g399a",
+    "name": "s32g399a",
+    "vendor": "NXP i.MX",
+    "model": "S32G399A",
+    "source": "linux_dt",
+    "aliases": [
+      "s32g399a (S32G399A)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32g3i",
+    "name": "s32g3i",
+    "vendor": "NXP i.MX",
+    "model": "S32G3I",
+    "source": "linux_dt",
+    "aliases": [
+      "s32g3i (S32G3I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32gxxxa",
+    "name": "s32gxxxa",
+    "vendor": "NXP i.MX",
+    "model": "S32GXXXA",
+    "source": "linux_dt",
+    "aliases": [
+      "s32gxxxa (S32GXXXA)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32n79",
+    "name": "s32n79",
+    "vendor": "NXP i.MX",
+    "model": "S32N79",
+    "source": "linux_dt",
+    "aliases": [
+      "s32n79 (S32N79)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32n79i",
+    "name": "s32n79i",
+    "vendor": "NXP i.MX",
+    "model": "S32N79I",
+    "source": "linux_dt",
+    "aliases": [
+      "s32n79i (S32N79I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32v234",
+    "name": "s32v234",
+    "vendor": "NXP i.MX",
+    "model": "S32V234",
+    "source": "linux_dt",
+    "aliases": [
+      "s32v234 (S32V234)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "s32v234i",
+    "name": "s32v234i",
+    "vendor": "NXP i.MX",
+    "model": "S32V234I",
+    "source": "linux_dt",
+    "aliases": [
+      "s32v234i (S32V234I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqma8xxi",
+    "name": "tqma8xxi",
+    "vendor": "NXP i.MX",
+    "model": "TQMA8XXI",
+    "source": "linux_dt",
+    "aliases": [
+      "tqma8xxi (TQMA8XXI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqma8xxs",
+    "name": "tqma8xxs",
+    "vendor": "NXP i.MX",
+    "model": "TQMA8XXS",
+    "source": "linux_dt",
+    "aliases": [
+      "tqma8xxs (TQMA8XXS)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqma8xxsi",
+    "name": "tqma8xxsi",
+    "vendor": "NXP i.MX",
+    "model": "TQMA8XXSI",
+    "source": "linux_dt",
+    "aliases": [
+      "tqma8xxsi (TQMA8XXSI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqmls104xa",
+    "name": "tqmls104xa",
+    "vendor": "NXP i.MX",
+    "model": "TQMLS104XA",
+    "source": "linux_dt",
+    "aliases": [
+      "tqmls104xa (TQMLS104XA)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqmls1088a",
+    "name": "tqmls1088a",
+    "vendor": "NXP i.MX",
+    "model": "TQMLS1088A",
+    "source": "linux_dt",
+    "aliases": [
+      "tqmls1088a (TQMLS1088A)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqmls10xxa",
+    "name": "tqmls10xxa",
+    "vendor": "NXP i.MX",
+    "model": "TQMLS10XXA",
+    "source": "linux_dt",
+    "aliases": [
+      "tqmls10xxa (TQMLS10XXA)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "tqmls10xxai",
+    "name": "tqmls10xxai",
+    "vendor": "NXP i.MX",
+    "model": "TQMLS10XXAI",
+    "source": "linux_dt",
+    "aliases": [
+      "tqmls10xxai (TQMLS10XXAI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
   }
 ]

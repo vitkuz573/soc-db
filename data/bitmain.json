@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bm1880",
+    "name": "bm1880",
+    "vendor": "Bitmain",
+    "model": "BM1880",
+    "source": "linux_dt",
+    "aliases": [
+      "bm1880 (BM1880)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "bm1880i",
+    "name": "bm1880i",
+    "vendor": "Bitmain",
+    "model": "BM1880I",
+    "source": "linux_dt",
+    "aliases": [
+      "bm1880i (BM1880I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "socfpga_stratix10_socdk",
+    "name": "socfpga_stratix10_socdk",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10_SOCDK",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10_socdk (SOCFPGA_STRATIX10_SOCDK)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "socfpga_stratix10_socdk_emmc",
+    "name": "socfpga_stratix10_socdk_emmc",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10_SOCDK_EMMC",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10_socdk_emmc (SOCFPGA_STRATIX10_SOCDK_EMMC)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "socfpga_stratix10_socdk_nand",
+    "name": "socfpga_stratix10_socdk_nand",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10_SOCDK_NAND",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10_socdk_nand (SOCFPGA_STRATIX10_SOCDK_NAND)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "socfpga_stratix10_socdki",
+    "name": "socfpga_stratix10_socdki",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10_SOCDKI",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10_socdki (SOCFPGA_STRATIX10_SOCDKI)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "socfpga_stratix10_swvp",
+    "name": "socfpga_stratix10_swvp",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10_SWVP",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10_swvp (SOCFPGA_STRATIX10_SWVP)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "socfpga_stratix10i",
+    "name": "socfpga_stratix10i",
+    "vendor": "Altera",
+    "model": "SOCFPGA_STRATIX10I",
+    "source": "linux_dt",
+    "aliases": [
+      "socfpga_stratix10i (SOCFPGA_STRATIX10I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]

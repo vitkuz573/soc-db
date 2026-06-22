@@ -8,11 +8,35 @@
       "count": 2,
       "completeness": 0.476
     },
+    "airoha": {
+      "name": "Airoha",
+      "file": "airoha.json",
+      "count": 4,
+      "completeness": 0.194
+    },
     "allwinner": {
       "name": "Allwinner",
       "file": "allwinner.json",
       "count": 41,
       "completeness": 0.382
+    },
+    "altera": {
+      "name": "Altera",
+      "file": "altera.json",
+      "count": 6,
+      "completeness": 0.194
+    },
+    "amazon": {
+      "name": "Amazon",
+      "file": "amazon.json",
+      "count": 2,
+      "completeness": 0.194
+    },
+    "amd": {
+      "name": "AMD",
+      "file": "amd.json",
+      "count": 3,
+      "completeness": 0.191
     },
     "amlogic": {
       "name": "Amlogic",
@@ -20,17 +44,41 @@
       "count": 28,
       "completeness": 0.444
     },
+    "apm": {
+      "name": "APM",
+      "file": "apm.json",
+      "count": 1,
+      "completeness": 0.194
+    },
     "apple": {
       "name": "Apple",
       "file": "apple.json",
       "count": 41,
       "completeness": 0.398
     },
+    "aspeed": {
+      "name": "ASPEED",
+      "file": "aspeed.json",
+      "count": 8,
+      "completeness": 0.194
+    },
+    "bitmain": {
+      "name": "Bitmain",
+      "file": "bitmain.json",
+      "count": 2,
+      "completeness": 0.194
+    },
     "broadcom": {
       "name": "Broadcom",
       "file": "broadcom.json",
       "count": 24,
       "completeness": 0.261
+    },
+    "cavium": {
+      "name": "Cavium",
+      "file": "cavium.json",
+      "count": 1,
+      "completeness": 0.194
     },
     "google": {
       "name": "Google",
@@ -74,23 +122,29 @@
       "count": 3,
       "completeness": 0.269
     },
+    "nuvoton": {
+      "name": "Nuvoton",
+      "file": "nuvoton.json",
+      "count": 3,
+      "completeness": 0.194
+    },
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 44,
-      "completeness": 0.367
+      "count": 32,
+      "completeness": 0.432
     },
     "nxp_i.mx": {
       "name": "NXP i.MX",
       "file": "nxp_imx.json",
-      "count": 6,
-      "completeness": 0.283
+      "count": 32,
+      "completeness": 0.211
     },
     "qualcomm": {
       "name": "Qualcomm",
       "file": "qualcomm.json",
-      "count": 439,
-      "completeness": 0.445
+      "count": 431,
+      "completeness": 0.441
     },
     "realtek": {
       "name": "Realtek",
@@ -116,17 +170,47 @@
       "count": 113,
       "completeness": 0.464
     },
+    "socionext": {
+      "name": "Socionext",
+      "file": "socionext.json",
+      "count": 2,
+      "completeness": 0.194
+    },
+    "sophgo": {
+      "name": "Sophgo",
+      "file": "sophgo.json",
+      "count": 2,
+      "completeness": 0.194
+    },
     "stmicroelectronics": {
       "name": "STMicroelectronics",
       "file": "stmicro.json",
       "count": 13,
       "completeness": 0.252
     },
+    "synaptics": {
+      "name": "Synaptics",
+      "file": "synaptics.json",
+      "count": 8,
+      "completeness": 0.194
+    },
+    "tesla": {
+      "name": "Tesla",
+      "file": "tesla.json",
+      "count": 2,
+      "completeness": 0.194
+    },
     "ti_omap": {
       "name": "TI OMAP",
       "file": "ti_omap.json",
       "count": 65,
       "completeness": 0.274
+    },
+    "toshiba": {
+      "name": "Toshiba",
+      "file": "toshiba.json",
+      "count": 3,
+      "completeness": 0.194
     },
     "unisoc": {
       "name": "Unisoc",
@@ -141,6 +225,6 @@
       "completeness": 0.214
     }
   },
-  "total": 1693,
+  "total": 1746,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }

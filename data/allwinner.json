@@ -574,7 +574,7 @@
     "bluetooth": "5.4"
   },
   {
-    "id": "sun4",
+    "id": "allwinner_sun4",
     "name": "Allwinner Sun4",
     "vendor": "Allwinner",
     "model": "SUN4",
@@ -588,7 +588,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun5",
+    "id": "allwinner_sun5",
     "name": "Allwinner Sun5",
     "vendor": "Allwinner",
     "model": "SUN5",
@@ -602,7 +602,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun50",
+    "id": "allwinner_sun50",
     "name": "Allwinner Sun50",
     "vendor": "Allwinner",
     "model": "SUN50",
@@ -616,7 +616,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun55",
+    "id": "allwinner_sun55",
     "name": "Allwinner Sun55",
     "vendor": "Allwinner",
     "model": "SUN55",
@@ -630,7 +630,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun6",
+    "id": "allwinner_sun6",
     "name": "Allwinner Sun6",
     "vendor": "Allwinner",
     "model": "SUN6",
@@ -644,7 +644,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun7",
+    "id": "allwinner_sun7",
     "name": "Allwinner Sun7",
     "vendor": "Allwinner",
     "model": "SUN7",
@@ -658,7 +658,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun8",
+    "id": "allwinner_sun8",
     "name": "Allwinner Sun8",
     "vendor": "Allwinner",
     "model": "SUN8",
@@ -672,7 +672,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sun9",
+    "id": "allwinner_sun9",
     "name": "Allwinner Sun9",
     "vendor": "Allwinner",
     "model": "SUN9",
@@ -686,7 +686,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "suniv",
+    "id": "allwinner_suniv",
     "name": "Allwinner Suniv",
     "vendor": "Allwinner",
     "model": "SUNIV",
@@ -700,7 +700,7 @@
     "updated": "2026-06-21"
   },
   {
-    "id": "sunxi",
+    "id": "allwinner_sunxi",
     "name": "Allwinner Sunxi",
     "vendor": "Allwinner",
     "model": "SUNXI",

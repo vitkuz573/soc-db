@@ -277,6 +277,20 @@ VENDOR_FILES = {
     "STMicroelectronics": "stmicro.json",
     "Microchip": "microchip.json",
     "Xilinx": "xilinx.json",
+    "AMD": "amd.json",
+    "APM": "apm.json",
+    "ASPEED": "aspeed.json",
+    "Airoha": "airoha.json",
+    "Altera": "altera.json",
+    "Amazon": "amazon.json",
+    "Bitmain": "bitmain.json",
+    "Cavium": "cavium.json",
+    "Nuvoton": "nuvoton.json",
+    "Socionext": "socionext.json",
+    "Sophgo": "sophgo.json",
+    "Synaptics": "synaptics.json",
+    "Tesla": "tesla.json",
+    "Toshiba": "toshiba.json",
 }
 
 

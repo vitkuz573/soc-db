@@ -1,0 +1,54 @@
+[
+  {
+    "id": "en7523",
+    "name": "en7523",
+    "vendor": "Airoha",
+    "model": "EN7523",
+    "source": "linux_dt",
+    "aliases": [
+      "en7523 (EN7523)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "en7523i",
+    "name": "en7523i",
+    "vendor": "Airoha",
+    "model": "EN7523I",
+    "source": "linux_dt",
+    "aliases": [
+      "en7523i (EN7523I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "en7581",
+    "name": "en7581",
+    "vendor": "Airoha",
+    "model": "EN7581",
+    "source": "linux_dt",
+    "aliases": [
+      "en7581 (EN7581)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  },
+  {
+    "id": "en7581i",
+    "name": "en7581i",
+    "vendor": "Airoha",
+    "model": "EN7581I",
+    "source": "linux_dt",
+    "aliases": [
+      "en7581i (EN7581I)"
+    ],
+    "completeness": 0.1942,
+    "sources": {},
+    "updated": "2026-06-21"
+  }
+]
