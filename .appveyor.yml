@@ -1,0 +1,31 @@
+version: 1.0.{build}
+
+image: Ubuntu
+
+clone_depth: 1
+
+environment:
+  matrix:
+    - PYTHON: "3.12"
+    - PYTHON: "3.13"
+    - PYTHON: "3.14"
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - PYTHON: "3.14"
+
+install:
+  - pyenv install $PYTHON -s
+  - pyenv global $PYTHON
+  - python --version
+  - pip install -e ".[dev]"
+
+build: off
+
+test_script:
+  - make ci
+  - bandit -r src/ -x tests/
+
+cache:
+  - /home/appveyor/.cache/pip
