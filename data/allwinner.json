@@ -579,7 +579,7 @@
     "vendor": "Allwinner",
     "model": "SUN4",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "Allwinner Sun4 (SUN4)"
     ],
@@ -594,7 +594,7 @@
     "vendor": "Allwinner",
     "model": "SUN5",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Allwinner Sun5 (SUN5)"
     ],
@@ -622,7 +622,7 @@
     "vendor": "Allwinner",
     "model": "SUN55",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "Allwinner Sun55 (SUN55)"
     ],
@@ -637,7 +637,7 @@
     "vendor": "Allwinner",
     "model": "SUN6",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "Allwinner Sun6 (SUN6)"
     ],
@@ -652,7 +652,7 @@
     "vendor": "Allwinner",
     "model": "SUN7",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "Allwinner Sun7 (SUN7)"
     ],
@@ -667,7 +667,7 @@
     "vendor": "Allwinner",
     "model": "SUN8",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "Allwinner Sun8 (SUN8)"
     ],
@@ -682,7 +682,7 @@
     "vendor": "Allwinner",
     "model": "SUN9",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "Allwinner Sun9 (SUN9)"
     ],
@@ -703,7 +703,8 @@
     "completeness": 0.233,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "architecture": "ARMv5"
   },
   {
     "id": "allwinner_sunxi",

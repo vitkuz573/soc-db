@@ -1340,7 +1340,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS850",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2020,
     "process_nm": 7,
     "process_name": "7nm",
@@ -1366,7 +1366,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS990",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2020,
     "process_nm": 7,
     "process_name": "7nm",
@@ -1392,7 +1392,7 @@
     "vendor": "Samsung",
     "model": "EXYNOSAUTOV920",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2020,
     "process_nm": 7,
     "process_name": "7nm",
@@ -1418,7 +1418,7 @@
     "vendor": "Samsung",
     "model": "EXYNOSAUTOV920I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2020,
     "process_nm": 7,
     "process_name": "7nm",
@@ -1554,7 +1554,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS2200",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "year": 2022,
     "process_nm": 5,
     "process_name": "5nm",
@@ -2121,7 +2121,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS3250",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2147,7 +2147,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS4210",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2173,7 +2173,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS4212",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2225,7 +2225,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5250",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2251,7 +2251,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5260",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2277,7 +2277,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5410",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2355,7 +2355,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS5433",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2406,7 +2406,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS7870",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2432,7 +2432,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS7885",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2458,7 +2458,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS8895",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2484,7 +2484,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS9810",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -2510,7 +2510,7 @@
     "vendor": "Samsung",
     "model": "ARTPEC8",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "artpec8 (ARTPEC8)"
     ],
@@ -2525,7 +2525,7 @@
     "vendor": "Samsung",
     "model": "ARTPEC8I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "artpec8i (ARTPEC8I)"
     ],
@@ -2540,7 +2540,7 @@
     "vendor": "Samsung",
     "model": "ARTPEC9",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "artpec9 (ARTPEC9)"
     ],
@@ -2555,7 +2555,7 @@
     "vendor": "Samsung",
     "model": "ARTPEC9I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "artpec9i (ARTPEC9I)"
     ],
@@ -2623,7 +2623,7 @@
     "vendor": "Samsung",
     "model": "EXYNOS7",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "exynos7 (EXYNOS7)"
     ],
@@ -2638,7 +2638,7 @@
     "vendor": "Samsung",
     "model": "EXYNOSAUTOV9",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "exynosautov9 (EXYNOSAUTOV9)"
     ],
@@ -2653,7 +2653,7 @@
     "vendor": "Samsung",
     "model": "EXYNOSAUTOV9I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "exynosautov9i (EXYNOSAUTOV9I)"
     ],
@@ -2668,7 +2668,7 @@
     "vendor": "Samsung",
     "model": "GS101",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "gs101 (GS101)"
     ],
@@ -2683,7 +2683,7 @@
     "vendor": "Samsung",
     "model": "GS101I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "gs101i (GS101I)"
     ],
@@ -2758,7 +2758,7 @@
     "vendor": "Samsung",
     "model": "S5PV210",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "s5pv210 (S5PV210)"
     ],
@@ -2773,7 +2773,7 @@
     "vendor": "Samsung",
     "model": "S5PV210I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "s5pv210i (S5PV210I)"
     ],

@@ -49,7 +49,7 @@
     "model": "ARMADA-3720",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Armada 3720 (ARMADA-3720)"
     ],
@@ -79,7 +79,7 @@
     "model": "ARMADA-7020",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Armada 7020 (ARMADA-7020)"
     ],
@@ -94,7 +94,7 @@
     "model": "ARMADA-7040",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Armada 7040 (ARMADA-7040)"
     ],
@@ -124,7 +124,7 @@
     "model": "ARMADA-8040",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Armada 8040 (ARMADA-8040)"
     ],
@@ -139,7 +139,7 @@
     "model": "ARMADA-8080",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Armada 8080 (ARMADA-8080)"
     ],
@@ -154,7 +154,7 @@
     "model": "AC5",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "Marvell Ac5 (AC5)"
     ],
@@ -169,7 +169,7 @@
     "model": "CN9130",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Cn9130 (CN9130)"
     ],
@@ -227,7 +227,7 @@
     "model": "PXA1908",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A72",
+    "architecture": "ARMv8-A",
     "aliases": [
       "Marvell Pxa1908 (PXA1908)"
     ],

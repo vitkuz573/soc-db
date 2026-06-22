@@ -168,9 +168,11 @@ def _parse_cpus_from_content(content: str, dtsi_path: str) -> dict:
         for arch in ["ARMv9-A", "ARMv8.2-A", "ARMv8-A", "ARMv7-A", "ARMv5", "ARMv4"]:
             if arch in arch_set:
                 result["architecture"] = arch
+                result["_arch_source"] = "compatible"
                 break
     elif dtsi_path.startswith("arch/arm64/"):
         result["architecture"] = "ARMv8-A"
+        result["_arch_source"] = "fallback"
 
     return result
 
@@ -212,8 +214,27 @@ def main():
     idx = get_dtsi_index()
     print(f"{len(idx)} entries\n")
 
+    overwrite = "--overwrite" in sys.argv
     total_enriched = 0
     total_fetched = 0
+
+    # Generic family names that should never get DTS enrichment
+    # (too broad — DTS data for one chip doesn't represent the whole family)
+    SKIP_FAMILIES = {
+        "EXYNOS", "EXYNOS4", "EXYNOS5", "EXYNOS54",
+        "AMLOGIC", "MESON", "MESONI",
+        "SUN50", "SUNXI",
+        "RENESAS", "RZ", "RZG2", "RZG2L", "RZG2LC", "RZG2UL",
+        "RZG3E", "RZG3L", "RZG3S", "RZT2H",
+        "ROCKCHIP", "QCOM",
+        "FSL", "IMX8",
+        "NUVOTON", "MARVELL", "BROADCOM",
+        "SIGMASTAR", "CIRRUS LOGIC",
+        "APPLE", "S800", "S800X",
+        "AMD", "ELBA",
+        "NVIDIA",
+        "REALTEK", "XILINX", "ALTERA",
+    }
 
     for fpath in sorted(DATA_DIR.glob("*.json")):
         if fpath.name in ("index.json", "chip-schema.json", "other.json"):
@@ -221,7 +242,10 @@ def main():
         data = json.loads(fpath.read_text())
         updated = 0
         for chip in data:
-            if chip.get("architecture") and chip.get("cores"):
+            model = chip.get("model", chip.get("id", ""))
+            if model in SKIP_FAMILIES:
+                continue
+            if not overwrite and chip.get("architecture") and chip.get("cores"):
                 continue
             vendor = chip.get("vendor", "")
             model = chip.get("model", chip.get("id", ""))
@@ -302,7 +326,19 @@ def main():
             if info:
                 changed = False
                 for k, v in info.items():
-                    if k not in chip or not chip[k]:
+                    if k.startswith("_"):
+                        continue
+                    existing = chip.get(k)
+                    if k == "architecture":
+                        src = info.get("_arch_source", "")
+                        if src == "compatible":
+                            if not existing or v != existing:
+                                chip[k] = v
+                                changed = True
+                        elif not existing:
+                            chip[k] = v
+                            changed = True
+                    elif not existing:
                         chip[k] = v
                         changed = True
                 if changed:

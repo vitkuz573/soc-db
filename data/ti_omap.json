@@ -4,7 +4,7 @@
     "name": "OMAP3410",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3410",
     "process": "65 nm",
     "gpu": "PowerVR SGX530",
@@ -28,7 +28,7 @@
     "name": "OMAP3420",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3420",
     "completeness": 0.466,
     "sources": {},
@@ -49,7 +49,7 @@
     "name": "OMAP3430",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3430",
     "completeness": 0.466,
     "sources": {},
@@ -70,7 +70,7 @@
     "name": "OMAP3440",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3440",
     "completeness": 0.466,
     "sources": {},
@@ -91,7 +91,7 @@
     "name": "OMAP3503",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3503",
     "completeness": 0.466,
     "sources": {},
@@ -112,7 +112,7 @@
     "name": "OMAP3515",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3515",
     "gpu": "PowerVR SGX530",
     "completeness": 0.466,
@@ -133,7 +133,7 @@
     "name": "OMAP3525",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3525",
     "completeness": 0.466,
     "sources": {},
@@ -154,7 +154,7 @@
     "name": "OMAP3530",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3530",
     "max_freq": "720 MHz",
     "gpu": "List Alico's Kinetic 3500, Always Innovating Touch Book , BeagleBoard , Embest DevKit8000, Gumstix Overo W",
@@ -176,7 +176,7 @@
     "name": "OMAP3611",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3611",
     "process": "45 nm",
     "completeness": 0.4757,
@@ -198,7 +198,7 @@
     "name": "OMAP3621",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3621",
     "completeness": 0.466,
     "sources": {},
@@ -219,7 +219,7 @@
     "name": "OMAP3622",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3622",
     "completeness": 0.466,
     "sources": {},
@@ -240,7 +240,7 @@
     "name": "OMAP3630",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3630",
     "max_freq": "600 MHz",
     "completeness": 0.4757,
@@ -262,7 +262,7 @@
     "name": "OMAP3640",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP3640",
     "max_freq": "1.2 GHz",
     "completeness": 0.4757,
@@ -284,7 +284,7 @@
     "name": "OMAP4430",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP4430",
     "process": "45 nm",
     "gpu": "Cortex-A9",
@@ -335,7 +335,7 @@
     "name": "OMAP4470",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP4470",
     "gpu": "PowerVR SGX544 @ 277–384 MHz + Vivante GC320 (dedicated 2D graphics core)",
     "max_freq": "384 MHz",
@@ -360,7 +360,7 @@
     "name": "OMAP5430",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP5430",
     "process": "28 nm",
     "max_freq": "1.7 GHz",
@@ -386,7 +386,7 @@
     "name": "OMAP5432",
     "vendor": "TI OMAP",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "OMAP5432",
     "max_freq": "532 MHz",
     "completeness": 0.5243,
@@ -416,7 +416,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am625_k3am625",
@@ -489,7 +491,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62a7_k3am62a7",
@@ -532,7 +536,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62d2_k3am62d2",
@@ -575,7 +581,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62l_k3am62l",
@@ -588,7 +596,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62l3_k3am62l3",
@@ -631,7 +641,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62p_k3am62p",
@@ -644,7 +656,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62p5_k3am62p5",
@@ -687,7 +701,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am62x_k3am62x",
@@ -700,7 +716,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am64_k3am64",
@@ -713,7 +731,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am642_k3am642",
@@ -756,7 +776,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am65_k3am65",
@@ -769,7 +791,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 4,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am6528_k3am6528",
@@ -857,7 +881,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 2,
+    "architecture": "ARMv8-A"
   },
   {
     "id": "ti_k3_am67a_k3am67a",

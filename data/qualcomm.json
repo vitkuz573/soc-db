@@ -508,7 +508,7 @@
     "vendor": "Qualcomm",
     "model": "SDM450I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "gpu": "Adreno 506",
@@ -530,7 +530,7 @@
     "vendor": "Qualcomm",
     "model": "SDM630I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "gpu": "Adreno 508",
@@ -552,7 +552,7 @@
     "vendor": "Qualcomm",
     "model": "SDM632I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "gpu": "Adreno 506",
@@ -574,7 +574,7 @@
     "vendor": "Qualcomm",
     "model": "SDM636I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "gpu": "Adreno 509",
@@ -596,7 +596,7 @@
     "vendor": "Qualcomm",
     "model": "SDM660I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "gpu": "Adreno 512",
@@ -1650,7 +1650,7 @@
     "name": "MSM8926",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv7-A",
     "model": "MSM8926",
     "year": 2013,
     "completeness": 0.4854,
@@ -2248,7 +2248,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 506 600 MHz (57.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.6117,
     "sources": {},
     "updated": "2026-06-21",
@@ -2279,7 +2279,7 @@
     "cores": 8,
     "max_freq": "650 MHz",
     "gpu": "Hexagon 642",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "completeness": 0.5631,
@@ -2307,7 +2307,7 @@
     "cores": 8,
     "max_freq": "725 MHz",
     "gpu": "Hexagon 546",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "completeness": 0.5631,
@@ -2335,7 +2335,7 @@
     "cores": 8,
     "max_freq": "430 MHz",
     "gpu": "Hexagon 680",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "completeness": 0.5631,
@@ -2364,7 +2364,7 @@
     "cores": 8,
     "max_freq": "2.20 GHz",
     "gpu": "Adreno 512 647 MHz (165.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "completeness": 0.6311,
@@ -2772,7 +2772,7 @@
     "name": "msm8916",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "model": "MSM8916",
     "year": 2013,
     "completeness": 0.5728,
@@ -2808,7 +2808,7 @@
     "cores": 8,
     "max_freq": "598 MHz",
     "gpu": "Hexagon 536",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "completeness": 0.5534,
@@ -2868,7 +2868,7 @@
     "cores": 8,
     "max_freq": "450 MHz",
     "gpu": "Up to 21 MP single camera",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "completeness": 0.5534,
@@ -2897,7 +2897,7 @@
     "year": 2013,
     "cores": 8,
     "max_freq": "1.7 GHz",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.5049,
     "sources": {},
     "updated": "2026-06-21",
@@ -2926,7 +2926,7 @@
     "cores": 8,
     "max_freq": "2.00 GHz",
     "gpu": "Adreno 506 650 MHz (62.4 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.5728,
     "sources": {},
     "updated": "2026-06-21",
@@ -2958,7 +2958,7 @@
     "cores": 8,
     "max_freq": "1.80 GHz",
     "gpu": "Adreno 510 600 MHz (153.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.6408,
     "sources": {},
     "updated": "2026-06-21",
@@ -2992,7 +2992,7 @@
     "year": 2013,
     "cores": 8,
     "max_freq": "1.8 GHz",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.5534,
     "sources": {},
     "updated": "2026-06-21",
@@ -3024,7 +3024,7 @@
     "cores": 8,
     "max_freq": "1.82 GHz",
     "gpu": "Adreno 418 600 MHz (153.6 GFLOPS in FP32)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 20,
     "process_name": "20nm",
     "completeness": 0.6214,
@@ -3058,7 +3058,7 @@
     "cores": 8,
     "max_freq": "600 MHz",
     "gpu": "55 MP single camera (Video capture: 4K@30fps)",
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "process_nm": 20,
     "process_name": "20nm",
     "completeness": 0.5534,
@@ -3205,7 +3205,7 @@
     "vendor": "Qualcomm",
     "model": "SM4450I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2014,
     "process_nm": 20,
     "process_name": "20nm",
@@ -5180,7 +5180,7 @@
     "vendor": "Qualcomm",
     "model": "QCS404",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv8-A",
     "completeness": 0.4951,
     "sources": {},
     "updated": "2026-06-21",
@@ -5809,7 +5809,7 @@
     "name": "SM8650-Q-AA",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv9-A",
     "model": "SM8650",
     "year": 2021,
     "process_nm": 4,
@@ -5835,7 +5835,7 @@
     "name": "SM8650-Q-AB",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv9-A",
     "model": "SM8650",
     "max_freq": "3.30 GHz",
     "year": 2021,
@@ -6096,7 +6096,7 @@
     "vendor": "Qualcomm",
     "model": "SM8350I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "process_nm": 5,
     "process_name": "5nm",
     "gpu": "Adreno 660",
@@ -6159,7 +6159,7 @@
     "name": "Snapdragon SM8550",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv9-A",
     "model": "SM8550",
     "process": "4 nm",
     "max_freq": "3.19 GHz",
@@ -6195,7 +6195,7 @@
     "name": "Snapdragon SM8650",
     "vendor": "Qualcomm",
     "cores": 8,
-    "architecture": "ARMv8.2-A",
+    "architecture": "ARMv9-A",
     "model": "SM8650",
     "max_freq": "3.4 GHz",
     "gpu": "Q1 2024",
@@ -6284,7 +6284,7 @@
     "vendor": "Qualcomm",
     "model": "SC8280XP",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2021,
     "process_nm": 5,
     "process_name": "5nm",
@@ -6307,7 +6307,7 @@
     "vendor": "Qualcomm",
     "model": "SC8280XPI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2021,
     "process_nm": 5,
     "process_name": "5nm",
@@ -7168,7 +7168,7 @@
     "vendor": "Qualcomm",
     "model": "SM8550I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "process_nm": 4,
     "process_name": "4nm",
     "gpu": "Adreno 740",
@@ -7408,7 +7408,7 @@
     "vendor": "Qualcomm",
     "model": "SM8650I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "process_nm": 4,
     "process_name": "4nm",
     "gpu": "Adreno 750",
@@ -7464,7 +7464,7 @@
     "vendor": "Qualcomm",
     "model": "SA8540P",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "year": 2024,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7673,7 +7673,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8916I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7700,7 +7700,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8917I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "year": 2025,
@@ -7727,7 +7727,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8926I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7780,7 +7780,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8937I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "year": 2025,
@@ -7807,7 +7807,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8939I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7834,7 +7834,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8953I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 14,
     "process_name": "14nm",
     "gpu": "Adreno 506",
@@ -7861,7 +7861,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8956I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7888,7 +7888,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8976I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "year": 2025,
     "process_nm": 3,
     "process_name": "3nm",
@@ -7915,7 +7915,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8992I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 20,
     "process_name": "20nm",
     "gpu": "Adreno 418",
@@ -7942,7 +7942,7 @@
     "vendor": "Qualcomm",
     "model": "MSM8994I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 20,
     "process_name": "20nm",
     "gpu": "Adreno 430",
@@ -8127,7 +8127,7 @@
     "vendor": "Qualcomm",
     "model": "AGATTII",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "agattii (AGATTII)"
     ],
@@ -8142,7 +8142,7 @@
     "vendor": "Qualcomm",
     "model": "ELIZA",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "eliza (ELIZA)"
     ],
@@ -8157,7 +8157,7 @@
     "vendor": "Qualcomm",
     "model": "ELIZAI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "elizai (ELIZAI)"
     ],
@@ -8232,7 +8232,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5018",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5018 (IPQ5018)"
     ],
@@ -8247,7 +8247,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5018I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5018i (IPQ5018I)"
     ],
@@ -8262,7 +8262,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5210",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5210 (IPQ5210)"
     ],
@@ -8277,7 +8277,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5210I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5210i (IPQ5210I)"
     ],
@@ -8292,7 +8292,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5332",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5332 (IPQ5332)"
     ],
@@ -8307,7 +8307,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5332I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq5332i (IPQ5332I)"
     ],
@@ -8322,7 +8322,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5424",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "ipq5424 (IPQ5424)"
     ],
@@ -8337,7 +8337,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ5424I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "ipq5424i (IPQ5424I)"
     ],
@@ -8352,7 +8352,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ6018",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq6018 (IPQ6018)"
     ],
@@ -8367,7 +8367,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ6018I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq6018i (IPQ6018I)"
     ],
@@ -8382,7 +8382,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ8074",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq8074 (IPQ8074)"
     ],
@@ -8397,7 +8397,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ8074I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq8074i (IPQ8074I)"
     ],
@@ -8412,7 +8412,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ9574",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq9574 (IPQ9574)"
     ],
@@ -8427,7 +8427,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ9574I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "aliases": [
       "ipq9574i (IPQ9574I)"
     ],
@@ -8442,7 +8442,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ9650",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "ipq9650 (IPQ9650)"
     ],
@@ -8457,7 +8457,7 @@
     "vendor": "Qualcomm",
     "model": "IPQ9650I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "ipq9650i (IPQ9650I)"
     ],
@@ -8577,7 +8577,7 @@
     "vendor": "Qualcomm",
     "model": "MILOS",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "milos (MILOS)"
     ],
@@ -8592,7 +8592,7 @@
     "vendor": "Qualcomm",
     "model": "MILOSI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "milosi (MILOSI)"
     ],
@@ -8607,7 +8607,7 @@
     "vendor": "Qualcomm",
     "model": "MONACO",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "monaco (MONACO)"
     ],
@@ -8622,7 +8622,7 @@
     "vendor": "Qualcomm",
     "model": "MONACOI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "monacoi (MONACOI)"
     ],
@@ -9692,7 +9692,7 @@
     "vendor": "Qualcomm",
     "model": "QCS404I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8-A",
     "process_nm": 28,
     "process_name": "28nm",
     "aliases": [
@@ -9739,7 +9739,7 @@
     "vendor": "Qualcomm",
     "model": "QCS8550",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "qcs8550 (QCS8550)"
     ],
@@ -9754,7 +9754,7 @@
     "vendor": "Qualcomm",
     "model": "QCS8550I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv9-A",
     "aliases": [
       "qcs8550i (QCS8550I)"
     ],
@@ -9783,7 +9783,7 @@
     "vendor": "Qualcomm",
     "model": "QDU1000",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "qdu1000 (QDU1000)"
     ],
@@ -9798,7 +9798,7 @@
     "vendor": "Qualcomm",
     "model": "QDU1000I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "qdu1000i (QDU1000I)"
     ],
@@ -9855,7 +9855,7 @@
     "vendor": "Qualcomm",
     "model": "QRU1000",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "qru1000 (QRU1000)"
     ],
@@ -9870,7 +9870,7 @@
     "vendor": "Qualcomm",
     "model": "QRU1000I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "qru1000i (QRU1000I)"
     ],
@@ -9900,7 +9900,7 @@
     "vendor": "Qualcomm",
     "model": "SA8540PI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "sa8540pi (SA8540PI)"
     ],
@@ -9915,7 +9915,7 @@
     "vendor": "Qualcomm",
     "model": "SAR2130P",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "sar2130p (SAR2130P)"
     ],
@@ -9930,7 +9930,7 @@
     "vendor": "Qualcomm",
     "model": "SAR2130PI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "sar2130pi (SAR2130PI)"
     ],
@@ -9945,7 +9945,7 @@
     "vendor": "Qualcomm",
     "model": "SDX75",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "sdx75 (SDX75)"
     ],
@@ -9960,7 +9960,7 @@
     "vendor": "Qualcomm",
     "model": "SDX75I",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "sdx75i (SDX75I)"
     ],
@@ -9975,7 +9975,7 @@
     "vendor": "Qualcomm",
     "model": "TALOS",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "talos (TALOS)"
     ],
@@ -9990,7 +9990,7 @@
     "vendor": "Qualcomm",
     "model": "TALOSI",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv8.2-A",
     "aliases": [
       "talosi (TALOSI)"
     ],

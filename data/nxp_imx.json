@@ -88,8 +88,7 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21",
-    "architecture": "ARMv8-A"
+    "updated": "2026-06-21"
   },
   {
     "id": "imx91",
@@ -133,8 +132,8 @@
     "completeness": 0.1942,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "cores": 4
   },
   {
     "id": "imx943",

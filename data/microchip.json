@@ -6,7 +6,7 @@
     "model": "SPARX5",
     "source": "linux_dt",
     "cores": 2,
-    "architecture": "ARM Cortex-A7",
+    "architecture": "ARMv8-A",
     "completeness": 0.2621,
     "sources": {},
     "updated": "2026-06-21"
@@ -18,7 +18,7 @@
     "model": "LAN9691",
     "source": "linux_dt",
     "cores": 2,
-    "architecture": "ARM Cortex-A7",
+    "architecture": "ARMv8-A",
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",

@@ -618,7 +618,7 @@
     "vendor": "Amlogic",
     "model": "MESON8",
     "source": "linux_dt",
-    "architecture": "ARMv8",
+    "architecture": "ARMv7-A",
     "aliases": [
       "meson8 (MESON8)"
     ],

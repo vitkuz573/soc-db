@@ -23,7 +23,9 @@
     ],
     "completeness": 0.1942,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "cores": 16,
+    "architecture": "ARMv8.2-A"
   },
   {
     "id": "zynqmp",
@@ -32,7 +34,7 @@
     "model": "ZYNQMP",
     "source": "linux_dt",
     "cores": 4,
-    "architecture": "ARM Cortex-A53",
+    "architecture": "ARMv8-A",
     "completeness": 0.2718,
     "sources": {},
     "updated": "2026-06-21",
