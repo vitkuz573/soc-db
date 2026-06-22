@@ -1,4 +1,5 @@
 """Property-based tests for enrich_one using Hypothesis."""
+
 from hypothesis import given, settings
 from hypothesis import strategies as st
 

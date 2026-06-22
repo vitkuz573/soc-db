@@ -1,4 +1,5 @@
 """Benchmark tests for enrich_one."""
+
 import json
 from pathlib import Path
 
