@@ -75,35 +75,35 @@ Deferred to future release. Tracked but not in current roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| GOV-01 | — | Pending |
-| GOV-02 | — | Pending |
-| FRAME-01 | — | Pending |
-| FRAME-02 | — | Pending |
-| FRAME-03 | — | Pending |
-| FRAME-04 | — | Pending |
-| PROV-01 | — | Pending |
-| PROV-02 | — | Pending |
-| DEDUP-01 | — | Pending |
-| DEDUP-02 | — | Pending |
-| DEDUP-03 | — | Pending |
-| BATCH-01 | — | Pending |
-| BATCH-02 | — | Pending |
-| BATCH-03 | — | Pending |
-| BIGSRC-01 | — | Pending |
-| BIGSRC-02 | — | Pending |
-| BIGSRC-03 | — | Pending |
-| VENDOR-01 | — | Pending |
-| VENDOR-02 | — | Pending |
-| VENDOR-03 | — | Pending |
-| VENDOR-04 | — | Pending |
-| UIPLUS-01 | — | Pending |
-| UIPLUS-02 | — | Pending |
-| UIPLUS-03 | — | Pending |
+| GOV-01 | Phase 7 | Pending |
+| GOV-02 | Phase 7 | Pending |
+| FRAME-01 | Phase 8 | Pending |
+| FRAME-02 | Phase 8 | Pending |
+| FRAME-03 | Phase 8 | Pending |
+| FRAME-04 | Phase 8 | Pending |
+| PROV-01 | Phase 9 | Pending |
+| PROV-02 | Phase 9 | Pending |
+| DEDUP-01 | Phase 10 | Pending |
+| DEDUP-02 | Phase 10 | Pending |
+| DEDUP-03 | Phase 10 | Pending |
+| BATCH-01 | Phase 11 | Pending |
+| BATCH-02 | Phase 11 | Pending |
+| BATCH-03 | Phase 11 | Pending |
+| BIGSRC-01 | Phase 12 | Pending |
+| BIGSRC-02 | Phase 12 | Pending |
+| BIGSRC-03 | Phase 12 | Pending |
+| VENDOR-01 | Phase 13 | Pending |
+| VENDOR-02 | Phase 13 | Pending |
+| VENDOR-03 | Phase 13 | Pending |
+| VENDOR-04 | Phase 13 | Pending |
+| UIPLUS-01 | Phase 14 | Pending |
+| UIPLUS-02 | Phase 14 | Pending |
+| UIPLUS-03 | Phase 14 | Pending |
 
 **Coverage:**
 - v1 requirements: 25 total
-- Mapped to phases: 0
-- Unmapped: 25
+- Mapped to phases: 25
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-07-19*
