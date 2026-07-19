@@ -31,7 +31,13 @@ This milestone transforms soc-db from a proven v2.0 monolith into an enterprise-
   2. Developer can read and modify enrichment logic in per-domain files instead of one 700-line function
   3. CI pipeline runs snapshot test on every commit to detect enrichment regression
   4. Year inference priority ordering is explicitly documented per domain
-**Plans**: TBD
+**Plans**: 4 plans (01–04)
+
+Plans:
+- [ ] 01-01-PLAN.md — Snapshot test + enrich/ package foundation (Wave 1)
+- [ ] 01-02-PLAN.md — Core extraction: year, process, GPU, memory modules (Wave 2)
+- [ ] 01-03-PLAN.md — Peripheral extraction: modem, NPU, connectivity, storage (Wave 3)
+- [ ] 01-04-PLAN.md — Aliases, scoring, CPU module, common.py shim, lint cleanup (Wave 4)
 
 ### Phase 2: DB — SQLite Database Migration
 **Goal**: SQLite database replaces flat JSON files with FTS5 full-text search and dual-read rollback via `SOC_DB_USE_JSON` env var
@@ -95,7 +101,7 @@ This milestone transforms soc-db from a proven v2.0 monolith into an enterprise-
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. REFAC | 0/0 | Not started | - |
+| 1. REFAC | 4/0 | Planning (4 plans created) | - |
 | 2. DB | 0/0 | Not started | - |
 | 3. ASYNC | 0/0 | Not started | - |
 | 4. RLIMIT | 0/0 | Not started | - |
