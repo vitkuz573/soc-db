@@ -41,6 +41,11 @@ dependencies = [
     "opentelemetry-instrumentation-fastapi>=0.45b",
     "prometheus-client>=0.20",
     "SPARQLWrapper>=2.0",
+    "httpx>=0.28",
+    "curl-cffi>=0.15",
+    "selectolax>=0.4",
+    "tenacity>=9.0",
+    "jmespath>=1.1",
 ]
 
 [project.optional-dependencies]
@@ -56,6 +61,7 @@ dev = [
     "httpx>=0.27",
     "hypothesis>=6.100",
     "pytest-benchmark>=4.0",
+    "playwright>=1.40",
 ]
 
 [project.urls]
