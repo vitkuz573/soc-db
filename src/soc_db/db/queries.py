@@ -11,6 +11,8 @@ import json
 import sqlite3
 from typing import Any
 
+import aiosqlite
+
 from soc_db.config import settings
 
 # ---------------------------------------------------------------------------
@@ -381,3 +383,195 @@ def filter_chips(
     ).fetchall()
 
     return [_row_to_dict(r) for r in rows], total
+
+
+# ---------------------------------------------------------------------------
+# Async query API (aiosqlite)
+# ---------------------------------------------------------------------------
+
+
+async def _ensure_async_conn(conn: aiosqlite.Connection | None) -> aiosqlite.Connection:
+    """Return *conn* or acquire one from the async connection pool."""
+    if conn is not None:
+        return conn
+    from soc_db.db.connection import get_async_connection
+    pool = get_async_connection()
+    return await pool.acquire()
+
+
+async def get_all_async(conn: aiosqlite.Connection | None = None) -> list[dict[str, Any]]:
+    """Async: return all chips sorted by vendor, name.
+
+    Args:
+        conn: Optional aiosqlite connection.  ``None`` acquires from the pool.
+
+    Returns:
+        List of chip dicts.
+    """
+    if settings.use_json:
+        return _load_json_fallback()
+
+    _ensure_migrated()
+    c = await _ensure_async_conn(conn)
+    cursor = await c.execute("SELECT * FROM chips ORDER BY vendor, name")
+    rows = await cursor.fetchall()
+    return [_row_to_dict(r) for r in rows]
+
+
+async def get_by_id_async(chip_id: str, conn: aiosqlite.Connection | None = None) -> dict[str, Any] | None:
+    """Async: return a single chip by its ``id`` field.
+
+    Args:
+        chip_id: The chip identifier.
+        conn: Optional aiosqlite connection.
+
+    Returns:
+        Chip dict or ``None`` if not found.
+    """
+    if settings.use_json:
+        chips = _load_json_fallback()
+        for c in chips:
+            if c.get("id") == chip_id:
+                return c
+        return None
+
+    _ensure_migrated()
+    c = await _ensure_async_conn(conn)
+    cursor = await c.execute("SELECT * FROM chips WHERE id = ?", (chip_id,))
+    row = await cursor.fetchone()
+    return _row_to_dict(row) if row else None
+
+
+async def search_async(query: str, conn: aiosqlite.Connection | None = None) -> list[dict[str, Any]]:
+    """Async: full-text search across all text-searchable fields.
+
+    Multi-word queries joined with `` AND `` so all terms must match.
+    Falls back to LIKE-based search on FTS5 syntax errors.
+
+    Args:
+        query: The search string.
+        conn: Optional aiosqlite connection.
+
+    Returns:
+        List of matching chip dicts.
+    """
+    if settings.use_json:
+        ql = query.lower()
+        chips = _load_json_fallback()
+        return [c for c in chips if ql in json.dumps(c).lower()]
+
+    _ensure_migrated()
+    c = await _ensure_async_conn(conn)
+
+    tokens = query.strip().split()
+    if not tokens:
+        return []
+    fts_query = " AND ".join(tokens)
+
+    try:
+        cursor = await c.execute(
+            "SELECT chips.* FROM chips JOIN chips_fts ON chips.rowid = chips_fts.rowid "
+            "WHERE chips_fts MATCH ? ORDER BY rank",
+            (fts_query,),
+        )
+        rows = await cursor.fetchall()
+    except aiosqlite.OperationalError:
+        like_exprs = " AND ".join(
+            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR "
+            f"model LIKE '%{token}%' OR description LIKE '%{token}%')"
+            for token in tokens
+        )
+        cursor = await c.execute(f"SELECT * FROM chips WHERE {like_exprs}")
+        rows = await cursor.fetchall()
+
+    return [_row_to_dict(r) for r in rows]
+
+
+async def get_vendors_async(conn: aiosqlite.Connection | None = None) -> dict[str, dict[str, Any]]:
+    """Async: return vendor summary with chip counts and average completeness.
+
+    Args:
+        conn: Optional aiosqlite connection.
+
+    Returns:
+        Dict mapping vendor name to ``{count, avg_completeness}``.
+    """
+    if settings.use_json:
+        chips = _load_json_fallback()
+        vendors: dict[str, dict[str, Any]] = {}
+        for c in chips:
+            v = c.get("vendor", "Unknown")
+            vendors.setdefault(v, {"count": 0, "completeness": []})
+            vendors[v]["count"] += 1
+            vendors[v]["completeness"].append(c.get("completeness", 0))
+        result = {}
+        for vname, vdata in sorted(vendors.items()):
+            avg = sum(vdata["completeness"]) / max(len(vdata["completeness"]), 1)
+            result[vname] = {"count": vdata["count"], "avg_completeness": round(avg, 3)}
+        return result
+
+    _ensure_migrated()
+    c = await _ensure_async_conn(conn)
+    cursor = await c.execute(
+        "SELECT vendor, COUNT(*) AS count, AVG(COALESCE(completeness, 0)) AS avg_comp "
+        "FROM chips GROUP BY vendor ORDER BY vendor"
+    )
+    rows = await cursor.fetchall()
+    return {r["vendor"]: {"count": r["count"], "avg_completeness": round(r["avg_comp"], 3)} for r in rows}
+
+
+async def get_stats_async(conn: aiosqlite.Connection | None = None) -> dict[str, Any]:
+    """Async: return database-wide aggregate statistics.
+
+    Returns:
+        Dict with keys: ``total_chips``, ``total_vendors``, ``year_min``,
+        ``year_max``, ``avg_completeness``, ``fields_present``.
+    """
+    if settings.use_json:
+        chips = _load_json_fallback()
+        vcount = len({c.get("vendor", "") for c in chips})
+        years = [c.get("year") for c in chips if c.get("year")]
+        comps = [c.get("completeness", 0) for c in chips]
+        return {
+            "total_chips": len(chips),
+            "total_vendors": vcount,
+            "year_min": min(years) if years else None,
+            "year_max": max(years) if years else None,
+            "avg_completeness": round(sum(comps) / max(len(comps), 1), 3),
+            "fields_present": {
+                "gpu": sum(1 for c in chips if c.get("gpu")),
+                "process_nm": sum(1 for c in chips if c.get("process_nm")),
+                "clock_max": sum(1 for c in chips if c.get("clock_max")),
+                "architecture": sum(1 for c in chips if c.get("architecture")),
+            },
+        }
+
+    _ensure_migrated()
+    c = await _ensure_async_conn(conn)
+    cursor = await c.execute(
+        "SELECT COUNT(*) AS total_chips, "
+        "COUNT(DISTINCT vendor) AS total_vendors, "
+        "MIN(year) AS year_min, "
+        "MAX(year) AS year_max, "
+        "AVG(COALESCE(completeness, 0)) AS avg_completeness, "
+        "SUM(CASE WHEN gpu IS NOT NULL THEN 1 ELSE 0 END) AS gpu_present, "
+        "SUM(CASE WHEN process_nm IS NOT NULL THEN 1 ELSE 0 END) AS process_nm_present, "
+        "SUM(CASE WHEN clock_max IS NOT NULL THEN 1 ELSE 0 END) AS clock_max_present, "
+        "SUM(CASE WHEN architecture IS NOT NULL THEN 1 ELSE 0 END) AS architecture_present "
+        "FROM chips"
+    )
+    row = await cursor.fetchone()
+    total = row["total_chips"]
+    return {
+        "total_chips": total,
+        "total_vendors": row["total_vendors"],
+        "year_min": row["year_min"],
+        "year_max": row["year_max"],
+        "avg_completeness": round(row["avg_completeness"], 3),
+        "fields_present": {
+            "gpu": f"{row['gpu_present']}/{total}",
+            "process_nm": f"{row['process_nm_present']}/{total}",
+            "clock_max": f"{row['clock_max_present']}/{total}",
+            "architecture": f"{row['architecture_present']}/{total}",
+        },
+    }
