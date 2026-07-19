@@ -28,8 +28,7 @@ __all__ = [
     "VENDOR_FILES",
     "_has",
     "clean",
-    "enrich_one",
-    "enrich_all",
+
     "infer_year",
     "infer_process",
     "infer_memory",
