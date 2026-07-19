@@ -149,6 +149,7 @@ async def test_api_search_fts_with_db(client):
 async def test_ttl_cache_invalidation_with_db(client):
     """Verify TTL cache works with SQLite backend."""
     import time as _time
+
     from api.main import app
 
     # First request warms cache

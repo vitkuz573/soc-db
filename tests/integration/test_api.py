@@ -227,6 +227,7 @@ async def test_ttl_cache_returns_cached_data(client):
 async def test_ttl_cache_invalidates_after_ttl_expiry(client):
     """Force cache invalidation by manipulating cache_loaded_at."""
     import time as _time
+
     from api.main import app
 
     # Warm the cache
