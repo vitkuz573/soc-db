@@ -9,7 +9,6 @@ import pytest
 
 from soc_db.rate_limit import (
     InMemoryRateLimiter,
-    RateLimiter,
     RedisRateLimiter,
     create_rate_limiter,
 )

@@ -130,7 +130,7 @@ class RedisRateLimiter:
         self._redis: asyncio.redis.Redis | None = None  # type: ignore[name-defined]  # noqa: F821
         self._connected = False
 
-    async def _ensure_connected(self) -> None:
+    async def ensure_connected(self) -> None:
         """Lazy-connect to Redis with a short timeout."""
         if self._redis is not None:
             return
@@ -147,11 +147,11 @@ class RedisRateLimiter:
         except Exception:
             self._redis = None
             self._connected = False
-            raise ConnectionError(f"Could not connect to Redis at {self._redis_url}")
+            raise ConnectionError(f"Could not connect to Redis at {self._redis_url}") from None
 
     async def check(self, key: str) -> tuple[bool, int, int, float]:
         try:
-            await self._ensure_connected()
+            await self.ensure_connected()
         except ConnectionError:
             raise
 
@@ -187,7 +187,7 @@ class RedisRateLimiter:
             self._redis = None
             self._connected = False
             logger.warning("Redis error during rate-limit check", exc_info=True)
-            raise ConnectionError("Redis connection lost")
+            raise ConnectionError("Redis connection lost") from None
 
     @property
     def is_redis_connected(self) -> bool:
@@ -232,7 +232,7 @@ async def create_rate_limiter(
         socket_connect_timeout=socket_connect_timeout,
     )
     try:
-        await limiter._ensure_connected()
+        await limiter.ensure_connected()
         logger.info("Redis rate limiter active at %s", redis_url)
         return limiter
     except ConnectionError:

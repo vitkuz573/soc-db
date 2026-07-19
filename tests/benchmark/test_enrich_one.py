@@ -12,8 +12,6 @@ import json
 import time
 from pathlib import Path
 
-import pytest
-
 from soc_db.common import enrich_one
 
 
@@ -79,10 +77,10 @@ class TestEnrichOneCpuProfile:
         print(f"{'='*60}")
 
         if total_estimated_s > 0.5:
-            print(f"  >> RECOMMENDATION: Use ProcessPoolExecutor for enrichment")
+            print("  >> RECOMMENDATION: Use ProcessPoolExecutor for enrichment")
             print(f"  >> Estimated {total_estimated_s:.1f}s would block the event loop")
         else:
-            print(f"  >> RECOMMENDATION: No process pool needed")
+            print("  >> RECOMMENDATION: No process pool needed")
             print(f"  >> Estimated {total_estimated_s:.1f}s is acceptable inline (<500ms threshold)")
         print(f"{'='*60}\n")
 

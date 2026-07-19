@@ -21,7 +21,7 @@ class TestSchemaTables:
 
     def test_chip_columns_match_model(self, db_conn):
         """Verify all Chip model fields have corresponding columns."""
-        model_fields = set(Chip.model_fields.keys())
+        set(Chip.model_fields.keys())
         db_cols = _table_cols(db_conn, "chips")
         # Core model fields that MUST be present
         required = {"id", "name", "vendor", "model", "cores", "architecture", "gpu", "year", "completeness"}

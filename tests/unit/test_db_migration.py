@@ -50,7 +50,7 @@ class TestMigration:
         db_path = temp_data_dir / "test.db"
         r1 = migrate(db_path, force=True)
         # Second call without force — should skip (idempotent)
-        r2 = migrate(db_path, force=False)
+        migrate(db_path, force=False)
         conn = get_connection(db_path)
         count = conn.execute("SELECT COUNT(*) FROM chips").fetchone()[0]
         conn.close()

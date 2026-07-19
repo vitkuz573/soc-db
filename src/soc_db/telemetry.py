@@ -7,7 +7,7 @@ from opentelemetry.sdk.metrics import MeterProvider
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor, ConsoleSpanExporter
-from prometheus_client import Counter, Gauge, Histogram, generate_latest
+from prometheus_client import Counter, Gauge, Histogram
 
 from soc_db import __version__
 

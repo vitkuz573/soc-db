@@ -7,8 +7,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-import pytest
-
 from soc_db.common import VENDOR_KNOWLEDGE
 
 

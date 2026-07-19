@@ -328,7 +328,7 @@ async def test_rate_limit_graceful_fallback(client):
         resp = await client.get("/")
         # Should NOT 5xx — middleware catches exception and allows through
         assert resp.status_code != 500
-        assert resp.status_code in (200,)
+        assert resp.status_code == 200
     finally:
         _app.state.rate_limiter = original
 
@@ -350,4 +350,4 @@ async def test_concurrent_requests_work(client):
     for i, r in enumerate(results):
         if isinstance(r, Exception):
             pytest.fail(f"Request to {urls[i]} failed: {r}")
-        assert r.status_code in (200,), f"URL {urls[i]} returned {r.status_code}"
+        assert r.status_code == 200, f"URL {urls[i]} returned {r.status_code}"

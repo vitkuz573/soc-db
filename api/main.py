@@ -16,14 +16,12 @@ from fastapi import APIRouter, FastAPI, HTTPException, Query, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
-
 from prometheus_client import generate_latest
 
 from soc_db.config import settings
 from soc_db.db.connection import get_async_connection
 from soc_db.db.queries import get_all_async, search_async
 from soc_db.log_config import setup_logging
-from soc_db.telemetry import instrument_app, setup_telemetry, update_vendor_metrics
 from soc_db.models import (
     Chip,
     ChipListResponse,
@@ -32,6 +30,7 @@ from soc_db.models import (
     StatsResponse,
     VendorResponse,
 )
+from soc_db.telemetry import instrument_app, setup_telemetry, update_vendor_metrics
 
 logger = logging.getLogger("soc_db.api")
 
@@ -83,11 +82,11 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     finally:
         logger.info("Server shutting down, closing rate limiter")
         limiter = getattr(_app.state, "rate_limiter", None)
+        from contextlib import suppress as _suppress
+
         if limiter is not None and hasattr(limiter, "close"):
-            try:
+            with _suppress(Exception):
                 await limiter.close()
-            except Exception:
-                pass
         from soc_db.db.connection import get_async_connection
         try:
             pool = get_async_connection()

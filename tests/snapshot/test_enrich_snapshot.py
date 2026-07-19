@@ -52,7 +52,7 @@ def test_enrich_snapshot_matches():
         "Run with --update-snapshot if intentional."
     )
 
-    for i, (got, exp) in enumerate(zip(enriched, expected)):
+    for i, (got, exp) in enumerate(zip(enriched, expected, strict=False)):
         assert got == exp, (
             f"Chip {i} ({got.get('vendor', '?')}/{got.get('id', '?')}) "
             f"differs from reference. Run with --update-snapshot if intentional."
