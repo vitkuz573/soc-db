@@ -19,6 +19,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 
 from soc_db.config import settings
+from soc_db.db.connection import get_async_connection
+from soc_db.db.queries import get_all_async, get_by_id_async, search_async, get_vendors_async, get_stats_async
 from soc_db.log_config import setup_logging
 from soc_db.models import (
     Chip,
@@ -77,6 +79,12 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     finally:
         logger.info("Server shutting down, flushing rate-limit state")
         _rate_limit_buckets.clear()
+        from soc_db.db.connection import get_async_connection
+        try:
+            pool = get_async_connection()
+            await pool.close()
+        except Exception:
+            pass
 
 
 app = FastAPI(
@@ -182,11 +190,6 @@ def _load_all_dual() -> list[dict]:
     return _sql_get_all()
 
 
-async def load_all_async() -> list[dict]:
-    """Async wrapper around :func:`load_all`."""
-    return await asyncio.to_thread(load_all)
-
-
 def make_cache_buster():
     """Generate a random 8-character cache-busting string.
 
@@ -283,35 +286,43 @@ def _search_chips(chips: list[dict], q: str, index: dict[str, list[int]] | None)
     return result
 
 
-def get_chips():
-    """Return the chip list with dual-read (SQLite / JSON) fallback.
+async def get_chips():
+    """Return the chip list with async DB access and TTL cache.
 
     When ``settings.use_json`` is ``True``, uses the original JSON cache
     with TTL-based invalidation and custom inverted search index.
-    When ``False`` (default), reads from SQLite directly — SQLite handles
-    caching internally and FTS5 provides search.
-
-    If the SQLite database is unavailable, falls back to the JSON path
-    and logs a warning.
+    When ``False`` (default), queries SQLite asynchronously with TTL
+    cache (``settings.cache_ttl`` seconds).  No ``asyncio.to_thread()``
+    wrappers are used for database access.
     """
+    now = time.monotonic()
     if settings.use_json:
-        now = time.monotonic()
         if app.state._chips is None or (now - app.state._cache_loaded_at) > settings.cache_ttl:
             app.state._chips = load_all()
             app.state._search_index = _build_search_index(app.state._chips)
             app.state._cache_loaded_at = now
         return app.state._chips
 
-    # SQLite path — always fresh (SQLite handles caching internally)
-    try:
-        from soc_db.db.migrate import ensure_migrated
-        from soc_db.db.queries import get_all as _sql_get_all
+    # Async SQLite path with TTL cache
+    if app.state._chips is not None and (now - app.state._cache_loaded_at) < settings.cache_ttl:
+        return app.state._chips
 
-        ensure_migrated()
-        return _sql_get_all()
+    try:
+        pool = get_async_connection()
+        conn = await pool.acquire()
+        try:
+            app.state._chips = await get_all_async(conn=conn)
+            app.state._search_index = None  # FTS5 handles search in DB mode
+            app.state._cache_loaded_at = time.monotonic()
+        finally:
+            await pool.release(conn)
     except Exception:
-        logger.warning("SQLite unavailable — falling back to JSON", exc_info=True)
-        return load_all()
+        logger.warning("Async DB unavailable — falling back to JSON", exc_info=True)
+        app.state._chips = load_all()
+        app.state._search_index = _build_search_index(app.state._chips)
+        app.state._cache_loaded_at = time.monotonic()
+
+    return app.state._chips
 
 
 @app.get("/health", response_model=HealthResponse, tags=["infra"])
@@ -372,12 +383,12 @@ def root():
 
 
 @api_v1.get("/vendors", response_model=VendorResponse)
-def list_vendors():
+async def list_vendors():
     """List all vendors with chip counts and average completeness.
 
     Returns a mapping of vendor name to chip count and average completeness score.
     """
-    chips = get_chips()
+    chips = await get_chips()
     vendors = {}
     for c in chips:
         v = c.get("vendor", "Unknown")
@@ -392,7 +403,7 @@ def list_vendors():
 
 
 @api_v1.get("/chips", response_model=ChipListResponse)
-def list_chips(
+async def list_chips(
     q: str | None = Query(None, description="Full-text search across all fields"),
     vendor: str | None = Query(None, description="Exact vendor name"),
     arch: str | None = Query(None, description="Architecture substring match"),
@@ -411,15 +422,14 @@ def list_chips(
     Supports full-text search, field-specific filtering, sorting,
     field projection, and pagination.
     """
-    chips = get_chips()
+    chips = await get_chips()
     if vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == vendor.lower()]
     if q:
         if settings.use_json:
             chips = _search_chips(chips, q, app.state._search_index)
         else:
-            from soc_db.db.queries import search as _sq_search
-            chips = _sq_search(q)
+            chips = await search_async(q)
     if arch:
         chips = [c for c in chips if arch.lower() in c.get("architecture", "").lower()]
     if gpu:
@@ -442,13 +452,13 @@ def list_chips(
 
 
 @api_v1.get("/chips/{chip_id}", response_model=Chip, responses={404: {"model": ErrorResponse}})
-def get_chip(chip_id: str):
+async def get_chip(chip_id: str):
     """Retrieve a single chip by its ID.
 
     Returns the full chip record for the given identifier,
     or HTTP 404 if the chip does not exist.
     """
-    chips = get_chips()
+    chips = await get_chips()
     for c in chips:
         if c.get("id") == chip_id:
             return Chip.model_validate(c)
@@ -456,13 +466,13 @@ def get_chip(chip_id: str):
 
 
 @api_v1.get("/stats", response_model=StatsResponse)
-def stats():
+async def stats():
     """Database-wide aggregate statistics.
 
     Returns total chips, vendors, year range, average completeness,
     and field-presence counters.
     """
-    chips = get_chips()
+    chips = await get_chips()
     vcount = len(set(c.get("vendor", "") for c in chips))
     years = [c.get("year") for c in chips if c.get("year")]
     comps = [c.get("completeness", 0) for c in chips]
@@ -494,7 +504,7 @@ def get_schema():
 
 
 @api_v1.get("/export/{fmt}")
-def export(fmt: str):
+async def export(fmt: str):
     """Export all chip data in the requested format.
 
     Args:
@@ -504,7 +514,7 @@ def export(fmt: str):
         JSONResponse, gzip-compressed JSON, or CSV Response depending
         on ``fmt``.  HTTP 400 if the format is unsupported.
     """
-    chips = get_chips()
+    chips = await get_chips()
     if fmt == "json":
         return JSONResponse(chips)
     if fmt == "json.gz":
