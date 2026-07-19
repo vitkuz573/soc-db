@@ -133,11 +133,8 @@ async def test_metrics(client):
     await client.get("/v1/chips")  # trigger chip cache load
     resp = await client.get("/metrics")
     assert resp.status_code == 200
-    data = resp.json()
-    assert "uptime_seconds" in data
-    assert "total_requests" in data
-    assert "requests_per_second" in data
-    assert "active_rate_limit_clients" in data
+    text = resp.text
+    assert "# HELP" in text or "soc_db_" in text
 
 
 @pytest.mark.asyncio
@@ -229,6 +226,7 @@ async def test_ttl_cache_returns_cached_data(client):
 @pytest.mark.asyncio
 async def test_ttl_cache_invalidates_after_ttl_expiry(client):
     """Force cache invalidation by manipulating cache_loaded_at."""
+    import time as _time
     from api.main import app
 
     # Warm the cache
@@ -236,14 +234,14 @@ async def test_ttl_cache_invalidates_after_ttl_expiry(client):
     assert resp.status_code == 200
 
     # Manipulate cache timestamp to simulate TTL expiry
-    app.state._cache_loaded_at = 0.0  # Force expiry
+    app.state._cache_loaded_at = _time.monotonic() - 600  # 10 min ago — past TTL
 
     # Next call should reload
     resp = await client.get("/v1/chips?limit=1")
     assert resp.status_code == 200
 
     # Cache should have been reloaded
-    assert app.state._cache_loaded_at > 0.0
+    assert app.state._cache_loaded_at > _time.monotonic() - 10
 
 
 @pytest.mark.asyncio

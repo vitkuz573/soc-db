@@ -89,47 +89,4 @@ class TestVendorKnowledgeStructure:
                 assert isinstance(data["architecture"], str), f"{vendor} architecture is not str"
 
 
-class TestGitHubWorkflow:
-    """Tests for the GitHub Actions workflow file."""
-
-    WORKFLOW_PATH = Path(__file__).resolve().parent.parent.parent / ".github" / "workflows" / "wikidata-refresh.yml"
-
-    def test_workflow_exists(self):
-        """Workflow file must exist."""
-        assert self.WORKFLOW_PATH.exists(), f"Workflow file missing: {self.WORKFLOW_PATH}"
-
-    def test_workflow_is_valid_yaml(self):
-        """Workflow file must be valid YAML."""
-        import yaml
-
-        with open(self.WORKFLOW_PATH) as f:
-            data = yaml.safe_load(f)
-        assert data is not None
-        assert "name" in data
-        assert data["name"] == "Wikidata Knowledge Refresh"
-        # Verify the on: trigger was parsed (may be boolean True in YAML)
-        trigger = data.get("on") or data.get(True)
-        assert trigger is not None, "Missing on: trigger key"
-
-    def test_workflow_has_schedule_trigger(self):
-        """Workflow must have a weekly schedule trigger."""
-        import yaml
-
-        with open(self.WORKFLOW_PATH) as f:
-            data = yaml.safe_load(f)
-        # YAML parses ``on:`` as boolean True, so check both forms
-        trigger = data.get("on") or data.get(True) or {}
-        assert "schedule" in trigger, "Missing schedule in on: trigger"
-        assert any("cron" in entry for entry in trigger["schedule"])
-
-    def test_workflow_has_create_pr_step(self):
-        """Workflow must have the create-pull-request step."""
-        import yaml
-
-        with open(self.WORKFLOW_PATH) as f:
-            data = yaml.safe_load(f)
-        jobs = data.get("jobs", {})
-        refresh_job = jobs.get("refresh", {})
-        steps = refresh_job.get("steps", [])
-        pr_steps = [s for s in steps if "create-pull-request" in str(s.get("uses", ""))]
-        assert len(pr_steps) > 0, "No create-pull-request step found"
+# TestGitHubWorkflow removed — GitHub Actions workflows deleted per user request

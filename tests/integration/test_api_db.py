@@ -148,6 +148,7 @@ async def test_api_search_fts_with_db(client):
 @pytest.mark.asyncio
 async def test_ttl_cache_invalidation_with_db(client):
     """Verify TTL cache works with SQLite backend."""
+    import time as _time
     from api.main import app
 
     # First request warms cache
@@ -156,7 +157,7 @@ async def test_ttl_cache_invalidation_with_db(client):
     data1 = resp1.json()
 
     # Force cache expiry
-    app.state._cache_loaded_at = 0.0
+    app.state._cache_loaded_at = _time.monotonic() - 600  # 10 min ago
 
     # Second request should reload from DB
     resp2 = await client.get("/v1/chips?limit=100")
@@ -164,7 +165,7 @@ async def test_ttl_cache_invalidation_with_db(client):
     data2 = resp2.json()
 
     assert data1["total"] == data2["total"]
-    assert app.state._cache_loaded_at > 0.0
+    assert app.state._cache_loaded_at > _time.monotonic() - 10
 
 
 @pytest.mark.asyncio

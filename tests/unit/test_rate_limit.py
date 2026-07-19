@@ -114,7 +114,7 @@ class TestRedisRateLimiter:
         mock_from_url.return_value = redis_mock
 
         limiter = RedisRateLimiter("redis://localhost:6379/0", limit=5, window=60)
-        await limiter._ensure_connected()
+        await limiter.ensure_connected()
         allowed, limit, remaining, reset = await limiter.check("ip1")
 
         assert allowed is True
@@ -133,7 +133,7 @@ class TestRedisRateLimiter:
         mock_from_url.return_value = redis_mock
 
         limiter = RedisRateLimiter("redis://localhost:6379/0", limit=5, window=60)
-        await limiter._ensure_connected()
+        await limiter.ensure_connected()
         allowed, limit, remaining, reset = await limiter.check("ip1")
 
         assert allowed is False
@@ -151,7 +151,7 @@ class TestRedisRateLimiter:
 
         limiter = RedisRateLimiter("redis://localhost:6379/0", limit=5, window=60)
         with pytest.raises(ConnectionError):
-            await limiter._ensure_connected()
+            await limiter.ensure_connected()
 
     @patch("redis.asyncio.from_url")
     async def test_is_redis_connected(self, mock_from_url: MagicMock) -> None:
@@ -164,7 +164,7 @@ class TestRedisRateLimiter:
         assert limiter.is_redis_connected is False
 
         # After successful connect
-        await limiter._ensure_connected()
+        await limiter.ensure_connected()
         assert limiter.is_redis_connected is True
 
         # After close
@@ -177,7 +177,7 @@ class TestRedisRateLimiter:
         mock_from_url.return_value = redis_mock
 
         limiter = RedisRateLimiter("redis://localhost:6379/0", limit=5, window=60)
-        await limiter._ensure_connected()
+        await limiter.ensure_connected()
 
         # Simulate pipeline failure on check
         pipe = redis_mock.pipeline.return_value
