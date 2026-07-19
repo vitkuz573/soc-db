@@ -7,8 +7,8 @@
 
 ### Governance & Safety (GOV)
 
-- [ ] **GOV-01**: Legal review of all scraping targets (ToS, robots.txt, compliance matrix)
-- [ ] **GOV-02**: GitHub Pages filesystem boundary guard — data pipeline never writes to `docs/`
+- [x] **GOV-01**: Legal review of all scraping targets (ToS, robots.txt, compliance matrix)
+- [x] **GOV-02**: GitHub Pages filesystem boundary guard — data pipeline never writes to `docs/`
 
 ### Scraper Framework (FRAME)
 
@@ -75,8 +75,8 @@ Deferred to future release. Tracked but not in current roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| GOV-01 | Phase 7 | Pending |
-| GOV-02 | Phase 7 | Pending |
+| GOV-01 | Phase 7 | Complete |
+| GOV-02 | Phase 7 | Complete |
 | FRAME-01 | Phase 8 | Pending |
 | FRAME-02 | Phase 8 | Pending |
 | FRAME-03 | Phase 8 | Pending |
@@ -101,6 +101,7 @@ Deferred to future release. Tracked but not in current roadmap.
 | UIPLUS-03 | Phase 14 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 25 total
 - Mapped to phases: 25
 - Unmapped: 0
