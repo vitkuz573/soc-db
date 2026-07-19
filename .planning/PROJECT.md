@@ -1,14 +1,13 @@
 # SoC Database (soc-db)
 
-## Current Milestone: v3.0 Full SoC Coverage
+## Current Milestone: v3.1 Data Collection Run
 
-**Goal:** Collect ALL SoCs on the market with full 95-field profiles — no gaps.
+**Goal:** Run all 11 scrapers against live sources, collect real data, replace legacy_v2 provenance.
 
 **Target features:**
-- DATA: 5000+ SoC entries across all vendors (mobile, embedded, automotive, IoT)
-- ENRICH: Full 95-field depth per chip (completeness ≥0.80)
-- SCRAPE: New scraper sources (vendor sites, DeviceTree, Techpedia)
-- QUALITY: Automated cross-source validation and dedup pipeline
+- COLLECT: Launch all scrapers — TechPowerUp, NotebookCheck, Geekbench, Qualcomm, MediaTek, Intel/AMD, Apple, Wikipedia, Apple DT, Wikidata
+- PROVENANCE: Replace legacy_v2 with real source IDs
+- QUALITY: Completeness ≥0.80, chip count > 5000
 
 ## What This Is
 
@@ -49,20 +48,19 @@ Accurate, queryable, up-to-date SoC identification data that developers and tool
 
 ### Active
 
-- [ ] **DATA-01**: Collect 5000+ SoC entries from all major vendors
-- [ ] **DATA-02**: Fill all 95 Chip model fields — completeness ≥0.80 average
-- [ ] **DATA-03**: Expand scraper pipeline — support Qualcomm, MediaTek, Apple official sources + DeviceTree + Techpedia
-- [ ] **DATA-04**: Cross-source validation and deduplication pipeline
-- [ ] **DATA-05**: Auto-generate vendor pages and chip comparison data
-- [ ] **DATA-06**: Update web UI to handle 5000+ chips efficiently
+- [ ] **COLLECT-01**: Run TechPowerUp scraper — 4000+ CPU/SoC
+- [ ] **COLLECT-02**: Run NotebookCheck scraper — benchmarks per chip
+- [ ] **COLLECT-03**: Run Geekbench scraper — CPU/GPU scores
+- [ ] **COLLECT-04**: Run Qualcomm/MediaTek/Intel/AMD/Apple official scrapers
+- [ ] **COLLECT-05**: Run Wikipedia scraper through BaseScraper framework
+- [ ] **COLLECT-06**: Update provenance legacy_v2 → real source IDs
+- [ ] **COLLECT-07**: Verify: completeness ≥0.80, chips > 5000
 
 ### Out of Scope
 
-- VS Code / Copilot plugins — deferred to v2.4+
-- GraphQL endpoint — deferred to v2.3+
-- WebSocket streaming — deferred to v2.4+
-- Machine-readable errata database — long-term only
-- Enterprise CI/CD (PyPI publish) — deferred to v3.1
+- New scraper development — all 11 scrapers exist, just need execution
+- API/CLI changes — v3.0 shipped everything needed
+- CI/CD — deferred
 
 ## Context
 

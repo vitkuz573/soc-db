@@ -1,20 +1,16 @@
 ---
 gsd_state_version: 1.0
-milestone: v3.0
-milestone_name: Full SoC Coverage
-current_phase: 14
-current_phase_name: UI/API Polish
-status: complete
-stopped_at: Phase 14 execution complete
-last_updated: "2026-07-19T23:30:00.000Z"
+milestone: v3.1
+milestone_name: Data Collection Run
+status: planning
+last_updated: "2026-07-19T16:47:09.192Z"
 last_activity: 2026-07-19
-last_activity_desc: Phase 14 execution complete — chip compare endpoint, quality dashboard, CLI filters
 progress:
-  total_phases: 14
-  completed_phases: 8
-  total_plans: 15
-  completed_plans: 15
-  percent: 100
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
@@ -28,12 +24,10 @@ See: .planning/PROJECT.md (updated 2026-07-19)
 
 ## Current Position
 
-Phase: 14 of 14 (UI/API Polish) — ✅ Completed
-Plans: 01 (UI/API Polish)
-Status: Complete
-Last activity: 2026-07-19 — Phase 14 execution complete
-
-Progress: [████████████████████] 100% (8 of 14 phases complete, 8 of 14 v3.0 complete)
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-07-19 — Milestone v3.1 started
 
 ## Performance Metrics
 
