@@ -348,8 +348,6 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             chip["model"] = name
         else:
             chip["model"] = chip.get("id", "unknown")
-    vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
-    model_upper = chip.get("model", "").upper()
     infer_cpu(chip)
     infer_memory(chip)      # first pass: clock/bus from type
     infer_process(chip)     # first pass: model-based lookup

@@ -12,7 +12,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
-from soc_db.common import enrich_all
+from soc_db.common import enrich_all  # noqa: F401 - re-exported for backward compat
 
 
 def main():
