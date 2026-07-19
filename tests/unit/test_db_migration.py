@@ -23,7 +23,7 @@ class TestMigration:
         # Count chips in JSON files
         json_count = 0
         for fpath in sorted(DATA_DIR.glob("*.json")):
-            if fpath.name == "index.json":
+            if fpath.name == "index.json" or fpath.name.startswith("_"):
                 continue
             json_count += len(json.loads(fpath.read_text("utf-8")))
 

@@ -75,7 +75,7 @@ def _load_all_json_chips() -> list[dict[str, Any]]:
     """Load all chips from JSON vendor files (migration source)."""
     chips: list[dict[str, Any]] = []
     for fpath in sorted(DATA_DIR.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_"):
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
     return chips

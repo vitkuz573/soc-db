@@ -41,3 +41,5 @@ Thumbs.db
 *.so
 *.dylib
 *.dll
+data/vendor_knowledge_wikidata.json
+data/_vendor_knowledge_wikidata.json

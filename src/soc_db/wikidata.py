@@ -11,6 +11,7 @@ import hashlib
 import json
 import logging
 import time
+from pathlib import Path
 from typing import Any, cast
 
 from SPARQLWrapper import JSON, SPARQLWrapper
@@ -303,5 +304,10 @@ def refresh_vendor_knowledge(dry_run: bool = False) -> dict[str, dict[str, Any]]
             if architecture:
                 vendor_data["architecture"] = architecture
             result[vendor] = vendor_data
+
+    if not dry_run and result:
+        json_path = Path(__file__).resolve().parent.parent.parent / "data" / "_vendor_knowledge_wikidata.json"
+        json_path.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", "utf-8")
+        logger.info("Persisted refreshed vendor knowledge to %s", json_path)
 
     return result

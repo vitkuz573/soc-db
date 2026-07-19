@@ -30,7 +30,7 @@ def _load_all_json():
     """
     chips = []
     for fpath in sorted(DATA_DIR.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_"):
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
     return chips
@@ -251,7 +251,7 @@ def cmd_enrich(args):
         args: Parsed argparse namespace (unused).
     """
     for fpath in sorted(DATA_DIR.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_"):
             continue
         chips = json.loads(fpath.read_text("utf-8"))
         enrich_all(chips)

@@ -21,7 +21,7 @@ def load_all_chips():
     """Load ALL chips from all vendor JSON files (excluding index.json)."""
     chips = []
     for path in sorted(DATA_DIR.glob("*.json")):
-        if path.name == "index.json":
+        if path.name == "index.json" or path.name.startswith("_"):
             continue
         chips.extend(json.loads(path.read_text("utf-8")))
     return chips

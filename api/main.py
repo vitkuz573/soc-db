@@ -159,7 +159,7 @@ def load_all() -> list[dict]:
     """
     chips: list[dict] = []
     for fpath in sorted(settings.data_dir.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_"):
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
     return chips
