@@ -1,12 +1,17 @@
+import os
 import subprocess
 import sys
 
 
 def run_cli(*args):
+    env = dict(os.environ)
+    src = os.path.join(os.path.dirname(__file__), "..", "..", "src")
+    env.setdefault("PYTHONPATH", src)
     return subprocess.run(
         [sys.executable, "-m", "soc_db.cli", *args],
         capture_output=True,
         text=True,
+        env=env,
     )
 
 

@@ -8,6 +8,9 @@ from api.main import app, make_cache_buster
 def init_app_state():
     import time
 
+    from soc_db.db.connection import clear_connection_cache
+
+    clear_connection_cache()
     app.state._cache_buster = make_cache_buster()
     app.state._chips = None
     app.state._search_index = None
@@ -112,6 +115,10 @@ async def test_health(client):
 
 @pytest.mark.asyncio
 async def test_health_not_ready(client):
+    from soc_db.config import settings as s
+
+    if not s.use_json:
+        pytest.skip("Health not-ready applies only to JSON mode")
     resp = await client.get("/health")
     assert resp.status_code == 503
     assert resp.json()["status"] == "not ready"
