@@ -11,7 +11,7 @@ import hashlib
 import json
 import logging
 import time
-from typing import Any
+from typing import Any, cast
 
 from SPARQLWrapper import JSON, SPARQLWrapper
 
@@ -132,7 +132,7 @@ def run_sparql(
     retries: int = 5,
     base_delay: float = 1.0,
     max_delay: float = 16.0,
-) -> list[dict]:
+) -> list[dict[str, Any]]:
     """Execute a SPARQL query against Wikidata with exponential backoff.
 
     Args:
@@ -152,7 +152,9 @@ def run_sparql(
     for attempt in range(retries):
         try:
             results = sparql.query().convert()
-            return results.get("results", {}).get("bindings", [])
+            if isinstance(results, dict):
+                return cast("list[dict[str, Any]]", results.get("results", {}).get("bindings", []))
+            return []
         except Exception as e:
             if attempt < retries - 1:
                 delay = min(base_delay * (2**attempt), max_delay)
@@ -170,7 +172,7 @@ def run_sparql(
     return []
 
 
-def _cached_sparql(query: str, ttl: int = 86400) -> list[dict]:
+def _cached_sparql(query: str, ttl: int = 86400) -> list[dict[str, Any]]:
     """Execute a SPARQL query with TTL-based disk caching.
 
     Args:
@@ -186,7 +188,7 @@ def _cached_sparql(query: str, ttl: int = 86400) -> list[dict]:
         age = time.time() - cache_file.stat().st_mtime
         if age < ttl:
             try:
-                return json.loads(cache_file.read_text("utf-8"))
+                return cast("list[dict[str, Any]]", json.loads(cache_file.read_text("utf-8")))
             except (json.JSONDecodeError, OSError):
                 pass
     bindings = run_sparql(query)
@@ -217,7 +219,7 @@ def _int_or_none(value: object) -> int | None:
     if value is None:
         return None
     try:
-        return int(value)
+        return int(str(value))
     except (ValueError, TypeError):
         return None
 

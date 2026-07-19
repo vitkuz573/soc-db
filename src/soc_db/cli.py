@@ -282,6 +282,47 @@ def cmd_migrate(args):
             print(f"  {m['id']}.{m['field']}: expected={m['expected']}, got={m['got']}")
 
 
+def cmd_wikidata_refresh(args):
+    """Handle the ``wikidata-refresh`` subcommand.
+
+    Queries Wikidata for process node, GPU, and architecture data per vendor,
+    merges results into ``VENDOR_KNOWLEDGE``, and applies manual overrides.
+
+    Args:
+        args: Parsed argparse namespace with ``.dry_run``.
+    """
+    from soc_db.enrich._vendor_data_wikidata import merge_vendor_knowledge
+    from soc_db.wikidata import refresh_vendor_knowledge
+
+    dry_run = args.dry_run
+    logger.info("Refreshing vendor knowledge from Wikidata (dry_run=%s)", dry_run)
+
+    result = refresh_vendor_knowledge(dry_run=dry_run)
+    if dry_run:
+        for vendor, data in result.items():
+            pmap = data.get("process_map", {})
+            gmap = data.get("gpu_map", {})
+            arch = data.get("architecture", "?")
+            logger.info(
+                "  %s: %d process mappings, %d GPU mappings, arch=%s",
+                vendor,
+                len(pmap),
+                len(gmap),
+                arch,
+            )
+        print(f"Dry-run complete: {len(result)} vendors with Wikidata data")
+        print("Use without --dry-run to merge results into VENDOR_KNOWLEDGE")
+        return
+
+    merged = merge_vendor_knowledge(result)
+    # Update the module-level VENDOR_KNOWLEDGE
+    from soc_db.enrich._vendor_data import VENDOR_KNOWLEDGE
+
+    VENDOR_KNOWLEDGE.clear()
+    VENDOR_KNOWLEDGE.update(merged)
+    print(f"VENDOR_KNOWLEDGE updated: {len(merged)} vendors")
+
+
 def main():
     """CLI entry point — parse arguments and dispatch to the appropriate command handler."""
     from soc_db.log_config import setup_logging as _setup_logging
@@ -320,6 +361,9 @@ def main():
     p_migrate = sp.add_parser("migrate", help="Migrate JSON data to SQLite database")
     p_migrate.add_argument("--force", action="store_true", help="Re-create database from scratch")
 
+    p_wd = sp.add_parser("wikidata-refresh", help="Refresh vendor knowledge from Wikidata")
+    p_wd.add_argument("--dry-run", action="store_true", help="Log results without writing")
+
     args = p.parse_args()
     if args.cmd == "list":
         cmd_list(args)
@@ -333,6 +377,8 @@ def main():
         cmd_enrich(args)
     elif args.cmd == "migrate":
         cmd_migrate(args)
+    elif args.cmd == "wikidata-refresh":
+        cmd_wikidata_refresh(args)
     else:
         p.print_help()
 

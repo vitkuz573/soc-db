@@ -64,3 +64,14 @@ def use_json_true(monkeypatch):
     settings.use_json = True
     yield
     settings.use_json = False
+
+
+@pytest.fixture
+def use_wikidata_true(monkeypatch):
+    """Set SOC_DB_USE_WIKIDATA=true for Wikidata integration tests."""
+    monkeypatch.setenv("SOC_DB_USE_WIKIDATA", "true")
+    from soc_db.config import settings
+
+    settings.use_wikidata = True
+    yield
+    settings.use_wikidata = False
