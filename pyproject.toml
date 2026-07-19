@@ -35,6 +35,7 @@ dependencies = [
     "uvicorn[standard]>=0.29",
     "pydantic>=2.5",
     "pydantic-settings>=2.2",
+    "redis[hiredis]>=5.0,<8.0",
 ]
 
 [project.optional-dependencies]
