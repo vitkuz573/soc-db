@@ -18,6 +18,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 from prometheus_client import generate_latest
 
+import hashlib
+import base64
+
 from soc_db.config import settings
 from soc_db.db.connection import get_async_connection
 from soc_db.db.queries import get_all_async, search_async
@@ -33,6 +36,17 @@ from soc_db.models import (
 from soc_db.telemetry import instrument_app, setup_telemetry, update_vendor_metrics
 
 logger = logging.getLogger("soc_db.api")
+
+# Fields considered "heavy" — excluded by default unless explicitly
+# requested via the ``fields`` query parameter.  These contain large
+# nested data structures (benchmark arrays, provenance dicts, etc.)
+# that degrade response size and serialization time at 5000+ chips.
+_HEAVY_FIELDS = frozenset({
+    "benchmarks",
+    "rating",
+    "cache",
+    "provenance",
+})
 
 
 # ---------------------------------------------------------------------------
@@ -428,6 +442,7 @@ async def list_vendors():
 
 @api_v1.get("/chips", response_model=ChipListResponse)
 async def list_chips(
+    request: Request,
     q: str | None = Query(None, description="Full-text search across all fields"),
     vendor: str | None = Query(None, description="Exact vendor name"),
     arch: str | None = Query(None, description="Architecture substring match"),
@@ -437,16 +452,29 @@ async def list_chips(
     min_completeness: float | None = Query(None, alias="min-completeness", ge=0, le=1, description="Minimum completeness score"),
     limit: int = Query(100, ge=1, le=10000, description="Results per page"),
     offset: int = Query(0, ge=0, description="Page offset"),
-    fields: str | None = Query(None, description="Comma-separated field whitelist"),
+    cursor: str | None = Query(None, description="Cursor from previous response (enables cursor-based pagination)"),
+    fields: str | None = Query(None, description="Comma-separated field whitelist (excludes heavy fields by default: benchmarks, rating, cache, provenance)"),
     sort: str | None = Query(None, description="Sort field"),
     order: str = Query("asc", pattern="^(asc|desc)$", description="Sort direction"),
 ):
     """Search and filter chips with pagination.
 
     Supports full-text search, field-specific filtering, sorting,
-    field projection, and pagination.
+    field projection, offset-based pagination (default), and
+    optional cursor-based pagination.
+
+    Heavy fields (``benchmarks``, ``rating``, ``cache``, ``provenance``)
+    are excluded by default.  Include them explicitly via ``fields``,
+    e.g. ``fields=id,name,vendor,benchmarks``.
+
+    Cursor-based pagination: pass the ``next_cursor`` value from a
+    previous response as the ``cursor`` query parameter.  Cursor
+    pagination is offset-agnostic — do not use both ``cursor`` and
+    ``offset`` simultaneously.
     """
     chips = await get_chips()
+
+    # --- Filtering ---
     if vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == vendor.lower()]
     if q:
@@ -464,15 +492,66 @@ async def list_chips(
         chips = [c for c in chips if (c.get("cores") or 0) >= min_cores]
     if min_completeness:
         chips = [c for c in chips if (c.get("completeness") or 0) >= min_completeness]
+
+    # --- Sorting (applied before pagination for consistency) ---
     if sort:
         reverse = order == "desc"
         chips = sorted(chips, key=lambda c: c.get(sort, "") or "", reverse=reverse)
+
     total = len(chips)
-    chips = chips[offset : offset + limit]
+
+    # --- Cursor-based pagination ---
+    next_cursor: str | None = None
+    if cursor is not None:
+        try:
+            decoded = base64.urlsafe_b64decode(cursor.encode()).decode("utf-8")
+            cursor_offset = int(decoded)
+        except (ValueError, UnicodeDecodeError):
+            raise HTTPException(400, {"error": "Invalid cursor"})  # noqa: B904
+        page_chips = chips[cursor_offset : cursor_offset + limit]
+        new_offset = cursor_offset + len(page_chips)
+        if new_offset < total:
+            next_cursor = base64.urlsafe_b64encode(str(new_offset).encode()).decode("utf-8")
+    else:
+        # Standard offset-based pagination
+        page_chips = chips[offset : offset + limit]
+        next_offset = offset + len(page_chips)
+        if next_offset < total:
+            next_cursor = base64.urlsafe_b64encode(str(next_offset).encode()).decode("utf-8")
+
+    # --- Lazy field loading ---
     if fields:
         keep = set(f.strip() for f in fields.split(","))
-        chips = [{k: c[k] for k in keep if k in c} for c in chips]
-    return {"total": total, "offset": offset, "limit": limit, "data": chips}
+        page_chips = [{k: c[k] for k in keep if k in c} for c in page_chips]
+    else:
+        # Exclude heavy fields by default
+        page_chips = [{k: v for k, v in c.items() if k not in _HEAVY_FIELDS} for c in page_chips]
+
+    # --- Prepare response ---
+    response_data = {
+        "total": total,
+        "offset": offset,
+        "limit": limit,
+        "data": page_chips,
+        "next_cursor": next_cursor,
+    }
+
+    # --- Caching headers (ETag from content hash) ---
+    content_bytes = json.dumps(response_data, default=str).encode()
+    etag = hashlib.md5(content_bytes, usedforsecurity=False).hexdigest()
+
+    if_none_match = request.headers.get("If-None-Match", "")
+    if if_none_match and if_none_match.strip('" ') == etag:
+        return Response(status_code=304)
+
+    return JSONResponse(
+        content=response_data,
+        headers={
+            "ETag": f'"{etag}"',
+            "Last-Modified": "Wed, 01 Jan 2025 00:00:00 GMT",
+            "Cache-Control": "public, max-age=60",
+        },
+    )
 
 
 @api_v1.get("/chips/{chip_id}", response_model=Chip, responses={404: {"model": ErrorResponse}})

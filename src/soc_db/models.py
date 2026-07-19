@@ -135,6 +135,7 @@ class ChipListResponse(BaseModel):
     offset: int
     limit: int
     data: list[Chip]
+    next_cursor: str | None = None
 
 
 class VendorInfo(BaseModel):
