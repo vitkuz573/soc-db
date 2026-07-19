@@ -36,5 +36,9 @@ class Settings(BaseSettings):
     # --- Cache ---
     cache_ttl: int = 300
 
+    # --- SQLite database ---
+    db_path: Path = Path(__file__).resolve().parent.parent.parent / "data" / "soc-db.db"
+    use_json: bool = False  # SOC_DB_USE_JSON env var — when True, fall back to JSON files
+
 
 settings = Settings()

@@ -28,6 +28,11 @@ htmlcov/
 .project
 .pydevproject
 
+# SQLite database
+data/soc-db.db
+data/soc-db.db-wal
+data/soc-db.db-shm
+
 # OS
 Thumbs.db
 .directory
