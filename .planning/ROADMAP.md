@@ -24,9 +24,9 @@
 **Milestone Goal:** Collect ALL SoCs on the market with full 95-field profiles — no gaps.
 
 - [x] **Phase 7: Governance & Safety** — Legal review and GitHub Pages filesystem boundary guard (completed 2026-07-19)
-- [ ] **Phase 8: Scraper Framework** — Plugin-based scraper framework with anti-bot, rate limiting, and drift detection
-- [ ] **Phase 9: Provenance & Schema** — Field-level provenance tracking with 30 new Chip model fields
-- [ ] **Phase 10: Dedup & Identity** — UUID-based canonical chip identity with multi-strategy matcher
+- [x] **Phase 8: Scraper Framework** — Plugin-based scraper framework with anti-bot, rate limiting, and drift detection
+- [x] **Phase 9: Provenance & Schema** — Field-level provenance tracking with 30 new Chip model fields
+- [x] **Phase 10: Dedup & Identity** — UUID-based canonical chip identity with multi-strategy matcher
 - [ ] **Phase 11: Batch Processing** — Batch enrichment with checkpointing, quality scoring, and API performance
 - [ ] **Phase 12: High-Value Scrapers** — TechPowerUp, NotebookCheck, and Geekbench Browser scrapers
 - [ ] **Phase 13: Vendor Official Scrapers** — Qualcomm, MediaTek, Intel/AMD, and Apple official scrapers
@@ -66,12 +66,12 @@ Plans:
    4. Schema drift detection monitors page structure changes per source and raises alerts when selectors yield <80% of expected fields
    5. The Wikipedia scraper is migrated to the framework to prove the pattern works end-to-end
 
-**Plans**: 3 plans
+**Plans**: 3/3 plans complete
 
 Plans:
-- [ ] 08-01-PLAN.md — BaseScraper ABC + PerSourceRateLimiter + dependencies
-- [ ] 08-02-PLAN.md — HTTPSource tiered escalation + SourceRegistry + SchemaDriftDetector
-- [ ] 08-03-PLAN.md — Wikipedia scraper migration + integration
+- [x] 08-01-PLAN.md — BaseScraper ABC + PerSourceRateLimiter + dependencies
+- [x] 08-02-PLAN.md — HTTPSource tiered escalation + SourceRegistry + SchemaDriftDetector
+- [x] 08-03-PLAN.md — Wikipedia scraper migration + integration
 
 ### Phase 9: Provenance & Schema
 
@@ -102,10 +102,12 @@ Plans:
 
 **Plans**: 3 plans
 
+Plans: 3/3 plans complete
+
 Plans:
-- [ ] 10-01-PLAN.md — DedupEngine: UUID identity, multi-strategy matcher, write_vendor_file integration
-- [ ] 10-02-PLAN.md — Scripts consolidation: migrate Apple/Linux DT/Wikidata scrapers, delete scripts/
-- [ ] 10-03-PLAN.md — Tests: DedupEngine unit tests, integration tests, full regression pass
+- [x] 10-01-PLAN.md — DedupEngine: UUID identity, multi-strategy matcher, write_vendor_file integration
+- [x] 10-02-PLAN.md — Scripts consolidation: migrate Apple/Linux DT/Wikidata scrapers, delete scripts/
+- [x] 10-03-PLAN.md — Tests: DedupEngine unit tests, integration tests, full regression pass
 
 ### Phase 11: Batch Processing & Quality
 
@@ -176,9 +178,9 @@ Plans:
 | 5. OBSERVE | v2.1 | 2/2 | Complete | 2026-07-19 |
 | 6. WIKIDATA | v2.1 | 1/1 | Complete | 2026-07-19 |
 | 7. Governance & Safety | v3.0 | 2/2 | Complete   | 2026-07-19 |
-| 8. Scraper Framework | v3.0 | 0/3 | Planning | - |
-| 9. Provenance & Schema | v3.0 | 0/0 | Not started | - |
-| 10. Dedup & Identity | v3.0 | 0/3 | Planning | - |
+| 8. Scraper Framework | v3.0 | 3/3 | Complete   | - |
+| 9. Provenance & Schema | v3.0 | 0/0 | Complete   | - |
+| 10. Dedup & Identity | v3.0 | 3/3 | Complete   | 2026-07-19 |
 | 11. Batch Processing | v3.0 | 0/0 | Not started | - |
 | 12. High-Value Scrapers | v3.0 | 0/0 | Not started | - |
 | 13. Vendor Official Scrapers | v3.0 | 0/0 | Not started | - |
