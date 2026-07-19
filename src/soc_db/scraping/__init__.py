@@ -12,7 +12,10 @@ from soc_db.scraping.rate_limit import PerSourceRateLimiter
 from soc_db.scraping.registry import SourceRegistry
 from soc_db.scraping.source import HTTPSource
 from soc_db.scraping.sources.apple import AppleScraper
+from soc_db.scraping.sources.geekbench import GeekbenchScraper
 from soc_db.scraping.sources.linux_dt import LinuxDTScraper
+from soc_db.scraping.sources.notebookcheck import NotebookCheckScraper
+from soc_db.scraping.sources.techpowerup import TechPowerUpScraper
 from soc_db.scraping.sources.wikidata import WikidataScraper
 from soc_db.scraping.sources.wikipedia import WikipediaScraper
 
@@ -21,11 +24,14 @@ __all__ = [
     "BaseScraper",
     "ChipScrapeResult",
     "DriftReport",
+    "GeekbenchScraper",
     "HTTPSource",
     "LinuxDTScraper",
+    "NotebookCheckScraper",
     "PerSourceRateLimiter",
     "SchemaDriftDetector",
     "SourceRegistry",
+    "TechPowerUpScraper",
     "WikidataScraper",
     "WikipediaScraper",
 ]
