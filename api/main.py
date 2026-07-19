@@ -20,7 +20,7 @@ from fastapi.responses import JSONResponse, Response
 
 from soc_db.config import settings
 from soc_db.db.connection import get_async_connection
-from soc_db.db.queries import get_all_async, get_by_id_async, search_async, get_vendors_async, get_stats_async
+from soc_db.db.queries import get_all_async, search_async
 from soc_db.log_config import setup_logging
 from soc_db.models import (
     Chip,
