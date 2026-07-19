@@ -8,20 +8,21 @@
     "aliases": [
       "vt8500 (VT8500)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv5",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "3017a189e9f754adb33a6469c5b7ac76"
   },
   {
     "id": "wm8505",
@@ -32,20 +33,21 @@
     "aliases": [
       "wm8505 (WM8505)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv5",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c5a98779d2805f9aa86bd12cf5f65fae"
   },
   {
     "id": "wm8650",
@@ -56,20 +58,21 @@
     "aliases": [
       "wm8650 (WM8650)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv5",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a4981819416c5c70814e4246b5486e7a"
   },
   {
     "id": "wm8750",
@@ -80,18 +83,19 @@
     "aliases": [
       "wm8750 (WM8750)"
     ],
-    "completeness": 0.1446,
+    "completeness": 0.1506,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "188352baa26459369fdf1e8a27c1d887"
   },
   {
     "id": "wm8850",
@@ -102,20 +106,21 @@
     "aliases": [
       "wm8850 (WM8850)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "architecture": "ARMv7-A",
     "cores": 1,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "architecture": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "architecture": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "ccbb42810bc65fa9a6d3f82dafce94e6"
   },
   {
     "id": "wm8950",
@@ -126,15 +131,16 @@
     "aliases": [
       "wm8950 (WM8950)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "2bc34f7a2d1b50c483aef0325c6b72cf"
   }
 ]

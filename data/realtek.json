@@ -5,19 +5,20 @@
     "vendor": "Realtek",
     "model": "RTD129",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "3f8d27f0a7bc5a62835eb2960b141ec6"
   },
   {
     "id": "realtek_rtd1293",
@@ -27,17 +28,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "7f5fb38ed3be5cc383efd636b29bcb1a"
   },
   {
     "id": "realtek_rtd1295",
@@ -47,17 +49,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cf8263617b9259b2b3970ba3e9af6310"
   },
   {
     "id": "realtek_rtd1296",
@@ -67,17 +70,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "6216d2f0eedc5d9dabde39c61b24a129"
   },
   {
     "id": "realtek_rtd139",
@@ -85,19 +89,20 @@
     "vendor": "Realtek",
     "model": "RTD139",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "4a303b507f52551d924d433a8ec026b3"
   },
   {
     "id": "realtek_rtd1395",
@@ -107,17 +112,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "05f5d8312c4c5469a7ea1464e2a7b1c8"
   },
   {
     "id": "realtek_rtd1501",
@@ -127,17 +133,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "2a126b12fd11579984ceab0d11b75605"
   },
   {
     "id": "realtek_rtd16",
@@ -145,19 +152,20 @@
     "vendor": "Realtek",
     "model": "RTD16",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "78aa847b2f3252f8aa790b1dc8f410a5"
   },
   {
     "id": "realtek_rtd1619",
@@ -167,17 +175,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ab8202cbae9154c5b5c0d54de4f91174"
   },
   {
     "id": "realtek_rtd1861",
@@ -187,17 +196,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cd7447c9ccfe584b837afd3e3f3f9e7a"
   },
   {
     "id": "realtek_rtd1920",
@@ -207,17 +217,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e9e46d67ec1259058da83639f0c8d32d"
   },
   {
     "id": "kenti",
@@ -228,19 +239,20 @@
     "aliases": [
       "kenti (KENTI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "65bfc5a12c6b5c29adddea72527fb03c"
   }
 ]

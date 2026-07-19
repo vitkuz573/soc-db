@@ -1,46 +1,21 @@
 [
   {
-    "id": "amd",
+    "id": "ti_amd",
     "name": "TI AMD",
     "vendor": "AMD",
     "model": "AMD",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "uuid": "fbe4def2af1c5d32954e0250b5d52a07",
+    "_dedup_strategy": "no_match",
+    "completeness": 0.1205,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8,
-    "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
-  },
-  {
-    "id": "elba",
-    "name": "elba",
-    "vendor": "AMD",
-    "model": "ELBA",
-    "source": "linux_dt",
-    "aliases": [
-      "elba (ELBA)"
-    ],
-    "completeness": 0.1687,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 16,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
+      "name": "techpowerup",
+      "vendor": "techpowerup",
+      "model": "techpowerup",
+      "source": "techpowerup",
+      "uuid": "techpowerup"
     }
   },
   {
@@ -49,22 +24,21 @@
     "vendor": "AMD",
     "model": "ELBAI",
     "source": "linux_dt",
+    "uuid": "438f22be95045d02b2c7d8155dbbbdfb",
+    "_dedup_strategy": "no_match",
     "aliases": [
       "elbai (ELBAI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 16,
-    "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
+      "name": "techpowerup",
+      "vendor": "techpowerup",
+      "model": "techpowerup",
+      "source": "techpowerup",
+      "uuid": "techpowerup",
+      "aliases": "techpowerup"
     }
   }
 ]

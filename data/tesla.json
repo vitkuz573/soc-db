@@ -8,20 +8,21 @@
     "aliases": [
       "fsd (FSD)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 12,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ecdda4d7331f5ba2b8e04bafb1993f7a"
   },
   {
     "id": "fsdi",
@@ -32,19 +33,20 @@
     "aliases": [
       "fsdi (FSDI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 12,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e3fa978d8b005c10aa095f3c0b020f54"
   }
 ]

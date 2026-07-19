@@ -8,18 +8,19 @@
     "aliases": [
       "berlin2 (BERLIN2)"
     ],
-    "completeness": 0.1446,
+    "completeness": 0.1506,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "eb991ecfb0d25d789ba5d20b427e90c9"
   },
   {
     "id": "berlin2cd",
@@ -30,20 +31,21 @@
     "aliases": [
       "berlin2cd (BERLIN2CD)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv7-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "1e51b8f5b4ae5abcb3942781519db416"
   },
   {
     "id": "berlin2cdi",
@@ -54,20 +56,21 @@
     "aliases": [
       "berlin2cdi (BERLIN2CDI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv7-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "acd444b2832655fa93b45cb4d3b01185"
   },
   {
     "id": "berlin2i",
@@ -78,18 +81,19 @@
     "aliases": [
       "berlin2i (BERLIN2I)"
     ],
-    "completeness": 0.1446,
+    "completeness": 0.1506,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "fc021b051bb354f6a81884de236796b2"
   },
   {
     "id": "berlin2q",
@@ -100,20 +104,21 @@
     "aliases": [
       "berlin2q (BERLIN2Q)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv7-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "055dd223442c51b8b6237f62bf5a141c"
   },
   {
     "id": "berlin2qi",
@@ -124,20 +129,21 @@
     "aliases": [
       "berlin2qi (BERLIN2QI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv7-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ba6700eb9d9b51f6be345642e2312cc5"
   },
   {
     "id": "berlin4ct",
@@ -148,20 +154,21 @@
     "aliases": [
       "berlin4ct (BERLIN4CT)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cbdb3d7698fc5735b3fbc04b40767637"
   },
   {
     "id": "berlin4cti",
@@ -172,19 +179,20 @@
     "aliases": [
       "berlin4cti (BERLIN4CTI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a465d542376957f4842a9ef6d5ca8d08"
   }
 ]

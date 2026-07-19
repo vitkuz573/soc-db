@@ -8,19 +8,20 @@
     "aliases": [
       "apm (APM)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c15686a057b25cf283f77973e0f0319d"
   }
 ]

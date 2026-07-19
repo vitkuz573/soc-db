@@ -1,6 +1,6 @@
 [
   {
-    "id": "socfpga_stratix10_socdk",
+    "id": "socfpga_stratix10_socdk_socfpgastratix10socdk",
     "name": "socfpga_stratix10_socdk",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10_SOCDK",
@@ -8,23 +8,24 @@
     "aliases": [
       "socfpga_stratix10_socdk (SOCFPGA_STRATIX10_SOCDK)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "356a30c2edad5a84bc5257442eedfd2f"
   },
   {
-    "id": "socfpga_stratix10_socdk_emmc",
+    "id": "socfpga_stratix10_socdk_emmc_socfpgastratix10socdkemmc",
     "name": "socfpga_stratix10_socdk_emmc",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10_SOCDK_EMMC",
@@ -32,23 +33,24 @@
     "aliases": [
       "socfpga_stratix10_socdk_emmc (SOCFPGA_STRATIX10_SOCDK_EMMC)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "883c724296055f5894dab174a6069181"
   },
   {
-    "id": "socfpga_stratix10_socdk_nand",
+    "id": "socfpga_stratix10_socdk_nand_socfpgastratix10socdknand",
     "name": "socfpga_stratix10_socdk_nand",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10_SOCDK_NAND",
@@ -56,23 +58,24 @@
     "aliases": [
       "socfpga_stratix10_socdk_nand (SOCFPGA_STRATIX10_SOCDK_NAND)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "19bdfccc127e58c8ba07d16bc3f3d842"
   },
   {
-    "id": "socfpga_stratix10_socdki",
+    "id": "socfpga_stratix10_socdki_socfpgastratix10socdki",
     "name": "socfpga_stratix10_socdki",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10_SOCDKI",
@@ -80,23 +83,24 @@
     "aliases": [
       "socfpga_stratix10_socdki (SOCFPGA_STRATIX10_SOCDKI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e0483a5157ce51dabf2c8d15bbf780e5"
   },
   {
-    "id": "socfpga_stratix10_swvp",
+    "id": "socfpga_stratix10_swvp_socfpgastratix10swvp",
     "name": "socfpga_stratix10_swvp",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10_SWVP",
@@ -104,23 +108,24 @@
     "aliases": [
       "socfpga_stratix10_swvp (SOCFPGA_STRATIX10_SWVP)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "bf8ceedd161d503ea614fe30debabf42"
   },
   {
-    "id": "socfpga_stratix10i",
+    "id": "socfpga_stratix10i_socfpgastratix10i",
     "name": "socfpga_stratix10i",
     "vendor": "Altera",
     "model": "SOCFPGA_STRATIX10I",
@@ -128,19 +133,20 @@
     "aliases": [
       "socfpga_stratix10i (SOCFPGA_STRATIX10I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "02a483c9f1ef578f96e78557e3bef465"
   }
 ]

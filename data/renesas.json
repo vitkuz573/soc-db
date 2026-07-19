@@ -5,19 +5,20 @@
     "vendor": "Renesas",
     "model": "R8A774A1",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "da05d35e300251cfa24693a3bc468d21"
   },
   {
     "id": "renesas_r8a774a1i",
@@ -25,19 +26,20 @@
     "vendor": "Renesas",
     "model": "R8A774A1I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "019b08c591505d33b40962e6702162ab"
   },
   {
     "id": "renesas_r8a774b1",
@@ -45,19 +47,20 @@
     "vendor": "Renesas",
     "model": "R8A774B1",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "5b96770088fb5b3884465835ab15a2d4"
   },
   {
     "id": "renesas_r8a774b1i",
@@ -65,19 +68,20 @@
     "vendor": "Renesas",
     "model": "R8A774B1I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "2df18f775cd05c57b0f826c24d437ef0"
   },
   {
     "id": "renesas_r8a774c0",
@@ -85,19 +89,20 @@
     "vendor": "Renesas",
     "model": "R8A774C0",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "0266ea0700bd5811939e2928a53bceaa"
   },
   {
     "id": "renesas_r8a774c0i",
@@ -105,19 +110,20 @@
     "vendor": "Renesas",
     "model": "R8A774C0I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "18e21d368df9509cbc801a7d244198b6"
   },
   {
     "id": "renesas_r8a774e1",
@@ -125,19 +131,20 @@
     "vendor": "Renesas",
     "model": "R8A774E1",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "00a2af25a6ed5ab880b27fd34310998d"
   },
   {
     "id": "renesas_r8a774e1i",
@@ -145,19 +152,20 @@
     "vendor": "Renesas",
     "model": "R8A774E1I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "6da21bfeac7a583091907c0189a38e81"
   },
   {
     "id": "renesas_r8a77951",
@@ -167,17 +175,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "8af625910d995c06b9156857838b31b1"
   },
   {
     "id": "renesas_r8a77951i",
@@ -185,19 +194,20 @@
     "vendor": "Renesas",
     "model": "R8A77951I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c513d0080c215050b784260d19e9795c"
   },
   {
     "id": "renesas_r8a77960",
@@ -207,17 +217,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "86d01a744c305c0e976c334ef00947b2"
   },
   {
     "id": "renesas_r8a77960i",
@@ -225,19 +236,20 @@
     "vendor": "Renesas",
     "model": "R8A77960I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cd63138e350451bd92d71f4b5634617d"
   },
   {
     "id": "renesas_r8a77961",
@@ -247,17 +259,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "35ced6e811c653ceaa85ea3d92396d6d"
   },
   {
     "id": "renesas_r8a77961i",
@@ -265,19 +278,20 @@
     "vendor": "Renesas",
     "model": "R8A77961I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c9bba7f479c2501ca7c464083db55d95"
   },
   {
     "id": "renesas_r8a77965",
@@ -287,17 +301,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "be3cc5be8ff35c14861b0829bc5fc6e1"
   },
   {
     "id": "renesas_r8a77965i",
@@ -305,19 +320,20 @@
     "vendor": "Renesas",
     "model": "R8A77965I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "5db0aec39bcb5339a85f86f678cdfb01"
   },
   {
     "id": "renesas_r8a77970",
@@ -327,17 +343,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "00a708ca573b592bb8ce8ed4f068bad2"
   },
   {
     "id": "renesas_r8a77970i",
@@ -345,19 +362,20 @@
     "vendor": "Renesas",
     "model": "R8A77970I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "b8328438eea95bf3a28944872a14343a"
   },
   {
     "id": "renesas_r8a77980",
@@ -367,17 +385,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "07d55ef56e025eaf9d71fa76baf401d8"
   },
   {
     "id": "renesas_r8a77980a",
@@ -385,19 +404,20 @@
     "vendor": "Renesas",
     "model": "R8A77980A",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "b50c1cdb35045276bfad0ab959dff2d7"
   },
   {
     "id": "renesas_r8a77980ai",
@@ -405,19 +425,20 @@
     "vendor": "Renesas",
     "model": "R8A77980AI",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ef5313d4c46c5289b5e1fba493fbbf6f"
   },
   {
     "id": "renesas_r8a77980i",
@@ -425,19 +446,20 @@
     "vendor": "Renesas",
     "model": "R8A77980I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "56257fb6dfaf59caae7f7f1df0764104"
   },
   {
     "id": "renesas_r8a77990",
@@ -447,17 +469,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cd42896fd66a52179aaff9612ee0d9d1"
   },
   {
     "id": "renesas_r8a77990i",
@@ -465,19 +488,20 @@
     "vendor": "Renesas",
     "model": "R8A77990I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "684f690295e45420ab3a325af11b1dd7"
   },
   {
     "id": "renesas_r8a77995",
@@ -487,17 +511,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "d8c1982359cf523d98f931712c28863c"
   },
   {
     "id": "renesas_r8a77995i",
@@ -505,19 +530,20 @@
     "vendor": "Renesas",
     "model": "R8A77995I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "652695900c2851278b60b004661b88d5"
   },
   {
     "id": "renesas_r8a779a0",
@@ -525,19 +551,20 @@
     "vendor": "Renesas",
     "model": "R8A779A0",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a4f4765c628f54eb90a5bd33f08a3649"
   },
   {
     "id": "renesas_r8a779a0i",
@@ -545,19 +572,20 @@
     "vendor": "Renesas",
     "model": "R8A779A0I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c9ccb8d98b3d5d4badb8e3826ea5cfc8"
   },
   {
     "id": "renesas_r8a779f0",
@@ -565,19 +593,20 @@
     "vendor": "Renesas",
     "model": "R8A779F0",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "3449b480651856b98ac63755fbbbdded"
   },
   {
     "id": "renesas_r8a779f0i",
@@ -585,19 +614,20 @@
     "vendor": "Renesas",
     "model": "R8A779F0I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a90e6b49e572508a8060e5a1ead621bb"
   },
   {
     "id": "renesas_r8a779f4",
@@ -605,19 +635,20 @@
     "vendor": "Renesas",
     "model": "R8A779F4",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "65859c449f025b388708b22c33b417ca"
   },
   {
     "id": "renesas_r8a779f4i",
@@ -625,19 +656,20 @@
     "vendor": "Renesas",
     "model": "R8A779F4I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "23808f90f99e53769b47612c0ecdd931"
   },
   {
     "id": "renesas_r8a779g0",
@@ -645,19 +677,20 @@
     "vendor": "Renesas",
     "model": "R8A779G0",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "5a8eb20007665aa885421b681b1af784"
   },
   {
     "id": "renesas_r8a779g0i",
@@ -665,19 +698,20 @@
     "vendor": "Renesas",
     "model": "R8A779G0I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "70cbec5b22045dbe9dd7f32f9f3acc52"
   },
   {
     "id": "renesas_r8a779g2",
@@ -685,19 +719,20 @@
     "vendor": "Renesas",
     "model": "R8A779G2",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "849a52a3b2525a659740ab7aca66a62b"
   },
   {
     "id": "renesas_r8a779g2i",
@@ -705,19 +740,20 @@
     "vendor": "Renesas",
     "model": "R8A779G2I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "42967f84a4205be8b8615edfdccce8de"
   },
   {
     "id": "renesas_r8a779g3",
@@ -725,19 +761,20 @@
     "vendor": "Renesas",
     "model": "R8A779G3",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "7405017eacf6546683fca7a2181189e0"
   },
   {
     "id": "renesas_r8a779g3i",
@@ -745,19 +782,20 @@
     "vendor": "Renesas",
     "model": "R8A779G3I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ad579a32024759448c2abe0623d6faa5"
   },
   {
     "id": "renesas_r8a779h0",
@@ -765,19 +803,20 @@
     "vendor": "Renesas",
     "model": "R8A779H0",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a9d4c0e9fe6150cc9cd448cfef05fe76"
   },
   {
     "id": "renesas_r8a779h0i",
@@ -785,19 +824,20 @@
     "vendor": "Renesas",
     "model": "R8A779H0I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "2c807b7f7c6c5ba39b009794b26c617b"
   },
   {
     "id": "renesas_r8a779h2",
@@ -805,19 +845,20 @@
     "vendor": "Renesas",
     "model": "R8A779H2",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "2bc52e46376f5c81bc464f3a82291258"
   },
   {
     "id": "renesas_r8a779h2i",
@@ -825,19 +866,20 @@
     "vendor": "Renesas",
     "model": "R8A779H2I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "d727468987ea558988cc2b645460886d"
   },
   {
     "id": "renesas_r8a779m1",
@@ -845,19 +887,20 @@
     "vendor": "Renesas",
     "model": "R8A779M1",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c7b9214e1aba55a28268da7a156af067"
   },
   {
     "id": "renesas_r8a779m1i",
@@ -865,19 +908,20 @@
     "vendor": "Renesas",
     "model": "R8A779M1I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "d13fd0285453574cb66b6447b3fcf252"
   },
   {
     "id": "renesas_r8a779m3",
@@ -885,19 +929,20 @@
     "vendor": "Renesas",
     "model": "R8A779M3",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "bb47261ea20a58f29f75261fb543cac3"
   },
   {
     "id": "renesas_r8a779m3i",
@@ -905,19 +950,20 @@
     "vendor": "Renesas",
     "model": "R8A779M3I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "fb1b5c04420d520fa0786235b8689706"
   },
   {
     "id": "renesas_r8a779m5",
@@ -925,19 +971,20 @@
     "vendor": "Renesas",
     "model": "R8A779M5",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "924f8e49647f5f1ea6b249f49cce5fc8"
   },
   {
     "id": "renesas_r8a779m5i",
@@ -945,19 +992,20 @@
     "vendor": "Renesas",
     "model": "R8A779M5I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "6c117d3527cf51df9714a4302f6f3e5a"
   },
   {
     "id": "renesas_r8a779md",
@@ -965,19 +1013,20 @@
     "vendor": "Renesas",
     "model": "R8A779MD",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "44e42caa8fc9540e977c6fb27a987111"
   },
   {
     "id": "renesas_r8a779mdi",
@@ -985,19 +1034,20 @@
     "vendor": "Renesas",
     "model": "R8A779MDI",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "4864870999ea52ef9350a917d3884ad7"
   },
   {
     "id": "renesas_r8a78000",
@@ -1007,17 +1057,18 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv9-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "67b57cd10af854f8a69e86b6c605d977"
   },
   {
     "id": "renesas_r8a78000i",
@@ -1025,19 +1076,20 @@
     "vendor": "Renesas",
     "model": "R8A78000I",
     "source": "linux_dt",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 32,
     "architecture": "ARMv9-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "80dac6d2e3d35adc935879da9a776c7a"
   },
   {
     "id": "ti_draaki",
@@ -1045,15 +1097,16 @@
     "vendor": "Renesas",
     "model": "DRAAKI",
     "source": "linux_dt",
-    "completeness": 0.1145,
+    "completeness": 0.1205,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt"
+    },
+    "uuid": "fd216ec8d6155f94873c619b4e8e6612"
   },
   {
     "id": "aistarvision",
@@ -1064,16 +1117,17 @@
     "aliases": [
       "aistarvision (AISTARVISION)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "2145ec9a249b57608e2edb914a47589b"
   },
   {
     "id": "beacon",
@@ -1084,16 +1138,17 @@
     "aliases": [
       "beacon (BEACON)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "bc1b073f906451378c071abff6e990e9"
   },
   {
     "id": "cat875i",
@@ -1104,16 +1159,17 @@
     "aliases": [
       "cat875i (CAT875I)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "1b8c709e70a252638a8b3d2583f14b74"
   },
   {
     "id": "condor",
@@ -1124,16 +1180,17 @@
     "aliases": [
       "condor (CONDOR)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "3c9a04cf4b55511b8900a6e7387ba2f1"
   },
   {
     "id": "ebisui",
@@ -1144,16 +1201,17 @@
     "aliases": [
       "ebisui (EBISUI)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "070fdf1109d054d5b478841103434540"
   },
   {
     "id": "gray",
@@ -1164,16 +1222,17 @@
     "aliases": [
       "gray (GRAY)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "fb612468640f5c168639b67dd3b972fa"
   },
   {
     "id": "hihope",
@@ -1184,16 +1243,17 @@
     "aliases": [
       "hihope (HIHOPE)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "1e8f2bf361d655cb82e3c76861f5b7b1"
   },
   {
     "id": "panel",
@@ -1204,16 +1264,17 @@
     "aliases": [
       "panel (PANEL)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "1a602dee31645f1dab0cfd41949d033d"
   },
   {
     "id": "r9a07g043i",
@@ -1224,20 +1285,21 @@
     "aliases": [
       "r9a07g043i (R9A07G043I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a48001c233b8577fa4019fa1e823ffff"
   },
   {
     "id": "r9a07g043u11",
@@ -1248,20 +1310,21 @@
     "aliases": [
       "r9a07g043u11 (R9A07G043U11)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c340617e50f0586ea82da0a6911f37c7"
   },
   {
     "id": "r9a07g043ui",
@@ -1272,20 +1335,21 @@
     "aliases": [
       "r9a07g043ui (R9A07G043UI)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "6b4a395a7adb54459ad35b56e819bf41"
   },
   {
     "id": "r9a07g044c2",
@@ -1296,20 +1360,21 @@
     "aliases": [
       "r9a07g044c2 (R9A07G044C2)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cb232ca0fed45282b027e94e0f888c4d"
   },
   {
     "id": "r9a07g044c2i",
@@ -1320,20 +1385,21 @@
     "aliases": [
       "r9a07g044c2i (R9A07G044C2I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e5d6d1c05f13585cb2420d362c433a57"
   },
   {
     "id": "r9a07g044i",
@@ -1344,20 +1410,21 @@
     "aliases": [
       "r9a07g044i (R9A07G044I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "54bdff60d53559928c314deaac4c9086"
   },
   {
     "id": "r9a07g044l2",
@@ -1368,20 +1435,21 @@
     "aliases": [
       "r9a07g044l2 (R9A07G044L2)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "12d62d7f96645f9c878b41908c00f430"
   },
   {
     "id": "r9a07g044l2i",
@@ -1392,20 +1460,21 @@
     "aliases": [
       "r9a07g044l2i (R9A07G044L2I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "19c6a9ed2d625d7eb4502231f5067261"
   },
   {
     "id": "r9a07g054i",
@@ -1416,20 +1485,21 @@
     "aliases": [
       "r9a07g054i (R9A07G054I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "14cc3f2b8af35d8197030ac8b37a34e2"
   },
   {
     "id": "r9a07g054l2",
@@ -1440,20 +1510,21 @@
     "aliases": [
       "r9a07g054l2 (R9A07G054L2)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "922d242c946855179faba657e738fc78"
   },
   {
     "id": "r9a07g054l2i",
@@ -1464,20 +1535,21 @@
     "aliases": [
       "r9a07g054l2i (R9A07G054L2I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a27c7c07d3835ed388a6129ebbf784fb"
   },
   {
     "id": "r9a08g045i",
@@ -1488,20 +1560,21 @@
     "aliases": [
       "r9a08g045i (R9A08G045I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "ec52253a5958506daa37ad80f2f14f73"
   },
   {
     "id": "r9a08g045s33",
@@ -1512,20 +1585,21 @@
     "aliases": [
       "r9a08g045s33 (R9A08G045S33)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "9450d54240fe5bc4b78d4ac81b87776f"
   },
   {
     "id": "r9a08g045s33i",
@@ -1536,20 +1610,21 @@
     "aliases": [
       "r9a08g045s33i (R9A08G045S33I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "b4cb589fb16e5d7ab6871391c0b173bd"
   },
   {
     "id": "r9a08g046i",
@@ -1560,20 +1635,21 @@
     "aliases": [
       "r9a08g046i (R9A08G046I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "70ca413714a25411b8ed67c59bd38250"
   },
   {
     "id": "r9a08g046l48",
@@ -1584,20 +1660,21 @@
     "aliases": [
       "r9a08g046l48 (R9A08G046L48)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "4fd0bb1439905b8a8e176e45e356477c"
   },
   {
     "id": "r9a08g046l48i",
@@ -1608,20 +1685,21 @@
     "aliases": [
       "r9a08g046l48i (R9A08G046L48I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "98437956f65a5f2e8d5a431629553e1b"
   },
   {
     "id": "r9a09g011",
@@ -1632,20 +1710,21 @@
     "aliases": [
       "r9a09g011 (R9A09G011)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "b681473d208f59648fa118ec703abb58"
   },
   {
     "id": "r9a09g011i",
@@ -1656,20 +1735,21 @@
     "aliases": [
       "r9a09g011i (R9A09G011I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e339ff5a589a59158f6f8e103395edfc"
   },
   {
     "id": "r9a09g047e57",
@@ -1680,20 +1760,21 @@
     "aliases": [
       "r9a09g047e57 (R9A09G047E57)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "aedc8797126d57b384b613aed6ecf205"
   },
   {
     "id": "r9a09g047e57i",
@@ -1704,20 +1785,21 @@
     "aliases": [
       "r9a09g047e57i (R9A09G047E57I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "aa665bd9ce6050e5b7db637e57d08440"
   },
   {
     "id": "r9a09g047i",
@@ -1728,20 +1810,21 @@
     "aliases": [
       "r9a09g047i (R9A09G047I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "587c585c43e15a4f80c096fd39e5edcd"
   },
   {
     "id": "r9a09g056i",
@@ -1752,20 +1835,21 @@
     "aliases": [
       "r9a09g056i (R9A09G056I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "e34adee8f2595309a52f5faf72fdc7dd"
   },
   {
     "id": "r9a09g056n48",
@@ -1776,20 +1860,21 @@
     "aliases": [
       "r9a09g056n48 (R9A09G056N48)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "b72b7c7f338755db878b8d83b0e88ad1"
   },
   {
     "id": "r9a09g057h44",
@@ -1800,20 +1885,21 @@
     "aliases": [
       "r9a09g057h44 (R9A09G057H44)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "10de3758c95a561cb81f3d13723e3f0e"
   },
   {
     "id": "r9a09g057h48",
@@ -1824,20 +1910,21 @@
     "aliases": [
       "r9a09g057h48 (R9A09G057H48)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cbf9b1dd651953e9a63cec2c417f807f"
   },
   {
     "id": "r9a09g057i",
@@ -1848,20 +1935,21 @@
     "aliases": [
       "r9a09g057i (R9A09G057I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "d686a1cf088f56ff80a0490f05ce0740"
   },
   {
     "id": "r9a09g077i",
@@ -1872,20 +1960,21 @@
     "aliases": [
       "r9a09g077i (R9A09G077I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "1ed076d82dde50ea9143f4462bd6d8c9"
   },
   {
     "id": "r9a09g077m44",
@@ -1896,20 +1985,21 @@
     "aliases": [
       "r9a09g077m44 (R9A09G077M44)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "c2680324904055d5b052107ed08525cb"
   },
   {
     "id": "r9a09g077m44i",
@@ -1920,20 +2010,21 @@
     "aliases": [
       "r9a09g077m44i (R9A09G077M44I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "81e7f37053235f40accbe40daea3692c"
   },
   {
     "id": "r9a09g087i",
@@ -1944,20 +2035,21 @@
     "aliases": [
       "r9a09g087i (R9A09G087I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "5c11e41677305d5abf8213026c93947e"
   },
   {
     "id": "r9a09g087m44",
@@ -1968,20 +2060,21 @@
     "aliases": [
       "r9a09g087m44 (R9A09G087M44)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "d891432d21b35d3694abc1d090fbe5d4"
   },
   {
     "id": "r9a09g087m44i",
@@ -1992,20 +2085,21 @@
     "aliases": [
       "r9a09g087m44i (R9A09G087M44I)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8.2-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "dd924135aa525b7abac6192552cd3736"
   },
   {
     "id": "renesas",
@@ -2016,16 +2110,17 @@
     "aliases": [
       "renesas (RENESAS)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "b594a9d20c84514991e300dcd8c058bd"
   },
   {
     "id": "rz",
@@ -2036,16 +2131,17 @@
     "aliases": [
       "rz (RZ)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "272e11caf5445c1aa69e83d9d413f8fc"
   },
   {
     "id": "rzg2",
@@ -2056,16 +2152,17 @@
     "aliases": [
       "rzg2 (RZG2)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "49f734b0063554b9b4d4bd477896e24a"
   },
   {
     "id": "rzg2l",
@@ -2076,16 +2173,17 @@
     "aliases": [
       "rzg2l (RZG2L)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "0d12461b2ac158a4ac8a1f5e8b5b77aa"
   },
   {
     "id": "rzg2lc",
@@ -2096,16 +2194,17 @@
     "aliases": [
       "rzg2lc (RZG2LC)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "7dadd18e71bd5733a582e816805520d7"
   },
   {
     "id": "rzg2ul",
@@ -2116,16 +2215,17 @@
     "aliases": [
       "rzg2ul (RZG2UL)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "f4477a37667050b5b4528ae184c44915"
   },
   {
     "id": "rzg3e",
@@ -2136,16 +2236,17 @@
     "aliases": [
       "rzg3e (RZG3E)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "f69d997eab3855dc9bd3f60a1e5df019"
   },
   {
     "id": "rzg3l",
@@ -2156,16 +2257,17 @@
     "aliases": [
       "rzg3l (RZG3L)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "59ea0229e17752cc81d6416f989dee1f"
   },
   {
     "id": "rzg3s",
@@ -2176,16 +2278,17 @@
     "aliases": [
       "rzg3s (RZG3S)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "3e7cdb98cc1e5c08a8770d6ff8a03fbb"
   },
   {
     "id": "rzt2h",
@@ -2196,16 +2299,17 @@
     "aliases": [
       "rzt2h (RZT2H)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "90d0ca380b065bd1b614c593fecd7eef"
   },
   {
     "id": "salvator",
@@ -2216,16 +2320,17 @@
     "aliases": [
       "salvator (SALVATOR)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "3d26f676a2d55f9c8062630f5ed9ec34"
   },
   {
     "id": "ulcb",
@@ -2236,16 +2341,17 @@
     "aliases": [
       "ulcb (ULCB)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "d5a3dfc92e855d328e659f1b753cbe7e"
   },
   {
     "id": "ulcbi",
@@ -2256,16 +2362,17 @@
     "aliases": [
       "ulcbi (ULCBI)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "c0c8349af23d5650a5677f791b09b4e6"
   },
   {
     "id": "white",
@@ -2276,15 +2383,16 @@
     "aliases": [
       "white (WHITE)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "e6ec24dc6bac55fcabd3032f6b32b34d"
   }
 ]

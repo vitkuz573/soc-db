@@ -7,17 +7,18 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARMv8-A",
-    "completeness": 0.1627,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "7393056dd9865d0b85a9fddc6c263e9d"
   },
   {
     "id": "lan9691",
@@ -27,21 +28,22 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARMv8-A",
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "aliases": [
       "lan9691 (LAN9691)"
     ],
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "114c0ac1cbf65978bcbb374edaa61af9"
   },
   {
     "id": "lan9696",
@@ -51,20 +53,21 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARM Cortex-A7",
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "aliases": [
       "lan9696 (LAN9696)"
     ],
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "069040248a7d5715b0d5473614165dd1"
   }
 ]

@@ -8,18 +8,19 @@
     "aliases": [
       "Marvell Armada (ARMADA)"
     ],
-    "completeness": 0.1446,
+    "completeness": 0.1506,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "2e66e85f74365cc88883f5954f4b573f"
   },
   {
     "id": "marvell_armada_37_armada37",
@@ -30,18 +31,19 @@
     "aliases": [
       "Marvell Armada 37 (ARMADA-37)"
     ],
-    "completeness": 0.1446,
+    "completeness": 0.1506,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt"
+    },
+    "uuid": "1cc32479f68d585e8a1852f76e014bc7"
   },
   {
     "id": "marvell_armada_372_armada372",
@@ -52,20 +54,21 @@
     "aliases": [
       "Marvell Armada 372 (ARMADA-372)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "bd1c54c989c1577183c2ee8f1d05c3ce"
   },
   {
     "id": "marvell_armada_3720_armada3720",
@@ -78,18 +81,19 @@
     "aliases": [
       "Marvell Armada 3720 (ARMADA-3720)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "8363756b9dd054a8a335388a988ff94a"
   },
   {
     "id": "marvell_armada_70_armada70",
@@ -100,20 +104,21 @@
     "aliases": [
       "Marvell Armada 70 (ARMADA-70)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "cd51a35d692f59cf95a5e09d9ec496df"
   },
   {
     "id": "marvell_armada_7020_armada7020",
@@ -126,18 +131,19 @@
     "aliases": [
       "Marvell Armada 7020 (ARMADA-7020)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "82975a049e375ac4a2615f1c594a58c1"
   },
   {
     "id": "marvell_armada_7040_armada7040",
@@ -150,18 +156,19 @@
     "aliases": [
       "Marvell Armada 7040 (ARMADA-7040)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "646f184309df556fb6dc9e658c73a1d4"
   },
   {
     "id": "marvell_armada_80_armada80",
@@ -172,20 +179,21 @@
     "aliases": [
       "Marvell Armada 80 (ARMADA-80)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
     "architecture": "ARMv8-A",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt"
+    },
+    "uuid": "a87fe624975c50839d94ec77e3d6e385"
   },
   {
     "id": "marvell_armada_8040_armada8040",
@@ -198,18 +206,19 @@
     "aliases": [
       "Marvell Armada 8040 (ARMADA-8040)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "0377e79057ca5c9e82624e04b9cc8595"
   },
   {
     "id": "marvell_armada_8080_armada8080",
@@ -222,18 +231,19 @@
     "aliases": [
       "Marvell Armada 8080 (ARMADA-8080)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "1bf85c04dc665cb0955e02ef179ee81e"
   },
   {
     "id": "ac5",
@@ -246,18 +256,19 @@
     "aliases": [
       "Marvell Ac5 (AC5)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "c6938d67a9be52c3804df65b0122a90c"
   },
   {
     "id": "cn9130",
@@ -270,18 +281,19 @@
     "aliases": [
       "Marvell Cn9130 (CN9130)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "b98186b477185e8790d53f4d4b5ca288"
   },
   {
     "id": "cn9131",
@@ -294,18 +306,19 @@
     "aliases": [
       "Marvell Cn9131 (CN9131)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "a7ff4bb095705d2d80e009592d199193"
   },
   {
     "id": "cn9132",
@@ -318,18 +331,19 @@
     "aliases": [
       "Marvell Cn9132 (CN9132)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "bfc969e595495bfebbf12e0fc3fd6d30"
   },
   {
     "id": "db",
@@ -340,16 +354,17 @@
     "aliases": [
       "db (DB)"
     ],
-    "completeness": 0.1205,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "eae2d0dd44675b298a45fcd44224ddda"
   },
   {
     "id": "pxa1908",
@@ -362,17 +377,18 @@
     "aliases": [
       "Marvell Pxa1908 (PXA1908)"
     ],
-    "completeness": 0.1687,
+    "completeness": 0.1747,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "model": "legacy_v2",
-      "source": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "aliases": "legacy_v2"
-    }
+      "name": "linux_dt",
+      "vendor": "linux_dt",
+      "model": "linux_dt",
+      "source": "linux_dt",
+      "cores": "linux_dt",
+      "architecture": "linux_dt",
+      "aliases": "linux_dt"
+    },
+    "uuid": "beecec845e20591590f540642678af85"
   }
 ]

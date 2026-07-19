@@ -25,6 +25,7 @@ VENDOR_FILES: dict[str, str] = {
     "Amlogic": "amlogic.json",
     "Nvidia": "nvidia.json",
     "TI OMAP": "ti_omap.json",
+    "Intel": "intel_atom.json",
     "Intel Atom": "intel_atom.json",
     "Ingenic": "ingenic.json",
     "NXP i.MX": "nxp_imx.json",
