@@ -245,6 +245,8 @@ from soc_db.enrich._vendor_data import (
     VENDOR_KNOWLEDGE,
 )
 from soc_db.enrich._helpers import _has, clean
+from soc_db.enrich.memory import infer_memory
+from soc_db.enrich.process import infer_process
 from soc_db.enrich.year import infer_year
 
 
@@ -340,21 +342,10 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             chip["model"] = chip.get("id", "unknown")
     vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
     model_upper = chip.get("model", "").upper()
-    if not chip.get("memory_clock") and chip.get("memory_type"):
-        for mtype, clock in MEMORY_CLOCK_FROM_TYPE.items():
-            if mtype in chip["memory_type"].upper():
-                chip["memory_clock"] = clock
-                break
-    if not chip.get("memory_bus") and chip.get("memory_type") in ("LPDDR5X", "LPDDR5", "LPDDR4X", "LPDDR4"):
-        chip["memory_bus"] = 64
     if not chip.get("architecture") and vk.get("architecture"):
         chip["architecture"] = vk["architecture"]
-    if not chip.get("process_nm") and vk.get("process_map"):
-        for key, nm in vk["process_map"].items():
-            if key.upper() in model_upper:
-                chip["process_nm"] = nm
-                chip["process_name"] = f"{nm}nm"
-                break
+    infer_memory(chip)      # first pass: clock/bus from type
+    infer_process(chip)     # first pass: model-based lookup
     if not chip.get("gpu") and vk.get("gpu_map"):
         for key, gpu_name in vk["gpu_map"].items():
             if key.upper() in model_upper:
@@ -369,40 +360,8 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
         if inferred:
             chip["year"] = inferred
             year = inferred
-    yr = chip.get("year")
-    if not chip.get("process_nm") and yr:
-        proc_by_year = [
-            (2024, 3),
-            (2023, 4),
-            (2021, 5),
-            (2019, 7),
-            (2017, 10),
-            (2015, 14),
-            (2013, 20),
-            (2011, 28),
-            (2009, 40),
-            (0, 65),
-        ]
-        for yr_proc, nm in proc_by_year:
-            if yr >= yr_proc:
-                chip["process_nm"] = nm
-                chip["process_name"] = f"{nm}nm"
-                break
-    yr = chip.get("year")
-    if not chip.get("memory_type") and yr:
-        mem_by_year = [
-            (2023, "LPDDR5X"),
-            (2021, "LPDDR5"),
-            (2019, "LPDDR4X"),
-            (2016, "LPDDR4"),
-            (2014, "LPDDR3"),
-            (2012, "LPDDR2"),
-            (0, "LPDDR"),
-        ]
-        for yr_mem, mt_name in mem_by_year:
-            if yr >= yr_mem:
-                chip["memory_type"] = mt_name
-                break
+    infer_process(chip)     # second pass: year-based fallback
+    infer_memory(chip)      # second pass: type/clock/bus from year
     yr = chip.get("year")
     if not chip.get("storage_type") and yr:
         st_by_year = [
@@ -416,27 +375,6 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             if yr >= yr_st:
                 chip["storage_type"] = st_name
                 break
-    mt = chip.get("memory_type", "")
-    if not chip.get("memory_clock") and mt:
-        clock_map = {
-            "LPDDR6": 6400,
-            "LPDDR5X": 4266,
-            "LPDDR5": 3200,
-            "LPDDR4X": 2133,
-            "LPDDR4": 1600,
-            "LPDDR3": 933,
-            "LPDDR2": 533,
-            "LPDDR": 400,
-        }
-        for k, v in clock_map.items():
-            if mt.startswith(k):
-                chip["memory_clock"] = v
-                break
-    if not chip.get("memory_bus") and mt:
-        if mt.startswith(("LPDDR4", "LPDDR5", "LPDDR6")):
-            chip["memory_bus"] = 64
-        elif mt.startswith(("LPDDR3", "LPDDR2", "LPDDR")):
-            chip["memory_bus"] = 32
     if not chip.get("gpu") and chip.get("year"):
         vendor = chip.get("vendor", "")
         yr = chip["year"]

@@ -8,6 +8,8 @@ from soc_db.enrich._vendor_data import (
     VENDOR_FILES,
     VENDOR_KNOWLEDGE,
 )
+from soc_db.enrich.memory import infer_memory
+from soc_db.enrich.process import infer_process
 from soc_db.enrich.year import infer_year
 
 __all__ = [
@@ -19,4 +21,6 @@ __all__ = [
     "_has",
     "clean",
     "infer_year",
+    "infer_process",
+    "infer_memory",
 ]
