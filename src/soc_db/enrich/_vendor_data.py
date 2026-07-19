@@ -10,6 +10,7 @@ Constants:
 
 from __future__ import annotations
 
+import os
 from typing import Any
 
 VENDOR_FILES: dict[str, str] = {
@@ -419,3 +420,17 @@ MEMORY_CLOCK_FROM_TYPE: dict[str, int] = {
     "DDR4": 2400,
     "DDR3": 1333,
 }
+
+# --- Wikidata conditional loading ---
+# When SOC_DB_USE_WIKIDATA is enabled, merge VENDOR_KNOWLEDGE with Wikidata
+# SPARQL results. The reassignment happens *after* the dict is defined so that
+# all consumers (via ``from soc_db.enrich._vendor_data import VENDOR_KNOWLEDGE``)
+# see the updated dict. The env var is checked directly to avoid circular imports
+# through the config module.
+if os.environ.get("SOC_DB_USE_WIKIDATA", "").lower() in ("true", "1", "yes"):
+    from soc_db.enrich._vendor_data_wikidata import get_vendor_knowledge  # noqa: PLC0415
+
+    merged = get_vendor_knowledge()
+    if merged is not None:
+        VENDOR_KNOWLEDGE.clear()
+        VENDOR_KNOWLEDGE.update(merged)

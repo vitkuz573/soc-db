@@ -43,6 +43,9 @@ class Settings(BaseSettings):
     db_path: Path = Path(__file__).resolve().parent.parent.parent / "data" / "soc-db.db"
     use_json: bool = False  # SOC_DB_USE_JSON env var — when True, fall back to JSON files
 
+    # --- Wikidata integration ---
+    use_wikidata: bool = False  # SOC_DB_USE_WIKIDATA env var — when True, merge VENDOR_KNOWLEDGE with Wikidata SPARQL results
+
     # --- Redis (rate limiting) ---
     redis_url: str | None = None  # SOC_DB_REDIS_URL — e.g. "redis://localhost:6379/0". None = in-memory only.
 

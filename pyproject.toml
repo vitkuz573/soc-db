@@ -40,6 +40,7 @@ dependencies = [
     "opentelemetry-sdk>=1.25",
     "opentelemetry-instrumentation-fastapi>=0.45b",
     "prometheus-client>=0.20",
+    "SPARQLWrapper>=2.0",
 ]
 
 [project.optional-dependencies]
