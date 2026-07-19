@@ -37,6 +37,7 @@ from soc_db.enrich.process import infer_process  # noqa: F401
 from soc_db.enrich.scoring import compute_completeness  # noqa: F401
 from soc_db.enrich.storage import infer_storage  # noqa: F401
 from soc_db.enrich.year import infer_year  # noqa: F401
+from soc_db.robots import RobotsChecker  # noqa: F401
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +48,9 @@ USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = REPO_ROOT / "docs"
+
+# Per-domain robots.txt checker (cached with 24h TTL, fail-open)
+_robots_checker = RobotsChecker()
 
 
 def guard_path(path: Path) -> None:
@@ -70,7 +74,7 @@ def guard_path(path: Path) -> None:
         )
 
 
-def fetch(url: str, ttl: int = 86400) -> str:
+def fetch(url: str, ttl: int = 86400, user_agent: str | None = None) -> str:
     """Fetch a URL with caching.
 
     Retrieves the content at the given URL. Results are cached on disk
@@ -80,6 +84,7 @@ def fetch(url: str, ttl: int = 86400) -> str:
     Args:
         url: The URL to fetch.
         ttl: Time-to-live in seconds for the cache (default 86400).
+        user_agent: Optional per-source User-Agent. Falls back to USER_AGENT.
 
     Returns:
         The response body as a UTF-8 decoded string.
@@ -90,7 +95,13 @@ def fetch(url: str, ttl: int = 86400) -> str:
         age = time.time() - cache_file.stat().st_mtime
         if age < ttl:
             return cache_file.read_text("utf-8")
-    req = Request(url, headers={"User-Agent": USER_AGENT})
+    # Robots.txt compliance check (only before network fetch)
+    ua = user_agent or USER_AGENT
+    if not _robots_checker.can_fetch(url, ua):
+        raise PermissionError(
+            f"robots.txt disallows fetching {url} for User-Agent: {ua}"
+        )
+    req = Request(url, headers={"User-Agent": ua})
     with urlopen(req, timeout=30) as resp:  # nosec - controlled URLs only
         data: str = resp.read().decode("utf-8")
     guard_path(cache_file)
