@@ -284,6 +284,28 @@ def cmd_migrate(args):
             print(f"  {m['id']}.{m['field']}: expected={m['expected']}, got={m['got']}")
 
 
+def cmd_quality_report(args):
+    """Handle the ``quality-report`` subcommand.
+
+    Computes per-vendor and per-field data quality metrics: fill rates,
+    source diversity, and conflict rates.  Outputs as a markdown report
+    (default) or JSON.
+
+    Args:
+        args: Parsed argparse namespace with ``.json``.
+    """
+    from soc_db.quality import QualityScorer
+
+    chips = load_all()
+    scorer = QualityScorer(chips)
+    report = scorer.generate_report()
+
+    if args.json:
+        print(report.to_json())
+    else:
+        print(report.markdown_summary())
+
+
 def cmd_wikidata_refresh(args):
     """Handle the ``wikidata-refresh`` subcommand.
 
@@ -363,6 +385,9 @@ def main():
     p_migrate = sp.add_parser("migrate", help="Migrate JSON data to SQLite database")
     p_migrate.add_argument("--force", action="store_true", help="Re-create database from scratch")
 
+    p_qual = sp.add_parser("quality-report", help="Generate data quality report")
+    p_qual.add_argument("--json", action="store_true", help="JSON output")
+
     p_wd = sp.add_parser("wikidata-refresh", help="Refresh vendor knowledge from Wikidata")
     p_wd.add_argument("--dry-run", action="store_true", help="Log results without writing")
 
@@ -379,6 +404,8 @@ def main():
         cmd_enrich(args)
     elif args.cmd == "migrate":
         cmd_migrate(args)
+    elif args.cmd == "quality-report":
+        cmd_quality_report(args)
     elif args.cmd == "wikidata-refresh":
         cmd_wikidata_refresh(args)
     else:
