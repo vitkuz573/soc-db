@@ -16,12 +16,7 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
-import os
-import tempfile
 import time
-from pathlib import Path
-from typing import Any
-from urllib.parse import urlparse
 
 from soc_db.common import CACHE_DIR, USER_AGENT, guard_path
 from soc_db.scraping.rate_limit import PerSourceRateLimiter
@@ -157,7 +152,7 @@ class HTTPSource:
             if self._rate_limiter is not None:
                 self._rate_limiter.record_failure()
             raise RuntimeError(
-                f"Playwright not installed. Run: pip install playwright && playwright install chromium"
+                "Playwright not installed. Run: pip install playwright && playwright install chromium"
             )
 
     # ── tier 1: httpx ───────────────────────────────────────────────────

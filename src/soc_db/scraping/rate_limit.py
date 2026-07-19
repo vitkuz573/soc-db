@@ -18,7 +18,7 @@ import logging
 import random
 import threading
 import time
-from typing import Callable
+from collections.abc import Callable
 
 import tenacity
 from tenacity import (
