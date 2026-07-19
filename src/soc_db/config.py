@@ -36,6 +36,9 @@ class Settings(BaseSettings):
     # --- Cache ---
     cache_ttl: int = 300
 
+    # --- Async connection pool ---
+    async_pool_size: int = 5  # SOC_DB_ASYNC_POOL_SIZE — max concurrent async connections
+
     # --- SQLite database ---
     db_path: Path = Path(__file__).resolve().parent.parent.parent / "data" / "soc-db.db"
     use_json: bool = False  # SOC_DB_USE_JSON env var — when True, fall back to JSON files

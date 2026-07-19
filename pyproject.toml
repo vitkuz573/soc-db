@@ -30,6 +30,7 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "lxml>=5.1",
     "requests>=2.31",
+    "aiosqlite>=0.20",
     "fastapi>=0.110",
     "uvicorn[standard]>=0.29",
     "pydantic>=2.5",
