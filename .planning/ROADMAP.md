@@ -29,7 +29,7 @@
 - [x] **Phase 10: Dedup & Identity** — UUID-based canonical chip identity with multi-strategy matcher
 - [x] **Phase 11: Batch Processing** — Batch enrichment with checkpointing, quality scoring, and API performance
 - [x] **Phase 12: High-Value Scrapers** — TechPowerUp, NotebookCheck, and Geekbench Browser scrapers
-- [ ] **Phase 13: Vendor Official Scrapers** — Qualcomm, MediaTek, Intel/AMD, and Apple official scrapers
+- [x] **Phase 13: Vendor Official Scrapers** — Qualcomm, MediaTek, Intel/AMD, and Apple official scrapers (completed 2026-07-19)
 - [ ] **Phase 14: UI/API Polish** — Chip comparison API, quality dashboard, and CLI filtering enhancements
 
 ## Phase Details
@@ -156,7 +156,10 @@ Plans:
   4. Apple Tech Specs scraper deepens M-series data (80+ chips) with official performance, GPU core, and memory bandwidth data
   5. Total chip count reaches 5000-5500 with per-vendor completeness ≥0.80 average
 
-**Plans**: TBD
+**Plans**: 1/1 plan complete
+
+Plans:
+- [x] 13-01-PLAN.md — Qualcomm, MediaTek, Intel/AMD, Apple Tech Specs scrapers + tests
 
 ### Phase 14: UI/API Polish
 
@@ -189,5 +192,5 @@ Plans:
 | 10. Dedup & Identity | v3.0 | 3/3 | Complete   | 2026-07-19 |
 | 11. Batch Processing | v3.0 | 1/1 | Complete | 2026-07-19 |
 | 12. High-Value Scrapers | v3.0 | 1/1 | Complete | 2026-07-19 |
-| 13. Vendor Official Scrapers | v3.0 | 0/0 | Not started | - |
+| 13. Vendor Official Scrapers | v3.0 | 1/1 | Complete | 2026-07-19 |
 | 14. UI/API Polish | v3.0 | 0/0 | Not started | - |

@@ -2,19 +2,19 @@
 gsd_state_version: 1.0
 milestone: v3.0
 milestone_name: Full SoC Coverage
-current_phase: 12
-current_phase_name: High-Value Scrapers
+current_phase: 13
+current_phase_name: Vendor Official Scrapers
 status: complete
-stopped_at: Phase 12 execution complete
-last_updated: "2026-07-19T21:45:00.000Z"
+stopped_at: Phase 13 execution complete
+last_updated: "2026-07-19T20:23:00.000Z"
 last_activity: 2026-07-19
-last_activity_desc: Phase 12 execution complete — TechPowerUp, NotebookCheck, Geekbench scrapers
+last_activity_desc: Phase 13 execution complete — Qualcomm, MediaTek, Intel/AMD, Apple Tech Specs scrapers with 71 tests
 progress:
   total_phases: 14
-  completed_phases: 6
-  total_plans: 13
-  completed_plans: 13
-  percent: 50
+  completed_phases: 7
+  total_plans: 14
+  completed_plans: 14
+  percent: 57
 ---
 
 # Project State
@@ -24,22 +24,22 @@ progress:
 See: .planning/PROJECT.md (updated 2026-07-19)
 
 **Core value:** Accurate, queryable, up-to-date SoC identification data that developers and tools can rely on as a single source of truth.
-**Current focus:** v3.0 Phase 12 complete — High-Value Scrapers
+**Current focus:** v3.0 Phase 13 complete — Vendor Official Scrapers
 
 ## Current Position
 
-Phase: 12 of 14 (High-Value Scrapers) — ✅ Completed
-Plans: 01 (High-Value Scrapers)
+Phase: 13 of 14 (Vendor Official Scrapers) — ✅ Completed
+Plans: 01 (Vendor Official Scrapers)
 Status: Complete
-Last activity: 2026-07-19 — Phase 12 execution complete
+Last activity: 2026-07-19 — Phase 13 execution complete
 
-Progress: [██████████] 50% (6 of 14 phases complete, 7 of 14 v3.0 complete)
+Progress: [████████████] 57% (7 of 14 phases complete, 8 of 14 v3.0 complete)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 17
+- Total plans completed: 18
 - Total execution time: ~3.5 hours
 - Timeline: All v2.1 phases completed 2026-07-19
 
@@ -59,6 +59,7 @@ Progress: [██████████] 50% (6 of 14 phases complete, 7 of 14
 | 10. DEDUP | 3 | ~50 min | ~16.7 min |
 | 11. BATCH-QUALITY | 2 (4 commits) | ~28 min | ~7 min per task |
 | 12. HIGH-VALUE-SCRAPERS | 1 (5 commits) | ~30 min | ~30 min |
+| 13. VENDOR-OFFICIAL-SCRAPERS | 1 (6 commits) | ~4 min | ~4 min |
 
 ## Accumulated Context
 
@@ -75,14 +76,14 @@ Recent decisions:
 - Phase 10 completed: DedupEngine with UUID5 + multi-strategy matcher; scripts/ directory deleted; all scrapers migrated to BaseScraper framework
 - Phase 11 completed: BatchEnricher with checkpointing/crash recovery; QualityScorer with per-vendor fill rates, source diversity, and conflict metrics; API cursor pagination, lazy field loading, and caching headers
 - Phase 12 completed: TechPowerUp, NotebookCheck, and Geekbench Browser scrapers with 61 tests
+- Phase 13 completed: Qualcomm, MediaTek, Intel/AMD, and Apple Tech Specs scrapers with 71 tests
 
-### Key Decisions (Phase 12)
+### Key Decisions (Phase 13)
 
-- **TechPowerUp rate limit:** Hardware-concurrent rate (cpu_count//4 req/s) for fast scraping
-- **NotebookCheck rate limit:** 0.5 req/s, burst 2 (conservative due to broad robots.txt disallow)
-- **Geekbench rate limit:** 0.3 req/s, burst 1 (very conservative — 403-prone site)
-- **Geekbench dual parse:** JSON-LD first extraction, HTML result row fallback
-- **Vendor detection:** Name-prefix matching rather than explicit vendor parameter to handle mixed-vendor data
+- **AppleTechSpecsScraper as separate scraper:** Created as distinct source (source_id="apple_techspecs") rather than modifying the existing Wikipedia-based AppleScraper. Both are independently discoverable.
+- **Intel/AMD combined scraper:** Single IntelAMDScraper with shared parsing utilities (detect_vendor, parse_core_thread, parse_clock, etc.) since both Intel ARK and AMD product pages use similar spec table patterns.
+- **Apple Silicon knowledge base:** Built-in data for M1-M4 and A15-A18 Pro chips (CPU cores, GPU cores, Neural Engine, memory bandwidth, TDP) provides fallback data when Apple Tech Specs pages are unreachable.
+- **Conservative rate limits:** 0.5 req/s for Qualcomm and MediaTek official vendor sites (with burst 2) to be good citizens.
 
 ### Pending Todos
 
@@ -90,7 +91,7 @@ None yet.
 
 ### Blockers/Concerns
 
-None — Phase 12 complete.
+None — Phase 13 complete.
 
 ## Deferred Items
 
@@ -103,6 +104,6 @@ None — Phase 12 complete.
 
 ## Session Continuity
 
-Last session: 2026-07-19T20:00:00.000Z
-Stopped at: Phase 12 (High-Value Scrapers) — ✅ Completed
-Resume: Run `/gsd-plan-phase 13` to start Phase 13 planning
+Last session: 2026-07-19T20:23:00.000Z
+Stopped at: Phase 13 (Vendor Official Scrapers) — ✅ Completed
+Resume: Run `/gsd-plan-phase 14` to start Phase 14 planning
