@@ -9,8 +9,6 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from soc_db.enrich._vendor_data import VENDOR_KNOWLEDGE
-
 
 def infer_modem(chip: dict[str, Any]) -> dict[str, Any]:
     """Infer the modem for a chip based on vendor and year.
@@ -29,7 +27,6 @@ def infer_modem(chip: dict[str, Any]) -> dict[str, Any]:
     if not chip.get("modem") and chip.get("year"):
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
-        name_u = chip.get("name", "").upper()
         yr = chip["year"]
         if vendor == "Qualcomm":
             sm_match = re.search(r"(SM|SDM)(\d{4})", model_u)
@@ -47,26 +44,26 @@ def infer_modem(chip: dict[str, Any]) -> dict[str, Any]:
                     modem_by_gen = {3: "X70", 2: "X65", 1: "X60"}
                     if gen_num in modem_by_gen:
                         chip["modem"] = f"Snapdragon {modem_by_gen[gen_num]} 5G"
-            if not chip.get("modem") and chip["year"] >= 2019:
+            if not chip.get("modem") and yr >= 2019:
                 chip["modem"] = "Snapdragon 5G"
-            elif not chip.get("modem") and chip["year"] >= 2013:
+            elif not chip.get("modem") and yr >= 2013:
                 chip["modem"] = "Snapdragon 4G LTE"
         elif vendor == "MediaTek":
             if re.search(r"DIMENSITY", model_u) or re.search(r"MT\d{4}", model_u):
-                if chip["year"] >= 2020:
+                if yr >= 2020:
                     chip["modem"] = "MediaTek 5G"
-                elif chip["year"] >= 2015:
+                elif yr >= 2015:
                     chip["modem"] = "MediaTek 4G LTE"
         elif vendor == "Samsung" and re.search(r"EXYNOS", model_u):
-            if chip["year"] >= 2020:
+            if yr >= 2020:
                 chip["modem"] = "Exynos 5G"
-            elif chip["year"] >= 2014:
+            elif yr >= 2014:
                 chip["modem"] = "Exynos 4G LTE"
-        elif vendor == "Apple" and chip["year"] >= 2019:
+        elif vendor == "Apple" and yr >= 2019:
             chip["modem"] = "Apple 5G"
         elif vendor == "HiSilicon" and re.search(r"KIRIN", model_u):
-            if chip["year"] >= 2019:
+            if yr >= 2019:
                 chip["modem"] = "Balong 5G"
-            elif chip["year"] >= 2014:
+            elif yr >= 2014:
                 chip["modem"] = "Balong 4G LTE"
     return chip
