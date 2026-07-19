@@ -35,8 +35,8 @@ Requirements for v2.1 milestone. Each maps to roadmap phases.
 
 ### Wikidata Knowledge Sync (WIKIDATA)
 
-- [ ] **WIKIDATA-01**: Hardcoded `VENDOR_KNOWLEDGE` maps replaced with Wikidata SPARQL queries for process node, GPU, and architecture
-- [ ] **WIKIDATA-02**: Scheduled CI workflow refreshes vendor knowledge from Wikidata on weekly cadence
+- [x] **WIKIDATA-01**: Hardcoded `VENDOR_KNOWLEDGE` maps replaced with Wikidata SPARQL queries for process node, GPU, and architecture
+- [x] **WIKIDATA-02**: Scheduled CI workflow refreshes vendor knowledge from Wikidata on weekly cadence
 
 ## v2 Requirements
 
@@ -81,8 +81,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | RLIMIT-02 | Phase 4 | Complete |
 | OBSERVE-01 | Phase 5 | Pending |
 | OBSERVE-02 | Phase 5 | Pending |
-| WIKIDATA-01 | Phase 6 | Pending |
-| WIKIDATA-02 | Phase 6 | Pending |
+| WIKIDATA-01 | Phase 6 | Complete | src/soc_db/wikidata.py, src/soc_db/enrich/_vendor_data_wikidata.py |
+| WIKIDATA-02 | Phase 6 | Complete | .github/workflows/wikidata-refresh.yml |
 
 **Coverage:**
 

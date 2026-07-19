@@ -126,15 +126,15 @@ Plans:
 **Requirements**: WIKIDATA-01, WIKIDATA-02
 **Success Criteria** (what must be TRUE):
 
-  1. Enrichment pipeline uses Wikidata SPARQL queries for process node, GPU model, and architecture data instead of hardcoded dicts
-  2. Weekly CI workflow refreshes vendor knowledge from Wikidata
-  3. SPARQL results are validated before overwriting maps (dry-run mode available; never auto-publish without human review)
-  4. Failed SPARQL queries (timeout, empty results) don't corrupt existing vendor maps — retry with exponential backoff
+   1. Enrichment pipeline uses Wikidata SPARQL queries for process node, GPU model, and architecture data instead of hardcoded dicts
+   2. Weekly CI workflow refreshes vendor knowledge from Wikidata
+   3. SPARQL results are validated before overwriting maps (dry-run mode available; never auto-publish without human review)
+   4. Failed SPARQL queries (timeout, empty results) don't corrupt existing vendor maps — retry with exponential backoff
 
-**Plans**: 1 plan (01)
+**Plans**: 1/1 plan complete
 
 Plans:
-- [ ] 06-01-PLAN.md — Wikidata module + merge layer + CLI + CI workflow [Wave 1]
+- [x] 06-01-PLAN.md — Wikidata module + merge layer + CLI + CI workflow [Wave 1]
 
 ## Progress
 
@@ -147,4 +147,4 @@ Plans:
 | 3. ASYNC | 2/2 | Complete   | 2026-07-19 |
 | 4. RLIMIT | 0/2 | Planning (2 plans created) | - |
 | 5. OBSERVE | 0/2 | Planning (2 plans created) | - |
-| 6. WIKIDATA | 0/1 | Planning (1 plan created) | - |
+| 6. WIKIDATA | 1/1 | Complete   | 2026-07-19 |
