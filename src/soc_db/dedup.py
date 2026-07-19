@@ -15,7 +15,6 @@ import re
 import uuid as _uuid
 from typing import Any
 
-from soc_db.common import extract_model, slug
 from soc_db.enrich._vendor_data import VENDOR_KNOWLEDGE
 
 logger = logging.getLogger(__name__)
@@ -158,7 +157,9 @@ class DedupEngine:
         """
         if model and bool(re.search(r"[a-zA-Z0-9]", model)):
             return chip_uuid(vendor, model)
-        return slug(name, model)
+        from soc_db.common import slug as _slug  # noqa: PLC0415
+
+        return _slug(name, model)
 
     def match(
         self, chip: dict[str, Any], existing: dict[str, dict[str, Any]]
@@ -214,8 +215,10 @@ class DedupEngine:
                             return eid, "alias"
 
         # --- Strategy 3: vendor_model_regex ---
+        from soc_db.common import extract_model as _extract_model  # noqa: PLC0415
+
         combined = f"{chip_name} {chip_model}".strip()
-        extracted = extract_model(combined)
+        extracted = _extract_model(combined)
         if extracted:
             for eid, ec in _iter_existing():
                 ec_model = (ec.get("model") or "").strip().upper()
@@ -251,6 +254,14 @@ class DedupEngine:
 
             if best_id is not None:
                 return best_id, "fuzzy"
+
+        # --- Fallback: name match (preserves old _match_existing behavior) ---
+        if chip_name:
+            chip_name_lower = chip_name.lower()
+            for eid, ec in _iter_existing():
+                ec_name = (ec.get("name") or "").lower().strip()
+                if ec_name and ec_name == chip_name_lower:
+                    return eid, "name"
 
         return None, "no_match"
 
