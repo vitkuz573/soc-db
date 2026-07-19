@@ -28,6 +28,7 @@ _JSON_COLUMNS = frozenset({
     "rating",
     "benchmarks",
     "sources",
+    "provenance",
 })
 
 

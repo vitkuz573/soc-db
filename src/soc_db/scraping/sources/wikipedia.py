@@ -13,15 +13,15 @@ from typing import Any
 from bs4 import BeautifulSoup
 
 from soc_db.common import write_vendor_file
-from soc_db.scraping.base import BaseScraper, ChipScrapeResult
-from soc_db.scraping.drift import SchemaDriftDetector
-from soc_db.scraping.source import HTTPSource
 from soc_db.scraper_wikipedia import (
     WIKI_PAGES,
     _is_transposed_table,
     parse_standard_table,
     parse_transposed_table,
 )
+from soc_db.scraping.base import BaseScraper, ChipScrapeResult
+from soc_db.scraping.drift import SchemaDriftDetector
+from soc_db.scraping.source import HTTPSource
 
 logger = logging.getLogger(__name__)
 

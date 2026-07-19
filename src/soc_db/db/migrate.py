@@ -32,6 +32,7 @@ _JSON_COLUMNS = frozenset({
     "rating",
     "benchmarks",
     "sources",
+    "provenance",
 })
 
 # Chip model fields that are dates stored as ISO text
@@ -107,6 +108,38 @@ _CHIP_COLUMNS = [
     "tags",
     "rating",
     "benchmarks",
+    # v3.0 fields (Phase 9 — Provenance & Schema)
+    "market_segment",
+    "charging_max_w",
+    "wifi_version",
+    "modem_5g_mmwave",
+    "video_decode_av1",
+    "video_encode_av1",
+    "ai_int8_tops",
+    "ai_fp16_tflops",
+    "pcie_version",
+    "usb_version",
+    "bluetooth_version",
+    "satellite_connectivity",
+    "gnss",
+    "fingerprint",
+    "display_max_refresh",
+    "display_resolution",
+    "camera_max_mp",
+    "video_capture_max",
+    "isp_config",
+    "dsp_type",
+    "security",
+    "av1_decode",
+    "arm_cores_total",
+    "performance_cores",
+    "efficiency_cores",
+    "l2_cache",
+    "l3_cache",
+    "soc_id",
+    "package",
+    "die_size",
+    "provenance",
 ]
 
 _BATCH_SIZE = 500
