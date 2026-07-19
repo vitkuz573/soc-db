@@ -245,12 +245,15 @@ from soc_db.enrich._vendor_data import (
     VENDOR_KNOWLEDGE,
 )
 from soc_db.enrich._helpers import _has, clean
+from soc_db.enrich.aliases import infer_aliases
 from soc_db.enrich.connectivity import infer_bluetooth, infer_wifi
+from soc_db.enrich.cpu import infer_cpu
 from soc_db.enrich.gpu import infer_gpu
 from soc_db.enrich.memory import infer_memory
 from soc_db.enrich.modem import infer_modem
 from soc_db.enrich.npu import infer_npu
 from soc_db.enrich.process import infer_process
+from soc_db.enrich.scoring import compute_completeness
 from soc_db.enrich.storage import infer_storage
 from soc_db.enrich.year import infer_year
 
@@ -347,8 +350,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             chip["model"] = chip.get("id", "unknown")
     vk = VENDOR_KNOWLEDGE.get(chip.get("vendor", ""), {})
     model_upper = chip.get("model", "").upper()
-    if not chip.get("architecture") and vk.get("architecture"):
-        chip["architecture"] = vk["architecture"]
+    infer_cpu(chip)
     infer_memory(chip)      # first pass: clock/bus from type
     infer_process(chip)     # first pass: model-based lookup
     infer_gpu(chip)         # first pass: model-based lookup
@@ -369,33 +371,8 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
     infer_modem(chip)
     infer_wifi(chip)
     infer_bluetooth(chip)
-    if not chip.get("aliases"):
-        aliases = set()
-        name = chip.get("name", "")
-        model = chip.get("model", "")
-        if name and model and model not in name:
-            aliases.add(f"{name} ({model})")
-        codenames = {
-            "SM8250": ["Kona"],
-            "SM8350": ["Lahaina"],
-            "SM8450": ["Waipio"],
-            "SM8475": ["Waipio"],
-            "SM8550": ["Kalama"],
-            "SM8650": ["Pineapple"],
-            "SM8750": ["Pineapple"],
-        }
-        for key, alist in codenames.items():
-            if key.upper() in model_upper:
-                for a in alist:
-                    aliases.add(a)
-        if aliases:
-            chip["aliases"] = sorted(aliases)
-    w_total = sum(FIELD_WEIGHTS.get(f, 1) for _, flist in FIELD_GROUPS.items() for f in flist)
-    w_filled = sum(FIELD_WEIGHTS.get(f, 1) for _, flist in FIELD_GROUPS.items() for f in flist if _has(chip, f))
-    chip["completeness"] = round(w_filled / max(w_total, 1), 4)
-    if not chip.get("sources"):
-        chip["sources"] = {}
-    chip["updated"] = "2026-06-21"
+    infer_aliases(chip)
+    compute_completeness(chip)
     return chip
 
 
