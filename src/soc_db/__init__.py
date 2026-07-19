@@ -9,21 +9,27 @@ from __future__ import annotations
 __version__ = "2.1.0-dev"
 
 from soc_db.scraping import (
+    AppleScraper,
     BaseScraper,
     ChipScrapeResult,
     HTTPSource,
+    LinuxDTScraper,
     PerSourceRateLimiter,
     SchemaDriftDetector,
     SourceRegistry,
+    WikidataScraper,
     WikipediaScraper,
 )
 
 __all__ = [
+    "AppleScraper",
     "BaseScraper",
     "ChipScrapeResult",
     "HTTPSource",
+    "LinuxDTScraper",
     "PerSourceRateLimiter",
     "SchemaDriftDetector",
     "SourceRegistry",
+    "WikidataScraper",
     "WikipediaScraper",
 ]

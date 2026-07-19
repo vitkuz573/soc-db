@@ -11,15 +11,21 @@ from soc_db.scraping.drift import DriftReport, SchemaDriftDetector
 from soc_db.scraping.rate_limit import PerSourceRateLimiter
 from soc_db.scraping.registry import SourceRegistry
 from soc_db.scraping.source import HTTPSource
+from soc_db.scraping.sources.apple import AppleScraper
+from soc_db.scraping.sources.linux_dt import LinuxDTScraper
+from soc_db.scraping.sources.wikidata import WikidataScraper
 from soc_db.scraping.sources.wikipedia import WikipediaScraper
 
 __all__ = [
+    "AppleScraper",
     "BaseScraper",
     "ChipScrapeResult",
     "DriftReport",
     "HTTPSource",
+    "LinuxDTScraper",
     "PerSourceRateLimiter",
     "SchemaDriftDetector",
     "SourceRegistry",
+    "WikidataScraper",
     "WikipediaScraper",
 ]
