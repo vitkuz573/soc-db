@@ -154,11 +154,13 @@ def search(query: str, conn: sqlite3.Connection | None = None) -> list[dict[str,
             (fts_query,),
         ).fetchall()
     except sqlite3.OperationalError:
-        # FTS5 syntax error — fall back to LIKE
-        like_exprs = " AND ".join(
-            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR model LIKE '%{token}%' OR description LIKE '%{token}%')" for token in tokens
-        )  # noqa: E501
-        rows = c.execute(f"SELECT * FROM chips WHERE {like_exprs}").fetchall()
+        like_clauses: list[str] = []
+        like_params: list[str] = []
+        for token in tokens:
+            like_clauses.append("(name LIKE ? OR vendor LIKE ? OR model LIKE ? OR description LIKE ?)")
+            like_params.extend([f"%{token}%"] * 4)
+        like_exprs = " AND ".join(like_clauses)
+        rows = c.execute(f"SELECT * FROM chips WHERE {like_exprs}", like_params).fetchall()  # nosec B608 — parameters are ?-placeholders, not injected
 
     return [_row_to_dict(r) for r in rows]
 
@@ -367,7 +369,7 @@ def filter_chips(
     where_sql = " WHERE " + " AND ".join(all_clauses) if all_clauses else ""
 
     # Count
-    count_row = c.execute(f"SELECT COUNT(*) FROM chips{fts_join}{where_sql}", params).fetchone()
+    count_row = c.execute(f"SELECT COUNT(*) FROM chips{fts_join}{where_sql}", params).fetchone()  # nosec B608 — params are ?-placeholders
     total = count_row[0]
 
     # Sort
@@ -384,7 +386,7 @@ def filter_chips(
         limit_params = [limit, offset]
 
     rows = c.execute(
-        f"SELECT chips.* FROM chips{fts_join}{where_sql}{order_sql}{limit_sql}",
+        f"SELECT chips.* FROM chips{fts_join}{where_sql}{order_sql}{limit_sql}",  # nosec B608 — params are ?-placeholders
         params + limit_params,
     ).fetchall()
 
@@ -482,10 +484,13 @@ async def search_async(query: str, conn: aiosqlite.Connection | None = None) -> 
         )
         rows = await cursor.fetchall()
     except aiosqlite.OperationalError:
-        like_exprs = " AND ".join(
-            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR model LIKE '%{token}%' OR description LIKE '%{token}%')" for token in tokens
-        )
-        cursor = await c.execute(f"SELECT * FROM chips WHERE {like_exprs}")
+        like_clauses: list[str] = []
+        like_params: list[str] = []
+        for token in tokens:
+            like_clauses.append("(name LIKE ? OR vendor LIKE ? OR model LIKE ? OR description LIKE ?)")
+            like_params.extend([f"%{token}%"] * 4)
+        like_exprs = " AND ".join(like_clauses)
+        cursor = await c.execute(f"SELECT * FROM chips WHERE {like_exprs}", like_params)  # nosec B608 — parameters are ?-placeholders, not injected
         rows = await cursor.fetchall()
 
     return [_row_to_dict(r) for r in rows]

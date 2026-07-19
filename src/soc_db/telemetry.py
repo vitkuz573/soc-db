@@ -53,12 +53,14 @@ def instrument_app(app: FastAPI) -> None:
 
 
 def get_tracer() -> trace.Tracer:
-    assert _tracer is not None
+    if _tracer is None:
+        raise RuntimeError("Telemetry not initialized — call setup_telemetry() first")
     return _tracer
 
 
 def get_meter() -> metrics.Meter:
-    assert _meter is not None
+    if _meter is None:
+        raise RuntimeError("Telemetry not initialized — call setup_telemetry() first")
     return _meter
 
 
