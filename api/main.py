@@ -45,6 +45,15 @@ _rate_limit_lock = asyncio.Lock()
 @asynccontextmanager
 async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     setup_logging()
+    # Auto-migrate SQLite database on startup (unless using JSON fallback)
+    if not settings.use_json:
+        try:
+            from soc_db.db.migrate import ensure_migrated
+
+            ensure_migrated()
+            logger.info("SQLite database ready at %s", settings.db_path)
+        except Exception:
+            logger.warning("Could not initialise SQLite — falling back to JSON on first request", exc_info=True)
     _app.state._cache_buster = make_cache_buster()
     _app.state._chips = None
     _app.state._search_index: dict[str, list[int]] | None = None
@@ -158,6 +167,21 @@ def _build_search_index(chips: list[dict]) -> dict[str, list[int]]:
     return index
 
 
+def _load_all_dual() -> list[dict]:
+    """Load chips with dual-read (SQLite / JSON) fallback.
+
+    When ``settings.use_json`` is ``True``, reads from JSON vendor files.
+    Otherwise reads from the SQLite database (auto-migrating if needed).
+    """
+    if settings.use_json:
+        return load_all()
+    from soc_db.db.migrate import ensure_migrated
+    from soc_db.db.queries import get_all as _sql_get_all
+
+    ensure_migrated()
+    return _sql_get_all()
+
+
 async def load_all_async() -> list[dict]:
     """Async wrapper around :func:`load_all`."""
     return await asyncio.to_thread(load_all)
@@ -260,17 +284,34 @@ def _search_chips(chips: list[dict], q: str, index: dict[str, list[int]] | None)
 
 
 def get_chips():
-    """Return the cached chip list with TTL-based invalidation.
+    """Return the chip list with dual-read (SQLite / JSON) fallback.
 
-    Reloads from disk when the cache TTL has elapsed.
-    Also (re)builds the full-text search index on reload.
+    When ``settings.use_json`` is ``True``, uses the original JSON cache
+    with TTL-based invalidation and custom inverted search index.
+    When ``False`` (default), reads from SQLite directly — SQLite handles
+    caching internally and FTS5 provides search.
+
+    If the SQLite database is unavailable, falls back to the JSON path
+    and logs a warning.
     """
-    now = time.monotonic()
-    if app.state._chips is None or (now - app.state._cache_loaded_at) > settings.cache_ttl:
-        app.state._chips = load_all()
-        app.state._search_index = _build_search_index(app.state._chips)
-        app.state._cache_loaded_at = now
-    return app.state._chips
+    if settings.use_json:
+        now = time.monotonic()
+        if app.state._chips is None or (now - app.state._cache_loaded_at) > settings.cache_ttl:
+            app.state._chips = load_all()
+            app.state._search_index = _build_search_index(app.state._chips)
+            app.state._cache_loaded_at = now
+        return app.state._chips
+
+    # SQLite path — always fresh (SQLite handles caching internally)
+    try:
+        from soc_db.db.migrate import ensure_migrated
+        from soc_db.db.queries import get_all as _sql_get_all
+
+        ensure_migrated()
+        return _sql_get_all()
+    except Exception:
+        logger.warning("SQLite unavailable — falling back to JSON", exc_info=True)
+        return load_all()
 
 
 @app.get("/health", response_model=HealthResponse, tags=["infra"])
@@ -369,7 +410,11 @@ def list_chips(
     if vendor:
         chips = [c for c in chips if c.get("vendor", "").lower() == vendor.lower()]
     if q:
-        chips = _search_chips(chips, q, app.state._search_index)
+        if settings.use_json:
+            chips = _search_chips(chips, q, app.state._search_index)
+        else:
+            from soc_db.db.queries import search as _sq_search
+            chips = _sq_search(q)
     if arch:
         chips = [c for c in chips if arch.lower() in c.get("architecture", "").lower()]
     if gpu:
