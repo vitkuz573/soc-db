@@ -350,3 +350,90 @@ async def test_concurrent_requests_work(client):
         if isinstance(r, Exception):
             pytest.fail(f"Request to {urls[i]} failed: {r}")
         assert r.status_code == 200, f"URL {urls[i]} returned {r.status_code}"
+
+
+# ===========================================================================
+# Chip comparison endpoint (Phase 14)
+# ===========================================================================
+
+
+@pytest.mark.asyncio
+async def test_compare_chips(client):
+    """Compare two known chips — should return diffs."""
+    resp = await client.get("/v1/chips/sm8550_ac/compare?with=sm8250_ac")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "chip1" in data
+    assert "chip2" in data
+    assert "diffs" in data
+    assert "common_count" in data
+    assert "diff_count" in data
+    assert "total_compared_fields" in data
+    assert data["chip1"]["id"] == "sm8550_ac"
+    assert data["chip2"]["id"] == "sm8250_ac"
+    # Two different chips should have at least some diffs
+    assert data["diff_count"] > 0
+    assert data["total_compared_fields"] > 0
+    # Diffs should have field, value1, value2
+    for diff in data["diffs"]:
+        assert "field" in diff
+        assert "value1" in diff
+        assert "value2" in diff
+
+
+@pytest.mark.asyncio
+async def test_compare_chips_same(client):
+    """Compare a chip with itself — should have zero diffs."""
+    resp = await client.get("/v1/chips/sm8550_ac/compare?with=sm8550_ac")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["diff_count"] == 0
+    assert data["common_count"] == data["total_compared_fields"]
+
+
+@pytest.mark.asyncio
+async def test_compare_chips_not_found_chip1(client):
+    """404 when primary chip does not exist."""
+    resp = await client.get("/v1/chips/nonexistent/compare?with=sm8550_ac")
+    assert resp.status_code == 404
+    assert "not found" in resp.json()["detail"].lower()
+
+
+@pytest.mark.asyncio
+async def test_compare_chips_not_found_chip2(client):
+    """404 when comparison chip does not exist."""
+    resp = await client.get("/v1/chips/sm8550_ac/compare?with=nonexistent")
+    assert resp.status_code == 404
+    assert "not found" in resp.json()["detail"].lower()
+
+
+@pytest.mark.asyncio
+async def test_compare_chips_missing_with_param(client):
+    """400 when 'with' query param is missing."""
+    resp = await client.get("/v1/chips/sm8550_ac/compare")
+    assert resp.status_code == 422  # FastAPI validation error
+
+
+# ===========================================================================
+# Quality dashboard endpoint (Phase 14)
+# ===========================================================================
+
+
+@pytest.mark.asyncio
+async def test_quality_dashboard(client):
+    """GET /v1/quality returns quality report."""
+    await client.get("/v1/chips")  # warm cache
+    resp = await client.get("/v1/quality")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "summary" in data
+    assert "field_group_summary" in data
+    assert "vendors" in data
+    assert data["summary"]["total_chips"] > 0
+    assert data["summary"]["total_vendors"] > 0
+    # At least one vendor should have fill_rates, source_diversity, conflict
+    for vname, vdata in data["vendors"].items():
+        assert "fill_rates" in vdata
+        assert "source_diversity" in vdata
+        assert "conflict" in vdata
+        break  # just check the first vendor
