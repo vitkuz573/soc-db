@@ -2,19 +2,19 @@
 gsd_state_version: 1.0
 milestone: v2.1
 milestone_name: "Milestone: Full Enterprise Hardening"
-current_phase: 6
-current_phase_name: WIKIDATA — Wikidata Knowledge Sync
-status: complete
-stopped_at: Phase 6 complete — plan 06-01 (Wikidata SPARQL module, merge layer, CLI, CI)
-last_updated: "2026-07-19T13:30:00.000Z"
+current_phase: null
+current_phase_name: null
+status: milestone_complete
+stopped_at: "v2.1 shipped — all 6 phases complete"
+last_updated: "2026-07-19T13:50:00.000Z"
 last_activity: 2026-07-19
-last_activity_desc: Phase 6 executed — Wikidata Knowledge Sync complete
+last_activity_desc: "v2.1 milestone archived — Full Enterprise Hardening shipped"
 progress:
   total_phases: 6
-  completed_phases: 5
+  completed_phases: 6
   total_plans: 13
-  completed_plans: 10
-  percent: 83
+  completed_plans: 13
+  percent: 100
 ---
 
 # Project State
@@ -24,50 +24,39 @@ progress:
 See: .planning/PROJECT.md (updated 2026-07-19)
 
 **Core value:** Accurate, queryable, up-to-date SoC identification data that developers and tools can rely on as a single source of truth.
-**Current focus:** Phase 6 — WIKIDATA (Wikidata Knowledge Sync)
+**Current focus:** Planning next milestone (v2.2)
 
 ## Current Position
 
-Phase: 6 of 6 (WIKIDATA — Wikidata Knowledge Sync)
-Plan: 1 of 01 (complete)
-Status: Complete — Wikidata SPARQL module, merge layer, CLI, and CI
-Last activity: 2026-07-19 — Phase 6 executed (plan 06-01)
+Milestone v2.1 **shipped** — 6 phases, 13 plans complete.
 
-Progress: [████████░░] 83%
+Next: Run `/gsd-new-milestone` to plan v2.2.
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 10
-- Average duration: ~15 min
-- Total execution time: ~72 min
+- Total plans completed: 13
+- Total execution time: ~2 hours
+- Timeline: All phases completed 2026-07-19
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 03-async-async-data-layer | 2 | 2 | — |
-| 04-rlimit-redis-backed-rate-limiting | 2 | 2 | ~13.5 min |
-| 06-wikidata-wikidata-knowledge-sync | 1 | 1 | ~45 min |
-
-**Recent Trend:**
-
-- Last plan: ~45 min (06-01 — Wikidata SPARQL + merge + CLI + CI)
-
-*Updated after each plan completion*
-| Phase 03-async-async-data-layer 03-01 | 1494s | 3 tasks | 6 files |
-| Phase 03-async-async-data-layer 03-02 | 1494s | 3 tasks | 6 files |
-| Phase 04-rlimit-redis-backed-rate-limiting 04-01 | ~12 min | 3 tasks (1 checkpoint) | 4 files |
-| Phase 04-rlimit-redis-backed-rate-limiting 04-02 | ~15 min | 2 tasks | 4 files |
-| Phase 06-wikidata-wikidata-knowledge-sync 06-01 | ~45 min | 3 tasks | 11 files |
+| 1. REFAC | 4 | — | — |
+| 2. DB | 2 | — | — |
+| 3. ASYNC | 2 | ~25 min | ~12.5 min |
+| 4. RLIMIT | 2 | ~27 min | ~13.5 min |
+| 5. OBSERVE | 2 | — | — |
+| 6. WIKIDATA | 1 | ~45 min | ~45 min |
 
 ## Accumulated Context
 
 ### Decisions
 
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
+Full decision log in PROJECT.md Key Decisions table.
+Recent decisions:
 
 - AsyncConnectionPool with Semaphore-based throttling (default pool size 5)
 - Async functions use optional conn parameter — caller manages lifecycle
@@ -76,12 +65,11 @@ Recent decisions affecting current work:
 - Pin redis[hiredis]>=5.0,<8.0 to avoid RESP3 protocol breakage with hiredis C parser
 - In-memory fallback ships in same PR as Redis (transparent degradation)
 - socket_connect_timeout=2 prevents hang on unreachable Redis
-- Rate limit headers added AFTER call_next for allowed requests (wraps real response)
-- try/except around limiter.check() prevents any Redis/limiter exception from causing 5xx
-- SOC_DB_USE_WIKIDATA=false by default — Wikidata mode is opt-in, all existing tests pass unchanged
-- Wikidata takes precedence for known items; overrides in data/vendor_overrides.json win over everything
+- Rate limit headers added AFTER call_next for allowed requests
+- try/except around limiter.check() prevents any exception from causing 5xx
+- SOC_DB_USE_WIKIDATA=false by default — Wikidata mode is opt-in
+- Wikidata takes precedence for known items; overrides win over everything
 - Lazy import pattern for SPARQLWrapper — only loaded when Wikidata mode is active
-- In-place VENDOR_KNOWLEDGE dict mutation so all consumers see merged data
 - Weekly CI workflow runs dry-run by default, creates PR never auto-publishes
 
 ### Pending Todos
@@ -90,16 +78,19 @@ None yet.
 
 ### Blockers/Concerns
 
-None yet.
+None.
 
-## Deferred Items
+### Deferred Items
 
 | Category | Item | Status | Deferred At |
 |----------|------|--------|-------------|
 | Idea | Auto-PR workflow for data corrections | deferred | Phase 6 CONTEXT.md |
+| Tech Debt | OTel overhead benchmark (Success Criterion 5.4) | deferred | Milestone audit |
+| Tech Debt | FTS5 search quality comparison vs v2.0 index | deferred | Milestone audit |
+| Tech Debt | Module-level mutable VENDOR_KNOWLEDGE | deferred | Milestone audit |
 
 ## Session Continuity
 
-Last session: 2026-07-19T13:30:00.000Z
-Stopped at: Phase 6 complete — all phases complete
-Resume file: None
+Last session: 2026-07-19
+Stopped at: v2.1 shipped — Full Enterprise Hardening complete
+Resume: Run `/gsd-new-milestone` to start v2.2 planning

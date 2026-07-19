@@ -1,16 +1,18 @@
 # SoC Database (soc-db)
 
-## Current Milestone: v2.1 Full Enterprise Hardening
+## Current State: v2.1 Full Enterprise Hardening — SHIPPED
 
-**Goal:** Transform soc-db into production-grade infrastructure — no shims, no shortcuts, no technical debt accumulation.
+**Completed:** 2026-07-19 | **6 phases, 13 plans, 209 files changed**
 
-**Target features:**
-- REFAC: Split monolithic enrichment into per-domain modules with snapshot regression
-- DB: SQLite with FTS5 replacing flat JSON, dual-read rollback
-- ASYNC: Non-blocking async data layer via aiosqlite
-- RLIMIT: Redis-backed rate limiter with in-memory fallback
-- OBSERVE: OpenTelemetry tracing + Prometheus business metrics
-- WIKIDATA: Dynamic vendor knowledge from Wikidata SPARQL
+All six enterprise hardening workstreams shipped:
+- ✅ **REFAC**: Monolithic enrichment split into 14 per-domain modules with snapshot regression
+- ✅ **DB**: SQLite with FTS5 replacing flat JSON, dual-read JSON rollback via `SOC_DB_USE_JSON`
+- ✅ **ASYNC**: Non-blocking async data layer via aiosqlite with TTL-based chip cache
+- ✅ **RLIMIT**: Redis-backed rate limiter with transparent in-memory fallback
+- ✅ **OBSERVE**: OpenTelemetry tracing + Prometheus business metrics at `/metrics`
+- ✅ **WIKIDATA**: Dynamic vendor knowledge from Wikidata SPARQL with weekly CI refresh
+
+**Next:** Planning v2.2 — Enterprise Delivery (CI/CD, Data Quality, API Mesh, Plugins)
 
 ## What This Is
 
@@ -35,22 +37,23 @@ Accurate, queryable, up-to-date SoC identification data that developers and tool
 - ✓ CI pipeline (lint, typecheck, test, validate, security) — v2.0.0
 - ✓ Pre-commit hooks — v2.0.0
 - ✓ Structured JSON logging — v2.0.0
+- ✓ Per-domain enrichment modules (cpu, gpu, memory, year, modem) — v2.1
+- ✓ Snapshot test for ALL 1746 chips before/after refactoring — v2.1
+- ✓ SQLite database with zero-data-loss JSON migration — v2.1
+- ✓ FTS5 full-text search — v2.1
+- ✓ Dual-read mode via `SOC_DB_USE_JSON=true` — v2.1
+- ✓ Async database access via aiosqlite for API — v2.1
+- ✓ Async chip cache with TTL-based invalidation — v2.1
+- ✓ Redis-backed sliding window rate limiter — v2.1
+- ✓ In-memory fallback when Redis unavailable — v2.1
+- ✓ OpenTelemetry tracing for FastAPI + core library — v2.1
+- ✓ Prometheus business metrics endpoint — v2.1
+- ✓ Replace hardcoded VENDOR_KNOWLEDGE with Wikidata SPARQL — v2.1
+- ✓ Weekly CI refresh of vendor knowledge — v2.1
 
 ### Active
 
-- [ ] **REFAC-01**: Per-domain enrichment modules (cpu, gpu, memory, year, modem)
-- [ ] **REFAC-02**: Snapshot test for ALL 1746 chips before/after refactoring
-- [ ] **DB-01**: SQLite database with zero-data-loss JSON migration
-- [ ] **DB-02**: FTS5 full-text search
-- [ ] **DB-03**: Dual-read mode via `SOC_DB_USE_JSON=true`
-- [ ] **ASYNC-01**: Async database access via aiosqlite for API
-- [ ] **ASYNC-02**: Async chip cache with TTL-based invalidation
-- [ ] **RLIMIT-01**: Redis-backed sliding window rate limiter
-- [ ] **RLIMIT-02**: In-memory fallback when Redis unavailable
-- [ ] **OBSERVE-01**: OpenTelemetry tracing for FastAPI + core library
-- [ ] **OBSERVE-02**: Prometheus business metrics endpoint
-- [ ] **WIKIDATA-01**: Replace hardcoded VENDOR_KNOWLEDGE with Wikidata SPARQL
-- [ ] **WIKIDATA-02**: Weekly CI refresh of vendor knowledge
+(Next milestone requirements TBD — run `/gsd-new-milestone`)
 
 ### Out of Scope
 
@@ -61,7 +64,7 @@ Accurate, queryable, up-to-date SoC identification data that developers and tool
 
 ## Context
 
-Codebase is mature (v2.0.0 shipped) with strong CI, 100% coverage, and comprehensive codebase maps. Well-documented technical debt in CONCERNS.md: monolithic enrichment function (800+ lines), flat JSON file store, hardcoded vendor knowledge, synchronous I/O in API, in-memory rate limiter, no observability stack. The 10 improvement workstreams in v2.1 pay down this debt enterprise-style — no shims, no shortcuts.
+Codebase shipped v2.1 with all six enterprise hardening workstreams complete. Technical debt from v2.0 fully paid down: enrichment now modular (14 domain modules), data stored in SQLite with FTS5, async data layer via aiosqlite, Redis-backed rate limiting with fallback, OpenTelemetry tracing + Prometheus metrics, and dynamic Wikidata SPARQL vendor knowledge. Codebase at ~103K LOC added across 209 files. All 558 tests pass. Next focus: v2.2 Enterprise Delivery — CI/CD unification, data quality, API Mesh, and plugins.
 
 ## Constraints
 
@@ -75,11 +78,13 @@ Codebase is mature (v2.0.0 shipped) with strong CI, 100% coverage, and comprehen
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| SQLite as database backend | Built-in, zero-dependency, FTS5, `aiosqlite` for async | — Pending |
-| `aiosqlite` for async access | Native async, no thread pool, battle-tested | — Pending |
-| Redis for rate limiter shared state | Multi-worker safe without sticky sessions | — Pending |
-| OpenTelemetry SDK + Prometheus | Industry standard, no vendor lock-in | — Pending |
-| Wikidata SPARQL for vendor knowledge | Authoritative, auto-updating, no manual maps | — Pending |
+| SQLite as database backend | Built-in, zero-dependency, FTS5, `aiosqlite` for async | ✅ Good — 1761 chips migrated, 0 data loss |
+| `aiosqlite` for async access | Native async, no thread pool, battle-tested | ✅ Good — `AsyncConnectionPool` with Semaphore throttling |
+| Redis for rate limiter shared state | Multi-worker safe without sticky sessions | ✅ Good — sliding window via sorted sets with in-memory fallback |
+| OpenTelemetry SDK + Prometheus | Industry standard, no vendor lock-in | ✅ Good — FastAPI auto-instrumentation, `/metrics` endpoint |
+| Wikidata SPARQL for vendor knowledge | Authoritative, auto-updating, no manual maps | ✅ Good — 22 vendor QIDs, exponential backoff, TTL caching |
+| Per-domain enrichment modules | Replace monolithic `enrich_one()` with domain experts | ✅ Good — 14 modules, snapshot regression on 1746 chips |
+| In-place VENDOR_KNOWLEDGE mutation | All consumers see merged data without import changes | ⚠️ Revisit — module-level mutable state causes test isolation issues |
 
 ## Evolution
 
@@ -99,4 +104,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-07-19 after v2.1 milestone start*
+*Last updated: 2026-07-19 after v2.1 milestone completion*
