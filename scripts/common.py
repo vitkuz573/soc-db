@@ -14,6 +14,20 @@ CACHE_DIR = Path("/tmp/soc-db-cache")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DOCS_DIR = REPO_ROOT / "docs"
+
+
+def guard_path(path: Path) -> None:
+    """Reject writes to the docs/ directory (GitHub Pages integrity)."""
+    resolved = Path(path).resolve()
+    docs_resolved = DOCS_DIR.resolve()
+    if docs_resolved in resolved.parents or resolved == docs_resolved:
+        raise PermissionError(
+            f"CRITICAL: Write to docs/ blocked — GitHub Pages integrity. "
+            f"Path: {resolved}"
+        )
+
 
 def fetch(url: str, ttl: int = 86400) -> str:
     key = hashlib.md5(url.encode()).hexdigest()
@@ -25,6 +39,7 @@ def fetch(url: str, ttl: int = 86400) -> str:
     req = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(req, timeout=30) as resp:
         data = resp.read().decode("utf-8")
+    guard_path(cache_file)
     cache_file.write_text(data, "utf-8")
     time.sleep(1)
     return data

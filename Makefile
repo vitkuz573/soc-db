@@ -27,7 +27,7 @@ test-cov:
 security:
 	bandit -r src/ -x tests/
 
-ci: lint typecheck security test validate
+ci: lint typecheck security test validate check-docs-guard
 
 ## ── Data ──────────────────────────────────────────────────────
 
@@ -63,6 +63,10 @@ docker-run:
 
 cli:
 	@python -m soc_db.cli $(filter-out $@,$(MAKECMDGOALS))
+
+check-docs-guard:
+	python tests/check_docs_guard.py
+	python -m pytest tests/unit/test_common.py::TestGuardPath -x --no-header -q
 
 ## ── Deployment ────────────────────────────────────────────────
 

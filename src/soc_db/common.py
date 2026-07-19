@@ -45,6 +45,30 @@ CACHE_DIR = Path(os.environ.get("SOC_DB_CACHE_DIR", tempfile.gettempdir())) / "s
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+DOCS_DIR = REPO_ROOT / "docs"
+
+
+def guard_path(path: Path) -> None:
+    """Reject writes to the docs/ directory (GitHub Pages integrity).
+
+    Called before every file write in the data pipeline. Raises
+    PermissionError if the resolved path falls under DOCS_DIR.
+
+    Args:
+        path: The destination file path to check.
+
+    Raises:
+        PermissionError: If path resolves inside DOCS_DIR.
+    """
+    resolved = Path(path).resolve()
+    docs_resolved = DOCS_DIR.resolve()
+    if docs_resolved in resolved.parents or resolved == docs_resolved:
+        raise PermissionError(
+            f"CRITICAL: Write to docs/ blocked — GitHub Pages integrity. "
+            f"Path: {resolved}"
+        )
+
 
 def fetch(url: str, ttl: int = 86400) -> str:
     """Fetch a URL with caching.
@@ -69,6 +93,7 @@ def fetch(url: str, ttl: int = 86400) -> str:
     req = Request(url, headers={"User-Agent": USER_AGENT})
     with urlopen(req, timeout=30) as resp:  # nosec - controlled URLs only
         data: str = resp.read().decode("utf-8")
+    guard_path(cache_file)
     cache_file.write_text(data, "utf-8")
     time.sleep(1)
     return data
@@ -254,6 +279,7 @@ def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
         removed += 1
     output = sorted(existing.values(), key=lambda x: (x.get("year", 9999), x["name"]))
     output = enrich_all(output)
+    guard_path(fpath)
     fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
     logger.info("%s: %d entries (%d new, %d updated, %d pruned)", vfile, len(output), added, updated, removed)
 
