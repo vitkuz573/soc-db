@@ -81,10 +81,12 @@ class InMemoryRateLimiter:
             while bucket and bucket[0] < cutoff:
                 bucket.pop(0)
             count = len(bucket)
-            remaining = max(0, self._limit - count)
-            allowed = remaining > 0
+            allowed = count < self._limit
             if allowed:
                 bucket.append(now)
+                remaining = max(0, self._limit - count - 1)
+            else:
+                remaining = 0
             reset_time = cutoff + self._window
         return (allowed, self._limit, remaining, reset_time)
 
@@ -200,6 +202,7 @@ class RedisRateLimiter:
         if self._redis is not None:
             await self._redis.aclose()
             self._redis = None
+        self._connected = False
 
 
 # ---------------------------------------------------------------------------

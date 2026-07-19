@@ -20,13 +20,13 @@ Requirements for v2.1 milestone. Each maps to roadmap phases.
 
 ### Async Data Layer (ASYNC)
 
-- [ ] **ASYNC-01**: API server uses async database access via aiosqlite without blocking the event loop
-- [ ] **ASYNC-02**: Chip cache (`get_chips()`) operates asynchronously with TTL-based invalidation
+- [x] **ASYNC-01**: API server uses async database access via aiosqlite without blocking the event loop
+- [x] **ASYNC-02**: Chip cache (`get_chips()`) operates asynchronously with TTL-based invalidation
 
 ### Rate Limiting (RLIMIT)
 
-- [ ] **RLIMIT-01**: Rate limiter uses Redis as shared backend for multi-worker deployment
-- [ ] **RLIMIT-02**: Rate limiter falls back to in-memory mode transparently when Redis is unavailable
+- [x] **RLIMIT-01**: Rate limiter uses Redis as shared backend for multi-worker deployment
+- [x] **RLIMIT-02**: Rate limiter falls back to in-memory mode transparently when Redis is unavailable
 
 ### Observability (OBSERVE)
 
@@ -75,16 +75,17 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DB-01 | Phase 2 | Pending |
 | DB-02 | Phase 2 | Pending |
 | DB-03 | Phase 2 | Pending |
-| ASYNC-01 | Phase 3 | Pending |
-| ASYNC-02 | Phase 3 | Pending |
-| RLIMIT-01 | Phase 4 | Pending |
-| RLIMIT-02 | Phase 4 | Pending |
+| ASYNC-01 | Phase 3 | Complete |
+| ASYNC-02 | Phase 3 | Complete |
+| RLIMIT-01 | Phase 4 | Complete |
+| RLIMIT-02 | Phase 4 | Complete |
 | OBSERVE-01 | Phase 5 | Pending |
 | OBSERVE-02 | Phase 5 | Pending |
 | WIKIDATA-01 | Phase 6 | Pending |
 | WIKIDATA-02 | Phase 6 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 13 total
 - Mapped to phases: 13
 - Unmapped: 0

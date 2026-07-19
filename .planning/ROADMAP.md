@@ -16,7 +16,7 @@ This milestone transforms soc-db from a proven v2.0 monolith into an enterprise-
 - [ ] **Phase 1: REFAC — Enrichment Module Extraction** — Extract 700-line `enrich_one()` into per-domain modules with snapshot regression test
 - [ ] **Phase 2: DB — SQLite Database Migration** — Replace flat JSON with SQLite, FTS5 search, and dual-read rollback
 - [x] **Phase 3: ASYNC — Async Data Layer** — Non-blocking async database access via `aiosqlite` with async chip cache (completed 2026-07-19)
-- [ ] **Phase 4: RLIMIT — Redis-Backed Rate Limiting** — Shared rate limiter for multi-worker deployment with transparent in-memory fallback
+- [x] **Phase 4: RLIMIT — Redis-Backed Rate Limiting** — Shared rate limiter for multi-worker deployment with transparent in-memory fallback (completed 2026-07-19)
 - [ ] **Phase 5: OBSERVE — OpenTelemetry Observability** — OpenTelemetry traces and Prometheus business metrics
 - [ ] **Phase 6: WIKIDATA — Wikidata Knowledge Sync** — Dynamic vendor knowledge maps from Wikidata SPARQL with scheduled CI refresh
 
@@ -94,12 +94,12 @@ Plans:
   3. Health endpoint reports Redis connectivity status
   4. Rate limit headers (X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset) present in API responses
 
-**Plans**: 2 plans (01–02)
+**Plans**: 2/2 plans complete
 
 Plans:
 
-- [ ] 04-01-PLAN.md — Core rate limiter library (rate_limit.py, config, dep, unit tests) [Wave 1]
-- [ ] 04-02-PLAN.md — API integration (middleware, health, headers, integration tests, docker-compose) [Wave 2]
+- [x] 04-01-PLAN.md — Core rate limiter library (rate_limit.py, config, dep, unit tests) [Wave 1]
+- [x] 04-02-PLAN.md — API integration (middleware, health, headers, integration tests, docker-compose) [Wave 2]
 
 ### Phase 5: OBSERVE — OpenTelemetry Observability
 
