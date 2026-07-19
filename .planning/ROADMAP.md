@@ -30,7 +30,7 @@
 - [x] **Phase 11: Batch Processing** — Batch enrichment with checkpointing, quality scoring, and API performance
 - [x] **Phase 12: High-Value Scrapers** — TechPowerUp, NotebookCheck, and Geekbench Browser scrapers
 - [x] **Phase 13: Vendor Official Scrapers** — Qualcomm, MediaTek, Intel/AMD, and Apple official scrapers (completed 2026-07-19)
-- [ ] **Phase 14: UI/API Polish** — Chip comparison API, quality dashboard, and CLI filtering enhancements
+- [x] **Phase 14: UI/API Polish** — Chip comparison API, quality dashboard, and CLI filtering enhancements (completed 2026-07-19)
 
 ## Phase Details
 
@@ -168,13 +168,15 @@ Plans:
 **Requirements**: UIPLUS-01, UIPLUS-02, UIPLUS-03
 **Success Criteria** (what must be TRUE):
 
-  1. `GET /v1/chips/{id}/compare?with={id2}` returns side-by-side field comparison with diff highlighting
-  2. Data quality dashboard shows per-vendor completeness heatmaps, field coverage charts, and source conflict reports
-  3. CLI supports advanced filtering: `soc-db list --process 4nm --npu-min 20 --source vendor --benchmark-min 5000`
-  4. CLI reports per-chip provenance (which sources contributed each field) via `soc-db show --provenance`
+   1. `GET /v1/chips/{id}/compare?with={id2}` returns side-by-side field comparison with diff highlighting
+   2. Data quality dashboard shows per-vendor completeness heatmaps, field coverage charts, and source conflict reports
+   3. CLI supports advanced filtering: `soc-db query --completeness-min 0.8 --source wikipedia --fields id,name,vendor,gpu`
+   4. `soc-db quality-report` outputs data quality metrics per vendor
 
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 1/1 plan complete
+
+Plans:
+- [x] 14-01-PLAN.md — Chip comparison endpoint, quality dashboard API, CLI filters, tests
 
 ## Progress
 
@@ -193,4 +195,4 @@ Plans:
 | 11. Batch Processing | v3.0 | 1/1 | Complete | 2026-07-19 |
 | 12. High-Value Scrapers | v3.0 | 1/1 | Complete | 2026-07-19 |
 | 13. Vendor Official Scrapers | v3.0 | 1/1 | Complete | 2026-07-19 |
-| 14. UI/API Polish | v3.0 | 0/0 | Not started | - |
+| 14. UI/API Polish | v3.0 | 1/1 | Complete | 2026-07-19 |

@@ -49,9 +49,9 @@
 
 ### UI/API Polish (UIPLUS)
 
-- [ ] **UIPLUS-01**: Chip comparison API endpoint (`/v1/compare`)
-- [ ] **UIPLUS-02**: Data quality dashboard view
-- [ ] **UIPLUS-03**: CLI filters for completeness, source, vendor
+- [x] **UIPLUS-01**: Chip comparison API endpoint (`/v1/compare`)
+- [x] **UIPLUS-02**: Data quality dashboard view
+- [x] **UIPLUS-03**: CLI filters for completeness, source, vendor
 
 ## v2 Requirements
 
@@ -96,9 +96,9 @@ Deferred to future release. Tracked but not in current roadmap.
 | VENDOR-02 | Phase 13 | Pending |
 | VENDOR-03 | Phase 13 | Pending |
 | VENDOR-04 | Phase 13 | Pending |
-| UIPLUS-01 | Phase 14 | Pending |
-| UIPLUS-02 | Phase 14 | Pending |
-| UIPLUS-03 | Phase 14 | Pending |
+| UIPLUS-01 | Phase 14 | Complete |
+| UIPLUS-02 | Phase 14 | Complete |
+| UIPLUS-03 | Phase 14 | Complete |
 
 **Coverage:**
 
