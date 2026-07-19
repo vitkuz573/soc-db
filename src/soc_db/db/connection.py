@@ -1,19 +1,19 @@
 """SQLite connection management.
 
 Provides synchronous connection opening with WAL mode, Row factory,
-and a module-level cached connection for reuse within a process.
+and a per-thread cached connection for reuse within a process.
 """
 
 from __future__ import annotations
 
 import sqlite3
+import threading
 from pathlib import Path
-from typing import Optional
 
 from soc_db.config import settings
 
-_connection_cache: sqlite3.Connection | None = None
-"""Module-level cached connection.  Cleared when SOC_DB_USE_JSON toggles."""
+_thread_local = threading.local()
+"""Thread-local storage for the cached connection."""
 
 
 def get_db_path() -> Path:
@@ -54,11 +54,12 @@ def get_connection(db_path: Path | str | None = None) -> sqlite3.Connection:
 
 
 def get_connection_cached(db_path: Path | str | None = None) -> sqlite3.Connection:
-    """Return a module-level cached connection.
+    """Return a per-thread cached connection.
 
-    Creates the connection on first call and reuses it for subsequent
-    calls.  The cache is a plain module variable — it persists for the
-    lifetime of the process.
+    Creates the connection on first call per thread and reuses it for
+    subsequent calls within the same thread.  The cache uses
+    ``threading.local()`` so connections are not shared across threads
+    (SQLite connections are not thread-safe).
 
     Args:
         db_path: Path to the database file.  ``None`` uses the default.
@@ -66,19 +67,20 @@ def get_connection_cached(db_path: Path | str | None = None) -> sqlite3.Connecti
     Returns:
         An open :class:`sqlite3.Connection`.
     """
-    global _connection_cache
-    if _connection_cache is None:
-        _connection_cache = get_connection(db_path)
-    return _connection_cache
+    conn = getattr(_thread_local, "cached_connection", None)
+    if conn is None:
+        conn = get_connection(db_path)
+        _thread_local.cached_connection = conn
+    return conn
 
 
 def clear_connection_cache() -> None:
-    """Close and clear the cached connection.
+    """Close and clear the per-thread cached connection.
 
     Call when ``SOC_DB_USE_JSON`` transitions to allow a fresh connection
-    to be created on the next call.
+    to be created on the next call in the current thread.
     """
-    global _connection_cache
-    if _connection_cache is not None:
-        _connection_cache.close()
-        _connection_cache = None
+    conn = getattr(_thread_local, "cached_connection", None)
+    if conn is not None:
+        conn.close()
+        _thread_local.cached_connection = None

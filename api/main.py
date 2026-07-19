@@ -319,14 +319,19 @@ def health():
     """Liveness & readiness probe.
 
     Returns HTTP 200 when the application is healthy, HTTP 503 when the
-    chip cache has not been loaded yet.
+    chip cache has not been loaded yet (JSON mode only — SQLite mode
+    doesn't use a cache and is always ready when the database exists).
     """
-    if app.state._chips is None:
-        return JSONResponse({"status": "not ready", "uptime": time.time() - app.state._started_at}, status_code=503)
+    if settings.use_json:
+        if app.state._chips is None:
+            return JSONResponse({"status": "not ready", "uptime": time.time() - app.state._started_at}, status_code=503)
+        chips_cached = len(app.state._chips)
+    else:
+        chips_cached = 0
     return {
         "status": "healthy",
         "uptime": round(time.time() - app.state._started_at, 2),
-        "chips_cached": len(app.state._chips),
+        "chips_cached": chips_cached,
         "version": app.version,
     }
 

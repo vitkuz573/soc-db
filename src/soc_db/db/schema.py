@@ -14,7 +14,7 @@ import sqlite3
 
 CHIPS_TABLE_DDL = """
 CREATE TABLE IF NOT EXISTS chips (
-    id TEXT PRIMARY KEY,
+    id TEXT NOT NULL PRIMARY KEY,
     name TEXT NOT NULL,
     vendor TEXT NOT NULL,
     model TEXT,

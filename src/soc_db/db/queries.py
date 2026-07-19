@@ -43,7 +43,7 @@ def _row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
     semantics where absent keys produce None in Pydantic).
     """
     result: dict[str, Any] = {}
-    for key in row.keys():
+    for key in row.keys():  # noqa: SIM118 — sqlite3.Row doesn't iterate keys
         val = row[key]
         if val is None:
             continue
@@ -193,7 +193,7 @@ def get_stats(conn: sqlite3.Connection | None = None) -> dict[str, Any]:
     """
     if settings.use_json:
         chips = _load_json_fallback()
-        vcount = len(set(c.get("vendor", "") for c in chips))
+        vcount = len({c.get("vendor", "") for c in chips})
         years = [c.get("year") for c in chips if c.get("year")]
         comps = [c.get("completeness", 0) for c in chips]
         return {
@@ -309,10 +309,7 @@ def filter_chips(
             reverse = order == "desc"
             chips = sorted(chips, key=lambda c: c.get(sort, "") or "", reverse=reverse)
         total = len(chips)
-        if limit:
-            chips = chips[offset: offset + limit]
-        else:
-            chips = chips[offset:]
+        chips = chips[offset:offset + limit] if limit else chips[offset:]
         return chips, total
 
     # --- SQLite path ---
@@ -347,19 +344,19 @@ def filter_chips(
 
     # Search via FTS5
     fts_join = ""
-    fts_where = ""
+    fts_clause: str | None = None
     if search_query:
         tokens = search_query.strip().split()
         if tokens:
             fts_query = " AND ".join(tokens)
             fts_join = " JOIN chips_fts ON chips.rowid = chips_fts.rowid"
-            fts_where = " AND chips_fts MATCH ?"
+            fts_clause = "chips_fts MATCH ?"
             params.append(fts_query)
 
-    where_sql = ""
-    if where_clauses or fts_where:
-        all_clauses = where_clauses + ([fts_where.lstrip(" AND ")] if fts_where else [])
-        where_sql = " WHERE " + " AND ".join(all_clauses)
+    all_clauses = list(where_clauses)
+    if fts_clause:
+        all_clauses.append(fts_clause)
+    where_sql = " WHERE " + " AND ".join(all_clauses) if all_clauses else ""
 
     # Count
     count_row = c.execute(f"SELECT COUNT(*) FROM chips{fts_join}{where_sql}", params).fetchone()

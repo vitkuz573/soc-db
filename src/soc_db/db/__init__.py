@@ -8,7 +8,9 @@ from __future__ import annotations
 
 # Core infrastructure — safe to import immediately
 from soc_db.db.connection import clear_connection_cache, get_connection, get_connection_cached, get_db_path
-from soc_db.db.schema import create_tables, create_fts_index, drop_tables, rebuild_fts
+
+# Migration
+from soc_db.db.migrate import ensure_migrated, migrate, validate_migration
 
 # Query functions — lazily resolved on first access
 from soc_db.db.queries import (
@@ -19,9 +21,7 @@ from soc_db.db.queries import (
     get_vendors,
     search,
 )
-
-# Migration
-from soc_db.db.migrate import ensure_migrated, migrate, validate_migration
+from soc_db.db.schema import create_fts_index, create_tables, drop_tables, rebuild_fts
 
 __all__ = [
     "clear_connection_cache",

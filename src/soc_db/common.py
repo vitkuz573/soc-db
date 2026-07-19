@@ -17,6 +17,27 @@ from pathlib import Path
 from typing import Any
 from urllib.request import Request, urlopen
 
+# Re-exports from per-domain enrichment modules (used by external callers)
+from soc_db.enrich._helpers import _has, clean  # noqa: F401
+from soc_db.enrich._vendor_data import (  # noqa: F401
+    FIELD_GROUPS,
+    FIELD_WEIGHTS,
+    MEMORY_CLOCK_FROM_TYPE,
+    VENDOR_FILES,
+    VENDOR_KNOWLEDGE,
+)
+from soc_db.enrich.aliases import infer_aliases  # noqa: F401
+from soc_db.enrich.connectivity import infer_bluetooth, infer_wifi  # noqa: F401
+from soc_db.enrich.cpu import infer_cpu  # noqa: F401
+from soc_db.enrich.gpu import infer_gpu  # noqa: F401
+from soc_db.enrich.memory import infer_memory  # noqa: F401
+from soc_db.enrich.modem import infer_modem  # noqa: F401
+from soc_db.enrich.npu import infer_npu  # noqa: F401
+from soc_db.enrich.process import infer_process  # noqa: F401
+from soc_db.enrich.scoring import compute_completeness  # noqa: F401
+from soc_db.enrich.storage import infer_storage  # noqa: F401
+from soc_db.enrich.year import infer_year  # noqa: F401
+
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
@@ -235,27 +256,6 @@ def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
     output = enrich_all(output)
     fpath.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", "utf-8")
     logger.info("%s: %d entries (%d new, %d updated, %d pruned)", vfile, len(output), added, updated, removed)
-
-
-from soc_db.enrich._vendor_data import (
-    FIELD_GROUPS,
-    FIELD_WEIGHTS,
-    MEMORY_CLOCK_FROM_TYPE,
-    VENDOR_FILES,
-    VENDOR_KNOWLEDGE,
-)
-from soc_db.enrich._helpers import _has, clean
-from soc_db.enrich.aliases import infer_aliases
-from soc_db.enrich.connectivity import infer_bluetooth, infer_wifi
-from soc_db.enrich.cpu import infer_cpu
-from soc_db.enrich.gpu import infer_gpu
-from soc_db.enrich.memory import infer_memory
-from soc_db.enrich.modem import infer_modem
-from soc_db.enrich.npu import infer_npu
-from soc_db.enrich.process import infer_process
-from soc_db.enrich.scoring import compute_completeness
-from soc_db.enrich.storage import infer_storage
-from soc_db.enrich.year import infer_year
 
 
 def extract_model(text: str) -> str | None:
