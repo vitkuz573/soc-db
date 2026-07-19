@@ -35,6 +35,7 @@ from soc_db.enrich.modem import infer_modem  # noqa: F401
 from soc_db.enrich.npu import infer_npu  # noqa: F401
 from soc_db.enrich.process import infer_process  # noqa: F401
 from soc_db.enrich.scoring import compute_completeness  # noqa: F401
+from soc_db.provenance import apply_provenance, ProvenanceTracker, ConflictResolver  # noqa: F401
 from soc_db.enrich.storage import infer_storage  # noqa: F401
 from soc_db.enrich.year import infer_year  # noqa: F401
 from soc_db.robots import RobotsChecker  # noqa: F401
