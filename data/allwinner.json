@@ -1056,250 +1056,30 @@
     "uuid": "cb6e8b5269ee5185b27dcd7f9e483af2"
   },
   {
-    "id": "allwinner_sun4",
-    "name": "Allwinner Sun4",
-    "vendor": "Allwinner",
-    "model": "SUN4",
-    "source": "linux_dt",
-    "architecture": "ARMv7-A",
-    "aliases": [
-      "Allwinner Sun4 (SUN4)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 1,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "b0391c9f621d55a2905a7236bbf4527c"
-  },
-  {
-    "id": "allwinner_sun5",
-    "name": "Allwinner Sun5",
-    "vendor": "Allwinner",
-    "model": "SUN5",
-    "source": "linux_dt",
-    "architecture": "ARMv8-A",
-    "aliases": [
-      "Allwinner Sun5 (SUN5)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 1,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "9c2dbebadf8c51e1a1869319298095bb"
-  },
-  {
-    "id": "allwinner_sun50",
-    "name": "Allwinner Sun50",
-    "vendor": "Allwinner",
-    "model": "SUN50",
-    "source": "linux_dt",
-    "aliases": [
-      "Allwinner Sun50 (SUN50)"
-    ],
-    "completeness": 0.1506,
-    "sources": {},
-    "updated": "2026-06-21",
-    "architecture": "ARMv8",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "aliases": "linux_dt",
-      "architecture": "linux_dt"
-    },
-    "uuid": "06bf587358945dd7968fe56c5bb35d0d"
-  },
-  {
     "id": "allwinner_sun55",
     "name": "Allwinner Sun55",
     "vendor": "Allwinner",
     "model": "SUN55",
     "source": "linux_dt",
-    "architecture": "ARMv8.2-A",
+    "uuid": "28848ccc779657a7b3e74bb9e7ce9d28",
+    "_dedup_strategy": "no_match",
+    "architecture": "ARMv8",
     "aliases": [
       "Allwinner Sun55 (SUN55)"
     ],
-    "completeness": 0.1747,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8,
     "provenance": {
       "name": "linux_dt",
       "vendor": "linux_dt",
       "model": "linux_dt",
       "source": "linux_dt",
+      "uuid": "linux_dt",
       "architecture": "linux_dt",
       "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "28848ccc779657a7b3e74bb9e7ce9d28"
-  },
-  {
-    "id": "allwinner_sun6",
-    "name": "Allwinner Sun6",
-    "vendor": "Allwinner",
-    "model": "SUN6",
-    "source": "linux_dt",
-    "architecture": "ARMv7-A",
-    "aliases": [
-      "Allwinner Sun6 (SUN6)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "69ab6a87a5ea5cb797090c0f35258c6c"
-  },
-  {
-    "id": "allwinner_sun7",
-    "name": "Allwinner Sun7",
-    "vendor": "Allwinner",
-    "model": "SUN7",
-    "source": "linux_dt",
-    "architecture": "ARMv7-A",
-    "aliases": [
-      "Allwinner Sun7 (SUN7)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "82b4a4429edd5d5e9fa21ef933b99a09"
-  },
-  {
-    "id": "allwinner_sun8",
-    "name": "Allwinner Sun8",
-    "vendor": "Allwinner",
-    "model": "SUN8",
-    "source": "linux_dt",
-    "architecture": "ARMv7-A",
-    "aliases": [
-      "Allwinner Sun8 (SUN8)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "a63fbf5549ef5bc19ba8a3ba67915b39"
-  },
-  {
-    "id": "allwinner_sun9",
-    "name": "Allwinner Sun9",
-    "vendor": "Allwinner",
-    "model": "SUN9",
-    "source": "linux_dt",
-    "architecture": "ARMv7-A",
-    "aliases": [
-      "Allwinner Sun9 (SUN9)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 8,
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt"
-    },
-    "uuid": "4a6d9edaecc8509fa9a20d6d221b1e53"
-  },
-  {
-    "id": "allwinner_suniv",
-    "name": "Allwinner Suniv",
-    "vendor": "Allwinner",
-    "model": "SUNIV",
-    "source": "linux_dt",
-    "aliases": [
-      "Allwinner Suniv (SUNIV)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 1,
-    "architecture": "ARMv5",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "aliases": "linux_dt",
-      "cores": "linux_dt",
-      "architecture": "linux_dt"
-    },
-    "uuid": "6d52917d92d85e49aebf95e66c2f4947"
-  },
-  {
-    "id": "allwinner_sunxi",
-    "name": "Allwinner Sunxi",
-    "vendor": "Allwinner",
-    "model": "SUNXI",
-    "source": "linux_dt",
-    "aliases": [
-      "Allwinner Sunxi (SUNXI)"
-    ],
-    "completeness": 0.1506,
-    "sources": {},
-    "updated": "2026-06-21",
-    "architecture": "ARMv8",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "aliases": "linux_dt",
-      "architecture": "linux_dt"
-    },
-    "uuid": "cbff926dea19522baec9a1d83443363d"
+      "_dedup_strategy": "linux_dt"
+    }
   },
   {
     "id": "axp152i",
@@ -1307,11 +1087,13 @@
     "vendor": "Allwinner",
     "model": "AXP152I",
     "source": "linux_dt",
+    "uuid": "4a8b7fb8b5655021acdcbb17cc1ed929",
+    "_dedup_strategy": "no_match",
     "architecture": "ARMv8",
     "aliases": [
       "axp152i (AXP152I)"
     ],
-    "completeness": 0.1506,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
@@ -1319,56 +1101,11 @@
       "vendor": "linux_dt",
       "model": "linux_dt",
       "source": "linux_dt",
+      "uuid": "linux_dt",
       "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "4a8b7fb8b5655021acdcbb17cc1ed929"
-  },
-  {
-    "id": "axp209i",
-    "name": "axp209i",
-    "vendor": "Allwinner",
-    "model": "AXP209I",
-    "source": "linux_dt",
-    "architecture": "ARMv8",
-    "aliases": [
-      "axp209i (AXP209I)"
-    ],
-    "completeness": 0.1506,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "1efa57f8e2ec58889d5cb04f800832f1"
-  },
-  {
-    "id": "axp223i",
-    "name": "axp223i",
-    "vendor": "Allwinner",
-    "model": "AXP223I",
-    "source": "linux_dt",
-    "architecture": "ARMv8",
-    "aliases": [
-      "axp223i (AXP223I)"
-    ],
-    "completeness": 0.1506,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "694f3381bd1a5ad1b28477d397d995eb"
+      "aliases": "linux_dt",
+      "_dedup_strategy": "linux_dt"
+    }
   },
   {
     "id": "axp22xi",
@@ -1376,11 +1113,13 @@
     "vendor": "Allwinner",
     "model": "AXP22XI",
     "source": "linux_dt",
+    "uuid": "896eb36b14d3584fa8080da647acb36d",
+    "_dedup_strategy": "no_match",
     "architecture": "ARMv8",
     "aliases": [
       "axp22xi (AXP22XI)"
     ],
-    "completeness": 0.1506,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
@@ -1388,10 +1127,11 @@
       "vendor": "linux_dt",
       "model": "linux_dt",
       "source": "linux_dt",
+      "uuid": "linux_dt",
       "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "896eb36b14d3584fa8080da647acb36d"
+      "aliases": "linux_dt",
+      "_dedup_strategy": "linux_dt"
+    }
   },
   {
     "id": "axp803i",
@@ -1399,11 +1139,13 @@
     "vendor": "Allwinner",
     "model": "AXP803I",
     "source": "linux_dt",
+    "uuid": "8261d05d42d757769d8e17430051419b",
+    "_dedup_strategy": "no_match",
     "architecture": "ARMv8",
     "aliases": [
       "axp803i (AXP803I)"
     ],
-    "completeness": 0.1506,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
@@ -1411,33 +1153,11 @@
       "vendor": "linux_dt",
       "model": "linux_dt",
       "source": "linux_dt",
+      "uuid": "linux_dt",
       "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "8261d05d42d757769d8e17430051419b"
-  },
-  {
-    "id": "axp809i",
-    "name": "axp809i",
-    "vendor": "Allwinner",
-    "model": "AXP809I",
-    "source": "linux_dt",
-    "architecture": "ARMv8",
-    "aliases": [
-      "axp809i (AXP809I)"
-    ],
-    "completeness": 0.1506,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "linux_dt",
-      "vendor": "linux_dt",
-      "model": "linux_dt",
-      "source": "linux_dt",
-      "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "769ae2e6780f55cc85ad52180ab9a940"
+      "aliases": "linux_dt",
+      "_dedup_strategy": "linux_dt"
+    }
   },
   {
     "id": "axp81xi",
@@ -1445,11 +1165,13 @@
     "vendor": "Allwinner",
     "model": "AXP81XI",
     "source": "linux_dt",
+    "uuid": "67f78f6bfaa05baea7b5b3fd3e2869c7",
+    "_dedup_strategy": "no_match",
     "architecture": "ARMv8",
     "aliases": [
       "axp81xi (AXP81XI)"
     ],
-    "completeness": 0.1506,
+    "completeness": 0.1265,
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
@@ -1457,9 +1179,10 @@
       "vendor": "linux_dt",
       "model": "linux_dt",
       "source": "linux_dt",
+      "uuid": "linux_dt",
       "architecture": "linux_dt",
-      "aliases": "linux_dt"
-    },
-    "uuid": "67f78f6bfaa05baea7b5b3fd3e2869c7"
+      "aliases": "linux_dt",
+      "_dedup_strategy": "linux_dt"
+    }
   }
 ]

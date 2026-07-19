@@ -7471,6 +7471,58 @@
     "uuid": "73f2a4743c805fc2816cfa6ff33d8f0c"
   },
   {
+    "name": "Intel Core i7-6700K",
+    "vendor": "Intel",
+    "model": "i7-6700K",
+    "cores": 6,
+    "threads": 12,
+    "clock": 3.7,
+    "boost": 4.7,
+    "process_nm": 14,
+    "tdp": 95,
+    "l3_cache": "12 MB",
+    "gpu": "Intel UHD Graphics 630",
+    "year": 2017,
+    "socket": "LGA1151",
+    "id": "intel_core_i7_6700k_i76700k",
+    "source": "intel_amd",
+    "uuid": "ad78a3b5df73518883694064eabf9329",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR4",
+    "memory_clock": 1600,
+    "memory_bus": 64,
+    "storage_type": "UFS 2.1",
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "completeness": 0.2651,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
     "id": "atom_c3336_atomc3336",
     "name": "Atom C3336",
     "vendor": "Intel Atom",
@@ -8164,6 +8216,58 @@
     "uuid": "a4ffa0f9675e54e0a2242db9db84c7bb"
   },
   {
+    "name": "Intel Core i5-6600K",
+    "vendor": "Intel",
+    "model": "i5-6600K",
+    "cores": 16,
+    "threads": 24,
+    "clock": 3.2,
+    "boost": 5.2,
+    "process_nm": 10,
+    "tdp": 241,
+    "l3_cache": "30 MB",
+    "gpu": "Intel UHD Graphics 770",
+    "year": 2021,
+    "socket": "LGA1700",
+    "id": "intel_core_i5_6600k_i56600k",
+    "source": "intel_amd",
+    "uuid": "af57ec7b94bd579889f0088b75d66ec1",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "completeness": 0.2651,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
     "id": "atom_c5115_atomc5115",
     "name": "Atom C5115",
     "vendor": "Intel Atom",
@@ -8749,1875 +8853,599 @@
     "uuid": "e813247ea2105884a7b9f029cf11c70f"
   },
   {
-    "id": "axm5516",
-    "name": "axm5516",
-    "vendor": "Intel Atom",
-    "model": "AXM5516",
-    "source": "linux_dt",
-    "aliases": [
-      "axm5516 (AXM5516)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 16,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "cc0be7d97c605d4cb3cc3ed4099b68dc"
-  },
-  {
-    "id": "axm55xxi",
-    "name": "axm55xxi",
-    "vendor": "Intel Atom",
-    "model": "AXM55XXI",
-    "source": "linux_dt",
-    "aliases": [
-      "axm55xxi (AXM55XXI)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "9e1ad44a588e59ffa0623fb207009690"
-  },
-  {
-    "id": "intel",
-    "name": "intel",
-    "vendor": "Intel Atom",
-    "model": "INTEL",
-    "source": "linux_dt",
-    "aliases": [
-      "intel (INTEL)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "991ec69e012d5e91ab45fd557ee339fa"
-  },
-  {
-    "id": "keembay",
-    "name": "keembay",
-    "vendor": "Intel Atom",
-    "model": "KEEMBAY",
-    "source": "linux_dt",
-    "aliases": [
-      "keembay (KEEMBAY)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 4,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "ea476fb5c4625fb8b09333e65c627563"
-  },
-  {
-    "id": "pxa25xi",
-    "name": "pxa25xi",
-    "vendor": "Intel Atom",
-    "model": "PXA25XI",
-    "source": "linux_dt",
-    "aliases": [
-      "pxa25xi (PXA25XI)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "243208cdc58058d6bbc6338ae1671e01"
-  },
-  {
-    "id": "pxa27xi",
-    "name": "pxa27xi",
-    "vendor": "Intel Atom",
-    "model": "PXA27XI",
-    "source": "linux_dt",
-    "aliases": [
-      "pxa27xi (PXA27XI)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "13f6c392c3a5527f84127da1373bce2e"
-  },
-  {
-    "id": "pxa2xxi",
-    "name": "pxa2xxi",
-    "vendor": "Intel Atom",
-    "model": "PXA2XXI",
-    "source": "linux_dt",
-    "aliases": [
-      "pxa2xxi (PXA2XXI)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "6809b5949b7056fda814260d6ee4a65c"
-  },
-  {
-    "id": "pxa300",
-    "name": "pxa300",
-    "vendor": "Intel Atom",
-    "model": "PXA300",
-    "source": "linux_dt",
-    "aliases": [
-      "pxa300 (PXA300)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "599bd32ddf95529fba0529055e550b21"
-  },
-  {
-    "id": "pxa3xxi",
-    "name": "pxa3xxi",
-    "vendor": "Intel Atom",
-    "model": "PXA3XXI",
-    "source": "linux_dt",
-    "aliases": [
-      "pxa3xxi (PXA3XXI)"
-    ],
-    "completeness": 0.1265,
-    "sources": {},
-    "updated": "2026-06-21",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia"
-    },
-    "uuid": "372e8dde6d765d0b812cba102c6d5911"
-  },
-  {
-    "id": "socfpga_agilex3_socdk_socfpgaagilex3socdk",
-    "name": "socfpga_agilex3_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX3_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex3_socdk (SOCFPGA_AGILEX3_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "71ca9bb3b88554528cb75fa9995f69f0"
-  },
-  {
-    "id": "socfpga_agilex5_socdk_socfpgaagilex5socdk",
-    "name": "socfpga_agilex5_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX5_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex5_socdk (SOCFPGA_AGILEX5_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "bf162db8286d5e4d948740c24f8a92ca"
-  },
-  {
-    "id": "socfpga_agilex5_socdk_013b_socfpgaagilex5socdk013b",
-    "name": "socfpga_agilex5_socdk_013b",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX5_SOCDK_013B",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex5_socdk_013b (SOCFPGA_AGILEX5_SOCDK_013B)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "37baad22654f56c195300583a1957a15"
-  },
-  {
-    "id": "socfpga_agilex5_socdk_modular_socfpgaagilex5socdkmodular",
-    "name": "socfpga_agilex5_socdk_modular",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX5_SOCDK_MODULAR",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex5_socdk_modular (SOCFPGA_AGILEX5_SOCDK_MODULAR)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "54f868a13c485c9bb50ae3f6329b9bc7"
-  },
-  {
-    "id": "socfpga_agilex5_socdk_nand_socfpgaagilex5socdknand",
-    "name": "socfpga_agilex5_socdk_nand",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX5_SOCDK_NAND",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex5_socdk_nand (SOCFPGA_AGILEX5_SOCDK_NAND)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "3d81588ba2ac5b6d802a62bf9ac86713"
-  },
-  {
-    "id": "socfpga_agilex5i_socfpgaagilex5i",
-    "name": "socfpga_agilex5i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX5I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex5i (SOCFPGA_AGILEX5I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8.2-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "5dc738f1d78b52bc8e12ec88214bae8a"
-  },
-  {
-    "id": "socfpga_agilex7m_socdk_socfpgaagilex7msocdk",
-    "name": "socfpga_agilex7m_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX7M_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex7m_socdk (SOCFPGA_AGILEX7M_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "720c9c8c93a85c6fad2041360a2e1f08"
-  },
-  {
-    "id": "socfpga_agilex_n6000_socfpgaagilexn6000",
-    "name": "socfpga_agilex_n6000",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX_N6000",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex_n6000 (SOCFPGA_AGILEX_N6000)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "0de697e36aae55ff86423a8df51a22c5"
-  },
-  {
-    "id": "socfpga_agilex_socdk_socfpgaagilexsocdk",
-    "name": "socfpga_agilex_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex_socdk (SOCFPGA_AGILEX_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "580a6f15eef359719799cd27fd7a6e83"
-  },
-  {
-    "id": "socfpga_agilex_socdk_emmc_socfpgaagilexsocdkemmc",
-    "name": "socfpga_agilex_socdk_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX_SOCDK_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex_socdk_emmc (SOCFPGA_AGILEX_SOCDK_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "8e77330bc7275053b11f51a096ef2656"
-  },
-  {
-    "id": "socfpga_agilex_socdk_nand_socfpgaagilexsocdknand",
-    "name": "socfpga_agilex_socdk_nand",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEX_SOCDK_NAND",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilex_socdk_nand (SOCFPGA_AGILEX_SOCDK_NAND)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "967c7038b3b3547985d8f7bca3fc110d"
-  },
-  {
-    "id": "socfpga_agilexi_socfpgaagilexi",
-    "name": "socfpga_agilexi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_AGILEXI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_agilexi (SOCFPGA_AGILEXI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv8-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "0f9791505cf9515bb126238162e2cf53"
-  },
-  {
-    "id": "socfpga_arria10_chameleonv3_socfpgaarria10chameleonv3",
-    "name": "socfpga_arria10_chameleonv3",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_CHAMELEONV3",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_chameleonv3 (SOCFPGA_ARRIA10_CHAMELEONV3)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "549bceff29605fd984c68cf702b625c7"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe1_emmc_socfpgaarria10mercuryaa1pe1emmc",
-    "name": "socfpga_arria10_mercury_aa1_pe1_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe1_emmc (SOCFPGA_ARRIA10_MERCURY_AA1_PE1_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "83e4afd1a62058b2a7261f7cdfae61f2"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe1_qspi_socfpgaarria10mercuryaa1pe1qspi",
-    "name": "socfpga_arria10_mercury_aa1_pe1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe1_qspi (SOCFPGA_ARRIA10_MERCURY_AA1_PE1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "1a4a7b31991859959d548fd3357ceb5b"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe1_sdmmc_socfpgaarria10mercuryaa1pe1sdmmc",
-    "name": "socfpga_arria10_mercury_aa1_pe1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe1_sdmmc (SOCFPGA_ARRIA10_MERCURY_AA1_PE1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "e4998fa4169451af8475ce2f4a0b54ed"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe3_emmc_socfpgaarria10mercuryaa1pe3emmc",
-    "name": "socfpga_arria10_mercury_aa1_pe3_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe3_emmc (SOCFPGA_ARRIA10_MERCURY_AA1_PE3_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "8a2686e478095370a3249a5eaa13e797"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe3_qspi_socfpgaarria10mercuryaa1pe3qspi",
-    "name": "socfpga_arria10_mercury_aa1_pe3_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe3_qspi (SOCFPGA_ARRIA10_MERCURY_AA1_PE3_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "453d87329cd953259157eebed7c9885b"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_pe3_sdmmc_socfpgaarria10mercuryaa1pe3sdmmc",
-    "name": "socfpga_arria10_mercury_aa1_pe3_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_PE3_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_pe3_sdmmc (SOCFPGA_ARRIA10_MERCURY_AA1_PE3_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "fbeddf6b78ed595a9f65b285bfaf17f5"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_st1_emmc_socfpgaarria10mercuryaa1st1emmc",
-    "name": "socfpga_arria10_mercury_aa1_st1_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_st1_emmc (SOCFPGA_ARRIA10_MERCURY_AA1_ST1_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "f686f13064b05041962874181a15ea26"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_st1_qspi_socfpgaarria10mercuryaa1st1qspi",
-    "name": "socfpga_arria10_mercury_aa1_st1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_st1_qspi (SOCFPGA_ARRIA10_MERCURY_AA1_ST1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "d601505eec835da69f39d896a31843ce"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1_st1_sdmmc_socfpgaarria10mercuryaa1st1sdmmc",
-    "name": "socfpga_arria10_mercury_aa1_st1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1_ST1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1_st1_sdmmc (SOCFPGA_ARRIA10_MERCURY_AA1_ST1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "4dbc059b253b5eef810a2ce38f9dccbb"
-  },
-  {
-    "id": "socfpga_arria10_mercury_aa1i_socfpgaarria10mercuryaa1i",
-    "name": "socfpga_arria10_mercury_aa1i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_MERCURY_AA1I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_mercury_aa1i (SOCFPGA_ARRIA10_MERCURY_AA1I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "c7f1e8a57f755aee9c83efb55f91c3ea"
-  },
-  {
-    "id": "socfpga_arria10_socdk_nand_socfpgaarria10socdknand",
-    "name": "socfpga_arria10_socdk_nand",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_SOCDK_NAND",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_socdk_nand (SOCFPGA_ARRIA10_SOCDK_NAND)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "ff021ce92d5a5317abbd1c81fd9a75d9"
-  },
-  {
-    "id": "socfpga_arria10_socdk_qspi_socfpgaarria10socdkqspi",
-    "name": "socfpga_arria10_socdk_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_SOCDK_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_socdk_qspi (SOCFPGA_ARRIA10_SOCDK_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "d2edb1488cb75f0ba168ff9f6896195d"
-  },
-  {
-    "id": "socfpga_arria10_socdk_sdmmc_socfpgaarria10socdksdmmc",
-    "name": "socfpga_arria10_socdk_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_SOCDK_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_socdk_sdmmc (SOCFPGA_ARRIA10_SOCDK_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "7b07f63a006956b59f101279d628af43"
-  },
-  {
-    "id": "socfpga_arria10_socdki_socfpgaarria10socdki",
-    "name": "socfpga_arria10_socdki",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10_SOCDKI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10_socdki (SOCFPGA_ARRIA10_SOCDKI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "f25826d4b9305fd98c557fd818f87871"
-  },
-  {
-    "id": "socfpga_arria10i_socfpgaarria10i",
-    "name": "socfpga_arria10i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA10I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria10i (SOCFPGA_ARRIA10I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "e37c63c776435d61b1be01a31c8d20f3"
-  },
-  {
-    "id": "socfpga_arria5_socdk_socfpgaarria5socdk",
-    "name": "socfpga_arria5_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA5_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria5_socdk (SOCFPGA_ARRIA5_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "46a9ccf927e35b59b8b839c541cdfdb5"
-  },
-  {
-    "id": "socfpga_arria5i_socfpgaarria5i",
-    "name": "socfpga_arria5i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ARRIA5I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_arria5i (SOCFPGA_ARRIA5I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "dda063edc4ba5fb682fb74feb6d3bbb0"
-  },
-  {
-    "id": "socfpga_cyclone5_chameleon96_socfpgacyclone5chameleon96",
-    "name": "socfpga_cyclone5_chameleon96",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_CHAMELEON96",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_chameleon96 (SOCFPGA_CYCLONE5_CHAMELEON96)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "c958a9b1ac88521dbe2454b5942c3812"
-  },
-  {
-    "id": "socfpga_cyclone5_de0_nano_soc_socfpgacyclone5de0nanosoc",
-    "name": "socfpga_cyclone5_de0_nano_soc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_DE0_NANO_SOC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_de0_nano_soc (SOCFPGA_CYCLONE5_DE0_NANO_SOC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "4ace75837c7759a2859626489df31fc9"
-  },
-  {
-    "id": "socfpga_cyclone5_de10nano_socfpgacyclone5de10nano",
-    "name": "socfpga_cyclone5_de10nano",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_DE10NANO",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_de10nano (SOCFPGA_CYCLONE5_DE10NANO)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "c95ef3ed59a25ea2904b444359f85f6f"
-  },
-  {
-    "id": "socfpga_cyclone5_mcvevk_socfpgacyclone5mcvevk",
-    "name": "socfpga_cyclone5_mcvevk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MCVEVK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mcvevk (SOCFPGA_CYCLONE5_MCVEVK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "2f752723f78b5c69b47e772739ab2a81"
-  },
-  {
-    "id": "socfpga_cyclone5_mcvi_socfpgacyclone5mcvi",
-    "name": "socfpga_cyclone5_mcvi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MCVI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mcvi (SOCFPGA_CYCLONE5_MCVI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "51791350a4245aa8807d47316599ed23"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_emmc_socfpgacyclone5mercurysa1pe1emmc",
-    "name": "socfpga_cyclone5_mercury_sa1_pe1_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe1_emmc (SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "951c2b383c1d5744855203e51d10f534"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_qspi_socfpgacyclone5mercurysa1pe1qspi",
-    "name": "socfpga_cyclone5_mercury_sa1_pe1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe1_qspi (SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "900a955548fc511c9d4587ecf0e46f2b"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc_socfpgacyclone5mercurysa1pe1sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa1_pe1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe1_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA1_PE1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "1e76f4e6e7aa5394956c43514145a0c3"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_emmc_socfpgacyclone5mercurysa1pe3emmc",
-    "name": "socfpga_cyclone5_mercury_sa1_pe3_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe3_emmc (SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "b784845896065d60ad1b08bed0ffb1d1"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_qspi_socfpgacyclone5mercurysa1pe3qspi",
-    "name": "socfpga_cyclone5_mercury_sa1_pe3_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe3_qspi (SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "8dad9a2a287e5a9d9fa319e5aaa709a8"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc_socfpgacyclone5mercurysa1pe3sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa1_pe3_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_pe3_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA1_PE3_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "e4f093277c1f5eac8651c7cb05f5fa9c"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_emmc_socfpgacyclone5mercurysa1st1emmc",
-    "name": "socfpga_cyclone5_mercury_sa1_st1_emmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_EMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_st1_emmc (SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_EMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "559874903bcc50a8b4b068c15741c64c"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_qspi_socfpgacyclone5mercurysa1st1qspi",
-    "name": "socfpga_cyclone5_mercury_sa1_st1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_st1_qspi (SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "b989305cf25152b8bdf7ed388e1f94d8"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1_st1_sdmmc_socfpgacyclone5mercurysa1st1sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa1_st1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1_st1_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA1_ST1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "d34f46f1c58b583684be59e6f3048420"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa1i_socfpgacyclone5mercurysa1i",
-    "name": "socfpga_cyclone5_mercury_sa1i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA1I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa1i (SOCFPGA_CYCLONE5_MERCURY_SA1I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "c92761615e6d5ca687cc65858e77deaf"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_pe1_qspi_socfpgacyclone5mercurysa2pe1qspi",
-    "name": "socfpga_cyclone5_mercury_sa2_pe1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_pe1_qspi (SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "c1cb23fa905a5284b1dd44b68b9079b9"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc_socfpgacyclone5mercurysa2pe1sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa2_pe1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_pe1_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA2_PE1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "051e33864e3e5e0289f5e4a974531532"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_pe3_qspi_socfpgacyclone5mercurysa2pe3qspi",
-    "name": "socfpga_cyclone5_mercury_sa2_pe3_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_pe3_qspi (SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "21625f32231b58b8ae4568dcfb6cca3c"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc_socfpgacyclone5mercurysa2pe3sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa2_pe3_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_pe3_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA2_PE3_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "2c014db3db455aa9bd659f4a79635419"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_st1_qspi_socfpgacyclone5mercurysa2st1qspi",
-    "name": "socfpga_cyclone5_mercury_sa2_st1_qspi",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_QSPI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_st1_qspi (SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_QSPI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "2154d16d055255d8b1f8f443dab56829"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2_st1_sdmmc_socfpgacyclone5mercurysa2st1sdmmc",
-    "name": "socfpga_cyclone5_mercury_sa2_st1_sdmmc",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_SDMMC",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2_st1_sdmmc (SOCFPGA_CYCLONE5_MERCURY_SA2_ST1_SDMMC)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "e60d0bd449a95ac3983b76c81a8da847"
-  },
-  {
-    "id": "socfpga_cyclone5_mercury_sa2i_socfpgacyclone5mercurysa2i",
-    "name": "socfpga_cyclone5_mercury_sa2i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_MERCURY_SA2I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_mercury_sa2i (SOCFPGA_CYCLONE5_MERCURY_SA2I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "292e87a23f605bf984c8620c83edc1a6"
-  },
-  {
-    "id": "socfpga_cyclone5_socdk_socfpgacyclone5socdk",
-    "name": "socfpga_cyclone5_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_socdk (SOCFPGA_CYCLONE5_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "66397353e11451fb8ad482588198082a"
-  },
-  {
-    "id": "socfpga_cyclone5_sockit_socfpgacyclone5sockit",
-    "name": "socfpga_cyclone5_sockit",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_SOCKIT",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_sockit (SOCFPGA_CYCLONE5_SOCKIT)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "7057bb9a4eb05e21a24451118dea744b"
-  },
-  {
-    "id": "socfpga_cyclone5_socrates_socfpgacyclone5socrates",
-    "name": "socfpga_cyclone5_socrates",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_SOCRATES",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_socrates (SOCFPGA_CYCLONE5_SOCRATES)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "568099b76a225ebdb960ff1c4b9b9c4e"
-  },
-  {
-    "id": "socfpga_cyclone5_sodia_socfpgacyclone5sodia",
-    "name": "socfpga_cyclone5_sodia",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_SODIA",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_sodia (SOCFPGA_CYCLONE5_SODIA)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "0b0b3ebeec625c3e8ff42facb517334c"
-  },
-  {
-    "id": "socfpga_cyclone5_vining_fpga_socfpgacyclone5viningfpga",
-    "name": "socfpga_cyclone5_vining_fpga",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5_VINING_FPGA",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5_vining_fpga (SOCFPGA_CYCLONE5_VINING_FPGA)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "6858d25600ec56d8a1058434788ae898"
-  },
-  {
-    "id": "socfpga_cyclone5i_socfpgacyclone5i",
-    "name": "socfpga_cyclone5i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_CYCLONE5I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_cyclone5i (SOCFPGA_CYCLONE5I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "16d192f832c95a02bea2062ac8142dab"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_bootmode_emmci_socfpgaenclustramercurybootmodeemmci",
-    "name": "socfpga_enclustra_mercury_bootmode_emmci",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_EMMCI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_bootmode_emmci (SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_EMMCI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "16989953399e58bf9c4a2e11e52deca0"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_bootmode_qspii_socfpgaenclustramercurybootmodeqspii",
-    "name": "socfpga_enclustra_mercury_bootmode_qspii",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_QSPII",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_bootmode_qspii (SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_QSPII)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "f4b920cf3d1254d583b54a3bb4e2be92"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_bootmode_sdmmci_socfpgaenclustramercurybootmodesdmmci",
-    "name": "socfpga_enclustra_mercury_bootmode_sdmmci",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_SDMMCI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_bootmode_sdmmci (SOCFPGA_ENCLUSTRA_MERCURY_BOOTMODE_SDMMCI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "5a037c2aea605d11afbcbe3d6fc74521"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_pe1i_socfpgaenclustramercurype1i",
-    "name": "socfpga_enclustra_mercury_pe1i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_PE1I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_pe1i (SOCFPGA_ENCLUSTRA_MERCURY_PE1I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "611ac3f65b445267af7da03406d488d2"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_pe3i_socfpgaenclustramercurype3i",
-    "name": "socfpga_enclustra_mercury_pe3i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_PE3I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_pe3i (SOCFPGA_ENCLUSTRA_MERCURY_PE3I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "34af36af310954be98232a0fbaa2a711"
-  },
-  {
-    "id": "socfpga_enclustra_mercury_st1i_socfpgaenclustramercuryst1i",
-    "name": "socfpga_enclustra_mercury_st1i",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_ENCLUSTRA_MERCURY_ST1I",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_enclustra_mercury_st1i (SOCFPGA_ENCLUSTRA_MERCURY_ST1I)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "669316a8e5415fd199d51d78645de029"
-  },
-  {
-    "id": "socfpga_n5x_socdk_socfpgan5xsocdk",
-    "name": "socfpga_n5x_socdk",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_N5X_SOCDK",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_n5x_socdk (SOCFPGA_N5X_SOCDK)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "8bb17c9fc7d05cea83ffd2417bf13b7c"
-  },
-  {
-    "id": "socfpga_vt_socfpgavt",
-    "name": "socfpga_vt",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGA_VT",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpga_vt (SOCFPGA_VT)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "edb7b4a5fe35520dae72b656ae6b62d2"
-  },
-  {
-    "id": "socfpgai",
-    "name": "socfpgai",
-    "vendor": "Intel Atom",
-    "model": "SOCFPGAI",
-    "source": "linux_dt",
-    "aliases": [
-      "socfpgai (SOCFPGAI)"
-    ],
-    "completeness": 0.1747,
-    "sources": {},
-    "updated": "2026-06-21",
-    "cores": 2,
-    "architecture": "ARMv7-A",
-    "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "source": "wikipedia",
-      "aliases": "wikipedia",
-      "cores": "wikipedia",
-      "architecture": "wikipedia"
-    },
-    "uuid": "be50311def915a5a81379d61842d5c1a"
+    "name": "Intel Core i3-8100",
+    "vendor": "Intel",
+    "model": "i3-8100",
+    "cores": 24,
+    "threads": 32,
+    "clock": 3.0,
+    "boost": 5.8,
+    "process_nm": 7,
+    "tdp": 253,
+    "l3_cache": "36 MB",
+    "gpu": "Intel UHD Graphics 770",
+    "year": 2022,
+    "socket": "LGA1700",
+    "id": "intel_core_i3_8100_i38100",
+    "source": "intel_amd",
+    "uuid": "f430ff0e98b75b678067591183af4110",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5",
+    "memory_clock": 3200,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "completeness": 0.2651,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core i5-1240P",
+    "vendor": "Intel",
+    "model": "i5-1240P",
+    "cores": 12,
+    "threads": 16,
+    "clock": 2.8,
+    "boost": 5.0,
+    "process_nm": 7,
+    "tdp": 28,
+    "l3_cache": "18 MB",
+    "gpu": "Intel Iris Xe Graphics",
+    "year": 2023,
+    "memory_type": "DDR5",
+    "id": "intel_core_i5_1240p_i51240p",
+    "source": "intel_amd",
+    "uuid": "5f95494443c855d09d3938eef0e73116",
+    "_dedup_strategy": "no_match",
+    "memory_clock": 4800,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.253,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "memory_type": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_clock": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core i5-1335U",
+    "vendor": "Intel",
+    "model": "i5-1335U",
+    "cores": 10,
+    "threads": 12,
+    "clock": 2.8,
+    "boost": 5.2,
+    "process_nm": 7,
+    "tdp": 15,
+    "l3_cache": "12 MB",
+    "gpu": "Intel Iris Xe Graphics",
+    "year": 2023,
+    "memory_type": "DDR5",
+    "id": "intel_core_i5_1335u_i51335u",
+    "source": "intel_amd",
+    "uuid": "e2cf9f925b8357059f9aae537fc08075",
+    "_dedup_strategy": "no_match",
+    "memory_clock": 4800,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.253,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "memory_type": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_clock": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core i5-13600HX",
+    "vendor": "Intel",
+    "model": "i5-13600HX",
+    "cores": 24,
+    "threads": 32,
+    "clock": 3.2,
+    "boost": 6.0,
+    "process_nm": 7,
+    "tdp": 253,
+    "l3_cache": "36 MB",
+    "gpu": "Intel UHD Graphics 770",
+    "year": 2023,
+    "socket": "LGA1700",
+    "id": "intel_core_i5_13600hx_i513600hx",
+    "source": "intel_amd",
+    "uuid": "6f3550f17ac4539595bde38ccec27a48",
+    "_dedup_strategy": "no_match",
+    "memory_type": "DDR5",
+    "memory_clock": 4800,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.253,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core i7-1260P",
+    "vendor": "Intel",
+    "model": "i7-1260P",
+    "cores": 24,
+    "threads": 32,
+    "clock": 2.2,
+    "boost": 5.6,
+    "process_nm": 7,
+    "tdp": 157,
+    "l3_cache": "36 MB",
+    "gpu": "Intel UHD Graphics",
+    "year": 2023,
+    "memory_type": "DDR5",
+    "id": "intel_core_i7_1260p_i71260p",
+    "source": "intel_amd",
+    "uuid": "0036d032119953b1ac70dab845f86f6d",
+    "_dedup_strategy": "no_match",
+    "memory_clock": 4800,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.253,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "memory_type": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_clock": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core i7-13850HX",
+    "vendor": "Intel",
+    "model": "i7-13850HX",
+    "cores": 24,
+    "threads": 32,
+    "clock": 2.2,
+    "boost": 5.5,
+    "process_nm": 7,
+    "tdp": 157,
+    "l3_cache": "36 MB",
+    "gpu": "Intel UHD Graphics",
+    "year": 2023,
+    "memory_type": "DDR5",
+    "id": "intel_core_i7_13850hx_i713850hx",
+    "source": "intel_amd",
+    "uuid": "45970dc67e545cc0aed0de39bef647d3",
+    "_dedup_strategy": "no_match",
+    "memory_clock": 4800,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.253,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "memory_type": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_clock": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Xeon E-2488",
+    "vendor": "Intel",
+    "model": "E-2488",
+    "cores": 8,
+    "threads": 16,
+    "clock": 3.2,
+    "boost": 5.6,
+    "process_nm": 10,
+    "tdp": 95,
+    "l3_cache": "24 MB",
+    "year": 2023,
+    "socket": "LGA1700",
+    "id": "intel_xeon_e_2488_e2488",
+    "source": "intel_amd",
+    "uuid": "88c83c8109f956f892782f6ea3c80d3d",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.247,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Xeon Gold 6418H",
+    "vendor": "Intel",
+    "model": "6418H",
+    "cores": 24,
+    "threads": 48,
+    "clock": 2.1,
+    "boost": 4.0,
+    "process_nm": 10,
+    "tdp": 185,
+    "l3_cache": "60 MB",
+    "year": 2023,
+    "socket": "LGA4677",
+    "id": "intel_xeon_gold_6418h",
+    "source": "intel_amd",
+    "uuid": "4b2a948a46775d588a6454cbe361acae",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.247,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Xeon Platinum 8490H",
+    "vendor": "Intel",
+    "model": "8490H",
+    "cores": 60,
+    "threads": 120,
+    "clock": 1.9,
+    "boost": 3.5,
+    "process_nm": 10,
+    "tdp": 350,
+    "l3_cache": "112.5 MB",
+    "year": 2023,
+    "socket": "LGA4677",
+    "id": "intel_xeon_platinum_8490h",
+    "source": "intel_amd",
+    "uuid": "567913e53dfb522c848eadb6a21482c4",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.247,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Xeon Silver 4416+",
+    "vendor": "Intel",
+    "model": "4416+",
+    "cores": 20,
+    "threads": 40,
+    "clock": 2.0,
+    "boost": 3.9,
+    "process_nm": 10,
+    "tdp": 165,
+    "l3_cache": "37.5 MB",
+    "year": 2023,
+    "socket": "LGA4677",
+    "id": "intel_xeon_silver_4416p",
+    "source": "intel_amd",
+    "uuid": "c1ccddf31e955756ae4b632c9433b4ce",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.247,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Xeon w7-2495X",
+    "vendor": "Intel",
+    "model": "w7-2495X",
+    "cores": 56,
+    "threads": 112,
+    "clock": 1.9,
+    "boost": 4.8,
+    "process_nm": 10,
+    "tdp": 420,
+    "l3_cache": "105 MB",
+    "year": 2023,
+    "socket": "LGA4677",
+    "id": "intel_xeon_w7_2495x_w72495x",
+    "source": "intel_amd",
+    "uuid": "6d1de476fcd1501586bfd35d6bbb096c",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.247,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
+  },
+  {
+    "name": "Intel Core Ultra 5 245K",
+    "vendor": "Intel",
+    "model": "245K",
+    "cores": 24,
+    "threads": 24,
+    "clock": 3.7,
+    "boost": 5.7,
+    "process_nm": 3,
+    "tdp": 250,
+    "l3_cache": "36 MB",
+    "gpu": "Intel Arc Graphics",
+    "year": 2024,
+    "socket": "LGA1851",
+    "id": "intel_core_ultra_5_245k",
+    "source": "intel_amd",
+    "uuid": "db0f8d6880865de7899c930977aefc34",
+    "_dedup_strategy": "no_match",
+    "memory_type": "LPDDR5X",
+    "memory_clock": 4266,
+    "memory_bus": 64,
+    "storage_type": "UFS 3.1",
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "completeness": 0.2651,
+    "sources": {},
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "intel_amd",
+      "vendor": "intel_amd",
+      "model": "intel_amd",
+      "cores": "intel_amd",
+      "threads": "intel_amd",
+      "clock": "intel_amd",
+      "boost": "intel_amd",
+      "process_nm": "intel_amd",
+      "tdp": "intel_amd",
+      "l3_cache": "intel_amd",
+      "gpu": "intel_amd",
+      "year": "intel_amd",
+      "socket": "intel_amd",
+      "source": "intel_amd",
+      "uuid": "intel_amd",
+      "memory_type": "intel_amd",
+      "memory_clock": "intel_amd",
+      "memory_bus": "intel_amd",
+      "storage_type": "intel_amd",
+      "wifi": "intel_amd",
+      "bluetooth": "intel_amd",
+      "_dedup_strategy": "intel_amd"
+    }
   }
 ]

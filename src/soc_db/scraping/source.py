@@ -106,9 +106,23 @@ class HTTPSource:
         }
         headers.update(self._default_headers)
 
+        # Detect bot-check pages — only on HTML content (JSON API responses
+        # are never anti-bot pages).  Uses Cloudflare-specific markers and
+        # avoids overly broad keywords like "automated" which appear in
+        # legitimate content everywhere.
+        def _is_bot_page(html: str) -> bool:
+            lower = html.lower()
+            # Only check HTML-ish content (not JSON API responses)
+            stripped = html.strip()
+            if not (stripped.startswith("<") or stripped.startswith("<!doctype")):
+                return False
+            return "cf-browser-verify" in lower or "cf-challenge" in lower or "just a moment" in lower
+
         # Tier 1: httpx
         try:
             content = self._fetch_httpx(url, headers)
+            if _is_bot_page(content):
+                raise ConnectionError("Bot check page detected — escalating")
             self._write_cache(url, ua, content)
             if self._rate_limiter is not None:
                 self._rate_limiter.record_success()
@@ -122,6 +136,8 @@ class HTTPSource:
         if _HAS_CURL:
             try:
                 content = self._fetch_curl(url, headers)
+                if _is_bot_page(content):
+                    raise ConnectionError("Bot check page detected — escalating")
                 self._write_cache(url, ua, content)
                 if self._rate_limiter is not None:
                     self._rate_limiter.record_success()
@@ -137,6 +153,8 @@ class HTTPSource:
         if _HAS_PLAYWRIGHT:
             try:
                 content = self._fetch_playwright(url, ua)
+                if _is_bot_page(content):
+                    raise ConnectionError("Bot check page detected even via Playwright")
                 self._write_cache(url, ua, content)
                 if self._rate_limiter is not None:
                     self._rate_limiter.record_success()

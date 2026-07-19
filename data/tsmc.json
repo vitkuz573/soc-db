@@ -19,20 +19,20 @@
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "model": "legacy_v2",
-      "year": "legacy_v2",
-      "process_nm": "legacy_v2",
-      "process_name": "legacy_v2",
-      "memory_type": "legacy_v2",
-      "storage_type": "legacy_v2",
-      "memory_clock": "legacy_v2",
-      "memory_bus": "legacy_v2",
-      "wifi": "legacy_v2",
-      "bluetooth": "legacy_v2"
+      "name": "enrichment",
+      "vendor": "enrichment",
+      "cores": "enrichment",
+      "architecture": "enrichment",
+      "model": "enrichment",
+      "year": "enrichment",
+      "process_nm": "enrichment",
+      "process_name": "enrichment",
+      "memory_type": "enrichment",
+      "storage_type": "enrichment",
+      "memory_clock": "enrichment",
+      "memory_bus": "enrichment",
+      "wifi": "enrichment",
+      "bluetooth": "enrichment"
     }
   }
 ]

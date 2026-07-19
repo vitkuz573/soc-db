@@ -20,7 +20,17 @@
       "source": "wikipedia",
       "architecture": "wikipedia",
       "aliases": "wikipedia",
-      "cores": "wikipedia"
+      "cores": "wikipedia",
+      "year": "enrichment",
+      "process_nm": "enrichment",
+      "process_name": "enrichment",
+      "memory_type": "enrichment",
+      "memory_clock": "enrichment",
+      "memory_bus": "enrichment",
+      "gpu": "enrichment",
+      "storage_type": "enrichment",
+      "wifi": "enrichment",
+      "bluetooth": "enrichment"
     },
     "uuid": "fd9b3fb4688d509b9e6b106af6f9eae6",
     "year": 2012,
@@ -2829,9 +2839,9 @@
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "completeness": 0.2711,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "provenance": {
       "name": "wikipedia",
       "vendor": "wikipedia",
@@ -2848,7 +2858,8 @@
       "gpu": "wikipedia",
       "storage_type": "wikipedia",
       "wifi": "wikipedia",
-      "bluetooth": "wikipedia"
+      "bluetooth": "wikipedia",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -2902,13 +2913,14 @@
     "architecture": "ARMv8",
     "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "model": "wikipedia",
-      "uuid": "wikipedia",
-      "architecture": "wikipedia"
+      "name": "enrichment",
+      "vendor": "enrichment",
+      "model": "enrichment",
+      "uuid": "enrichment",
+      "architecture": "enrichment",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -2925,15 +2937,16 @@
     ],
     "completeness": 0.1506,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "provenance": {
-      "name": "wikipedia",
-      "vendor": "wikipedia",
-      "cores": "wikipedia",
-      "uuid": "wikipedia",
-      "model": "wikipedia",
-      "architecture": "wikipedia",
-      "aliases": "wikipedia"
+      "name": "enrichment",
+      "vendor": "enrichment",
+      "cores": "enrichment",
+      "uuid": "enrichment",
+      "model": "enrichment",
+      "architecture": "enrichment",
+      "aliases": "enrichment",
+      "_dedup_strategy": "enrichment"
     }
   }
 ]

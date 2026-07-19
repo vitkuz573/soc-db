@@ -35,9 +35,9 @@ logger = logging.getLogger(__name__)
 # MediaTek product listing pages
 MTK_PRODUCT_URLS = [
     "https://www.mediatek.com/products/smartphones/dimensity-5g",
-    "https://www.mediatek.com/products/smartphones/helio",
-    "https://www.mediatek.com/products/chromebooks/kompanio",
-    "https://www.mediatek.com/products/smarttvs/pentonic",
+    "https://www.mediatek.com/products/smartphones",
+    "https://www.mediatek.com/products/chromebooks",
+    "https://www.mediatek.com/products/smarttvs",
 ]
 
 # MediaTek model number pattern
@@ -99,15 +99,22 @@ class MediaTekScraper(BaseScraper):
     def fetch(self) -> dict[str, str]:
         """Fetch MediaTek product listing pages.
 
+        Handles per-URL failures gracefully — if one URL returns an error,
+        the remaining URLs are still attempted.
+
         Returns:
-            Dict mapping page URL to its HTML content.
+            Dict mapping page URL to its HTML content (partial results ok).
         """
         pages: dict[str, str] = {}
         for url in MTK_PRODUCT_URLS:
             logger.info("[MediaTekScraper] Fetching %s", url)
-            self.check_robots(url)
-            html = self._http.fetch(url, user_agent=self.user_agent)
-            pages[url] = html
+            try:
+                self.check_robots(url)
+                html = self._http.fetch(url, user_agent=self.user_agent)
+                pages[url] = html
+            except Exception as exc:
+                logger.warning("[MediaTekScraper] Failed to fetch %s: %s", url, exc)
+                continue
         return pages
 
     # ── parse ───────────────────────────────────────────────────────────

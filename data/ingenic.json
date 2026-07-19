@@ -5,9 +5,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4730",
     "year": 2006,
     "process_nm": 65,
@@ -35,7 +35,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "1a75b67a4e0e5a36a4fef4bb4f7d439d"
   },
   {
     "id": "jz4720",
@@ -43,9 +44,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4720",
     "year": 2007,
     "process_nm": 65,
@@ -73,7 +74,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "e90b2d7804f85f17992ac98039ebbb7b"
   },
   {
     "id": "jz4740",
@@ -81,9 +83,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4740",
     "year": 2007,
     "process_nm": 65,
@@ -111,7 +113,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "c00effcffeef5bd3bf2983e5cd8db932"
   },
   {
     "id": "jz4725b",
@@ -119,9 +122,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4725B",
     "year": 2009,
     "process_nm": 40,
@@ -149,7 +152,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "b830f25e27735cd99b087a9208ab2660"
   },
   {
     "id": "jz4750",
@@ -157,9 +161,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4750",
     "year": 2009,
     "process_nm": 40,
@@ -187,7 +191,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "0063494606c857838c97c33d1c3406c9"
   },
   {
     "id": "jz4755",
@@ -195,9 +200,9 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4755",
     "year": 2009,
     "process_nm": 40,
@@ -225,7 +230,8 @@
       "wifi": "linux_dt",
       "bluetooth": "linux_dt",
       "gpu": "linux_dt"
-    }
+    },
+    "uuid": "3b7c92fe8e2a545a9fd7c6e45b2ee563"
   },
   {
     "id": "jz4775",
@@ -234,9 +240,9 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "500 MHz",
-    "completeness": 0.3012,
+    "completeness": 0.3072,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4775",
     "gpu": "X2D Core",
     "aliases": [
@@ -269,7 +275,8 @@
       "memory_bus": "linux_dt",
       "wifi": "linux_dt",
       "bluetooth": "linux_dt"
-    }
+    },
+    "uuid": "a8b724fe40075ebb86cf451eacb9c98b"
   },
   {
     "id": "jz4760",
@@ -278,9 +285,9 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "second core is for video processing only, IEEE754-complient FPU",
-    "completeness": 0.2892,
+    "completeness": 0.2952,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4760",
     "year": 2010,
     "process_nm": 40,
@@ -307,7 +314,8 @@
       "memory_bus": "linux_dt",
       "wifi": "linux_dt",
       "bluetooth": "linux_dt"
-    }
+    },
+    "uuid": "f2d2c230cee1561781f753fdc7fe74fd"
   },
   {
     "id": "jz4770",
@@ -317,9 +325,9 @@
     "architecture": "ARMv8.2-A",
     "gpu": "JZ4770",
     "max_freq": "500 MHz",
-    "completeness": 0.2952,
+    "completeness": 0.3012,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4770",
     "year": 2011,
     "process_nm": 28,
@@ -347,7 +355,8 @@
       "memory_bus": "linux_dt",
       "wifi": "linux_dt",
       "bluetooth": "linux_dt"
-    }
+    },
+    "uuid": "497e733907b75e269df44e704a01cb8e"
   },
   {
     "id": "jz4780",
@@ -357,9 +366,9 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX 540",
     "max_freq": "500 MHz",
-    "completeness": 0.2952,
+    "completeness": 0.3012,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "model": "Jz4780",
     "year": 2012,
     "process_nm": 28,
@@ -387,6 +396,7 @@
       "memory_bus": "linux_dt",
       "wifi": "linux_dt",
       "bluetooth": "linux_dt"
-    }
+    },
+    "uuid": "478f15554b825fa98ab5798c5ed5e60e"
   }
 ]

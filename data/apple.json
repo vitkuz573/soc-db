@@ -1,9 +1,9 @@
 [
   {
-    "id": "s8000",
-    "name": "s8000",
+    "id": "s800",
+    "name": "s800",
     "vendor": "Apple",
-    "model": "S8000",
+    "model": "S800",
     "source": "linux_dt",
     "architecture": "ARMv8",
     "year": 2012,
@@ -40,7 +40,7 @@
       "aliases": "apple_techspecs",
       "cores": "apple_techspecs"
     },
-    "uuid": "18f8cd604b3b5ef58d7711341c1907c7"
+    "uuid": "ad535fb2276350e4b02bd9f0ea95a25b"
   },
   {
     "id": "s8000i",
@@ -444,7 +444,8 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -499,7 +500,15 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "tdp": "enrichment",
+      "blender": "enrichment",
+      "7zip": "enrichment",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "memory_max": "enrichment"
     },
     "uuid": "dc51e1cb37da592ba3024eb0cd40f4ae",
     "tdp": 20,
@@ -553,7 +562,16 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "gpu": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "tdp": "enrichment",
+      "memory_max": "enrichment",
+      "aliases": "enrichment"
     },
     "performance_cores": 8,
     "efficiency_cores": 2,
@@ -727,7 +745,10 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment"
     },
     "uuid": "475ec8aa5b1c5828a97817215cdeac83",
     "performance_cores": 2,
@@ -786,7 +807,14 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "blender": "enrichment",
+      "tdp": "enrichment",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "memory_max": "enrichment"
     },
     "uuid": "c1e7c536384a503295a693c338d49113",
     "blender": 149,
@@ -958,7 +986,9 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment"
     },
     "uuid": "af5fa097cd505b43973b970151781477",
     "performance_cores": 2,
@@ -1016,7 +1046,8 @@
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
       "bluetooth": "apple_techspecs",
-      "aliases": "apple_techspecs"
+      "aliases": "apple_techspecs",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -1129,7 +1160,13 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "tdp": "enrichment",
+      "memory_max": "enrichment"
     },
     "uuid": "b0e40ea12f055b7ab512f7791906c391",
     "performance_cores": 2,
@@ -1183,7 +1220,8 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -1233,7 +1271,12 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "tdp": "enrichment",
+      "memory_max": "enrichment"
     },
     "uuid": "ae5fe02355ac5bde98b041d86ece381f",
     "performance_cores": 10,
@@ -1410,7 +1453,12 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "tdp": "enrichment",
+      "blender": "enrichment",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment"
     },
     "uuid": "bfc7bb554c8a51fbb686cff148c186e0",
     "tdp": 10,
@@ -1471,7 +1519,13 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "memory_bandwidth": "enrichment",
+      "tdp": "enrichment",
+      "memory_max": "enrichment"
     },
     "uuid": "51d9e6f96b38579ab529381178a5d529",
     "performance_cores": 4,
@@ -1523,7 +1577,13 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment",
+      "performance_cores": "enrichment",
+      "efficiency_cores": "enrichment",
+      "cluster_config": "enrichment",
+      "gpu": "enrichment",
+      "aliases": "enrichment"
     },
     "performance_cores": 2,
     "efficiency_cores": 4,
@@ -1575,7 +1635,8 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment"
     }
   },
   {
@@ -1620,7 +1681,8 @@
       "npu": "apple_techspecs",
       "modem": "apple_techspecs",
       "wifi": "apple_techspecs",
-      "bluetooth": "apple_techspecs"
+      "bluetooth": "apple_techspecs",
+      "_dedup_strategy": "enrichment"
     }
   }
 ]

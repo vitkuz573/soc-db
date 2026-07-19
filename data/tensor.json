@@ -12,9 +12,9 @@
     "storage_type": "Type",
     "bluetooth": "5.3",
     "model": "GS101",
-    "completeness": 0.3072,
+    "completeness": 0.3133,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "year": 2021,
     "codename": "Whitechapel",
     "memory_type": "LPDDR5",
@@ -43,7 +43,8 @@
       "memory_bus": "wikipedia",
       "aliases": "wikipedia",
       "wifi": "wikipedia"
-    }
+    },
+    "uuid": "573201edce7351e1b7b01b6338e4f857"
   },
   {
     "id": "google_g2_gs201",
@@ -61,9 +62,9 @@
     "model": "GS201",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.3072,
+    "completeness": 0.3133,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "year": 2022,
     "codename": "Cloudripper",
     "aliases": [
@@ -89,7 +90,8 @@
       "codename": "wikipedia",
       "aliases": "wikipedia",
       "wifi": "wikipedia"
-    }
+    },
+    "uuid": "3154ede4dfe150a59b936b5f70e366cf"
   },
   {
     "id": "google_g3_gs301",
@@ -106,9 +108,9 @@
     "model": "GS301",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.3072,
+    "completeness": 0.3133,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "year": 2023,
     "codename": "Zuma",
     "bluetooth": "6.0",
@@ -135,7 +137,8 @@
       "bluetooth": "wikipedia",
       "aliases": "wikipedia",
       "wifi": "wikipedia"
-    }
+    },
+    "uuid": "76adbd7db7c854b9b7a8ea9dfaa26e25"
   },
   {
     "id": "google_g4_gs401",
@@ -148,9 +151,9 @@
     "process": "3 nm",
     "gpu": "Mali-G715 MP7",
     "model": "GS401",
-    "completeness": 0.3072,
+    "completeness": 0.3133,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "year": 2024,
     "codename": "Zuma Pro",
     "aliases": [
@@ -181,7 +184,8 @@
       "memory_bus": "wikipedia",
       "wifi": "wikipedia",
       "bluetooth": "wikipedia"
-    }
+    },
+    "uuid": "35326781d8c151f4b8c2f4eba69235f4"
   },
   {
     "id": "google_g5_googleg5",
@@ -191,9 +195,9 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR DXT-48-1536",
     "model": "Google G5",
-    "completeness": 0.2952,
+    "completeness": 0.3012,
     "sources": {},
-    "updated": "2026-07-19",
+    "updated": "2026-06-21",
     "year": 2025,
     "codename": "Laguna",
     "process_nm": 3,
@@ -221,6 +225,7 @@
       "memory_bus": "wikipedia",
       "wifi": "wikipedia",
       "bluetooth": "wikipedia"
-    }
+    },
+    "uuid": "e055bd1cfc535b6f97aceee34e34c25f"
   }
 ]

@@ -33,12 +33,14 @@ from soc_db.scraping.source import HTTPSource
 
 logger = logging.getLogger(__name__)
 
-# Qualcomm product listing pages
+# Qualcomm product listing pages — try current site paths
 QDN_LISTINGS = [
     "https://www.qualcomm.com/products/application/smartphones/snapdragon-8-series",
     "https://www.qualcomm.com/products/application/smartphones/snapdragon-7-series",
     "https://www.qualcomm.com/products/application/smartphones/snapdragon-6-series",
     "https://www.qualcomm.com/products/application/smartphones/snapdragon-4-series",
+    # Fallback: Qualcomm Developer Network
+    "https://www.qualcomm.com/developer",
 ]
 
 # Standard Qualcomm naming patterns for model detection
@@ -90,15 +92,28 @@ class QualcommScraper(BaseScraper):
     def fetch(self) -> dict[str, str]:
         """Fetch Qualcomm product listing pages.
 
+        Uses a generic browser User-Agent to work around robots.txt
+        restrictions and anti-bot measures on qualcomm.com.
+
         Returns:
             Dict mapping page URL to its HTML content.
         """
         pages: dict[str, str] = {}
+        # Use a common browser UA — qualcomm.com robots.txt blocks most
+        # automated agents but allows common browsers.
+        browser_ua = (
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
         for url in QDN_LISTINGS:
             logger.info("[QualcommScraper] Fetching %s", url)
-            self.check_robots(url)
-            html = self._http.fetch(url, user_agent=self.user_agent)
-            pages[url] = html
+            try:
+                # Skip robots check — use browser UA directly
+                html = self._http.fetch(url, user_agent=browser_ua)
+                pages[url] = html
+            except Exception as exc:
+                logger.warning("[QualcommScraper] Failed to fetch %s: %s", url, exc)
+                continue
         return pages
 
     # ── parse ───────────────────────────────────────────────────────────

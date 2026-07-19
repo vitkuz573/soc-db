@@ -10,11 +10,11 @@
     "sources": {},
     "updated": "2026-06-21",
     "provenance": {
-      "name": "legacy_v2",
-      "vendor": "legacy_v2",
-      "cores": "legacy_v2",
-      "architecture": "legacy_v2",
-      "model": "legacy_v2"
+      "name": "enrichment",
+      "vendor": "enrichment",
+      "cores": "enrichment",
+      "architecture": "enrichment",
+      "model": "enrichment"
     }
   }
 ]
