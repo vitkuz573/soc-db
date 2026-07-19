@@ -11,6 +11,7 @@ import sys
 from typing import Any
 
 from soc_db.common import DATA_DIR, enrich_all
+from soc_db.config import settings
 
 logger = logging.getLogger(__name__)
 
@@ -222,6 +223,28 @@ def cmd_enrich(args):
         logger.info("%s: %d entries enriched", fpath.name, len(chips))
 
 
+def cmd_migrate(args):
+    """Handle the ``migrate`` subcommand — migrate JSON data to SQLite.
+
+    Args:
+        args: Parsed argparse namespace with ``.force``.
+    """
+    from soc_db.db.migrate import migrate as _run_migration, validate_migration
+
+    result = _run_migration(force=args.force)
+    print(f"Migration complete: {result['total_chips']} chips")
+    if result.get("per_vendor"):
+        for v, c in sorted(result["per_vendor"].items()):
+            print(f"  {v}: {c}")
+    validation = validate_migration()
+    if validation["pass"]:
+        print(f"Validation PASSED: {validation['total']} chips match JSON source")
+    else:
+        print(f"Validation FAILED: {len(validation['mismatches'])} mismatches")
+        for m in validation["mismatches"][:5]:
+            print(f"  {m['id']}.{m['field']}: expected={m['expected']}, got={m['got']}")
+
+
 def main():
     """CLI entry point — parse arguments and dispatch to the appropriate command handler."""
     from soc_db.log_config import setup_logging as _setup_logging
@@ -257,6 +280,9 @@ def main():
 
     sp.add_parser("enrich", help="Re-apply enrichment to all data")
 
+    p_migrate = sp.add_parser("migrate", help="Migrate JSON data to SQLite database")
+    p_migrate.add_argument("--force", action="store_true", help="Re-create database from scratch")
+
     args = p.parse_args()
     if args.cmd == "list":
         cmd_list(args)
@@ -268,6 +294,8 @@ def main():
         cmd_stats(args)
     elif args.cmd == "enrich":
         cmd_enrich(args)
+    elif args.cmd == "migrate":
+        cmd_migrate(args)
     else:
         p.print_help()
 

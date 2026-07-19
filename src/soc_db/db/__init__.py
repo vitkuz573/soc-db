@@ -10,25 +10,35 @@ from __future__ import annotations
 from soc_db.db.connection import clear_connection_cache, get_connection, get_connection_cached, get_db_path
 from soc_db.db.schema import create_tables, create_fts_index, drop_tables, rebuild_fts
 
-# Query functions — imported lazily via getattr or direct import by callers
-# to avoid circular imports when modules are created incrementally.
+# Query functions — lazily resolved on first access
+from soc_db.db.queries import (
+    filter_chips,
+    get_all,
+    get_by_id,
+    get_stats,
+    get_vendors,
+    search,
+)
+
+# Migration
+from soc_db.db.migrate import ensure_migrated, migrate, validate_migration
 
 __all__ = [
+    "clear_connection_cache",
+    "create_fts_index",
+    "create_tables",
+    "drop_tables",
+    "ensure_migrated",
+    "filter_chips",
+    "get_all",
+    "get_by_id",
     "get_connection",
     "get_connection_cached",
     "get_db_path",
-    "clear_connection_cache",
-    "create_tables",
-    "create_fts_index",
-    "drop_tables",
-    "rebuild_fts",
-    "get_all",
-    "get_by_id",
-    "search",
     "get_stats",
     "get_vendors",
-    "filter_chips",
     "migrate",
+    "rebuild_fts",
+    "search",
     "validate_migration",
-    "ensure_migrated",
 ]

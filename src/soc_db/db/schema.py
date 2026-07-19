@@ -59,6 +59,8 @@ CREATE TABLE IF NOT EXISTS chips (
     video_capture TEXT,
     wifi TEXT,
     bluetooth TEXT,
+    connectivity TEXT,
+    dsp TEXT,
     usb TEXT,
     navigation TEXT,
     charging TEXT,
@@ -67,6 +69,7 @@ CREATE TABLE IF NOT EXISTS chips (
     revision TEXT,
     status TEXT,
     completeness REAL,
+    source TEXT,
     sources TEXT,
     updated TEXT,
     datasheet_url TEXT,
@@ -166,11 +169,12 @@ def drop_tables(conn: sqlite3.Connection) -> None:
 def rebuild_fts(conn: sqlite3.Connection) -> None:
     """Rebuild the FTS5 index from the chips table.
 
-    Uses a single ``INSERT INTO ... SELECT`` for efficiency.
+    Uses the FTS5 ``rebuild`` command which re-scans the content table
+    (``chips``) and reconstructs the full-text index.  This is the
+    correct approach for external content FTS5 tables.
 
     Args:
         conn: An open SQLite connection.
     """
-    conn.execute(f"INSERT INTO chips_fts(chips_fts, rowid, {FTS5_SELECT_COLS}) "
-                 f"SELECT 'rebuild', rowid, {FTS5_SELECT_COLS} FROM chips")
+    conn.execute("INSERT INTO chips_fts(chips_fts) VALUES('rebuild')")
     conn.commit()
