@@ -9,7 +9,7 @@
     "process": "65 nm",
     "gpu": "PowerVR SGX530",
     "max_freq": "720 MHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "Unknown",
@@ -21,7 +21,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "dsp": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap3420",
@@ -30,7 +50,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3420",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -42,7 +62,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3430",
@@ -51,7 +88,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3430",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -63,7 +100,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3440",
@@ -72,7 +126,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3440",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -84,7 +138,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3503",
@@ -93,7 +164,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3503",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -105,7 +176,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3515",
@@ -115,27 +203,7 @@
     "architecture": "ARMv7-A",
     "model": "OMAP3515",
     "gpu": "PowerVR SGX530",
-    "completeness": 0.466,
-    "sources": {},
-    "updated": "2026-06-21",
-    "year": 2010,
-    "process_nm": 40,
-    "process_name": "40nm",
-    "memory_type": "LPDDR",
-    "storage_type": "eMMC 5.0",
-    "memory_clock": 400,
-    "memory_bus": 32,
-    "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
-  },
-  {
-    "id": "omap3525",
-    "name": "OMAP3525",
-    "vendor": "TI OMAP",
-    "cores": 8,
-    "architecture": "ARMv7-A",
-    "model": "OMAP3525",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -147,7 +215,61 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
+  },
+  {
+    "id": "omap3525",
+    "name": "OMAP3525",
+    "vendor": "TI OMAP",
+    "cores": 8,
+    "architecture": "ARMv7-A",
+    "model": "OMAP3525",
+    "completeness": 0.2892,
+    "sources": {},
+    "updated": "2026-06-21",
+    "year": 2010,
+    "process_nm": 40,
+    "process_name": "40nm",
+    "memory_type": "LPDDR",
+    "storage_type": "eMMC 5.0",
+    "memory_clock": 400,
+    "memory_bus": 32,
+    "wifi": "Wi-Fi 4",
+    "bluetooth": "3.0",
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3530",
@@ -158,7 +280,7 @@
     "model": "OMAP3530",
     "max_freq": "720 MHz",
     "gpu": "List Alico's Kinetic 3500, Always Innovating Touch Book , BeagleBoard , Embest DevKit8000, Gumstix Overo W",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -169,7 +291,25 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap3611",
@@ -179,7 +319,7 @@
     "architecture": "ARMv7-A",
     "model": "OMAP3611",
     "process": "45 nm",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 45,
@@ -191,7 +331,25 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3621",
@@ -200,7 +358,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3621",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -212,7 +370,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3622",
@@ -221,7 +396,7 @@
     "cores": 8,
     "architecture": "ARMv7-A",
     "model": "OMAP3622",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -233,7 +408,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3630",
@@ -243,7 +435,7 @@
     "architecture": "ARMv7-A",
     "model": "OMAP3630",
     "max_freq": "600 MHz",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -255,7 +447,25 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap3640",
@@ -265,7 +475,7 @@
     "architecture": "ARMv7-A",
     "model": "OMAP3640",
     "max_freq": "1.2 GHz",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2010,
@@ -277,7 +487,25 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "PowerVR SGX"
+    "gpu": "PowerVR SGX",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "omap4430",
@@ -289,7 +517,7 @@
     "process": "45 nm",
     "gpu": "Cortex-A9",
     "max_freq": "365 MHz",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "2",
@@ -303,7 +531,29 @@
     "storage_type": "eMMC 5.0",
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "dsp": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "npu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap4460",
@@ -314,7 +564,7 @@
     "model": "OMAP4460",
     "gpu": "PowerVR SGX540 @ 307–384 MHz",
     "max_freq": "384 MHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "gpu_clock": 384,
@@ -328,7 +578,28 @@
     "memory_clock": 533,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "dsp": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap4470",
@@ -339,7 +610,7 @@
     "model": "OMAP4470",
     "gpu": "PowerVR SGX544 @ 277–384 MHz + Vivante GC320 (dedicated 2D graphics core)",
     "max_freq": "384 MHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "gpu_clock": 384,
@@ -353,7 +624,28 @@
     "memory_clock": 533,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "dsp": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap5430",
@@ -365,7 +657,7 @@
     "process": "28 nm",
     "max_freq": "1.7 GHz",
     "gpu": "PowerVR SGX544MP2 + dedicated TI 2D BitBlt graphics accelerator",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "dsp": "\"Tesla\" (C64T)",
@@ -379,7 +671,29 @@
     "memory_type": "LPDDR3",
     "storage_type": "eMMC 5.0",
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "dsp": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_max": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "omap5432",
@@ -389,7 +703,7 @@
     "architecture": "ARMv7-A",
     "model": "OMAP5432",
     "max_freq": "532 MHz",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 532,
@@ -403,7 +717,27 @@
     "memory_clock": 933,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62_k3am62",
@@ -414,11 +748,20 @@
     "aliases": [
       "TI K3 AM62 (K3-AM62)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am625_k3am625",
@@ -429,11 +772,20 @@
     "aliases": [
       "TI K3 AM625 (K3-AM625)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am6254atl_k3am6254atl",
@@ -444,11 +796,20 @@
     "aliases": [
       "TI K3 AM6254ATL (K3-AM6254ATL)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am6254atli_k3am6254atli",
@@ -459,11 +820,20 @@
     "aliases": [
       "TI K3 AM6254ATLI (K3-AM6254ATLI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am625i_k3am625i",
@@ -474,11 +844,20 @@
     "aliases": [
       "TI K3 AM625I (K3-AM625I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62a_k3am62a",
@@ -489,11 +868,20 @@
     "aliases": [
       "TI K3 AM62A (K3-AM62A)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62a7_k3am62a7",
@@ -504,11 +892,20 @@
     "aliases": [
       "TI K3 AM62A7 (K3-AM62A7)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62a7i_k3am62a7i",
@@ -519,11 +916,20 @@
     "aliases": [
       "TI K3 AM62A7I (K3-AM62A7I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62ai_k3am62ai",
@@ -534,11 +940,20 @@
     "aliases": [
       "TI K3 AM62AI (K3-AM62AI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62d2_k3am62d2",
@@ -549,11 +964,20 @@
     "aliases": [
       "TI K3 AM62D2 (K3-AM62D2)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62d2i_k3am62d2i",
@@ -564,11 +988,20 @@
     "aliases": [
       "TI K3 AM62D2I (K3-AM62D2I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62i_k3am62i",
@@ -579,11 +1012,20 @@
     "aliases": [
       "TI K3 AM62I (K3-AM62I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62l_k3am62l",
@@ -594,11 +1036,20 @@
     "aliases": [
       "TI K3 AM62L (K3-AM62L)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62l3_k3am62l3",
@@ -609,11 +1060,20 @@
     "aliases": [
       "TI K3 AM62L3 (K3-AM62L3)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62l3i_k3am62l3i",
@@ -624,11 +1084,20 @@
     "aliases": [
       "TI K3 AM62L3I (K3-AM62L3I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62li_k3am62li",
@@ -639,11 +1108,20 @@
     "aliases": [
       "TI K3 AM62LI (K3-AM62LI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62p_k3am62p",
@@ -654,11 +1132,20 @@
     "aliases": [
       "TI K3 AM62P (K3-AM62P)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62p5_k3am62p5",
@@ -669,11 +1156,20 @@
     "aliases": [
       "TI K3 AM62P5 (K3-AM62P5)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62p5i_k3am62p5i",
@@ -684,11 +1180,20 @@
     "aliases": [
       "TI K3 AM62P5I (K3-AM62P5I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62pi_k3am62pi",
@@ -699,11 +1204,20 @@
     "aliases": [
       "TI K3 AM62PI (K3-AM62PI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am62x_k3am62x",
@@ -714,11 +1228,20 @@
     "aliases": [
       "TI K3 AM62X (K3-AM62X)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am64_k3am64",
@@ -729,11 +1252,20 @@
     "aliases": [
       "TI K3 AM64 (K3-AM64)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am642_k3am642",
@@ -744,11 +1276,20 @@
     "aliases": [
       "TI K3 AM642 (K3-AM642)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am642i_k3am642i",
@@ -759,11 +1300,20 @@
     "aliases": [
       "TI K3 AM642I (K3-AM642I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am64i_k3am64i",
@@ -774,11 +1324,20 @@
     "aliases": [
       "TI K3 AM64I (K3-AM64I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am65_k3am65",
@@ -789,11 +1348,20 @@
     "aliases": [
       "TI K3 AM65 (K3-AM65)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am6528_k3am6528",
@@ -804,11 +1372,20 @@
     "aliases": [
       "TI K3 AM6528 (K3-AM6528)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am652i_k3am652i",
@@ -819,11 +1396,20 @@
     "aliases": [
       "TI K3 AM652I (K3-AM652I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am654_k3am654",
@@ -834,11 +1420,20 @@
     "aliases": [
       "TI K3 AM654 (K3-AM654)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am6548_k3am6548",
@@ -849,11 +1444,20 @@
     "aliases": [
       "TI K3 AM6548 (K3-AM6548)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am654i_k3am654i",
@@ -864,11 +1468,20 @@
     "aliases": [
       "TI K3 AM654I (K3-AM654I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am65i_k3am65i",
@@ -879,11 +1492,20 @@
     "aliases": [
       "TI K3 AM65I (K3-AM65I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am67a_k3am67a",
@@ -894,9 +1516,16 @@
     "aliases": [
       "TI K3 AM67A (K3-AM67A)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am68_k3am68",
@@ -907,11 +1536,20 @@
     "aliases": [
       "TI K3 AM68 (K3-AM68)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_am69_k3am69",
@@ -922,11 +1560,20 @@
     "aliases": [
       "TI K3 AM69 (K3-AM69)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j7200_k3j7200",
@@ -937,11 +1584,20 @@
     "aliases": [
       "TI K3 J7200 (K3-J7200)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j7200i_k3j7200i",
@@ -952,11 +1608,20 @@
     "aliases": [
       "TI K3 J7200I (K3-J7200I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j721e_k3j721e",
@@ -967,11 +1632,20 @@
     "aliases": [
       "TI K3 J721E (K3-J721E)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j721ei_k3j721ei",
@@ -982,11 +1656,20 @@
     "aliases": [
       "TI K3 J721EI (K3-J721EI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j721s2_k3j721s2",
@@ -997,11 +1680,20 @@
     "aliases": [
       "TI K3 J721S2 (K3-J721S2)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j721s2i_k3j721s2i",
@@ -1012,11 +1704,20 @@
     "aliases": [
       "TI K3 J721S2I (K3-J721S2I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j722s_k3j722s",
@@ -1027,11 +1728,20 @@
     "aliases": [
       "TI K3 J722S (K3-J722S)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j722si_k3j722si",
@@ -1042,11 +1752,20 @@
     "aliases": [
       "TI K3 J722SI (K3-J722SI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j742s2_k3j742s2",
@@ -1057,11 +1776,20 @@
     "aliases": [
       "TI K3 J742S2 (K3-J742S2)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j742s2i_k3j742s2i",
@@ -1072,11 +1800,20 @@
     "aliases": [
       "TI K3 J742S2I (K3-J742S2I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j784s4_k3j784s4",
@@ -1087,11 +1824,20 @@
     "aliases": [
       "TI K3 J784S4 (K3-J784S4)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "ti_k3_j784s4i_k3j784s4i",
@@ -1102,10 +1848,19 @@
     "aliases": [
       "TI K3 J784S4I (K3-J784S4I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   }
 ]

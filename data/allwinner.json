@@ -5,7 +5,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A10s",
@@ -18,7 +18,24 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a31s",
@@ -26,7 +43,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A31s",
@@ -40,7 +57,25 @@
     "memory_clock": 533,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "h64",
@@ -50,7 +85,7 @@
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
     "gpu": "Cortex-A53",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "H64",
@@ -66,7 +101,27 @@
     "memory_clock": 533,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a83t",
@@ -76,7 +131,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 (700 MHz)",
     "max_freq": "700 MHz",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A83T",
@@ -93,7 +148,28 @@
     "memory_clock": 933,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "r16",
@@ -101,7 +177,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "R16",
@@ -118,7 +194,26 @@
     "memory_clock": 933,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "r18",
@@ -127,7 +222,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Cortex-A53",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "R18",
@@ -140,7 +235,25 @@
     "memory_clock": 933,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a40i",
@@ -148,7 +261,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A40i",
@@ -162,7 +275,25 @@
     "memory_clock": 933,
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "f1c100",
@@ -170,7 +301,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "F1C100",
@@ -184,7 +315,25 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "gpu": "Mali-450 MP"
+    "gpu": "Mali-450 MP",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "a10",
@@ -195,7 +344,7 @@
     "process": "55 nm",
     "gpu": "Cortex-A8",
     "max_freq": "300 MHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A10",
@@ -208,7 +357,27 @@
     "memory_clock": 1600,
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "f1c200s",
@@ -216,7 +385,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "F1C200s",
@@ -230,7 +399,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "gpu": "Mali-450 MP"
+    "gpu": "Mali-450 MP",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "f1e200",
@@ -238,7 +425,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "F1E200",
@@ -252,7 +439,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "gpu": "Mali-450 MP"
+    "gpu": "Mali-450 MP",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "r40",
@@ -260,7 +465,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "R40",
@@ -277,7 +482,26 @@
     "memory_clock": 1600,
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "r58",
@@ -286,7 +510,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 MP1",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "R58",
@@ -302,7 +526,26 @@
     "memory_clock": 1600,
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.2"
+    "bluetooth": "4.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a13",
@@ -310,7 +553,7 @@
     "vendor": "Allwinner",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A13",
@@ -323,7 +566,24 @@
     "memory_clock": 2133,
     "memory_bus": 64,
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "h616",
@@ -332,7 +592,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-G31 MP2",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "H616",
@@ -348,7 +608,26 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a133",
@@ -358,7 +637,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Cortex-A53",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A133",
@@ -371,7 +650,26 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a20",
@@ -381,7 +679,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "256 KB",
     "max_freq": "350 MHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A20",
@@ -397,7 +695,27 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a23",
@@ -406,7 +724,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A23",
@@ -420,7 +738,26 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a31",
@@ -430,7 +767,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX544 MP2 (350 MHz)",
     "max_freq": "350 MHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A31",
@@ -444,7 +781,27 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a33",
@@ -454,7 +811,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "1080p @ 60 fps multi-format",
     "max_freq": "350 MHz",
-    "completeness": 0.5437,
+    "completeness": 0.3373,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A33",
@@ -472,7 +829,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a50",
@@ -482,7 +861,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "4",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A50",
@@ -495,7 +874,26 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a63",
@@ -505,7 +903,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Cortex-A53",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A63",
@@ -518,7 +916,26 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a64",
@@ -528,7 +945,7 @@
     "architecture": "ARMv8.2-A",
     "process": "40 nm",
     "gpu": "Cortex-A53",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A64",
@@ -544,7 +961,27 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a80_octa_a80octa",
@@ -555,7 +992,7 @@
     "process": "28 nm",
     "gpu": "8",
     "max_freq": "533 MHz",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A80 Octa",
@@ -571,7 +1008,28 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun4",
@@ -583,10 +1041,19 @@
     "aliases": [
       "Allwinner Sun4 (SUN4)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun5",
@@ -598,10 +1065,19 @@
     "aliases": [
       "Allwinner Sun5 (SUN5)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun50",
@@ -612,9 +1088,18 @@
     "aliases": [
       "Allwinner Sun50 (SUN50)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun55",
@@ -626,10 +1111,19 @@
     "aliases": [
       "Allwinner Sun55 (SUN55)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun6",
@@ -641,10 +1135,19 @@
     "aliases": [
       "Allwinner Sun6 (SUN6)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun7",
@@ -656,10 +1159,19 @@
     "aliases": [
       "Allwinner Sun7 (SUN7)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun8",
@@ -671,10 +1183,19 @@
     "aliases": [
       "Allwinner Sun8 (SUN8)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sun9",
@@ -686,10 +1207,19 @@
     "aliases": [
       "Allwinner Sun9 (SUN9)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_suniv",
@@ -700,11 +1230,20 @@
     "aliases": [
       "Allwinner Suniv (SUNIV)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv5"
+    "architecture": "ARMv5",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "allwinner_sunxi",
@@ -715,9 +1254,18 @@
     "aliases": [
       "Allwinner Sunxi (SUNXI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "axp152i",
@@ -729,9 +1277,17 @@
     "aliases": [
       "axp152i (AXP152I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp209i",
@@ -743,9 +1299,17 @@
     "aliases": [
       "axp209i (AXP209I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp223i",
@@ -757,9 +1321,17 @@
     "aliases": [
       "axp223i (AXP223I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp22xi",
@@ -771,9 +1343,17 @@
     "aliases": [
       "axp22xi (AXP22XI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp803i",
@@ -785,9 +1365,17 @@
     "aliases": [
       "axp803i (AXP803I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp809i",
@@ -799,9 +1387,17 @@
     "aliases": [
       "axp809i (AXP809I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "axp81xi",
@@ -813,8 +1409,16 @@
     "aliases": [
       "axp81xi (AXP81XI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

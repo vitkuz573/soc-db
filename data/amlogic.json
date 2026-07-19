@@ -14,7 +14,7 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T950",
     "memory_clock": 1333,
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 28,
@@ -22,7 +22,26 @@
     "process": "28 nm",
     "year": 2015,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t950",
@@ -31,7 +50,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T950",
@@ -46,7 +65,25 @@
     "process_name": "14nm",
     "storage_type": "UFS 2.0",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_s912_amlogics912",
@@ -67,12 +104,32 @@
     "npu": "Stereo DACs I2S, SPDIF, DMIC",
     "model": "Amlogic S912",
     "memory_clock": 1333,
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "npu": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_t962_amlogict962",
@@ -92,12 +149,31 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T962",
     "memory_clock": 1333,
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_t966_amlogict966",
@@ -117,12 +193,31 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T966",
     "memory_clock": 1333,
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_t968_amlogict968",
@@ -142,12 +237,31 @@
     "video_decode": "HDMI 2.0b, CVBS",
     "model": "Amlogic T968",
     "memory_clock": 1333,
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905d",
@@ -157,7 +271,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905D",
@@ -173,7 +287,27 @@
     "npu": "Stereo DACs I2S, SPDIF, DMIC",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905l",
@@ -183,7 +317,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905L",
@@ -199,7 +333,27 @@
     "npu": "Stereo DACs I2S, SPDIF, DMIC",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905x",
@@ -209,7 +363,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 OpenGL ES 2.0",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X",
@@ -225,7 +379,27 @@
     "npu": "Stereo DACs I2S, SPDIF, DMIC",
     "year": 2016,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "year": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905x2",
@@ -235,7 +409,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905X2",
@@ -253,7 +427,28 @@
     "year": 2016,
     "process_nm": 14,
     "process_name": "14nm",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "wifi": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905y2",
@@ -263,7 +458,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y2",
@@ -281,7 +476,28 @@
     "year": 2016,
     "process_nm": 14,
     "process_name": "14nm",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "wifi": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s905y4",
@@ -291,7 +507,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G31 MP2 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S905Y4",
@@ -309,7 +525,28 @@
     "year": 2016,
     "process_nm": 14,
     "process_name": "14nm",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "wifi": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s912",
@@ -319,7 +556,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T820 MP3 OpenGL ES 3.1",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S912",
@@ -334,7 +571,26 @@
     "year": 2016,
     "storage_type": "UFS 2.0",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t962",
@@ -344,7 +600,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-450 MP5 OpenGL ES 2.0",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T962",
@@ -359,7 +615,26 @@
     "year": 2016,
     "storage_type": "UFS 2.0",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t966",
@@ -369,7 +644,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T966",
@@ -384,7 +659,26 @@
     "year": 2016,
     "storage_type": "UFS 2.0",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t968",
@@ -394,7 +688,7 @@
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
     "gpu": "Mali-T830 MP2 OpenGL ES 3.1",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T968",
@@ -409,7 +703,26 @@
     "year": 2016,
     "storage_type": "UFS 2.0",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t920l",
@@ -418,7 +731,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "Mali-450 OpenGL ES 2.0 , OpenVG 1.1",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T920L",
@@ -433,7 +746,25 @@
     "process_nm": 10,
     "process_name": "10nm",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.2"
+    "bluetooth": "4.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "s922x",
@@ -443,7 +774,7 @@
     "architecture": "ARMv8.2-A",
     "process": "12 nm",
     "gpu": "Mali-G52 MP4 Vulkan 1.0, OpenGL ES 3.2",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "model": "S922X",
@@ -461,7 +792,28 @@
     "year": 2019,
     "process_nm": 7,
     "process_name": "7nm",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu_api": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "video_decode": "legacy_v2",
+      "wifi": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "npu": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "a111",
@@ -470,7 +822,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A111",
@@ -482,7 +834,24 @@
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "a112",
@@ -491,7 +860,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A112",
@@ -503,7 +872,24 @@
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "a113",
@@ -512,7 +898,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "process": "28 nm",
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "model": "A113",
@@ -524,7 +910,24 @@
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_a111_amlogica111",
@@ -538,14 +941,31 @@
     "memory_type": "DDR3",
     "model": "Amlogic A111",
     "memory_clock": 1333,
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_a112_amlogica112",
@@ -559,14 +979,31 @@
     "memory_type": "DDR3",
     "model": "Amlogic A112",
     "memory_clock": 1333,
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "amlogic_a113_amlogica113",
@@ -580,14 +1017,31 @@
     "memory_type": "DDR3",
     "model": "Amlogic A113",
     "memory_clock": 1333,
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
     "storage_type": "UFS 3.1",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali-G31 MP2"
+    "gpu": "Mali-G31 MP2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "ti_amlogic",
@@ -595,9 +1049,17 @@
     "vendor": "Amlogic",
     "model": "AMLOGIC",
     "source": "linux_dt",
-    "completeness": 0.2233,
+    "completeness": 0.1386,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "meson",
@@ -608,9 +1070,18 @@
     "aliases": [
       "meson (MESON)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "meson8",
@@ -622,10 +1093,19 @@
     "aliases": [
       "meson8 (MESON8)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "mesoni",
@@ -636,8 +1116,17 @@
     "aliases": [
       "mesoni (MESONI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   }
 ]

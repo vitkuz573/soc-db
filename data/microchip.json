@@ -7,9 +7,17 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARMv8-A",
-    "completeness": 0.2621,
+    "completeness": 0.1627,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "lan9691",
@@ -19,12 +27,21 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARMv8-A",
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "aliases": [
       "lan9691 (LAN9691)"
-    ]
+    ],
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "lan9696",
@@ -34,11 +51,20 @@
     "source": "linux_dt",
     "cores": 2,
     "architecture": "ARM Cortex-A7",
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "aliases": [
       "lan9696 (LAN9696)"
-    ]
+    ],
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

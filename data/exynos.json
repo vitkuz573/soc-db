@@ -7,7 +7,7 @@
     "cores": 3,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W1000",
@@ -20,7 +20,26 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.0",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_w1000_sc55535aha_exynosw1000sc55535aha",
@@ -30,7 +49,7 @@
     "architecture": "ARMv8.2-A",
     "process": "3 nm",
     "max_freq": "1.6 GHz",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W1000 (SC55535AHA)",
@@ -48,7 +67,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_3_quad_3470_exynos3quad3470",
@@ -60,7 +101,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3470",
@@ -76,7 +117,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_3_quad_3475_exynos3quad3475",
@@ -87,7 +150,7 @@
     "max_freq": "1.3 GHz",
     "gpu": "4 cores 1.3 GHz Cortex-A7",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5146,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Quad 3475",
@@ -100,7 +163,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_3_single_3110_exynos3single3110",
@@ -111,7 +194,7 @@
     "cores": 7,
     "architecture": "ARMv7-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Single 3110",
@@ -123,7 +206,26 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_3_single_3110_previously_hummingbird_exynos3single3110previouslyhummingbirds5pc110",
@@ -135,7 +237,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "PowerVR SGX540",
     "year": 2010,
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Single 3110 (previously Hummingbird S5PC110)",
@@ -151,7 +253,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_4_dual_4210_exynos4dual4210",
@@ -163,7 +287,7 @@
     "max_freq": "1.2 GHz",
     "gpu": "Mali-400 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4210",
@@ -179,7 +303,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_4_dual_4212_exynos4dual4212",
@@ -190,7 +336,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4212",
@@ -207,7 +353,29 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_4_quad_4412_exynos4quad4412",
@@ -217,7 +385,7 @@
     "cores": 8,
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4412",
@@ -233,7 +401,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_4_quad_4415_exynos4quad4415",
@@ -244,7 +432,7 @@
     "cores": 8,
     "max_freq": "1.5 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Quad 4415",
@@ -261,7 +449,29 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_dual_5250_exynos5dual5250",
@@ -273,7 +483,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T604 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Dual 5250",
@@ -289,7 +499,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_hexa_5260_exynos5hexa5260",
@@ -301,7 +533,7 @@
     "max_freq": "1.7 GHz",
     "gpu": "Mali-T624 MP4",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Hexa 5260",
@@ -317,7 +549,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_octa_5410_exynos5octa5410",
@@ -328,7 +582,7 @@
     "max_freq": "1.6 GHz",
     "architecture": "ARMv8.2-A",
     "gpu": "4+4 cores (1.6 GHz Cortex-A15 + 1.2 GHz Cortex-A7 )",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5410",
@@ -344,7 +598,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_octa_5420_exynos5octa5420",
@@ -355,7 +630,7 @@
     "max_freq": "1.9 GHz",
     "gpu": "4+4 cores (1.9 GHz Cortex-A15 + 1.3 GHz Cortex-A7 )",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5420",
@@ -371,7 +646,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_octa_5422_exynos5octa5422",
@@ -381,7 +677,7 @@
     "cores": 8,
     "max_freq": "2.1 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5422",
@@ -397,7 +693,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_octa_5430_exynos5octa5430",
@@ -408,7 +724,7 @@
     "cores": 8,
     "max_freq": "1.8 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5430",
@@ -425,7 +741,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_5_octa_5800_exynos5octa5800",
@@ -436,7 +774,7 @@
     "cores": 8,
     "max_freq": "2.0 GHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 5 Octa 5800",
@@ -451,7 +789,27 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
     "bluetooth": "3.0",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_octa_5433_exynos7octa5433",
@@ -463,7 +821,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "1.9 GHz",
     "gpu": "113.42",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 5433",
@@ -479,7 +837,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_octa_7420_exynos7octa7420",
@@ -491,7 +871,7 @@
     "max_freq": "2.1 GHz",
     "gpu": "78.23",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7420",
@@ -507,7 +887,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_octa_7580_exynos7octa7580",
@@ -517,7 +919,7 @@
     "max_freq": "1.60 GHz",
     "year": 2010,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7580",
@@ -534,7 +936,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_octa_7870_exynos7octa7870",
@@ -545,7 +968,7 @@
     "year": 2010,
     "gpu": "Mali-T830 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Octa 7870",
@@ -561,7 +984,28 @@
     "storage_type": "eMMC 5.0",
     "memory_clock": 400,
     "memory_bus": 32,
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "year": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_quad_7570_exynos7quad7570",
@@ -573,7 +1017,7 @@
     "max_freq": "1.4 GHz",
     "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7570",
@@ -589,7 +1033,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_quad_7578_exynos7quad7578",
@@ -601,7 +1067,7 @@
     "max_freq": "1.5 GHz",
     "gpu": "Mali-T720 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Quad 7578",
@@ -614,7 +1080,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7872_exynos7872",
@@ -629,7 +1116,7 @@
     "aliases": [
       "Exynos 7872 (EXYNOS 7872)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1200",
@@ -641,7 +1128,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7880_exynos7880",
@@ -656,7 +1164,7 @@
     "aliases": [
       "Exynos 7880 (EXYNOS 7880)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "950",
@@ -668,7 +1176,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7884_exynos7884",
@@ -682,7 +1211,7 @@
     "aliases": [
       "Exynos 7884 (EXYNOS 7884)"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.3554,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1350,
@@ -697,7 +1226,30 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7884a_exynos7884a",
@@ -708,7 +1260,7 @@
     "max_freq": "1.35 GHz",
     "gpu": "2 + 6 cores (1.35 GHz Cortex-A73 + 1.35 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7884A",
@@ -724,7 +1276,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7885_exynos7885",
@@ -738,7 +1311,7 @@
     "aliases": [
       "Exynos 7885 (EXYNOS 7885)"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.3554,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -753,7 +1326,30 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7904_exynos7904",
@@ -767,7 +1363,7 @@
     "aliases": [
       "Exynos 7904 (EXYNOS 7904)"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.3554,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1600,
@@ -782,7 +1378,30 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_8_octa_8890_exynos8octa8890",
@@ -793,7 +1412,7 @@
     "max_freq": "2.3 GHz",
     "gpu": "4 + 4 cores (2.3 GHz, up to 2.6 GHz in dual-core load, Exynos M1 \"Mongoose\" + 1.6 GHz Cortex-A53 ) GTS",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 8 Octa 8890",
@@ -809,7 +1428,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_8895_exynos8895",
@@ -825,7 +1465,7 @@
     "aliases": [
       "Exynos 8895 (EXYNOS 8895)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G71 MP20",
@@ -837,7 +1477,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9609_exynos9609",
@@ -852,7 +1514,7 @@
     "aliases": [
       "Exynos 9609 (EXYNOS 9609)"
     ],
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 10,
@@ -862,7 +1524,26 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9610_exynos9610",
@@ -876,7 +1557,7 @@
     "aliases": [
       "Exynos 9610 (EXYNOS 9610)"
     ],
-    "completeness": 0.5728,
+    "completeness": 0.3554,
     "sources": {},
     "updated": "2026-06-21",
     "clock_min": 1700,
@@ -891,7 +1572,30 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9611_exynos9611",
@@ -904,7 +1608,7 @@
     "aliases": [
       "Exynos 9611 (EXYNOS 9611)"
     ],
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "gpu": "91.8",
@@ -916,7 +1620,26 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9810_s5e9810_exynos9810",
@@ -932,7 +1655,7 @@
     "aliases": [
       "Exynos 9810 (S5E9810) (EXYNOS 9810)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "4 + 4 cores (2.9 GHz Exynos M3 \"Meerkat\" + 1.9 GHz Cortex-A55 )",
@@ -944,7 +1667,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9820_s5e9820_exynos9820",
@@ -960,7 +1705,7 @@
     "aliases": [
       "Exynos 9820 (S5E9820) (EXYNOS 9820)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Mali-G76 MP12",
@@ -972,7 +1717,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9825_s5e9825_exynos9825",
@@ -987,7 +1754,7 @@
     "aliases": [
       "Exynos 9825 (S5E9825) (EXYNOS 9825)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "754",
@@ -1000,7 +1767,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_9110_sc59110xsc_exynos9110",
@@ -1014,7 +1803,7 @@
     "aliases": [
       "Exynos 9110 (SC59110XSC) (EXYNOS 9110)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "LPDDR4 LPDDR4X",
@@ -1028,7 +1817,29 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.2",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_v7_exynosautov7",
@@ -1039,7 +1850,7 @@
     "max_freq": "1.5 GHz",
     "gpu": "2× Mali-G76 (MP8 + MP3)",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V7",
@@ -1056,7 +1867,29 @@
     "memory_bus": 64,
     "modem": "Exynos 4G LTE",
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.2"
+    "bluetooth": "4.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_990_exynos990",
@@ -1071,7 +1904,7 @@
     "process": "7nm",
     "year": 2019,
     "max_freq": "2.73 GHz",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -1082,7 +1915,27 @@
     "memory_bus": 64,
     "modem": "Exynos 4G LTE",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1080_s5e9815_exynos1080",
@@ -1097,7 +1950,7 @@
     "aliases": [
       "Exynos 1080 (S5E9815) (EXYNOS 1080)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.8 GHz Cortex-A78 + 2.6 GHz Cortex-A78 + 2.0 GHz Cortex-A55 )",
@@ -1110,7 +1963,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_850_exynos850",
@@ -1121,7 +1996,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 850",
@@ -1134,7 +2009,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_880_exynos880",
@@ -1144,7 +2039,7 @@
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 880",
@@ -1157,7 +2052,26 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_980_exynos980",
@@ -1168,7 +2082,7 @@
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 980",
@@ -1181,7 +2095,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_990",
@@ -1192,7 +2126,7 @@
     "max_freq": "3.02 GHz",
     "gpu": "Mali-G77 MP11",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 990",
@@ -1205,7 +2139,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_v9_exynosautov9",
@@ -1215,7 +2169,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.1 GHz",
     "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V9",
@@ -1228,7 +2182,26 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_v9_s5ahr80a_exynosautov9s5ahr80a",
@@ -1238,7 +2211,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.10 GHz",
     "gpu": "3× Mali-G76 (MP12 + MP3 + MP3)",
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V9 (S5AHR80A)",
@@ -1256,7 +2229,29 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_v920_exynosautov920",
@@ -1267,7 +2262,7 @@
     "gpu": "Xclipse ( RDNA 2 based 512:32:32:8 4 WGP)",
     "max_freq": "3200 MHz",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V920",
@@ -1280,7 +2275,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_v920_s5av920_exynosautov920s5av920",
@@ -1291,7 +2306,7 @@
     "process": "5 nm",
     "gpu": "148.72",
     "max_freq": "3200 MHz",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto V920 (S5AV920)",
@@ -1308,7 +2323,29 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_w920_exynosw920",
@@ -1319,7 +2356,7 @@
     "max_freq": "1.18 GHz",
     "gpu": "Mali-G68 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W920",
@@ -1332,7 +2369,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos850",
@@ -1355,10 +2412,30 @@
     "aliases": [
       "exynos850 (EXYNOS850)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos990",
@@ -1381,10 +2458,30 @@
     "aliases": [
       "exynos990 (EXYNOS990)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynosautov920",
@@ -1407,10 +2504,30 @@
     "aliases": [
       "exynosautov920 (EXYNOSAUTOV920)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 10
+    "cores": 10,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynosautov920i",
@@ -1433,10 +2550,30 @@
     "aliases": [
       "exynosautov920i (EXYNOSAUTOV920I)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos_2100_s5e9840_exynos2100",
@@ -1452,7 +2589,7 @@
     "aliases": [
       "Exynos 2100 (S5E9840) (EXYNOS 2100)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.91 GHz Cortex-X1 + 2.81 GHz Cortex-A78 + 2.2 GHz Cortex-A55 )",
@@ -1464,7 +2601,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1280_s5e8825_exynos1280",
@@ -1478,7 +2637,7 @@
     "aliases": [
       "Exynos 1280 (S5E8825) (EXYNOS 1280)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "897",
@@ -1491,7 +2650,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1330_s5e8535_exynos1330",
@@ -1505,7 +2685,7 @@
     "aliases": [
       "Exynos 1330 (S5E8535) (EXYNOS 1330)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "121.5",
@@ -1518,7 +2698,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_2200_s5e9925_exynos2200",
@@ -1534,7 +2735,7 @@
     "aliases": [
       "Exynos 2200 (S5E9925) (EXYNOS 2200)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.95 GHz Cortex-X2 + 2.70 GHz Cortex-A710 + 2.10 GHz Cortex-A51",
@@ -1546,7 +2747,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos2200",
@@ -1570,10 +2793,31 @@
     "aliases": [
       "exynos2200 (EXYNOS2200)"
     ],
-    "completeness": 0.4757,
+    "completeness": 0.3193,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1380_s5e8835_exynos1380",
@@ -1587,7 +2831,7 @@
     "aliases": [
       "Exynos 1380 (S5E8835) (EXYNOS 1380)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "303.7",
@@ -1600,7 +2844,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1480_s5e8845_exynos1480",
@@ -1615,7 +2880,7 @@
     "aliases": [
       "Exynos 1480 (S5E8845) (EXYNOS 1480)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Xclipse 530 \"Titan\" ( RDNA 2 based 128:8:8:2 1 WGP)",
@@ -1628,7 +2893,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_24002400e_s5e9945_exynos2400",
@@ -1644,7 +2931,7 @@
     "aliases": [
       "Exynos 2400/2400e (S5E9945) (EXYNOS 2400)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 2 + 3 + 4 cores (3.1/3.2 GHz Cortex-X4 + 2.9 GHz Cortex-A720 + 2.6 GHz Corte",
@@ -1656,7 +2943,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1580_s5e8855_exynos1580",
@@ -1671,7 +2980,7 @@
     "aliases": [
       "Exynos 1580 (S5E8855) (EXYNOS 1580)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 4 cores (2.9 GHz Cortex-A720 + 2.6 GHz Cortex-A720 + 1.95 GHz Cortex-A52",
@@ -1684,7 +2993,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_1680_s5e8865_exynos1680",
@@ -1698,7 +3029,7 @@
     "aliases": [
       "Exynos 1680 (S5E8865) (EXYNOS 1680)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1200",
@@ -1711,7 +3042,28 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_2500_s5e9955_exynos2500",
@@ -1727,7 +3079,7 @@
     "aliases": [
       "Exynos 2500 (S5E9955) (EXYNOS 2500)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "Xclipse 950 \"Galileo\" ( RDNA 3 based 1024:64:64:16 8 WGP)",
@@ -1739,7 +3091,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_2600_s5e9965_exynos2600",
@@ -1755,7 +3129,7 @@
     "aliases": [
       "Exynos 2600 (S5E9965) (EXYNOS 2600)"
     ],
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "npu": "1 + 3 + 6 cores (3.8 GHz C1-Ultra + 3.25 GHz C1-Pro + 2.75 GHz C1-Pro)",
@@ -1767,7 +3141,29 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 2",
-    "bluetooth": "2.0"
+    "bluetooth": "2.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "year": "legacy_v2",
+      "aliases": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_3_dual_3250_exynos3dual3250",
@@ -1778,7 +3174,7 @@
     "max_freq": "1.0 GHz",
     "gpu": "Mali -400 MP2",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 3 Dual 3250",
@@ -1792,7 +3188,28 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_4_dual_4212_single_core_exynos4dual4212singlecore",
@@ -1803,7 +3220,7 @@
     "process": "32 nm",
     "max_freq": "0.8 GHz",
     "gpu": "Mali-400 MP4",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 4 Dual 4212 (Single core)",
@@ -1820,7 +3237,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_dual_7270_exynos7dual7270",
@@ -1831,7 +3270,7 @@
     "max_freq": "1.0 GHz",
     "gpu": "Mali-T720 MP1",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Dual 7270",
@@ -1844,7 +3283,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_7_dual_7270_sc57270_exynos7dual7270sc57270",
@@ -1855,7 +3314,7 @@
     "process": "14 nm",
     "max_freq": "1.0 GHz",
     "gpu": "Mali-T720 MP1",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 7 Dual 7270 (SC57270)",
@@ -1872,7 +3331,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_850_s5e3830_exynos850s5e3830",
@@ -1883,7 +3364,7 @@
     "process": "8 nm",
     "max_freq": "2.0 GHz",
     "gpu": "Mali-G52 MP1",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 850 (S5E3830)",
@@ -1900,7 +3381,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_880_s5e8805_exynos880s5e8805",
@@ -1910,7 +3413,7 @@
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
     "gpu": "2 + 6 cores (2.0 GHz Cortex-A77 + 1.8 GHz Cortex-A55 )",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 880 (S5E8805)",
@@ -1927,7 +3430,28 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_980_s5e9630_exynos980s5e9630",
@@ -1938,7 +3462,7 @@
     "process": "8 nm",
     "max_freq": "2.2 GHz",
     "gpu": "Mali-G76 MP5",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 980 (S5E9630)",
@@ -1955,7 +3479,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_990_s5e9830_exynos990s5e9830",
@@ -1966,7 +3512,7 @@
     "process": "7 nm",
     "max_freq": "3.02 GHz",
     "gpu": "91.83",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos 990 (S5E9830)",
@@ -1983,7 +3529,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "year": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_8890_exynosauto8890",
@@ -1994,7 +3562,7 @@
     "max_freq": "2.6 GHz",
     "gpu": "Mali-T880 MP12",
     "architecture": "ARMv8.2-A",
-    "completeness": 0.5049,
+    "completeness": 0.3133,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto 8890",
@@ -2007,7 +3575,27 @@
     "memory_bus": 64,
     "modem": "Exynos 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_8890_sga8890a_exynosauto8890sga8890a",
@@ -2018,7 +3606,7 @@
     "process": "14 nm",
     "max_freq": "2.6 GHz",
     "gpu": "Mali-T880 MP12",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos Auto 8890 (SGA8890A)",
@@ -2035,7 +3623,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_auto_t5123",
@@ -2046,7 +3656,7 @@
     "max_freq": "2133 MHz",
     "architecture": "ARMv8.2-A",
     "model": "T5123",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
@@ -2058,7 +3668,26 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "process": "legacy_v2",
+      "cores": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "exynos_w920_sc55515xbd_exynosw920sc55515xbd",
@@ -2069,7 +3698,7 @@
     "process": "5 nm",
     "max_freq": "1.18 GHz",
     "gpu": "Mali-G68 MP2",
-    "completeness": 0.534,
+    "completeness": 0.3313,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W920 (SC55515XBD)",
@@ -2086,7 +3715,29 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos_w930_sc55515xbe_exynosw930sc55515xbe",
@@ -2095,7 +3746,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Exynos W930 (SC55515XBE)",
@@ -2113,7 +3764,28 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "exynos3250",
@@ -2136,10 +3808,30 @@
     "aliases": [
       "exynos3250 (EXYNOS3250)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos4210",
@@ -2162,10 +3854,30 @@
     "aliases": [
       "exynos4210 (EXYNOS4210)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos4212",
@@ -2188,10 +3900,30 @@
     "aliases": [
       "exynos4212 (EXYNOS4212)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos4412",
@@ -2214,10 +3946,30 @@
     "aliases": [
       "exynos4412 (EXYNOS4412)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5250",
@@ -2240,10 +3992,30 @@
     "aliases": [
       "exynos5250 (EXYNOS5250)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5260",
@@ -2266,10 +4038,30 @@
     "aliases": [
       "exynos5260 (EXYNOS5260)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 6
+    "cores": 6,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5410",
@@ -2292,10 +4084,30 @@
     "aliases": [
       "exynos5410 (EXYNOS5410)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5420",
@@ -2318,10 +4130,30 @@
     "aliases": [
       "exynos5420 (EXYNOS5420)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5422",
@@ -2344,10 +4176,30 @@
     "aliases": [
       "exynos5422 (EXYNOS5422)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5433",
@@ -2370,10 +4222,30 @@
     "aliases": [
       "exynos5433 (EXYNOS5433)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos5800",
@@ -2396,9 +4268,28 @@
     "aliases": [
       "exynos5800 (EXYNOS5800)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.2831,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "exynos7870",
@@ -2421,10 +4312,30 @@
     "aliases": [
       "exynos7870 (EXYNOS7870)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos7885",
@@ -2447,10 +4358,30 @@
     "aliases": [
       "exynos7885 (EXYNOS7885)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos8895",
@@ -2473,10 +4404,30 @@
     "aliases": [
       "exynos8895 (EXYNOS8895)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos9810",
@@ -2499,10 +4450,30 @@
     "aliases": [
       "exynos9810 (EXYNOS9810)"
     ],
-    "completeness": 0.4563,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "artpec8",
@@ -2514,10 +4485,19 @@
     "aliases": [
       "artpec8 (ARTPEC8)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "artpec8i",
@@ -2529,10 +4509,19 @@
     "aliases": [
       "artpec8i (ARTPEC8I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "artpec9",
@@ -2544,10 +4533,19 @@
     "aliases": [
       "artpec9 (ARTPEC9)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 6
+    "cores": 6,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "artpec9i",
@@ -2559,10 +4557,19 @@
     "aliases": [
       "artpec9i (ARTPEC9I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 6
+    "cores": 6,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynos",
@@ -2574,9 +4581,17 @@
     "aliases": [
       "exynos (EXYNOS)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "exynos4",
@@ -2587,9 +4602,18 @@
     "aliases": [
       "exynos4 (EXYNOS4)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "exynos5",
@@ -2600,9 +4624,18 @@
     "aliases": [
       "exynos5 (EXYNOS5)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "exynos54",
@@ -2613,9 +4646,18 @@
     "aliases": [
       "exynos54 (EXYNOS54)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "architecture": "ARMv8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "exynos7",
@@ -2627,10 +4669,19 @@
     "aliases": [
       "exynos7 (EXYNOS7)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynosautov9",
@@ -2642,10 +4693,19 @@
     "aliases": [
       "exynosautov9 (EXYNOSAUTOV9)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "exynosautov9i",
@@ -2657,10 +4717,19 @@
     "aliases": [
       "exynosautov9i (EXYNOSAUTOV9I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "gs101",
@@ -2672,10 +4741,19 @@
     "aliases": [
       "gs101 (GS101)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "gs101i",
@@ -2687,10 +4765,19 @@
     "aliases": [
       "gs101i (GS101I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s3c6410",
@@ -2702,10 +4789,19 @@
     "aliases": [
       "s3c6410 (S3C6410)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s3c6410i",
@@ -2717,10 +4813,19 @@
     "aliases": [
       "s3c6410i (S3C6410I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s3c64xx",
@@ -2732,10 +4837,19 @@
     "aliases": [
       "s3c64xx (S3C64XX)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s3c64xxi",
@@ -2747,10 +4861,19 @@
     "aliases": [
       "s3c64xxi (S3C64XXI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s5pv210",
@@ -2762,10 +4885,19 @@
     "aliases": [
       "s5pv210 (S5PV210)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s5pv210i",
@@ -2777,9 +4909,18 @@
     "aliases": [
       "s5pv210i (S5PV210I)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   }
 ]

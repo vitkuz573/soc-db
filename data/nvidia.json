@@ -6,7 +6,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "ODNX10-A1",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2007,
@@ -18,7 +18,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "odnx10_a1_tm675m_a1_odnx10a1tm675ma1",
@@ -28,7 +45,7 @@
     "architecture": "ARMv8.2-A",
     "process": "16 nm",
     "max_freq": "2.1 GHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX10-A1 TM675M-A1",
@@ -42,7 +59,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
-    "bluetooth": "2.1"
+    "bluetooth": "2.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tm670d_a1_tm670da1",
@@ -51,7 +88,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670D-A1",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2007,
@@ -63,7 +100,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "tm675m_a1_tm675ma1",
@@ -72,7 +126,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM675M-A1",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2007,
@@ -84,7 +138,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "odnx02_a2_odnx02a2",
@@ -93,7 +164,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "ODNX02-A2",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2008,
@@ -105,7 +176,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "odnx02_a2_tm670d_a1_tm670m_a2_tm671d_a2_odnx02a2tm670da1tm670ma2tm671da2",
@@ -115,7 +203,7 @@
     "architecture": "ARMv8.2-A",
     "process": "20 nm",
     "max_freq": "2.2 GHz",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "model": "ODNX02-A2 TM670D-A1 TM670M-A2 TM671D-A2",
@@ -129,7 +217,27 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
-    "bluetooth": "2.1"
+    "bluetooth": "2.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tm660m_a2_tm660ma2",
@@ -138,7 +246,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.4 GHz",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "TM660M-A2",
@@ -151,7 +259,25 @@
     "process_name": "65nm",
     "storage_type": "eMMC 5.0",
     "wifi": "Wi-Fi 3",
-    "bluetooth": "2.1"
+    "bluetooth": "2.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tm670d_a2_tm670da2",
@@ -160,7 +286,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670D-A2",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2008,
@@ -172,7 +298,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "tm670m_a2_tm670ma2",
@@ -181,7 +324,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM670M-A2",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2008,
@@ -193,7 +336,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "tm671d_a2_tm671da2",
@@ -202,7 +362,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "model": "TM671D-A2",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2008,
@@ -214,7 +374,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "Nvidia GPU"
+    "gpu": "Nvidia GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "nvidia_tegra_4_nvidiategra4",
@@ -233,9 +410,25 @@
     "gpu": "Nvidia GPU",
     "wifi": "Wi-Fi 4",
     "bluetooth": "4.0",
-    "completeness": 0.3883,
+    "completeness": 0.241,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "nvidia_tegra_x1_nvidiategrax1",
@@ -254,9 +447,26 @@
     "gpu": "Nvidia GPU",
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "completeness": 0.3981,
+    "completeness": 0.247,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "description": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "nvidia_tegra_x2_nvidiategrax2",
@@ -275,9 +485,26 @@
     "gpu": "Nvidia GPU",
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.1",
-    "completeness": 0.3981,
+    "completeness": 0.247,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "description": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra_3_cortexa9",
@@ -286,7 +513,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.0 GHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Cortex-A9",
@@ -302,7 +529,26 @@
     "memory_clock": 800,
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra_4i_4120ghzcortexa9r4",
@@ -311,7 +557,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "660 MHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 2.0 GHz Cortex-A9 \"R4\"",
@@ -327,7 +573,26 @@
     "storage_type": "UFS 2.0",
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra_x2_parker_tegrax2parker",
@@ -336,7 +601,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.0 GHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Tegra X2 (Parker)",
@@ -350,7 +615,26 @@
     "memory_clock": 800,
     "memory_bus": 32,
     "wifi": "Wi-Fi 5",
-    "bluetooth": "4.1"
+    "bluetooth": "4.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "gpu_clock": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra_4_4119ghzcortexa15",
@@ -359,7 +643,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "672 MHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 1.9 GHz Cortex-A15",
@@ -375,7 +659,26 @@
     "storage_type": "UFS 3.1",
     "memory_bus": 64,
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra_k1_4123ghzcortexa15r332bit",
@@ -384,7 +687,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "951 MHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "4+1 × 2.3 GHz Cortex-A15 R3 (32-bit)",
@@ -400,7 +703,26 @@
     "storage_type": "UFS 3.1",
     "memory_bus": 64,
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "thor_14neoversev3ae26ghz",
@@ -408,7 +730,7 @@
     "vendor": "Nvidia",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "14 × Neoverse V3AE (2.6 GHz)",
@@ -424,7 +746,25 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "tegra20",
@@ -445,11 +785,30 @@
     "aliases": [
       "tegra20 (TEGRA20)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv7-A"
+    "architecture": "ARMv7-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra30",
@@ -470,11 +829,30 @@
     "aliases": [
       "tegra30 (TEGRA30)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv7-A"
+    "architecture": "ARMv7-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra114",
@@ -495,11 +873,30 @@
     "aliases": [
       "tegra114 (TEGRA114)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv7-A"
+    "architecture": "ARMv7-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra124",
@@ -520,11 +917,30 @@
     "aliases": [
       "tegra124 (TEGRA124)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv7-A"
+    "architecture": "ARMv7-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra132",
@@ -545,11 +961,30 @@
     "aliases": [
       "tegra132 (TEGRA132)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra186",
@@ -570,11 +1005,30 @@
     "aliases": [
       "tegra186 (TEGRA186)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra194",
@@ -595,11 +1049,30 @@
     "aliases": [
       "tegra194 (TEGRA194)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra210",
@@ -620,11 +1093,30 @@
     "aliases": [
       "tegra210 (TEGRA210)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra234",
@@ -645,11 +1137,30 @@
     "aliases": [
       "tegra234 (TEGRA234)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 12,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tegra264",
@@ -670,11 +1181,30 @@
     "aliases": [
       "tegra264 (TEGRA264)"
     ],
-    "completeness": 0.3981,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "nvidia_drive",
@@ -686,9 +1216,17 @@
     "aliases": [
       "Nvidia Drive (nvidia_drive)"
     ],
-    "completeness": 0.2427,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "t254",
@@ -696,11 +1234,19 @@
     "vendor": "Nvidia",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.1807,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T254 ?",
-    "gpu": "Ada Lovelace"
+    "gpu": "Ada Lovelace",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "t264",
@@ -709,7 +1255,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "2.60 GHz",
-    "completeness": 0.3786,
+    "completeness": 0.2349,
     "sources": {},
     "updated": "2026-06-21",
     "model": "T264",
@@ -719,7 +1265,20 @@
     "memory_clock": 1575,
     "aliases": [
       "T264 (T264 )"
-    ]
+    ],
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "te980_m_te980m",
@@ -728,7 +1287,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "918 MHz",
-    "completeness": 0.3592,
+    "completeness": 0.2229,
     "sources": {},
     "updated": "2026-06-21",
     "model": "TE980-M",
@@ -737,6 +1296,18 @@
     "gpu": "1.88",
     "aliases": [
       "TE980-M (TE980-M )"
-    ]
+    ],
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "clock_min": "legacy_v2",
+      "clock_max": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

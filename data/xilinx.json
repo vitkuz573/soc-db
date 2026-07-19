@@ -8,9 +8,16 @@
     "aliases": [
       "avnet (AVNET)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "versal",
@@ -21,11 +28,20 @@
     "aliases": [
       "versal (VERSAL)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 16,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "zynqmp",
@@ -35,12 +51,21 @@
     "source": "linux_dt",
     "cores": 4,
     "architecture": "ARMv8-A",
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "aliases": [
       "zynqmp (ZYNQMP)"
-    ]
+    ],
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "zynqmpi",
@@ -51,10 +76,19 @@
     "aliases": [
       "zynqmpi (ZYNQMPI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   }
 ]

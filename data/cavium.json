@@ -8,10 +8,19 @@
     "aliases": [
       "thunder (THUNDER)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 48,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   }
 ]

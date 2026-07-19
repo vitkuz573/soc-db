@@ -18,10 +18,28 @@
     "aliases": [
       "s800 (S800)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8000",
@@ -42,10 +60,28 @@
     "aliases": [
       "s8000 (S8000)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8000i",
@@ -66,10 +102,28 @@
     "aliases": [
       "s8000i (S8000I)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8001",
@@ -90,10 +144,28 @@
     "aliases": [
       "s8001 (S8001)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8001i",
@@ -114,10 +186,28 @@
     "aliases": [
       "s8001i (S8001I)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8003",
@@ -138,10 +228,28 @@
     "aliases": [
       "s8003 (S8003)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s8003i",
@@ -162,10 +270,28 @@
     "aliases": [
       "s8003i (S8003I)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.2771,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s800x",
@@ -186,9 +312,26 @@
     "aliases": [
       "s800x (S800X)"
     ],
-    "completeness": 0.4078,
+    "completeness": 0.253,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "apple_a13_bionic_t8301",
@@ -202,7 +345,7 @@
     "aliases": [
       "Apple A13 Bionic (T8301)"
     ],
-    "completeness": 0.5437,
+    "completeness": 0.3373,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -216,7 +359,29 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "cluster_config": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_a12z_bionic_t8006",
@@ -230,7 +395,7 @@
     "aliases": [
       "Apple A12Z Bionic (T8006)"
     ],
-    "completeness": 0.5243,
+    "completeness": 0.3253,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -243,7 +408,28 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_m1_t8110",
@@ -262,7 +448,7 @@
     "aliases": [
       "Apple M1 (T8110)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -274,7 +460,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6",
-    "bluetooth": "5.0"
+    "bluetooth": "5.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t8103",
@@ -293,7 +503,7 @@
     "aliases": [
       "Apple A14 Bionic (T8103)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 7,
@@ -306,7 +516,32 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6",
     "bluetooth": "5.0",
-    "source": "linux_dt"
+    "source": "linux_dt",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "source": "legacy_v2"
+    }
   },
   {
     "id": "apple_a15_bionic_t8110",
@@ -325,7 +560,7 @@
     "aliases": [
       "Apple A15 Bionic (T8110)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -337,7 +572,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_a15_bionic_t8310",
@@ -351,7 +610,7 @@
     "aliases": [
       "Apple A15 Bionic (T8310)"
     ],
-    "completeness": 0.5437,
+    "completeness": 0.3373,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -365,7 +624,29 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "cluster_config": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_m1_max_t8116",
@@ -384,7 +665,7 @@
     "aliases": [
       "Apple M1 Max (T8116)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -396,7 +677,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t8112",
@@ -415,7 +720,7 @@
     "aliases": [
       "Apple M1 Pro (T8112)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -428,7 +733,32 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "source": "linux_dt"
+    "source": "linux_dt",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "source": "legacy_v2"
+    }
   },
   {
     "id": "apple_a16_bionic_t8120",
@@ -447,7 +777,7 @@
     "aliases": [
       "Apple A16 Bionic (T8120)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -459,7 +789,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_a16_bionic_apl1110",
@@ -473,7 +827,7 @@
     "aliases": [
       "Apple A16 Bionic (APL1110)"
     ],
-    "completeness": 0.5437,
+    "completeness": 0.3373,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 4,
@@ -487,7 +841,29 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
-    "bluetooth": "5.2"
+    "bluetooth": "5.2",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "cluster_config": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t6000",
@@ -506,7 +882,7 @@
     "aliases": [
       "Apple M2 (T6000)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 5,
@@ -519,7 +895,32 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "source": "linux_dt"
+    "source": "linux_dt",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "source": "legacy_v2"
+    }
   },
   {
     "id": "apple_a17_pro_t8130",
@@ -538,7 +939,7 @@
     "aliases": [
       "Apple A17 Pro (T8130)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 4,
@@ -550,7 +951,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_a17_pro_apl1201",
@@ -564,7 +989,7 @@
     "aliases": [
       "Apple A17 Pro (APL1201)"
     ],
-    "completeness": 0.5437,
+    "completeness": 0.3373,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 3,
@@ -578,7 +1003,29 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "model": "legacy_v2",
+      "process": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "cluster_config": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "t6020",
@@ -597,7 +1044,7 @@
     "aliases": [
       "Apple M2 Pro (T6020)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 4,
@@ -610,7 +1057,32 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.3",
-    "source": "linux_dt"
+    "source": "linux_dt",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "source": "legacy_v2"
+    }
   },
   {
     "id": "t6021",
@@ -629,7 +1101,7 @@
     "aliases": [
       "Apple M2 Max (T6021)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 4,
@@ -642,7 +1114,32 @@
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.3",
-    "source": "linux_dt"
+    "source": "linux_dt",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "source": "legacy_v2"
+    }
   },
   {
     "id": "apple_a18_pro_t9500",
@@ -661,7 +1158,7 @@
     "aliases": [
       "Apple A18 Pro (T9500)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 3,
@@ -673,7 +1170,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "apple_m4_t9515",
@@ -692,7 +1213,7 @@
     "aliases": [
       "Apple M4 (T9515)"
     ],
-    "completeness": 0.5534,
+    "completeness": 0.3434,
     "sources": {},
     "updated": "2026-06-21",
     "process_nm": 3,
@@ -704,7 +1225,31 @@
     "npu": "Neural Engine",
     "modem": "Apple 5G",
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "codename": "legacy_v2",
+      "model": "legacy_v2",
+      "cores": "legacy_v2",
+      "threads": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "process": "legacy_v2",
+      "year": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "aliases": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "npu": "legacy_v2",
+      "modem": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_spi1",
@@ -713,9 +1258,16 @@
     "model": "SPI1",
     "source": "linux_dt",
     "architecture": "ARMv8",
-    "completeness": 0.2233,
+    "completeness": 0.1386,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s5l8960x",
@@ -727,10 +1279,19 @@
     "aliases": [
       "s5l8960x (S5L8960X)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s5l8960xi",
@@ -742,10 +1303,19 @@
     "aliases": [
       "s5l8960xi (S5L8960XI)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "s5l8965x",
@@ -757,9 +1327,17 @@
     "aliases": [
       "s5l8965x (S5L8965X)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1446,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "t600",
@@ -771,10 +1349,19 @@
     "aliases": [
       "t600 (T600)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 10
+    "cores": 10,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t6001",
@@ -786,10 +1373,19 @@
     "aliases": [
       "t6001 (T6001)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 10
+    "cores": 10,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t6002",
@@ -801,10 +1397,19 @@
     "aliases": [
       "t6002 (T6002)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 10
+    "cores": 10,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t602",
@@ -816,10 +1421,19 @@
     "aliases": [
       "t602 (T602)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 12
+    "cores": 12,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t6022",
@@ -831,10 +1445,19 @@
     "aliases": [
       "t6022 (T6022)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 12
+    "cores": 12,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t7000",
@@ -846,10 +1469,19 @@
     "aliases": [
       "t7000 (T7000)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t7001",
@@ -861,10 +1493,19 @@
     "aliases": [
       "t7001 (T7001)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 3
+    "cores": 3,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t8010",
@@ -876,10 +1517,19 @@
     "aliases": [
       "t8010 (T8010)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t8011",
@@ -891,10 +1541,19 @@
     "aliases": [
       "t8011 (T8011)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 3
+    "cores": 3,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t8012",
@@ -906,10 +1565,19 @@
     "aliases": [
       "t8012 (T8012)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 2
+    "cores": 2,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t8015",
@@ -921,10 +1589,19 @@
     "aliases": [
       "t8015 (T8015)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 6
+    "cores": 6,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "t8122",
@@ -936,9 +1613,18 @@
     "aliases": [
       "t8122 (T8122)"
     ],
-    "completeness": 0.233,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 8
+    "cores": 8,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   }
 ]

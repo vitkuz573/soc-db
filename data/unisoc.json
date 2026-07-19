@@ -7,7 +7,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2018,
@@ -19,7 +19,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 5",
     "bluetooth": "4.2",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_sp9860",
@@ -29,7 +47,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2018,
@@ -41,7 +59,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_sp9863",
@@ -51,7 +87,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARM Cortex-A55",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2018,
@@ -63,7 +99,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
     "bluetooth": "5.4",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_ums9620",
@@ -73,7 +127,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2021,
@@ -85,7 +139,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_sc9836",
@@ -95,7 +167,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARMv8-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2022,
@@ -107,7 +179,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_sc9860",
@@ -117,7 +207,7 @@
     "source": "linux_dt",
     "cores": 8,
     "architecture": "ARMv8-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2022,
@@ -129,7 +219,25 @@
     "memory_bus": 64,
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "gpu": "Mali GPU"
+    "gpu": "Mali GPU",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_sc9863",
@@ -147,11 +255,29 @@
     "gpu": "Mali GPU",
     "wifi": "Wi-Fi 6E",
     "bluetooth": "5.2",
-    "completeness": 0.3883,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "unisoc_ums512",
@@ -159,11 +285,19 @@
     "vendor": "Unisoc",
     "model": "UMS512",
     "source": "linux_dt",
-    "completeness": 0.1845,
+    "completeness": 0.1627,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "sharkl3i",
@@ -174,9 +308,16 @@
     "aliases": [
       "sharkl3i (SHARKL3I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "sharkl64i",
@@ -187,9 +328,16 @@
     "aliases": [
       "sharkl64i (SHARKL64I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "whale2i",
@@ -200,8 +348,15 @@
     "aliases": [
       "whale2i (WHALE2I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

@@ -5,11 +5,19 @@
     "vendor": "STMicroelectronics",
     "model": "STM32MP21",
     "source": "linux_dt",
-    "completeness": 0.1845,
+    "completeness": 0.1627,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp211",
@@ -22,9 +30,18 @@
     "aliases": [
       "STM32 MP211 (STM32MP211)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp213",
@@ -37,9 +54,18 @@
     "aliases": [
       "STM32 MP213 (STM32MP213)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp215",
@@ -52,9 +78,18 @@
     "aliases": [
       "STM32 MP215 (STM32MP215)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp23",
@@ -62,11 +97,19 @@
     "vendor": "STMicroelectronics",
     "model": "STM32MP23",
     "source": "linux_dt",
-    "completeness": 0.1845,
+    "completeness": 0.1627,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp231",
@@ -79,9 +122,18 @@
     "aliases": [
       "STM32 MP231 (STM32MP231)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp233",
@@ -94,9 +146,18 @@
     "aliases": [
       "STM32 MP233 (STM32MP233)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp235",
@@ -109,9 +170,18 @@
     "aliases": [
       "STM32 MP235 (STM32MP235)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp25",
@@ -119,11 +189,19 @@
     "vendor": "STMicroelectronics",
     "model": "STM32MP25",
     "source": "linux_dt",
-    "completeness": 0.1845,
+    "completeness": 0.1627,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp251",
@@ -136,9 +214,18 @@
     "aliases": [
       "STM32 MP251 (STM32MP251)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp253",
@@ -151,9 +238,18 @@
     "aliases": [
       "STM32 MP253 (STM32MP253)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp255",
@@ -166,9 +262,18 @@
     "aliases": [
       "STM32 MP255 (STM32MP255)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "stm32mp257",
@@ -181,8 +286,17 @@
     "aliases": [
       "STM32 MP257 (STM32MP257)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

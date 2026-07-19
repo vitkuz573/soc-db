@@ -8,6 +8,13 @@
     "model": "Xiaomi Xring O1",
     "completeness": 0.233,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2"
+    }
   }
 ]

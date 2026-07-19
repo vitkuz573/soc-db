@@ -8,10 +8,18 @@
     "aliases": [
       "Marvell Armada (ARMADA)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1446,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_37_armada37",
@@ -22,10 +30,18 @@
     "aliases": [
       "Marvell Armada 37 (ARMADA-37)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1446,
     "sources": {},
     "updated": "2026-06-21",
-    "cores": 1
+    "cores": 1,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_372_armada372",
@@ -36,11 +52,20 @@
     "aliases": [
       "Marvell Armada 372 (ARMADA-372)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_3720_armada3720",
@@ -53,9 +78,18 @@
     "aliases": [
       "Marvell Armada 3720 (ARMADA-3720)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_70_armada70",
@@ -66,11 +100,20 @@
     "aliases": [
       "Marvell Armada 70 (ARMADA-70)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_7020_armada7020",
@@ -83,9 +126,18 @@
     "aliases": [
       "Marvell Armada 7020 (ARMADA-7020)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_7040_armada7040",
@@ -98,9 +150,18 @@
     "aliases": [
       "Marvell Armada 7040 (ARMADA-7040)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_80_armada80",
@@ -111,11 +172,20 @@
     "aliases": [
       "Marvell Armada 80 (ARMADA-80)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_8040_armada8040",
@@ -128,9 +198,18 @@
     "aliases": [
       "Marvell Armada 8040 (ARMADA-8040)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "marvell_armada_8080_armada8080",
@@ -143,9 +222,18 @@
     "aliases": [
       "Marvell Armada 8080 (ARMADA-8080)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "ac5",
@@ -158,9 +246,18 @@
     "aliases": [
       "Marvell Ac5 (AC5)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "cn9130",
@@ -173,9 +270,18 @@
     "aliases": [
       "Marvell Cn9130 (CN9130)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "cn9131",
@@ -188,9 +294,18 @@
     "aliases": [
       "Marvell Cn9131 (CN9131)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "cn9132",
@@ -203,9 +318,18 @@
     "aliases": [
       "Marvell Cn9132 (CN9132)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "db",
@@ -216,9 +340,16 @@
     "aliases": [
       "db (DB)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "pxa1908",
@@ -231,8 +362,17 @@
     "aliases": [
       "Marvell Pxa1908 (PXA1908)"
     ],
-    "completeness": 0.2718,
+    "completeness": 0.1687,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]

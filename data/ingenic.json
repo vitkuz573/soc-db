@@ -5,7 +5,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4730",
@@ -18,7 +18,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.0",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4720",
@@ -26,7 +43,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4720",
@@ -39,7 +56,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4740",
@@ -47,7 +81,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4740",
@@ -60,7 +94,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4725b",
@@ -68,7 +119,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4725B",
@@ -81,7 +132,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4750",
@@ -89,7 +157,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4750",
@@ -102,7 +170,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4755",
@@ -110,7 +195,7 @@
     "vendor": "Ingenic",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4755",
@@ -123,7 +208,24 @@
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
     "bluetooth": "2.1",
-    "gpu": "GC400"
+    "gpu": "GC400",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "jz4775",
@@ -132,7 +234,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "500 MHz",
-    "completeness": 0.4854,
+    "completeness": 0.3012,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4775",
@@ -148,7 +250,26 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 3",
-    "bluetooth": "2.1"
+    "bluetooth": "2.1",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2",
+      "aliases": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "jz4760",
@@ -157,7 +278,7 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "gpu": "second core is for video processing only, IEEE754-complient FPU",
-    "completeness": 0.466,
+    "completeness": 0.2892,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4760",
@@ -169,7 +290,24 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "jz4770",
@@ -179,7 +317,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "JZ4770",
     "max_freq": "500 MHz",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4770",
@@ -191,7 +329,25 @@
     "memory_clock": 400,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "3.0"
+    "bluetooth": "3.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "jz4780",
@@ -201,7 +357,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR SGX 540",
     "max_freq": "500 MHz",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "model": "Jz4780",
@@ -213,6 +369,24 @@
     "memory_clock": 533,
     "memory_bus": 32,
     "wifi": "Wi-Fi 4",
-    "bluetooth": "4.0"
+    "bluetooth": "4.0",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   }
 ]

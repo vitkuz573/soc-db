@@ -12,7 +12,7 @@
     "storage_type": "Type",
     "bluetooth": "5.3",
     "model": "GS101",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2021,
@@ -23,7 +23,27 @@
     "aliases": [
       "Google G1 (Original) (GS101)"
     ],
-    "wifi": "Wi-Fi 6E"
+    "wifi": "Wi-Fi 6E",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "codename": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "aliases": "legacy_v2",
+      "wifi": "legacy_v2"
+    }
   },
   {
     "id": "google_g2_gs201",
@@ -41,7 +61,7 @@
     "model": "GS201",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2022,
@@ -49,7 +69,27 @@
     "aliases": [
       "Google G2 (GS201)"
     ],
-    "wifi": "Wi-Fi 6E"
+    "wifi": "Wi-Fi 6E",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "codename": "legacy_v2",
+      "aliases": "legacy_v2",
+      "wifi": "legacy_v2"
+    }
   },
   {
     "id": "google_g3_gs301",
@@ -66,7 +106,7 @@
     "model": "GS301",
     "memory_clock": 3200,
     "memory_bus": 64,
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2023,
@@ -75,7 +115,27 @@
     "aliases": [
       "Google G3 (GS301)"
     ],
-    "wifi": "Wi-Fi 7"
+    "wifi": "Wi-Fi 7",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "model": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "year": "legacy_v2",
+      "codename": "legacy_v2",
+      "bluetooth": "legacy_v2",
+      "aliases": "legacy_v2",
+      "wifi": "legacy_v2"
+    }
   },
   {
     "id": "google_g4_gs401",
@@ -88,7 +148,7 @@
     "process": "3 nm",
     "gpu": "Mali-G715 MP7",
     "model": "GS401",
-    "completeness": 0.4951,
+    "completeness": 0.3072,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2024,
@@ -101,7 +161,27 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.3"
+    "bluetooth": "5.3",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "process": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "codename": "legacy_v2",
+      "aliases": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   },
   {
     "id": "google_g5_googleg5",
@@ -111,7 +191,7 @@
     "architecture": "ARMv8.2-A",
     "gpu": "PowerVR DXT-48-1536",
     "model": "Google G5",
-    "completeness": 0.4757,
+    "completeness": 0.2952,
     "sources": {},
     "updated": "2026-06-21",
     "year": 2025,
@@ -123,6 +203,24 @@
     "memory_clock": 4266,
     "memory_bus": 64,
     "wifi": "Wi-Fi 7",
-    "bluetooth": "5.4"
+    "bluetooth": "5.4",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "model": "legacy_v2",
+      "year": "legacy_v2",
+      "codename": "legacy_v2",
+      "process_nm": "legacy_v2",
+      "process_name": "legacy_v2",
+      "memory_type": "legacy_v2",
+      "storage_type": "legacy_v2",
+      "memory_clock": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "wifi": "legacy_v2",
+      "bluetooth": "legacy_v2"
+    }
   }
 ]

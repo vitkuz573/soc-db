@@ -8,9 +8,16 @@
     "aliases": [
       "fsl (FSL)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "imx_6_imx6",
@@ -18,11 +25,19 @@
     "vendor": "NXP i.MX",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.1807,
     "sources": {},
     "updated": "2026-06-21",
     "model": "i.MX 6",
-    "gpu": "security"
+    "gpu": "security",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "imx_7_imx7",
@@ -30,11 +45,19 @@
     "vendor": "NXP i.MX",
     "cores": 8,
     "architecture": "ARMv8.2-A",
-    "completeness": 0.2913,
+    "completeness": 0.1807,
     "sources": {},
     "updated": "2026-06-21",
     "model": "i.MX 7",
-    "gpu": "Secondary CPU – ARM Cortex M4 real-time co-processor"
+    "gpu": "Secondary CPU – ARM Cortex M4 real-time co-processor",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "imx_8_imx8",
@@ -44,10 +67,19 @@
     "architecture": "ARMv8.2-A",
     "gpu": "H.265 decode 4K /2K, H.264 encode/decode 1080p",
     "max_freq": "266 MHz",
-    "completeness": 0.301,
+    "completeness": 0.1867,
     "sources": {},
     "updated": "2026-06-21",
-    "model": "i.MX 8"
+    "model": "i.MX 8",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "gpu": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2"
+    }
   },
   {
     "id": "imx_8m_imx8m",
@@ -56,11 +88,20 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.5 GHz",
-    "completeness": 0.301,
+    "completeness": 0.1867,
     "sources": {},
     "updated": "2026-06-21",
     "model": "i.MX 8M",
-    "gpu": "GC7000Lite"
+    "gpu": "GC7000Lite",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "imx_8x_imx8x",
@@ -69,13 +110,24 @@
     "cores": 8,
     "architecture": "ARMv8.2-A",
     "max_freq": "1.2 GHz",
-    "completeness": 0.3204,
+    "completeness": 0.1988,
     "sources": {},
     "updated": "2026-06-21",
     "model": "i.MX 8X",
     "dsp": "Tensilica HiFi 4 DSP",
     "memory_bus": 32,
-    "gpu": "DDR3L (ECC option) LPDDR4 (no ECC)"
+    "gpu": "DDR3L (ECC option) LPDDR4 (no ECC)",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2",
+      "max_freq": "legacy_v2",
+      "model": "legacy_v2",
+      "dsp": "legacy_v2",
+      "memory_bus": "legacy_v2",
+      "gpu": "legacy_v2"
+    }
   },
   {
     "id": "imx8",
@@ -86,9 +138,16 @@
     "aliases": [
       "i.MX8 (IMX8)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "imx91",
@@ -99,11 +158,20 @@
     "aliases": [
       "i.MX91 (IMX91)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 1,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "imx93",
@@ -114,11 +182,20 @@
     "aliases": [
       "i.MX93 (IMX93)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 2,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "imx94",
@@ -129,11 +206,20 @@
     "aliases": [
       "i.MX94 (IMX94)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "architecture": "ARMv8.2-A",
-    "cores": 4
+    "cores": 4,
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "architecture": "legacy_v2",
+      "cores": "legacy_v2"
+    }
   },
   {
     "id": "imx943",
@@ -144,11 +230,20 @@
     "aliases": [
       "i.MX943 (IMX943)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "imx95",
@@ -159,11 +254,20 @@
     "aliases": [
       "i.MX95 (IMX95)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 6,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "imx952",
@@ -174,11 +278,20 @@
     "aliases": [
       "i.MX952 (IMX952)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "mba8mxi",
@@ -189,9 +302,16 @@
     "aliases": [
       "mba8mxi (MBA8MXI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "mba8xxi",
@@ -202,9 +322,16 @@
     "aliases": [
       "mba8xxi (MBA8XXI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "qoriq",
@@ -215,9 +342,16 @@
     "aliases": [
       "qoriq (QORIQ)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "s32g274a",
@@ -228,11 +362,20 @@
     "aliases": [
       "s32g274a (S32G274A)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32g2i",
@@ -243,11 +386,20 @@
     "aliases": [
       "s32g2i (S32G2I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32g399a",
@@ -258,11 +410,20 @@
     "aliases": [
       "s32g399a (S32G399A)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32g3i",
@@ -273,11 +434,20 @@
     "aliases": [
       "s32g3i (S32G3I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32gxxxa",
@@ -288,9 +458,16 @@
     "aliases": [
       "s32gxxxa (S32GXXXA)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "s32n79",
@@ -301,11 +478,20 @@
     "aliases": [
       "s32n79 (S32N79)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32n79i",
@@ -316,11 +502,20 @@
     "aliases": [
       "s32n79i (S32N79I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 8,
-    "architecture": "ARMv8.2-A"
+    "architecture": "ARMv8.2-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32v234",
@@ -331,11 +526,20 @@
     "aliases": [
       "s32v234 (S32V234)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "s32v234i",
@@ -346,11 +550,20 @@
     "aliases": [
       "s32v234i (S32V234I)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1687,
     "sources": {},
     "updated": "2026-06-21",
     "cores": 4,
-    "architecture": "ARMv8-A"
+    "architecture": "ARMv8-A",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2",
+      "cores": "legacy_v2",
+      "architecture": "legacy_v2"
+    }
   },
   {
     "id": "tqma8xxi",
@@ -361,9 +574,16 @@
     "aliases": [
       "tqma8xxi (TQMA8XXI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqma8xxs",
@@ -374,9 +594,16 @@
     "aliases": [
       "tqma8xxs (TQMA8XXS)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqma8xxsi",
@@ -387,9 +614,16 @@
     "aliases": [
       "tqma8xxsi (TQMA8XXSI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqmls104xa",
@@ -400,9 +634,16 @@
     "aliases": [
       "tqmls104xa (TQMLS104XA)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqmls1088a",
@@ -413,9 +654,16 @@
     "aliases": [
       "tqmls1088a (TQMLS1088A)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqmls10xxa",
@@ -426,9 +674,16 @@
     "aliases": [
       "tqmls10xxa (TQMLS10XXA)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   },
   {
     "id": "tqmls10xxai",
@@ -439,8 +694,15 @@
     "aliases": [
       "tqmls10xxai (TQMLS10XXAI)"
     ],
-    "completeness": 0.1942,
+    "completeness": 0.1205,
     "sources": {},
-    "updated": "2026-06-21"
+    "updated": "2026-06-21",
+    "provenance": {
+      "name": "legacy_v2",
+      "vendor": "legacy_v2",
+      "model": "legacy_v2",
+      "source": "legacy_v2",
+      "aliases": "legacy_v2"
+    }
   }
 ]
