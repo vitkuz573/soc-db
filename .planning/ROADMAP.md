@@ -49,7 +49,11 @@ Plans:
   3. User can set `SOC_DB_USE_JSON=true` and instantly fall back to JSON file store for rollback
   4. All existing CLI commands (list, query, show, stats, enrich) work identically with SQLite backend
   5. Existing JSON files remain untouched as frozen source of truth
-**Plans**: TBD
+**Plans**: 2 plans (01–02)
+
+Plans:
+- [ ] 02-01-PLAN.md — SQLite DB package (connection, schema, queries, migrate) + config dual-read (Wave 1)
+- [ ] 02-02-PLAN.md — CLI + API integration, FTS5 search, tests (Wave 2)
 
 ### Phase 3: ASYNC — Async Data Layer
 **Goal**: API server uses async database access via `aiosqlite` without blocking the event loop
@@ -102,7 +106,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. REFAC | 4/0 | Planning (4 plans created) | - |
-| 2. DB | 0/0 | Not started | - |
+| 2. DB | 0/2 | Planning (2 plans created) | - |
 | 3. ASYNC | 0/0 | Not started | - |
 | 4. RLIMIT | 0/0 | Not started | - |
 | 5. OBSERVE | 0/0 | Not started | - |
