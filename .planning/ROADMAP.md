@@ -44,7 +44,10 @@
   3. Scraper identity strategy (User-Agent, contact info, rate limit headers) is documented and implemented per target
   4. robots.txt caching and compliance framework is operational, preventing scrapes of disallowed paths
   5. C&D response plan is documented and accessible to the team
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 07-01-PLAN.md — Legal compliance matrix (data/LEGAL.md)
+- [ ] 07-02-PLAN.md — Filesystem guard, robots.txt, scraper identity, CI
 
 ### Phase 8: Scraper Framework
 **Goal**: New scrapers can be added as single-file plugins with safe HTTP handling, rate limiting, and drift detection
@@ -137,7 +140,7 @@
 | 4. RLIMIT | v2.1 | 2/2 | Complete | 2026-07-19 |
 | 5. OBSERVE | v2.1 | 2/2 | Complete | 2026-07-19 |
 | 6. WIKIDATA | v2.1 | 1/1 | Complete | 2026-07-19 |
-| 7. Governance & Safety | v3.0 | 0/0 | Not started | - |
+| 7. Governance & Safety | v3.0 | 0/2 | Not started | - |
 | 8. Scraper Framework | v3.0 | 0/0 | Not started | - |
 | 9. Provenance & Schema | v3.0 | 0/0 | Not started | - |
 | 10. Dedup & Identity | v3.0 | 0/0 | Not started | - |
