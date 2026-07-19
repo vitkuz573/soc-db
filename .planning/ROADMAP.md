@@ -113,7 +113,11 @@ Plans:
   3. Health endpoint (`/health`) is excluded from tracing to avoid noise
   4. OTel overhead is under 5% (verified by before/after benchmark with ~10% sampling)
 
-**Plans**: TBD
+**Plans**: 2 plans (01–02)
+
+Plans:
+- [ ] 05-01-PLAN.md — Core telemetry module (deps, config, telemetry.py, unit tests) [Wave 1]
+- [ ] 05-02-PLAN.md — API integration (lifespan, /metrics, middleware, integration tests, benchmark) [Wave 2]
 
 ### Phase 6: WIKIDATA — Wikidata Knowledge Sync
 
@@ -127,7 +131,10 @@ Plans:
   3. SPARQL results are validated before overwriting maps (dry-run mode available; never auto-publish without human review)
   4. Failed SPARQL queries (timeout, empty results) don't corrupt existing vendor maps — retry with exponential backoff
 
-**Plans**: TBD
+**Plans**: 1 plan (01)
+
+Plans:
+- [ ] 06-01-PLAN.md — Wikidata module + merge layer + CLI + CI workflow [Wave 1]
 
 ## Progress
 
@@ -139,5 +146,5 @@ Plans:
 | 2. DB | 0/2 | Planning (2 plans created) | - |
 | 3. ASYNC | 2/2 | Complete   | 2026-07-19 |
 | 4. RLIMIT | 0/2 | Planning (2 plans created) | - |
-| 5. OBSERVE | 0/0 | Not started | - |
-| 6. WIKIDATA | 0/0 | Not started | - |
+| 5. OBSERVE | 0/2 | Planning (2 plans created) | - |
+| 6. WIKIDATA | 0/1 | Planning (1 plan created) | - |
