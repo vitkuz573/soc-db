@@ -100,7 +100,12 @@ Plans:
   3. All 4 existing scrapers (Wikipedia, Apple, Linux DeviceTree, Wikidata SPARQL) produce deduplicated entries through the framework
   4. Legacy `scripts/` directory is deleted and all functionality migrated to the `scraping/` subpackage
 
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 10-01-PLAN.md — DedupEngine: UUID identity, multi-strategy matcher, write_vendor_file integration
+- [ ] 10-02-PLAN.md — Scripts consolidation: migrate Apple/Linux DT/Wikidata scrapers, delete scripts/
+- [ ] 10-03-PLAN.md — Tests: DedupEngine unit tests, integration tests, full regression pass
 
 ### Phase 11: Batch Processing & Quality
 
@@ -173,7 +178,7 @@ Plans:
 | 7. Governance & Safety | v3.0 | 2/2 | Complete   | 2026-07-19 |
 | 8. Scraper Framework | v3.0 | 0/3 | Planning | - |
 | 9. Provenance & Schema | v3.0 | 0/0 | Not started | - |
-| 10. Dedup & Identity | v3.0 | 0/0 | Not started | - |
+| 10. Dedup & Identity | v3.0 | 0/3 | Planning | - |
 | 11. Batch Processing | v3.0 | 0/0 | Not started | - |
 | 12. High-Value Scrapers | v3.0 | 0/0 | Not started | - |
 | 13. Vendor Official Scrapers | v3.0 | 0/0 | Not started | - |
