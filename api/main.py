@@ -156,6 +156,17 @@ async def generic_handler(_request: Request, exc: Exception):
 # ---------------------------------------------------------------------------
 api_v1 = APIRouter(prefix="/v1", tags=["v1"])
 
+# Fields excluded from comparison (system/internal)
+_COMPARE_SKIP_FIELDS = frozenset({
+    "provenance",
+    "sources",
+    "updated",
+    "_dedup_strategy",
+    "rating",
+    "benchmarks",
+    "cache",
+})
+
 
 def load_index():
     """Load the chip index from ``data/index.json``.
@@ -411,6 +422,8 @@ def root():
             "chips": "/v1/chips",
             "search": "/v1/chips?q=...",
             "chip": "/v1/chips/{id}",
+            "compare": "/v1/chips/{id}/compare?with={id2}",
+            "quality": "/v1/quality",
             "stats": "/v1/stats",
             "schema": "/v1/schema",
             "export": "/v1/export/{fmt}",
@@ -568,6 +581,71 @@ async def get_chip(chip_id: str):
     raise HTTPException(404, {"error": "Chip not found", "detail": f"Chip '{chip_id}' not found"})
 
 
+@api_v1.get("/chips/{chip_id}/compare")
+async def compare_chips(chip_id: str, with_id: str = Query(..., alias="with", description="ID of the chip to compare against")):
+    """Side-by-side comparison of two chips.
+
+    Returns a structured diff showing fields where the two chips differ,
+    plus a count of common (identical) fields.  Internal/system fields
+    (provenance, sources, benchmarks, rating, cache) are excluded from
+    comparison.
+
+    Args:
+        chip_id: Primary chip identifier.
+        with_id: Secondary chip identifier to compare against.
+
+    Returns:
+        JSON with chip1, chip2, diffs list, common_count, diff_count,
+        and total_compared_fields.
+    """
+    chips = await get_chips()
+    chip1: dict | None = None
+    chip2: dict | None = None
+    for c in chips:
+        cid = c.get("id")
+        if cid == chip_id:
+            chip1 = c
+        if cid == with_id:
+            chip2 = c
+
+    if chip1 is None:
+        raise HTTPException(404, {"error": "Chip not found", "detail": f"Primary chip '{chip_id}' not found"})
+    if chip2 is None:
+        raise HTTPException(404, {"error": "Chip not found", "detail": f"Comparison chip '{with_id}' not found"})
+
+    # Collect all fields from both chips (excluding skip fields)
+    all_keys: set[str] = set()
+    for k in chip1:
+        if k not in _COMPARE_SKIP_FIELDS:
+            all_keys.add(k)
+    for k in chip2:
+        if k not in _COMPARE_SKIP_FIELDS:
+            all_keys.add(k)
+
+    diffs: list[dict] = []
+    common_count = 0
+    for key in sorted(all_keys):
+        v1 = chip1.get(key)
+        v2 = chip2.get(key)
+        if v1 == v2:
+            common_count += 1
+        else:
+            diffs.append({
+                "field": key,
+                "value1": v1,
+                "value2": v2,
+            })
+
+    return {
+        "chip1": chip1,
+        "chip2": chip2,
+        "diffs": diffs,
+        "common_count": common_count,
+        "diff_count": len(diffs),
+        "total_compared_fields": len(all_keys),
+    }
+
+
 @api_v1.get("/stats", response_model=StatsResponse)
 async def stats():
     """Database-wide aggregate statistics.
@@ -592,6 +670,25 @@ async def stats():
             "architecture": sum(1 for c in chips if c.get("architecture")),
         },
     }
+
+
+@api_v1.get("/quality")
+async def quality_dashboard():
+    """Data quality dashboard — per-vendor quality report.
+
+    Returns fill rates, source diversity, and conflict metrics per vendor
+    computed by the ``QualityScorer``.  This is the same data available
+    via the ``soc-db quality-report`` CLI command.
+
+    Returns:
+        JSON with summary, field_group_summary, and per-vendor metrics.
+    """
+    from soc_db.quality import QualityScorer
+
+    chips = await get_chips()
+    scorer = QualityScorer(chips)
+    report = scorer.generate_report()
+    return report.to_dict()
 
 
 @api_v1.get("/schema")

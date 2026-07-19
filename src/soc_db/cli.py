@@ -142,6 +142,12 @@ def cmd_query(args):
         chips = [c for c in chips if (c.get("cores") or 0) >= args.min_cores]
     if args.completeness:
         chips = [c for c in chips if (c.get("completeness") or 0) >= args.completeness]
+    if args.source:
+        src_filter = args.source.lower()
+        chips = [
+            c for c in chips
+            if any(s.lower() == src_filter for s in (c.get("provenance") or {}).values())
+        ]
     if args.search:
         if settings.use_json:
             term = args.search.lower()
@@ -152,16 +158,25 @@ def cmd_query(args):
             chips = _fts_search(args.search)
     if args.limit:
         chips = chips[: args.limit]
+
+    # Field projection
+    if args.fields:
+        keep = set(f.strip() for f in args.fields.split(","))
+        chips = [{k: c[k] for k in keep if k in c} for c in chips]
+
     if args.csv:
         import csv
         import io
 
         out = io.StringIO()
         w = csv.writer(out)
-        fields = ["id", "name", "vendor", "model", "architecture", "cores", "process_nm", "gpu", "year", "completeness"]
-        w.writerow(fields)
+        if args.fields:
+            field_names = [f.strip() for f in args.fields.split(",")]
+        else:
+            field_names = ["id", "name", "vendor", "model", "architecture", "cores", "process_nm", "gpu", "year", "completeness"]
+        w.writerow(field_names)
         for c in chips:
-            w.writerow([c.get(f, "") for f in fields])
+            w.writerow([c.get(f, "") for f in field_names])
         print(out.getvalue().strip())
     elif args.json:
         print(json.dumps(chips, indent=2, ensure_ascii=False))
@@ -368,7 +383,9 @@ def main():
     p_query.add_argument("--year", type=int, help="Release year")
     p_query.add_argument("--min-cores", type=int, help="Minimum cores")
     p_query.add_argument("--min-ghz", type=float, help="Minimum clock GHz")
-    p_query.add_argument("--completeness", type=float, help="Minimum completeness (0-1)")
+    p_query.add_argument("--completeness", "--completeness-min", type=float, dest="completeness", help="Minimum completeness (0-1)")
+    p_query.add_argument("--source", type=str, help="Filter by provenance source name (e.g. wikipedia)")
+    p_query.add_argument("--fields", type=str, help="Comma-separated fields to include in output")
     p_query.add_argument("--search", "-s", help="Full-text search")
     p_query.add_argument("--json", action="store_true", help="JSON output")
     p_query.add_argument("--csv", action="store_true", help="CSV output")
