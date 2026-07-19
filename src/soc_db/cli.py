@@ -16,11 +16,14 @@ from soc_db.config import settings
 logger = logging.getLogger(__name__)
 
 
-def load_all():
-    """Load all chip records from JSON data files.
+def _load_all_json():
+    """Load all chip records from JSON data files (internal, no dual-read).
 
     Reads every ``.json`` file in the data directory, skipping
     ``index.json``, and returns the combined list of chip dictionaries.
+
+    This is the JSON-only fallback path, kept for ``cmd_enrich`` which
+    writes back to JSON files.
 
     Returns:
         list[dict]: All chips across all vendor files.
@@ -31,6 +34,25 @@ def load_all():
             continue
         chips.extend(json.loads(fpath.read_text("utf-8")))
     return chips
+
+
+def load_all():
+    """Load all chip records with dual-read (SQLite / JSON) fallback.
+
+    When ``settings.use_json`` is ``True`` reads from JSON vendor files;
+    otherwise reads from the SQLite database (auto-migrating if needed).
+
+    Returns:
+        list[dict]: All chips across all sources.
+    """
+    if settings.use_json:
+        return _load_all_json()
+
+    from soc_db.db.migrate import ensure_migrated
+    from soc_db.db.queries import get_all as _sql_get_all
+
+    ensure_migrated()
+    return _sql_get_all()
 
 
 def fmt_table(rows, headers):
@@ -98,6 +120,9 @@ def cmd_query(args):
     min-ghz, completeness, full-text search) and outputs results as a
     table, JSON, or CSV.
 
+    When ``settings.use_json`` is false and a search term is provided,
+    delegates to the FTS5-backed ``search()`` from the queries module.
+
     Args:
         args: Parsed argparse namespace with filter and output options.
     """
@@ -118,8 +143,12 @@ def cmd_query(args):
     if args.completeness:
         chips = [c for c in chips if (c.get("completeness") or 0) >= args.completeness]
     if args.search:
-        term = args.search.lower()
-        chips = [c for c in chips if term in json.dumps(c).lower()]
+        if settings.use_json:
+            term = args.search.lower()
+            chips = [c for c in chips if term in json.dumps(c).lower()]
+        else:
+            from soc_db.db.queries import search as _fts_search
+            chips = _fts_search(args.search)
     if args.limit:
         chips = chips[: args.limit]
     if args.csv:
@@ -175,29 +204,33 @@ def cmd_stats(args):
     Computes total chips, vendors, year range, average completeness,
     and field-presence counters.  Outputs as plain text or JSON.
 
+    When ``settings.use_json`` is false, delegates to the SQLite-backed
+    ``get_stats()`` for server-side aggregation.
+
     Args:
         args: Parsed argparse namespace with ``.json``.
     """
-    chips = load_all()
-    vcount = len(set(c.get("vendor", "") for c in chips))
-    years = [c.get("year") for c in chips if c.get("year")]
-    comps = [c.get("completeness", 0) for c in chips]
-    gpu_count = sum(1 for c in chips if c.get("gpu"))
-    proc_count = sum(1 for c in chips if c.get("process_nm"))
-    clock_count = sum(1 for c in chips if c.get("clock_max"))
-    stats = {
-        "total_chips": len(chips),
-        "total_vendors": vcount,
-        "year_min": min(years) if years else None,
-        "year_max": max(years) if years else None,
-        "avg_completeness": round(sum(comps) / max(len(comps), 1), 3),
-        "fields_present": {
-            "gpu": f"{gpu_count}/{len(chips)}",
-            "process_nm": f"{proc_count}/{len(chips)}",
-            "clock_max": f"{clock_count}/{len(chips)}",
-            "architecture": f"{sum(1 for c in chips if c.get('architecture'))}/{len(chips)}",
-        },
-    }
+    if not settings.use_json:
+        from soc_db.db.queries import get_stats as _db_stats
+        stats = _db_stats()
+    else:
+        chips = _load_all_json()
+        vcount = len({c.get("vendor", "") for c in chips})
+        years = [c.get("year") for c in chips if c.get("year")]
+        comps = [c.get("completeness", 0) for c in chips]
+        stats = {
+            "total_chips": len(chips),
+            "total_vendors": vcount,
+            "year_min": min(years) if years else None,
+            "year_max": max(years) if years else None,
+            "avg_completeness": round(sum(comps) / max(len(comps), 1), 3),
+            "fields_present": {
+                "gpu": f"{sum(1 for c in chips if c.get('gpu'))}/{len(chips)}",
+                "process_nm": f"{sum(1 for c in chips if c.get('process_nm'))}/{len(chips)}",
+                "clock_max": f"{sum(1 for c in chips if c.get('clock_max'))}/{len(chips)}",
+                "architecture": f"{sum(1 for c in chips if c.get('architecture'))}/{len(chips)}",
+            },
+        }
     if args.json:
         print(json.dumps(stats, indent=2))
     else:
@@ -210,6 +243,9 @@ def cmd_enrich(args):
 
     Reads every vendor JSON file, runs :func:`soc_db.common.enrich_all`
     on its chips, and writes the updated data back to disk.
+
+    **Always reads/writes JSON files directly** — enrichment is a
+    mutation on the JSON source of truth and bypasses SQLite.
 
     Args:
         args: Parsed argparse namespace (unused).
@@ -229,7 +265,8 @@ def cmd_migrate(args):
     Args:
         args: Parsed argparse namespace with ``.force``.
     """
-    from soc_db.db.migrate import migrate as _run_migration, validate_migration
+    from soc_db.db.migrate import migrate as _run_migration
+    from soc_db.db.migrate import validate_migration
 
     result = _run_migration(force=args.force)
     print(f"Migration complete: {result['total_chips']} chips")
