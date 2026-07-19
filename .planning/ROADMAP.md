@@ -28,7 +28,7 @@
 - [x] **Phase 9: Provenance & Schema** — Field-level provenance tracking with 30 new Chip model fields
 - [x] **Phase 10: Dedup & Identity** — UUID-based canonical chip identity with multi-strategy matcher
 - [x] **Phase 11: Batch Processing** — Batch enrichment with checkpointing, quality scoring, and API performance
-- [ ] **Phase 12: High-Value Scrapers** — TechPowerUp, NotebookCheck, and Geekbench Browser scrapers
+- [x] **Phase 12: High-Value Scrapers** — TechPowerUp, NotebookCheck, and Geekbench Browser scrapers
 - [ ] **Phase 13: Vendor Official Scrapers** — Qualcomm, MediaTek, Intel/AMD, and Apple official scrapers
 - [ ] **Phase 14: UI/API Polish** — Chip comparison API, quality dashboard, and CLI filtering enhancements
 
@@ -138,7 +138,10 @@ Plans:
   3. Geekbench Browser scraper adds CPU and GPU benchmark scores cross-referenced by chip identity
   4. Total chip count reaches 4000-4500 with all new data passing through provenance tracking and dedup
 
-**Plans**: TBD
+**Plans**: 1/1 plan complete
+
+Plans:
+- [x] 12-01-PLAN.md — TechPowerUp, NotebookCheck, Geekbench scrapers + tests
 
 ### Phase 13: Vendor Official Scrapers
 
@@ -185,6 +188,6 @@ Plans:
 | 9. Provenance & Schema | v3.0 | 0/0 | Complete   | - |
 | 10. Dedup & Identity | v3.0 | 3/3 | Complete   | 2026-07-19 |
 | 11. Batch Processing | v3.0 | 1/1 | Complete | 2026-07-19 |
-| 12. High-Value Scrapers | v3.0 | 0/0 | Not started | - |
+| 12. High-Value Scrapers | v3.0 | 1/1 | Complete | 2026-07-19 |
 | 13. Vendor Official Scrapers | v3.0 | 0/0 | Not started | - |
 | 14. UI/API Polish | v3.0 | 0/0 | Not started | - |

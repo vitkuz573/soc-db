@@ -36,9 +36,9 @@
 
 ### High-Value Scrapers (BIGSRC)
 
-- [ ] **BIGSRC-01**: TechPowerUp scraper (4398 chips, 30+ fields)
-- [ ] **BIGSRC-02**: NotebookCheck scraper (20+ benchmarks per chip)
-- [ ] **BIGSRC-03**: Geekbench Browser scraper (CPU/GPU benchmark scores)
+- [x] **BIGSRC-01**: TechPowerUp scraper (4398 chips, 30+ fields)
+- [x] **BIGSRC-02**: NotebookCheck scraper (20+ benchmarks per chip)
+- [x] **BIGSRC-03**: Geekbench Browser scraper (CPU/GPU benchmark scores)
 
 ### Vendor Official Scrapers (VENDOR)
 
@@ -89,9 +89,9 @@ Deferred to future release. Tracked but not in current roadmap.
 | BATCH-01 | Phase 11 | Complete |
 | BATCH-02 | Phase 11 | Complete |
 | BATCH-03 | Phase 11 | Complete |
-| BIGSRC-01 | Phase 12 | Pending |
-| BIGSRC-02 | Phase 12 | Pending |
-| BIGSRC-03 | Phase 12 | Pending |
+| BIGSRC-01 | Phase 12 | Complete |
+| BIGSRC-02 | Phase 12 | Complete |
+| BIGSRC-03 | Phase 12 | Complete |
 | VENDOR-01 | Phase 13 | Pending |
 | VENDOR-02 | Phase 13 | Pending |
 | VENDOR-03 | Phase 13 | Pending |
