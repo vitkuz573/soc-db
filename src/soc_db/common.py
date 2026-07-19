@@ -245,6 +245,7 @@ from soc_db.enrich._vendor_data import (
     VENDOR_KNOWLEDGE,
 )
 from soc_db.enrich._helpers import _has, clean
+from soc_db.enrich.gpu import infer_gpu
 from soc_db.enrich.memory import infer_memory
 from soc_db.enrich.process import infer_process
 from soc_db.enrich.year import infer_year
@@ -346,11 +347,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
         chip["architecture"] = vk["architecture"]
     infer_memory(chip)      # first pass: clock/bus from type
     infer_process(chip)     # first pass: model-based lookup
-    if not chip.get("gpu") and vk.get("gpu_map"):
-        for key, gpu_name in vk["gpu_map"].items():
-            if key.upper() in model_upper:
-                chip["gpu"] = gpu_name
-                break
+    infer_gpu(chip)         # first pass: model-based lookup
     y_chk = chip.get("year")
     if y_chk and (y_chk < 2003 or y_chk > 2026):
         chip["year"] = None
@@ -375,31 +372,7 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             if yr >= yr_st:
                 chip["storage_type"] = st_name
                 break
-    if not chip.get("gpu") and chip.get("year"):
-        vendor = chip.get("vendor", "")
-        yr = chip["year"]
-        gpu_by_vendor = {
-            "Allwinner": "Mali-400 MP" if yr < 2015 else "Mali-450 MP",
-            "Amlogic": "Mali-450 MP" if yr < 2017 else "Mali-G31 MP2",
-            "Rockchip": "Mali-400 MP" if yr < 2014 else "Mali-T760 MP4" if yr < 2017 else "Mali-G52 MP2",
-            "Nvidia": "Nvidia GPU",
-            "Intel Atom": "Intel HD Graphics",
-            "TI OMAP": "PowerVR SGX",
-            "Ingenic": "GC400" if yr < 2014 else "GC800",
-            "Actions": "Mali-400 MP",
-        }
-        if vendor in gpu_by_vendor:
-            chip["gpu"] = gpu_by_vendor[vendor]
-        elif vendor == "MediaTek":
-            chip["gpu"] = "Mali GPU"
-        elif vendor == "Qualcomm":
-            chip["gpu"] = "Adreno GPU"
-        elif vendor == "Samsung" or vendor == "HiSilicon" or vendor == "Unisoc":
-            chip["gpu"] = "Mali GPU"
-        elif vendor == "NXP i.MX":
-            chip["gpu"] = "Vivante GC"
-        elif vendor == "Xilinx":
-            chip["gpu"] = "Mali GPU"
+    infer_gpu(chip)          # second pass: vendor defaults from year
     if not chip.get("npu") and yr and yr >= 2017:
         vendor = chip.get("vendor", "")
         model_u = chip.get("model", "").upper()
