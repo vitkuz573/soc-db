@@ -245,9 +245,13 @@ from soc_db.enrich._vendor_data import (
     VENDOR_KNOWLEDGE,
 )
 from soc_db.enrich._helpers import _has, clean
+from soc_db.enrich.connectivity import infer_bluetooth, infer_wifi
 from soc_db.enrich.gpu import infer_gpu
 from soc_db.enrich.memory import infer_memory
+from soc_db.enrich.modem import infer_modem
+from soc_db.enrich.npu import infer_npu
 from soc_db.enrich.process import infer_process
+from soc_db.enrich.storage import infer_storage
 from soc_db.enrich.year import infer_year
 
 
@@ -359,118 +363,12 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             year = inferred
     infer_process(chip)     # second pass: year-based fallback
     infer_memory(chip)      # second pass: type/clock/bus from year
-    yr = chip.get("year")
-    if not chip.get("storage_type") and yr:
-        st_by_year = [
-            (2021, "UFS 3.1"),
-            (2019, "UFS 3.0"),
-            (2017, "UFS 2.1"),
-            (2015, "UFS 2.0"),
-            (0, "eMMC 5.0"),
-        ]
-        for yr_st, st_name in st_by_year:
-            if yr >= yr_st:
-                chip["storage_type"] = st_name
-                break
     infer_gpu(chip)          # second pass: vendor defaults from year
-    if not chip.get("npu") and yr and yr >= 2017:
-        vendor = chip.get("vendor", "")
-        model_u = chip.get("model", "").upper()
-        name_u = chip.get("name", "").upper()
-        vk_npu = vk.get("npu_map", {})
-        if not vk_npu:
-            if vendor == "Apple" and chip["year"] >= 2017:
-                chip["npu"] = "Neural Engine"
-            elif vendor == "Qualcomm":
-                if any(x in model_u for x in ("SM8", "SM7", "SDM8", "SDM7")) or any(x in model_u for x in ("SM6", "SDM6")):
-                    chip["npu"] = "Hexagon NPU"
-            elif vendor == "MediaTek":
-                if "DIMENSITY" in model_u or "DIMENSITY" in name_u:
-                    chip["npu"] = "MediaTek APU"
-                elif re.search(r"MT\d{4}", model_u):
-                    mt_m = re.search(r"MT(\d{4})", model_u)
-                    if mt_m and int(mt_m.group(1)) >= 8000:
-                        chip["npu"] = "MediaTek APU"
-            elif vendor == "Samsung" and re.search(r"EXYNOS\s*(21|22|24|25)", model_u):
-                chip["npu"] = "Samsung NPU"
-            elif vendor == "HiSilicon" and re.search(r"KIRIN\s*(9|8|7)", model_u):
-                chip["npu"] = "HiSilicon NPU"
-    if not chip.get("modem") and chip.get("year"):
-        vendor = chip.get("vendor", "")
-        model_u = chip.get("model", "").upper()
-        name_u = chip.get("name", "").upper()
-        yr = chip["year"]
-        if vendor == "Qualcomm":
-            sm_match = re.search(r"(SM|SDM)(\d{4})", model_u)
-            if sm_match:
-                sm_num = int(sm_match.group(2))
-                modem_map = {8750: "X80", 8650: "X75", 8550: "X70", 8450: "X65", 8350: "X60", 8250: "X55", 8150: "X50", 8000: "X24"}
-                for num, modem_name in modem_map.items():
-                    if sm_num >= num:
-                        chip["modem"] = f"Snapdragon {modem_name} 5G"
-                        break
-            gen_match = re.search(r"SNAPDRAGON\s*(\d+)\s*GEN\s*(\d+)", model_u)
-            if gen_match and not chip.get("modem"):
-                gen_num = int(gen_match.group(2))
-                if int(gen_match.group(1)) >= 8:
-                    modem_by_gen = {3: "X70", 2: "X65", 1: "X60"}
-                    if gen_num in modem_by_gen:
-                        chip["modem"] = f"Snapdragon {modem_by_gen[gen_num]} 5G"
-            if not chip.get("modem") and chip["year"] >= 2019:
-                chip["modem"] = "Snapdragon 5G"
-            elif not chip.get("modem") and chip["year"] >= 2013:
-                chip["modem"] = "Snapdragon 4G LTE"
-        elif vendor == "MediaTek":
-            if re.search(r"DIMENSITY", model_u) or re.search(r"MT\d{4}", model_u):
-                if chip["year"] >= 2020:
-                    chip["modem"] = "MediaTek 5G"
-                elif chip["year"] >= 2015:
-                    chip["modem"] = "MediaTek 4G LTE"
-        elif vendor == "Samsung" and re.search(r"EXYNOS", model_u):
-            if chip["year"] >= 2020:
-                chip["modem"] = "Exynos 5G"
-            elif chip["year"] >= 2014:
-                chip["modem"] = "Exynos 4G LTE"
-        elif vendor == "Apple" and chip["year"] >= 2019:
-            chip["modem"] = "Apple 5G"
-        elif vendor == "HiSilicon" and re.search(r"KIRIN", model_u):
-            if chip["year"] >= 2019:
-                chip["modem"] = "Balong 5G"
-            elif chip["year"] >= 2014:
-                chip["modem"] = "Balong 4G LTE"
-    yr = chip.get("year")
-    if not chip.get("wifi") and yr:
-        wifi_by_year = [
-            (2025, "Wi-Fi 7"),
-            (2023, "Wi-Fi 7"),
-            (2021, "Wi-Fi 6E"),
-            (2019, "Wi-Fi 6"),
-            (2015, "Wi-Fi 5"),
-            (2010, "Wi-Fi 4"),
-            (2005, "Wi-Fi 3"),
-            (0, "Wi-Fi 2"),
-        ]
-        for yr_wifi, w_name in wifi_by_year:
-            if yr >= yr_wifi:
-                chip["wifi"] = w_name
-                break
-    if not chip.get("bluetooth") and yr:
-        bt_by_year = [
-            (2025, "5.4"),
-            (2023, "5.3"),
-            (2021, "5.2"),
-            (2019, "5.0"),
-            (2017, "4.2"),
-            (2015, "4.1"),
-            (2012, "4.0"),
-            (2010, "3.0"),
-            (2007, "2.1"),
-            (0, "2.0"),
-        ]
-        for yr_bt, b_name in bt_by_year:
-            if yr >= yr_bt:
-                chip["bluetooth"] = b_name
-                break
+    infer_storage(chip)
+    infer_npu(chip)
+    infer_modem(chip)
+    infer_wifi(chip)
+    infer_bluetooth(chip)
     if not chip.get("aliases"):
         aliases = set()
         name = chip.get("name", "")

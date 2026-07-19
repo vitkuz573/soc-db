@@ -8,9 +8,13 @@ from soc_db.enrich._vendor_data import (
     VENDOR_FILES,
     VENDOR_KNOWLEDGE,
 )
+from soc_db.enrich.connectivity import infer_bluetooth, infer_wifi
 from soc_db.enrich.gpu import infer_gpu
 from soc_db.enrich.memory import infer_memory
+from soc_db.enrich.modem import infer_modem
+from soc_db.enrich.npu import infer_npu
 from soc_db.enrich.process import infer_process
+from soc_db.enrich.storage import infer_storage
 from soc_db.enrich.year import infer_year
 
 __all__ = [
@@ -25,4 +29,9 @@ __all__ = [
     "infer_process",
     "infer_memory",
     "infer_gpu",
+    "infer_modem",
+    "infer_npu",
+    "infer_wifi",
+    "infer_bluetooth",
+    "infer_storage",
 ]
