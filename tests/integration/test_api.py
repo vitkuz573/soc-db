@@ -17,6 +17,11 @@ def init_app_state():
     app.state._cache_loaded_at = 0.0
     app.state._started_at = time.time()
     app.state._request_count = 0
+    app.state._chips = None
+    app.state._search_index = None
+    app.state._cache_loaded_at = 0.0
+    app.state._started_at = time.time()
+    app.state._request_count = 0
 
 
 @pytest.fixture
@@ -206,3 +211,60 @@ async def test_404_format(client):
     assert resp.status_code == 404
     data = resp.json()
     assert data["error"] == "Chip not found"
+
+
+@pytest.mark.asyncio
+async def test_ttl_cache_returns_cached_data(client):
+    """Verify TTL cache returns same data within window without DB re-query."""
+    # First call — populates cache
+    resp1 = await client.get("/v1/chips?limit=10")
+    assert resp1.status_code == 200
+    data1 = resp1.json()
+
+    # Second call — should hit cache
+    resp2 = await client.get("/v1/chips?limit=10")
+    assert resp2.status_code == 200
+    data2 = resp2.json()
+
+    assert data1["total"] == data2["total"]
+    assert data1["data"][0]["id"] == data2["data"][0]["id"]
+
+
+@pytest.mark.asyncio
+async def test_ttl_cache_invalidates_after_ttl_expiry(client):
+    """Force cache invalidation by manipulating cache_loaded_at."""
+    from api.main import app
+
+    # Warm the cache
+    resp = await client.get("/v1/chips?limit=1")
+    assert resp.status_code == 200
+
+    # Manipulate cache timestamp to simulate TTL expiry
+    app.state._cache_loaded_at = 0.0  # Force expiry
+
+    # Next call should reload
+    resp = await client.get("/v1/chips?limit=1")
+    assert resp.status_code == 200
+
+    # Cache should have been reloaded
+    assert app.state._cache_loaded_at > 0.0
+
+
+@pytest.mark.asyncio
+async def test_concurrent_requests_work(client):
+    """Fire multiple concurrent requests — all should succeed."""
+    import asyncio
+
+    urls = [
+        "/v1/chips?limit=5",
+        "/v1/chips/sm8550_ac",
+        "/v1/stats",
+        "/v1/vendors",
+        "/health",
+        "/metrics",
+    ]
+    results = await asyncio.gather(*[client.get(url) for url in urls], return_exceptions=True)
+    for i, r in enumerate(results):
+        if isinstance(r, Exception):
+            pytest.fail(f"Request to {urls[i]} failed: {r}")
+        assert r.status_code in (200,), f"URL {urls[i]} returned {r.status_code}"

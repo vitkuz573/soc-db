@@ -20,6 +20,11 @@ def init_app_state():
     app.state._cache_loaded_at = 0.0
     app.state._started_at = time.time()
     app.state._request_count = 0
+    app.state._chips = None
+    app.state._search_index = None
+    app.state._cache_loaded_at = 0.0
+    app.state._started_at = time.time()
+    app.state._request_count = 0
 
 
 @pytest.fixture
@@ -138,3 +143,54 @@ async def test_api_search_fts_with_db(client):
     # Most results should be Qualcomm chips
     vendors = {c.get("vendor", "").lower() for c in data["data"]}
     assert "qualcomm" in vendors
+
+
+@pytest.mark.asyncio
+async def test_ttl_cache_invalidation_with_db(client):
+    """Verify TTL cache works with SQLite backend."""
+    from api.main import app
+
+    # First request warms cache
+    resp1 = await client.get("/v1/chips?limit=10")
+    assert resp1.status_code == 200
+    data1 = resp1.json()
+
+    # Force cache expiry
+    app.state._cache_loaded_at = 0.0
+
+    # Second request should reload from DB
+    resp2 = await client.get("/v1/chips?limit=100")
+    assert resp2.status_code == 200
+    data2 = resp2.json()
+
+    assert data1["total"] == data2["total"]
+    assert app.state._cache_loaded_at > 0.0
+
+
+@pytest.mark.asyncio
+async def test_get_chip_async_with_db(client):
+    """Verify single chip lookup works with async backend."""
+    resp = await client.get("/v1/chips/sm8550_ac")
+    assert resp.status_code == 200
+    chip = resp.json()
+    assert chip["vendor"] == "Qualcomm"
+    assert chip["id"] == "sm8550_ac"
+
+
+@pytest.mark.asyncio
+async def test_five_concurrent_db_requests(client):
+    """Five concurrent requests to DB-backed endpoints — all succeed."""
+    import asyncio
+
+    urls = [
+        "/v1/chips?limit=20",
+        "/v1/chips/sm8550_ac",
+        "/v1/stats",
+        "/v1/vendors",
+        "/v1/chips?limit=10&offset=50",
+    ]
+    results = await asyncio.gather(*[client.get(url) for url in urls], return_exceptions=True)
+    for i, r in enumerate(results):
+        if isinstance(r, Exception):
+            pytest.fail(f"Request {i} failed: {r}")
+        assert r.status_code == 200, f"Request {i} returned {r.status_code}"
