@@ -148,6 +148,7 @@ def cmd_query(args):
             chips = [c for c in chips if term in json.dumps(c).lower()]
         else:
             from soc_db.db.queries import search as _fts_search
+
             chips = _fts_search(args.search)
     if args.limit:
         chips = chips[: args.limit]
@@ -212,6 +213,7 @@ def cmd_stats(args):
     """
     if not settings.use_json:
         from soc_db.db.queries import get_stats as _db_stats
+
         stats = _db_stats()
     else:
         chips = _load_all_json()

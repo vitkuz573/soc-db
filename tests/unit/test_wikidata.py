@@ -13,6 +13,7 @@ import pytest
 # Fixtures
 # ---------------------------------------------------------------------------
 
+
 @pytest.fixture
 def mock_sparql_bindings():
     """Return a minimal SPARQLWrapper JSON result with all binding shapes."""
@@ -87,6 +88,7 @@ def mock_vendor_knowledge():
 # SPARQL query string tests
 # ---------------------------------------------------------------------------
 
+
 class TestSparqlQueryStrings:
     def test_process_query_has_p2175(self):
         from soc_db.wikidata import _build_process_query
@@ -123,6 +125,7 @@ class TestSparqlQueryStrings:
 # Response parsing tests
 # ---------------------------------------------------------------------------
 
+
 class TestResponseParsing:
     def test_parse_process_response(self, mock_sparql_bindings):
         from soc_db.wikidata import refresh_vendor_knowledge
@@ -154,6 +157,7 @@ class TestResponseParsing:
             patch("soc_db.wikidata._cached_sparql") as mock_cached,
             patch("soc_db.wikidata.VENDOR_QIDS", {"Qualcomm": "Q544847"}),
         ):
+
             def side_effect(query, **_kwargs):
                 if "P488" in query:
                     return mock_gpu_bindings["results"]["bindings"]
@@ -174,6 +178,7 @@ class TestResponseParsing:
             patch("soc_db.wikidata._cached_sparql") as mock_cached,
             patch("soc_db.wikidata.VENDOR_QIDS", {"Qualcomm": "Q544847"}),
         ):
+
             def side_effect(query, **_kwargs):
                 if "P10620" in query:
                     return mock_arch_bindings["results"]["bindings"]
@@ -189,6 +194,7 @@ class TestResponseParsing:
 # ---------------------------------------------------------------------------
 # Caching tests
 # ---------------------------------------------------------------------------
+
 
 class TestCaching:
     def test_cached_sparql_returns_cached(self, tmp_path, mock_sparql_bindings):
@@ -253,6 +259,7 @@ class TestCaching:
 # Exponential backoff tests
 # ---------------------------------------------------------------------------
 
+
 class TestExponentialBackoff:
     def test_exponential_backoff_succeeds_on_retry(self):
         from soc_db.wikidata import run_sparql
@@ -297,6 +304,7 @@ class TestExponentialBackoff:
 # ---------------------------------------------------------------------------
 # Dry-run mode tests
 # ---------------------------------------------------------------------------
+
 
 class TestDryRun:
     def test_dry_run_logs_only(self, caplog, mock_sparql_bindings, mock_gpu_bindings, mock_arch_bindings):
@@ -343,6 +351,7 @@ class TestDryRun:
 # Query builder unit tests
 # ---------------------------------------------------------------------------
 
+
 class TestQueryBuilders:
     def test_query_builders_return_strings(self):
         from soc_db.wikidata import _build_architecture_query, _build_gpu_query, _build_process_query
@@ -364,6 +373,7 @@ class TestQueryBuilders:
 # ---------------------------------------------------------------------------
 # Merge layer tests (Task 2)
 # ---------------------------------------------------------------------------
+
 
 class TestMergeLayer:
     def test_merge_wikidata_into_existing(self, mock_vendor_knowledge):
@@ -394,11 +404,13 @@ class TestMergeLayer:
 
         # Create temp overrides file
         overrides_file = tmp_path / "vendor_overrides.json"
-        overrides_file.write_text(json.dumps({
-            "Qualcomm": {
-                "process_map": {"sm8550": 5},  # Override Wikidata's 4nm → 5nm
-            }
-        }))
+        overrides_file.write_text(
+            json.dumps({
+                "Qualcomm": {
+                    "process_map": {"sm8550": 5},  # Override Wikidata's 4nm → 5nm
+                }
+            })
+        )
 
         with (
             patch("soc_db.enrich._vendor_data_wikidata._VENDOR_KNOWLEDGE_CACHE", mock_vendor_knowledge),

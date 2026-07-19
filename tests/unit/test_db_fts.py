@@ -10,7 +10,6 @@ FTS5 returns equivalent or better results within tokenisation differences:
 - Custom inverted index does naive word-split + substring matching
 """
 
-
 import pytest
 
 from soc_db.cli import _load_all_json
@@ -137,9 +136,7 @@ class TestFtsSearch:
 
             # FTS5 should return at least 50% of custom results
             if custom_results and len(fts_results) < len(custom_results) * 0.5:
-                failures.append(
-                    f"{query}: FTS5={len(fts_results)} vs Custom={len(custom_results)}"
-                )
+                failures.append(f"{query}: FTS5={len(fts_results)} vs Custom={len(custom_results)}")
 
             # Check that FTS5 doesn't miss more than 50% of custom IDs
             if custom_results:
@@ -147,9 +144,7 @@ class TestFtsSearch:
                 custom_ids = {c["id"] for c in custom_results}
                 missing = custom_ids - fts_ids
                 if len(missing) > len(custom_ids) * 0.5:
-                    failures.append(
-                        f"{query}: missing {len(missing)}/{len(custom_ids)} custom IDs"
-                    )
+                    failures.append(f"{query}: missing {len(missing)}/{len(custom_ids)} custom IDs")
 
         if failures:
             msg = "\n".join(failures[:5])

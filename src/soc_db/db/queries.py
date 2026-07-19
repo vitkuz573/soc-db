@@ -19,8 +19,15 @@ from soc_db.config import settings
 # Columns that are stored as JSON text in SQLite
 # ---------------------------------------------------------------------------
 _JSON_COLUMNS = frozenset({
-    "aliases", "gpu_api", "devices", "alternative_names", "tags",
-    "cache", "rating", "benchmarks", "sources",
+    "aliases",
+    "gpu_api",
+    "devices",
+    "alternative_names",
+    "tags",
+    "cache",
+    "rating",
+    "benchmarks",
+    "sources",
 })
 
 
@@ -29,12 +36,14 @@ def _ensure_conn(conn: sqlite3.Connection | None) -> sqlite3.Connection:
     if conn is not None:
         return conn
     from soc_db.db.connection import get_connection_cached
+
     return get_connection_cached()
 
 
 def _load_json_fallback() -> list[dict[str, Any]]:
     """Load all chips from JSON vendor files (dual-read fallback)."""
     from soc_db.cli import _load_all_json
+
     return _load_all_json()
 
 
@@ -58,6 +67,7 @@ def _row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
 def _ensure_migrated() -> None:
     """Auto-migrate if the database does not exist yet."""
     from soc_db.db.migrate import ensure_migrated as _em
+
     _em()
 
 
@@ -140,16 +150,15 @@ def search(query: str, conn: sqlite3.Connection | None = None) -> list[dict[str,
 
     try:
         rows = c.execute(
-            "SELECT chips.* FROM chips JOIN chips_fts ON chips.rowid = chips_fts.rowid "
-            "WHERE chips_fts MATCH ? ORDER BY rank",
+            "SELECT chips.* FROM chips JOIN chips_fts ON chips.rowid = chips_fts.rowid WHERE chips_fts MATCH ? ORDER BY rank",
             (fts_query,),
         ).fetchall()
     except sqlite3.OperationalError:
         # FTS5 syntax error — fall back to LIKE
-        like_exprs = " AND ".join(f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR model LIKE '%{token}%' OR description LIKE '%{token}%')" for token in tokens)  # noqa: E501
-        rows = c.execute(
-            f"SELECT * FROM chips WHERE {like_exprs}"
-        ).fetchall()
+        like_exprs = " AND ".join(
+            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR model LIKE '%{token}%' OR description LIKE '%{token}%')" for token in tokens
+        )  # noqa: E501
+        rows = c.execute(f"SELECT * FROM chips WHERE {like_exprs}").fetchall()
 
     return [_row_to_dict(r) for r in rows]
 
@@ -179,10 +188,7 @@ def get_vendors(conn: sqlite3.Connection | None = None) -> dict[str, dict[str, A
 
     _ensure_migrated()
     c = _ensure_conn(conn)
-    rows = c.execute(
-        "SELECT vendor, COUNT(*) AS count, AVG(COALESCE(completeness, 0)) AS avg_comp "
-        "FROM chips GROUP BY vendor ORDER BY vendor"
-    ).fetchall()
+    rows = c.execute("SELECT vendor, COUNT(*) AS count, AVG(COALESCE(completeness, 0)) AS avg_comp FROM chips GROUP BY vendor ORDER BY vendor").fetchall()
     return {r["vendor"]: {"count": r["count"], "avg_completeness": round(r["avg_comp"], 3)} for r in rows}
 
 
@@ -311,7 +317,7 @@ def filter_chips(
             reverse = order == "desc"
             chips = sorted(chips, key=lambda c: c.get(sort, "") or "", reverse=reverse)
         total = len(chips)
-        chips = chips[offset:offset + limit] if limit else chips[offset:]
+        chips = chips[offset : offset + limit] if limit else chips[offset:]
         return chips, total
 
     # --- SQLite path ---
@@ -368,7 +374,7 @@ def filter_chips(
     order_sql = ""
     if sort:
         direction = "DESC" if order == "desc" else "ASC"
-        order_sql = f" ORDER BY \"{sort}\" {direction}"
+        order_sql = f' ORDER BY "{sort}" {direction}'
 
     # Paginate
     limit_sql = ""
@@ -395,6 +401,7 @@ async def _ensure_async_conn(conn: aiosqlite.Connection | None) -> aiosqlite.Con
     if conn is not None:
         return conn
     from soc_db.db.connection import get_async_connection
+
     pool = get_async_connection()
     return await pool.acquire()
 
@@ -470,16 +477,13 @@ async def search_async(query: str, conn: aiosqlite.Connection | None = None) -> 
 
     try:
         cursor = await c.execute(
-            "SELECT chips.* FROM chips JOIN chips_fts ON chips.rowid = chips_fts.rowid "
-            "WHERE chips_fts MATCH ? ORDER BY rank",
+            "SELECT chips.* FROM chips JOIN chips_fts ON chips.rowid = chips_fts.rowid WHERE chips_fts MATCH ? ORDER BY rank",
             (fts_query,),
         )
         rows = await cursor.fetchall()
     except aiosqlite.OperationalError:
         like_exprs = " AND ".join(
-            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR "
-            f"model LIKE '%{token}%' OR description LIKE '%{token}%')"
-            for token in tokens
+            f"(name LIKE '%{token}%' OR vendor LIKE '%{token}%' OR model LIKE '%{token}%' OR description LIKE '%{token}%')" for token in tokens
         )
         cursor = await c.execute(f"SELECT * FROM chips WHERE {like_exprs}")
         rows = await cursor.fetchall()
@@ -512,10 +516,7 @@ async def get_vendors_async(conn: aiosqlite.Connection | None = None) -> dict[st
 
     _ensure_migrated()
     c = await _ensure_async_conn(conn)
-    cursor = await c.execute(
-        "SELECT vendor, COUNT(*) AS count, AVG(COALESCE(completeness, 0)) AS avg_comp "
-        "FROM chips GROUP BY vendor ORDER BY vendor"
-    )
+    cursor = await c.execute("SELECT vendor, COUNT(*) AS count, AVG(COALESCE(completeness, 0)) AS avg_comp FROM chips GROUP BY vendor ORDER BY vendor")
     rows = await cursor.fetchall()
     return {r["vendor"]: {"count": r["count"], "avg_completeness": round(r["avg_comp"], 3)} for r in rows}
 

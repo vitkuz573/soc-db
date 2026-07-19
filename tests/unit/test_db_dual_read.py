@@ -85,6 +85,4 @@ class TestDualReadJsonFallback:
             settings.use_json = False
 
             # FTS5 should return at least as many results as JSON substring search
-            assert len(sql_results) >= len(json_results) * 0.5, (
-                f"FTS5 returned {len(sql_results)} vs JSON {len(json_results)} for '{query}'"
-            )
+            assert len(sql_results) >= len(json_results) * 0.5, f"FTS5 returned {len(sql_results)} vs JSON {len(json_results)} for '{query}'"

@@ -34,6 +34,7 @@ class TestEnrichOneThroughput:
 
     def test_enrich_one_throughput(self, benchmark):
         """Time for enrich_one() on ALL chips (wall-clock, single-threaded)."""
+
         @benchmark
         def run():
             for chip in CHIPS:
@@ -66,15 +67,15 @@ class TestEnrichOneCpuProfile:
         per_chip_ms = (elapsed / sample_size) * 1000
         total_estimated_s = elapsed * (len(CHIPS) / sample_size)
 
-        print(f"\n{'='*60}")
+        print(f"\n{'=' * 60}")
         print(f"Enrichment CPU Profile ({sample_size}/{len(CHIPS)} chips)")
-        print(f"{'='*60}")
+        print(f"{'=' * 60}")
         print(f"  Sample size:      {sample_size}")
         print(f"  Total chips:      {len(CHIPS)}")
         print(f"  Wall-clock time:  {elapsed:.3f}s for {sample_size} chips")
         print(f"  Per chip:         {per_chip_ms:.2f}ms")
         print(f"  Estimated full:   {total_estimated_s:.1f}s for {len(CHIPS)} chips")
-        print(f"{'='*60}")
+        print(f"{'=' * 60}")
 
         if total_estimated_s > 0.5:
             print("  >> RECOMMENDATION: Use ProcessPoolExecutor for enrichment")
@@ -82,7 +83,7 @@ class TestEnrichOneCpuProfile:
         else:
             print("  >> RECOMMENDATION: No process pool needed")
             print(f"  >> Estimated {total_estimated_s:.1f}s is acceptable inline (<500ms threshold)")
-        print(f"{'='*60}\n")
+        print(f"{'=' * 60}\n")
 
         # Assert not performing assertion — this is informational
         assert per_chip_ms > 0  # Sanity check

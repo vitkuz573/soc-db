@@ -349,9 +349,9 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
         else:
             chip["model"] = chip.get("id", "unknown")
     infer_cpu(chip)
-    infer_memory(chip)      # first pass: clock/bus from type
-    infer_process(chip)     # first pass: model-based lookup
-    infer_gpu(chip)         # first pass: model-based lookup
+    infer_memory(chip)  # first pass: clock/bus from type
+    infer_process(chip)  # first pass: model-based lookup
+    infer_gpu(chip)  # first pass: model-based lookup
     y_chk = chip.get("year")
     if y_chk and (y_chk < 2003 or y_chk > 2026):
         chip["year"] = None
@@ -361,9 +361,9 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
         if inferred:
             chip["year"] = inferred
             year = inferred
-    infer_process(chip)     # second pass: year-based fallback
-    infer_memory(chip)      # second pass: type/clock/bus from year
-    infer_gpu(chip)          # second pass: vendor defaults from year
+    infer_process(chip)  # second pass: year-based fallback
+    infer_memory(chip)  # second pass: type/clock/bus from year
+    infer_gpu(chip)  # second pass: vendor defaults from year
     infer_storage(chip)
     infer_npu(chip)
     infer_modem(chip)

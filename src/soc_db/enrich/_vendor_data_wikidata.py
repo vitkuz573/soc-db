@@ -24,9 +24,7 @@ from soc_db.config import settings
 logger = logging.getLogger(__name__)
 
 # Path to the vendor overrides file (resolved relative to the data/ directory)
-_OVERRIDES_PATH = (
-    Path(__file__).resolve().parent.parent.parent.parent / "data" / "vendor_overrides.json"
-)
+_OVERRIDES_PATH = Path(__file__).resolve().parent.parent.parent.parent / "data" / "vendor_overrides.json"
 
 # Module-level caches
 _overrides_cache: dict[str, Any] | None = None

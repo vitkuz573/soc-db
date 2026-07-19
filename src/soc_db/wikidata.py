@@ -26,17 +26,17 @@ WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 # scripts/scraper_wikidata_sparql.py.
 SOC_CLASSES = [
     "Q122901167",  # system on a chip model
-    "Q610398",     # system on a chip
-    "Q16521",      # taxon (misused for chips)
-    "Q350495",     # class of computer
-    "Q3305213",    # electronic component
-    "Q34442",      # model
-    "Q811701",     # microprocessor model
-    "Q431289",     # microprocessor
-    "Q181218",     # integrated circuit
-    "Q131191",     # microcontroller
-    "Q827407",     # multi-chip module
-    "Q15625882",   # system-in-package
+    "Q610398",  # system on a chip
+    "Q16521",  # taxon (misused for chips)
+    "Q350495",  # class of computer
+    "Q3305213",  # electronic component
+    "Q34442",  # model
+    "Q811701",  # microprocessor model
+    "Q431289",  # microprocessor
+    "Q181218",  # integrated circuit
+    "Q131191",  # microcontroller
+    "Q827407",  # multi-chip module
+    "Q15625882",  # system-in-package
 ]
 
 # Wikidata QID mappings for vendors with known identifiers.

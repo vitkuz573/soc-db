@@ -208,25 +208,17 @@ class TestCreateRateLimiter:
         assert isinstance(limiter, InMemoryRateLimiter)
 
     @patch("redis.asyncio.from_url")
-    async def test_invalid_redis_url_falls_back(
-        self, mock_from_url: MagicMock
-    ) -> None:
+    async def test_invalid_redis_url_falls_back(self, mock_from_url: MagicMock) -> None:
         mock_from_url.side_effect = ConnectionError("Connection refused")
 
-        limiter = await create_rate_limiter(
-            redis_url="redis://invalid:6379", limit=100, window=60
-        )
+        limiter = await create_rate_limiter(redis_url="redis://invalid:6379", limit=100, window=60)
         assert isinstance(limiter, InMemoryRateLimiter)
 
     @patch("redis.asyncio.from_url")
-    async def test_valid_redis_url_returns_redis(
-        self, mock_from_url: MagicMock
-    ) -> None:
+    async def test_valid_redis_url_returns_redis(self, mock_from_url: MagicMock) -> None:
         redis_mock = _make_redis_mock()
         mock_from_url.return_value = redis_mock
 
-        limiter = await create_rate_limiter(
-            redis_url="redis://localhost:6379", limit=100, window=60
-        )
+        limiter = await create_rate_limiter(redis_url="redis://localhost:6379", limit=100, window=60)
         assert isinstance(limiter, RedisRateLimiter)
         await limiter.close()

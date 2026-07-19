@@ -34,6 +34,7 @@ from soc_db.telemetry import instrument_app, setup_telemetry, update_vendor_metr
 
 logger = logging.getLogger("soc_db.api")
 
+
 # ---------------------------------------------------------------------------
 # Application lifecycle
 # ---------------------------------------------------------------------------
@@ -88,6 +89,7 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
             with _suppress(Exception):
                 await limiter.close()
         from soc_db.db.connection import get_async_connection
+
         try:
             pool = get_async_connection()
             await pool.close()

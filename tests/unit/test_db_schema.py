@@ -13,9 +13,7 @@ def _table_cols(conn: sqlite3.Connection, table: str) -> set[str]:
 class TestSchemaTables:
     def test_tables_exist(self, db_conn):
         """Verify chips and chips_fts tables are present."""
-        tables = {r[0] for r in db_conn.execute(
-            "SELECT name FROM sqlite_master WHERE type='table'"
-        ).fetchall()}
+        tables = {r[0] for r in db_conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
         assert "chips" in tables
         assert "chips_fts" in tables
 
@@ -50,9 +48,7 @@ class TestSchemaTables:
 
     def test_fts_columns_match_chips(self, db_conn):
         """Verify chips_fts is configured for the chips table."""
-        fts_tables = {r[0] for r in db_conn.execute(
-            "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE '%_fts%'"
-        ).fetchall()}
+        fts_tables = {r[0] for r in db_conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE '%_fts%'").fetchall()}
         assert len(fts_tables) >= 1
 
     def test_drop_tables_clean(self):
@@ -61,9 +57,7 @@ class TestSchemaTables:
         conn.row_factory = sqlite3.Row
         create_tables(conn)
         drop_tables(conn)
-        tables = {r[0] for r in conn.execute(
-            "SELECT name FROM sqlite_master WHERE type='table'"
-        ).fetchall()}
+        tables = {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
         assert "chips" not in tables
         assert "chips_fts" not in tables
         conn.close()
