@@ -15,6 +15,7 @@ from soc_db.scraping import (
     PerSourceRateLimiter,
     SchemaDriftDetector,
     SourceRegistry,
+    WikipediaScraper,
 )
 
 __all__ = [
@@ -24,4 +25,5 @@ __all__ = [
     "PerSourceRateLimiter",
     "SchemaDriftDetector",
     "SourceRegistry",
+    "WikipediaScraper",
 ]

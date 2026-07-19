@@ -1,9 +1,24 @@
 #!/usr/bin/env python3
-"""Enterprise Wikipedia SoC scraper — extracts all infobox fields."""
+"""Enterprise Wikipedia SoC scraper — extracts all infobox fields.
+
+Backward-compatible legacy module.  New code should use the framework
+version at ``soc_db.scraping.sources.wikipedia.WikipediaScraper``.
+"""
 
 import logging
 import re
 import sys
+
+__all__ = [
+    "WIKI_PAGES",
+    "scrape_vendor",
+    "main",
+    "extract_chip_name",
+    "is_valid_chip_name",
+    "parse_standard_table",
+    "parse_transposed_table",
+    "_is_transposed_table",
+]
 
 from bs4 import BeautifulSoup
 
