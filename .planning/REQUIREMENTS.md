@@ -30,9 +30,9 @@
 
 ### Batch Processing (BATCH)
 
-- [ ] **BATCH-01**: Batch enrichment with checkpointing and crash recovery
-- [ ] **BATCH-02**: Data quality scoring per vendor and per field
-- [ ] **BATCH-03**: API performance at 5000+ chips (pagination perf, lazy loading)
+- [x] **BATCH-01**: Batch enrichment with checkpointing and crash recovery
+- [x] **BATCH-02**: Data quality scoring per vendor and per field
+- [x] **BATCH-03**: API performance at 5000+ chips (pagination perf, lazy loading)
 
 ### High-Value Scrapers (BIGSRC)
 
@@ -86,9 +86,9 @@ Deferred to future release. Tracked but not in current roadmap.
 | DEDUP-01 | Phase 10 | Pending |
 | DEDUP-02 | Phase 10 | Pending |
 | DEDUP-03 | Phase 10 | Pending |
-| BATCH-01 | Phase 11 | Pending |
-| BATCH-02 | Phase 11 | Pending |
-| BATCH-03 | Phase 11 | Pending |
+| BATCH-01 | Phase 11 | Complete |
+| BATCH-02 | Phase 11 | Complete |
+| BATCH-03 | Phase 11 | Complete |
 | BIGSRC-01 | Phase 12 | Pending |
 | BIGSRC-02 | Phase 12 | Pending |
 | BIGSRC-03 | Phase 12 | Pending |
