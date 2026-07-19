@@ -36,6 +36,10 @@ dependencies = [
     "pydantic>=2.5",
     "pydantic-settings>=2.2",
     "redis[hiredis]>=5.0,<8.0",
+    "opentelemetry-api>=1.25",
+    "opentelemetry-sdk>=1.25",
+    "opentelemetry-instrumentation-fastapi>=0.45b",
+    "prometheus-client>=0.20",
 ]
 
 [project.optional-dependencies]

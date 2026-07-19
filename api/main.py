@@ -17,16 +17,18 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 
+from prometheus_client import generate_latest
+
 from soc_db.config import settings
 from soc_db.db.connection import get_async_connection
 from soc_db.db.queries import get_all_async, search_async
 from soc_db.log_config import setup_logging
+from soc_db.telemetry import instrument_app, setup_telemetry, update_vendor_metrics
 from soc_db.models import (
     Chip,
     ChipListResponse,
     ErrorResponse,
     HealthResponse,
-    MetricsResponse,
     StatsResponse,
     VendorResponse,
 )
@@ -62,6 +64,8 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
         limit=settings.api_rate_limit,
         window=settings.api_rate_limit_window,
     )
+    setup_telemetry()
+    instrument_app(_app)
     logger.info("Server starting", extra={"version": _app.version, "cache_buster": _app.state._cache_buster})
 
     loop = asyncio.get_running_loop()
@@ -373,21 +377,12 @@ def health():
     }
 
 
-@app.get("/metrics", response_model=MetricsResponse, tags=["infra"])
-def metrics():
-    """Prometheus-style application metrics."""
-    uptime = time.time() - app.state._started_at
-    request_count = app.state._request_count
-    rps = round(request_count / uptime, 2) if uptime > 0 else 0.0
-    limiter = getattr(app.state, "rate_limiter", None)
-    active_clients = limiter.active_clients if limiter else 0
-    return {
-        "uptime_seconds": uptime,
-        "total_requests": request_count,
-        "requests_per_second": rps,
-        "chips_cached": len(app.state._chips) if app.state._chips else 0,
-        "active_rate_limit_clients": active_clients,
-    }
+@app.get("/metrics", tags=["infra"])
+async def metrics():
+    """Prometheus metrics endpoint."""
+    chips = await get_chips()
+    update_vendor_metrics(chips)
+    return Response(content=generate_latest(), media_type="text/plain; version=0.0.4; charset=utf-8")
 
 
 @app.get("/")
