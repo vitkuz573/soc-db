@@ -8,10 +8,20 @@ from __future__ import annotations
 
 __version__ = "2.1.0-dev"
 
-from soc_db.scraping import BaseScraper, ChipScrapeResult, PerSourceRateLimiter
+from soc_db.scraping import (
+    BaseScraper,
+    ChipScrapeResult,
+    HTTPSource,
+    PerSourceRateLimiter,
+    SchemaDriftDetector,
+    SourceRegistry,
+)
 
 __all__ = [
     "BaseScraper",
     "ChipScrapeResult",
+    "HTTPSource",
     "PerSourceRateLimiter",
+    "SchemaDriftDetector",
+    "SourceRegistry",
 ]

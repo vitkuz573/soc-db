@@ -7,10 +7,17 @@ per-source rate limiting (PerSourceRateLimiter), tiered HTTP fetching
 """
 
 from soc_db.scraping.base import BaseScraper, ChipScrapeResult
+from soc_db.scraping.drift import DriftReport, SchemaDriftDetector
 from soc_db.scraping.rate_limit import PerSourceRateLimiter
+from soc_db.scraping.registry import SourceRegistry
+from soc_db.scraping.source import HTTPSource
 
 __all__ = [
     "BaseScraper",
     "ChipScrapeResult",
+    "DriftReport",
+    "HTTPSource",
     "PerSourceRateLimiter",
+    "SchemaDriftDetector",
+    "SourceRegistry",
 ]
