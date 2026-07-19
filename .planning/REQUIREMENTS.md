@@ -70,24 +70,24 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| REFAC-01 | — | Pending |
-| REFAC-02 | — | Pending |
-| DB-01 | — | Pending |
-| DB-02 | — | Pending |
-| DB-03 | — | Pending |
-| ASYNC-01 | — | Pending |
-| ASYNC-02 | — | Pending |
-| RLIMIT-01 | — | Pending |
-| RLIMIT-02 | — | Pending |
-| OBSERVE-01 | — | Pending |
-| OBSERVE-02 | — | Pending |
-| WIKIDATA-01 | — | Pending |
-| WIKIDATA-02 | — | Pending |
+| REFAC-01 | Phase 1 | Pending |
+| REFAC-02 | Phase 1 | Pending |
+| DB-01 | Phase 2 | Pending |
+| DB-02 | Phase 2 | Pending |
+| DB-03 | Phase 2 | Pending |
+| ASYNC-01 | Phase 3 | Pending |
+| ASYNC-02 | Phase 3 | Pending |
+| RLIMIT-01 | Phase 4 | Pending |
+| RLIMIT-02 | Phase 4 | Pending |
+| OBSERVE-01 | Phase 5 | Pending |
+| OBSERVE-02 | Phase 5 | Pending |
+| WIKIDATA-01 | Phase 6 | Pending |
+| WIKIDATA-02 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 13 total
-- Mapped to phases: 0
-- Unmapped: 13
+- Mapped to phases: 13
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-07-19*
