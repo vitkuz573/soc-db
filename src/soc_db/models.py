@@ -127,6 +127,7 @@ class HealthResponse(BaseModel):
     uptime: float
     chips_cached: int | None = None
     version: str | None = None
+    redis_connected: bool = False
 
 
 class MetricsResponse(BaseModel):

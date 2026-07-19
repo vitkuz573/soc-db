@@ -8,7 +8,6 @@ import json
 import logging
 import signal
 import time
-from collections import defaultdict
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 from uuid import uuid4
@@ -35,13 +34,6 @@ from soc_db.models import (
 logger = logging.getLogger("soc_db.api")
 
 # ---------------------------------------------------------------------------
-# Rate-limiter state
-# ---------------------------------------------------------------------------
-_rate_limit_buckets: dict[str, list[float]] = defaultdict(list)
-_rate_limit_lock = asyncio.Lock()
-
-
-# ---------------------------------------------------------------------------
 # Application lifecycle
 # ---------------------------------------------------------------------------
 @asynccontextmanager
@@ -62,6 +54,14 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     _app.state._cache_loaded_at = 0.0
     _app.state._started_at = time.time()
     _app.state._request_count = 0
+    # Initialize rate limiter (Redis-backed or in-memory fallback)
+    from soc_db.rate_limit import create_rate_limiter
+
+    _app.state.rate_limiter = await create_rate_limiter(
+        redis_url=settings.redis_url,
+        limit=settings.api_rate_limit,
+        window=settings.api_rate_limit_window,
+    )
     logger.info("Server starting", extra={"version": _app.version, "cache_buster": _app.state._cache_buster})
 
     loop = asyncio.get_running_loop()
@@ -77,8 +77,13 @@ async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     try:
         yield
     finally:
-        logger.info("Server shutting down, flushing rate-limit state")
-        _rate_limit_buckets.clear()
+        logger.info("Server shutting down, closing rate limiter")
+        limiter = getattr(_app.state, "rate_limiter", None)
+        if limiter is not None and hasattr(limiter, "close"):
+            try:
+                await limiter.close()
+            except Exception:
+                pass
         from soc_db.db.connection import get_async_connection
         try:
             pool = get_async_connection()
@@ -216,21 +221,39 @@ async def api_key_middleware(request: Request, call_next):
 
 @app.middleware("http")
 async def rate_limit_middleware(request: Request, call_next):
-    """Sliding-window rate limiter per client IP."""
+    """Sliding-window rate limiter per client IP with standard headers."""
+    limiter = getattr(request.app.state, "rate_limiter", None)
+    if limiter is None:
+        # Lazy init for tests that don't use lifespan
+        from soc_db.rate_limit import InMemoryRateLimiter
+
+        limiter = InMemoryRateLimiter(limit=settings.api_rate_limit, window=settings.api_rate_limit_window)
+        request.app.state.rate_limiter = limiter
+
     client = request.client.host if request.client else "unknown"
-    now = time.monotonic()
-    window = settings.api_rate_limit_window
-    limit = settings.api_rate_limit
-    async with _rate_limit_lock:
-        bucket = _rate_limit_buckets[client]
-        cutoff = now - window
-        while bucket and bucket[0] < cutoff:
-            bucket.pop(0)
-        if len(bucket) >= limit:
-            logger.warning("Rate limit exceeded", extra={"client": client, "limit": limit, "window": window})
-            return JSONResponse({"error": "Too many requests", "retry_after": window}, status_code=429)
-        bucket.append(now)
-    return await call_next(request)
+    try:
+        allowed, limit, remaining, reset_time = await limiter.check(client)
+    except Exception:
+        logger.exception("Rate limiter check failed — allowing request")
+        return await call_next(request)
+
+    if not allowed:
+        logger.warning("Rate limit exceeded", extra={"client": client, "limit": limit})
+        return JSONResponse(
+            status_code=429,
+            content={"error": "Too many requests", "retry_after": max(1, int(reset_time - time.time()))},
+            headers={
+                "X-RateLimit-Limit": str(limit),
+                "X-RateLimit-Remaining": "0",
+                "X-RateLimit-Reset": str(int(reset_time)),
+            },
+        )
+
+    response = await call_next(request)
+    response.headers["X-RateLimit-Limit"] = str(limit)
+    response.headers["X-RateLimit-Remaining"] = str(remaining)
+    response.headers["X-RateLimit-Reset"] = str(int(reset_time))
+    return response
 
 
 @app.middleware("http")
@@ -339,11 +362,14 @@ def health():
         chips_cached = len(app.state._chips)
     else:
         chips_cached = 0
+    limiter = getattr(app.state, "rate_limiter", None)
+    redis_connected = limiter.is_redis_connected if limiter else False
     return {
         "status": "healthy",
         "uptime": round(time.time() - app.state._started_at, 2),
         "chips_cached": chips_cached,
         "version": app.version,
+        "redis_connected": redis_connected,
     }
 
 
@@ -353,12 +379,14 @@ def metrics():
     uptime = time.time() - app.state._started_at
     request_count = app.state._request_count
     rps = round(request_count / uptime, 2) if uptime > 0 else 0.0
+    limiter = getattr(app.state, "rate_limiter", None)
+    active_clients = limiter.active_clients if limiter else 0
     return {
         "uptime_seconds": uptime,
         "total_requests": request_count,
         "requests_per_second": rps,
         "chips_cached": len(app.state._chips) if app.state._chips else 0,
-        "active_rate_limit_clients": len(_rate_limit_buckets),
+        "active_rate_limit_clients": active_clients,
     }
 
 
