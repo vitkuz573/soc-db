@@ -34,7 +34,7 @@ def validate_data_files():
     total = 0
 
     for fpath in sorted(DATA_DIR.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_") or fpath.name == "vendor_overrides.json":
             continue
         try:
             entries = load_json(fpath)
@@ -74,11 +74,12 @@ def validate_data_files():
 def build_index(total):
     vendor_files = {}
     for fpath in sorted(DATA_DIR.glob("*.json")):
-        if fpath.name == "index.json":
+        if fpath.name == "index.json" or fpath.name.startswith("_") or fpath.name == "vendor_overrides.json":
             continue
         try:
             entries = load_json(fpath)
-        except json.JSONDecodeError:
+        except json.JSONDecodeError as e:
+            print(f"  FAIL {fpath.name}: invalid JSON — {e}")
             continue
         if not entries:
             continue

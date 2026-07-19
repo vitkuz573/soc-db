@@ -80,6 +80,12 @@
       "count": 1,
       "completeness": 0.194
     },
+    "cirrus_logic": {
+      "name": "Cirrus Logic",
+      "file": "cirrus_logic.json",
+      "count": 3,
+      "completeness": 0.22
+    },
     "google": {
       "name": "Google",
       "file": "tensor.json",
@@ -146,6 +152,12 @@
       "count": 431,
       "completeness": 0.441
     },
+    "ramon_chips_(israel)": {
+      "name": "Ramon Chips (Israel)",
+      "file": "ramon_chips_israel.json",
+      "count": 1,
+      "completeness": 0.233
+    },
     "realtek": {
       "name": "Realtek",
       "file": "realtek.json",
@@ -169,6 +181,12 @@
       "file": "exynos.json",
       "count": 113,
       "completeness": 0.464
+    },
+    "sigmastar": {
+      "name": "SigmaStar",
+      "file": "sigmastar.json",
+      "count": 1,
+      "completeness": 0.194
     },
     "socionext": {
       "name": "Socionext",
@@ -212,11 +230,29 @@
       "count": 3,
       "completeness": 0.194
     },
+    "tsmc": {
+      "name": "TSMC",
+      "file": "tsmc.json",
+      "count": 1,
+      "completeness": 0.408
+    },
     "unisoc": {
       "name": "Unisoc",
       "file": "unisoc.json",
       "count": 11,
       "completeness": 0.359
+    },
+    "via_wondermedia": {
+      "name": "VIA WonderMedia",
+      "file": "via_wondermedia.json",
+      "count": 6,
+      "completeness": 0.252
+    },
+    "xiaomi": {
+      "name": "Xiaomi",
+      "file": "xiaomi.json",
+      "count": 1,
+      "completeness": 0.233
     },
     "xilinx": {
       "name": "Xilinx",
@@ -225,6 +261,6 @@
       "completeness": 0.214
     }
   },
-  "total": 1748,
+  "total": 1761,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }
