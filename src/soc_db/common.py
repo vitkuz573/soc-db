@@ -39,8 +39,14 @@ from soc_db.provenance import apply_provenance, ProvenanceTracker, ConflictResol
 from soc_db.enrich.storage import infer_storage  # noqa: F401
 from soc_db.enrich.year import infer_year  # noqa: F401
 from soc_db.robots import RobotsChecker  # noqa: F401
+from soc_db.dedup import DedupEngine  # noqa: F401
 
 logger = logging.getLogger(__name__)
+
+# Module-level DedupEngine instance for matching and UUID generation.
+# All scrapers writing through write_vendor_file() benefit from the
+# multi-strategy matcher and deterministic UUID fingerprints.
+_dedup_engine = DedupEngine()
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 CACHE_DIR = Path(os.environ.get("SOC_DB_CACHE_DIR", tempfile.gettempdir())) / "soc-db-cache"
@@ -201,8 +207,14 @@ def slug(name: str, model: str = "") -> str:
 def _match_existing(chip: dict[str, Any], existing: dict[str, Any]) -> str | None:
     """Match a chip dict against a dict of already-known chips.
 
-    Tries matching by ``id``, then by ``model`` (case-insensitive),
-    then by ``name`` (case-insensitive).
+    Tries matching by ``id`` (fast path), then delegates to the
+    :class:`DedupEngine` for multi-strategy matching (exact model → alias
+    → vendor regex → Wikidata QID → fuzzy).
+
+    .. note::
+       The original inline logic (id → model → name) has been updated to
+       use the :class:`DedupEngine` for the model/name strategies while
+       preserving the ID-based fast path for backward compatibility.
 
     Args:
         chip: The new chip record.
@@ -211,22 +223,12 @@ def _match_existing(chip: dict[str, Any], existing: dict[str, Any]) -> str | Non
     Returns:
         The matching ID from *existing*, or None if no match found.
     """
+    # Fast path: match by exact ID
     cid: str = chip.get("id", "")
     if cid in existing:
         return cid
-    model: str = chip.get("model", "").strip().upper()
-    if model:
-        for eid, ec in existing.items():
-            ec_model: str = ec.get("model", "").strip().upper()
-            if ec_model == model:
-                return eid
-    name: str = chip.get("name", "").lower().strip()
-    if name:
-        for eid, ec in existing.items():
-            ec_name: str = ec.get("name", "").lower().strip()
-            if ec_name == name:
-                return eid
-    return None
+    # Delegate to DedupEngine for multi-strategy matching
+    return _dedup_engine.match(chip, existing)[0]
 
 
 def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
@@ -250,13 +252,24 @@ def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
     if fpath.exists():
         try:
             for c in json.loads(fpath.read_text("utf-8")):
+                # Populate uuid for existing chips that lack it
+                if "uuid" not in c:
+                    c["uuid"] = _dedup_engine.canonical_id(
+                        c.get("vendor", ""), c.get("model", ""), c.get("name", "")
+                    )
                 existing[c["id"]] = c
         except json.JSONDecodeError:
             pass
     matched_ids = set()
     added = updated = removed = 0
     for chip in chips:
-        match_id = _match_existing(chip, existing)
+        # Set uuid before matching
+        if "uuid" not in chip:
+            chip["uuid"] = _dedup_engine.canonical_id(
+                chip.get("vendor", ""), chip.get("model", ""), chip.get("name", "")
+            )
+        match_id, strategy = _dedup_engine.match(chip, existing)
+        chip["_dedup_strategy"] = strategy
         if match_id:
             matched_ids.add(match_id)
             old = existing[match_id]
@@ -266,13 +279,16 @@ def write_vendor_file(vendor: str, chips: list[dict[str, Any]]) -> None:
             new_id = slug(old.get("name", ""), old.get("model", ""))
             if new_id != match_id and new_id not in existing:
                 old["id"] = new_id
+                old["uuid"] = _dedup_engine.canonical_id(
+                    old.get("vendor", ""), old.get("model", ""), old.get("name", "")
+                )
                 existing[new_id] = old
                 del existing[match_id]
                 matched_ids.remove(match_id)
                 matched_ids.add(new_id)
                 match_id = new_id
             for k, v in chip.items():
-                if k in ("name", "model"):
+                if k in ("name", "model", "_dedup_strategy"):
                     continue
                 if (k not in old or old[k] in (None, "", [], 0, 0.0)) and v not in (None, "", [], 0, 0.0):
                     old[k] = v
@@ -402,6 +418,11 @@ def enrich_one(chip: dict[str, Any]) -> dict[str, Any]:
             chip["model"] = name
         else:
             chip["model"] = chip.get("id", "unknown")
+    # Ensure uuid is set — deterministic fingerprint from vendor+model
+    if "uuid" not in chip:
+        chip["uuid"] = _dedup_engine.canonical_id(
+            chip.get("vendor", ""), chip.get("model", ""), chip.get("name", "")
+        )
     infer_cpu(chip)
     infer_memory(chip)  # first pass: clock/bus from type
     infer_process(chip)  # first pass: model-based lookup
