@@ -77,25 +77,25 @@ Deferred to future release. Tracked but not in current roadmap.
 |-------------|-------|--------|
 | GOV-01 | Phase 7 | Complete |
 | GOV-02 | Phase 7 | Complete |
-| FRAME-01 | Phase 8 | Pending |
-| FRAME-02 | Phase 8 | Pending |
-| FRAME-03 | Phase 8 | Pending |
-| FRAME-04 | Phase 8 | Pending |
-| PROV-01 | Phase 9 | Pending |
-| PROV-02 | Phase 9 | Pending |
-| DEDUP-01 | Phase 10 | Pending |
-| DEDUP-02 | Phase 10 | Pending |
-| DEDUP-03 | Phase 10 | Pending |
+| FRAME-01 | | Phase 8 | Complete |
+| FRAME-02 | | Phase 8 | Complete |
+| FRAME-03 | | Phase 8 | Complete |
+| FRAME-04 | | Phase 8 | Complete |
+| PROV-01 | | Phase 9 | Complete |
+| PROV-02 | | Phase 9 | Complete |
+| DEDUP-01 | Phase 10 | Complete |
+| DEDUP-02 | Phase 10 | Complete |
+| DEDUP-03 | Phase 10 | Complete |
 | BATCH-01 | Phase 11 | Complete |
 | BATCH-02 | Phase 11 | Complete |
 | BATCH-03 | Phase 11 | Complete |
 | BIGSRC-01 | Phase 12 | Complete |
 | BIGSRC-02 | Phase 12 | Complete |
 | BIGSRC-03 | Phase 12 | Complete |
-| VENDOR-01 | Phase 13 | Pending |
-| VENDOR-02 | Phase 13 | Pending |
-| VENDOR-03 | Phase 13 | Pending |
-| VENDOR-04 | Phase 13 | Pending |
+| VENDOR-01 | Phase 13 | Complete |
+| VENDOR-02 | Phase 13 | Complete |
+| VENDOR-03 | Phase 13 | Complete |
+| VENDOR-04 | Phase 13 | Complete |
 | UIPLUS-01 | Phase 14 | Complete |
 | UIPLUS-02 | Phase 14 | Complete |
 | UIPLUS-03 | Phase 14 | Complete |

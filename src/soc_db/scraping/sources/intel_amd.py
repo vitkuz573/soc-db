@@ -323,12 +323,15 @@ class IntelAMDScraper(BaseScraper):
             "id": slug(name, model or ""),
         }
 
-        # Cores / threads
-        ct_match = re.search(r"(\d+)\s*/\s*(\d+)\s*(?:cores?|threads?)", text, re.IGNORECASE)
+        # Cores / threads — handle both "X / Y cores" and "Cores: X / Y" patterns
+        ct_match = re.search(
+            r"(?:cores?|threads?)\s*:?\s*(\d+)\s*/\s*(\d+)|(\d+)\s*/\s*(\d+)\s*(?:cores?|threads?)",
+            text, re.IGNORECASE,
+        )
         if ct_match:
-            chip["cores"] = int(ct_match.group(1))
-            chip["threads"] = int(ct_match.group(2))
-        else:
+            chip["cores"] = int(ct_match.group(1) or ct_match.group(3))
+            chip["threads"] = int(ct_match.group(2) or ct_match.group(4))
+        elif not ct_match:
             cores_match = re.search(r"(\d+)\s*(?:-core|cores?)", text, re.IGNORECASE)
             if cores_match:
                 chip["cores"] = int(cores_match.group(1))
@@ -466,10 +469,19 @@ class IntelAMDScraper(BaseScraper):
     @staticmethod
     def _extract_model(name: str) -> str | None:
         """Extract a model identifier from a processor name."""
-        # Intel: Core i7-13700K → 13700K, Core Ultra 9 285K → 285K
-        m = re.search(r"[A-Za-z]+[- ]?(\d{3,}[A-Za-z0-9]*)", name)
+        # Intel: Core i7-13700K → "Core i7-13700K" (full), or 13700K
+        name_clean = name.strip()
+        # Try to extract just the model number+SKU suffix
+        m = re.search(r"[- ]?\d{3,}[A-Za-z0-9]*$", name_clean)
         if m:
-            return m.group(0).strip()
+            result = m.group(0).strip().lstrip("- ")
+            if result:
+                return result
+        # Fallback: last word with digits
+        words = name_clean.split()
+        for word in reversed(words):
+            if re.search(r"\d{3,}", word):
+                return word.strip()
         return None
 
     @staticmethod
