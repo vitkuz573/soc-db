@@ -60,11 +60,15 @@ Plans:
 **Depends on**: Phase 2
 **Requirements**: ASYNC-01, ASYNC-02
 **Success Criteria** (what must be TRUE):
-  1. API server uses async connection pool (aiosqlite) — no `asyncio.to_thread()` wrappers for DB access
-  2. Chip cache (`get_chips()`) operates asynchronously with TTL-based invalidation, not synchronous preloading
-  3. API handles concurrent requests without event loop blocking
-  4. Enrichment pipeline profiling determines if `ProcessPoolExecutor` is needed for CPU-bound work
-**Plans**: TBD
+   1. API server uses async connection pool (aiosqlite) — no `asyncio.to_thread()` wrappers for DB access
+   2. Chip cache (`get_chips()`) operates asynchronously with TTL-based invalidation, not synchronous preloading
+   3. API handles concurrent requests without event loop blocking
+   4. Enrichment pipeline profiling determines if `ProcessPoolExecutor` is needed for CPU-bound work
+**Plans**: 2 plans (01–02)
+
+Plans:
+- [ ] 03-01-PLAN.md — Async database foundation (aiosqlite dep, connection pool, query functions, unit tests) [Wave 1]
+- [ ] 03-02-PLAN.md — API async integration (TTL cache, async endpoints, integration tests, enrichment profiling) [Wave 2]
 
 ### Phase 4: RLIMIT — Redis-Backed Rate Limiting
 **Goal**: Redis-backed sliding window rate limiter with transparent in-memory fallback for multi-worker safety
@@ -107,7 +111,7 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. REFAC | 4/0 | Planning (4 plans created) | - |
 | 2. DB | 0/2 | Planning (2 plans created) | - |
-| 3. ASYNC | 0/0 | Not started | - |
+| 3. ASYNC | 0/2 | Planning (2 plans created) | - |
 | 4. RLIMIT | 0/0 | Not started | - |
 | 5. OBSERVE | 0/0 | Not started | - |
 | 6. WIKIDATA | 0/0 | Not started | - |
