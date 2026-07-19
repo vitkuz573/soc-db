@@ -1,4 +1,15 @@
 services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
   soc-db:
     build: .
     ports:
@@ -6,6 +17,10 @@ services:
     volumes:
       - ./data:/app/data:ro
     restart: unless-stopped
+    depends_on:
+      - redis
+    environment:
+      - SOC_DB_REDIS_URL=redis://redis:6379/0
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 30s

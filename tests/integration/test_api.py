@@ -2,6 +2,7 @@ import pytest
 from httpx import ASGITransport, AsyncClient
 
 from api.main import app, make_cache_buster
+from soc_db.rate_limit import InMemoryRateLimiter
 
 
 @pytest.fixture(autouse=True)
@@ -17,11 +18,7 @@ def init_app_state():
     app.state._cache_loaded_at = 0.0
     app.state._started_at = time.time()
     app.state._request_count = 0
-    app.state._chips = None
-    app.state._search_index = None
-    app.state._cache_loaded_at = 0.0
-    app.state._started_at = time.time()
-    app.state._request_count = 0
+    app.state.rate_limiter = InMemoryRateLimiter(limit=100, window=60)
 
 
 @pytest.fixture
@@ -116,6 +113,8 @@ async def test_health(client):
     assert "uptime" in data
     assert "chips_cached" in data
     assert "version" in data
+    assert "redis_connected" in data
+    assert data["redis_connected"] is False  # in-memory in tests
 
 
 @pytest.mark.asyncio
@@ -150,13 +149,11 @@ async def test_x_request_id(client):
 
 @pytest.mark.asyncio
 async def test_rate_limit_jail(client):
-    from api.main import _rate_limit_buckets
-    from api.main import settings as api_settings
+    from api.main import app as _app
 
-    _rate_limit_buckets.clear()
-    saved = api_settings.api_rate_limit
-    api_settings.api_rate_limit = 10
-    api_settings.api_rate_limit_window = 60
+    original = _app.state.rate_limiter
+    test_limiter = InMemoryRateLimiter(limit=10, window=60)
+    _app.state.rate_limiter = test_limiter
     try:
         for _ in range(15):
             resp = await client.get("/")
@@ -167,8 +164,7 @@ async def test_rate_limit_jail(client):
                 return
         pytest.fail("Rate limiter did not trigger (expected HTTP 429)")
     finally:
-        api_settings.api_rate_limit = saved
-        _rate_limit_buckets.clear()
+        _app.state.rate_limiter = original
 
 
 @pytest.mark.asyncio
@@ -248,6 +244,93 @@ async def test_ttl_cache_invalidates_after_ttl_expiry(client):
 
     # Cache should have been reloaded
     assert app.state._cache_loaded_at > 0.0
+
+
+@pytest.mark.asyncio
+async def test_rate_limit_headers_present(client):
+    resp = await client.get("/")
+    assert resp.status_code == 200
+    assert "x-ratelimit-limit" in resp.headers
+    assert "x-ratelimit-remaining" in resp.headers
+    assert "x-ratelimit-reset" in resp.headers
+    assert resp.headers["x-ratelimit-limit"].isdigit()
+    remaining = int(resp.headers["x-ratelimit-remaining"])
+    assert remaining >= 0
+    reset = int(resp.headers["x-ratelimit-reset"])
+    assert reset > 0
+
+
+@pytest.mark.asyncio
+async def test_rate_limit_headers_decrement(client):
+    resp1 = await client.get("/")
+    remaining1 = int(resp1.headers["x-ratelimit-remaining"])
+
+    resp2 = await client.get("/")
+    remaining2 = int(resp2.headers["x-ratelimit-remaining"])
+
+    assert remaining2 < remaining1
+
+
+@pytest.mark.asyncio
+async def test_rate_limit_headers_on_429(client):
+    from api.main import app as _app
+
+    original = _app.state.rate_limiter
+    test_limiter = InMemoryRateLimiter(limit=3, window=60)
+    _app.state.rate_limiter = test_limiter
+    try:
+        resp = None
+        for _ in range(5):
+            resp = await client.get("/")
+        assert resp.status_code == 429
+        assert "x-ratelimit-limit" in resp.headers
+        assert resp.headers["x-ratelimit-remaining"] == "0"
+        assert "x-ratelimit-reset" in resp.headers
+        data = resp.json()
+        assert "error" in data
+        assert "retry_after" in data
+    finally:
+        _app.state.rate_limiter = original
+
+
+@pytest.mark.asyncio
+async def test_health_redis_connected_field(client):
+    await client.get("/v1/chips")  # trigger chip cache load
+    resp = await client.get("/health")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "redis_connected" in data
+    assert isinstance(data["redis_connected"], bool)
+
+
+@pytest.mark.asyncio
+async def test_rate_limit_graceful_fallback(client):
+    """Verify the middleware doesn't 5xx even with a broken limiter."""
+    from api.main import app as _app
+
+    class BrokenLimiter:
+        """Simulates a rate limiter that always raises."""
+
+        async def check(self, key):
+            raise RuntimeError("Simulated failure")
+
+        @property
+        def is_redis_connected(self):
+            return False
+
+        @property
+        def active_clients(self):
+            return 0
+
+    original = _app.state.rate_limiter
+    _app.state.rate_limiter = BrokenLimiter()
+    try:
+        resp = await client.get("/")
+        # Should NOT 5xx — middleware catches exception and allows through
+        assert resp.status_code != 500
+        assert resp.status_code in (200,)
+    finally:
+        _app.state.rate_limiter = original
 
 
 @pytest.mark.asyncio
