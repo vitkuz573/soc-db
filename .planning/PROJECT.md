@@ -1,18 +1,14 @@
 # SoC Database (soc-db)
 
-## Current State: v2.1 Full Enterprise Hardening — SHIPPED
+## Current Milestone: v3.0 Full SoC Coverage
 
-**Completed:** 2026-07-19 | **6 phases, 13 plans, 209 files changed**
+**Goal:** Collect ALL SoCs on the market with full 95-field profiles — no gaps.
 
-All six enterprise hardening workstreams shipped:
-- ✅ **REFAC**: Monolithic enrichment split into 14 per-domain modules with snapshot regression
-- ✅ **DB**: SQLite with FTS5 replacing flat JSON, dual-read JSON rollback via `SOC_DB_USE_JSON`
-- ✅ **ASYNC**: Non-blocking async data layer via aiosqlite with TTL-based chip cache
-- ✅ **RLIMIT**: Redis-backed rate limiter with transparent in-memory fallback
-- ✅ **OBSERVE**: OpenTelemetry tracing + Prometheus business metrics at `/metrics`
-- ✅ **WIKIDATA**: Dynamic vendor knowledge from Wikidata SPARQL with weekly CI refresh
-
-**Next:** Planning v2.2 — Enterprise Delivery (CI/CD, Data Quality, API Mesh, Plugins)
+**Target features:**
+- DATA: 5000+ SoC entries across all vendors (mobile, embedded, automotive, IoT)
+- ENRICH: Full 95-field depth per chip (completeness ≥0.80)
+- SCRAPE: New scraper sources (vendor sites, DeviceTree, Techpedia)
+- QUALITY: Automated cross-source validation and dedup pipeline
 
 ## What This Is
 
@@ -53,18 +49,24 @@ Accurate, queryable, up-to-date SoC identification data that developers and tool
 
 ### Active
 
-(Next milestone requirements TBD — run `/gsd-new-milestone`)
+- [ ] **DATA-01**: Collect 5000+ SoC entries from all major vendors
+- [ ] **DATA-02**: Fill all 95 Chip model fields — completeness ≥0.80 average
+- [ ] **DATA-03**: Expand scraper pipeline — support Qualcomm, MediaTek, Apple official sources + DeviceTree + Techpedia
+- [ ] **DATA-04**: Cross-source validation and deduplication pipeline
+- [ ] **DATA-05**: Auto-generate vendor pages and chip comparison data
+- [ ] **DATA-06**: Update web UI to handle 5000+ chips efficiently
 
 ### Out of Scope
 
-- VS Code / Copilot plugins — deferred to v2.2+
-- GraphQL endpoint — deferred to v2.2+
-- WebSocket streaming — deferred to v2.3+
+- VS Code / Copilot plugins — deferred to v2.4+
+- GraphQL endpoint — deferred to v2.3+
+- WebSocket streaming — deferred to v2.4+
 - Machine-readable errata database — long-term only
+- Enterprise CI/CD (PyPI publish) — deferred to v3.1
 
 ## Context
 
-Codebase shipped v2.1 with all six enterprise hardening workstreams complete. Technical debt from v2.0 fully paid down: enrichment now modular (14 domain modules), data stored in SQLite with FTS5, async data layer via aiosqlite, Redis-backed rate limiting with fallback, OpenTelemetry tracing + Prometheus metrics, and dynamic Wikidata SPARQL vendor knowledge. Codebase at ~103K LOC added across 209 files. All 558 tests pass. Next focus: v2.2 Enterprise Delivery — CI/CD unification, data quality, API Mesh, and plugins.
+Codebase shipped v2.1 with all six enterprise hardening workstreams complete. Current chip count: 1761 entries across 43 vendors. Average completeness ranges from 0.19 to 0.54 — many vendors have only 1-2 placeholder entries. Gaps: Qualcomm (431 chips, but missing 2024-2026 models), Apple (41 — missing M3/M4), MediaTek (292 — missing Dimensity 9000+ series), Intel Atom (289 — legacy only), new vendors (HiSilicon Kirin 9000s+, Samsung Exynos 2400+, RISC-V). Existing scrapers: Wikipedia, Apple, Linux DeviceTree, Wikidata SPARQL. Need to add official vendor sources (Qualcomm Developer Network, MediaTek Helio/Dimensity listing, Apple Tech Specs).
 
 ## Constraints
 
@@ -104,4 +106,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-07-19 after v2.1 milestone completion*
+*Last updated: 2026-07-19 after v3.0 milestone start*

@@ -1,20 +1,16 @@
 ---
 gsd_state_version: 1.0
-milestone: v2.1
-milestone_name: "Milestone: Full Enterprise Hardening"
-current_phase: null
-current_phase_name: null
-status: milestone_complete
-stopped_at: "v2.1 shipped — all 6 phases complete"
-last_updated: "2026-07-19T13:50:00.000Z"
+milestone: v3.0
+milestone_name: Full SoC Coverage
+status: planning
+last_updated: "2026-07-19T10:07:31.992Z"
 last_activity: 2026-07-19
-last_activity_desc: "v2.1 milestone archived — Full Enterprise Hardening shipped"
 progress:
-  total_phases: 6
-  completed_phases: 6
-  total_plans: 13
-  completed_plans: 13
-  percent: 100
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
@@ -28,9 +24,10 @@ See: .planning/PROJECT.md (updated 2026-07-19)
 
 ## Current Position
 
-Milestone v2.1 **shipped** — 6 phases, 13 plans complete.
-
-Next: Run `/gsd-new-milestone` to plan v2.2.
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-07-19 — Milestone v3.0 started
 
 ## Performance Metrics
 
