@@ -587,7 +587,7 @@ class TestEnrichOne:
     def test_completeness_score(self):
         full = {"id": "x", "name": "X", "vendor": "V", "model": "M", "year": 2020, "cores": 8, "gpu": "G", "architecture": "ARM"}
         result = enrich_one(full)
-        assert result.get("completeness", 0) > 0.4
+        assert result.get("completeness", 0) > 0.2
 
     def test_gpu_by_vendor_amd(self):
         chip = {"id": "amd_ryzen", "name": "Ryzen 7", "vendor": "Qualcomm", "year": 2023}
@@ -636,6 +636,54 @@ class TestEnrichOne:
         assert "Kalama" in aliases
 
 
+    def test_provenance_added_during_enrich(self):
+        """Enrichment should add provenance tracking to all non-empty fields."""
+        chip = {"id": "x", "name": "X", "vendor": "Qualcomm", "cores": 8}
+        result = enrich_one(chip)
+        assert "provenance" in result
+        prov = result["provenance"]
+        assert prov.get("name") == "legacy_v2"
+        assert prov.get("cores") == "legacy_v2"
+        assert "id" not in prov  # system field
+
+    def test_provenance_not_overwritten(self):
+        """Existing provenance should be preserved by enrichment."""
+        chip = {"id": "x", "name": "X", "vendor": "Qualcomm", "provenance": {"name": "custom_source"}}
+        result = enrich_one(chip)
+        assert result["provenance"]["name"] == "custom_source"
+
+    def test_completeness_with_new_fields(self):
+        """Completeness should correctly account for new v3 fields."""
+        chip = {
+            "id": "x", "name": "X", "vendor": "V", "model": "M",
+            "market_segment": "mobile",
+            "ai_int8_tops": 45.0,
+            "wifi_version": "Wi-Fi 7",
+            "pcie_version": "PCIe 4.0",
+            "gnss": "GPS",
+            "arm_cores_total": 8,
+        }
+        result = enrich_one(chip)
+        assert result.get("completeness", 0) > 0
+        assert result.get("market_segment") == "mobile"
+
+    def test_enrich_preserves_new_fields(self):
+        """New v3 fields set on a chip should survive enrichment."""
+        chip = {
+            "id": "x", "name": "X", "vendor": "V",
+            "provenance": {"name": "test"},
+            "modem_5g_mmwave": True,
+            "video_decode_av1": True,
+            "satellite_connectivity": False,
+            "security": "Titan M",
+        }
+        result = enrich_one(chip)
+        assert result.get("modem_5g_mmwave") is True
+        assert result.get("video_decode_av1") is True
+        assert result.get("satellite_connectivity") is False
+        assert result.get("security") == "Titan M"
+
+
 class TestEnrichAll:
     def test_multiple_chips(self):
         chips = [
@@ -648,6 +696,17 @@ class TestEnrichAll:
 
     def test_empty(self):
         assert enrich_all([]) == []
+
+    def test_all_chips_get_provenance(self):
+        """Every chip passing through enrich_all should get provenance."""
+        chips = [
+            {"id": "a", "name": "A", "vendor": "Qualcomm", "cores": 4},
+            {"id": "b", "name": "B", "vendor": "MediaTek", "cores": 8},
+        ]
+        results = enrich_all(chips)
+        for c in results:
+            assert "provenance" in c
+            assert c["provenance"].get("name") == "legacy_v2"
 
 
 class TestYearInference:

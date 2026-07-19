@@ -60,7 +60,8 @@ class ProvenanceTracker:
         Returns:
             The ``provenance`` dict that was written to the chip.
         """
-        prov: dict[str, str] = chip.get("provenance") or {}
+        raw = chip.get("provenance")
+        prov: dict[str, str] = raw if isinstance(raw, dict) else {}
         for key, value in chip.items():
             if key in _SYSTEM_FIELDS:
                 continue
@@ -89,7 +90,8 @@ class ProvenanceTracker:
         """
         if field in _SYSTEM_FIELDS:
             return
-        prov: dict[str, str] = chip.get("provenance") or {}
+        raw = chip.get("provenance")
+        prov: dict[str, str] = raw if isinstance(raw, dict) else {}
         if field not in prov or force:
             prov[field] = source_id
         chip["provenance"] = prov
@@ -108,7 +110,8 @@ class ProvenanceTracker:
             fields: Mapping of field name to source_id.
             force: If True, overwrite existing provenance.
         """
-        prov: dict[str, str] = chip.get("provenance") or {}
+        raw = chip.get("provenance")
+        prov: dict[str, str] = raw if isinstance(raw, dict) else {}
         for field, source_id in fields.items():
             if field in _SYSTEM_FIELDS:
                 continue
@@ -126,7 +129,8 @@ class ProvenanceTracker:
         Returns:
             The source string, or None if not tracked.
         """
-        prov: dict[str, str] = chip.get("provenance") or {}
+        raw = chip.get("provenance")
+        prov: dict[str, str] = raw if isinstance(raw, dict) else {}
         return prov.get(field)
 
 
