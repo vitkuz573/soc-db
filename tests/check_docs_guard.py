@@ -9,16 +9,6 @@ Verifies that:
 
 Exits 0 on success, 1 on failure.
 """
-"""CI-enforceable check that the docs/ boundary guard mechanism works.
-
-Verifies that:
-1. ``guard_path()`` raises ``PermissionError`` for paths under ``docs/``
-2. ``guard_path()`` allows paths under ``data/``
-3. ``DOCS_DIR`` resolves to the real ``docs/`` directory
-4. ``swagger.html`` exists under ``DOCS_DIR``
-
-Exits 0 on success, 1 on failure.
-"""
 
 import sys
 from pathlib import Path

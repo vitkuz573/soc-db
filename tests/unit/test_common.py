@@ -1732,3 +1732,56 @@ class TestRealData:
             assert c.get("completeness") is not None
             assert c.get("updated") is not None
             assert c.get("vendor") is not None
+
+
+class TestGuardPath:
+    def test_allows_data_dir(self, tmp_path):
+        """A path under data/ must not raise."""
+        from soc_db.common import guard_path
+
+        p = tmp_path / "data" / "test.json"
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text("{}")
+        guard_path(p)  # should not raise
+
+    def test_raises_for_docs_dir(self):
+        """A path under docs/ must raise PermissionError."""
+        from soc_db.common import guard_path, DOCS_DIR
+
+        test_path = DOCS_DIR / "test.json"
+        with pytest.raises(PermissionError, match="docs"):
+            guard_path(test_path)
+
+    def test_raises_for_exact_docs_path(self):
+        """The exact docs/ path should also raise."""
+        from soc_db.common import guard_path, DOCS_DIR
+
+        with pytest.raises(PermissionError, match="docs"):
+            guard_path(DOCS_DIR)
+
+    def test_guard_path_resolves_symlinks(self, tmp_path):
+        """guard_path must resolve symlinks before comparing."""
+        from soc_db.common import guard_path, DOCS_DIR
+
+        link = tmp_path / "link_to_docs"
+        link.symlink_to(DOCS_DIR)
+        test_file = link / "evil.txt"
+        with pytest.raises(PermissionError, match="docs"):
+            guard_path(test_file)
+
+    def test_guard_called_in_write_vendor_file(self, tmp_path, monkeypatch):
+        """Verify write_vendor_file calls guard_path."""
+        from soc_db.common import write_vendor_file
+
+        guard_called = False
+
+        def mock_guard(path):
+            nonlocal guard_called
+            guard_called = True
+
+        monkeypatch.setattr("soc_db.common.guard_path", mock_guard)
+        monkeypatch.setattr("soc_db.common.DATA_DIR", tmp_path)
+
+        chips = [{"id": "test1", "name": "Test Chip", "vendor": "Qualcomm", "model": "TC1"}]
+        write_vendor_file("Qualcomm", chips)
+        assert guard_called, "guard_path was never called during write_vendor_file"

@@ -46,6 +46,22 @@ CACHE_DIR = Path(os.environ.get("SOC_DB_CACHE_DIR", tempfile.gettempdir())) / "s
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "SOC-DB/1.0 (+https://github.com/vitkuz573/soc-db)"
 
+# Per-source scraper identity — each source uses an identifiable User-Agent
+# so target sites have a clear contact channel. Default is USER_AGENT.
+SCRAPER_USER_AGENTS: dict[str, str] = {
+    "wikipedia": "SOC-DB-Wikipedia/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "wikidata": "SOC-DB-Wikidata/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "apple": "SOC-DB-Apple/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "linux_dt": "SOC-DB-DeviceTree/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "techpowerup": "SOC-DB-TPU/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "notebookcheck": "SOC-DB-NBC/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "geekbench": "SOC-DB-GB/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "qualcomm": "SOC-DB-Qualcomm/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "mediatek": "SOC-DB-MediaTek/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "intel": "SOC-DB-Intel/1.0 (+https://github.com/vitkuz573/soc-db)",
+    "amd": "SOC-DB-AMD/1.0 (+https://github.com/vitkuz573/soc-db)",
+}
+
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DOCS_DIR = REPO_ROOT / "docs"
 
