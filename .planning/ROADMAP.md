@@ -60,13 +60,18 @@ Plans:
 **Requirements**: FRAME-01, FRAME-02, FRAME-03, FRAME-04
 **Success Criteria** (what must be TRUE):
 
-  1. A new scraper source can be added as a single file inheriting from `BaseScraper` and auto-registering via `SourceRegistry`
-  2. Failed HTTP requests auto-escalate through anti-bot tiers (httpx → curl-cffi with TLS impersonation → Playwright fallback)
-  3. Each source has its own rate limiter with configurable delay, exponential backoff with jitter, and per-source failure isolation
-  4. Schema drift detection monitors page structure changes per source and raises alerts when selectors yield <80% of expected fields
-  5. The Wikipedia scraper is migrated to the framework to prove the pattern works end-to-end
+   1. A new scraper source can be added as a single file inheriting from `BaseScraper` and auto-registering via `SourceRegistry`
+   2. Failed HTTP requests auto-escalate through anti-bot tiers (httpx → curl-cffi with TLS impersonation → Playwright fallback)
+   3. Each source has its own rate limiter with configurable delay, exponential backoff with jitter, and per-source failure isolation
+   4. Schema drift detection monitors page structure changes per source and raises alerts when selectors yield <80% of expected fields
+   5. The Wikipedia scraper is migrated to the framework to prove the pattern works end-to-end
 
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 08-01-PLAN.md — BaseScraper ABC + PerSourceRateLimiter + dependencies
+- [ ] 08-02-PLAN.md — HTTPSource tiered escalation + SourceRegistry + SchemaDriftDetector
+- [ ] 08-03-PLAN.md — Wikipedia scraper migration + integration
 
 ### Phase 9: Provenance & Schema
 
@@ -166,7 +171,7 @@ Plans:
 | 5. OBSERVE | v2.1 | 2/2 | Complete | 2026-07-19 |
 | 6. WIKIDATA | v2.1 | 1/1 | Complete | 2026-07-19 |
 | 7. Governance & Safety | v3.0 | 2/2 | Complete   | 2026-07-19 |
-| 8. Scraper Framework | v3.0 | 0/0 | Not started | - |
+| 8. Scraper Framework | v3.0 | 0/3 | Planning | - |
 | 9. Provenance & Schema | v3.0 | 0/0 | Not started | - |
 | 10. Dedup & Identity | v3.0 | 0/0 | Not started | - |
 | 11. Batch Processing | v3.0 | 0/0 | Not started | - |
