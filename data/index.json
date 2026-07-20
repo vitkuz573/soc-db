@@ -6,151 +6,151 @@
       "name": "Actions",
       "file": "actions.json",
       "count": 2,
-      "completeness": 0.476
+      "completeness": 0.301
     },
     "airoha": {
       "name": "Airoha",
       "file": "airoha.json",
       "count": 4,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "allwinner": {
       "name": "Allwinner",
       "file": "allwinner.json",
-      "count": 41,
-      "completeness": 0.382
+      "count": 29,
+      "completeness": 0.277
     },
     "altera": {
       "name": "Altera",
       "file": "altera.json",
       "count": 6,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "amazon": {
       "name": "Amazon",
       "file": "amazon.json",
       "count": 2,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "amd": {
       "name": "AMD",
       "file": "amd.json",
-      "count": 3,
-      "completeness": 0.191
+      "count": 19,
+      "completeness": 0.258
     },
     "amlogic": {
       "name": "Amlogic",
       "file": "amlogic.json",
-      "count": 28,
-      "completeness": 0.444
+      "count": 27,
+      "completeness": 0.284
     },
     "apm": {
       "name": "APM",
       "file": "apm.json",
       "count": 1,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "apple": {
       "name": "Apple",
       "file": "apple.json",
-      "count": 41,
-      "completeness": 0.398
+      "count": 31,
+      "completeness": 0.341
     },
     "aspeed": {
       "name": "ASPEED",
       "file": "aspeed.json",
       "count": 8,
-      "completeness": 0.194
+      "completeness": 0.145
     },
     "bitmain": {
       "name": "Bitmain",
       "file": "bitmain.json",
       "count": 2,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "broadcom": {
       "name": "Broadcom",
       "file": "broadcom.json",
       "count": 24,
-      "completeness": 0.261
+      "completeness": 0.172
     },
     "cavium": {
       "name": "Cavium",
       "file": "cavium.json",
       "count": 1,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "cirrus_logic": {
       "name": "Cirrus Logic",
       "file": "cirrus_logic.json",
       "count": 3,
-      "completeness": 0.22
+      "completeness": 0.143
     },
     "google": {
       "name": "Google",
       "file": "tensor.json",
       "count": 5,
-      "completeness": 0.491
+      "completeness": 0.311
     },
     "hisilicon": {
       "name": "HiSilicon",
       "file": "kirin.json",
-      "count": 83,
-      "completeness": 0.44
+      "count": 65,
+      "completeness": 0.318
     },
     "ingenic": {
       "name": "Ingenic",
       "file": "ingenic.json",
       "count": 10,
-      "completeness": 0.47
+      "completeness": 0.298
     },
     "intel_atom": {
       "name": "Intel Atom",
       "file": "intel_atom.json",
-      "count": 289,
-      "completeness": 0.398
+      "count": 227,
+      "completeness": 0.296
     },
     "marvell": {
       "name": "Marvell",
       "file": "marvell.json",
       "count": 16,
-      "completeness": 0.243
+      "completeness": 0.169
     },
     "mediatek": {
       "name": "MediaTek",
       "file": "mediatek.json",
-      "count": 292,
-      "completeness": 0.536
+      "count": 293,
+      "completeness": 0.341
     },
     "microchip": {
       "name": "Microchip",
       "file": "microchip.json",
       "count": 3,
-      "completeness": 0.269
+      "completeness": 0.173
     },
     "nuvoton": {
       "name": "Nuvoton",
       "file": "nuvoton.json",
       "count": 3,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "nvidia": {
       "name": "Nvidia",
       "file": "nvidia.json",
-      "count": 33,
-      "completeness": 0.426
+      "count": 26,
+      "completeness": 0.302
     },
     "nxp_i.mx": {
       "name": "NXP i.MX",
       "file": "nxp_imx.json",
-      "count": 32,
-      "completeness": 0.211
+      "count": 18,
+      "completeness": 0.102
     },
     "qualcomm": {
       "name": "Qualcomm",
       "file": "qualcomm.json",
-      "count": 431,
-      "completeness": 0.441
+      "count": 286,
+      "completeness": 0.341
     },
     "ramon_chips_(israel)": {
       "name": "Ramon Chips (Israel)",
@@ -162,73 +162,73 @@
       "name": "Realtek",
       "file": "realtek.json",
       "count": 12,
-      "completeness": 0.237
+      "completeness": 0.169
     },
     "renesas": {
       "name": "Renesas",
       "file": "renesas.json",
       "count": 108,
-      "completeness": 0.196
+      "completeness": 0.161
     },
     "rockchip": {
       "name": "Rockchip",
       "file": "rockchip.json",
-      "count": 45,
-      "completeness": 0.404
+      "count": 33,
+      "completeness": 0.306
     },
     "samsung": {
       "name": "Samsung",
       "file": "exynos.json",
-      "count": 113,
-      "completeness": 0.464
+      "count": 95,
+      "completeness": 0.327
     },
     "sigmastar": {
       "name": "SigmaStar",
       "file": "sigmastar.json",
       "count": 1,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "socionext": {
       "name": "Socionext",
       "file": "socionext.json",
       "count": 2,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "sophgo": {
       "name": "Sophgo",
       "file": "sophgo.json",
       "count": 2,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "stmicroelectronics": {
       "name": "STMicroelectronics",
       "file": "stmicro.json",
       "count": 13,
-      "completeness": 0.252
+      "completeness": 0.173
     },
     "synaptics": {
       "name": "Synaptics",
       "file": "synaptics.json",
       "count": 8,
-      "completeness": 0.194
+      "completeness": 0.169
     },
     "tesla": {
       "name": "Tesla",
       "file": "tesla.json",
       "count": 2,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "ti_omap": {
       "name": "TI OMAP",
       "file": "ti_omap.json",
-      "count": 65,
-      "completeness": 0.274
+      "count": 30,
+      "completeness": 0.224
     },
     "toshiba": {
       "name": "Toshiba",
       "file": "toshiba.json",
       "count": 3,
-      "completeness": 0.194
+      "completeness": 0.175
     },
     "tsmc": {
       "name": "TSMC",
@@ -240,13 +240,13 @@
       "name": "Unisoc",
       "file": "unisoc.json",
       "count": 11,
-      "completeness": 0.359
+      "completeness": 0.238
     },
     "via_wondermedia": {
       "name": "VIA WonderMedia",
       "file": "via_wondermedia.json",
       "count": 6,
-      "completeness": 0.252
+      "completeness": 0.163
     },
     "xiaomi": {
       "name": "Xiaomi",
@@ -258,9 +258,9 @@
       "name": "Xilinx",
       "file": "xilinx.json",
       "count": 4,
-      "completeness": 0.214
+      "completeness": 0.163
     }
   },
-  "total": 1761,
+  "total": 1444,
   "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json"
 }
