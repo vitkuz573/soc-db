@@ -154,15 +154,30 @@ class TechPowerUpScraper(BaseScraper):
     # ── fetch ───────────────────────────────────────────────────────────
 
     def fetch(self) -> str:
-        """Fetch the TechPowerUp CPU specs listing page.
+        """Fetch ALL pages of TechPowerUp CPU specs (paginated).
 
         Returns:
-            Raw HTML string of the CPU specs page.
+            Combined HTML string of all CPU specs pages.
         """
-        logger.info("[TechPowerUpScraper] Fetching %s", TPU_CPU_URL)
-        self.check_robots(TPU_CPU_URL)
-        html = self._http.fetch(TPU_CPU_URL, user_agent=self.user_agent)
-        return html
+        from bs4 import BeautifulSoup as _Soup
+
+        all_html_parts: list[str] = []
+        page = 1
+        while True:
+            url = f"{TPU_CPU_URL}?page={page}" if page > 1 else TPU_CPU_URL
+            logger.info("[TechPowerUpScraper] Fetching page %d: %s", page, url)
+            if page == 1:
+                self.check_robots(url)
+            html = self._http.fetch(url, user_agent=self.user_agent)
+            all_html_parts.append(html)
+            soup = _Soup(html, "html.parser")
+            next_link = soup.find("a", string=re.compile(r"Next|›|»|next"))
+            if not next_link or not next_link.get("href"):
+                break
+            page += 1
+
+        logger.info("[TechPowerUpScraper] Fetched %d page(s)", page)
+        return "\n".join(all_html_parts)
 
     # ── parse ───────────────────────────────────────────────────────────
 
