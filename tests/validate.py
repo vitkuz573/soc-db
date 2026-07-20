@@ -93,8 +93,8 @@ def build_index(total):
             "completeness": avg_comp,
         }
     idx = {
-        "version": "2.0.0",
-        "updated": "2026-06-21",
+        "version": "3.1",
+        "updated": "2026-07-20",
         "vendors": dict(sorted(vendor_files.items())),
         "total": total,
         "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json",
