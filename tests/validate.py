@@ -3,7 +3,9 @@
 
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -94,7 +96,7 @@ def build_index(total):
         }
     idx = {
         "version": "3.1",
-        "updated": "2026-07-20",
+        "updated": datetime.now(ZoneInfo("Asia/Yekaterinburg")).strftime("%Y-%m-%d %H:%M %Z"),
         "vendors": dict(sorted(vendor_files.items())),
         "total": total,
         "spec": "https://vitkuz573.github.io/soc-db/schema/chip-schema.json",
